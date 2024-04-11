@@ -30,12 +30,6 @@ RUN wget https://github.com/go-task/task/releases/download/v3.34.1/task_linux_am
     mv ./task /usr/local/bin/task && \
     chmod 777 /usr/local/bin/task
 
-# Install golangci-lint
-RUN wget https://github.com/golangci/golangci-lint/releases/download/v1.56.2/golangci-lint-1.56.2-linux-amd64.tar.gz && \
-    tar -xzf golangci-lint-1.56.2-linux-amd64.tar.gz && \
-    mv ./golangci-lint-1.56.2-linux-amd64/golangci-lint /usr/local/bin/golangci-lint && \
-    chmod 777 /usr/local/bin/golangci-lint
-
 # Delete the temporary directory and go to the app directory
 RUN rm -rf /app/temp
 WORKDIR /app

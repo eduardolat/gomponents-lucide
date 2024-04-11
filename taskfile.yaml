@@ -10,11 +10,7 @@ tasks:
   fmt:
     cmd: go fmt ./...
 
-  lint:
-    cmd: golangci-lint run ./...
-
   test:
     cmds:
       - task fmt
-      - task lint
       - go test ./...
