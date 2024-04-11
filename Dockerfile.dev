@@ -1,0 +1,56 @@
+# To make sure we have the golang binaries
+# We use older version of golang to make sure we
+# support old projects
+FROM golang:1.15.15 AS golang
+
+# This is the actual image we will use
+FROM ubuntu:24.04
+
+# Go to a temporary directory until we install all the dependencies
+RUN mkdir -p /app/temp
+WORKDIR /app/temp
+
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y wget git && \
+    rm -rf /var/lib/apt/lists/*
+
+# Copy the golang binaries from the golang image
+COPY --from=golang /usr/local/go /usr/local/go
+ENV PATH "$PATH:/usr/local/go/bin"
+
+# Install GitHub CLI
+RUN wget https://github.com/cli/cli/releases/download/v2.46.0/gh_2.46.0_linux_amd64.tar.gz && \
+    tar -xzf gh_2.46.0_linux_amd64.tar.gz && \
+    mv gh_2.46.0_linux_amd64/bin/gh /usr/local/bin/gh && \
+    chmod 777 /usr/local/bin/gh
+
+# Install task
+RUN wget https://github.com/go-task/task/releases/download/v3.34.1/task_linux_amd64.tar.gz && \
+    tar -xzf task_linux_amd64.tar.gz && \
+    mv ./task /usr/local/bin/task && \
+    chmod 777 /usr/local/bin/task
+
+# Install golangci-lint
+RUN wget https://github.com/golangci/golangci-lint/releases/download/v1.56.2/golangci-lint-1.56.2-linux-amd64.tar.gz && \
+    tar -xzf golangci-lint-1.56.2-linux-amd64.tar.gz && \
+    mv ./golangci-lint-1.56.2-linux-amd64/golangci-lint /usr/local/bin/golangci-lint && \
+    chmod 777 /usr/local/bin/golangci-lint
+
+# Delete the temporary directory and go to the app directory
+RUN rm -rf /app/temp
+WORKDIR /app
+
+# Ignore git permissions tracking and set safe directory
+RUN git config --global core.fileMode false && \
+    git config --global --add safe.directory '*'
+
+# Add command to execute umask 000 for every interactive bash session
+RUN echo "umask 000" >> /root/.bashrc
+
+##############################################
+####### THE ACTUAL PROCESS STARTS HERE #######
+##############################################
+
+# Start interactive shell
+CMD ["/bin/bash"]

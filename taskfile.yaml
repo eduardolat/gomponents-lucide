@@ -1,0 +1,17 @@
+version: "3"
+
+tasks:
+  tidy:
+    cmd: go mod tidy
+
+  fmt:
+    cmd: go fmt ./...
+
+  lint:
+    cmd: golangci-lint run ./...
+
+  test:
+    cmds:
+      - task fmt
+      - task lint
+      - go test ./...
