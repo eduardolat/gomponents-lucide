@@ -1,4 +1,4 @@
-# ✏️ Lucide icons for gomponents
+# 🌀 Lucide icons for gomponents
 
 This module provides the set of [Lucide Icons](https://lucide.dev/) for [gomponents](https://www.gomponents.com/).
 
