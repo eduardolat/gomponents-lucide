@@ -1,7 +1,6 @@
-# To make sure we have the golang binaries
-# We use older version of golang to make sure we
-# support old projects
-FROM golang:1.15.15 AS golang
+# Please always use the same golang version that
+# gomponents uses to maximize compatibility
+FROM golang:1.18 AS golang
 
 # This is the actual image we will use
 FROM ubuntu:24.04
