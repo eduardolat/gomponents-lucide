@@ -7,10 +7,12 @@ import (
 	"strings"
 )
 
-const version = "0.367.0"
-const tempDir = "./tmp"
-const outputFilePath = "./lucide.go"
-const iconsURL = "https://github.com/lucide-icons/lucide/releases/download/0.367.0/lucide-icons-0.367.0.zip"
+const (
+	iconsURL       = "https://github.com/lucide-icons/lucide/releases/download/0.367.0/lucide-icons-0.367.0.zip"
+	version        = "0.367.0"
+	tempDir        = "./tmp"
+	outputFilePath = "./lucide.go"
+)
 
 func main() {
 	os.RemoveAll(tempDir)
