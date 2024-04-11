@@ -2,7 +2,9 @@ version: "3"
 
 tasks:
   build: # Runs the build cmd to generate the lucide package
-    cmd: go run ./cmd/build/.
+    cmds:
+      - go run ./cmd/build/.
+      - task fmt
 
   tidy:
     cmd: go mod tidy
