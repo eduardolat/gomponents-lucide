@@ -10,7 +10,7 @@ import (
 const (
 	version        = "0.394.0"
 	iconsURL       = "https://github.com/lucide-icons/lucide/releases/download/" + version + "/lucide-icons-" + version + ".zip"
-	repoIconsDir   = "https://github.com/lucide-icons/lucide/tree/" + version + "/icons"
+	repoIconsDir   = "https://raw.githubusercontent.com/lucide-icons/lucide/" + version + "/icons"
 	tempDir        = "./tmp"
 	outputFilePath = "./lucide.go"
 )
