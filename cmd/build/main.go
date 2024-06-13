@@ -34,6 +34,11 @@ func main() {
 		log.Fatal(err)
 	}
 
+	// Minify SVG icons
+	if err := minifySVGFolder(extractedDir); err != nil {
+		log.Fatal(err)
+	}
+
 	// Read icons folder
 	iconsDir := path.Join(extractedDir, "icons")
 	files, err := os.ReadDir(iconsDir)
