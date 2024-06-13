@@ -19,8 +19,10 @@ func generateComponent(fileName string, funcName string, svgBytes []byte) string
 	svg = strings.ReplaceAll(svg, "</svg>", "")
 	svg = strings.TrimSpace(svg)
 
+	previewURL := repoIconsDir + "/" + fileName
+
 	fn := `
-		// ` + funcName + ` is the icon from ` + fileName + ` v` + version + ` file
+		// ` + funcName + ` icon: ` + previewURL + `
 		func ` + funcName + `(children ...gomponents.Node) gomponents.Node {
 			return svgWrapper(
 				gomponents.Group(children),

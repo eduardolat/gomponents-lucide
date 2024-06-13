@@ -43,7 +43,7 @@ func svgWrapper(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AArrowDown is the icon from a-arrow-down.svg v0.367.0 file
+// AArrowDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/a-arrow-down.svg
 func AArrowDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -51,7 +51,7 @@ func AArrowDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AArrowUp is the icon from a-arrow-up.svg v0.367.0 file
+// AArrowUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/a-arrow-up.svg
 func AArrowUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -59,7 +59,7 @@ func AArrowUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ALargeSmall is the icon from a-large-small.svg v0.367.0 file
+// ALargeSmall icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/a-large-small.svg
 func ALargeSmall(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -67,7 +67,7 @@ func ALargeSmall(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Accessibility is the icon from accessibility.svg v0.367.0 file
+// Accessibility icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/accessibility.svg
 func Accessibility(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -75,7 +75,7 @@ func Accessibility(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Activity is the icon from activity.svg v0.367.0 file
+// Activity icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/activity.svg
 func Activity(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -83,7 +83,7 @@ func Activity(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AirVent is the icon from air-vent.svg v0.367.0 file
+// AirVent icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/air-vent.svg
 func AirVent(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -91,7 +91,7 @@ func AirVent(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Airplay is the icon from airplay.svg v0.367.0 file
+// Airplay icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/airplay.svg
 func Airplay(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -99,7 +99,7 @@ func Airplay(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlarmClockCheck is the icon from alarm-clock-check.svg v0.367.0 file
+// AlarmClockCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/alarm-clock-check.svg
 func AlarmClockCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -107,7 +107,7 @@ func AlarmClockCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlarmClockMinus is the icon from alarm-clock-minus.svg v0.367.0 file
+// AlarmClockMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/alarm-clock-minus.svg
 func AlarmClockMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -115,7 +115,7 @@ func AlarmClockMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlarmClockOff is the icon from alarm-clock-off.svg v0.367.0 file
+// AlarmClockOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/alarm-clock-off.svg
 func AlarmClockOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -123,7 +123,7 @@ func AlarmClockOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlarmClockPlus is the icon from alarm-clock-plus.svg v0.367.0 file
+// AlarmClockPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/alarm-clock-plus.svg
 func AlarmClockPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -131,7 +131,7 @@ func AlarmClockPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlarmClock is the icon from alarm-clock.svg v0.367.0 file
+// AlarmClock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/alarm-clock.svg
 func AlarmClock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -139,7 +139,7 @@ func AlarmClock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlarmSmoke is the icon from alarm-smoke.svg v0.367.0 file
+// AlarmSmoke icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/alarm-smoke.svg
 func AlarmSmoke(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -147,7 +147,7 @@ func AlarmSmoke(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Album is the icon from album.svg v0.367.0 file
+// Album icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/album.svg
 func Album(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -155,7 +155,7 @@ func Album(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignCenterHorizontal is the icon from align-center-horizontal.svg v0.367.0 file
+// AlignCenterHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-center-horizontal.svg
 func AlignCenterHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -163,7 +163,7 @@ func AlignCenterHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignCenterVertical is the icon from align-center-vertical.svg v0.367.0 file
+// AlignCenterVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-center-vertical.svg
 func AlignCenterVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -171,7 +171,7 @@ func AlignCenterVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignCenter is the icon from align-center.svg v0.367.0 file
+// AlignCenter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-center.svg
 func AlignCenter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -179,7 +179,7 @@ func AlignCenter(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignEndHorizontal is the icon from align-end-horizontal.svg v0.367.0 file
+// AlignEndHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-end-horizontal.svg
 func AlignEndHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -187,7 +187,7 @@ func AlignEndHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignEndVertical is the icon from align-end-vertical.svg v0.367.0 file
+// AlignEndVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-end-vertical.svg
 func AlignEndVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -195,7 +195,7 @@ func AlignEndVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignHorizontalDistributeCenter is the icon from align-horizontal-distribute-center.svg v0.367.0 file
+// AlignHorizontalDistributeCenter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-horizontal-distribute-center.svg
 func AlignHorizontalDistributeCenter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -203,7 +203,7 @@ func AlignHorizontalDistributeCenter(children ...gomponents.Node) gomponents.Nod
 	)
 }
 
-// AlignHorizontalDistributeEnd is the icon from align-horizontal-distribute-end.svg v0.367.0 file
+// AlignHorizontalDistributeEnd icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-horizontal-distribute-end.svg
 func AlignHorizontalDistributeEnd(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -211,7 +211,7 @@ func AlignHorizontalDistributeEnd(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignHorizontalDistributeStart is the icon from align-horizontal-distribute-start.svg v0.367.0 file
+// AlignHorizontalDistributeStart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-horizontal-distribute-start.svg
 func AlignHorizontalDistributeStart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -219,7 +219,7 @@ func AlignHorizontalDistributeStart(children ...gomponents.Node) gomponents.Node
 	)
 }
 
-// AlignHorizontalJustifyCenter is the icon from align-horizontal-justify-center.svg v0.367.0 file
+// AlignHorizontalJustifyCenter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-horizontal-justify-center.svg
 func AlignHorizontalJustifyCenter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -227,7 +227,7 @@ func AlignHorizontalJustifyCenter(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignHorizontalJustifyEnd is the icon from align-horizontal-justify-end.svg v0.367.0 file
+// AlignHorizontalJustifyEnd icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-horizontal-justify-end.svg
 func AlignHorizontalJustifyEnd(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -235,7 +235,7 @@ func AlignHorizontalJustifyEnd(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignHorizontalJustifyStart is the icon from align-horizontal-justify-start.svg v0.367.0 file
+// AlignHorizontalJustifyStart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-horizontal-justify-start.svg
 func AlignHorizontalJustifyStart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -243,7 +243,7 @@ func AlignHorizontalJustifyStart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignHorizontalSpaceAround is the icon from align-horizontal-space-around.svg v0.367.0 file
+// AlignHorizontalSpaceAround icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-horizontal-space-around.svg
 func AlignHorizontalSpaceAround(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -251,7 +251,7 @@ func AlignHorizontalSpaceAround(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignHorizontalSpaceBetween is the icon from align-horizontal-space-between.svg v0.367.0 file
+// AlignHorizontalSpaceBetween icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-horizontal-space-between.svg
 func AlignHorizontalSpaceBetween(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -259,7 +259,7 @@ func AlignHorizontalSpaceBetween(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignJustify is the icon from align-justify.svg v0.367.0 file
+// AlignJustify icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-justify.svg
 func AlignJustify(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -267,7 +267,7 @@ func AlignJustify(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignLeft is the icon from align-left.svg v0.367.0 file
+// AlignLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-left.svg
 func AlignLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -275,7 +275,7 @@ func AlignLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignRight is the icon from align-right.svg v0.367.0 file
+// AlignRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-right.svg
 func AlignRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -283,7 +283,7 @@ func AlignRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignStartHorizontal is the icon from align-start-horizontal.svg v0.367.0 file
+// AlignStartHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-start-horizontal.svg
 func AlignStartHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -291,7 +291,7 @@ func AlignStartHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignStartVertical is the icon from align-start-vertical.svg v0.367.0 file
+// AlignStartVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-start-vertical.svg
 func AlignStartVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -299,7 +299,7 @@ func AlignStartVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignVerticalDistributeCenter is the icon from align-vertical-distribute-center.svg v0.367.0 file
+// AlignVerticalDistributeCenter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-vertical-distribute-center.svg
 func AlignVerticalDistributeCenter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -307,7 +307,7 @@ func AlignVerticalDistributeCenter(children ...gomponents.Node) gomponents.Node 
 	)
 }
 
-// AlignVerticalDistributeEnd is the icon from align-vertical-distribute-end.svg v0.367.0 file
+// AlignVerticalDistributeEnd icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-vertical-distribute-end.svg
 func AlignVerticalDistributeEnd(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -315,7 +315,7 @@ func AlignVerticalDistributeEnd(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignVerticalDistributeStart is the icon from align-vertical-distribute-start.svg v0.367.0 file
+// AlignVerticalDistributeStart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-vertical-distribute-start.svg
 func AlignVerticalDistributeStart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -323,7 +323,7 @@ func AlignVerticalDistributeStart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignVerticalJustifyCenter is the icon from align-vertical-justify-center.svg v0.367.0 file
+// AlignVerticalJustifyCenter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-vertical-justify-center.svg
 func AlignVerticalJustifyCenter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -331,7 +331,7 @@ func AlignVerticalJustifyCenter(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignVerticalJustifyEnd is the icon from align-vertical-justify-end.svg v0.367.0 file
+// AlignVerticalJustifyEnd icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-vertical-justify-end.svg
 func AlignVerticalJustifyEnd(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -339,7 +339,7 @@ func AlignVerticalJustifyEnd(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignVerticalJustifyStart is the icon from align-vertical-justify-start.svg v0.367.0 file
+// AlignVerticalJustifyStart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-vertical-justify-start.svg
 func AlignVerticalJustifyStart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -347,7 +347,7 @@ func AlignVerticalJustifyStart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignVerticalSpaceAround is the icon from align-vertical-space-around.svg v0.367.0 file
+// AlignVerticalSpaceAround icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-vertical-space-around.svg
 func AlignVerticalSpaceAround(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -355,7 +355,7 @@ func AlignVerticalSpaceAround(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AlignVerticalSpaceBetween is the icon from align-vertical-space-between.svg v0.367.0 file
+// AlignVerticalSpaceBetween icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/align-vertical-space-between.svg
 func AlignVerticalSpaceBetween(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -363,7 +363,7 @@ func AlignVerticalSpaceBetween(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ambulance is the icon from ambulance.svg v0.367.0 file
+// Ambulance icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ambulance.svg
 func Ambulance(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -371,7 +371,7 @@ func Ambulance(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ampersand is the icon from ampersand.svg v0.367.0 file
+// Ampersand icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ampersand.svg
 func Ampersand(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -379,7 +379,7 @@ func Ampersand(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ampersands is the icon from ampersands.svg v0.367.0 file
+// Ampersands icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ampersands.svg
 func Ampersands(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -387,7 +387,7 @@ func Ampersands(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Anchor is the icon from anchor.svg v0.367.0 file
+// Anchor icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/anchor.svg
 func Anchor(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -395,7 +395,7 @@ func Anchor(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Angry is the icon from angry.svg v0.367.0 file
+// Angry icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/angry.svg
 func Angry(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -403,7 +403,7 @@ func Angry(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Annoyed is the icon from annoyed.svg v0.367.0 file
+// Annoyed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/annoyed.svg
 func Annoyed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -411,7 +411,7 @@ func Annoyed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Antenna is the icon from antenna.svg v0.367.0 file
+// Antenna icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/antenna.svg
 func Antenna(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -419,7 +419,7 @@ func Antenna(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Anvil is the icon from anvil.svg v0.367.0 file
+// Anvil icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/anvil.svg
 func Anvil(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -427,7 +427,7 @@ func Anvil(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Aperture is the icon from aperture.svg v0.367.0 file
+// Aperture icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/aperture.svg
 func Aperture(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -435,7 +435,7 @@ func Aperture(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AppWindowMac is the icon from app-window-mac.svg v0.367.0 file
+// AppWindowMac icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/app-window-mac.svg
 func AppWindowMac(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -443,7 +443,7 @@ func AppWindowMac(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AppWindow is the icon from app-window.svg v0.367.0 file
+// AppWindow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/app-window.svg
 func AppWindow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -451,7 +451,7 @@ func AppWindow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Apple is the icon from apple.svg v0.367.0 file
+// Apple icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/apple.svg
 func Apple(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -459,7 +459,7 @@ func Apple(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArchiveRestore is the icon from archive-restore.svg v0.367.0 file
+// ArchiveRestore icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/archive-restore.svg
 func ArchiveRestore(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -467,7 +467,7 @@ func ArchiveRestore(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArchiveX is the icon from archive-x.svg v0.367.0 file
+// ArchiveX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/archive-x.svg
 func ArchiveX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -475,7 +475,7 @@ func ArchiveX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Archive is the icon from archive.svg v0.367.0 file
+// Archive icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/archive.svg
 func Archive(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -483,7 +483,7 @@ func Archive(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AreaChart is the icon from area-chart.svg v0.367.0 file
+// AreaChart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/area-chart.svg
 func AreaChart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -491,7 +491,7 @@ func AreaChart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Armchair is the icon from armchair.svg v0.367.0 file
+// Armchair icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/armchair.svg
 func Armchair(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -499,7 +499,7 @@ func Armchair(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowBigDownDash is the icon from arrow-big-down-dash.svg v0.367.0 file
+// ArrowBigDownDash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-big-down-dash.svg
 func ArrowBigDownDash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -507,7 +507,7 @@ func ArrowBigDownDash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowBigDown is the icon from arrow-big-down.svg v0.367.0 file
+// ArrowBigDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-big-down.svg
 func ArrowBigDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -515,7 +515,7 @@ func ArrowBigDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowBigLeftDash is the icon from arrow-big-left-dash.svg v0.367.0 file
+// ArrowBigLeftDash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-big-left-dash.svg
 func ArrowBigLeftDash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -523,7 +523,7 @@ func ArrowBigLeftDash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowBigLeft is the icon from arrow-big-left.svg v0.367.0 file
+// ArrowBigLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-big-left.svg
 func ArrowBigLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -531,7 +531,7 @@ func ArrowBigLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowBigRightDash is the icon from arrow-big-right-dash.svg v0.367.0 file
+// ArrowBigRightDash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-big-right-dash.svg
 func ArrowBigRightDash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -539,7 +539,7 @@ func ArrowBigRightDash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowBigRight is the icon from arrow-big-right.svg v0.367.0 file
+// ArrowBigRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-big-right.svg
 func ArrowBigRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -547,7 +547,7 @@ func ArrowBigRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowBigUpDash is the icon from arrow-big-up-dash.svg v0.367.0 file
+// ArrowBigUpDash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-big-up-dash.svg
 func ArrowBigUpDash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -555,7 +555,7 @@ func ArrowBigUpDash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowBigUp is the icon from arrow-big-up.svg v0.367.0 file
+// ArrowBigUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-big-up.svg
 func ArrowBigUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -563,7 +563,7 @@ func ArrowBigUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDown01 is the icon from arrow-down-0-1.svg v0.367.0 file
+// ArrowDown01 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-0-1.svg
 func ArrowDown01(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -571,7 +571,7 @@ func ArrowDown01(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDown10 is the icon from arrow-down-1-0.svg v0.367.0 file
+// ArrowDown10 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-1-0.svg
 func ArrowDown10(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -579,7 +579,7 @@ func ArrowDown10(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDownAZ is the icon from arrow-down-a-z.svg v0.367.0 file
+// ArrowDownAZ icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-a-z.svg
 func ArrowDownAZ(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -587,7 +587,7 @@ func ArrowDownAZ(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDownFromLine is the icon from arrow-down-from-line.svg v0.367.0 file
+// ArrowDownFromLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-from-line.svg
 func ArrowDownFromLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -595,7 +595,7 @@ func ArrowDownFromLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDownLeft is the icon from arrow-down-left.svg v0.367.0 file
+// ArrowDownLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-left.svg
 func ArrowDownLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -603,7 +603,7 @@ func ArrowDownLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDownNarrowWide is the icon from arrow-down-narrow-wide.svg v0.367.0 file
+// ArrowDownNarrowWide icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-narrow-wide.svg
 func ArrowDownNarrowWide(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -611,7 +611,7 @@ func ArrowDownNarrowWide(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDownRight is the icon from arrow-down-right.svg v0.367.0 file
+// ArrowDownRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-right.svg
 func ArrowDownRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -619,7 +619,7 @@ func ArrowDownRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDownToDot is the icon from arrow-down-to-dot.svg v0.367.0 file
+// ArrowDownToDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-to-dot.svg
 func ArrowDownToDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -627,7 +627,7 @@ func ArrowDownToDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDownToLine is the icon from arrow-down-to-line.svg v0.367.0 file
+// ArrowDownToLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-to-line.svg
 func ArrowDownToLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -635,7 +635,7 @@ func ArrowDownToLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDownUp is the icon from arrow-down-up.svg v0.367.0 file
+// ArrowDownUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-up.svg
 func ArrowDownUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -643,7 +643,7 @@ func ArrowDownUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDownWideNarrow is the icon from arrow-down-wide-narrow.svg v0.367.0 file
+// ArrowDownWideNarrow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-wide-narrow.svg
 func ArrowDownWideNarrow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -651,7 +651,7 @@ func ArrowDownWideNarrow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDownZA is the icon from arrow-down-z-a.svg v0.367.0 file
+// ArrowDownZA icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down-z-a.svg
 func ArrowDownZA(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -659,7 +659,7 @@ func ArrowDownZA(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowDown is the icon from arrow-down.svg v0.367.0 file
+// ArrowDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-down.svg
 func ArrowDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -667,7 +667,7 @@ func ArrowDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowLeftFromLine is the icon from arrow-left-from-line.svg v0.367.0 file
+// ArrowLeftFromLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-left-from-line.svg
 func ArrowLeftFromLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -675,7 +675,7 @@ func ArrowLeftFromLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowLeftRight is the icon from arrow-left-right.svg v0.367.0 file
+// ArrowLeftRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-left-right.svg
 func ArrowLeftRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -683,7 +683,7 @@ func ArrowLeftRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowLeftToLine is the icon from arrow-left-to-line.svg v0.367.0 file
+// ArrowLeftToLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-left-to-line.svg
 func ArrowLeftToLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -691,7 +691,7 @@ func ArrowLeftToLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowLeft is the icon from arrow-left.svg v0.367.0 file
+// ArrowLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-left.svg
 func ArrowLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -699,7 +699,7 @@ func ArrowLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowRightFromLine is the icon from arrow-right-from-line.svg v0.367.0 file
+// ArrowRightFromLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-right-from-line.svg
 func ArrowRightFromLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -707,7 +707,7 @@ func ArrowRightFromLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowRightLeft is the icon from arrow-right-left.svg v0.367.0 file
+// ArrowRightLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-right-left.svg
 func ArrowRightLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -715,7 +715,7 @@ func ArrowRightLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowRightToLine is the icon from arrow-right-to-line.svg v0.367.0 file
+// ArrowRightToLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-right-to-line.svg
 func ArrowRightToLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -723,7 +723,7 @@ func ArrowRightToLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowRight is the icon from arrow-right.svg v0.367.0 file
+// ArrowRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-right.svg
 func ArrowRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -731,7 +731,7 @@ func ArrowRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUp01 is the icon from arrow-up-0-1.svg v0.367.0 file
+// ArrowUp01 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-0-1.svg
 func ArrowUp01(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -739,7 +739,7 @@ func ArrowUp01(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUp10 is the icon from arrow-up-1-0.svg v0.367.0 file
+// ArrowUp10 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-1-0.svg
 func ArrowUp10(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -747,7 +747,7 @@ func ArrowUp10(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUpAZ is the icon from arrow-up-a-z.svg v0.367.0 file
+// ArrowUpAZ icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-a-z.svg
 func ArrowUpAZ(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -755,7 +755,7 @@ func ArrowUpAZ(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUpDown is the icon from arrow-up-down.svg v0.367.0 file
+// ArrowUpDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-down.svg
 func ArrowUpDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -763,7 +763,7 @@ func ArrowUpDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUpFromDot is the icon from arrow-up-from-dot.svg v0.367.0 file
+// ArrowUpFromDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-from-dot.svg
 func ArrowUpFromDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -771,7 +771,7 @@ func ArrowUpFromDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUpFromLine is the icon from arrow-up-from-line.svg v0.367.0 file
+// ArrowUpFromLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-from-line.svg
 func ArrowUpFromLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -779,7 +779,7 @@ func ArrowUpFromLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUpLeft is the icon from arrow-up-left.svg v0.367.0 file
+// ArrowUpLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-left.svg
 func ArrowUpLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -787,7 +787,7 @@ func ArrowUpLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUpNarrowWide is the icon from arrow-up-narrow-wide.svg v0.367.0 file
+// ArrowUpNarrowWide icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-narrow-wide.svg
 func ArrowUpNarrowWide(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -795,7 +795,7 @@ func ArrowUpNarrowWide(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUpRight is the icon from arrow-up-right.svg v0.367.0 file
+// ArrowUpRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-right.svg
 func ArrowUpRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -803,7 +803,7 @@ func ArrowUpRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUpToLine is the icon from arrow-up-to-line.svg v0.367.0 file
+// ArrowUpToLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-to-line.svg
 func ArrowUpToLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -811,7 +811,7 @@ func ArrowUpToLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUpWideNarrow is the icon from arrow-up-wide-narrow.svg v0.367.0 file
+// ArrowUpWideNarrow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-wide-narrow.svg
 func ArrowUpWideNarrow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -819,7 +819,7 @@ func ArrowUpWideNarrow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUpZA is the icon from arrow-up-z-a.svg v0.367.0 file
+// ArrowUpZA icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up-z-a.svg
 func ArrowUpZA(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -827,7 +827,7 @@ func ArrowUpZA(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowUp is the icon from arrow-up.svg v0.367.0 file
+// ArrowUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrow-up.svg
 func ArrowUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -835,7 +835,7 @@ func ArrowUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ArrowsUpFromLine is the icon from arrows-up-from-line.svg v0.367.0 file
+// ArrowsUpFromLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/arrows-up-from-line.svg
 func ArrowsUpFromLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -843,7 +843,7 @@ func ArrowsUpFromLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Asterisk is the icon from asterisk.svg v0.367.0 file
+// Asterisk icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/asterisk.svg
 func Asterisk(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -851,7 +851,7 @@ func Asterisk(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AtSign is the icon from at-sign.svg v0.367.0 file
+// AtSign icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/at-sign.svg
 func AtSign(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -859,7 +859,7 @@ func AtSign(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Atom is the icon from atom.svg v0.367.0 file
+// Atom icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/atom.svg
 func Atom(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -867,7 +867,7 @@ func Atom(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AudioLines is the icon from audio-lines.svg v0.367.0 file
+// AudioLines icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/audio-lines.svg
 func AudioLines(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -875,7 +875,7 @@ func AudioLines(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// AudioWaveform is the icon from audio-waveform.svg v0.367.0 file
+// AudioWaveform icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/audio-waveform.svg
 func AudioWaveform(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -883,7 +883,7 @@ func AudioWaveform(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Award is the icon from award.svg v0.367.0 file
+// Award icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/award.svg
 func Award(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -891,7 +891,7 @@ func Award(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Axe is the icon from axe.svg v0.367.0 file
+// Axe icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/axe.svg
 func Axe(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -899,7 +899,7 @@ func Axe(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Axis3d is the icon from axis-3d.svg v0.367.0 file
+// Axis3d icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/axis-3d.svg
 func Axis3d(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -907,7 +907,7 @@ func Axis3d(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Baby is the icon from baby.svg v0.367.0 file
+// Baby icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/baby.svg
 func Baby(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -915,7 +915,7 @@ func Baby(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Backpack is the icon from backpack.svg v0.367.0 file
+// Backpack icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/backpack.svg
 func Backpack(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -923,7 +923,7 @@ func Backpack(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeAlert is the icon from badge-alert.svg v0.367.0 file
+// BadgeAlert icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-alert.svg
 func BadgeAlert(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -931,7 +931,7 @@ func BadgeAlert(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeCent is the icon from badge-cent.svg v0.367.0 file
+// BadgeCent icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-cent.svg
 func BadgeCent(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -939,7 +939,7 @@ func BadgeCent(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeCheck is the icon from badge-check.svg v0.367.0 file
+// BadgeCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-check.svg
 func BadgeCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -947,7 +947,7 @@ func BadgeCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeDollarSign is the icon from badge-dollar-sign.svg v0.367.0 file
+// BadgeDollarSign icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-dollar-sign.svg
 func BadgeDollarSign(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -955,7 +955,7 @@ func BadgeDollarSign(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeEuro is the icon from badge-euro.svg v0.367.0 file
+// BadgeEuro icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-euro.svg
 func BadgeEuro(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -963,7 +963,7 @@ func BadgeEuro(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeHelp is the icon from badge-help.svg v0.367.0 file
+// BadgeHelp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-help.svg
 func BadgeHelp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -971,7 +971,7 @@ func BadgeHelp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeIndianRupee is the icon from badge-indian-rupee.svg v0.367.0 file
+// BadgeIndianRupee icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-indian-rupee.svg
 func BadgeIndianRupee(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -979,7 +979,7 @@ func BadgeIndianRupee(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeInfo is the icon from badge-info.svg v0.367.0 file
+// BadgeInfo icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-info.svg
 func BadgeInfo(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -987,7 +987,7 @@ func BadgeInfo(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeJapaneseYen is the icon from badge-japanese-yen.svg v0.367.0 file
+// BadgeJapaneseYen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-japanese-yen.svg
 func BadgeJapaneseYen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -995,7 +995,7 @@ func BadgeJapaneseYen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeMinus is the icon from badge-minus.svg v0.367.0 file
+// BadgeMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-minus.svg
 func BadgeMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1003,7 +1003,7 @@ func BadgeMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgePercent is the icon from badge-percent.svg v0.367.0 file
+// BadgePercent icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-percent.svg
 func BadgePercent(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1011,7 +1011,7 @@ func BadgePercent(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgePlus is the icon from badge-plus.svg v0.367.0 file
+// BadgePlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-plus.svg
 func BadgePlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1019,7 +1019,7 @@ func BadgePlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgePoundSterling is the icon from badge-pound-sterling.svg v0.367.0 file
+// BadgePoundSterling icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-pound-sterling.svg
 func BadgePoundSterling(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1027,7 +1027,7 @@ func BadgePoundSterling(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeRussianRuble is the icon from badge-russian-ruble.svg v0.367.0 file
+// BadgeRussianRuble icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-russian-ruble.svg
 func BadgeRussianRuble(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1035,7 +1035,7 @@ func BadgeRussianRuble(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeSwissFranc is the icon from badge-swiss-franc.svg v0.367.0 file
+// BadgeSwissFranc icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-swiss-franc.svg
 func BadgeSwissFranc(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1043,7 +1043,7 @@ func BadgeSwissFranc(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BadgeX is the icon from badge-x.svg v0.367.0 file
+// BadgeX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge-x.svg
 func BadgeX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1051,7 +1051,7 @@ func BadgeX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Badge is the icon from badge.svg v0.367.0 file
+// Badge icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/badge.svg
 func Badge(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1059,7 +1059,7 @@ func Badge(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BaggageClaim is the icon from baggage-claim.svg v0.367.0 file
+// BaggageClaim icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/baggage-claim.svg
 func BaggageClaim(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1067,7 +1067,7 @@ func BaggageClaim(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ban is the icon from ban.svg v0.367.0 file
+// Ban icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ban.svg
 func Ban(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1075,7 +1075,7 @@ func Ban(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Banana is the icon from banana.svg v0.367.0 file
+// Banana icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/banana.svg
 func Banana(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1083,7 +1083,7 @@ func Banana(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Banknote is the icon from banknote.svg v0.367.0 file
+// Banknote icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/banknote.svg
 func Banknote(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1091,7 +1091,7 @@ func Banknote(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BarChart2 is the icon from bar-chart-2.svg v0.367.0 file
+// BarChart2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bar-chart-2.svg
 func BarChart2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1099,7 +1099,7 @@ func BarChart2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BarChart3 is the icon from bar-chart-3.svg v0.367.0 file
+// BarChart3 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bar-chart-3.svg
 func BarChart3(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1107,7 +1107,7 @@ func BarChart3(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BarChart4 is the icon from bar-chart-4.svg v0.367.0 file
+// BarChart4 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bar-chart-4.svg
 func BarChart4(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1115,7 +1115,7 @@ func BarChart4(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BarChartBig is the icon from bar-chart-big.svg v0.367.0 file
+// BarChartBig icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bar-chart-big.svg
 func BarChartBig(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1123,7 +1123,7 @@ func BarChartBig(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BarChartHorizontalBig is the icon from bar-chart-horizontal-big.svg v0.367.0 file
+// BarChartHorizontalBig icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bar-chart-horizontal-big.svg
 func BarChartHorizontalBig(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1131,7 +1131,7 @@ func BarChartHorizontalBig(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BarChartHorizontal is the icon from bar-chart-horizontal.svg v0.367.0 file
+// BarChartHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bar-chart-horizontal.svg
 func BarChartHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1139,7 +1139,7 @@ func BarChartHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BarChart is the icon from bar-chart.svg v0.367.0 file
+// BarChart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bar-chart.svg
 func BarChart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1147,7 +1147,7 @@ func BarChart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Barcode is the icon from barcode.svg v0.367.0 file
+// Barcode icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/barcode.svg
 func Barcode(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1155,7 +1155,7 @@ func Barcode(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Baseline is the icon from baseline.svg v0.367.0 file
+// Baseline icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/baseline.svg
 func Baseline(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1163,7 +1163,7 @@ func Baseline(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bath is the icon from bath.svg v0.367.0 file
+// Bath icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bath.svg
 func Bath(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1171,7 +1171,7 @@ func Bath(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BatteryCharging is the icon from battery-charging.svg v0.367.0 file
+// BatteryCharging icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/battery-charging.svg
 func BatteryCharging(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1179,7 +1179,7 @@ func BatteryCharging(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BatteryFull is the icon from battery-full.svg v0.367.0 file
+// BatteryFull icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/battery-full.svg
 func BatteryFull(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1187,7 +1187,7 @@ func BatteryFull(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BatteryLow is the icon from battery-low.svg v0.367.0 file
+// BatteryLow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/battery-low.svg
 func BatteryLow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1195,7 +1195,7 @@ func BatteryLow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BatteryMedium is the icon from battery-medium.svg v0.367.0 file
+// BatteryMedium icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/battery-medium.svg
 func BatteryMedium(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1203,7 +1203,7 @@ func BatteryMedium(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BatteryWarning is the icon from battery-warning.svg v0.367.0 file
+// BatteryWarning icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/battery-warning.svg
 func BatteryWarning(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1211,7 +1211,7 @@ func BatteryWarning(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Battery is the icon from battery.svg v0.367.0 file
+// Battery icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/battery.svg
 func Battery(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1219,7 +1219,7 @@ func Battery(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Beaker is the icon from beaker.svg v0.367.0 file
+// Beaker icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/beaker.svg
 func Beaker(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1227,7 +1227,7 @@ func Beaker(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BeanOff is the icon from bean-off.svg v0.367.0 file
+// BeanOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bean-off.svg
 func BeanOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1235,7 +1235,7 @@ func BeanOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bean is the icon from bean.svg v0.367.0 file
+// Bean icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bean.svg
 func Bean(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1243,7 +1243,7 @@ func Bean(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BedDouble is the icon from bed-double.svg v0.367.0 file
+// BedDouble icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bed-double.svg
 func BedDouble(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1251,7 +1251,7 @@ func BedDouble(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BedSingle is the icon from bed-single.svg v0.367.0 file
+// BedSingle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bed-single.svg
 func BedSingle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1259,7 +1259,7 @@ func BedSingle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bed is the icon from bed.svg v0.367.0 file
+// Bed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bed.svg
 func Bed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1267,7 +1267,7 @@ func Bed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Beef is the icon from beef.svg v0.367.0 file
+// Beef icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/beef.svg
 func Beef(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1275,7 +1275,7 @@ func Beef(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BeerOff is the icon from beer-off.svg v0.367.0 file
+// BeerOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/beer-off.svg
 func BeerOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1283,7 +1283,7 @@ func BeerOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Beer is the icon from beer.svg v0.367.0 file
+// Beer icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/beer.svg
 func Beer(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1291,7 +1291,7 @@ func Beer(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BellDot is the icon from bell-dot.svg v0.367.0 file
+// BellDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bell-dot.svg
 func BellDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1299,7 +1299,7 @@ func BellDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BellElectric is the icon from bell-electric.svg v0.367.0 file
+// BellElectric icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bell-electric.svg
 func BellElectric(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1307,7 +1307,7 @@ func BellElectric(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BellMinus is the icon from bell-minus.svg v0.367.0 file
+// BellMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bell-minus.svg
 func BellMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1315,7 +1315,7 @@ func BellMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BellOff is the icon from bell-off.svg v0.367.0 file
+// BellOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bell-off.svg
 func BellOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1323,7 +1323,7 @@ func BellOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BellPlus is the icon from bell-plus.svg v0.367.0 file
+// BellPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bell-plus.svg
 func BellPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1331,7 +1331,7 @@ func BellPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BellRing is the icon from bell-ring.svg v0.367.0 file
+// BellRing icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bell-ring.svg
 func BellRing(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1339,7 +1339,7 @@ func BellRing(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bell is the icon from bell.svg v0.367.0 file
+// Bell icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bell.svg
 func Bell(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1347,7 +1347,7 @@ func Bell(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BetweenHorizontalEnd is the icon from between-horizontal-end.svg v0.367.0 file
+// BetweenHorizontalEnd icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/between-horizontal-end.svg
 func BetweenHorizontalEnd(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1355,7 +1355,7 @@ func BetweenHorizontalEnd(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BetweenHorizontalStart is the icon from between-horizontal-start.svg v0.367.0 file
+// BetweenHorizontalStart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/between-horizontal-start.svg
 func BetweenHorizontalStart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1363,7 +1363,7 @@ func BetweenHorizontalStart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BetweenVerticalEnd is the icon from between-vertical-end.svg v0.367.0 file
+// BetweenVerticalEnd icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/between-vertical-end.svg
 func BetweenVerticalEnd(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1371,7 +1371,7 @@ func BetweenVerticalEnd(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BetweenVerticalStart is the icon from between-vertical-start.svg v0.367.0 file
+// BetweenVerticalStart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/between-vertical-start.svg
 func BetweenVerticalStart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1379,7 +1379,7 @@ func BetweenVerticalStart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bike is the icon from bike.svg v0.367.0 file
+// Bike icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bike.svg
 func Bike(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1387,7 +1387,7 @@ func Bike(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Binary is the icon from binary.svg v0.367.0 file
+// Binary icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/binary.svg
 func Binary(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1395,7 +1395,7 @@ func Binary(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Biohazard is the icon from biohazard.svg v0.367.0 file
+// Biohazard icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/biohazard.svg
 func Biohazard(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1403,7 +1403,7 @@ func Biohazard(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bird is the icon from bird.svg v0.367.0 file
+// Bird icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bird.svg
 func Bird(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1411,7 +1411,7 @@ func Bird(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bitcoin is the icon from bitcoin.svg v0.367.0 file
+// Bitcoin icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bitcoin.svg
 func Bitcoin(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1419,7 +1419,7 @@ func Bitcoin(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Blend is the icon from blend.svg v0.367.0 file
+// Blend icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/blend.svg
 func Blend(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1427,7 +1427,7 @@ func Blend(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Blinds is the icon from blinds.svg v0.367.0 file
+// Blinds icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/blinds.svg
 func Blinds(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1435,7 +1435,7 @@ func Blinds(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Blocks is the icon from blocks.svg v0.367.0 file
+// Blocks icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/blocks.svg
 func Blocks(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1443,7 +1443,7 @@ func Blocks(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BluetoothConnected is the icon from bluetooth-connected.svg v0.367.0 file
+// BluetoothConnected icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bluetooth-connected.svg
 func BluetoothConnected(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1451,7 +1451,7 @@ func BluetoothConnected(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BluetoothOff is the icon from bluetooth-off.svg v0.367.0 file
+// BluetoothOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bluetooth-off.svg
 func BluetoothOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1459,7 +1459,7 @@ func BluetoothOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BluetoothSearching is the icon from bluetooth-searching.svg v0.367.0 file
+// BluetoothSearching icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bluetooth-searching.svg
 func BluetoothSearching(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1467,7 +1467,7 @@ func BluetoothSearching(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bluetooth is the icon from bluetooth.svg v0.367.0 file
+// Bluetooth icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bluetooth.svg
 func Bluetooth(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1475,7 +1475,7 @@ func Bluetooth(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bold is the icon from bold.svg v0.367.0 file
+// Bold icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bold.svg
 func Bold(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1483,7 +1483,7 @@ func Bold(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bolt is the icon from bolt.svg v0.367.0 file
+// Bolt icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bolt.svg
 func Bolt(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1491,7 +1491,7 @@ func Bolt(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bomb is the icon from bomb.svg v0.367.0 file
+// Bomb icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bomb.svg
 func Bomb(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1499,7 +1499,7 @@ func Bomb(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bone is the icon from bone.svg v0.367.0 file
+// Bone icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bone.svg
 func Bone(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1507,7 +1507,7 @@ func Bone(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookA is the icon from book-a.svg v0.367.0 file
+// BookA icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-a.svg
 func BookA(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1515,7 +1515,7 @@ func BookA(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookAudio is the icon from book-audio.svg v0.367.0 file
+// BookAudio icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-audio.svg
 func BookAudio(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1523,7 +1523,7 @@ func BookAudio(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookCheck is the icon from book-check.svg v0.367.0 file
+// BookCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-check.svg
 func BookCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1531,7 +1531,7 @@ func BookCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookCopy is the icon from book-copy.svg v0.367.0 file
+// BookCopy icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-copy.svg
 func BookCopy(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1539,7 +1539,7 @@ func BookCopy(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookDashed is the icon from book-dashed.svg v0.367.0 file
+// BookDashed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-dashed.svg
 func BookDashed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1547,7 +1547,7 @@ func BookDashed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookDown is the icon from book-down.svg v0.367.0 file
+// BookDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-down.svg
 func BookDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1555,7 +1555,7 @@ func BookDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookHeadphones is the icon from book-headphones.svg v0.367.0 file
+// BookHeadphones icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-headphones.svg
 func BookHeadphones(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1563,7 +1563,7 @@ func BookHeadphones(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookHeart is the icon from book-heart.svg v0.367.0 file
+// BookHeart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-heart.svg
 func BookHeart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1571,7 +1571,7 @@ func BookHeart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookImage is the icon from book-image.svg v0.367.0 file
+// BookImage icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-image.svg
 func BookImage(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1579,7 +1579,7 @@ func BookImage(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookKey is the icon from book-key.svg v0.367.0 file
+// BookKey icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-key.svg
 func BookKey(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1587,7 +1587,7 @@ func BookKey(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookLock is the icon from book-lock.svg v0.367.0 file
+// BookLock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-lock.svg
 func BookLock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1595,7 +1595,7 @@ func BookLock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookMarked is the icon from book-marked.svg v0.367.0 file
+// BookMarked icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-marked.svg
 func BookMarked(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1603,7 +1603,7 @@ func BookMarked(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookMinus is the icon from book-minus.svg v0.367.0 file
+// BookMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-minus.svg
 func BookMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1611,7 +1611,7 @@ func BookMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookOpenCheck is the icon from book-open-check.svg v0.367.0 file
+// BookOpenCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-open-check.svg
 func BookOpenCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1619,7 +1619,7 @@ func BookOpenCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookOpenText is the icon from book-open-text.svg v0.367.0 file
+// BookOpenText icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-open-text.svg
 func BookOpenText(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1627,7 +1627,7 @@ func BookOpenText(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookOpen is the icon from book-open.svg v0.367.0 file
+// BookOpen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-open.svg
 func BookOpen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1635,7 +1635,7 @@ func BookOpen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookPlus is the icon from book-plus.svg v0.367.0 file
+// BookPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-plus.svg
 func BookPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1643,7 +1643,7 @@ func BookPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookText is the icon from book-text.svg v0.367.0 file
+// BookText icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-text.svg
 func BookText(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1651,7 +1651,7 @@ func BookText(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookType is the icon from book-type.svg v0.367.0 file
+// BookType icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-type.svg
 func BookType(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1659,7 +1659,7 @@ func BookType(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookUp2 is the icon from book-up-2.svg v0.367.0 file
+// BookUp2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-up-2.svg
 func BookUp2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1667,7 +1667,7 @@ func BookUp2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookUp is the icon from book-up.svg v0.367.0 file
+// BookUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-up.svg
 func BookUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1675,7 +1675,7 @@ func BookUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookUser is the icon from book-user.svg v0.367.0 file
+// BookUser icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-user.svg
 func BookUser(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1683,7 +1683,7 @@ func BookUser(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookX is the icon from book-x.svg v0.367.0 file
+// BookX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book-x.svg
 func BookX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1691,7 +1691,7 @@ func BookX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Book is the icon from book.svg v0.367.0 file
+// Book icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/book.svg
 func Book(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1699,7 +1699,7 @@ func Book(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookmarkCheck is the icon from bookmark-check.svg v0.367.0 file
+// BookmarkCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bookmark-check.svg
 func BookmarkCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1707,7 +1707,7 @@ func BookmarkCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookmarkMinus is the icon from bookmark-minus.svg v0.367.0 file
+// BookmarkMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bookmark-minus.svg
 func BookmarkMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1715,7 +1715,7 @@ func BookmarkMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookmarkPlus is the icon from bookmark-plus.svg v0.367.0 file
+// BookmarkPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bookmark-plus.svg
 func BookmarkPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1723,7 +1723,7 @@ func BookmarkPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BookmarkX is the icon from bookmark-x.svg v0.367.0 file
+// BookmarkX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bookmark-x.svg
 func BookmarkX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1731,7 +1731,7 @@ func BookmarkX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bookmark is the icon from bookmark.svg v0.367.0 file
+// Bookmark icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bookmark.svg
 func Bookmark(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1739,7 +1739,7 @@ func Bookmark(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BoomBox is the icon from boom-box.svg v0.367.0 file
+// BoomBox icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/boom-box.svg
 func BoomBox(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1747,7 +1747,7 @@ func BoomBox(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BotMessageSquare is the icon from bot-message-square.svg v0.367.0 file
+// BotMessageSquare icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bot-message-square.svg
 func BotMessageSquare(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1755,7 +1755,7 @@ func BotMessageSquare(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bot is the icon from bot.svg v0.367.0 file
+// Bot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bot.svg
 func Bot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1763,7 +1763,7 @@ func Bot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BoxSelect is the icon from box-select.svg v0.367.0 file
+// BoxSelect icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/box-select.svg
 func BoxSelect(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1771,7 +1771,7 @@ func BoxSelect(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Box is the icon from box.svg v0.367.0 file
+// Box icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/box.svg
 func Box(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1779,7 +1779,7 @@ func Box(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Boxes is the icon from boxes.svg v0.367.0 file
+// Boxes icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/boxes.svg
 func Boxes(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1787,7 +1787,7 @@ func Boxes(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Braces is the icon from braces.svg v0.367.0 file
+// Braces icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/braces.svg
 func Braces(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1795,7 +1795,7 @@ func Braces(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Brackets is the icon from brackets.svg v0.367.0 file
+// Brackets icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/brackets.svg
 func Brackets(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1803,7 +1803,7 @@ func Brackets(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BrainCircuit is the icon from brain-circuit.svg v0.367.0 file
+// BrainCircuit icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/brain-circuit.svg
 func BrainCircuit(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1811,7 +1811,7 @@ func BrainCircuit(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BrainCog is the icon from brain-cog.svg v0.367.0 file
+// BrainCog icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/brain-cog.svg
 func BrainCog(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1819,7 +1819,7 @@ func BrainCog(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Brain is the icon from brain.svg v0.367.0 file
+// Brain icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/brain.svg
 func Brain(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1827,7 +1827,7 @@ func Brain(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BrickWall is the icon from brick-wall.svg v0.367.0 file
+// BrickWall icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/brick-wall.svg
 func BrickWall(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1835,7 +1835,7 @@ func BrickWall(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BriefcaseBusiness is the icon from briefcase-business.svg v0.367.0 file
+// BriefcaseBusiness icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/briefcase-business.svg
 func BriefcaseBusiness(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1843,7 +1843,7 @@ func BriefcaseBusiness(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BriefcaseMedical is the icon from briefcase-medical.svg v0.367.0 file
+// BriefcaseMedical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/briefcase-medical.svg
 func BriefcaseMedical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1851,7 +1851,7 @@ func BriefcaseMedical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Briefcase is the icon from briefcase.svg v0.367.0 file
+// Briefcase icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/briefcase.svg
 func Briefcase(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1859,7 +1859,7 @@ func Briefcase(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BringToFront is the icon from bring-to-front.svg v0.367.0 file
+// BringToFront icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bring-to-front.svg
 func BringToFront(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1867,7 +1867,7 @@ func BringToFront(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Brush is the icon from brush.svg v0.367.0 file
+// Brush icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/brush.svg
 func Brush(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1875,7 +1875,7 @@ func Brush(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BugOff is the icon from bug-off.svg v0.367.0 file
+// BugOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bug-off.svg
 func BugOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1883,7 +1883,7 @@ func BugOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BugPlay is the icon from bug-play.svg v0.367.0 file
+// BugPlay icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bug-play.svg
 func BugPlay(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1891,7 +1891,7 @@ func BugPlay(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bug is the icon from bug.svg v0.367.0 file
+// Bug icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bug.svg
 func Bug(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1899,7 +1899,7 @@ func Bug(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Building2 is the icon from building-2.svg v0.367.0 file
+// Building2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/building-2.svg
 func Building2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1907,7 +1907,7 @@ func Building2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Building is the icon from building.svg v0.367.0 file
+// Building icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/building.svg
 func Building(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1915,7 +1915,7 @@ func Building(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// BusFront is the icon from bus-front.svg v0.367.0 file
+// BusFront icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bus-front.svg
 func BusFront(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1923,7 +1923,7 @@ func BusFront(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Bus is the icon from bus.svg v0.367.0 file
+// Bus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/bus.svg
 func Bus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1931,7 +1931,7 @@ func Bus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CableCar is the icon from cable-car.svg v0.367.0 file
+// CableCar icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cable-car.svg
 func CableCar(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1939,7 +1939,7 @@ func CableCar(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cable is the icon from cable.svg v0.367.0 file
+// Cable icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cable.svg
 func Cable(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1947,7 +1947,7 @@ func Cable(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CakeSlice is the icon from cake-slice.svg v0.367.0 file
+// CakeSlice icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cake-slice.svg
 func CakeSlice(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1955,7 +1955,7 @@ func CakeSlice(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cake is the icon from cake.svg v0.367.0 file
+// Cake icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cake.svg
 func Cake(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1963,7 +1963,7 @@ func Cake(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Calculator is the icon from calculator.svg v0.367.0 file
+// Calculator icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calculator.svg
 func Calculator(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1971,7 +1971,7 @@ func Calculator(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarCheck2 is the icon from calendar-check-2.svg v0.367.0 file
+// CalendarCheck2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-check-2.svg
 func CalendarCheck2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1979,7 +1979,7 @@ func CalendarCheck2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarCheck is the icon from calendar-check.svg v0.367.0 file
+// CalendarCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-check.svg
 func CalendarCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1987,7 +1987,7 @@ func CalendarCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarClock is the icon from calendar-clock.svg v0.367.0 file
+// CalendarClock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-clock.svg
 func CalendarClock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -1995,7 +1995,7 @@ func CalendarClock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarDays is the icon from calendar-days.svg v0.367.0 file
+// CalendarDays icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-days.svg
 func CalendarDays(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2003,7 +2003,7 @@ func CalendarDays(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarFold is the icon from calendar-fold.svg v0.367.0 file
+// CalendarFold icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-fold.svg
 func CalendarFold(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2011,7 +2011,7 @@ func CalendarFold(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarHeart is the icon from calendar-heart.svg v0.367.0 file
+// CalendarHeart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-heart.svg
 func CalendarHeart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2019,7 +2019,7 @@ func CalendarHeart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarMinus2 is the icon from calendar-minus-2.svg v0.367.0 file
+// CalendarMinus2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-minus-2.svg
 func CalendarMinus2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2027,7 +2027,7 @@ func CalendarMinus2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarMinus is the icon from calendar-minus.svg v0.367.0 file
+// CalendarMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-minus.svg
 func CalendarMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2035,7 +2035,7 @@ func CalendarMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarOff is the icon from calendar-off.svg v0.367.0 file
+// CalendarOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-off.svg
 func CalendarOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2043,7 +2043,7 @@ func CalendarOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarPlus2 is the icon from calendar-plus-2.svg v0.367.0 file
+// CalendarPlus2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-plus-2.svg
 func CalendarPlus2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2051,7 +2051,7 @@ func CalendarPlus2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarPlus is the icon from calendar-plus.svg v0.367.0 file
+// CalendarPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-plus.svg
 func CalendarPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2059,7 +2059,7 @@ func CalendarPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarRange is the icon from calendar-range.svg v0.367.0 file
+// CalendarRange icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-range.svg
 func CalendarRange(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2067,7 +2067,7 @@ func CalendarRange(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarSearch is the icon from calendar-search.svg v0.367.0 file
+// CalendarSearch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-search.svg
 func CalendarSearch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2075,7 +2075,7 @@ func CalendarSearch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarX2 is the icon from calendar-x-2.svg v0.367.0 file
+// CalendarX2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-x-2.svg
 func CalendarX2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2083,7 +2083,7 @@ func CalendarX2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CalendarX is the icon from calendar-x.svg v0.367.0 file
+// CalendarX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar-x.svg
 func CalendarX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2091,7 +2091,7 @@ func CalendarX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Calendar is the icon from calendar.svg v0.367.0 file
+// Calendar icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/calendar.svg
 func Calendar(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2099,7 +2099,7 @@ func Calendar(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CameraOff is the icon from camera-off.svg v0.367.0 file
+// CameraOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/camera-off.svg
 func CameraOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2107,7 +2107,7 @@ func CameraOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Camera is the icon from camera.svg v0.367.0 file
+// Camera icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/camera.svg
 func Camera(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2115,7 +2115,7 @@ func Camera(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CandlestickChart is the icon from candlestick-chart.svg v0.367.0 file
+// CandlestickChart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/candlestick-chart.svg
 func CandlestickChart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2123,7 +2123,7 @@ func CandlestickChart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CandyCane is the icon from candy-cane.svg v0.367.0 file
+// CandyCane icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/candy-cane.svg
 func CandyCane(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2131,7 +2131,7 @@ func CandyCane(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CandyOff is the icon from candy-off.svg v0.367.0 file
+// CandyOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/candy-off.svg
 func CandyOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2139,7 +2139,7 @@ func CandyOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Candy is the icon from candy.svg v0.367.0 file
+// Candy icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/candy.svg
 func Candy(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2147,7 +2147,7 @@ func Candy(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cannabis is the icon from cannabis.svg v0.367.0 file
+// Cannabis icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cannabis.svg
 func Cannabis(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2155,7 +2155,7 @@ func Cannabis(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CaptionsOff is the icon from captions-off.svg v0.367.0 file
+// CaptionsOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/captions-off.svg
 func CaptionsOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2163,7 +2163,7 @@ func CaptionsOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Captions is the icon from captions.svg v0.367.0 file
+// Captions icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/captions.svg
 func Captions(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2171,7 +2171,7 @@ func Captions(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CarFront is the icon from car-front.svg v0.367.0 file
+// CarFront icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/car-front.svg
 func CarFront(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2179,7 +2179,7 @@ func CarFront(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CarTaxiFront is the icon from car-taxi-front.svg v0.367.0 file
+// CarTaxiFront icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/car-taxi-front.svg
 func CarTaxiFront(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2187,7 +2187,7 @@ func CarTaxiFront(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Car is the icon from car.svg v0.367.0 file
+// Car icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/car.svg
 func Car(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2195,7 +2195,7 @@ func Car(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Caravan is the icon from caravan.svg v0.367.0 file
+// Caravan icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/caravan.svg
 func Caravan(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2203,7 +2203,7 @@ func Caravan(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Carrot is the icon from carrot.svg v0.367.0 file
+// Carrot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/carrot.svg
 func Carrot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2211,7 +2211,7 @@ func Carrot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CaseLower is the icon from case-lower.svg v0.367.0 file
+// CaseLower icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/case-lower.svg
 func CaseLower(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2219,7 +2219,7 @@ func CaseLower(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CaseSensitive is the icon from case-sensitive.svg v0.367.0 file
+// CaseSensitive icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/case-sensitive.svg
 func CaseSensitive(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2227,7 +2227,7 @@ func CaseSensitive(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CaseUpper is the icon from case-upper.svg v0.367.0 file
+// CaseUpper icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/case-upper.svg
 func CaseUpper(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2235,7 +2235,7 @@ func CaseUpper(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CassetteTape is the icon from cassette-tape.svg v0.367.0 file
+// CassetteTape icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cassette-tape.svg
 func CassetteTape(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2243,7 +2243,7 @@ func CassetteTape(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cast is the icon from cast.svg v0.367.0 file
+// Cast icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cast.svg
 func Cast(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2251,7 +2251,7 @@ func Cast(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Castle is the icon from castle.svg v0.367.0 file
+// Castle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/castle.svg
 func Castle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2259,7 +2259,7 @@ func Castle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cat is the icon from cat.svg v0.367.0 file
+// Cat icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cat.svg
 func Cat(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2267,7 +2267,7 @@ func Cat(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cctv is the icon from cctv.svg v0.367.0 file
+// Cctv icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cctv.svg
 func Cctv(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2275,7 +2275,7 @@ func Cctv(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CheckCheck is the icon from check-check.svg v0.367.0 file
+// CheckCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/check-check.svg
 func CheckCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2283,7 +2283,7 @@ func CheckCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Check is the icon from check.svg v0.367.0 file
+// Check icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/check.svg
 func Check(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2291,7 +2291,7 @@ func Check(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChefHat is the icon from chef-hat.svg v0.367.0 file
+// ChefHat icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chef-hat.svg
 func ChefHat(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2299,7 +2299,7 @@ func ChefHat(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cherry is the icon from cherry.svg v0.367.0 file
+// Cherry icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cherry.svg
 func Cherry(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2307,7 +2307,7 @@ func Cherry(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronDown is the icon from chevron-down.svg v0.367.0 file
+// ChevronDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevron-down.svg
 func ChevronDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2315,7 +2315,7 @@ func ChevronDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronFirst is the icon from chevron-first.svg v0.367.0 file
+// ChevronFirst icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevron-first.svg
 func ChevronFirst(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2323,7 +2323,7 @@ func ChevronFirst(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronLast is the icon from chevron-last.svg v0.367.0 file
+// ChevronLast icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevron-last.svg
 func ChevronLast(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2331,7 +2331,7 @@ func ChevronLast(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronLeft is the icon from chevron-left.svg v0.367.0 file
+// ChevronLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevron-left.svg
 func ChevronLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2339,7 +2339,7 @@ func ChevronLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronRight is the icon from chevron-right.svg v0.367.0 file
+// ChevronRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevron-right.svg
 func ChevronRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2347,7 +2347,7 @@ func ChevronRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronUp is the icon from chevron-up.svg v0.367.0 file
+// ChevronUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevron-up.svg
 func ChevronUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2355,7 +2355,7 @@ func ChevronUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronsDownUp is the icon from chevrons-down-up.svg v0.367.0 file
+// ChevronsDownUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevrons-down-up.svg
 func ChevronsDownUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2363,7 +2363,7 @@ func ChevronsDownUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronsDown is the icon from chevrons-down.svg v0.367.0 file
+// ChevronsDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevrons-down.svg
 func ChevronsDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2371,7 +2371,7 @@ func ChevronsDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronsLeftRight is the icon from chevrons-left-right.svg v0.367.0 file
+// ChevronsLeftRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevrons-left-right.svg
 func ChevronsLeftRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2379,7 +2379,7 @@ func ChevronsLeftRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronsLeft is the icon from chevrons-left.svg v0.367.0 file
+// ChevronsLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevrons-left.svg
 func ChevronsLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2387,7 +2387,7 @@ func ChevronsLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronsRightLeft is the icon from chevrons-right-left.svg v0.367.0 file
+// ChevronsRightLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevrons-right-left.svg
 func ChevronsRightLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2395,7 +2395,7 @@ func ChevronsRightLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronsRight is the icon from chevrons-right.svg v0.367.0 file
+// ChevronsRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevrons-right.svg
 func ChevronsRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2403,7 +2403,7 @@ func ChevronsRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronsUpDown is the icon from chevrons-up-down.svg v0.367.0 file
+// ChevronsUpDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevrons-up-down.svg
 func ChevronsUpDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2411,7 +2411,7 @@ func ChevronsUpDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ChevronsUp is the icon from chevrons-up.svg v0.367.0 file
+// ChevronsUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chevrons-up.svg
 func ChevronsUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2419,7 +2419,7 @@ func ChevronsUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Chrome is the icon from chrome.svg v0.367.0 file
+// Chrome icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/chrome.svg
 func Chrome(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2427,7 +2427,7 @@ func Chrome(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Church is the icon from church.svg v0.367.0 file
+// Church icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/church.svg
 func Church(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2435,7 +2435,7 @@ func Church(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CigaretteOff is the icon from cigarette-off.svg v0.367.0 file
+// CigaretteOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cigarette-off.svg
 func CigaretteOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2443,7 +2443,7 @@ func CigaretteOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cigarette is the icon from cigarette.svg v0.367.0 file
+// Cigarette icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cigarette.svg
 func Cigarette(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2451,7 +2451,7 @@ func Cigarette(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleAlert is the icon from circle-alert.svg v0.367.0 file
+// CircleAlert icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-alert.svg
 func CircleAlert(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2459,7 +2459,7 @@ func CircleAlert(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleArrowDown is the icon from circle-arrow-down.svg v0.367.0 file
+// CircleArrowDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-arrow-down.svg
 func CircleArrowDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2467,7 +2467,7 @@ func CircleArrowDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleArrowLeft is the icon from circle-arrow-left.svg v0.367.0 file
+// CircleArrowLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-arrow-left.svg
 func CircleArrowLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2475,7 +2475,7 @@ func CircleArrowLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleArrowOutDownLeft is the icon from circle-arrow-out-down-left.svg v0.367.0 file
+// CircleArrowOutDownLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-arrow-out-down-left.svg
 func CircleArrowOutDownLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2483,7 +2483,7 @@ func CircleArrowOutDownLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleArrowOutDownRight is the icon from circle-arrow-out-down-right.svg v0.367.0 file
+// CircleArrowOutDownRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-arrow-out-down-right.svg
 func CircleArrowOutDownRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2491,7 +2491,7 @@ func CircleArrowOutDownRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleArrowOutUpLeft is the icon from circle-arrow-out-up-left.svg v0.367.0 file
+// CircleArrowOutUpLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-arrow-out-up-left.svg
 func CircleArrowOutUpLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2499,7 +2499,7 @@ func CircleArrowOutUpLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleArrowOutUpRight is the icon from circle-arrow-out-up-right.svg v0.367.0 file
+// CircleArrowOutUpRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-arrow-out-up-right.svg
 func CircleArrowOutUpRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2507,7 +2507,7 @@ func CircleArrowOutUpRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleArrowRight is the icon from circle-arrow-right.svg v0.367.0 file
+// CircleArrowRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-arrow-right.svg
 func CircleArrowRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2515,7 +2515,7 @@ func CircleArrowRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleArrowUp is the icon from circle-arrow-up.svg v0.367.0 file
+// CircleArrowUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-arrow-up.svg
 func CircleArrowUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2523,7 +2523,7 @@ func CircleArrowUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleCheckBig is the icon from circle-check-big.svg v0.367.0 file
+// CircleCheckBig icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-check-big.svg
 func CircleCheckBig(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2531,7 +2531,7 @@ func CircleCheckBig(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleCheck is the icon from circle-check.svg v0.367.0 file
+// CircleCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-check.svg
 func CircleCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2539,7 +2539,7 @@ func CircleCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleChevronDown is the icon from circle-chevron-down.svg v0.367.0 file
+// CircleChevronDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-chevron-down.svg
 func CircleChevronDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2547,7 +2547,7 @@ func CircleChevronDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleChevronLeft is the icon from circle-chevron-left.svg v0.367.0 file
+// CircleChevronLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-chevron-left.svg
 func CircleChevronLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2555,7 +2555,7 @@ func CircleChevronLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleChevronRight is the icon from circle-chevron-right.svg v0.367.0 file
+// CircleChevronRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-chevron-right.svg
 func CircleChevronRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2563,7 +2563,7 @@ func CircleChevronRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleChevronUp is the icon from circle-chevron-up.svg v0.367.0 file
+// CircleChevronUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-chevron-up.svg
 func CircleChevronUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2571,7 +2571,7 @@ func CircleChevronUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleDashed is the icon from circle-dashed.svg v0.367.0 file
+// CircleDashed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-dashed.svg
 func CircleDashed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2579,7 +2579,7 @@ func CircleDashed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleDivide is the icon from circle-divide.svg v0.367.0 file
+// CircleDivide icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-divide.svg
 func CircleDivide(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2587,7 +2587,7 @@ func CircleDivide(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleDollarSign is the icon from circle-dollar-sign.svg v0.367.0 file
+// CircleDollarSign icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-dollar-sign.svg
 func CircleDollarSign(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2595,7 +2595,7 @@ func CircleDollarSign(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleDotDashed is the icon from circle-dot-dashed.svg v0.367.0 file
+// CircleDotDashed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-dot-dashed.svg
 func CircleDotDashed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2603,7 +2603,7 @@ func CircleDotDashed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleDot is the icon from circle-dot.svg v0.367.0 file
+// CircleDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-dot.svg
 func CircleDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2611,7 +2611,7 @@ func CircleDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleEllipsis is the icon from circle-ellipsis.svg v0.367.0 file
+// CircleEllipsis icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-ellipsis.svg
 func CircleEllipsis(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2619,7 +2619,7 @@ func CircleEllipsis(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleEqual is the icon from circle-equal.svg v0.367.0 file
+// CircleEqual icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-equal.svg
 func CircleEqual(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2627,7 +2627,7 @@ func CircleEqual(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleFadingPlus is the icon from circle-fading-plus.svg v0.367.0 file
+// CircleFadingPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-fading-plus.svg
 func CircleFadingPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2635,7 +2635,7 @@ func CircleFadingPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleGauge is the icon from circle-gauge.svg v0.367.0 file
+// CircleGauge icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-gauge.svg
 func CircleGauge(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2643,7 +2643,7 @@ func CircleGauge(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleHelp is the icon from circle-help.svg v0.367.0 file
+// CircleHelp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-help.svg
 func CircleHelp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2651,7 +2651,7 @@ func CircleHelp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleMinus is the icon from circle-minus.svg v0.367.0 file
+// CircleMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-minus.svg
 func CircleMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2659,7 +2659,7 @@ func CircleMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleOff is the icon from circle-off.svg v0.367.0 file
+// CircleOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-off.svg
 func CircleOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2667,7 +2667,7 @@ func CircleOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleParkingOff is the icon from circle-parking-off.svg v0.367.0 file
+// CircleParkingOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-parking-off.svg
 func CircleParkingOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2675,7 +2675,7 @@ func CircleParkingOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleParking is the icon from circle-parking.svg v0.367.0 file
+// CircleParking icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-parking.svg
 func CircleParking(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2683,7 +2683,7 @@ func CircleParking(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CirclePause is the icon from circle-pause.svg v0.367.0 file
+// CirclePause icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-pause.svg
 func CirclePause(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2691,7 +2691,7 @@ func CirclePause(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CirclePercent is the icon from circle-percent.svg v0.367.0 file
+// CirclePercent icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-percent.svg
 func CirclePercent(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2699,7 +2699,7 @@ func CirclePercent(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CirclePlay is the icon from circle-play.svg v0.367.0 file
+// CirclePlay icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-play.svg
 func CirclePlay(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2707,7 +2707,7 @@ func CirclePlay(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CirclePlus is the icon from circle-plus.svg v0.367.0 file
+// CirclePlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-plus.svg
 func CirclePlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2715,7 +2715,7 @@ func CirclePlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CirclePower is the icon from circle-power.svg v0.367.0 file
+// CirclePower icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-power.svg
 func CirclePower(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2723,7 +2723,7 @@ func CirclePower(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleSlash2 is the icon from circle-slash-2.svg v0.367.0 file
+// CircleSlash2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-slash-2.svg
 func CircleSlash2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2731,7 +2731,7 @@ func CircleSlash2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleSlash is the icon from circle-slash.svg v0.367.0 file
+// CircleSlash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-slash.svg
 func CircleSlash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2739,7 +2739,7 @@ func CircleSlash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleStop is the icon from circle-stop.svg v0.367.0 file
+// CircleStop icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-stop.svg
 func CircleStop(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2747,7 +2747,7 @@ func CircleStop(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleUserRound is the icon from circle-user-round.svg v0.367.0 file
+// CircleUserRound icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-user-round.svg
 func CircleUserRound(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2755,7 +2755,7 @@ func CircleUserRound(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleUser is the icon from circle-user.svg v0.367.0 file
+// CircleUser icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-user.svg
 func CircleUser(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2763,7 +2763,7 @@ func CircleUser(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircleX is the icon from circle-x.svg v0.367.0 file
+// CircleX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle-x.svg
 func CircleX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2771,7 +2771,7 @@ func CircleX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Circle is the icon from circle.svg v0.367.0 file
+// Circle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circle.svg
 func Circle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2779,7 +2779,7 @@ func Circle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CircuitBoard is the icon from circuit-board.svg v0.367.0 file
+// CircuitBoard icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/circuit-board.svg
 func CircuitBoard(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2787,7 +2787,7 @@ func CircuitBoard(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Citrus is the icon from citrus.svg v0.367.0 file
+// Citrus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/citrus.svg
 func Citrus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2795,7 +2795,7 @@ func Citrus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clapperboard is the icon from clapperboard.svg v0.367.0 file
+// Clapperboard icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clapperboard.svg
 func Clapperboard(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2803,7 +2803,7 @@ func Clapperboard(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ClipboardCheck is the icon from clipboard-check.svg v0.367.0 file
+// ClipboardCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clipboard-check.svg
 func ClipboardCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2811,7 +2811,7 @@ func ClipboardCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ClipboardCopy is the icon from clipboard-copy.svg v0.367.0 file
+// ClipboardCopy icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clipboard-copy.svg
 func ClipboardCopy(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2819,7 +2819,7 @@ func ClipboardCopy(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ClipboardList is the icon from clipboard-list.svg v0.367.0 file
+// ClipboardList icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clipboard-list.svg
 func ClipboardList(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2827,7 +2827,7 @@ func ClipboardList(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ClipboardMinus is the icon from clipboard-minus.svg v0.367.0 file
+// ClipboardMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clipboard-minus.svg
 func ClipboardMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2835,7 +2835,7 @@ func ClipboardMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ClipboardPaste is the icon from clipboard-paste.svg v0.367.0 file
+// ClipboardPaste icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clipboard-paste.svg
 func ClipboardPaste(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2843,7 +2843,7 @@ func ClipboardPaste(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ClipboardPenLine is the icon from clipboard-pen-line.svg v0.367.0 file
+// ClipboardPenLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clipboard-pen-line.svg
 func ClipboardPenLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2851,7 +2851,7 @@ func ClipboardPenLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ClipboardPen is the icon from clipboard-pen.svg v0.367.0 file
+// ClipboardPen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clipboard-pen.svg
 func ClipboardPen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2859,7 +2859,7 @@ func ClipboardPen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ClipboardPlus is the icon from clipboard-plus.svg v0.367.0 file
+// ClipboardPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clipboard-plus.svg
 func ClipboardPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2867,7 +2867,7 @@ func ClipboardPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ClipboardType is the icon from clipboard-type.svg v0.367.0 file
+// ClipboardType icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clipboard-type.svg
 func ClipboardType(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2875,7 +2875,7 @@ func ClipboardType(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ClipboardX is the icon from clipboard-x.svg v0.367.0 file
+// ClipboardX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clipboard-x.svg
 func ClipboardX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2883,7 +2883,7 @@ func ClipboardX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clipboard is the icon from clipboard.svg v0.367.0 file
+// Clipboard icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clipboard.svg
 func Clipboard(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2891,7 +2891,7 @@ func Clipboard(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock1 is the icon from clock-1.svg v0.367.0 file
+// Clock1 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-1.svg
 func Clock1(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2899,7 +2899,7 @@ func Clock1(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock10 is the icon from clock-10.svg v0.367.0 file
+// Clock10 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-10.svg
 func Clock10(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2907,7 +2907,7 @@ func Clock10(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock11 is the icon from clock-11.svg v0.367.0 file
+// Clock11 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-11.svg
 func Clock11(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2915,7 +2915,7 @@ func Clock11(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock12 is the icon from clock-12.svg v0.367.0 file
+// Clock12 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-12.svg
 func Clock12(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2923,7 +2923,7 @@ func Clock12(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock2 is the icon from clock-2.svg v0.367.0 file
+// Clock2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-2.svg
 func Clock2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2931,7 +2931,7 @@ func Clock2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock3 is the icon from clock-3.svg v0.367.0 file
+// Clock3 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-3.svg
 func Clock3(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2939,7 +2939,7 @@ func Clock3(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock4 is the icon from clock-4.svg v0.367.0 file
+// Clock4 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-4.svg
 func Clock4(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2947,7 +2947,7 @@ func Clock4(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock5 is the icon from clock-5.svg v0.367.0 file
+// Clock5 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-5.svg
 func Clock5(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2955,7 +2955,7 @@ func Clock5(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock6 is the icon from clock-6.svg v0.367.0 file
+// Clock6 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-6.svg
 func Clock6(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2963,7 +2963,7 @@ func Clock6(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock7 is the icon from clock-7.svg v0.367.0 file
+// Clock7 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-7.svg
 func Clock7(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2971,7 +2971,7 @@ func Clock7(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock8 is the icon from clock-8.svg v0.367.0 file
+// Clock8 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-8.svg
 func Clock8(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2979,7 +2979,7 @@ func Clock8(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock9 is the icon from clock-9.svg v0.367.0 file
+// Clock9 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock-9.svg
 func Clock9(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2987,7 +2987,7 @@ func Clock9(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clock is the icon from clock.svg v0.367.0 file
+// Clock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clock.svg
 func Clock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -2995,7 +2995,7 @@ func Clock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudCog is the icon from cloud-cog.svg v0.367.0 file
+// CloudCog icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-cog.svg
 func CloudCog(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3003,7 +3003,7 @@ func CloudCog(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudDownload is the icon from cloud-download.svg v0.367.0 file
+// CloudDownload icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-download.svg
 func CloudDownload(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3011,7 +3011,7 @@ func CloudDownload(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudDrizzle is the icon from cloud-drizzle.svg v0.367.0 file
+// CloudDrizzle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-drizzle.svg
 func CloudDrizzle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3019,7 +3019,7 @@ func CloudDrizzle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudFog is the icon from cloud-fog.svg v0.367.0 file
+// CloudFog icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-fog.svg
 func CloudFog(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3027,7 +3027,7 @@ func CloudFog(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudHail is the icon from cloud-hail.svg v0.367.0 file
+// CloudHail icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-hail.svg
 func CloudHail(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3035,7 +3035,7 @@ func CloudHail(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudLightning is the icon from cloud-lightning.svg v0.367.0 file
+// CloudLightning icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-lightning.svg
 func CloudLightning(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3043,7 +3043,7 @@ func CloudLightning(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudMoonRain is the icon from cloud-moon-rain.svg v0.367.0 file
+// CloudMoonRain icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-moon-rain.svg
 func CloudMoonRain(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3051,7 +3051,7 @@ func CloudMoonRain(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudMoon is the icon from cloud-moon.svg v0.367.0 file
+// CloudMoon icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-moon.svg
 func CloudMoon(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3059,7 +3059,7 @@ func CloudMoon(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudOff is the icon from cloud-off.svg v0.367.0 file
+// CloudOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-off.svg
 func CloudOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3067,7 +3067,7 @@ func CloudOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudRainWind is the icon from cloud-rain-wind.svg v0.367.0 file
+// CloudRainWind icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-rain-wind.svg
 func CloudRainWind(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3075,7 +3075,7 @@ func CloudRainWind(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudRain is the icon from cloud-rain.svg v0.367.0 file
+// CloudRain icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-rain.svg
 func CloudRain(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3083,7 +3083,7 @@ func CloudRain(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudSnow is the icon from cloud-snow.svg v0.367.0 file
+// CloudSnow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-snow.svg
 func CloudSnow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3091,7 +3091,7 @@ func CloudSnow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudSunRain is the icon from cloud-sun-rain.svg v0.367.0 file
+// CloudSunRain icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-sun-rain.svg
 func CloudSunRain(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3099,7 +3099,7 @@ func CloudSunRain(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudSun is the icon from cloud-sun.svg v0.367.0 file
+// CloudSun icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-sun.svg
 func CloudSun(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3107,7 +3107,7 @@ func CloudSun(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CloudUpload is the icon from cloud-upload.svg v0.367.0 file
+// CloudUpload icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud-upload.svg
 func CloudUpload(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3115,7 +3115,7 @@ func CloudUpload(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cloud is the icon from cloud.svg v0.367.0 file
+// Cloud icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloud.svg
 func Cloud(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3123,7 +3123,7 @@ func Cloud(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cloudy is the icon from cloudy.svg v0.367.0 file
+// Cloudy icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cloudy.svg
 func Cloudy(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3131,7 +3131,7 @@ func Cloudy(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Clover is the icon from clover.svg v0.367.0 file
+// Clover icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/clover.svg
 func Clover(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3139,7 +3139,7 @@ func Clover(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Club is the icon from club.svg v0.367.0 file
+// Club icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/club.svg
 func Club(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3147,7 +3147,7 @@ func Club(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CodeXml is the icon from code-xml.svg v0.367.0 file
+// CodeXml icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/code-xml.svg
 func CodeXml(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3155,7 +3155,7 @@ func CodeXml(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Code is the icon from code.svg v0.367.0 file
+// Code icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/code.svg
 func Code(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3163,7 +3163,7 @@ func Code(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Codepen is the icon from codepen.svg v0.367.0 file
+// Codepen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/codepen.svg
 func Codepen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3171,7 +3171,7 @@ func Codepen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Codesandbox is the icon from codesandbox.svg v0.367.0 file
+// Codesandbox icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/codesandbox.svg
 func Codesandbox(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3179,7 +3179,7 @@ func Codesandbox(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Coffee is the icon from coffee.svg v0.367.0 file
+// Coffee icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/coffee.svg
 func Coffee(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3187,7 +3187,7 @@ func Coffee(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cog is the icon from cog.svg v0.367.0 file
+// Cog icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cog.svg
 func Cog(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3195,7 +3195,7 @@ func Cog(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Coins is the icon from coins.svg v0.367.0 file
+// Coins icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/coins.svg
 func Coins(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3203,7 +3203,7 @@ func Coins(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Columns2 is the icon from columns-2.svg v0.367.0 file
+// Columns2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/columns-2.svg
 func Columns2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3211,7 +3211,7 @@ func Columns2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Columns3 is the icon from columns-3.svg v0.367.0 file
+// Columns3 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/columns-3.svg
 func Columns3(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3219,7 +3219,7 @@ func Columns3(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Columns4 is the icon from columns-4.svg v0.367.0 file
+// Columns4 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/columns-4.svg
 func Columns4(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3227,7 +3227,7 @@ func Columns4(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Combine is the icon from combine.svg v0.367.0 file
+// Combine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/combine.svg
 func Combine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3235,7 +3235,7 @@ func Combine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Command is the icon from command.svg v0.367.0 file
+// Command icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/command.svg
 func Command(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3243,7 +3243,7 @@ func Command(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Compass is the icon from compass.svg v0.367.0 file
+// Compass icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/compass.svg
 func Compass(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3251,7 +3251,7 @@ func Compass(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Component is the icon from component.svg v0.367.0 file
+// Component icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/component.svg
 func Component(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3259,7 +3259,7 @@ func Component(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Computer is the icon from computer.svg v0.367.0 file
+// Computer icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/computer.svg
 func Computer(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3267,7 +3267,7 @@ func Computer(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ConciergeBell is the icon from concierge-bell.svg v0.367.0 file
+// ConciergeBell icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/concierge-bell.svg
 func ConciergeBell(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3275,7 +3275,7 @@ func ConciergeBell(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cone is the icon from cone.svg v0.367.0 file
+// Cone icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cone.svg
 func Cone(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3283,7 +3283,7 @@ func Cone(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Construction is the icon from construction.svg v0.367.0 file
+// Construction icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/construction.svg
 func Construction(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3291,7 +3291,7 @@ func Construction(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ContactRound is the icon from contact-round.svg v0.367.0 file
+// ContactRound icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/contact-round.svg
 func ContactRound(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3299,7 +3299,7 @@ func ContactRound(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Contact is the icon from contact.svg v0.367.0 file
+// Contact icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/contact.svg
 func Contact(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3307,7 +3307,7 @@ func Contact(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Container is the icon from container.svg v0.367.0 file
+// Container icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/container.svg
 func Container(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3315,7 +3315,7 @@ func Container(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Contrast is the icon from contrast.svg v0.367.0 file
+// Contrast icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/contrast.svg
 func Contrast(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3323,7 +3323,7 @@ func Contrast(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cookie is the icon from cookie.svg v0.367.0 file
+// Cookie icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cookie.svg
 func Cookie(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3331,7 +3331,7 @@ func Cookie(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CookingPot is the icon from cooking-pot.svg v0.367.0 file
+// CookingPot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cooking-pot.svg
 func CookingPot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3339,7 +3339,7 @@ func CookingPot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CopyCheck is the icon from copy-check.svg v0.367.0 file
+// CopyCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/copy-check.svg
 func CopyCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3347,7 +3347,7 @@ func CopyCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CopyMinus is the icon from copy-minus.svg v0.367.0 file
+// CopyMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/copy-minus.svg
 func CopyMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3355,7 +3355,7 @@ func CopyMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CopyPlus is the icon from copy-plus.svg v0.367.0 file
+// CopyPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/copy-plus.svg
 func CopyPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3363,7 +3363,7 @@ func CopyPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CopySlash is the icon from copy-slash.svg v0.367.0 file
+// CopySlash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/copy-slash.svg
 func CopySlash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3371,7 +3371,7 @@ func CopySlash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CopyX is the icon from copy-x.svg v0.367.0 file
+// CopyX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/copy-x.svg
 func CopyX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3379,7 +3379,7 @@ func CopyX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Copy is the icon from copy.svg v0.367.0 file
+// Copy icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/copy.svg
 func Copy(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3387,7 +3387,7 @@ func Copy(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Copyleft is the icon from copyleft.svg v0.367.0 file
+// Copyleft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/copyleft.svg
 func Copyleft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3395,7 +3395,7 @@ func Copyleft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Copyright is the icon from copyright.svg v0.367.0 file
+// Copyright icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/copyright.svg
 func Copyright(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3403,7 +3403,7 @@ func Copyright(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CornerDownLeft is the icon from corner-down-left.svg v0.367.0 file
+// CornerDownLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/corner-down-left.svg
 func CornerDownLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3411,7 +3411,7 @@ func CornerDownLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CornerDownRight is the icon from corner-down-right.svg v0.367.0 file
+// CornerDownRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/corner-down-right.svg
 func CornerDownRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3419,7 +3419,7 @@ func CornerDownRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CornerLeftDown is the icon from corner-left-down.svg v0.367.0 file
+// CornerLeftDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/corner-left-down.svg
 func CornerLeftDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3427,7 +3427,7 @@ func CornerLeftDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CornerLeftUp is the icon from corner-left-up.svg v0.367.0 file
+// CornerLeftUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/corner-left-up.svg
 func CornerLeftUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3435,7 +3435,7 @@ func CornerLeftUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CornerRightDown is the icon from corner-right-down.svg v0.367.0 file
+// CornerRightDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/corner-right-down.svg
 func CornerRightDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3443,7 +3443,7 @@ func CornerRightDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CornerRightUp is the icon from corner-right-up.svg v0.367.0 file
+// CornerRightUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/corner-right-up.svg
 func CornerRightUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3451,7 +3451,7 @@ func CornerRightUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CornerUpLeft is the icon from corner-up-left.svg v0.367.0 file
+// CornerUpLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/corner-up-left.svg
 func CornerUpLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3459,7 +3459,7 @@ func CornerUpLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CornerUpRight is the icon from corner-up-right.svg v0.367.0 file
+// CornerUpRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/corner-up-right.svg
 func CornerUpRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3467,7 +3467,7 @@ func CornerUpRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cpu is the icon from cpu.svg v0.367.0 file
+// Cpu icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cpu.svg
 func Cpu(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3475,7 +3475,7 @@ func Cpu(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CreativeCommons is the icon from creative-commons.svg v0.367.0 file
+// CreativeCommons icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/creative-commons.svg
 func CreativeCommons(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3483,7 +3483,7 @@ func CreativeCommons(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CreditCard is the icon from credit-card.svg v0.367.0 file
+// CreditCard icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/credit-card.svg
 func CreditCard(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3491,7 +3491,7 @@ func CreditCard(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Croissant is the icon from croissant.svg v0.367.0 file
+// Croissant icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/croissant.svg
 func Croissant(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3499,7 +3499,7 @@ func Croissant(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Crop is the icon from crop.svg v0.367.0 file
+// Crop icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/crop.svg
 func Crop(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3507,7 +3507,7 @@ func Crop(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cross is the icon from cross.svg v0.367.0 file
+// Cross icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cross.svg
 func Cross(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3515,7 +3515,7 @@ func Cross(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Crosshair is the icon from crosshair.svg v0.367.0 file
+// Crosshair icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/crosshair.svg
 func Crosshair(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3523,7 +3523,7 @@ func Crosshair(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Crown is the icon from crown.svg v0.367.0 file
+// Crown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/crown.svg
 func Crown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3531,7 +3531,7 @@ func Crown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cuboid is the icon from cuboid.svg v0.367.0 file
+// Cuboid icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cuboid.svg
 func Cuboid(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3539,7 +3539,7 @@ func Cuboid(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// CupSoda is the icon from cup-soda.svg v0.367.0 file
+// CupSoda icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cup-soda.svg
 func CupSoda(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3547,7 +3547,7 @@ func CupSoda(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Currency is the icon from currency.svg v0.367.0 file
+// Currency icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/currency.svg
 func Currency(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3555,7 +3555,7 @@ func Currency(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Cylinder is the icon from cylinder.svg v0.367.0 file
+// Cylinder icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/cylinder.svg
 func Cylinder(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3563,7 +3563,7 @@ func Cylinder(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// DatabaseBackup is the icon from database-backup.svg v0.367.0 file
+// DatabaseBackup icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/database-backup.svg
 func DatabaseBackup(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3571,7 +3571,7 @@ func DatabaseBackup(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// DatabaseZap is the icon from database-zap.svg v0.367.0 file
+// DatabaseZap icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/database-zap.svg
 func DatabaseZap(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3579,7 +3579,7 @@ func DatabaseZap(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Database is the icon from database.svg v0.367.0 file
+// Database icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/database.svg
 func Database(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3587,7 +3587,7 @@ func Database(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Delete is the icon from delete.svg v0.367.0 file
+// Delete icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/delete.svg
 func Delete(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3595,7 +3595,7 @@ func Delete(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dessert is the icon from dessert.svg v0.367.0 file
+// Dessert icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dessert.svg
 func Dessert(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3603,7 +3603,7 @@ func Dessert(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Diameter is the icon from diameter.svg v0.367.0 file
+// Diameter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/diameter.svg
 func Diameter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3611,7 +3611,7 @@ func Diameter(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// DiamondPercent is the icon from diamond-percent.svg v0.367.0 file
+// DiamondPercent icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/diamond-percent.svg
 func DiamondPercent(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3619,7 +3619,7 @@ func DiamondPercent(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Diamond is the icon from diamond.svg v0.367.0 file
+// Diamond icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/diamond.svg
 func Diamond(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3627,7 +3627,7 @@ func Diamond(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dice1 is the icon from dice-1.svg v0.367.0 file
+// Dice1 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dice-1.svg
 func Dice1(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3635,7 +3635,7 @@ func Dice1(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dice2 is the icon from dice-2.svg v0.367.0 file
+// Dice2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dice-2.svg
 func Dice2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3643,7 +3643,7 @@ func Dice2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dice3 is the icon from dice-3.svg v0.367.0 file
+// Dice3 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dice-3.svg
 func Dice3(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3651,7 +3651,7 @@ func Dice3(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dice4 is the icon from dice-4.svg v0.367.0 file
+// Dice4 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dice-4.svg
 func Dice4(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3659,7 +3659,7 @@ func Dice4(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dice5 is the icon from dice-5.svg v0.367.0 file
+// Dice5 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dice-5.svg
 func Dice5(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3667,7 +3667,7 @@ func Dice5(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dice6 is the icon from dice-6.svg v0.367.0 file
+// Dice6 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dice-6.svg
 func Dice6(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3675,7 +3675,7 @@ func Dice6(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dices is the icon from dices.svg v0.367.0 file
+// Dices icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dices.svg
 func Dices(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3683,7 +3683,7 @@ func Dices(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Diff is the icon from diff.svg v0.367.0 file
+// Diff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/diff.svg
 func Diff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3691,7 +3691,7 @@ func Diff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Disc2 is the icon from disc-2.svg v0.367.0 file
+// Disc2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/disc-2.svg
 func Disc2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3699,7 +3699,7 @@ func Disc2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Disc3 is the icon from disc-3.svg v0.367.0 file
+// Disc3 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/disc-3.svg
 func Disc3(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3707,7 +3707,7 @@ func Disc3(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// DiscAlbum is the icon from disc-album.svg v0.367.0 file
+// DiscAlbum icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/disc-album.svg
 func DiscAlbum(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3715,7 +3715,7 @@ func DiscAlbum(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Disc is the icon from disc.svg v0.367.0 file
+// Disc icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/disc.svg
 func Disc(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3723,7 +3723,7 @@ func Disc(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Divide is the icon from divide.svg v0.367.0 file
+// Divide icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/divide.svg
 func Divide(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3731,7 +3731,7 @@ func Divide(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// DnaOff is the icon from dna-off.svg v0.367.0 file
+// DnaOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dna-off.svg
 func DnaOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3739,7 +3739,7 @@ func DnaOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dna is the icon from dna.svg v0.367.0 file
+// Dna icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dna.svg
 func Dna(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3747,7 +3747,7 @@ func Dna(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dock is the icon from dock.svg v0.367.0 file
+// Dock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dock.svg
 func Dock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3755,7 +3755,7 @@ func Dock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dog is the icon from dog.svg v0.367.0 file
+// Dog icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dog.svg
 func Dog(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3763,7 +3763,7 @@ func Dog(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// DollarSign is the icon from dollar-sign.svg v0.367.0 file
+// DollarSign icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dollar-sign.svg
 func DollarSign(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3771,7 +3771,7 @@ func DollarSign(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Donut is the icon from donut.svg v0.367.0 file
+// Donut icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/donut.svg
 func Donut(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3779,7 +3779,7 @@ func Donut(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// DoorClosed is the icon from door-closed.svg v0.367.0 file
+// DoorClosed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/door-closed.svg
 func DoorClosed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3787,7 +3787,7 @@ func DoorClosed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// DoorOpen is the icon from door-open.svg v0.367.0 file
+// DoorOpen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/door-open.svg
 func DoorOpen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3795,7 +3795,7 @@ func DoorOpen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dot is the icon from dot.svg v0.367.0 file
+// Dot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dot.svg
 func Dot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3803,7 +3803,7 @@ func Dot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Download is the icon from download.svg v0.367.0 file
+// Download icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/download.svg
 func Download(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3811,7 +3811,7 @@ func Download(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// DraftingCompass is the icon from drafting-compass.svg v0.367.0 file
+// DraftingCompass icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/drafting-compass.svg
 func DraftingCompass(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3819,7 +3819,7 @@ func DraftingCompass(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Drama is the icon from drama.svg v0.367.0 file
+// Drama icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/drama.svg
 func Drama(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3827,7 +3827,7 @@ func Drama(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dribbble is the icon from dribbble.svg v0.367.0 file
+// Dribbble icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dribbble.svg
 func Dribbble(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3835,7 +3835,7 @@ func Dribbble(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Drill is the icon from drill.svg v0.367.0 file
+// Drill icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/drill.svg
 func Drill(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3843,7 +3843,7 @@ func Drill(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Droplet is the icon from droplet.svg v0.367.0 file
+// Droplet icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/droplet.svg
 func Droplet(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3851,7 +3851,7 @@ func Droplet(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Droplets is the icon from droplets.svg v0.367.0 file
+// Droplets icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/droplets.svg
 func Droplets(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3859,7 +3859,7 @@ func Droplets(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Drum is the icon from drum.svg v0.367.0 file
+// Drum icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/drum.svg
 func Drum(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3867,7 +3867,7 @@ func Drum(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Drumstick is the icon from drumstick.svg v0.367.0 file
+// Drumstick icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/drumstick.svg
 func Drumstick(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3875,7 +3875,7 @@ func Drumstick(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Dumbbell is the icon from dumbbell.svg v0.367.0 file
+// Dumbbell icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/dumbbell.svg
 func Dumbbell(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3883,7 +3883,7 @@ func Dumbbell(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// EarOff is the icon from ear-off.svg v0.367.0 file
+// EarOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ear-off.svg
 func EarOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3891,7 +3891,7 @@ func EarOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ear is the icon from ear.svg v0.367.0 file
+// Ear icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ear.svg
 func Ear(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3899,7 +3899,7 @@ func Ear(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// EarthLock is the icon from earth-lock.svg v0.367.0 file
+// EarthLock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/earth-lock.svg
 func EarthLock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3907,7 +3907,7 @@ func EarthLock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Earth is the icon from earth.svg v0.367.0 file
+// Earth icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/earth.svg
 func Earth(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3915,7 +3915,7 @@ func Earth(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Eclipse is the icon from eclipse.svg v0.367.0 file
+// Eclipse icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/eclipse.svg
 func Eclipse(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3923,7 +3923,7 @@ func Eclipse(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// EggFried is the icon from egg-fried.svg v0.367.0 file
+// EggFried icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/egg-fried.svg
 func EggFried(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3931,7 +3931,7 @@ func EggFried(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// EggOff is the icon from egg-off.svg v0.367.0 file
+// EggOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/egg-off.svg
 func EggOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3939,7 +3939,7 @@ func EggOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Egg is the icon from egg.svg v0.367.0 file
+// Egg icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/egg.svg
 func Egg(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3947,7 +3947,7 @@ func Egg(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// EllipsisVertical is the icon from ellipsis-vertical.svg v0.367.0 file
+// EllipsisVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ellipsis-vertical.svg
 func EllipsisVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3955,7 +3955,7 @@ func EllipsisVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ellipsis is the icon from ellipsis.svg v0.367.0 file
+// Ellipsis icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ellipsis.svg
 func Ellipsis(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3963,7 +3963,7 @@ func Ellipsis(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// EqualNot is the icon from equal-not.svg v0.367.0 file
+// EqualNot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/equal-not.svg
 func EqualNot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3971,7 +3971,7 @@ func EqualNot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Equal is the icon from equal.svg v0.367.0 file
+// Equal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/equal.svg
 func Equal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3979,7 +3979,7 @@ func Equal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Eraser is the icon from eraser.svg v0.367.0 file
+// Eraser icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/eraser.svg
 func Eraser(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3987,7 +3987,7 @@ func Eraser(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Euro is the icon from euro.svg v0.367.0 file
+// Euro icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/euro.svg
 func Euro(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -3995,7 +3995,7 @@ func Euro(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Expand is the icon from expand.svg v0.367.0 file
+// Expand icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/expand.svg
 func Expand(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4003,7 +4003,7 @@ func Expand(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ExternalLink is the icon from external-link.svg v0.367.0 file
+// ExternalLink icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/external-link.svg
 func ExternalLink(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4011,7 +4011,7 @@ func ExternalLink(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// EyeOff is the icon from eye-off.svg v0.367.0 file
+// EyeOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/eye-off.svg
 func EyeOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4019,7 +4019,7 @@ func EyeOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Eye is the icon from eye.svg v0.367.0 file
+// Eye icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/eye.svg
 func Eye(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4027,7 +4027,7 @@ func Eye(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Facebook is the icon from facebook.svg v0.367.0 file
+// Facebook icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/facebook.svg
 func Facebook(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4035,7 +4035,7 @@ func Facebook(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Factory is the icon from factory.svg v0.367.0 file
+// Factory icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/factory.svg
 func Factory(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4043,7 +4043,7 @@ func Factory(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Fan is the icon from fan.svg v0.367.0 file
+// Fan icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fan.svg
 func Fan(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4051,7 +4051,7 @@ func Fan(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FastForward is the icon from fast-forward.svg v0.367.0 file
+// FastForward icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fast-forward.svg
 func FastForward(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4059,7 +4059,7 @@ func FastForward(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Feather is the icon from feather.svg v0.367.0 file
+// Feather icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/feather.svg
 func Feather(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4067,7 +4067,7 @@ func Feather(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Fence is the icon from fence.svg v0.367.0 file
+// Fence icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fence.svg
 func Fence(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4075,7 +4075,7 @@ func Fence(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FerrisWheel is the icon from ferris-wheel.svg v0.367.0 file
+// FerrisWheel icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ferris-wheel.svg
 func FerrisWheel(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4083,7 +4083,7 @@ func FerrisWheel(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Figma is the icon from figma.svg v0.367.0 file
+// Figma icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/figma.svg
 func Figma(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4091,7 +4091,7 @@ func Figma(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileArchive is the icon from file-archive.svg v0.367.0 file
+// FileArchive icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-archive.svg
 func FileArchive(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4099,7 +4099,7 @@ func FileArchive(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileAudio2 is the icon from file-audio-2.svg v0.367.0 file
+// FileAudio2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-audio-2.svg
 func FileAudio2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4107,7 +4107,7 @@ func FileAudio2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileAudio is the icon from file-audio.svg v0.367.0 file
+// FileAudio icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-audio.svg
 func FileAudio(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4115,7 +4115,7 @@ func FileAudio(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileAxis3d is the icon from file-axis-3d.svg v0.367.0 file
+// FileAxis3d icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-axis-3d.svg
 func FileAxis3d(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4123,7 +4123,7 @@ func FileAxis3d(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileBadge2 is the icon from file-badge-2.svg v0.367.0 file
+// FileBadge2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-badge-2.svg
 func FileBadge2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4131,7 +4131,7 @@ func FileBadge2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileBadge is the icon from file-badge.svg v0.367.0 file
+// FileBadge icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-badge.svg
 func FileBadge(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4139,7 +4139,7 @@ func FileBadge(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileBarChart2 is the icon from file-bar-chart-2.svg v0.367.0 file
+// FileBarChart2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-bar-chart-2.svg
 func FileBarChart2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4147,7 +4147,7 @@ func FileBarChart2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileBarChart is the icon from file-bar-chart.svg v0.367.0 file
+// FileBarChart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-bar-chart.svg
 func FileBarChart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4155,7 +4155,7 @@ func FileBarChart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileBox is the icon from file-box.svg v0.367.0 file
+// FileBox icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-box.svg
 func FileBox(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4163,7 +4163,7 @@ func FileBox(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileCheck2 is the icon from file-check-2.svg v0.367.0 file
+// FileCheck2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-check-2.svg
 func FileCheck2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4171,7 +4171,7 @@ func FileCheck2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileCheck is the icon from file-check.svg v0.367.0 file
+// FileCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-check.svg
 func FileCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4179,7 +4179,7 @@ func FileCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileClock is the icon from file-clock.svg v0.367.0 file
+// FileClock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-clock.svg
 func FileClock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4187,7 +4187,7 @@ func FileClock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileCode2 is the icon from file-code-2.svg v0.367.0 file
+// FileCode2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-code-2.svg
 func FileCode2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4195,7 +4195,7 @@ func FileCode2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileCode is the icon from file-code.svg v0.367.0 file
+// FileCode icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-code.svg
 func FileCode(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4203,7 +4203,7 @@ func FileCode(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileCog is the icon from file-cog.svg v0.367.0 file
+// FileCog icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-cog.svg
 func FileCog(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4211,7 +4211,7 @@ func FileCog(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileDiff is the icon from file-diff.svg v0.367.0 file
+// FileDiff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-diff.svg
 func FileDiff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4219,7 +4219,7 @@ func FileDiff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileDigit is the icon from file-digit.svg v0.367.0 file
+// FileDigit icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-digit.svg
 func FileDigit(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4227,7 +4227,7 @@ func FileDigit(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileDown is the icon from file-down.svg v0.367.0 file
+// FileDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-down.svg
 func FileDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4235,7 +4235,7 @@ func FileDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileHeart is the icon from file-heart.svg v0.367.0 file
+// FileHeart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-heart.svg
 func FileHeart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4243,7 +4243,7 @@ func FileHeart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileImage is the icon from file-image.svg v0.367.0 file
+// FileImage icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-image.svg
 func FileImage(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4251,7 +4251,7 @@ func FileImage(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileInput is the icon from file-input.svg v0.367.0 file
+// FileInput icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-input.svg
 func FileInput(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4259,7 +4259,7 @@ func FileInput(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileJson2 is the icon from file-json-2.svg v0.367.0 file
+// FileJson2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-json-2.svg
 func FileJson2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4267,7 +4267,7 @@ func FileJson2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileJson is the icon from file-json.svg v0.367.0 file
+// FileJson icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-json.svg
 func FileJson(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4275,7 +4275,7 @@ func FileJson(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileKey2 is the icon from file-key-2.svg v0.367.0 file
+// FileKey2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-key-2.svg
 func FileKey2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4283,7 +4283,7 @@ func FileKey2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileKey is the icon from file-key.svg v0.367.0 file
+// FileKey icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-key.svg
 func FileKey(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4291,7 +4291,7 @@ func FileKey(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileLineChart is the icon from file-line-chart.svg v0.367.0 file
+// FileLineChart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-line-chart.svg
 func FileLineChart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4299,7 +4299,7 @@ func FileLineChart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileLock2 is the icon from file-lock-2.svg v0.367.0 file
+// FileLock2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-lock-2.svg
 func FileLock2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4307,7 +4307,7 @@ func FileLock2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileLock is the icon from file-lock.svg v0.367.0 file
+// FileLock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-lock.svg
 func FileLock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4315,7 +4315,7 @@ func FileLock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileMinus2 is the icon from file-minus-2.svg v0.367.0 file
+// FileMinus2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-minus-2.svg
 func FileMinus2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4323,7 +4323,7 @@ func FileMinus2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileMinus is the icon from file-minus.svg v0.367.0 file
+// FileMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-minus.svg
 func FileMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4331,7 +4331,7 @@ func FileMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileMusic is the icon from file-music.svg v0.367.0 file
+// FileMusic icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-music.svg
 func FileMusic(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4339,7 +4339,7 @@ func FileMusic(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileOutput is the icon from file-output.svg v0.367.0 file
+// FileOutput icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-output.svg
 func FileOutput(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4347,7 +4347,7 @@ func FileOutput(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FilePenLine is the icon from file-pen-line.svg v0.367.0 file
+// FilePenLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-pen-line.svg
 func FilePenLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4355,7 +4355,7 @@ func FilePenLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FilePen is the icon from file-pen.svg v0.367.0 file
+// FilePen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-pen.svg
 func FilePen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4363,7 +4363,7 @@ func FilePen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FilePieChart is the icon from file-pie-chart.svg v0.367.0 file
+// FilePieChart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-pie-chart.svg
 func FilePieChart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4371,7 +4371,7 @@ func FilePieChart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FilePlus2 is the icon from file-plus-2.svg v0.367.0 file
+// FilePlus2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-plus-2.svg
 func FilePlus2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4379,7 +4379,7 @@ func FilePlus2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FilePlus is the icon from file-plus.svg v0.367.0 file
+// FilePlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-plus.svg
 func FilePlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4387,7 +4387,7 @@ func FilePlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileQuestion is the icon from file-question.svg v0.367.0 file
+// FileQuestion icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-question.svg
 func FileQuestion(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4395,7 +4395,7 @@ func FileQuestion(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileScan is the icon from file-scan.svg v0.367.0 file
+// FileScan icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-scan.svg
 func FileScan(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4403,7 +4403,7 @@ func FileScan(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileSearch2 is the icon from file-search-2.svg v0.367.0 file
+// FileSearch2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-search-2.svg
 func FileSearch2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4411,7 +4411,7 @@ func FileSearch2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileSearch is the icon from file-search.svg v0.367.0 file
+// FileSearch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-search.svg
 func FileSearch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4419,7 +4419,7 @@ func FileSearch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileSliders is the icon from file-sliders.svg v0.367.0 file
+// FileSliders icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-sliders.svg
 func FileSliders(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4427,7 +4427,7 @@ func FileSliders(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileSpreadsheet is the icon from file-spreadsheet.svg v0.367.0 file
+// FileSpreadsheet icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-spreadsheet.svg
 func FileSpreadsheet(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4435,7 +4435,7 @@ func FileSpreadsheet(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileStack is the icon from file-stack.svg v0.367.0 file
+// FileStack icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-stack.svg
 func FileStack(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4443,7 +4443,7 @@ func FileStack(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileSymlink is the icon from file-symlink.svg v0.367.0 file
+// FileSymlink icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-symlink.svg
 func FileSymlink(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4451,7 +4451,7 @@ func FileSymlink(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileTerminal is the icon from file-terminal.svg v0.367.0 file
+// FileTerminal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-terminal.svg
 func FileTerminal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4459,7 +4459,7 @@ func FileTerminal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileText is the icon from file-text.svg v0.367.0 file
+// FileText icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-text.svg
 func FileText(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4467,7 +4467,7 @@ func FileText(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileType2 is the icon from file-type-2.svg v0.367.0 file
+// FileType2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-type-2.svg
 func FileType2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4475,7 +4475,7 @@ func FileType2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileType is the icon from file-type.svg v0.367.0 file
+// FileType icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-type.svg
 func FileType(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4483,7 +4483,7 @@ func FileType(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileUp is the icon from file-up.svg v0.367.0 file
+// FileUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-up.svg
 func FileUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4491,7 +4491,7 @@ func FileUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileVideo2 is the icon from file-video-2.svg v0.367.0 file
+// FileVideo2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-video-2.svg
 func FileVideo2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4499,7 +4499,7 @@ func FileVideo2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileVideo is the icon from file-video.svg v0.367.0 file
+// FileVideo icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-video.svg
 func FileVideo(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4507,7 +4507,7 @@ func FileVideo(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileVolume2 is the icon from file-volume-2.svg v0.367.0 file
+// FileVolume2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-volume-2.svg
 func FileVolume2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4515,7 +4515,7 @@ func FileVolume2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileVolume is the icon from file-volume.svg v0.367.0 file
+// FileVolume icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-volume.svg
 func FileVolume(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4523,7 +4523,7 @@ func FileVolume(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileWarning is the icon from file-warning.svg v0.367.0 file
+// FileWarning icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-warning.svg
 func FileWarning(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4531,7 +4531,7 @@ func FileWarning(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileX2 is the icon from file-x-2.svg v0.367.0 file
+// FileX2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-x-2.svg
 func FileX2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4539,7 +4539,7 @@ func FileX2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FileX is the icon from file-x.svg v0.367.0 file
+// FileX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file-x.svg
 func FileX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4547,7 +4547,7 @@ func FileX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// File is the icon from file.svg v0.367.0 file
+// File icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/file.svg
 func File(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4555,7 +4555,7 @@ func File(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Files is the icon from files.svg v0.367.0 file
+// Files icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/files.svg
 func Files(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4563,7 +4563,7 @@ func Files(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Film is the icon from film.svg v0.367.0 file
+// Film icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/film.svg
 func Film(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4571,7 +4571,7 @@ func Film(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FilterX is the icon from filter-x.svg v0.367.0 file
+// FilterX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/filter-x.svg
 func FilterX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4579,7 +4579,7 @@ func FilterX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Filter is the icon from filter.svg v0.367.0 file
+// Filter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/filter.svg
 func Filter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4587,7 +4587,7 @@ func Filter(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Fingerprint is the icon from fingerprint.svg v0.367.0 file
+// Fingerprint icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fingerprint.svg
 func Fingerprint(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4595,7 +4595,7 @@ func Fingerprint(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FireExtinguisher is the icon from fire-extinguisher.svg v0.367.0 file
+// FireExtinguisher icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fire-extinguisher.svg
 func FireExtinguisher(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4603,7 +4603,7 @@ func FireExtinguisher(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FishOff is the icon from fish-off.svg v0.367.0 file
+// FishOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fish-off.svg
 func FishOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4611,7 +4611,7 @@ func FishOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FishSymbol is the icon from fish-symbol.svg v0.367.0 file
+// FishSymbol icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fish-symbol.svg
 func FishSymbol(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4619,7 +4619,7 @@ func FishSymbol(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Fish is the icon from fish.svg v0.367.0 file
+// Fish icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fish.svg
 func Fish(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4627,7 +4627,7 @@ func Fish(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlagOff is the icon from flag-off.svg v0.367.0 file
+// FlagOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flag-off.svg
 func FlagOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4635,7 +4635,7 @@ func FlagOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlagTriangleLeft is the icon from flag-triangle-left.svg v0.367.0 file
+// FlagTriangleLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flag-triangle-left.svg
 func FlagTriangleLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4643,7 +4643,7 @@ func FlagTriangleLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlagTriangleRight is the icon from flag-triangle-right.svg v0.367.0 file
+// FlagTriangleRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flag-triangle-right.svg
 func FlagTriangleRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4651,7 +4651,7 @@ func FlagTriangleRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Flag is the icon from flag.svg v0.367.0 file
+// Flag icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flag.svg
 func Flag(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4659,7 +4659,7 @@ func Flag(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlameKindling is the icon from flame-kindling.svg v0.367.0 file
+// FlameKindling icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flame-kindling.svg
 func FlameKindling(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4667,7 +4667,7 @@ func FlameKindling(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Flame is the icon from flame.svg v0.367.0 file
+// Flame icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flame.svg
 func Flame(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4675,7 +4675,7 @@ func Flame(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlashlightOff is the icon from flashlight-off.svg v0.367.0 file
+// FlashlightOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flashlight-off.svg
 func FlashlightOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4683,7 +4683,7 @@ func FlashlightOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Flashlight is the icon from flashlight.svg v0.367.0 file
+// Flashlight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flashlight.svg
 func Flashlight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4691,7 +4691,7 @@ func Flashlight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlaskConicalOff is the icon from flask-conical-off.svg v0.367.0 file
+// FlaskConicalOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flask-conical-off.svg
 func FlaskConicalOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4699,7 +4699,7 @@ func FlaskConicalOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlaskConical is the icon from flask-conical.svg v0.367.0 file
+// FlaskConical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flask-conical.svg
 func FlaskConical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4707,7 +4707,7 @@ func FlaskConical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlaskRound is the icon from flask-round.svg v0.367.0 file
+// FlaskRound icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flask-round.svg
 func FlaskRound(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4715,7 +4715,7 @@ func FlaskRound(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlipHorizontal2 is the icon from flip-horizontal-2.svg v0.367.0 file
+// FlipHorizontal2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flip-horizontal-2.svg
 func FlipHorizontal2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4723,7 +4723,7 @@ func FlipHorizontal2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlipHorizontal is the icon from flip-horizontal.svg v0.367.0 file
+// FlipHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flip-horizontal.svg
 func FlipHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4731,7 +4731,7 @@ func FlipHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlipVertical2 is the icon from flip-vertical-2.svg v0.367.0 file
+// FlipVertical2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flip-vertical-2.svg
 func FlipVertical2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4739,7 +4739,7 @@ func FlipVertical2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FlipVertical is the icon from flip-vertical.svg v0.367.0 file
+// FlipVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flip-vertical.svg
 func FlipVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4747,7 +4747,7 @@ func FlipVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Flower2 is the icon from flower-2.svg v0.367.0 file
+// Flower2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flower-2.svg
 func Flower2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4755,7 +4755,7 @@ func Flower2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Flower is the icon from flower.svg v0.367.0 file
+// Flower icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/flower.svg
 func Flower(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4763,7 +4763,7 @@ func Flower(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Focus is the icon from focus.svg v0.367.0 file
+// Focus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/focus.svg
 func Focus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4771,7 +4771,7 @@ func Focus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FoldHorizontal is the icon from fold-horizontal.svg v0.367.0 file
+// FoldHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fold-horizontal.svg
 func FoldHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4779,7 +4779,7 @@ func FoldHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FoldVertical is the icon from fold-vertical.svg v0.367.0 file
+// FoldVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fold-vertical.svg
 func FoldVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4787,7 +4787,7 @@ func FoldVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderArchive is the icon from folder-archive.svg v0.367.0 file
+// FolderArchive icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-archive.svg
 func FolderArchive(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4795,7 +4795,7 @@ func FolderArchive(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderCheck is the icon from folder-check.svg v0.367.0 file
+// FolderCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-check.svg
 func FolderCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4803,7 +4803,7 @@ func FolderCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderClock is the icon from folder-clock.svg v0.367.0 file
+// FolderClock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-clock.svg
 func FolderClock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4811,7 +4811,7 @@ func FolderClock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderClosed is the icon from folder-closed.svg v0.367.0 file
+// FolderClosed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-closed.svg
 func FolderClosed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4819,7 +4819,7 @@ func FolderClosed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderCog is the icon from folder-cog.svg v0.367.0 file
+// FolderCog icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-cog.svg
 func FolderCog(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4827,7 +4827,7 @@ func FolderCog(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderDot is the icon from folder-dot.svg v0.367.0 file
+// FolderDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-dot.svg
 func FolderDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4835,7 +4835,7 @@ func FolderDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderDown is the icon from folder-down.svg v0.367.0 file
+// FolderDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-down.svg
 func FolderDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4843,7 +4843,7 @@ func FolderDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderGit2 is the icon from folder-git-2.svg v0.367.0 file
+// FolderGit2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-git-2.svg
 func FolderGit2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4851,7 +4851,7 @@ func FolderGit2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderGit is the icon from folder-git.svg v0.367.0 file
+// FolderGit icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-git.svg
 func FolderGit(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4859,7 +4859,7 @@ func FolderGit(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderHeart is the icon from folder-heart.svg v0.367.0 file
+// FolderHeart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-heart.svg
 func FolderHeart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4867,7 +4867,7 @@ func FolderHeart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderInput is the icon from folder-input.svg v0.367.0 file
+// FolderInput icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-input.svg
 func FolderInput(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4875,7 +4875,7 @@ func FolderInput(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderKanban is the icon from folder-kanban.svg v0.367.0 file
+// FolderKanban icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-kanban.svg
 func FolderKanban(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4883,7 +4883,7 @@ func FolderKanban(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderKey is the icon from folder-key.svg v0.367.0 file
+// FolderKey icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-key.svg
 func FolderKey(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4891,7 +4891,7 @@ func FolderKey(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderLock is the icon from folder-lock.svg v0.367.0 file
+// FolderLock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-lock.svg
 func FolderLock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4899,7 +4899,7 @@ func FolderLock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderMinus is the icon from folder-minus.svg v0.367.0 file
+// FolderMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-minus.svg
 func FolderMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4907,7 +4907,7 @@ func FolderMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderOpenDot is the icon from folder-open-dot.svg v0.367.0 file
+// FolderOpenDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-open-dot.svg
 func FolderOpenDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4915,7 +4915,7 @@ func FolderOpenDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderOpen is the icon from folder-open.svg v0.367.0 file
+// FolderOpen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-open.svg
 func FolderOpen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4923,7 +4923,7 @@ func FolderOpen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderOutput is the icon from folder-output.svg v0.367.0 file
+// FolderOutput icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-output.svg
 func FolderOutput(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4931,7 +4931,7 @@ func FolderOutput(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderPen is the icon from folder-pen.svg v0.367.0 file
+// FolderPen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-pen.svg
 func FolderPen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4939,7 +4939,7 @@ func FolderPen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderPlus is the icon from folder-plus.svg v0.367.0 file
+// FolderPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-plus.svg
 func FolderPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4947,7 +4947,7 @@ func FolderPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderRoot is the icon from folder-root.svg v0.367.0 file
+// FolderRoot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-root.svg
 func FolderRoot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4955,7 +4955,7 @@ func FolderRoot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderSearch2 is the icon from folder-search-2.svg v0.367.0 file
+// FolderSearch2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-search-2.svg
 func FolderSearch2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4963,7 +4963,7 @@ func FolderSearch2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderSearch is the icon from folder-search.svg v0.367.0 file
+// FolderSearch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-search.svg
 func FolderSearch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4971,7 +4971,7 @@ func FolderSearch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderSymlink is the icon from folder-symlink.svg v0.367.0 file
+// FolderSymlink icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-symlink.svg
 func FolderSymlink(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4979,7 +4979,7 @@ func FolderSymlink(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderSync is the icon from folder-sync.svg v0.367.0 file
+// FolderSync icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-sync.svg
 func FolderSync(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4987,7 +4987,7 @@ func FolderSync(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderTree is the icon from folder-tree.svg v0.367.0 file
+// FolderTree icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-tree.svg
 func FolderTree(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -4995,7 +4995,7 @@ func FolderTree(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderUp is the icon from folder-up.svg v0.367.0 file
+// FolderUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-up.svg
 func FolderUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5003,7 +5003,7 @@ func FolderUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// FolderX is the icon from folder-x.svg v0.367.0 file
+// FolderX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder-x.svg
 func FolderX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5011,7 +5011,7 @@ func FolderX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Folder is the icon from folder.svg v0.367.0 file
+// Folder icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folder.svg
 func Folder(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5019,7 +5019,7 @@ func Folder(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Folders is the icon from folders.svg v0.367.0 file
+// Folders icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/folders.svg
 func Folders(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5027,7 +5027,7 @@ func Folders(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Footprints is the icon from footprints.svg v0.367.0 file
+// Footprints icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/footprints.svg
 func Footprints(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5035,7 +5035,7 @@ func Footprints(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Forklift is the icon from forklift.svg v0.367.0 file
+// Forklift icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/forklift.svg
 func Forklift(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5043,7 +5043,7 @@ func Forklift(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Forward is the icon from forward.svg v0.367.0 file
+// Forward icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/forward.svg
 func Forward(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5051,7 +5051,7 @@ func Forward(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Frame is the icon from frame.svg v0.367.0 file
+// Frame icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/frame.svg
 func Frame(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5059,7 +5059,7 @@ func Frame(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Framer is the icon from framer.svg v0.367.0 file
+// Framer icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/framer.svg
 func Framer(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5067,7 +5067,7 @@ func Framer(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Frown is the icon from frown.svg v0.367.0 file
+// Frown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/frown.svg
 func Frown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5075,7 +5075,7 @@ func Frown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Fuel is the icon from fuel.svg v0.367.0 file
+// Fuel icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fuel.svg
 func Fuel(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5083,7 +5083,7 @@ func Fuel(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Fullscreen is the icon from fullscreen.svg v0.367.0 file
+// Fullscreen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/fullscreen.svg
 func Fullscreen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5091,7 +5091,7 @@ func Fullscreen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GalleryHorizontalEnd is the icon from gallery-horizontal-end.svg v0.367.0 file
+// GalleryHorizontalEnd icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gallery-horizontal-end.svg
 func GalleryHorizontalEnd(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5099,7 +5099,7 @@ func GalleryHorizontalEnd(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GalleryHorizontal is the icon from gallery-horizontal.svg v0.367.0 file
+// GalleryHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gallery-horizontal.svg
 func GalleryHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5107,7 +5107,7 @@ func GalleryHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GalleryThumbnails is the icon from gallery-thumbnails.svg v0.367.0 file
+// GalleryThumbnails icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gallery-thumbnails.svg
 func GalleryThumbnails(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5115,7 +5115,7 @@ func GalleryThumbnails(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GalleryVerticalEnd is the icon from gallery-vertical-end.svg v0.367.0 file
+// GalleryVerticalEnd icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gallery-vertical-end.svg
 func GalleryVerticalEnd(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5123,7 +5123,7 @@ func GalleryVerticalEnd(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GalleryVertical is the icon from gallery-vertical.svg v0.367.0 file
+// GalleryVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gallery-vertical.svg
 func GalleryVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5131,7 +5131,7 @@ func GalleryVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Gamepad2 is the icon from gamepad-2.svg v0.367.0 file
+// Gamepad2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gamepad-2.svg
 func Gamepad2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5139,7 +5139,7 @@ func Gamepad2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Gamepad is the icon from gamepad.svg v0.367.0 file
+// Gamepad icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gamepad.svg
 func Gamepad(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5147,7 +5147,7 @@ func Gamepad(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GanttChart is the icon from gantt-chart.svg v0.367.0 file
+// GanttChart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gantt-chart.svg
 func GanttChart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5155,7 +5155,7 @@ func GanttChart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Gauge is the icon from gauge.svg v0.367.0 file
+// Gauge icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gauge.svg
 func Gauge(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5163,7 +5163,7 @@ func Gauge(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Gavel is the icon from gavel.svg v0.367.0 file
+// Gavel icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gavel.svg
 func Gavel(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5171,7 +5171,7 @@ func Gavel(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Gem is the icon from gem.svg v0.367.0 file
+// Gem icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gem.svg
 func Gem(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5179,7 +5179,7 @@ func Gem(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ghost is the icon from ghost.svg v0.367.0 file
+// Ghost icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ghost.svg
 func Ghost(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5187,7 +5187,7 @@ func Ghost(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Gift is the icon from gift.svg v0.367.0 file
+// Gift icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gift.svg
 func Gift(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5195,7 +5195,7 @@ func Gift(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitBranchPlus is the icon from git-branch-plus.svg v0.367.0 file
+// GitBranchPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-branch-plus.svg
 func GitBranchPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5203,7 +5203,7 @@ func GitBranchPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitBranch is the icon from git-branch.svg v0.367.0 file
+// GitBranch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-branch.svg
 func GitBranch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5211,7 +5211,7 @@ func GitBranch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitCommitHorizontal is the icon from git-commit-horizontal.svg v0.367.0 file
+// GitCommitHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-commit-horizontal.svg
 func GitCommitHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5219,7 +5219,7 @@ func GitCommitHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitCommitVertical is the icon from git-commit-vertical.svg v0.367.0 file
+// GitCommitVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-commit-vertical.svg
 func GitCommitVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5227,7 +5227,7 @@ func GitCommitVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitCompareArrows is the icon from git-compare-arrows.svg v0.367.0 file
+// GitCompareArrows icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-compare-arrows.svg
 func GitCompareArrows(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5235,7 +5235,7 @@ func GitCompareArrows(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitCompare is the icon from git-compare.svg v0.367.0 file
+// GitCompare icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-compare.svg
 func GitCompare(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5243,7 +5243,7 @@ func GitCompare(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitFork is the icon from git-fork.svg v0.367.0 file
+// GitFork icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-fork.svg
 func GitFork(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5251,7 +5251,7 @@ func GitFork(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitGraph is the icon from git-graph.svg v0.367.0 file
+// GitGraph icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-graph.svg
 func GitGraph(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5259,7 +5259,7 @@ func GitGraph(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitMerge is the icon from git-merge.svg v0.367.0 file
+// GitMerge icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-merge.svg
 func GitMerge(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5267,7 +5267,7 @@ func GitMerge(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitPullRequestArrow is the icon from git-pull-request-arrow.svg v0.367.0 file
+// GitPullRequestArrow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-pull-request-arrow.svg
 func GitPullRequestArrow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5275,7 +5275,7 @@ func GitPullRequestArrow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitPullRequestClosed is the icon from git-pull-request-closed.svg v0.367.0 file
+// GitPullRequestClosed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-pull-request-closed.svg
 func GitPullRequestClosed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5283,7 +5283,7 @@ func GitPullRequestClosed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitPullRequestCreateArrow is the icon from git-pull-request-create-arrow.svg v0.367.0 file
+// GitPullRequestCreateArrow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-pull-request-create-arrow.svg
 func GitPullRequestCreateArrow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5291,7 +5291,7 @@ func GitPullRequestCreateArrow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitPullRequestCreate is the icon from git-pull-request-create.svg v0.367.0 file
+// GitPullRequestCreate icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-pull-request-create.svg
 func GitPullRequestCreate(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5299,7 +5299,7 @@ func GitPullRequestCreate(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitPullRequestDraft is the icon from git-pull-request-draft.svg v0.367.0 file
+// GitPullRequestDraft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-pull-request-draft.svg
 func GitPullRequestDraft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5307,7 +5307,7 @@ func GitPullRequestDraft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GitPullRequest is the icon from git-pull-request.svg v0.367.0 file
+// GitPullRequest icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/git-pull-request.svg
 func GitPullRequest(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5315,7 +5315,7 @@ func GitPullRequest(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Github is the icon from github.svg v0.367.0 file
+// Github icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/github.svg
 func Github(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5323,7 +5323,7 @@ func Github(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Gitlab is the icon from gitlab.svg v0.367.0 file
+// Gitlab icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/gitlab.svg
 func Gitlab(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5331,7 +5331,7 @@ func Gitlab(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GlassWater is the icon from glass-water.svg v0.367.0 file
+// GlassWater icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/glass-water.svg
 func GlassWater(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5339,7 +5339,7 @@ func GlassWater(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Glasses is the icon from glasses.svg v0.367.0 file
+// Glasses icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/glasses.svg
 func Glasses(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5347,7 +5347,7 @@ func Glasses(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GlobeLock is the icon from globe-lock.svg v0.367.0 file
+// GlobeLock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/globe-lock.svg
 func GlobeLock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5355,7 +5355,7 @@ func GlobeLock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Globe is the icon from globe.svg v0.367.0 file
+// Globe icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/globe.svg
 func Globe(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5363,7 +5363,7 @@ func Globe(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Goal is the icon from goal.svg v0.367.0 file
+// Goal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/goal.svg
 func Goal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5371,7 +5371,7 @@ func Goal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Grab is the icon from grab.svg v0.367.0 file
+// Grab icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/grab.svg
 func Grab(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5379,7 +5379,7 @@ func Grab(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GraduationCap is the icon from graduation-cap.svg v0.367.0 file
+// GraduationCap icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/graduation-cap.svg
 func GraduationCap(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5387,7 +5387,7 @@ func GraduationCap(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Grape is the icon from grape.svg v0.367.0 file
+// Grape icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/grape.svg
 func Grape(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5395,7 +5395,7 @@ func Grape(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Grid2x2 is the icon from grid-2x2.svg v0.367.0 file
+// Grid2x2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/grid-2x2.svg
 func Grid2x2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5403,7 +5403,7 @@ func Grid2x2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Grid3x3 is the icon from grid-3x3.svg v0.367.0 file
+// Grid3x3 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/grid-3x3.svg
 func Grid3x3(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5411,7 +5411,7 @@ func Grid3x3(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GripHorizontal is the icon from grip-horizontal.svg v0.367.0 file
+// GripHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/grip-horizontal.svg
 func GripHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5419,7 +5419,7 @@ func GripHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// GripVertical is the icon from grip-vertical.svg v0.367.0 file
+// GripVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/grip-vertical.svg
 func GripVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5427,7 +5427,7 @@ func GripVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Grip is the icon from grip.svg v0.367.0 file
+// Grip icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/grip.svg
 func Grip(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5435,7 +5435,7 @@ func Grip(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Group is the icon from group.svg v0.367.0 file
+// Group icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/group.svg
 func Group(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5443,7 +5443,7 @@ func Group(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Guitar is the icon from guitar.svg v0.367.0 file
+// Guitar icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/guitar.svg
 func Guitar(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5451,7 +5451,7 @@ func Guitar(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ham is the icon from ham.svg v0.367.0 file
+// Ham icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ham.svg
 func Ham(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5459,7 +5459,7 @@ func Ham(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Hammer is the icon from hammer.svg v0.367.0 file
+// Hammer icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hammer.svg
 func Hammer(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5467,7 +5467,7 @@ func Hammer(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HandCoins is the icon from hand-coins.svg v0.367.0 file
+// HandCoins icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hand-coins.svg
 func HandCoins(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5475,7 +5475,7 @@ func HandCoins(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HandHeart is the icon from hand-heart.svg v0.367.0 file
+// HandHeart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hand-heart.svg
 func HandHeart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5483,7 +5483,7 @@ func HandHeart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HandHelping is the icon from hand-helping.svg v0.367.0 file
+// HandHelping icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hand-helping.svg
 func HandHelping(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5491,7 +5491,7 @@ func HandHelping(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HandMetal is the icon from hand-metal.svg v0.367.0 file
+// HandMetal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hand-metal.svg
 func HandMetal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5499,7 +5499,7 @@ func HandMetal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HandPlatter is the icon from hand-platter.svg v0.367.0 file
+// HandPlatter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hand-platter.svg
 func HandPlatter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5507,7 +5507,7 @@ func HandPlatter(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Hand is the icon from hand.svg v0.367.0 file
+// Hand icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hand.svg
 func Hand(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5515,7 +5515,7 @@ func Hand(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Handshake is the icon from handshake.svg v0.367.0 file
+// Handshake icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/handshake.svg
 func Handshake(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5523,7 +5523,7 @@ func Handshake(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HardDriveDownload is the icon from hard-drive-download.svg v0.367.0 file
+// HardDriveDownload icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hard-drive-download.svg
 func HardDriveDownload(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5531,7 +5531,7 @@ func HardDriveDownload(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HardDriveUpload is the icon from hard-drive-upload.svg v0.367.0 file
+// HardDriveUpload icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hard-drive-upload.svg
 func HardDriveUpload(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5539,7 +5539,7 @@ func HardDriveUpload(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HardDrive is the icon from hard-drive.svg v0.367.0 file
+// HardDrive icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hard-drive.svg
 func HardDrive(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5547,7 +5547,7 @@ func HardDrive(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HardHat is the icon from hard-hat.svg v0.367.0 file
+// HardHat icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hard-hat.svg
 func HardHat(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5555,7 +5555,7 @@ func HardHat(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Hash is the icon from hash.svg v0.367.0 file
+// Hash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hash.svg
 func Hash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5563,7 +5563,7 @@ func Hash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Haze is the icon from haze.svg v0.367.0 file
+// Haze icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/haze.svg
 func Haze(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5571,7 +5571,7 @@ func Haze(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HdmiPort is the icon from hdmi-port.svg v0.367.0 file
+// HdmiPort icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hdmi-port.svg
 func HdmiPort(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5579,7 +5579,7 @@ func HdmiPort(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Heading1 is the icon from heading-1.svg v0.367.0 file
+// Heading1 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heading-1.svg
 func Heading1(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5587,7 +5587,7 @@ func Heading1(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Heading2 is the icon from heading-2.svg v0.367.0 file
+// Heading2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heading-2.svg
 func Heading2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5595,7 +5595,7 @@ func Heading2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Heading3 is the icon from heading-3.svg v0.367.0 file
+// Heading3 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heading-3.svg
 func Heading3(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5603,7 +5603,7 @@ func Heading3(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Heading4 is the icon from heading-4.svg v0.367.0 file
+// Heading4 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heading-4.svg
 func Heading4(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5611,7 +5611,7 @@ func Heading4(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Heading5 is the icon from heading-5.svg v0.367.0 file
+// Heading5 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heading-5.svg
 func Heading5(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5619,7 +5619,7 @@ func Heading5(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Heading6 is the icon from heading-6.svg v0.367.0 file
+// Heading6 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heading-6.svg
 func Heading6(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5627,7 +5627,7 @@ func Heading6(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Heading is the icon from heading.svg v0.367.0 file
+// Heading icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heading.svg
 func Heading(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5635,7 +5635,7 @@ func Heading(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Headphones is the icon from headphones.svg v0.367.0 file
+// Headphones icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/headphones.svg
 func Headphones(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5643,7 +5643,7 @@ func Headphones(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Headset is the icon from headset.svg v0.367.0 file
+// Headset icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/headset.svg
 func Headset(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5651,7 +5651,7 @@ func Headset(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HeartCrack is the icon from heart-crack.svg v0.367.0 file
+// HeartCrack icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heart-crack.svg
 func HeartCrack(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5659,7 +5659,7 @@ func HeartCrack(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HeartHandshake is the icon from heart-handshake.svg v0.367.0 file
+// HeartHandshake icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heart-handshake.svg
 func HeartHandshake(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5667,7 +5667,7 @@ func HeartHandshake(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HeartOff is the icon from heart-off.svg v0.367.0 file
+// HeartOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heart-off.svg
 func HeartOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5675,7 +5675,7 @@ func HeartOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HeartPulse is the icon from heart-pulse.svg v0.367.0 file
+// HeartPulse icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heart-pulse.svg
 func HeartPulse(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5683,7 +5683,7 @@ func HeartPulse(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Heart is the icon from heart.svg v0.367.0 file
+// Heart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heart.svg
 func Heart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5691,7 +5691,7 @@ func Heart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Heater is the icon from heater.svg v0.367.0 file
+// Heater icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/heater.svg
 func Heater(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5699,7 +5699,7 @@ func Heater(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Hexagon is the icon from hexagon.svg v0.367.0 file
+// Hexagon icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hexagon.svg
 func Hexagon(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5707,7 +5707,7 @@ func Hexagon(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Highlighter is the icon from highlighter.svg v0.367.0 file
+// Highlighter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/highlighter.svg
 func Highlighter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5715,7 +5715,7 @@ func Highlighter(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// History is the icon from history.svg v0.367.0 file
+// History icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/history.svg
 func History(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5723,7 +5723,7 @@ func History(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Home is the icon from home.svg v0.367.0 file
+// Home icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/home.svg
 func Home(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5731,7 +5731,7 @@ func Home(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// HopOff is the icon from hop-off.svg v0.367.0 file
+// HopOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hop-off.svg
 func HopOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5739,7 +5739,7 @@ func HopOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Hop is the icon from hop.svg v0.367.0 file
+// Hop icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hop.svg
 func Hop(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5747,7 +5747,7 @@ func Hop(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Hospital is the icon from hospital.svg v0.367.0 file
+// Hospital icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hospital.svg
 func Hospital(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5755,7 +5755,7 @@ func Hospital(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Hotel is the icon from hotel.svg v0.367.0 file
+// Hotel icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hotel.svg
 func Hotel(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5763,7 +5763,7 @@ func Hotel(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Hourglass is the icon from hourglass.svg v0.367.0 file
+// Hourglass icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/hourglass.svg
 func Hourglass(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5771,7 +5771,7 @@ func Hourglass(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// IceCreamBowl is the icon from ice-cream-bowl.svg v0.367.0 file
+// IceCreamBowl icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ice-cream-bowl.svg
 func IceCreamBowl(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5779,7 +5779,7 @@ func IceCreamBowl(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// IceCreamCone is the icon from ice-cream-cone.svg v0.367.0 file
+// IceCreamCone icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ice-cream-cone.svg
 func IceCreamCone(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5787,7 +5787,7 @@ func IceCreamCone(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ImageDown is the icon from image-down.svg v0.367.0 file
+// ImageDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/image-down.svg
 func ImageDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5795,7 +5795,7 @@ func ImageDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ImageMinus is the icon from image-minus.svg v0.367.0 file
+// ImageMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/image-minus.svg
 func ImageMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5803,7 +5803,7 @@ func ImageMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ImageOff is the icon from image-off.svg v0.367.0 file
+// ImageOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/image-off.svg
 func ImageOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5811,7 +5811,7 @@ func ImageOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ImagePlay is the icon from image-play.svg v0.367.0 file
+// ImagePlay icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/image-play.svg
 func ImagePlay(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5819,7 +5819,7 @@ func ImagePlay(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ImagePlus is the icon from image-plus.svg v0.367.0 file
+// ImagePlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/image-plus.svg
 func ImagePlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5827,7 +5827,7 @@ func ImagePlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ImageUp is the icon from image-up.svg v0.367.0 file
+// ImageUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/image-up.svg
 func ImageUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5835,7 +5835,7 @@ func ImageUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Image is the icon from image.svg v0.367.0 file
+// Image icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/image.svg
 func Image(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5843,7 +5843,7 @@ func Image(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Images is the icon from images.svg v0.367.0 file
+// Images icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/images.svg
 func Images(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5851,7 +5851,7 @@ func Images(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Import is the icon from import.svg v0.367.0 file
+// Import icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/import.svg
 func Import(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5859,7 +5859,7 @@ func Import(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Inbox is the icon from inbox.svg v0.367.0 file
+// Inbox icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/inbox.svg
 func Inbox(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5867,7 +5867,7 @@ func Inbox(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// IndentDecrease is the icon from indent-decrease.svg v0.367.0 file
+// IndentDecrease icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/indent-decrease.svg
 func IndentDecrease(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5875,7 +5875,7 @@ func IndentDecrease(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// IndentIncrease is the icon from indent-increase.svg v0.367.0 file
+// IndentIncrease icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/indent-increase.svg
 func IndentIncrease(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5883,7 +5883,7 @@ func IndentIncrease(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// IndianRupee is the icon from indian-rupee.svg v0.367.0 file
+// IndianRupee icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/indian-rupee.svg
 func IndianRupee(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5891,7 +5891,7 @@ func IndianRupee(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Infinity is the icon from infinity.svg v0.367.0 file
+// Infinity icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/infinity.svg
 func Infinity(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5899,7 +5899,7 @@ func Infinity(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Info is the icon from info.svg v0.367.0 file
+// Info icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/info.svg
 func Info(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5907,7 +5907,7 @@ func Info(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// InspectionPanel is the icon from inspection-panel.svg v0.367.0 file
+// InspectionPanel icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/inspection-panel.svg
 func InspectionPanel(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5915,7 +5915,7 @@ func InspectionPanel(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Instagram is the icon from instagram.svg v0.367.0 file
+// Instagram icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/instagram.svg
 func Instagram(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5923,7 +5923,7 @@ func Instagram(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Italic is the icon from italic.svg v0.367.0 file
+// Italic icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/italic.svg
 func Italic(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5931,7 +5931,7 @@ func Italic(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// IterationCcw is the icon from iteration-ccw.svg v0.367.0 file
+// IterationCcw icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/iteration-ccw.svg
 func IterationCcw(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5939,7 +5939,7 @@ func IterationCcw(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// IterationCw is the icon from iteration-cw.svg v0.367.0 file
+// IterationCw icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/iteration-cw.svg
 func IterationCw(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5947,7 +5947,7 @@ func IterationCw(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// JapaneseYen is the icon from japanese-yen.svg v0.367.0 file
+// JapaneseYen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/japanese-yen.svg
 func JapaneseYen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5955,7 +5955,7 @@ func JapaneseYen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Joystick is the icon from joystick.svg v0.367.0 file
+// Joystick icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/joystick.svg
 func Joystick(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5963,7 +5963,7 @@ func Joystick(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Kanban is the icon from kanban.svg v0.367.0 file
+// Kanban icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/kanban.svg
 func Kanban(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5971,7 +5971,7 @@ func Kanban(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// KeyRound is the icon from key-round.svg v0.367.0 file
+// KeyRound icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/key-round.svg
 func KeyRound(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5979,7 +5979,7 @@ func KeyRound(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// KeySquare is the icon from key-square.svg v0.367.0 file
+// KeySquare icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/key-square.svg
 func KeySquare(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5987,7 +5987,7 @@ func KeySquare(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Key is the icon from key.svg v0.367.0 file
+// Key icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/key.svg
 func Key(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -5995,7 +5995,7 @@ func Key(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// KeyboardMusic is the icon from keyboard-music.svg v0.367.0 file
+// KeyboardMusic icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/keyboard-music.svg
 func KeyboardMusic(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6003,7 +6003,7 @@ func KeyboardMusic(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// KeyboardOff is the icon from keyboard-off.svg v0.367.0 file
+// KeyboardOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/keyboard-off.svg
 func KeyboardOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6011,7 +6011,7 @@ func KeyboardOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Keyboard is the icon from keyboard.svg v0.367.0 file
+// Keyboard icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/keyboard.svg
 func Keyboard(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6019,7 +6019,7 @@ func Keyboard(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LampCeiling is the icon from lamp-ceiling.svg v0.367.0 file
+// LampCeiling icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lamp-ceiling.svg
 func LampCeiling(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6027,7 +6027,7 @@ func LampCeiling(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LampDesk is the icon from lamp-desk.svg v0.367.0 file
+// LampDesk icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lamp-desk.svg
 func LampDesk(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6035,7 +6035,7 @@ func LampDesk(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LampFloor is the icon from lamp-floor.svg v0.367.0 file
+// LampFloor icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lamp-floor.svg
 func LampFloor(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6043,7 +6043,7 @@ func LampFloor(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LampWallDown is the icon from lamp-wall-down.svg v0.367.0 file
+// LampWallDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lamp-wall-down.svg
 func LampWallDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6051,7 +6051,7 @@ func LampWallDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LampWallUp is the icon from lamp-wall-up.svg v0.367.0 file
+// LampWallUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lamp-wall-up.svg
 func LampWallUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6059,7 +6059,7 @@ func LampWallUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Lamp is the icon from lamp.svg v0.367.0 file
+// Lamp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lamp.svg
 func Lamp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6067,7 +6067,7 @@ func Lamp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LandPlot is the icon from land-plot.svg v0.367.0 file
+// LandPlot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/land-plot.svg
 func LandPlot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6075,7 +6075,7 @@ func LandPlot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Landmark is the icon from landmark.svg v0.367.0 file
+// Landmark icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/landmark.svg
 func Landmark(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6083,7 +6083,7 @@ func Landmark(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Languages is the icon from languages.svg v0.367.0 file
+// Languages icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/languages.svg
 func Languages(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6091,7 +6091,7 @@ func Languages(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LaptopMinimal is the icon from laptop-minimal.svg v0.367.0 file
+// LaptopMinimal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/laptop-minimal.svg
 func LaptopMinimal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6099,7 +6099,7 @@ func LaptopMinimal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Laptop is the icon from laptop.svg v0.367.0 file
+// Laptop icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/laptop.svg
 func Laptop(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6107,7 +6107,7 @@ func Laptop(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LassoSelect is the icon from lasso-select.svg v0.367.0 file
+// LassoSelect icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lasso-select.svg
 func LassoSelect(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6115,7 +6115,7 @@ func LassoSelect(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Lasso is the icon from lasso.svg v0.367.0 file
+// Lasso icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lasso.svg
 func Lasso(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6123,7 +6123,7 @@ func Lasso(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Laugh is the icon from laugh.svg v0.367.0 file
+// Laugh icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/laugh.svg
 func Laugh(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6131,7 +6131,7 @@ func Laugh(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Layers2 is the icon from layers-2.svg v0.367.0 file
+// Layers2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/layers-2.svg
 func Layers2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6139,7 +6139,7 @@ func Layers2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Layers3 is the icon from layers-3.svg v0.367.0 file
+// Layers3 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/layers-3.svg
 func Layers3(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6147,7 +6147,7 @@ func Layers3(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Layers is the icon from layers.svg v0.367.0 file
+// Layers icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/layers.svg
 func Layers(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6155,7 +6155,7 @@ func Layers(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LayoutDashboard is the icon from layout-dashboard.svg v0.367.0 file
+// LayoutDashboard icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/layout-dashboard.svg
 func LayoutDashboard(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6163,7 +6163,7 @@ func LayoutDashboard(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LayoutGrid is the icon from layout-grid.svg v0.367.0 file
+// LayoutGrid icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/layout-grid.svg
 func LayoutGrid(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6171,7 +6171,7 @@ func LayoutGrid(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LayoutList is the icon from layout-list.svg v0.367.0 file
+// LayoutList icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/layout-list.svg
 func LayoutList(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6179,7 +6179,7 @@ func LayoutList(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LayoutPanelLeft is the icon from layout-panel-left.svg v0.367.0 file
+// LayoutPanelLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/layout-panel-left.svg
 func LayoutPanelLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6187,7 +6187,7 @@ func LayoutPanelLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LayoutPanelTop is the icon from layout-panel-top.svg v0.367.0 file
+// LayoutPanelTop icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/layout-panel-top.svg
 func LayoutPanelTop(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6195,7 +6195,7 @@ func LayoutPanelTop(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LayoutTemplate is the icon from layout-template.svg v0.367.0 file
+// LayoutTemplate icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/layout-template.svg
 func LayoutTemplate(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6203,7 +6203,7 @@ func LayoutTemplate(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Leaf is the icon from leaf.svg v0.367.0 file
+// Leaf icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/leaf.svg
 func Leaf(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6211,7 +6211,7 @@ func Leaf(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LeafyGreen is the icon from leafy-green.svg v0.367.0 file
+// LeafyGreen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/leafy-green.svg
 func LeafyGreen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6219,7 +6219,7 @@ func LeafyGreen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LibraryBig is the icon from library-big.svg v0.367.0 file
+// LibraryBig icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/library-big.svg
 func LibraryBig(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6227,7 +6227,7 @@ func LibraryBig(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Library is the icon from library.svg v0.367.0 file
+// Library icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/library.svg
 func Library(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6235,7 +6235,7 @@ func Library(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LifeBuoy is the icon from life-buoy.svg v0.367.0 file
+// LifeBuoy icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/life-buoy.svg
 func LifeBuoy(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6243,7 +6243,7 @@ func LifeBuoy(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ligature is the icon from ligature.svg v0.367.0 file
+// Ligature icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ligature.svg
 func Ligature(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6251,7 +6251,7 @@ func Ligature(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LightbulbOff is the icon from lightbulb-off.svg v0.367.0 file
+// LightbulbOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lightbulb-off.svg
 func LightbulbOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6259,7 +6259,7 @@ func LightbulbOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Lightbulb is the icon from lightbulb.svg v0.367.0 file
+// Lightbulb icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lightbulb.svg
 func Lightbulb(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6267,7 +6267,7 @@ func Lightbulb(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LineChart is the icon from line-chart.svg v0.367.0 file
+// LineChart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/line-chart.svg
 func LineChart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6275,7 +6275,7 @@ func LineChart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Link2Off is the icon from link-2-off.svg v0.367.0 file
+// Link2Off icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/link-2-off.svg
 func Link2Off(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6283,7 +6283,7 @@ func Link2Off(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Link2 is the icon from link-2.svg v0.367.0 file
+// Link2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/link-2.svg
 func Link2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6291,7 +6291,7 @@ func Link2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Link is the icon from link.svg v0.367.0 file
+// Link icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/link.svg
 func Link(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6299,7 +6299,7 @@ func Link(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Linkedin is the icon from linkedin.svg v0.367.0 file
+// Linkedin icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/linkedin.svg
 func Linkedin(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6307,7 +6307,7 @@ func Linkedin(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListChecks is the icon from list-checks.svg v0.367.0 file
+// ListChecks icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-checks.svg
 func ListChecks(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6315,7 +6315,7 @@ func ListChecks(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListCollapse is the icon from list-collapse.svg v0.367.0 file
+// ListCollapse icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-collapse.svg
 func ListCollapse(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6323,7 +6323,7 @@ func ListCollapse(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListEnd is the icon from list-end.svg v0.367.0 file
+// ListEnd icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-end.svg
 func ListEnd(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6331,7 +6331,7 @@ func ListEnd(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListFilter is the icon from list-filter.svg v0.367.0 file
+// ListFilter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-filter.svg
 func ListFilter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6339,7 +6339,7 @@ func ListFilter(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListMinus is the icon from list-minus.svg v0.367.0 file
+// ListMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-minus.svg
 func ListMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6347,7 +6347,7 @@ func ListMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListMusic is the icon from list-music.svg v0.367.0 file
+// ListMusic icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-music.svg
 func ListMusic(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6355,7 +6355,7 @@ func ListMusic(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListOrdered is the icon from list-ordered.svg v0.367.0 file
+// ListOrdered icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-ordered.svg
 func ListOrdered(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6363,7 +6363,7 @@ func ListOrdered(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListPlus is the icon from list-plus.svg v0.367.0 file
+// ListPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-plus.svg
 func ListPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6371,7 +6371,7 @@ func ListPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListRestart is the icon from list-restart.svg v0.367.0 file
+// ListRestart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-restart.svg
 func ListRestart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6379,7 +6379,7 @@ func ListRestart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListStart is the icon from list-start.svg v0.367.0 file
+// ListStart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-start.svg
 func ListStart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6387,7 +6387,7 @@ func ListStart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListTodo is the icon from list-todo.svg v0.367.0 file
+// ListTodo icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-todo.svg
 func ListTodo(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6395,7 +6395,7 @@ func ListTodo(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListTree is the icon from list-tree.svg v0.367.0 file
+// ListTree icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-tree.svg
 func ListTree(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6403,7 +6403,7 @@ func ListTree(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListVideo is the icon from list-video.svg v0.367.0 file
+// ListVideo icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-video.svg
 func ListVideo(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6411,7 +6411,7 @@ func ListVideo(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ListX is the icon from list-x.svg v0.367.0 file
+// ListX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list-x.svg
 func ListX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6419,7 +6419,7 @@ func ListX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// List is the icon from list.svg v0.367.0 file
+// List icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/list.svg
 func List(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6427,7 +6427,7 @@ func List(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LoaderCircle is the icon from loader-circle.svg v0.367.0 file
+// LoaderCircle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/loader-circle.svg
 func LoaderCircle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6435,7 +6435,7 @@ func LoaderCircle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Loader is the icon from loader.svg v0.367.0 file
+// Loader icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/loader.svg
 func Loader(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6443,7 +6443,7 @@ func Loader(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LocateFixed is the icon from locate-fixed.svg v0.367.0 file
+// LocateFixed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/locate-fixed.svg
 func LocateFixed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6451,7 +6451,7 @@ func LocateFixed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LocateOff is the icon from locate-off.svg v0.367.0 file
+// LocateOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/locate-off.svg
 func LocateOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6459,7 +6459,7 @@ func LocateOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Locate is the icon from locate.svg v0.367.0 file
+// Locate icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/locate.svg
 func Locate(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6467,7 +6467,7 @@ func Locate(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LockKeyholeOpen is the icon from lock-keyhole-open.svg v0.367.0 file
+// LockKeyholeOpen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lock-keyhole-open.svg
 func LockKeyholeOpen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6475,7 +6475,7 @@ func LockKeyholeOpen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LockKeyhole is the icon from lock-keyhole.svg v0.367.0 file
+// LockKeyhole icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lock-keyhole.svg
 func LockKeyhole(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6483,7 +6483,7 @@ func LockKeyhole(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LockOpen is the icon from lock-open.svg v0.367.0 file
+// LockOpen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lock-open.svg
 func LockOpen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6491,7 +6491,7 @@ func LockOpen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Lock is the icon from lock.svg v0.367.0 file
+// Lock icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lock.svg
 func Lock(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6499,7 +6499,7 @@ func Lock(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LogIn is the icon from log-in.svg v0.367.0 file
+// LogIn icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/log-in.svg
 func LogIn(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6507,7 +6507,7 @@ func LogIn(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// LogOut is the icon from log-out.svg v0.367.0 file
+// LogOut icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/log-out.svg
 func LogOut(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6515,7 +6515,7 @@ func LogOut(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Lollipop is the icon from lollipop.svg v0.367.0 file
+// Lollipop icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/lollipop.svg
 func Lollipop(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6523,7 +6523,7 @@ func Lollipop(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Luggage is the icon from luggage.svg v0.367.0 file
+// Luggage icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/luggage.svg
 func Luggage(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6531,7 +6531,7 @@ func Luggage(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Magnet is the icon from magnet.svg v0.367.0 file
+// Magnet icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/magnet.svg
 func Magnet(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6539,7 +6539,7 @@ func Magnet(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MailCheck is the icon from mail-check.svg v0.367.0 file
+// MailCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mail-check.svg
 func MailCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6547,7 +6547,7 @@ func MailCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MailMinus is the icon from mail-minus.svg v0.367.0 file
+// MailMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mail-minus.svg
 func MailMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6555,7 +6555,7 @@ func MailMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MailOpen is the icon from mail-open.svg v0.367.0 file
+// MailOpen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mail-open.svg
 func MailOpen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6563,7 +6563,7 @@ func MailOpen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MailPlus is the icon from mail-plus.svg v0.367.0 file
+// MailPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mail-plus.svg
 func MailPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6571,7 +6571,7 @@ func MailPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MailQuestion is the icon from mail-question.svg v0.367.0 file
+// MailQuestion icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mail-question.svg
 func MailQuestion(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6579,7 +6579,7 @@ func MailQuestion(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MailSearch is the icon from mail-search.svg v0.367.0 file
+// MailSearch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mail-search.svg
 func MailSearch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6587,7 +6587,7 @@ func MailSearch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MailWarning is the icon from mail-warning.svg v0.367.0 file
+// MailWarning icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mail-warning.svg
 func MailWarning(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6595,7 +6595,7 @@ func MailWarning(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MailX is the icon from mail-x.svg v0.367.0 file
+// MailX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mail-x.svg
 func MailX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6603,7 +6603,7 @@ func MailX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Mail is the icon from mail.svg v0.367.0 file
+// Mail icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mail.svg
 func Mail(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6611,7 +6611,7 @@ func Mail(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Mailbox is the icon from mailbox.svg v0.367.0 file
+// Mailbox icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mailbox.svg
 func Mailbox(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6619,7 +6619,7 @@ func Mailbox(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Mails is the icon from mails.svg v0.367.0 file
+// Mails icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mails.svg
 func Mails(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6627,7 +6627,7 @@ func Mails(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MapPinOff is the icon from map-pin-off.svg v0.367.0 file
+// MapPinOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/map-pin-off.svg
 func MapPinOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6635,7 +6635,7 @@ func MapPinOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MapPin is the icon from map-pin.svg v0.367.0 file
+// MapPin icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/map-pin.svg
 func MapPin(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6643,7 +6643,7 @@ func MapPin(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MapPinned is the icon from map-pinned.svg v0.367.0 file
+// MapPinned icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/map-pinned.svg
 func MapPinned(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6651,7 +6651,7 @@ func MapPinned(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Map is the icon from map.svg v0.367.0 file
+// Map icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/map.svg
 func Map(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6659,7 +6659,7 @@ func Map(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Martini is the icon from martini.svg v0.367.0 file
+// Martini icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/martini.svg
 func Martini(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6667,7 +6667,7 @@ func Martini(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Maximize2 is the icon from maximize-2.svg v0.367.0 file
+// Maximize2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/maximize-2.svg
 func Maximize2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6675,7 +6675,7 @@ func Maximize2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Maximize is the icon from maximize.svg v0.367.0 file
+// Maximize icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/maximize.svg
 func Maximize(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6683,7 +6683,7 @@ func Maximize(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Medal is the icon from medal.svg v0.367.0 file
+// Medal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/medal.svg
 func Medal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6691,7 +6691,7 @@ func Medal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MegaphoneOff is the icon from megaphone-off.svg v0.367.0 file
+// MegaphoneOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/megaphone-off.svg
 func MegaphoneOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6699,7 +6699,7 @@ func MegaphoneOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Megaphone is the icon from megaphone.svg v0.367.0 file
+// Megaphone icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/megaphone.svg
 func Megaphone(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6707,7 +6707,7 @@ func Megaphone(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Meh is the icon from meh.svg v0.367.0 file
+// Meh icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/meh.svg
 func Meh(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6715,7 +6715,7 @@ func Meh(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MemoryStick is the icon from memory-stick.svg v0.367.0 file
+// MemoryStick icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/memory-stick.svg
 func MemoryStick(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6723,7 +6723,7 @@ func MemoryStick(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Menu is the icon from menu.svg v0.367.0 file
+// Menu icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/menu.svg
 func Menu(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6731,7 +6731,7 @@ func Menu(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Merge is the icon from merge.svg v0.367.0 file
+// Merge icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/merge.svg
 func Merge(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6739,7 +6739,7 @@ func Merge(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageCircleCode is the icon from message-circle-code.svg v0.367.0 file
+// MessageCircleCode icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-circle-code.svg
 func MessageCircleCode(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6747,7 +6747,7 @@ func MessageCircleCode(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageCircleDashed is the icon from message-circle-dashed.svg v0.367.0 file
+// MessageCircleDashed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-circle-dashed.svg
 func MessageCircleDashed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6755,7 +6755,7 @@ func MessageCircleDashed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageCircleHeart is the icon from message-circle-heart.svg v0.367.0 file
+// MessageCircleHeart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-circle-heart.svg
 func MessageCircleHeart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6763,7 +6763,7 @@ func MessageCircleHeart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageCircleMore is the icon from message-circle-more.svg v0.367.0 file
+// MessageCircleMore icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-circle-more.svg
 func MessageCircleMore(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6771,7 +6771,7 @@ func MessageCircleMore(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageCircleOff is the icon from message-circle-off.svg v0.367.0 file
+// MessageCircleOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-circle-off.svg
 func MessageCircleOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6779,7 +6779,7 @@ func MessageCircleOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageCirclePlus is the icon from message-circle-plus.svg v0.367.0 file
+// MessageCirclePlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-circle-plus.svg
 func MessageCirclePlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6787,7 +6787,7 @@ func MessageCirclePlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageCircleQuestion is the icon from message-circle-question.svg v0.367.0 file
+// MessageCircleQuestion icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-circle-question.svg
 func MessageCircleQuestion(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6795,7 +6795,7 @@ func MessageCircleQuestion(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageCircleReply is the icon from message-circle-reply.svg v0.367.0 file
+// MessageCircleReply icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-circle-reply.svg
 func MessageCircleReply(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6803,7 +6803,7 @@ func MessageCircleReply(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageCircleWarning is the icon from message-circle-warning.svg v0.367.0 file
+// MessageCircleWarning icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-circle-warning.svg
 func MessageCircleWarning(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6811,7 +6811,7 @@ func MessageCircleWarning(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageCircleX is the icon from message-circle-x.svg v0.367.0 file
+// MessageCircleX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-circle-x.svg
 func MessageCircleX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6819,7 +6819,7 @@ func MessageCircleX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageCircle is the icon from message-circle.svg v0.367.0 file
+// MessageCircle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-circle.svg
 func MessageCircle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6827,7 +6827,7 @@ func MessageCircle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareCode is the icon from message-square-code.svg v0.367.0 file
+// MessageSquareCode icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-code.svg
 func MessageSquareCode(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6835,7 +6835,7 @@ func MessageSquareCode(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareDashed is the icon from message-square-dashed.svg v0.367.0 file
+// MessageSquareDashed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-dashed.svg
 func MessageSquareDashed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6843,7 +6843,7 @@ func MessageSquareDashed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareDiff is the icon from message-square-diff.svg v0.367.0 file
+// MessageSquareDiff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-diff.svg
 func MessageSquareDiff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6851,7 +6851,7 @@ func MessageSquareDiff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareDot is the icon from message-square-dot.svg v0.367.0 file
+// MessageSquareDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-dot.svg
 func MessageSquareDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6859,7 +6859,7 @@ func MessageSquareDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareHeart is the icon from message-square-heart.svg v0.367.0 file
+// MessageSquareHeart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-heart.svg
 func MessageSquareHeart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6867,7 +6867,7 @@ func MessageSquareHeart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareMore is the icon from message-square-more.svg v0.367.0 file
+// MessageSquareMore icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-more.svg
 func MessageSquareMore(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6875,7 +6875,7 @@ func MessageSquareMore(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareOff is the icon from message-square-off.svg v0.367.0 file
+// MessageSquareOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-off.svg
 func MessageSquareOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6883,7 +6883,7 @@ func MessageSquareOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquarePlus is the icon from message-square-plus.svg v0.367.0 file
+// MessageSquarePlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-plus.svg
 func MessageSquarePlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6891,7 +6891,7 @@ func MessageSquarePlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareQuote is the icon from message-square-quote.svg v0.367.0 file
+// MessageSquareQuote icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-quote.svg
 func MessageSquareQuote(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6899,7 +6899,7 @@ func MessageSquareQuote(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareReply is the icon from message-square-reply.svg v0.367.0 file
+// MessageSquareReply icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-reply.svg
 func MessageSquareReply(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6907,7 +6907,7 @@ func MessageSquareReply(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareShare is the icon from message-square-share.svg v0.367.0 file
+// MessageSquareShare icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-share.svg
 func MessageSquareShare(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6915,7 +6915,7 @@ func MessageSquareShare(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareText is the icon from message-square-text.svg v0.367.0 file
+// MessageSquareText icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-text.svg
 func MessageSquareText(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6923,7 +6923,7 @@ func MessageSquareText(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareWarning is the icon from message-square-warning.svg v0.367.0 file
+// MessageSquareWarning icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-warning.svg
 func MessageSquareWarning(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6931,7 +6931,7 @@ func MessageSquareWarning(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquareX is the icon from message-square-x.svg v0.367.0 file
+// MessageSquareX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square-x.svg
 func MessageSquareX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6939,7 +6939,7 @@ func MessageSquareX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessageSquare is the icon from message-square.svg v0.367.0 file
+// MessageSquare icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/message-square.svg
 func MessageSquare(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6947,7 +6947,7 @@ func MessageSquare(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MessagesSquare is the icon from messages-square.svg v0.367.0 file
+// MessagesSquare icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/messages-square.svg
 func MessagesSquare(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6955,7 +6955,7 @@ func MessagesSquare(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MicOff is the icon from mic-off.svg v0.367.0 file
+// MicOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mic-off.svg
 func MicOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6963,7 +6963,7 @@ func MicOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MicVocal is the icon from mic-vocal.svg v0.367.0 file
+// MicVocal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mic-vocal.svg
 func MicVocal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6971,7 +6971,7 @@ func MicVocal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Mic is the icon from mic.svg v0.367.0 file
+// Mic icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mic.svg
 func Mic(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6979,7 +6979,7 @@ func Mic(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Microscope is the icon from microscope.svg v0.367.0 file
+// Microscope icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/microscope.svg
 func Microscope(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6987,7 +6987,7 @@ func Microscope(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Microwave is the icon from microwave.svg v0.367.0 file
+// Microwave icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/microwave.svg
 func Microwave(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -6995,7 +6995,7 @@ func Microwave(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Milestone is the icon from milestone.svg v0.367.0 file
+// Milestone icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/milestone.svg
 func Milestone(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7003,7 +7003,7 @@ func Milestone(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MilkOff is the icon from milk-off.svg v0.367.0 file
+// MilkOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/milk-off.svg
 func MilkOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7011,7 +7011,7 @@ func MilkOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Milk is the icon from milk.svg v0.367.0 file
+// Milk icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/milk.svg
 func Milk(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7019,7 +7019,7 @@ func Milk(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Minimize2 is the icon from minimize-2.svg v0.367.0 file
+// Minimize2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/minimize-2.svg
 func Minimize2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7027,7 +7027,7 @@ func Minimize2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Minimize is the icon from minimize.svg v0.367.0 file
+// Minimize icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/minimize.svg
 func Minimize(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7035,7 +7035,7 @@ func Minimize(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Minus is the icon from minus.svg v0.367.0 file
+// Minus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/minus.svg
 func Minus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7043,7 +7043,7 @@ func Minus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MonitorCheck is the icon from monitor-check.svg v0.367.0 file
+// MonitorCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor-check.svg
 func MonitorCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7051,7 +7051,7 @@ func MonitorCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MonitorDot is the icon from monitor-dot.svg v0.367.0 file
+// MonitorDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor-dot.svg
 func MonitorDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7059,7 +7059,7 @@ func MonitorDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MonitorDown is the icon from monitor-down.svg v0.367.0 file
+// MonitorDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor-down.svg
 func MonitorDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7067,7 +7067,7 @@ func MonitorDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MonitorOff is the icon from monitor-off.svg v0.367.0 file
+// MonitorOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor-off.svg
 func MonitorOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7075,7 +7075,7 @@ func MonitorOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MonitorPause is the icon from monitor-pause.svg v0.367.0 file
+// MonitorPause icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor-pause.svg
 func MonitorPause(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7083,7 +7083,7 @@ func MonitorPause(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MonitorPlay is the icon from monitor-play.svg v0.367.0 file
+// MonitorPlay icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor-play.svg
 func MonitorPlay(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7091,7 +7091,7 @@ func MonitorPlay(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MonitorSmartphone is the icon from monitor-smartphone.svg v0.367.0 file
+// MonitorSmartphone icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor-smartphone.svg
 func MonitorSmartphone(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7099,7 +7099,7 @@ func MonitorSmartphone(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MonitorSpeaker is the icon from monitor-speaker.svg v0.367.0 file
+// MonitorSpeaker icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor-speaker.svg
 func MonitorSpeaker(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7107,7 +7107,7 @@ func MonitorSpeaker(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MonitorStop is the icon from monitor-stop.svg v0.367.0 file
+// MonitorStop icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor-stop.svg
 func MonitorStop(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7115,7 +7115,7 @@ func MonitorStop(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MonitorUp is the icon from monitor-up.svg v0.367.0 file
+// MonitorUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor-up.svg
 func MonitorUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7123,7 +7123,7 @@ func MonitorUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MonitorX is the icon from monitor-x.svg v0.367.0 file
+// MonitorX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor-x.svg
 func MonitorX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7131,7 +7131,7 @@ func MonitorX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Monitor is the icon from monitor.svg v0.367.0 file
+// Monitor icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/monitor.svg
 func Monitor(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7139,7 +7139,7 @@ func Monitor(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoonStar is the icon from moon-star.svg v0.367.0 file
+// MoonStar icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/moon-star.svg
 func MoonStar(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7147,7 +7147,7 @@ func MoonStar(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Moon is the icon from moon.svg v0.367.0 file
+// Moon icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/moon.svg
 func Moon(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7155,7 +7155,7 @@ func Moon(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MountainSnow is the icon from mountain-snow.svg v0.367.0 file
+// MountainSnow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mountain-snow.svg
 func MountainSnow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7163,7 +7163,7 @@ func MountainSnow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Mountain is the icon from mountain.svg v0.367.0 file
+// Mountain icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mountain.svg
 func Mountain(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7171,7 +7171,7 @@ func Mountain(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MouseOff is the icon from mouse-off.svg v0.367.0 file
+// MouseOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mouse-off.svg
 func MouseOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7179,7 +7179,7 @@ func MouseOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MousePointer2 is the icon from mouse-pointer-2.svg v0.367.0 file
+// MousePointer2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mouse-pointer-2.svg
 func MousePointer2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7187,7 +7187,7 @@ func MousePointer2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MousePointerClick is the icon from mouse-pointer-click.svg v0.367.0 file
+// MousePointerClick icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mouse-pointer-click.svg
 func MousePointerClick(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7195,7 +7195,7 @@ func MousePointerClick(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MousePointer is the icon from mouse-pointer.svg v0.367.0 file
+// MousePointer icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mouse-pointer.svg
 func MousePointer(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7203,7 +7203,7 @@ func MousePointer(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Mouse is the icon from mouse.svg v0.367.0 file
+// Mouse icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/mouse.svg
 func Mouse(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7211,7 +7211,7 @@ func Mouse(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Move3d is the icon from move-3d.svg v0.367.0 file
+// Move3d icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-3d.svg
 func Move3d(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7219,7 +7219,7 @@ func Move3d(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveDiagonal2 is the icon from move-diagonal-2.svg v0.367.0 file
+// MoveDiagonal2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-diagonal-2.svg
 func MoveDiagonal2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7227,7 +7227,7 @@ func MoveDiagonal2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveDiagonal is the icon from move-diagonal.svg v0.367.0 file
+// MoveDiagonal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-diagonal.svg
 func MoveDiagonal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7235,7 +7235,7 @@ func MoveDiagonal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveDownLeft is the icon from move-down-left.svg v0.367.0 file
+// MoveDownLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-down-left.svg
 func MoveDownLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7243,7 +7243,7 @@ func MoveDownLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveDownRight is the icon from move-down-right.svg v0.367.0 file
+// MoveDownRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-down-right.svg
 func MoveDownRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7251,7 +7251,7 @@ func MoveDownRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveDown is the icon from move-down.svg v0.367.0 file
+// MoveDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-down.svg
 func MoveDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7259,7 +7259,7 @@ func MoveDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveHorizontal is the icon from move-horizontal.svg v0.367.0 file
+// MoveHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-horizontal.svg
 func MoveHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7267,7 +7267,7 @@ func MoveHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveLeft is the icon from move-left.svg v0.367.0 file
+// MoveLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-left.svg
 func MoveLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7275,7 +7275,7 @@ func MoveLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveRight is the icon from move-right.svg v0.367.0 file
+// MoveRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-right.svg
 func MoveRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7283,7 +7283,7 @@ func MoveRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveUpLeft is the icon from move-up-left.svg v0.367.0 file
+// MoveUpLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-up-left.svg
 func MoveUpLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7291,7 +7291,7 @@ func MoveUpLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveUpRight is the icon from move-up-right.svg v0.367.0 file
+// MoveUpRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-up-right.svg
 func MoveUpRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7299,7 +7299,7 @@ func MoveUpRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveUp is the icon from move-up.svg v0.367.0 file
+// MoveUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-up.svg
 func MoveUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7307,7 +7307,7 @@ func MoveUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// MoveVertical is the icon from move-vertical.svg v0.367.0 file
+// MoveVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move-vertical.svg
 func MoveVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7315,7 +7315,7 @@ func MoveVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Move is the icon from move.svg v0.367.0 file
+// Move icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/move.svg
 func Move(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7323,7 +7323,7 @@ func Move(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Music2 is the icon from music-2.svg v0.367.0 file
+// Music2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/music-2.svg
 func Music2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7331,7 +7331,7 @@ func Music2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Music3 is the icon from music-3.svg v0.367.0 file
+// Music3 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/music-3.svg
 func Music3(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7339,7 +7339,7 @@ func Music3(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Music4 is the icon from music-4.svg v0.367.0 file
+// Music4 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/music-4.svg
 func Music4(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7347,7 +7347,7 @@ func Music4(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Music is the icon from music.svg v0.367.0 file
+// Music icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/music.svg
 func Music(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7355,7 +7355,7 @@ func Music(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Navigation2Off is the icon from navigation-2-off.svg v0.367.0 file
+// Navigation2Off icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/navigation-2-off.svg
 func Navigation2Off(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7363,7 +7363,7 @@ func Navigation2Off(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Navigation2 is the icon from navigation-2.svg v0.367.0 file
+// Navigation2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/navigation-2.svg
 func Navigation2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7371,7 +7371,7 @@ func Navigation2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// NavigationOff is the icon from navigation-off.svg v0.367.0 file
+// NavigationOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/navigation-off.svg
 func NavigationOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7379,7 +7379,7 @@ func NavigationOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Navigation is the icon from navigation.svg v0.367.0 file
+// Navigation icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/navigation.svg
 func Navigation(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7387,7 +7387,7 @@ func Navigation(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Network is the icon from network.svg v0.367.0 file
+// Network icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/network.svg
 func Network(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7395,7 +7395,7 @@ func Network(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Newspaper is the icon from newspaper.svg v0.367.0 file
+// Newspaper icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/newspaper.svg
 func Newspaper(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7403,7 +7403,7 @@ func Newspaper(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Nfc is the icon from nfc.svg v0.367.0 file
+// Nfc icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/nfc.svg
 func Nfc(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7411,7 +7411,7 @@ func Nfc(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// NotebookPen is the icon from notebook-pen.svg v0.367.0 file
+// NotebookPen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/notebook-pen.svg
 func NotebookPen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7419,7 +7419,7 @@ func NotebookPen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// NotebookTabs is the icon from notebook-tabs.svg v0.367.0 file
+// NotebookTabs icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/notebook-tabs.svg
 func NotebookTabs(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7427,7 +7427,7 @@ func NotebookTabs(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// NotebookText is the icon from notebook-text.svg v0.367.0 file
+// NotebookText icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/notebook-text.svg
 func NotebookText(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7435,7 +7435,7 @@ func NotebookText(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Notebook is the icon from notebook.svg v0.367.0 file
+// Notebook icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/notebook.svg
 func Notebook(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7443,7 +7443,7 @@ func Notebook(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// NotepadTextDashed is the icon from notepad-text-dashed.svg v0.367.0 file
+// NotepadTextDashed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/notepad-text-dashed.svg
 func NotepadTextDashed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7451,7 +7451,7 @@ func NotepadTextDashed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// NotepadText is the icon from notepad-text.svg v0.367.0 file
+// NotepadText icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/notepad-text.svg
 func NotepadText(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7459,7 +7459,7 @@ func NotepadText(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// NutOff is the icon from nut-off.svg v0.367.0 file
+// NutOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/nut-off.svg
 func NutOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7467,7 +7467,7 @@ func NutOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Nut is the icon from nut.svg v0.367.0 file
+// Nut icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/nut.svg
 func Nut(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7475,7 +7475,7 @@ func Nut(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// OctagonAlert is the icon from octagon-alert.svg v0.367.0 file
+// OctagonAlert icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/octagon-alert.svg
 func OctagonAlert(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7483,7 +7483,7 @@ func OctagonAlert(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// OctagonPause is the icon from octagon-pause.svg v0.367.0 file
+// OctagonPause icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/octagon-pause.svg
 func OctagonPause(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7491,7 +7491,7 @@ func OctagonPause(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// OctagonX is the icon from octagon-x.svg v0.367.0 file
+// OctagonX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/octagon-x.svg
 func OctagonX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7499,7 +7499,7 @@ func OctagonX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Octagon is the icon from octagon.svg v0.367.0 file
+// Octagon icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/octagon.svg
 func Octagon(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7507,7 +7507,7 @@ func Octagon(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Option is the icon from option.svg v0.367.0 file
+// Option icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/option.svg
 func Option(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7515,7 +7515,7 @@ func Option(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Orbit is the icon from orbit.svg v0.367.0 file
+// Orbit icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/orbit.svg
 func Orbit(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7523,7 +7523,7 @@ func Orbit(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Package2 is the icon from package-2.svg v0.367.0 file
+// Package2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/package-2.svg
 func Package2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7531,7 +7531,7 @@ func Package2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PackageCheck is the icon from package-check.svg v0.367.0 file
+// PackageCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/package-check.svg
 func PackageCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7539,7 +7539,7 @@ func PackageCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PackageMinus is the icon from package-minus.svg v0.367.0 file
+// PackageMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/package-minus.svg
 func PackageMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7547,7 +7547,7 @@ func PackageMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PackageOpen is the icon from package-open.svg v0.367.0 file
+// PackageOpen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/package-open.svg
 func PackageOpen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7555,7 +7555,7 @@ func PackageOpen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PackagePlus is the icon from package-plus.svg v0.367.0 file
+// PackagePlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/package-plus.svg
 func PackagePlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7563,7 +7563,7 @@ func PackagePlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PackageSearch is the icon from package-search.svg v0.367.0 file
+// PackageSearch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/package-search.svg
 func PackageSearch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7571,7 +7571,7 @@ func PackageSearch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PackageX is the icon from package-x.svg v0.367.0 file
+// PackageX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/package-x.svg
 func PackageX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7579,7 +7579,7 @@ func PackageX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Package is the icon from package.svg v0.367.0 file
+// Package icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/package.svg
 func Package(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7587,7 +7587,7 @@ func Package(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PaintBucket is the icon from paint-bucket.svg v0.367.0 file
+// PaintBucket icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/paint-bucket.svg
 func PaintBucket(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7595,7 +7595,7 @@ func PaintBucket(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PaintRoller is the icon from paint-roller.svg v0.367.0 file
+// PaintRoller icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/paint-roller.svg
 func PaintRoller(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7603,7 +7603,7 @@ func PaintRoller(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Paintbrush2 is the icon from paintbrush-2.svg v0.367.0 file
+// Paintbrush2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/paintbrush-2.svg
 func Paintbrush2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7611,7 +7611,7 @@ func Paintbrush2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Paintbrush is the icon from paintbrush.svg v0.367.0 file
+// Paintbrush icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/paintbrush.svg
 func Paintbrush(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7619,7 +7619,7 @@ func Paintbrush(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Palette is the icon from palette.svg v0.367.0 file
+// Palette icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/palette.svg
 func Palette(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7627,7 +7627,7 @@ func Palette(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelBottomClose is the icon from panel-bottom-close.svg v0.367.0 file
+// PanelBottomClose icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-bottom-close.svg
 func PanelBottomClose(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7635,7 +7635,7 @@ func PanelBottomClose(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelBottomDashed is the icon from panel-bottom-dashed.svg v0.367.0 file
+// PanelBottomDashed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-bottom-dashed.svg
 func PanelBottomDashed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7643,7 +7643,7 @@ func PanelBottomDashed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelBottomOpen is the icon from panel-bottom-open.svg v0.367.0 file
+// PanelBottomOpen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-bottom-open.svg
 func PanelBottomOpen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7651,7 +7651,7 @@ func PanelBottomOpen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelBottom is the icon from panel-bottom.svg v0.367.0 file
+// PanelBottom icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-bottom.svg
 func PanelBottom(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7659,7 +7659,7 @@ func PanelBottom(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelLeftClose is the icon from panel-left-close.svg v0.367.0 file
+// PanelLeftClose icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-left-close.svg
 func PanelLeftClose(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7667,7 +7667,7 @@ func PanelLeftClose(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelLeftDashed is the icon from panel-left-dashed.svg v0.367.0 file
+// PanelLeftDashed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-left-dashed.svg
 func PanelLeftDashed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7675,7 +7675,7 @@ func PanelLeftDashed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelLeftOpen is the icon from panel-left-open.svg v0.367.0 file
+// PanelLeftOpen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-left-open.svg
 func PanelLeftOpen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7683,7 +7683,7 @@ func PanelLeftOpen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelLeft is the icon from panel-left.svg v0.367.0 file
+// PanelLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-left.svg
 func PanelLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7691,7 +7691,7 @@ func PanelLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelRightClose is the icon from panel-right-close.svg v0.367.0 file
+// PanelRightClose icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-right-close.svg
 func PanelRightClose(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7699,7 +7699,7 @@ func PanelRightClose(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelRightDashed is the icon from panel-right-dashed.svg v0.367.0 file
+// PanelRightDashed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-right-dashed.svg
 func PanelRightDashed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7707,7 +7707,7 @@ func PanelRightDashed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelRightOpen is the icon from panel-right-open.svg v0.367.0 file
+// PanelRightOpen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-right-open.svg
 func PanelRightOpen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7715,7 +7715,7 @@ func PanelRightOpen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelRight is the icon from panel-right.svg v0.367.0 file
+// PanelRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-right.svg
 func PanelRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7723,7 +7723,7 @@ func PanelRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelTopClose is the icon from panel-top-close.svg v0.367.0 file
+// PanelTopClose icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-top-close.svg
 func PanelTopClose(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7731,7 +7731,7 @@ func PanelTopClose(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelTopDashed is the icon from panel-top-dashed.svg v0.367.0 file
+// PanelTopDashed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-top-dashed.svg
 func PanelTopDashed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7739,7 +7739,7 @@ func PanelTopDashed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelTopOpen is the icon from panel-top-open.svg v0.367.0 file
+// PanelTopOpen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-top-open.svg
 func PanelTopOpen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7747,7 +7747,7 @@ func PanelTopOpen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelTop is the icon from panel-top.svg v0.367.0 file
+// PanelTop icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panel-top.svg
 func PanelTop(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7755,7 +7755,7 @@ func PanelTop(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelsLeftBottom is the icon from panels-left-bottom.svg v0.367.0 file
+// PanelsLeftBottom icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panels-left-bottom.svg
 func PanelsLeftBottom(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7763,7 +7763,7 @@ func PanelsLeftBottom(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelsRightBottom is the icon from panels-right-bottom.svg v0.367.0 file
+// PanelsRightBottom icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panels-right-bottom.svg
 func PanelsRightBottom(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7771,7 +7771,7 @@ func PanelsRightBottom(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PanelsTopLeft is the icon from panels-top-left.svg v0.367.0 file
+// PanelsTopLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/panels-top-left.svg
 func PanelsTopLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7779,7 +7779,7 @@ func PanelsTopLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Paperclip is the icon from paperclip.svg v0.367.0 file
+// Paperclip icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/paperclip.svg
 func Paperclip(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7787,7 +7787,7 @@ func Paperclip(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Parentheses is the icon from parentheses.svg v0.367.0 file
+// Parentheses icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/parentheses.svg
 func Parentheses(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7795,7 +7795,7 @@ func Parentheses(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ParkingMeter is the icon from parking-meter.svg v0.367.0 file
+// ParkingMeter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/parking-meter.svg
 func ParkingMeter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7803,7 +7803,7 @@ func ParkingMeter(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PartyPopper is the icon from party-popper.svg v0.367.0 file
+// PartyPopper icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/party-popper.svg
 func PartyPopper(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7811,7 +7811,7 @@ func PartyPopper(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pause is the icon from pause.svg v0.367.0 file
+// Pause icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pause.svg
 func Pause(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7819,7 +7819,7 @@ func Pause(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PawPrint is the icon from paw-print.svg v0.367.0 file
+// PawPrint icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/paw-print.svg
 func PawPrint(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7827,7 +7827,7 @@ func PawPrint(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PcCase is the icon from pc-case.svg v0.367.0 file
+// PcCase icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pc-case.svg
 func PcCase(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7835,7 +7835,7 @@ func PcCase(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PenLine is the icon from pen-line.svg v0.367.0 file
+// PenLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pen-line.svg
 func PenLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7843,7 +7843,7 @@ func PenLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PenTool is the icon from pen-tool.svg v0.367.0 file
+// PenTool icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pen-tool.svg
 func PenTool(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7851,7 +7851,7 @@ func PenTool(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pen is the icon from pen.svg v0.367.0 file
+// Pen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pen.svg
 func Pen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7859,7 +7859,7 @@ func Pen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PencilLine is the icon from pencil-line.svg v0.367.0 file
+// PencilLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pencil-line.svg
 func PencilLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7867,7 +7867,7 @@ func PencilLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PencilRuler is the icon from pencil-ruler.svg v0.367.0 file
+// PencilRuler icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pencil-ruler.svg
 func PencilRuler(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7875,7 +7875,7 @@ func PencilRuler(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pencil is the icon from pencil.svg v0.367.0 file
+// Pencil icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pencil.svg
 func Pencil(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7883,7 +7883,7 @@ func Pencil(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pentagon is the icon from pentagon.svg v0.367.0 file
+// Pentagon icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pentagon.svg
 func Pentagon(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7891,7 +7891,7 @@ func Pentagon(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Percent is the icon from percent.svg v0.367.0 file
+// Percent icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/percent.svg
 func Percent(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7899,7 +7899,7 @@ func Percent(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PersonStanding is the icon from person-standing.svg v0.367.0 file
+// PersonStanding icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/person-standing.svg
 func PersonStanding(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7907,7 +7907,7 @@ func PersonStanding(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PhoneCall is the icon from phone-call.svg v0.367.0 file
+// PhoneCall icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/phone-call.svg
 func PhoneCall(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7915,7 +7915,7 @@ func PhoneCall(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PhoneForwarded is the icon from phone-forwarded.svg v0.367.0 file
+// PhoneForwarded icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/phone-forwarded.svg
 func PhoneForwarded(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7923,7 +7923,7 @@ func PhoneForwarded(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PhoneIncoming is the icon from phone-incoming.svg v0.367.0 file
+// PhoneIncoming icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/phone-incoming.svg
 func PhoneIncoming(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7931,7 +7931,7 @@ func PhoneIncoming(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PhoneMissed is the icon from phone-missed.svg v0.367.0 file
+// PhoneMissed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/phone-missed.svg
 func PhoneMissed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7939,7 +7939,7 @@ func PhoneMissed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PhoneOff is the icon from phone-off.svg v0.367.0 file
+// PhoneOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/phone-off.svg
 func PhoneOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7947,7 +7947,7 @@ func PhoneOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PhoneOutgoing is the icon from phone-outgoing.svg v0.367.0 file
+// PhoneOutgoing icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/phone-outgoing.svg
 func PhoneOutgoing(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7955,7 +7955,7 @@ func PhoneOutgoing(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Phone is the icon from phone.svg v0.367.0 file
+// Phone icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/phone.svg
 func Phone(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7963,7 +7963,7 @@ func Phone(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pi is the icon from pi.svg v0.367.0 file
+// Pi icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pi.svg
 func Pi(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7971,7 +7971,7 @@ func Pi(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Piano is the icon from piano.svg v0.367.0 file
+// Piano icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/piano.svg
 func Piano(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7979,7 +7979,7 @@ func Piano(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pickaxe is the icon from pickaxe.svg v0.367.0 file
+// Pickaxe icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pickaxe.svg
 func Pickaxe(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7987,7 +7987,7 @@ func Pickaxe(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PictureInPicture2 is the icon from picture-in-picture-2.svg v0.367.0 file
+// PictureInPicture2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/picture-in-picture-2.svg
 func PictureInPicture2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -7995,7 +7995,7 @@ func PictureInPicture2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PictureInPicture is the icon from picture-in-picture.svg v0.367.0 file
+// PictureInPicture icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/picture-in-picture.svg
 func PictureInPicture(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8003,7 +8003,7 @@ func PictureInPicture(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PieChart is the icon from pie-chart.svg v0.367.0 file
+// PieChart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pie-chart.svg
 func PieChart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8011,7 +8011,7 @@ func PieChart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PiggyBank is the icon from piggy-bank.svg v0.367.0 file
+// PiggyBank icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/piggy-bank.svg
 func PiggyBank(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8019,7 +8019,7 @@ func PiggyBank(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PilcrowLeft is the icon from pilcrow-left.svg v0.367.0 file
+// PilcrowLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pilcrow-left.svg
 func PilcrowLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8027,7 +8027,7 @@ func PilcrowLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PilcrowRight is the icon from pilcrow-right.svg v0.367.0 file
+// PilcrowRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pilcrow-right.svg
 func PilcrowRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8035,7 +8035,7 @@ func PilcrowRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pilcrow is the icon from pilcrow.svg v0.367.0 file
+// Pilcrow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pilcrow.svg
 func Pilcrow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8043,7 +8043,7 @@ func Pilcrow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pill is the icon from pill.svg v0.367.0 file
+// Pill icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pill.svg
 func Pill(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8051,7 +8051,7 @@ func Pill(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PinOff is the icon from pin-off.svg v0.367.0 file
+// PinOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pin-off.svg
 func PinOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8059,7 +8059,7 @@ func PinOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pin is the icon from pin.svg v0.367.0 file
+// Pin icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pin.svg
 func Pin(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8067,7 +8067,7 @@ func Pin(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pipette is the icon from pipette.svg v0.367.0 file
+// Pipette icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pipette.svg
 func Pipette(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8075,7 +8075,7 @@ func Pipette(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pizza is the icon from pizza.svg v0.367.0 file
+// Pizza icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pizza.svg
 func Pizza(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8083,7 +8083,7 @@ func Pizza(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PlaneLanding is the icon from plane-landing.svg v0.367.0 file
+// PlaneLanding icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/plane-landing.svg
 func PlaneLanding(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8091,7 +8091,7 @@ func PlaneLanding(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PlaneTakeoff is the icon from plane-takeoff.svg v0.367.0 file
+// PlaneTakeoff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/plane-takeoff.svg
 func PlaneTakeoff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8099,7 +8099,7 @@ func PlaneTakeoff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Plane is the icon from plane.svg v0.367.0 file
+// Plane icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/plane.svg
 func Plane(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8107,7 +8107,7 @@ func Plane(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Play is the icon from play.svg v0.367.0 file
+// Play icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/play.svg
 func Play(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8115,7 +8115,7 @@ func Play(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Plug2 is the icon from plug-2.svg v0.367.0 file
+// Plug2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/plug-2.svg
 func Plug2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8123,7 +8123,7 @@ func Plug2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PlugZap2 is the icon from plug-zap-2.svg v0.367.0 file
+// PlugZap2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/plug-zap-2.svg
 func PlugZap2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8131,7 +8131,7 @@ func PlugZap2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PlugZap is the icon from plug-zap.svg v0.367.0 file
+// PlugZap icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/plug-zap.svg
 func PlugZap(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8139,7 +8139,7 @@ func PlugZap(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Plug is the icon from plug.svg v0.367.0 file
+// Plug icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/plug.svg
 func Plug(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8147,7 +8147,7 @@ func Plug(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Plus is the icon from plus.svg v0.367.0 file
+// Plus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/plus.svg
 func Plus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8155,7 +8155,7 @@ func Plus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PocketKnife is the icon from pocket-knife.svg v0.367.0 file
+// PocketKnife icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pocket-knife.svg
 func PocketKnife(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8163,7 +8163,7 @@ func PocketKnife(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pocket is the icon from pocket.svg v0.367.0 file
+// Pocket icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pocket.svg
 func Pocket(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8171,7 +8171,7 @@ func Pocket(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Podcast is the icon from podcast.svg v0.367.0 file
+// Podcast icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/podcast.svg
 func Podcast(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8179,7 +8179,7 @@ func Podcast(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PointerOff is the icon from pointer-off.svg v0.367.0 file
+// PointerOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pointer-off.svg
 func PointerOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8187,7 +8187,7 @@ func PointerOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pointer is the icon from pointer.svg v0.367.0 file
+// Pointer icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pointer.svg
 func Pointer(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8195,7 +8195,7 @@ func Pointer(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Popcorn is the icon from popcorn.svg v0.367.0 file
+// Popcorn icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/popcorn.svg
 func Popcorn(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8203,7 +8203,7 @@ func Popcorn(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Popsicle is the icon from popsicle.svg v0.367.0 file
+// Popsicle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/popsicle.svg
 func Popsicle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8211,7 +8211,7 @@ func Popsicle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PoundSterling is the icon from pound-sterling.svg v0.367.0 file
+// PoundSterling icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pound-sterling.svg
 func PoundSterling(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8219,7 +8219,7 @@ func PoundSterling(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// PowerOff is the icon from power-off.svg v0.367.0 file
+// PowerOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/power-off.svg
 func PowerOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8227,7 +8227,7 @@ func PowerOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Power is the icon from power.svg v0.367.0 file
+// Power icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/power.svg
 func Power(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8235,7 +8235,7 @@ func Power(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Presentation is the icon from presentation.svg v0.367.0 file
+// Presentation icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/presentation.svg
 func Presentation(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8243,7 +8243,7 @@ func Presentation(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Printer is the icon from printer.svg v0.367.0 file
+// Printer icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/printer.svg
 func Printer(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8251,7 +8251,7 @@ func Printer(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Projector is the icon from projector.svg v0.367.0 file
+// Projector icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/projector.svg
 func Projector(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8259,7 +8259,7 @@ func Projector(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Proportions is the icon from proportions.svg v0.367.0 file
+// Proportions icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/proportions.svg
 func Proportions(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8267,7 +8267,7 @@ func Proportions(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Puzzle is the icon from puzzle.svg v0.367.0 file
+// Puzzle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/puzzle.svg
 func Puzzle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8275,7 +8275,7 @@ func Puzzle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Pyramid is the icon from pyramid.svg v0.367.0 file
+// Pyramid icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/pyramid.svg
 func Pyramid(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8283,7 +8283,7 @@ func Pyramid(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// QrCode is the icon from qr-code.svg v0.367.0 file
+// QrCode icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/qr-code.svg
 func QrCode(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8291,7 +8291,7 @@ func QrCode(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Quote is the icon from quote.svg v0.367.0 file
+// Quote icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/quote.svg
 func Quote(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8299,7 +8299,7 @@ func Quote(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Rabbit is the icon from rabbit.svg v0.367.0 file
+// Rabbit icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rabbit.svg
 func Rabbit(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8307,7 +8307,7 @@ func Rabbit(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Radar is the icon from radar.svg v0.367.0 file
+// Radar icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/radar.svg
 func Radar(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8315,7 +8315,7 @@ func Radar(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Radiation is the icon from radiation.svg v0.367.0 file
+// Radiation icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/radiation.svg
 func Radiation(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8323,7 +8323,7 @@ func Radiation(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Radical is the icon from radical.svg v0.367.0 file
+// Radical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/radical.svg
 func Radical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8331,7 +8331,7 @@ func Radical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RadioReceiver is the icon from radio-receiver.svg v0.367.0 file
+// RadioReceiver icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/radio-receiver.svg
 func RadioReceiver(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8339,7 +8339,7 @@ func RadioReceiver(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RadioTower is the icon from radio-tower.svg v0.367.0 file
+// RadioTower icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/radio-tower.svg
 func RadioTower(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8347,7 +8347,7 @@ func RadioTower(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Radio is the icon from radio.svg v0.367.0 file
+// Radio icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/radio.svg
 func Radio(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8355,7 +8355,7 @@ func Radio(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Radius is the icon from radius.svg v0.367.0 file
+// Radius icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/radius.svg
 func Radius(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8363,7 +8363,7 @@ func Radius(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RailSymbol is the icon from rail-symbol.svg v0.367.0 file
+// RailSymbol icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rail-symbol.svg
 func RailSymbol(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8371,7 +8371,7 @@ func RailSymbol(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Rainbow is the icon from rainbow.svg v0.367.0 file
+// Rainbow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rainbow.svg
 func Rainbow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8379,7 +8379,7 @@ func Rainbow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Rat is the icon from rat.svg v0.367.0 file
+// Rat icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rat.svg
 func Rat(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8387,7 +8387,7 @@ func Rat(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ratio is the icon from ratio.svg v0.367.0 file
+// Ratio icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ratio.svg
 func Ratio(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8395,7 +8395,7 @@ func Ratio(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ReceiptCent is the icon from receipt-cent.svg v0.367.0 file
+// ReceiptCent icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/receipt-cent.svg
 func ReceiptCent(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8403,7 +8403,7 @@ func ReceiptCent(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ReceiptEuro is the icon from receipt-euro.svg v0.367.0 file
+// ReceiptEuro icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/receipt-euro.svg
 func ReceiptEuro(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8411,7 +8411,7 @@ func ReceiptEuro(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ReceiptIndianRupee is the icon from receipt-indian-rupee.svg v0.367.0 file
+// ReceiptIndianRupee icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/receipt-indian-rupee.svg
 func ReceiptIndianRupee(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8419,7 +8419,7 @@ func ReceiptIndianRupee(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ReceiptJapaneseYen is the icon from receipt-japanese-yen.svg v0.367.0 file
+// ReceiptJapaneseYen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/receipt-japanese-yen.svg
 func ReceiptJapaneseYen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8427,7 +8427,7 @@ func ReceiptJapaneseYen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ReceiptPoundSterling is the icon from receipt-pound-sterling.svg v0.367.0 file
+// ReceiptPoundSterling icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/receipt-pound-sterling.svg
 func ReceiptPoundSterling(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8435,7 +8435,7 @@ func ReceiptPoundSterling(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ReceiptRussianRuble is the icon from receipt-russian-ruble.svg v0.367.0 file
+// ReceiptRussianRuble icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/receipt-russian-ruble.svg
 func ReceiptRussianRuble(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8443,7 +8443,7 @@ func ReceiptRussianRuble(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ReceiptSwissFranc is the icon from receipt-swiss-franc.svg v0.367.0 file
+// ReceiptSwissFranc icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/receipt-swiss-franc.svg
 func ReceiptSwissFranc(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8451,7 +8451,7 @@ func ReceiptSwissFranc(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ReceiptText is the icon from receipt-text.svg v0.367.0 file
+// ReceiptText icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/receipt-text.svg
 func ReceiptText(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8459,7 +8459,7 @@ func ReceiptText(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Receipt is the icon from receipt.svg v0.367.0 file
+// Receipt icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/receipt.svg
 func Receipt(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8467,7 +8467,7 @@ func Receipt(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RectangleEllipsis is the icon from rectangle-ellipsis.svg v0.367.0 file
+// RectangleEllipsis icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rectangle-ellipsis.svg
 func RectangleEllipsis(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8475,7 +8475,7 @@ func RectangleEllipsis(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RectangleHorizontal is the icon from rectangle-horizontal.svg v0.367.0 file
+// RectangleHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rectangle-horizontal.svg
 func RectangleHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8483,7 +8483,7 @@ func RectangleHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RectangleVertical is the icon from rectangle-vertical.svg v0.367.0 file
+// RectangleVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rectangle-vertical.svg
 func RectangleVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8491,7 +8491,7 @@ func RectangleVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Recycle is the icon from recycle.svg v0.367.0 file
+// Recycle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/recycle.svg
 func Recycle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8499,7 +8499,7 @@ func Recycle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Redo2 is the icon from redo-2.svg v0.367.0 file
+// Redo2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/redo-2.svg
 func Redo2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8507,7 +8507,7 @@ func Redo2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RedoDot is the icon from redo-dot.svg v0.367.0 file
+// RedoDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/redo-dot.svg
 func RedoDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8515,7 +8515,7 @@ func RedoDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Redo is the icon from redo.svg v0.367.0 file
+// Redo icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/redo.svg
 func Redo(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8523,7 +8523,7 @@ func Redo(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RefreshCcwDot is the icon from refresh-ccw-dot.svg v0.367.0 file
+// RefreshCcwDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/refresh-ccw-dot.svg
 func RefreshCcwDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8531,7 +8531,7 @@ func RefreshCcwDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RefreshCcw is the icon from refresh-ccw.svg v0.367.0 file
+// RefreshCcw icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/refresh-ccw.svg
 func RefreshCcw(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8539,7 +8539,7 @@ func RefreshCcw(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RefreshCwOff is the icon from refresh-cw-off.svg v0.367.0 file
+// RefreshCwOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/refresh-cw-off.svg
 func RefreshCwOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8547,7 +8547,7 @@ func RefreshCwOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RefreshCw is the icon from refresh-cw.svg v0.367.0 file
+// RefreshCw icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/refresh-cw.svg
 func RefreshCw(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8555,7 +8555,7 @@ func RefreshCw(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Refrigerator is the icon from refrigerator.svg v0.367.0 file
+// Refrigerator icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/refrigerator.svg
 func Refrigerator(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8563,7 +8563,7 @@ func Refrigerator(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Regex is the icon from regex.svg v0.367.0 file
+// Regex icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/regex.svg
 func Regex(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8571,7 +8571,7 @@ func Regex(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RemoveFormatting is the icon from remove-formatting.svg v0.367.0 file
+// RemoveFormatting icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/remove-formatting.svg
 func RemoveFormatting(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8579,7 +8579,7 @@ func RemoveFormatting(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Repeat1 is the icon from repeat-1.svg v0.367.0 file
+// Repeat1 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/repeat-1.svg
 func Repeat1(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8587,7 +8587,7 @@ func Repeat1(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Repeat2 is the icon from repeat-2.svg v0.367.0 file
+// Repeat2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/repeat-2.svg
 func Repeat2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8595,7 +8595,7 @@ func Repeat2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Repeat is the icon from repeat.svg v0.367.0 file
+// Repeat icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/repeat.svg
 func Repeat(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8603,7 +8603,7 @@ func Repeat(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ReplaceAll is the icon from replace-all.svg v0.367.0 file
+// ReplaceAll icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/replace-all.svg
 func ReplaceAll(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8611,7 +8611,7 @@ func ReplaceAll(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Replace is the icon from replace.svg v0.367.0 file
+// Replace icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/replace.svg
 func Replace(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8619,7 +8619,7 @@ func Replace(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ReplyAll is the icon from reply-all.svg v0.367.0 file
+// ReplyAll icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/reply-all.svg
 func ReplyAll(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8627,7 +8627,7 @@ func ReplyAll(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Reply is the icon from reply.svg v0.367.0 file
+// Reply icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/reply.svg
 func Reply(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8635,7 +8635,7 @@ func Reply(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Rewind is the icon from rewind.svg v0.367.0 file
+// Rewind icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rewind.svg
 func Rewind(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8643,7 +8643,7 @@ func Rewind(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ribbon is the icon from ribbon.svg v0.367.0 file
+// Ribbon icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ribbon.svg
 func Ribbon(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8651,7 +8651,7 @@ func Ribbon(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Rocket is the icon from rocket.svg v0.367.0 file
+// Rocket icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rocket.svg
 func Rocket(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8659,7 +8659,7 @@ func Rocket(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RockingChair is the icon from rocking-chair.svg v0.367.0 file
+// RockingChair icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rocking-chair.svg
 func RockingChair(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8667,7 +8667,7 @@ func RockingChair(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RollerCoaster is the icon from roller-coaster.svg v0.367.0 file
+// RollerCoaster icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/roller-coaster.svg
 func RollerCoaster(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8675,7 +8675,7 @@ func RollerCoaster(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Rotate3d is the icon from rotate-3d.svg v0.367.0 file
+// Rotate3d icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rotate-3d.svg
 func Rotate3d(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8683,7 +8683,7 @@ func Rotate3d(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RotateCcwSquare is the icon from rotate-ccw-square.svg v0.367.0 file
+// RotateCcwSquare icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rotate-ccw-square.svg
 func RotateCcwSquare(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8691,7 +8691,7 @@ func RotateCcwSquare(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RotateCcw is the icon from rotate-ccw.svg v0.367.0 file
+// RotateCcw icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rotate-ccw.svg
 func RotateCcw(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8699,7 +8699,7 @@ func RotateCcw(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RotateCwSquare is the icon from rotate-cw-square.svg v0.367.0 file
+// RotateCwSquare icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rotate-cw-square.svg
 func RotateCwSquare(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8707,7 +8707,7 @@ func RotateCwSquare(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RotateCw is the icon from rotate-cw.svg v0.367.0 file
+// RotateCw icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rotate-cw.svg
 func RotateCw(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8715,7 +8715,7 @@ func RotateCw(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RouteOff is the icon from route-off.svg v0.367.0 file
+// RouteOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/route-off.svg
 func RouteOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8723,7 +8723,7 @@ func RouteOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Route is the icon from route.svg v0.367.0 file
+// Route icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/route.svg
 func Route(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8731,7 +8731,7 @@ func Route(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Router is the icon from router.svg v0.367.0 file
+// Router icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/router.svg
 func Router(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8739,7 +8739,7 @@ func Router(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Rows2 is the icon from rows-2.svg v0.367.0 file
+// Rows2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rows-2.svg
 func Rows2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8747,7 +8747,7 @@ func Rows2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Rows3 is the icon from rows-3.svg v0.367.0 file
+// Rows3 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rows-3.svg
 func Rows3(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8755,7 +8755,7 @@ func Rows3(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Rows4 is the icon from rows-4.svg v0.367.0 file
+// Rows4 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rows-4.svg
 func Rows4(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8763,7 +8763,7 @@ func Rows4(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Rss is the icon from rss.svg v0.367.0 file
+// Rss icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/rss.svg
 func Rss(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8771,7 +8771,7 @@ func Rss(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ruler is the icon from ruler.svg v0.367.0 file
+// Ruler icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ruler.svg
 func Ruler(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8779,7 +8779,7 @@ func Ruler(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// RussianRuble is the icon from russian-ruble.svg v0.367.0 file
+// RussianRuble icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/russian-ruble.svg
 func RussianRuble(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8787,7 +8787,7 @@ func RussianRuble(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sailboat is the icon from sailboat.svg v0.367.0 file
+// Sailboat icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sailboat.svg
 func Sailboat(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8795,7 +8795,7 @@ func Sailboat(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Salad is the icon from salad.svg v0.367.0 file
+// Salad icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/salad.svg
 func Salad(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8803,7 +8803,7 @@ func Salad(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sandwich is the icon from sandwich.svg v0.367.0 file
+// Sandwich icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sandwich.svg
 func Sandwich(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8811,7 +8811,7 @@ func Sandwich(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SatelliteDish is the icon from satellite-dish.svg v0.367.0 file
+// SatelliteDish icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/satellite-dish.svg
 func SatelliteDish(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8819,7 +8819,7 @@ func SatelliteDish(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Satellite is the icon from satellite.svg v0.367.0 file
+// Satellite icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/satellite.svg
 func Satellite(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8827,7 +8827,7 @@ func Satellite(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SaveAll is the icon from save-all.svg v0.367.0 file
+// SaveAll icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/save-all.svg
 func SaveAll(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8835,7 +8835,7 @@ func SaveAll(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Save is the icon from save.svg v0.367.0 file
+// Save icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/save.svg
 func Save(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8843,7 +8843,7 @@ func Save(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Scale3d is the icon from scale-3d.svg v0.367.0 file
+// Scale3d icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scale-3d.svg
 func Scale3d(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8851,7 +8851,7 @@ func Scale3d(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Scale is the icon from scale.svg v0.367.0 file
+// Scale icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scale.svg
 func Scale(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8859,7 +8859,7 @@ func Scale(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Scaling is the icon from scaling.svg v0.367.0 file
+// Scaling icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scaling.svg
 func Scaling(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8867,7 +8867,7 @@ func Scaling(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ScanBarcode is the icon from scan-barcode.svg v0.367.0 file
+// ScanBarcode icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scan-barcode.svg
 func ScanBarcode(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8875,7 +8875,7 @@ func ScanBarcode(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ScanEye is the icon from scan-eye.svg v0.367.0 file
+// ScanEye icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scan-eye.svg
 func ScanEye(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8883,7 +8883,7 @@ func ScanEye(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ScanFace is the icon from scan-face.svg v0.367.0 file
+// ScanFace icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scan-face.svg
 func ScanFace(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8891,7 +8891,7 @@ func ScanFace(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ScanLine is the icon from scan-line.svg v0.367.0 file
+// ScanLine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scan-line.svg
 func ScanLine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8899,7 +8899,7 @@ func ScanLine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ScanSearch is the icon from scan-search.svg v0.367.0 file
+// ScanSearch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scan-search.svg
 func ScanSearch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8907,7 +8907,7 @@ func ScanSearch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ScanText is the icon from scan-text.svg v0.367.0 file
+// ScanText icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scan-text.svg
 func ScanText(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8915,7 +8915,7 @@ func ScanText(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Scan is the icon from scan.svg v0.367.0 file
+// Scan icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scan.svg
 func Scan(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8923,7 +8923,7 @@ func Scan(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ScatterChart is the icon from scatter-chart.svg v0.367.0 file
+// ScatterChart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scatter-chart.svg
 func ScatterChart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8931,7 +8931,7 @@ func ScatterChart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// School is the icon from school.svg v0.367.0 file
+// School icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/school.svg
 func School(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8939,7 +8939,7 @@ func School(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ScissorsLineDashed is the icon from scissors-line-dashed.svg v0.367.0 file
+// ScissorsLineDashed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scissors-line-dashed.svg
 func ScissorsLineDashed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8947,7 +8947,7 @@ func ScissorsLineDashed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Scissors is the icon from scissors.svg v0.367.0 file
+// Scissors icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scissors.svg
 func Scissors(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8955,7 +8955,7 @@ func Scissors(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ScreenShareOff is the icon from screen-share-off.svg v0.367.0 file
+// ScreenShareOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/screen-share-off.svg
 func ScreenShareOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8963,7 +8963,7 @@ func ScreenShareOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ScreenShare is the icon from screen-share.svg v0.367.0 file
+// ScreenShare icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/screen-share.svg
 func ScreenShare(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8971,7 +8971,7 @@ func ScreenShare(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ScrollText is the icon from scroll-text.svg v0.367.0 file
+// ScrollText icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scroll-text.svg
 func ScrollText(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8979,7 +8979,7 @@ func ScrollText(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Scroll is the icon from scroll.svg v0.367.0 file
+// Scroll icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/scroll.svg
 func Scroll(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8987,7 +8987,7 @@ func Scroll(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SearchCheck is the icon from search-check.svg v0.367.0 file
+// SearchCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/search-check.svg
 func SearchCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -8995,7 +8995,7 @@ func SearchCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SearchCode is the icon from search-code.svg v0.367.0 file
+// SearchCode icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/search-code.svg
 func SearchCode(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9003,7 +9003,7 @@ func SearchCode(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SearchSlash is the icon from search-slash.svg v0.367.0 file
+// SearchSlash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/search-slash.svg
 func SearchSlash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9011,7 +9011,7 @@ func SearchSlash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SearchX is the icon from search-x.svg v0.367.0 file
+// SearchX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/search-x.svg
 func SearchX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9019,7 +9019,7 @@ func SearchX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Search is the icon from search.svg v0.367.0 file
+// Search icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/search.svg
 func Search(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9027,7 +9027,7 @@ func Search(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SendHorizontal is the icon from send-horizontal.svg v0.367.0 file
+// SendHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/send-horizontal.svg
 func SendHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9035,7 +9035,7 @@ func SendHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SendToBack is the icon from send-to-back.svg v0.367.0 file
+// SendToBack icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/send-to-back.svg
 func SendToBack(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9043,7 +9043,7 @@ func SendToBack(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Send is the icon from send.svg v0.367.0 file
+// Send icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/send.svg
 func Send(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9051,7 +9051,7 @@ func Send(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SeparatorHorizontal is the icon from separator-horizontal.svg v0.367.0 file
+// SeparatorHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/separator-horizontal.svg
 func SeparatorHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9059,7 +9059,7 @@ func SeparatorHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SeparatorVertical is the icon from separator-vertical.svg v0.367.0 file
+// SeparatorVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/separator-vertical.svg
 func SeparatorVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9067,7 +9067,7 @@ func SeparatorVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ServerCog is the icon from server-cog.svg v0.367.0 file
+// ServerCog icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/server-cog.svg
 func ServerCog(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9075,7 +9075,7 @@ func ServerCog(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ServerCrash is the icon from server-crash.svg v0.367.0 file
+// ServerCrash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/server-crash.svg
 func ServerCrash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9083,7 +9083,7 @@ func ServerCrash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ServerOff is the icon from server-off.svg v0.367.0 file
+// ServerOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/server-off.svg
 func ServerOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9091,7 +9091,7 @@ func ServerOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Server is the icon from server.svg v0.367.0 file
+// Server icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/server.svg
 func Server(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9099,7 +9099,7 @@ func Server(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Settings2 is the icon from settings-2.svg v0.367.0 file
+// Settings2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/settings-2.svg
 func Settings2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9107,7 +9107,7 @@ func Settings2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Settings is the icon from settings.svg v0.367.0 file
+// Settings icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/settings.svg
 func Settings(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9115,7 +9115,7 @@ func Settings(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Shapes is the icon from shapes.svg v0.367.0 file
+// Shapes icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shapes.svg
 func Shapes(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9123,7 +9123,7 @@ func Shapes(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Share2 is the icon from share-2.svg v0.367.0 file
+// Share2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/share-2.svg
 func Share2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9131,7 +9131,7 @@ func Share2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Share is the icon from share.svg v0.367.0 file
+// Share icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/share.svg
 func Share(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9139,7 +9139,7 @@ func Share(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sheet is the icon from sheet.svg v0.367.0 file
+// Sheet icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sheet.svg
 func Sheet(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9147,7 +9147,7 @@ func Sheet(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Shell is the icon from shell.svg v0.367.0 file
+// Shell icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shell.svg
 func Shell(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9155,7 +9155,7 @@ func Shell(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShieldAlert is the icon from shield-alert.svg v0.367.0 file
+// ShieldAlert icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shield-alert.svg
 func ShieldAlert(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9163,7 +9163,7 @@ func ShieldAlert(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShieldBan is the icon from shield-ban.svg v0.367.0 file
+// ShieldBan icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shield-ban.svg
 func ShieldBan(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9171,7 +9171,7 @@ func ShieldBan(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShieldCheck is the icon from shield-check.svg v0.367.0 file
+// ShieldCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shield-check.svg
 func ShieldCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9179,7 +9179,7 @@ func ShieldCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShieldEllipsis is the icon from shield-ellipsis.svg v0.367.0 file
+// ShieldEllipsis icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shield-ellipsis.svg
 func ShieldEllipsis(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9187,7 +9187,7 @@ func ShieldEllipsis(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShieldHalf is the icon from shield-half.svg v0.367.0 file
+// ShieldHalf icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shield-half.svg
 func ShieldHalf(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9195,7 +9195,7 @@ func ShieldHalf(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShieldMinus is the icon from shield-minus.svg v0.367.0 file
+// ShieldMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shield-minus.svg
 func ShieldMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9203,7 +9203,7 @@ func ShieldMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShieldOff is the icon from shield-off.svg v0.367.0 file
+// ShieldOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shield-off.svg
 func ShieldOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9211,7 +9211,7 @@ func ShieldOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShieldPlus is the icon from shield-plus.svg v0.367.0 file
+// ShieldPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shield-plus.svg
 func ShieldPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9219,7 +9219,7 @@ func ShieldPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShieldQuestion is the icon from shield-question.svg v0.367.0 file
+// ShieldQuestion icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shield-question.svg
 func ShieldQuestion(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9227,7 +9227,7 @@ func ShieldQuestion(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShieldX is the icon from shield-x.svg v0.367.0 file
+// ShieldX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shield-x.svg
 func ShieldX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9235,7 +9235,7 @@ func ShieldX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Shield is the icon from shield.svg v0.367.0 file
+// Shield icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shield.svg
 func Shield(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9243,7 +9243,7 @@ func Shield(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShipWheel is the icon from ship-wheel.svg v0.367.0 file
+// ShipWheel icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ship-wheel.svg
 func ShipWheel(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9251,7 +9251,7 @@ func ShipWheel(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ship is the icon from ship.svg v0.367.0 file
+// Ship icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ship.svg
 func Ship(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9259,7 +9259,7 @@ func Ship(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Shirt is the icon from shirt.svg v0.367.0 file
+// Shirt icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shirt.svg
 func Shirt(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9267,7 +9267,7 @@ func Shirt(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShoppingBag is the icon from shopping-bag.svg v0.367.0 file
+// ShoppingBag icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shopping-bag.svg
 func ShoppingBag(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9275,7 +9275,7 @@ func ShoppingBag(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShoppingBasket is the icon from shopping-basket.svg v0.367.0 file
+// ShoppingBasket icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shopping-basket.svg
 func ShoppingBasket(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9283,7 +9283,7 @@ func ShoppingBasket(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShoppingCart is the icon from shopping-cart.svg v0.367.0 file
+// ShoppingCart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shopping-cart.svg
 func ShoppingCart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9291,7 +9291,7 @@ func ShoppingCart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Shovel is the icon from shovel.svg v0.367.0 file
+// Shovel icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shovel.svg
 func Shovel(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9299,7 +9299,7 @@ func Shovel(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ShowerHead is the icon from shower-head.svg v0.367.0 file
+// ShowerHead icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shower-head.svg
 func ShowerHead(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9307,7 +9307,7 @@ func ShowerHead(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Shrink is the icon from shrink.svg v0.367.0 file
+// Shrink icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shrink.svg
 func Shrink(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9315,7 +9315,7 @@ func Shrink(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Shrub is the icon from shrub.svg v0.367.0 file
+// Shrub icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shrub.svg
 func Shrub(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9323,7 +9323,7 @@ func Shrub(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Shuffle is the icon from shuffle.svg v0.367.0 file
+// Shuffle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/shuffle.svg
 func Shuffle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9331,7 +9331,7 @@ func Shuffle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sigma is the icon from sigma.svg v0.367.0 file
+// Sigma icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sigma.svg
 func Sigma(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9339,7 +9339,7 @@ func Sigma(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SignalHigh is the icon from signal-high.svg v0.367.0 file
+// SignalHigh icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/signal-high.svg
 func SignalHigh(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9347,7 +9347,7 @@ func SignalHigh(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SignalLow is the icon from signal-low.svg v0.367.0 file
+// SignalLow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/signal-low.svg
 func SignalLow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9355,7 +9355,7 @@ func SignalLow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SignalMedium is the icon from signal-medium.svg v0.367.0 file
+// SignalMedium icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/signal-medium.svg
 func SignalMedium(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9363,7 +9363,7 @@ func SignalMedium(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SignalZero is the icon from signal-zero.svg v0.367.0 file
+// SignalZero icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/signal-zero.svg
 func SignalZero(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9371,7 +9371,7 @@ func SignalZero(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Signal is the icon from signal.svg v0.367.0 file
+// Signal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/signal.svg
 func Signal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9379,7 +9379,7 @@ func Signal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SignpostBig is the icon from signpost-big.svg v0.367.0 file
+// SignpostBig icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/signpost-big.svg
 func SignpostBig(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9387,7 +9387,7 @@ func SignpostBig(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Signpost is the icon from signpost.svg v0.367.0 file
+// Signpost icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/signpost.svg
 func Signpost(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9395,7 +9395,7 @@ func Signpost(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Siren is the icon from siren.svg v0.367.0 file
+// Siren icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/siren.svg
 func Siren(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9403,7 +9403,7 @@ func Siren(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SkipBack is the icon from skip-back.svg v0.367.0 file
+// SkipBack icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/skip-back.svg
 func SkipBack(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9411,7 +9411,7 @@ func SkipBack(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SkipForward is the icon from skip-forward.svg v0.367.0 file
+// SkipForward icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/skip-forward.svg
 func SkipForward(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9419,7 +9419,7 @@ func SkipForward(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Skull is the icon from skull.svg v0.367.0 file
+// Skull icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/skull.svg
 func Skull(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9427,7 +9427,7 @@ func Skull(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Slack is the icon from slack.svg v0.367.0 file
+// Slack icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/slack.svg
 func Slack(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9435,7 +9435,7 @@ func Slack(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Slash is the icon from slash.svg v0.367.0 file
+// Slash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/slash.svg
 func Slash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9443,7 +9443,7 @@ func Slash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Slice is the icon from slice.svg v0.367.0 file
+// Slice icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/slice.svg
 func Slice(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9451,7 +9451,7 @@ func Slice(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SlidersHorizontal is the icon from sliders-horizontal.svg v0.367.0 file
+// SlidersHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sliders-horizontal.svg
 func SlidersHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9459,7 +9459,7 @@ func SlidersHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SlidersVertical is the icon from sliders-vertical.svg v0.367.0 file
+// SlidersVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sliders-vertical.svg
 func SlidersVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9467,7 +9467,7 @@ func SlidersVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SmartphoneCharging is the icon from smartphone-charging.svg v0.367.0 file
+// SmartphoneCharging icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/smartphone-charging.svg
 func SmartphoneCharging(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9475,7 +9475,7 @@ func SmartphoneCharging(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SmartphoneNfc is the icon from smartphone-nfc.svg v0.367.0 file
+// SmartphoneNfc icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/smartphone-nfc.svg
 func SmartphoneNfc(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9483,7 +9483,7 @@ func SmartphoneNfc(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Smartphone is the icon from smartphone.svg v0.367.0 file
+// Smartphone icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/smartphone.svg
 func Smartphone(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9491,7 +9491,7 @@ func Smartphone(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SmilePlus is the icon from smile-plus.svg v0.367.0 file
+// SmilePlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/smile-plus.svg
 func SmilePlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9499,7 +9499,7 @@ func SmilePlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Smile is the icon from smile.svg v0.367.0 file
+// Smile icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/smile.svg
 func Smile(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9507,7 +9507,7 @@ func Smile(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Snail is the icon from snail.svg v0.367.0 file
+// Snail icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/snail.svg
 func Snail(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9515,7 +9515,7 @@ func Snail(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Snowflake is the icon from snowflake.svg v0.367.0 file
+// Snowflake icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/snowflake.svg
 func Snowflake(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9523,7 +9523,7 @@ func Snowflake(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sofa is the icon from sofa.svg v0.367.0 file
+// Sofa icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sofa.svg
 func Sofa(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9531,7 +9531,7 @@ func Sofa(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Soup is the icon from soup.svg v0.367.0 file
+// Soup icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/soup.svg
 func Soup(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9539,7 +9539,7 @@ func Soup(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Space is the icon from space.svg v0.367.0 file
+// Space icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/space.svg
 func Space(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9547,7 +9547,7 @@ func Space(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Spade is the icon from spade.svg v0.367.0 file
+// Spade icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/spade.svg
 func Spade(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9555,7 +9555,7 @@ func Spade(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sparkle is the icon from sparkle.svg v0.367.0 file
+// Sparkle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sparkle.svg
 func Sparkle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9563,7 +9563,7 @@ func Sparkle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sparkles is the icon from sparkles.svg v0.367.0 file
+// Sparkles icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sparkles.svg
 func Sparkles(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9571,7 +9571,7 @@ func Sparkles(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Speaker is the icon from speaker.svg v0.367.0 file
+// Speaker icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/speaker.svg
 func Speaker(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9579,7 +9579,7 @@ func Speaker(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Speech is the icon from speech.svg v0.367.0 file
+// Speech icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/speech.svg
 func Speech(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9587,7 +9587,7 @@ func Speech(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SpellCheck2 is the icon from spell-check-2.svg v0.367.0 file
+// SpellCheck2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/spell-check-2.svg
 func SpellCheck2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9595,7 +9595,7 @@ func SpellCheck2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SpellCheck is the icon from spell-check.svg v0.367.0 file
+// SpellCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/spell-check.svg
 func SpellCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9603,7 +9603,7 @@ func SpellCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Spline is the icon from spline.svg v0.367.0 file
+// Spline icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/spline.svg
 func Spline(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9611,7 +9611,7 @@ func Spline(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Split is the icon from split.svg v0.367.0 file
+// Split icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/split.svg
 func Split(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9619,7 +9619,7 @@ func Split(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SprayCan is the icon from spray-can.svg v0.367.0 file
+// SprayCan icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/spray-can.svg
 func SprayCan(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9627,7 +9627,7 @@ func SprayCan(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sprout is the icon from sprout.svg v0.367.0 file
+// Sprout icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sprout.svg
 func Sprout(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9635,7 +9635,7 @@ func Sprout(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareActivity is the icon from square-activity.svg v0.367.0 file
+// SquareActivity icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-activity.svg
 func SquareActivity(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9643,7 +9643,7 @@ func SquareActivity(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowDownLeft is the icon from square-arrow-down-left.svg v0.367.0 file
+// SquareArrowDownLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-down-left.svg
 func SquareArrowDownLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9651,7 +9651,7 @@ func SquareArrowDownLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowDownRight is the icon from square-arrow-down-right.svg v0.367.0 file
+// SquareArrowDownRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-down-right.svg
 func SquareArrowDownRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9659,7 +9659,7 @@ func SquareArrowDownRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowDown is the icon from square-arrow-down.svg v0.367.0 file
+// SquareArrowDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-down.svg
 func SquareArrowDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9667,7 +9667,7 @@ func SquareArrowDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowLeft is the icon from square-arrow-left.svg v0.367.0 file
+// SquareArrowLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-left.svg
 func SquareArrowLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9675,7 +9675,7 @@ func SquareArrowLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowOutDownLeft is the icon from square-arrow-out-down-left.svg v0.367.0 file
+// SquareArrowOutDownLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-out-down-left.svg
 func SquareArrowOutDownLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9683,7 +9683,7 @@ func SquareArrowOutDownLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowOutDownRight is the icon from square-arrow-out-down-right.svg v0.367.0 file
+// SquareArrowOutDownRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-out-down-right.svg
 func SquareArrowOutDownRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9691,7 +9691,7 @@ func SquareArrowOutDownRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowOutUpLeft is the icon from square-arrow-out-up-left.svg v0.367.0 file
+// SquareArrowOutUpLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-out-up-left.svg
 func SquareArrowOutUpLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9699,7 +9699,7 @@ func SquareArrowOutUpLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowOutUpRight is the icon from square-arrow-out-up-right.svg v0.367.0 file
+// SquareArrowOutUpRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-out-up-right.svg
 func SquareArrowOutUpRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9707,7 +9707,7 @@ func SquareArrowOutUpRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowRight is the icon from square-arrow-right.svg v0.367.0 file
+// SquareArrowRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-right.svg
 func SquareArrowRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9715,7 +9715,7 @@ func SquareArrowRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowUpLeft is the icon from square-arrow-up-left.svg v0.367.0 file
+// SquareArrowUpLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-up-left.svg
 func SquareArrowUpLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9723,7 +9723,7 @@ func SquareArrowUpLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowUpRight is the icon from square-arrow-up-right.svg v0.367.0 file
+// SquareArrowUpRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-up-right.svg
 func SquareArrowUpRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9731,7 +9731,7 @@ func SquareArrowUpRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareArrowUp is the icon from square-arrow-up.svg v0.367.0 file
+// SquareArrowUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-arrow-up.svg
 func SquareArrowUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9739,7 +9739,7 @@ func SquareArrowUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareAsterisk is the icon from square-asterisk.svg v0.367.0 file
+// SquareAsterisk icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-asterisk.svg
 func SquareAsterisk(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9747,7 +9747,7 @@ func SquareAsterisk(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareBottomDashedScissors is the icon from square-bottom-dashed-scissors.svg v0.367.0 file
+// SquareBottomDashedScissors icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-bottom-dashed-scissors.svg
 func SquareBottomDashedScissors(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9755,7 +9755,7 @@ func SquareBottomDashedScissors(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareCheckBig is the icon from square-check-big.svg v0.367.0 file
+// SquareCheckBig icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-check-big.svg
 func SquareCheckBig(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9763,7 +9763,7 @@ func SquareCheckBig(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareCheck is the icon from square-check.svg v0.367.0 file
+// SquareCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-check.svg
 func SquareCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9771,7 +9771,7 @@ func SquareCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareChevronDown is the icon from square-chevron-down.svg v0.367.0 file
+// SquareChevronDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-chevron-down.svg
 func SquareChevronDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9779,7 +9779,7 @@ func SquareChevronDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareChevronLeft is the icon from square-chevron-left.svg v0.367.0 file
+// SquareChevronLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-chevron-left.svg
 func SquareChevronLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9787,7 +9787,7 @@ func SquareChevronLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareChevronRight is the icon from square-chevron-right.svg v0.367.0 file
+// SquareChevronRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-chevron-right.svg
 func SquareChevronRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9795,7 +9795,7 @@ func SquareChevronRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareChevronUp is the icon from square-chevron-up.svg v0.367.0 file
+// SquareChevronUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-chevron-up.svg
 func SquareChevronUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9803,7 +9803,7 @@ func SquareChevronUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareCode is the icon from square-code.svg v0.367.0 file
+// SquareCode icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-code.svg
 func SquareCode(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9811,7 +9811,7 @@ func SquareCode(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareDashedBottomCode is the icon from square-dashed-bottom-code.svg v0.367.0 file
+// SquareDashedBottomCode icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-dashed-bottom-code.svg
 func SquareDashedBottomCode(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9819,7 +9819,7 @@ func SquareDashedBottomCode(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareDashedBottom is the icon from square-dashed-bottom.svg v0.367.0 file
+// SquareDashedBottom icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-dashed-bottom.svg
 func SquareDashedBottom(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9827,7 +9827,7 @@ func SquareDashedBottom(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareDashedKanban is the icon from square-dashed-kanban.svg v0.367.0 file
+// SquareDashedKanban icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-dashed-kanban.svg
 func SquareDashedKanban(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9835,7 +9835,7 @@ func SquareDashedKanban(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareDashedMousePointer is the icon from square-dashed-mouse-pointer.svg v0.367.0 file
+// SquareDashedMousePointer icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-dashed-mouse-pointer.svg
 func SquareDashedMousePointer(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9843,7 +9843,7 @@ func SquareDashedMousePointer(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareDivide is the icon from square-divide.svg v0.367.0 file
+// SquareDivide icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-divide.svg
 func SquareDivide(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9851,7 +9851,7 @@ func SquareDivide(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareDot is the icon from square-dot.svg v0.367.0 file
+// SquareDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-dot.svg
 func SquareDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9859,7 +9859,7 @@ func SquareDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareEqual is the icon from square-equal.svg v0.367.0 file
+// SquareEqual icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-equal.svg
 func SquareEqual(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9867,7 +9867,7 @@ func SquareEqual(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareFunction is the icon from square-function.svg v0.367.0 file
+// SquareFunction icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-function.svg
 func SquareFunction(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9875,7 +9875,7 @@ func SquareFunction(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareGanttChart is the icon from square-gantt-chart.svg v0.367.0 file
+// SquareGanttChart icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-gantt-chart.svg
 func SquareGanttChart(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9883,7 +9883,7 @@ func SquareGanttChart(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareKanban is the icon from square-kanban.svg v0.367.0 file
+// SquareKanban icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-kanban.svg
 func SquareKanban(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9891,7 +9891,7 @@ func SquareKanban(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareLibrary is the icon from square-library.svg v0.367.0 file
+// SquareLibrary icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-library.svg
 func SquareLibrary(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9899,7 +9899,7 @@ func SquareLibrary(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareM is the icon from square-m.svg v0.367.0 file
+// SquareM icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-m.svg
 func SquareM(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9907,7 +9907,7 @@ func SquareM(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareMenu is the icon from square-menu.svg v0.367.0 file
+// SquareMenu icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-menu.svg
 func SquareMenu(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9915,7 +9915,7 @@ func SquareMenu(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareMinus is the icon from square-minus.svg v0.367.0 file
+// SquareMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-minus.svg
 func SquareMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9923,7 +9923,7 @@ func SquareMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareMousePointer is the icon from square-mouse-pointer.svg v0.367.0 file
+// SquareMousePointer icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-mouse-pointer.svg
 func SquareMousePointer(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9931,7 +9931,7 @@ func SquareMousePointer(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareParkingOff is the icon from square-parking-off.svg v0.367.0 file
+// SquareParkingOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-parking-off.svg
 func SquareParkingOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9939,7 +9939,7 @@ func SquareParkingOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareParking is the icon from square-parking.svg v0.367.0 file
+// SquareParking icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-parking.svg
 func SquareParking(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9947,7 +9947,7 @@ func SquareParking(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquarePen is the icon from square-pen.svg v0.367.0 file
+// SquarePen icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-pen.svg
 func SquarePen(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9955,7 +9955,7 @@ func SquarePen(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquarePercent is the icon from square-percent.svg v0.367.0 file
+// SquarePercent icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-percent.svg
 func SquarePercent(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9963,7 +9963,7 @@ func SquarePercent(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquarePi is the icon from square-pi.svg v0.367.0 file
+// SquarePi icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-pi.svg
 func SquarePi(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9971,7 +9971,7 @@ func SquarePi(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquarePilcrow is the icon from square-pilcrow.svg v0.367.0 file
+// SquarePilcrow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-pilcrow.svg
 func SquarePilcrow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9979,7 +9979,7 @@ func SquarePilcrow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquarePlay is the icon from square-play.svg v0.367.0 file
+// SquarePlay icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-play.svg
 func SquarePlay(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9987,7 +9987,7 @@ func SquarePlay(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquarePlus is the icon from square-plus.svg v0.367.0 file
+// SquarePlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-plus.svg
 func SquarePlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -9995,7 +9995,7 @@ func SquarePlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquarePower is the icon from square-power.svg v0.367.0 file
+// SquarePower icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-power.svg
 func SquarePower(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10003,7 +10003,7 @@ func SquarePower(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareRadical is the icon from square-radical.svg v0.367.0 file
+// SquareRadical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-radical.svg
 func SquareRadical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10011,7 +10011,7 @@ func SquareRadical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareScissors is the icon from square-scissors.svg v0.367.0 file
+// SquareScissors icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-scissors.svg
 func SquareScissors(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10019,7 +10019,7 @@ func SquareScissors(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareSigma is the icon from square-sigma.svg v0.367.0 file
+// SquareSigma icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-sigma.svg
 func SquareSigma(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10027,7 +10027,7 @@ func SquareSigma(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareSlash is the icon from square-slash.svg v0.367.0 file
+// SquareSlash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-slash.svg
 func SquareSlash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10035,7 +10035,7 @@ func SquareSlash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareSplitHorizontal is the icon from square-split-horizontal.svg v0.367.0 file
+// SquareSplitHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-split-horizontal.svg
 func SquareSplitHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10043,7 +10043,7 @@ func SquareSplitHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareSplitVertical is the icon from square-split-vertical.svg v0.367.0 file
+// SquareSplitVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-split-vertical.svg
 func SquareSplitVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10051,7 +10051,7 @@ func SquareSplitVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareStack is the icon from square-stack.svg v0.367.0 file
+// SquareStack icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-stack.svg
 func SquareStack(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10059,7 +10059,7 @@ func SquareStack(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareTerminal is the icon from square-terminal.svg v0.367.0 file
+// SquareTerminal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-terminal.svg
 func SquareTerminal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10067,7 +10067,7 @@ func SquareTerminal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareUserRound is the icon from square-user-round.svg v0.367.0 file
+// SquareUserRound icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-user-round.svg
 func SquareUserRound(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10075,7 +10075,7 @@ func SquareUserRound(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareUser is the icon from square-user.svg v0.367.0 file
+// SquareUser icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-user.svg
 func SquareUser(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10083,7 +10083,7 @@ func SquareUser(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SquareX is the icon from square-x.svg v0.367.0 file
+// SquareX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square-x.svg
 func SquareX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10091,7 +10091,7 @@ func SquareX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Square is the icon from square.svg v0.367.0 file
+// Square icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/square.svg
 func Square(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10099,7 +10099,7 @@ func Square(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Squircle is the icon from squircle.svg v0.367.0 file
+// Squircle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/squircle.svg
 func Squircle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10107,7 +10107,7 @@ func Squircle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Squirrel is the icon from squirrel.svg v0.367.0 file
+// Squirrel icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/squirrel.svg
 func Squirrel(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10115,7 +10115,7 @@ func Squirrel(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Stamp is the icon from stamp.svg v0.367.0 file
+// Stamp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/stamp.svg
 func Stamp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10123,7 +10123,7 @@ func Stamp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// StarHalf is the icon from star-half.svg v0.367.0 file
+// StarHalf icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/star-half.svg
 func StarHalf(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10131,7 +10131,7 @@ func StarHalf(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// StarOff is the icon from star-off.svg v0.367.0 file
+// StarOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/star-off.svg
 func StarOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10139,7 +10139,7 @@ func StarOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Star is the icon from star.svg v0.367.0 file
+// Star icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/star.svg
 func Star(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10147,7 +10147,7 @@ func Star(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// StepBack is the icon from step-back.svg v0.367.0 file
+// StepBack icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/step-back.svg
 func StepBack(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10155,7 +10155,7 @@ func StepBack(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// StepForward is the icon from step-forward.svg v0.367.0 file
+// StepForward icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/step-forward.svg
 func StepForward(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10163,7 +10163,7 @@ func StepForward(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Stethoscope is the icon from stethoscope.svg v0.367.0 file
+// Stethoscope icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/stethoscope.svg
 func Stethoscope(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10171,7 +10171,7 @@ func Stethoscope(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sticker is the icon from sticker.svg v0.367.0 file
+// Sticker icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sticker.svg
 func Sticker(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10179,7 +10179,7 @@ func Sticker(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// StickyNote is the icon from sticky-note.svg v0.367.0 file
+// StickyNote icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sticky-note.svg
 func StickyNote(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10187,7 +10187,7 @@ func StickyNote(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Store is the icon from store.svg v0.367.0 file
+// Store icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/store.svg
 func Store(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10195,7 +10195,7 @@ func Store(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// StretchHorizontal is the icon from stretch-horizontal.svg v0.367.0 file
+// StretchHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/stretch-horizontal.svg
 func StretchHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10203,7 +10203,7 @@ func StretchHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// StretchVertical is the icon from stretch-vertical.svg v0.367.0 file
+// StretchVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/stretch-vertical.svg
 func StretchVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10211,7 +10211,7 @@ func StretchVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Strikethrough is the icon from strikethrough.svg v0.367.0 file
+// Strikethrough icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/strikethrough.svg
 func Strikethrough(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10219,7 +10219,7 @@ func Strikethrough(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Subscript is the icon from subscript.svg v0.367.0 file
+// Subscript icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/subscript.svg
 func Subscript(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10227,7 +10227,7 @@ func Subscript(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SunDim is the icon from sun-dim.svg v0.367.0 file
+// SunDim icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sun-dim.svg
 func SunDim(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10235,7 +10235,7 @@ func SunDim(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SunMedium is the icon from sun-medium.svg v0.367.0 file
+// SunMedium icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sun-medium.svg
 func SunMedium(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10243,7 +10243,7 @@ func SunMedium(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SunMoon is the icon from sun-moon.svg v0.367.0 file
+// SunMoon icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sun-moon.svg
 func SunMoon(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10251,7 +10251,7 @@ func SunMoon(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SunSnow is the icon from sun-snow.svg v0.367.0 file
+// SunSnow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sun-snow.svg
 func SunSnow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10259,7 +10259,7 @@ func SunSnow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sun is the icon from sun.svg v0.367.0 file
+// Sun icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sun.svg
 func Sun(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10267,7 +10267,7 @@ func Sun(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sunrise is the icon from sunrise.svg v0.367.0 file
+// Sunrise icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sunrise.svg
 func Sunrise(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10275,7 +10275,7 @@ func Sunrise(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sunset is the icon from sunset.svg v0.367.0 file
+// Sunset icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sunset.svg
 func Sunset(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10283,7 +10283,7 @@ func Sunset(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Superscript is the icon from superscript.svg v0.367.0 file
+// Superscript icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/superscript.svg
 func Superscript(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10291,7 +10291,7 @@ func Superscript(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SwatchBook is the icon from swatch-book.svg v0.367.0 file
+// SwatchBook icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/swatch-book.svg
 func SwatchBook(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10299,7 +10299,7 @@ func SwatchBook(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SwissFranc is the icon from swiss-franc.svg v0.367.0 file
+// SwissFranc icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/swiss-franc.svg
 func SwissFranc(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10307,7 +10307,7 @@ func SwissFranc(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// SwitchCamera is the icon from switch-camera.svg v0.367.0 file
+// SwitchCamera icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/switch-camera.svg
 func SwitchCamera(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10315,7 +10315,7 @@ func SwitchCamera(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Sword is the icon from sword.svg v0.367.0 file
+// Sword icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/sword.svg
 func Sword(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10323,7 +10323,7 @@ func Sword(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Swords is the icon from swords.svg v0.367.0 file
+// Swords icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/swords.svg
 func Swords(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10331,7 +10331,7 @@ func Swords(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Syringe is the icon from syringe.svg v0.367.0 file
+// Syringe icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/syringe.svg
 func Syringe(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10339,7 +10339,7 @@ func Syringe(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Table2 is the icon from table-2.svg v0.367.0 file
+// Table2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/table-2.svg
 func Table2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10347,7 +10347,7 @@ func Table2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TableCellsMerge is the icon from table-cells-merge.svg v0.367.0 file
+// TableCellsMerge icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/table-cells-merge.svg
 func TableCellsMerge(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10355,7 +10355,7 @@ func TableCellsMerge(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TableCellsSplit is the icon from table-cells-split.svg v0.367.0 file
+// TableCellsSplit icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/table-cells-split.svg
 func TableCellsSplit(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10363,7 +10363,7 @@ func TableCellsSplit(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TableColumnsSplit is the icon from table-columns-split.svg v0.367.0 file
+// TableColumnsSplit icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/table-columns-split.svg
 func TableColumnsSplit(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10371,7 +10371,7 @@ func TableColumnsSplit(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TableProperties is the icon from table-properties.svg v0.367.0 file
+// TableProperties icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/table-properties.svg
 func TableProperties(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10379,7 +10379,7 @@ func TableProperties(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TableRowsSplit is the icon from table-rows-split.svg v0.367.0 file
+// TableRowsSplit icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/table-rows-split.svg
 func TableRowsSplit(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10387,7 +10387,7 @@ func TableRowsSplit(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Table is the icon from table.svg v0.367.0 file
+// Table icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/table.svg
 func Table(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10395,7 +10395,7 @@ func Table(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TabletSmartphone is the icon from tablet-smartphone.svg v0.367.0 file
+// TabletSmartphone icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tablet-smartphone.svg
 func TabletSmartphone(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10403,7 +10403,7 @@ func TabletSmartphone(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tablet is the icon from tablet.svg v0.367.0 file
+// Tablet icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tablet.svg
 func Tablet(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10411,7 +10411,7 @@ func Tablet(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tablets is the icon from tablets.svg v0.367.0 file
+// Tablets icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tablets.svg
 func Tablets(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10419,7 +10419,7 @@ func Tablets(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tag is the icon from tag.svg v0.367.0 file
+// Tag icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tag.svg
 func Tag(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10427,7 +10427,7 @@ func Tag(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tags is the icon from tags.svg v0.367.0 file
+// Tags icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tags.svg
 func Tags(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10435,7 +10435,7 @@ func Tags(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tally1 is the icon from tally-1.svg v0.367.0 file
+// Tally1 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tally-1.svg
 func Tally1(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10443,7 +10443,7 @@ func Tally1(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tally2 is the icon from tally-2.svg v0.367.0 file
+// Tally2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tally-2.svg
 func Tally2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10451,7 +10451,7 @@ func Tally2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tally3 is the icon from tally-3.svg v0.367.0 file
+// Tally3 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tally-3.svg
 func Tally3(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10459,7 +10459,7 @@ func Tally3(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tally4 is the icon from tally-4.svg v0.367.0 file
+// Tally4 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tally-4.svg
 func Tally4(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10467,7 +10467,7 @@ func Tally4(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tally5 is the icon from tally-5.svg v0.367.0 file
+// Tally5 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tally-5.svg
 func Tally5(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10475,7 +10475,7 @@ func Tally5(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tangent is the icon from tangent.svg v0.367.0 file
+// Tangent icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tangent.svg
 func Tangent(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10483,7 +10483,7 @@ func Tangent(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Target is the icon from target.svg v0.367.0 file
+// Target icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/target.svg
 func Target(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10491,7 +10491,7 @@ func Target(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Telescope is the icon from telescope.svg v0.367.0 file
+// Telescope icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/telescope.svg
 func Telescope(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10499,7 +10499,7 @@ func Telescope(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TentTree is the icon from tent-tree.svg v0.367.0 file
+// TentTree icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tent-tree.svg
 func TentTree(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10507,7 +10507,7 @@ func TentTree(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tent is the icon from tent.svg v0.367.0 file
+// Tent icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tent.svg
 func Tent(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10515,7 +10515,7 @@ func Tent(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Terminal is the icon from terminal.svg v0.367.0 file
+// Terminal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/terminal.svg
 func Terminal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10523,7 +10523,7 @@ func Terminal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TestTubeDiagonal is the icon from test-tube-diagonal.svg v0.367.0 file
+// TestTubeDiagonal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/test-tube-diagonal.svg
 func TestTubeDiagonal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10531,7 +10531,7 @@ func TestTubeDiagonal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TestTube is the icon from test-tube.svg v0.367.0 file
+// TestTube icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/test-tube.svg
 func TestTube(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10539,7 +10539,7 @@ func TestTube(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TestTubes is the icon from test-tubes.svg v0.367.0 file
+// TestTubes icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/test-tubes.svg
 func TestTubes(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10547,7 +10547,7 @@ func TestTubes(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TextCursorInput is the icon from text-cursor-input.svg v0.367.0 file
+// TextCursorInput icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/text-cursor-input.svg
 func TextCursorInput(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10555,7 +10555,7 @@ func TextCursorInput(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TextCursor is the icon from text-cursor.svg v0.367.0 file
+// TextCursor icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/text-cursor.svg
 func TextCursor(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10563,7 +10563,7 @@ func TextCursor(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TextQuote is the icon from text-quote.svg v0.367.0 file
+// TextQuote icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/text-quote.svg
 func TextQuote(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10571,7 +10571,7 @@ func TextQuote(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TextSearch is the icon from text-search.svg v0.367.0 file
+// TextSearch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/text-search.svg
 func TextSearch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10579,7 +10579,7 @@ func TextSearch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TextSelect is the icon from text-select.svg v0.367.0 file
+// TextSelect icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/text-select.svg
 func TextSelect(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10587,7 +10587,7 @@ func TextSelect(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Text is the icon from text.svg v0.367.0 file
+// Text icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/text.svg
 func Text(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10595,7 +10595,7 @@ func Text(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Theater is the icon from theater.svg v0.367.0 file
+// Theater icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/theater.svg
 func Theater(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10603,7 +10603,7 @@ func Theater(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ThermometerSnowflake is the icon from thermometer-snowflake.svg v0.367.0 file
+// ThermometerSnowflake icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/thermometer-snowflake.svg
 func ThermometerSnowflake(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10611,7 +10611,7 @@ func ThermometerSnowflake(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ThermometerSun is the icon from thermometer-sun.svg v0.367.0 file
+// ThermometerSun icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/thermometer-sun.svg
 func ThermometerSun(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10619,7 +10619,7 @@ func ThermometerSun(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Thermometer is the icon from thermometer.svg v0.367.0 file
+// Thermometer icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/thermometer.svg
 func Thermometer(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10627,7 +10627,7 @@ func Thermometer(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ThumbsDown is the icon from thumbs-down.svg v0.367.0 file
+// ThumbsDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/thumbs-down.svg
 func ThumbsDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10635,7 +10635,7 @@ func ThumbsDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ThumbsUp is the icon from thumbs-up.svg v0.367.0 file
+// ThumbsUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/thumbs-up.svg
 func ThumbsUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10643,7 +10643,7 @@ func ThumbsUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TicketCheck is the icon from ticket-check.svg v0.367.0 file
+// TicketCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ticket-check.svg
 func TicketCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10651,7 +10651,7 @@ func TicketCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TicketMinus is the icon from ticket-minus.svg v0.367.0 file
+// TicketMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ticket-minus.svg
 func TicketMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10659,7 +10659,7 @@ func TicketMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TicketPercent is the icon from ticket-percent.svg v0.367.0 file
+// TicketPercent icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ticket-percent.svg
 func TicketPercent(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10667,7 +10667,7 @@ func TicketPercent(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TicketPlus is the icon from ticket-plus.svg v0.367.0 file
+// TicketPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ticket-plus.svg
 func TicketPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10675,7 +10675,7 @@ func TicketPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TicketSlash is the icon from ticket-slash.svg v0.367.0 file
+// TicketSlash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ticket-slash.svg
 func TicketSlash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10683,7 +10683,7 @@ func TicketSlash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TicketX is the icon from ticket-x.svg v0.367.0 file
+// TicketX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ticket-x.svg
 func TicketX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10691,7 +10691,7 @@ func TicketX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ticket is the icon from ticket.svg v0.367.0 file
+// Ticket icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ticket.svg
 func Ticket(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10699,7 +10699,7 @@ func Ticket(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TimerOff is the icon from timer-off.svg v0.367.0 file
+// TimerOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/timer-off.svg
 func TimerOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10707,7 +10707,7 @@ func TimerOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TimerReset is the icon from timer-reset.svg v0.367.0 file
+// TimerReset icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/timer-reset.svg
 func TimerReset(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10715,7 +10715,7 @@ func TimerReset(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Timer is the icon from timer.svg v0.367.0 file
+// Timer icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/timer.svg
 func Timer(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10723,7 +10723,7 @@ func Timer(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ToggleLeft is the icon from toggle-left.svg v0.367.0 file
+// ToggleLeft icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/toggle-left.svg
 func ToggleLeft(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10731,7 +10731,7 @@ func ToggleLeft(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ToggleRight is the icon from toggle-right.svg v0.367.0 file
+// ToggleRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/toggle-right.svg
 func ToggleRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10739,7 +10739,7 @@ func ToggleRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tornado is the icon from tornado.svg v0.367.0 file
+// Tornado icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tornado.svg
 func Tornado(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10747,7 +10747,7 @@ func Tornado(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Torus is the icon from torus.svg v0.367.0 file
+// Torus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/torus.svg
 func Torus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10755,7 +10755,7 @@ func Torus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TouchpadOff is the icon from touchpad-off.svg v0.367.0 file
+// TouchpadOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/touchpad-off.svg
 func TouchpadOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10763,7 +10763,7 @@ func TouchpadOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Touchpad is the icon from touchpad.svg v0.367.0 file
+// Touchpad icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/touchpad.svg
 func Touchpad(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10771,7 +10771,7 @@ func Touchpad(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TowerControl is the icon from tower-control.svg v0.367.0 file
+// TowerControl icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tower-control.svg
 func TowerControl(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10779,7 +10779,7 @@ func TowerControl(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ToyBrick is the icon from toy-brick.svg v0.367.0 file
+// ToyBrick icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/toy-brick.svg
 func ToyBrick(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10787,7 +10787,7 @@ func ToyBrick(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tractor is the icon from tractor.svg v0.367.0 file
+// Tractor icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tractor.svg
 func Tractor(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10795,7 +10795,7 @@ func Tractor(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TrafficCone is the icon from traffic-cone.svg v0.367.0 file
+// TrafficCone icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/traffic-cone.svg
 func TrafficCone(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10803,7 +10803,7 @@ func TrafficCone(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TrainFrontTunnel is the icon from train-front-tunnel.svg v0.367.0 file
+// TrainFrontTunnel icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/train-front-tunnel.svg
 func TrainFrontTunnel(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10811,7 +10811,7 @@ func TrainFrontTunnel(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TrainFront is the icon from train-front.svg v0.367.0 file
+// TrainFront icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/train-front.svg
 func TrainFront(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10819,7 +10819,7 @@ func TrainFront(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TrainTrack is the icon from train-track.svg v0.367.0 file
+// TrainTrack icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/train-track.svg
 func TrainTrack(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10827,7 +10827,7 @@ func TrainTrack(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TramFront is the icon from tram-front.svg v0.367.0 file
+// TramFront icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tram-front.svg
 func TramFront(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10835,7 +10835,7 @@ func TramFront(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Trash2 is the icon from trash-2.svg v0.367.0 file
+// Trash2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/trash-2.svg
 func Trash2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10843,7 +10843,7 @@ func Trash2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Trash is the icon from trash.svg v0.367.0 file
+// Trash icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/trash.svg
 func Trash(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10851,7 +10851,7 @@ func Trash(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TreeDeciduous is the icon from tree-deciduous.svg v0.367.0 file
+// TreeDeciduous icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tree-deciduous.svg
 func TreeDeciduous(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10859,7 +10859,7 @@ func TreeDeciduous(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TreePalm is the icon from tree-palm.svg v0.367.0 file
+// TreePalm icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tree-palm.svg
 func TreePalm(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10867,7 +10867,7 @@ func TreePalm(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TreePine is the icon from tree-pine.svg v0.367.0 file
+// TreePine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tree-pine.svg
 func TreePine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10875,7 +10875,7 @@ func TreePine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Trees is the icon from trees.svg v0.367.0 file
+// Trees icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/trees.svg
 func Trees(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10883,7 +10883,7 @@ func Trees(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Trello is the icon from trello.svg v0.367.0 file
+// Trello icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/trello.svg
 func Trello(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10891,7 +10891,7 @@ func Trello(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TrendingDown is the icon from trending-down.svg v0.367.0 file
+// TrendingDown icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/trending-down.svg
 func TrendingDown(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10899,7 +10899,7 @@ func TrendingDown(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TrendingUp is the icon from trending-up.svg v0.367.0 file
+// TrendingUp icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/trending-up.svg
 func TrendingUp(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10907,7 +10907,7 @@ func TrendingUp(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TriangleAlert is the icon from triangle-alert.svg v0.367.0 file
+// TriangleAlert icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/triangle-alert.svg
 func TriangleAlert(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10915,7 +10915,7 @@ func TriangleAlert(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// TriangleRight is the icon from triangle-right.svg v0.367.0 file
+// TriangleRight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/triangle-right.svg
 func TriangleRight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10923,7 +10923,7 @@ func TriangleRight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Triangle is the icon from triangle.svg v0.367.0 file
+// Triangle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/triangle.svg
 func Triangle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10931,7 +10931,7 @@ func Triangle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Trophy is the icon from trophy.svg v0.367.0 file
+// Trophy icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/trophy.svg
 func Trophy(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10939,7 +10939,7 @@ func Trophy(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Truck is the icon from truck.svg v0.367.0 file
+// Truck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/truck.svg
 func Truck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10947,7 +10947,7 @@ func Truck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Turtle is the icon from turtle.svg v0.367.0 file
+// Turtle icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/turtle.svg
 func Turtle(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10955,7 +10955,7 @@ func Turtle(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tv2 is the icon from tv-2.svg v0.367.0 file
+// Tv2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tv-2.svg
 func Tv2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10963,7 +10963,7 @@ func Tv2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Tv is the icon from tv.svg v0.367.0 file
+// Tv icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/tv.svg
 func Tv(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10971,7 +10971,7 @@ func Tv(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Twitch is the icon from twitch.svg v0.367.0 file
+// Twitch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/twitch.svg
 func Twitch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10979,7 +10979,7 @@ func Twitch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Twitter is the icon from twitter.svg v0.367.0 file
+// Twitter icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/twitter.svg
 func Twitter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10987,7 +10987,7 @@ func Twitter(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Type is the icon from type.svg v0.367.0 file
+// Type icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/type.svg
 func Type(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -10995,7 +10995,7 @@ func Type(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UmbrellaOff is the icon from umbrella-off.svg v0.367.0 file
+// UmbrellaOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/umbrella-off.svg
 func UmbrellaOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11003,7 +11003,7 @@ func UmbrellaOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Umbrella is the icon from umbrella.svg v0.367.0 file
+// Umbrella icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/umbrella.svg
 func Umbrella(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11011,7 +11011,7 @@ func Umbrella(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Underline is the icon from underline.svg v0.367.0 file
+// Underline icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/underline.svg
 func Underline(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11019,7 +11019,7 @@ func Underline(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Undo2 is the icon from undo-2.svg v0.367.0 file
+// Undo2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/undo-2.svg
 func Undo2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11027,7 +11027,7 @@ func Undo2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UndoDot is the icon from undo-dot.svg v0.367.0 file
+// UndoDot icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/undo-dot.svg
 func UndoDot(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11035,7 +11035,7 @@ func UndoDot(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Undo is the icon from undo.svg v0.367.0 file
+// Undo icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/undo.svg
 func Undo(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11043,7 +11043,7 @@ func Undo(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UnfoldHorizontal is the icon from unfold-horizontal.svg v0.367.0 file
+// UnfoldHorizontal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/unfold-horizontal.svg
 func UnfoldHorizontal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11051,7 +11051,7 @@ func UnfoldHorizontal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UnfoldVertical is the icon from unfold-vertical.svg v0.367.0 file
+// UnfoldVertical icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/unfold-vertical.svg
 func UnfoldVertical(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11059,7 +11059,7 @@ func UnfoldVertical(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Ungroup is the icon from ungroup.svg v0.367.0 file
+// Ungroup icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/ungroup.svg
 func Ungroup(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11067,7 +11067,7 @@ func Ungroup(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// University is the icon from university.svg v0.367.0 file
+// University icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/university.svg
 func University(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11075,7 +11075,7 @@ func University(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Unlink2 is the icon from unlink-2.svg v0.367.0 file
+// Unlink2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/unlink-2.svg
 func Unlink2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11083,7 +11083,7 @@ func Unlink2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Unlink is the icon from unlink.svg v0.367.0 file
+// Unlink icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/unlink.svg
 func Unlink(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11091,7 +11091,7 @@ func Unlink(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Unplug is the icon from unplug.svg v0.367.0 file
+// Unplug icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/unplug.svg
 func Unplug(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11099,7 +11099,7 @@ func Unplug(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Upload is the icon from upload.svg v0.367.0 file
+// Upload icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/upload.svg
 func Upload(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11107,7 +11107,7 @@ func Upload(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Usb is the icon from usb.svg v0.367.0 file
+// Usb icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/usb.svg
 func Usb(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11115,7 +11115,7 @@ func Usb(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserCheck is the icon from user-check.svg v0.367.0 file
+// UserCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-check.svg
 func UserCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11123,7 +11123,7 @@ func UserCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserCog is the icon from user-cog.svg v0.367.0 file
+// UserCog icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-cog.svg
 func UserCog(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11131,7 +11131,7 @@ func UserCog(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserMinus is the icon from user-minus.svg v0.367.0 file
+// UserMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-minus.svg
 func UserMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11139,7 +11139,7 @@ func UserMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserPlus is the icon from user-plus.svg v0.367.0 file
+// UserPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-plus.svg
 func UserPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11147,7 +11147,7 @@ func UserPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserRoundCheck is the icon from user-round-check.svg v0.367.0 file
+// UserRoundCheck icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-round-check.svg
 func UserRoundCheck(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11155,7 +11155,7 @@ func UserRoundCheck(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserRoundCog is the icon from user-round-cog.svg v0.367.0 file
+// UserRoundCog icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-round-cog.svg
 func UserRoundCog(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11163,7 +11163,7 @@ func UserRoundCog(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserRoundMinus is the icon from user-round-minus.svg v0.367.0 file
+// UserRoundMinus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-round-minus.svg
 func UserRoundMinus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11171,7 +11171,7 @@ func UserRoundMinus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserRoundPlus is the icon from user-round-plus.svg v0.367.0 file
+// UserRoundPlus icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-round-plus.svg
 func UserRoundPlus(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11179,7 +11179,7 @@ func UserRoundPlus(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserRoundSearch is the icon from user-round-search.svg v0.367.0 file
+// UserRoundSearch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-round-search.svg
 func UserRoundSearch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11187,7 +11187,7 @@ func UserRoundSearch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserRoundX is the icon from user-round-x.svg v0.367.0 file
+// UserRoundX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-round-x.svg
 func UserRoundX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11195,7 +11195,7 @@ func UserRoundX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserRound is the icon from user-round.svg v0.367.0 file
+// UserRound icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-round.svg
 func UserRound(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11203,7 +11203,7 @@ func UserRound(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserSearch is the icon from user-search.svg v0.367.0 file
+// UserSearch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-search.svg
 func UserSearch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11211,7 +11211,7 @@ func UserSearch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UserX is the icon from user-x.svg v0.367.0 file
+// UserX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user-x.svg
 func UserX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11219,7 +11219,7 @@ func UserX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// User is the icon from user.svg v0.367.0 file
+// User icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/user.svg
 func User(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11227,7 +11227,7 @@ func User(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UsersRound is the icon from users-round.svg v0.367.0 file
+// UsersRound icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/users-round.svg
 func UsersRound(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11235,7 +11235,7 @@ func UsersRound(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Users is the icon from users.svg v0.367.0 file
+// Users icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/users.svg
 func Users(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11243,7 +11243,7 @@ func Users(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UtensilsCrossed is the icon from utensils-crossed.svg v0.367.0 file
+// UtensilsCrossed icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/utensils-crossed.svg
 func UtensilsCrossed(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11251,7 +11251,7 @@ func UtensilsCrossed(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Utensils is the icon from utensils.svg v0.367.0 file
+// Utensils icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/utensils.svg
 func Utensils(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11259,7 +11259,7 @@ func Utensils(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// UtilityPole is the icon from utility-pole.svg v0.367.0 file
+// UtilityPole icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/utility-pole.svg
 func UtilityPole(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11267,7 +11267,7 @@ func UtilityPole(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Variable is the icon from variable.svg v0.367.0 file
+// Variable icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/variable.svg
 func Variable(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11275,7 +11275,7 @@ func Variable(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Vault is the icon from vault.svg v0.367.0 file
+// Vault icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/vault.svg
 func Vault(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11283,7 +11283,7 @@ func Vault(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Vegan is the icon from vegan.svg v0.367.0 file
+// Vegan icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/vegan.svg
 func Vegan(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11291,7 +11291,7 @@ func Vegan(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// VenetianMask is the icon from venetian-mask.svg v0.367.0 file
+// VenetianMask icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/venetian-mask.svg
 func VenetianMask(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11299,7 +11299,7 @@ func VenetianMask(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// VibrateOff is the icon from vibrate-off.svg v0.367.0 file
+// VibrateOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/vibrate-off.svg
 func VibrateOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11307,7 +11307,7 @@ func VibrateOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Vibrate is the icon from vibrate.svg v0.367.0 file
+// Vibrate icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/vibrate.svg
 func Vibrate(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11315,7 +11315,7 @@ func Vibrate(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// VideoOff is the icon from video-off.svg v0.367.0 file
+// VideoOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/video-off.svg
 func VideoOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11323,7 +11323,7 @@ func VideoOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Video is the icon from video.svg v0.367.0 file
+// Video icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/video.svg
 func Video(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11331,7 +11331,7 @@ func Video(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Videotape is the icon from videotape.svg v0.367.0 file
+// Videotape icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/videotape.svg
 func Videotape(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11339,7 +11339,7 @@ func Videotape(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// View is the icon from view.svg v0.367.0 file
+// View icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/view.svg
 func View(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11347,7 +11347,7 @@ func View(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Voicemail is the icon from voicemail.svg v0.367.0 file
+// Voicemail icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/voicemail.svg
 func Voicemail(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11355,7 +11355,7 @@ func Voicemail(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Volume1 is the icon from volume-1.svg v0.367.0 file
+// Volume1 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/volume-1.svg
 func Volume1(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11363,7 +11363,7 @@ func Volume1(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Volume2 is the icon from volume-2.svg v0.367.0 file
+// Volume2 icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/volume-2.svg
 func Volume2(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11371,7 +11371,7 @@ func Volume2(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// VolumeX is the icon from volume-x.svg v0.367.0 file
+// VolumeX icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/volume-x.svg
 func VolumeX(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11379,7 +11379,7 @@ func VolumeX(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Volume is the icon from volume.svg v0.367.0 file
+// Volume icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/volume.svg
 func Volume(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11387,7 +11387,7 @@ func Volume(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Vote is the icon from vote.svg v0.367.0 file
+// Vote icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/vote.svg
 func Vote(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11395,7 +11395,7 @@ func Vote(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// WalletCards is the icon from wallet-cards.svg v0.367.0 file
+// WalletCards icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wallet-cards.svg
 func WalletCards(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11403,7 +11403,7 @@ func WalletCards(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// WalletMinimal is the icon from wallet-minimal.svg v0.367.0 file
+// WalletMinimal icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wallet-minimal.svg
 func WalletMinimal(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11411,7 +11411,7 @@ func WalletMinimal(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Wallet is the icon from wallet.svg v0.367.0 file
+// Wallet icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wallet.svg
 func Wallet(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11419,7 +11419,7 @@ func Wallet(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Wallpaper is the icon from wallpaper.svg v0.367.0 file
+// Wallpaper icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wallpaper.svg
 func Wallpaper(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11427,7 +11427,7 @@ func Wallpaper(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// WandSparkles is the icon from wand-sparkles.svg v0.367.0 file
+// WandSparkles icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wand-sparkles.svg
 func WandSparkles(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11435,7 +11435,7 @@ func WandSparkles(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Wand is the icon from wand.svg v0.367.0 file
+// Wand icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wand.svg
 func Wand(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11443,7 +11443,7 @@ func Wand(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Warehouse is the icon from warehouse.svg v0.367.0 file
+// Warehouse icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/warehouse.svg
 func Warehouse(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11451,7 +11451,7 @@ func Warehouse(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// WashingMachine is the icon from washing-machine.svg v0.367.0 file
+// WashingMachine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/washing-machine.svg
 func WashingMachine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11459,7 +11459,7 @@ func WashingMachine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Watch is the icon from watch.svg v0.367.0 file
+// Watch icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/watch.svg
 func Watch(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11467,7 +11467,7 @@ func Watch(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Waves is the icon from waves.svg v0.367.0 file
+// Waves icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/waves.svg
 func Waves(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11475,7 +11475,7 @@ func Waves(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Waypoints is the icon from waypoints.svg v0.367.0 file
+// Waypoints icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/waypoints.svg
 func Waypoints(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11483,7 +11483,7 @@ func Waypoints(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Webcam is the icon from webcam.svg v0.367.0 file
+// Webcam icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/webcam.svg
 func Webcam(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11491,7 +11491,7 @@ func Webcam(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// WebhookOff is the icon from webhook-off.svg v0.367.0 file
+// WebhookOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/webhook-off.svg
 func WebhookOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11499,7 +11499,7 @@ func WebhookOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Webhook is the icon from webhook.svg v0.367.0 file
+// Webhook icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/webhook.svg
 func Webhook(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11507,7 +11507,7 @@ func Webhook(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Weight is the icon from weight.svg v0.367.0 file
+// Weight icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/weight.svg
 func Weight(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11515,7 +11515,7 @@ func Weight(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// WheatOff is the icon from wheat-off.svg v0.367.0 file
+// WheatOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wheat-off.svg
 func WheatOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11523,7 +11523,7 @@ func WheatOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Wheat is the icon from wheat.svg v0.367.0 file
+// Wheat icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wheat.svg
 func Wheat(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11531,7 +11531,7 @@ func Wheat(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// WholeWord is the icon from whole-word.svg v0.367.0 file
+// WholeWord icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/whole-word.svg
 func WholeWord(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11539,7 +11539,7 @@ func WholeWord(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// WifiOff is the icon from wifi-off.svg v0.367.0 file
+// WifiOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wifi-off.svg
 func WifiOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11547,7 +11547,7 @@ func WifiOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Wifi is the icon from wifi.svg v0.367.0 file
+// Wifi icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wifi.svg
 func Wifi(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11555,7 +11555,7 @@ func Wifi(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Wind is the icon from wind.svg v0.367.0 file
+// Wind icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wind.svg
 func Wind(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11563,7 +11563,7 @@ func Wind(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// WineOff is the icon from wine-off.svg v0.367.0 file
+// WineOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wine-off.svg
 func WineOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11571,7 +11571,7 @@ func WineOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Wine is the icon from wine.svg v0.367.0 file
+// Wine icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wine.svg
 func Wine(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11579,7 +11579,7 @@ func Wine(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Workflow is the icon from workflow.svg v0.367.0 file
+// Workflow icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/workflow.svg
 func Workflow(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11587,7 +11587,7 @@ func Workflow(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Worm is the icon from worm.svg v0.367.0 file
+// Worm icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/worm.svg
 func Worm(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11595,7 +11595,7 @@ func Worm(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// WrapText is the icon from wrap-text.svg v0.367.0 file
+// WrapText icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wrap-text.svg
 func WrapText(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11603,7 +11603,7 @@ func WrapText(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Wrench is the icon from wrench.svg v0.367.0 file
+// Wrench icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/wrench.svg
 func Wrench(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11611,7 +11611,7 @@ func Wrench(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// X is the icon from x.svg v0.367.0 file
+// X icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/x.svg
 func X(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11619,7 +11619,7 @@ func X(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Youtube is the icon from youtube.svg v0.367.0 file
+// Youtube icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/youtube.svg
 func Youtube(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11627,7 +11627,7 @@ func Youtube(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ZapOff is the icon from zap-off.svg v0.367.0 file
+// ZapOff icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/zap-off.svg
 func ZapOff(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11635,7 +11635,7 @@ func ZapOff(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// Zap is the icon from zap.svg v0.367.0 file
+// Zap icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/zap.svg
 func Zap(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11643,7 +11643,7 @@ func Zap(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ZoomIn is the icon from zoom-in.svg v0.367.0 file
+// ZoomIn icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/zoom-in.svg
 func ZoomIn(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
@@ -11651,7 +11651,7 @@ func ZoomIn(children ...gomponents.Node) gomponents.Node {
 	)
 }
 
-// ZoomOut is the icon from zoom-out.svg v0.367.0 file
+// ZoomOut icon: https://github.com/lucide-icons/lucide/tree/0.367.0/icons/zoom-out.svg
 func ZoomOut(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),

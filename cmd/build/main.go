@@ -8,8 +8,9 @@ import (
 )
 
 const (
-	iconsURL       = "https://github.com/lucide-icons/lucide/releases/download/0.367.0/lucide-icons-0.367.0.zip"
 	version        = "0.367.0"
+	iconsURL       = "https://github.com/lucide-icons/lucide/releases/download/" + version + "/lucide-icons-" + version + ".zip"
+	repoIconsDir   = "https://github.com/lucide-icons/lucide/tree/" + version + "/icons"
 	tempDir        = "./tmp"
 	outputFilePath = "./lucide.go"
 )
