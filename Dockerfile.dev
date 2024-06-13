@@ -30,6 +30,12 @@ RUN wget https://github.com/go-task/task/releases/download/v3.34.1/task_linux_am
     mv ./task /usr/local/bin/task && \
     chmod 777 /usr/local/bin/task
 
+# install minify
+RUN wget https://github.com/tdewolff/minify/releases/download/v2.20.34/minify_linux_amd64.tar.gz && \
+    tar -xzf minify_linux_amd64.tar.gz && \
+    mv ./minify /usr/local/bin/minify && \
+    chmod 777 /usr/local/bin/minify
+
 # Delete the temporary directory and go to the app directory
 RUN rm -rf /app/temp
 WORKDIR /app
