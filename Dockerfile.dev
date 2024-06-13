@@ -34,16 +34,10 @@ RUN wget https://github.com/go-task/task/releases/download/v3.34.1/task_linux_am
 RUN rm -rf /app/temp
 WORKDIR /app
 
-# Ignore git permissions tracking and set safe directory
-RUN git config --global core.fileMode false && \
-    git config --global --add safe.directory '*'
+# Add the startup script on every bash session
+COPY scripts/startup.sh /usr/local/bin/startup.sh
+RUN echo "\n\n" >> /root/.bashrc && \
+    cat /usr/local/bin/startup.sh >> /root/.bashrc
 
-# Add command to execute umask 000 for every interactive bash session
-RUN echo "umask 000" >> /root/.bashrc
-
-##############################################
-####### THE ACTUAL PROCESS STARTS HERE #######
-##############################################
-
-# Start interactive shell
-CMD ["/bin/bash"]
+# Command just to keep the container running
+CMD ["tail", "-f", "/dev/null"]
