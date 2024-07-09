@@ -8,12 +8,13 @@ import (
 )
 
 const (
-	version             = "0.407.0"
-	iconsURL            = "https://github.com/lucide-icons/lucide/releases/download/" + version + "/lucide-icons-" + version + ".zip"
-	repoIconsDir        = "https://raw.githubusercontent.com/lucide-icons/lucide/" + version + "/icons"
-	tempDir             = "./tmp"
-	iconsOutputFilePath = "./lucide.go"
-	infoOutputFilePath  = "./info.go"
+	version               = "0.407.0"
+	iconsURL              = "https://github.com/lucide-icons/lucide/releases/download/" + version + "/lucide-icons-" + version + ".zip"
+	repoIconsDir          = "https://raw.githubusercontent.com/lucide-icons/lucide/" + version + "/icons"
+	tempDir               = "./tmp"
+	iconsOutputFilePath   = "./lucide.go"
+	infoOutputFilePath    = "./info.go"
+	includedIconsFilePath = "./included_icons.txt"
 )
 
 func main() {
@@ -51,6 +52,7 @@ func main() {
 	// Generate Go code from icons
 	components := []string{}
 	infos := []string{}
+	includedIcons := []string{}
 	for _, file := range files {
 		if file.IsDir() {
 			continue
@@ -74,6 +76,7 @@ func main() {
 		if ext == ".svg" {
 			component := generateComponent(file.Name(), funcName, b)
 			components = append(components, component)
+			includedIcons = append(includedIcons, funcName)
 		}
 
 		if ext == ".json" {
@@ -92,6 +95,13 @@ func main() {
 
 	// Write info Go code to file
 	err = os.WriteFile(infoOutputFilePath, infoFileContents, os.ModePerm)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// Write icons list to file
+	includedIconsFileContents := strings.Join(includedIcons, "\n")
+	err = os.WriteFile(includedIconsFilePath, []byte(includedIconsFileContents), os.ModePerm)
 	if err != nil {
 		log.Fatal(err)
 	}
