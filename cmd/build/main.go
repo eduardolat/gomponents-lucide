@@ -8,11 +8,12 @@ import (
 )
 
 const (
-	version        = "0.394.0"
-	iconsURL       = "https://github.com/lucide-icons/lucide/releases/download/" + version + "/lucide-icons-" + version + ".zip"
-	repoIconsDir   = "https://raw.githubusercontent.com/lucide-icons/lucide/" + version + "/icons"
-	tempDir        = "./tmp"
-	outputFilePath = "./lucide.go"
+	version             = "0.394.0"
+	iconsURL            = "https://github.com/lucide-icons/lucide/releases/download/" + version + "/lucide-icons-" + version + ".zip"
+	repoIconsDir        = "https://raw.githubusercontent.com/lucide-icons/lucide/" + version + "/icons"
+	tempDir             = "./tmp"
+	iconsOutputFilePath = "./lucide.go"
+	infoOutputFilePath  = "./info.go"
 )
 
 func main() {
@@ -49,18 +50,20 @@ func main() {
 
 	// Generate Go code from icons
 	components := []string{}
+	infos := []string{}
 	for _, file := range files {
 		if file.IsDir() {
 			continue
 		}
 
 		ext := path.Ext(file.Name())
-		if ext != ".svg" {
+		if ext != ".svg" && ext != ".json" {
 			continue
 		}
 
 		kebabCaseName := strings.TrimSuffix(file.Name(), ext)
-		upperCamelCaseName := kebabToUpperCamelCase(kebabCaseName)
+		funcName := kebabToFuncName(kebabCaseName)
+		name := kebabToName(kebabCaseName)
 
 		filePath := path.Join(iconsDir, file.Name())
 		b, err := os.ReadFile(filePath)
@@ -68,13 +71,27 @@ func main() {
 			log.Fatal(err)
 		}
 
-		component := generateComponent(file.Name(), upperCamelCaseName, b)
-		components = append(components, component)
-	}
-	pkg := generatePackage(components)
+		if ext == ".svg" {
+			component := generateComponent(file.Name(), funcName, b)
+			components = append(components, component)
+		}
 
-	// Write Go code to file
-	err = os.WriteFile(outputFilePath, []byte(pkg), os.ModePerm)
+		if ext == ".json" {
+			info := generateInfo(file.Name(), name, funcName, b)
+			infos = append(infos, info)
+		}
+	}
+	iconsFileContents := generateIconsFile(components)
+	infoFileContents := generateInfoFile(infos)
+
+	// Write icons Go code to file
+	err = os.WriteFile(iconsOutputFilePath, iconsFileContents, os.ModePerm)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// Write info Go code to file
+	err = os.WriteFile(infoOutputFilePath, infoFileContents, os.ModePerm)
 	if err != nil {
 		log.Fatal(err)
 	}

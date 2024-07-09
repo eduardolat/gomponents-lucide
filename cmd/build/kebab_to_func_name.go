@@ -2,7 +2,7 @@ package main
 
 import "strings"
 
-func kebabToUpperCamelCase(s string) string {
+func kebabToFuncName(s string) string {
 	var result string
 	words := strings.Split(s, "-")
 	for _, word := range words {
