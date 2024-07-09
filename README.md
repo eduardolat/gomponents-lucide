@@ -1,5 +1,15 @@
 # 🌀 Lucide icons for gomponents
 
+<a href="https://pkg.go.dev/github.com/eduardolat/gomponents-lucide">
+	<img src="https://pkg.go.dev/badge/github.com/eduardolat/gomponents-lucide.svg" alt="Go Reference">
+</a>
+<a href="https://github.com/eduardolat/gomponents-lucide/releases" target="_blank" rel="noopener">
+	<img src="https://img.shields.io/github/release/eduardolat/gomponents-lucide.svg" alt="Latest releases" />
+</a>
+
+<br/>
+<br/>
+
 This module provides the set of [Lucide Icons](https://lucide.dev/) for [gomponents](https://www.gomponents.com/).
 
 ## Features
