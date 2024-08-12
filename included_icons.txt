@@ -41,6 +41,7 @@ AlignVerticalSpaceBetween
 Ambulance
 Ampersand
 Ampersands
+Amphora
 Anchor
 Angry
 Annoyed
@@ -53,7 +54,6 @@ Apple
 ArchiveRestore
 ArchiveX
 Archive
-AreaChart
 Armchair
 ArrowBigDownDash
 ArrowBigDown
@@ -128,14 +128,8 @@ Badge
 BaggageClaim
 Ban
 Banana
+Bandage
 Banknote
-BarChart2
-BarChart3
-BarChart4
-BarChartBig
-BarChartHorizontalBig
-BarChartHorizontal
-BarChart
 Barcode
 Baseline
 Bath
@@ -168,6 +162,7 @@ BetweenVerticalStart
 BicepsFlexed
 Bike
 Binary
+Binoculars
 Biohazard
 Bird
 Bitcoin
@@ -262,7 +257,6 @@ CalendarX
 Calendar
 CameraOff
 Camera
-CandlestickChart
 CandyCane
 CandyOff
 Candy
@@ -282,6 +276,28 @@ Cast
 Castle
 Cat
 Cctv
+ChartArea
+ChartBarBig
+ChartBarDecreasing
+ChartBarIncreasing
+ChartBarStacked
+ChartBar
+ChartCandlestick
+ChartColumnBig
+ChartColumnDecreasing
+ChartColumnIncreasing
+ChartColumnStacked
+ChartColumn
+ChartLine
+ChartNetwork
+ChartNoAxesColumnDecreasing
+ChartNoAxesColumnIncreasing
+ChartNoAxesColumn
+ChartNoAxesCombined
+ChartNoAxesGantt
+ChartPie
+ChartScatter
+ChartSpline
 CheckCheck
 Check
 ChefHat
@@ -294,6 +310,7 @@ ChevronRight
 ChevronUp
 ChevronsDownUp
 ChevronsDown
+ChevronsLeftRightEllipsis
 ChevronsLeftRight
 ChevronsLeft
 ChevronsRightLeft
@@ -326,6 +343,7 @@ CircleDotDashed
 CircleDot
 CircleEllipsis
 CircleEqual
+CircleFadingArrowUp
 CircleFadingPlus
 CircleGauge
 CircleHelp
@@ -445,6 +463,7 @@ Cuboid
 CupSoda
 Currency
 Cylinder
+Dam
 DatabaseBackup
 DatabaseZap
 Database
@@ -500,6 +519,7 @@ Ellipsis
 EqualNot
 Equal
 Eraser
+EthernetPort
 Euro
 Expand
 ExternalLink
@@ -519,9 +539,11 @@ FileAudio
 FileAxis3d
 FileBadge2
 FileBadge
-FileBarChart2
-FileBarChart
 FileBox
+FileChartColumnIncreasing
+FileChartColumn
+FileChartLine
+FileChartPie
 FileCheck2
 FileCheck
 FileClock
@@ -538,7 +560,6 @@ FileJson2
 FileJson
 FileKey2
 FileKey
-FileLineChart
 FileLock2
 FileLock
 FileMinus2
@@ -547,7 +568,6 @@ FileMusic
 FileOutput
 FilePenLine
 FilePen
-FilePieChart
 FilePlus2
 FilePlus
 FileQuestion
@@ -646,7 +666,6 @@ GalleryVerticalEnd
 GalleryVertical
 Gamepad2
 Gamepad
-GanttChart
 Gauge
 Gavel
 Gem
@@ -730,6 +749,7 @@ HousePlus
 House
 IceCreamBowl
 IceCreamCone
+IdCard
 ImageDown
 ImageMinus
 ImageOff
@@ -785,13 +805,13 @@ LayoutTemplate
 Leaf
 LeafyGreen
 Lectern
+LetterText
 LibraryBig
 Library
 LifeBuoy
 Ligature
 LightbulbOff
 Lightbulb
-LineChart
 Link2Off
 Link2
 Link
@@ -839,7 +859,16 @@ MailX
 Mail
 Mailbox
 Mails
+MapPinCheckInside
+MapPinCheck
+MapPinHouse
+MapPinMinusInside
+MapPinMinus
 MapPinOff
+MapPinPlusInside
+MapPinPlus
+MapPinXInside
+MapPinX
 MapPin
 MapPinned
 Map
@@ -883,6 +912,7 @@ MessagesSquare
 MicOff
 MicVocal
 Mic
+Microchip
 Microscope
 Microwave
 Milestone
@@ -892,6 +922,7 @@ Minimize2
 Minimize
 Minus
 MonitorCheck
+MonitorCog
 MonitorDot
 MonitorDown
 MonitorOff
@@ -950,6 +981,7 @@ OctagonAlert
 OctagonPause
 OctagonX
 Octagon
+Omega
 Option
 Orbit
 Origami
@@ -1003,6 +1035,7 @@ Pencil
 Pentagon
 Percent
 PersonStanding
+PhilippinePeso
 PhoneCall
 PhoneForwarded
 PhoneIncoming
@@ -1015,7 +1048,6 @@ Piano
 Pickaxe
 PictureInPicture2
 PictureInPicture
-PieChart
 PiggyBank
 PilcrowLeft
 PilcrowRight
@@ -1031,7 +1063,6 @@ PlaneTakeoff
 Plane
 Play
 Plug2
-PlugZap2
 PlugZap
 Plug
 Plus
@@ -1134,7 +1165,6 @@ ScanQrCode
 ScanSearch
 ScanText
 Scan
-ScatterChart
 School
 ScissorsLineDashed
 Scissors
@@ -1240,6 +1270,7 @@ SquareArrowUpRight
 SquareArrowUp
 SquareAsterisk
 SquareBottomDashedScissors
+SquareChartGantt
 SquareCheckBig
 SquareCheck
 SquareChevronDown
@@ -1255,7 +1286,6 @@ SquareDivide
 SquareDot
 SquareEqual
 SquareFunction
-SquareGanttChart
 SquareKanban
 SquareLibrary
 SquareM
@@ -1277,6 +1307,7 @@ SquareSigma
 SquareSlash
 SquareSplitHorizontal
 SquareSplitVertical
+SquareSquare
 SquareStack
 SquareTerminal
 SquareUserRound
@@ -1317,6 +1348,7 @@ Table2
 TableCellsMerge
 TableCellsSplit
 TableColumnsSplit
+TableOfContents
 TableProperties
 TableRowsSplit
 Table
@@ -1358,6 +1390,7 @@ TicketPlus
 TicketSlash
 TicketX
 Ticket
+Tickets
 TimerOff
 TimerReset
 Timer

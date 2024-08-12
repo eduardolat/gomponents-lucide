@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	version               = "0.407.0"
+	version               = "0.427.0"
 	iconsURL              = "https://github.com/lucide-icons/lucide/releases/download/" + version + "/lucide-icons-" + version + ".zip"
 	repoIconsDir          = "https://raw.githubusercontent.com/lucide-icons/lucide/" + version + "/icons"
 	tempDir               = "./tmp"
