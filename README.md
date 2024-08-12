@@ -14,7 +14,7 @@ This module provides the set of [Lucide Icons](https://lucide.dev/) for [gompone
 
 ## Features
 
-- More than 1480 beautiful icons
+- More than 1500 beautiful icons
 - Easy to use
 - Easy to customize
 - Zero dependencies
