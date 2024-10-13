@@ -210,7 +210,6 @@ BoomBox
 BotMessageSquare
 BotOff
 Bot
-BoxSelect
 Box
 Boxes
 Braces
@@ -220,6 +219,7 @@ BrainCog
 Brain
 BrickWall
 BriefcaseBusiness
+BriefcaseConveyorBelt
 BriefcaseMedical
 Briefcase
 BringToFront
@@ -288,6 +288,7 @@ ChartColumnDecreasing
 ChartColumnIncreasing
 ChartColumnStacked
 ChartColumn
+ChartGantt
 ChartLine
 ChartNetwork
 ChartNoAxesColumnDecreasing
@@ -389,6 +390,7 @@ Clock6
 Clock7
 Clock8
 Clock9
+ClockAlert
 ClockArrowDown
 ClockArrowUp
 Clock
@@ -523,6 +525,7 @@ EthernetPort
 Euro
 Expand
 ExternalLink
+EyeClosed
 EyeOff
 Eye
 Facebook
@@ -583,6 +586,7 @@ FileText
 FileType2
 FileType
 FileUp
+FileUser
 FileVideo2
 FileVideo
 FileVolume2
@@ -697,6 +701,7 @@ Grab
 GraduationCap
 Grape
 Grid2x2Check
+Grid2x2Plus
 Grid2x2X
 Grid2x2
 Grid3x3
@@ -728,6 +733,7 @@ Heading4
 Heading5
 Heading6
 Heading
+HeadphoneOff
 Headphones
 Headset
 HeartCrack
@@ -898,6 +904,7 @@ MessageSquareDashed
 MessageSquareDiff
 MessageSquareDot
 MessageSquareHeart
+MessageSquareLock
 MessageSquareMore
 MessageSquareOff
 MessageSquarePlus
@@ -978,6 +985,7 @@ NotepadText
 NutOff
 Nut
 OctagonAlert
+OctagonMinus
 OctagonPause
 OctagonX
 Octagon
@@ -1282,6 +1290,7 @@ SquareDashedBottomCode
 SquareDashedBottom
 SquareDashedKanban
 SquareDashedMousePointer
+SquareDashed
 SquareDivide
 SquareDot
 SquareEqual
@@ -1390,6 +1399,7 @@ TicketPlus
 TicketSlash
 TicketX
 Ticket
+TicketsPlane
 Tickets
 TimerOff
 TimerReset
@@ -1416,6 +1426,7 @@ TreePine
 Trees
 Trello
 TrendingDown
+TrendingUpDown
 TrendingUp
 TriangleAlert
 TriangleRight
@@ -1477,8 +1488,10 @@ Video
 Videotape
 View
 Voicemail
+Volleyball
 Volume1
 Volume2
+VolumeOff
 VolumeX
 Volume
 Vote
