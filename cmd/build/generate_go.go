@@ -80,7 +80,7 @@ func generatePackageDef() string {
 func generateIconsFile(components []string) []byte {
 	pkg := generatePackageDef() + `
 
-		import "github.com/maragudk/gomponents"
+		import "maragu.dev/gomponents"
 
 		// svgWrapper just creates the svg skeleton following the lucide
 		// guidelines. It is used by all the icons.
@@ -133,7 +133,7 @@ func generateIconsFile(components []string) []byte {
 func generateInfoFile(infos []string) []byte {
 	pkg := generatePackageDef() + `
 
-		import "github.com/maragudk/gomponents"
+		import "maragu.dev/gomponents"
 
 		// IconInfo represents the information of an icon.
 		type IconInfo struct {

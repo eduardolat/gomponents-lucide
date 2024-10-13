@@ -3,7 +3,7 @@
 
 package lucide
 
-import "github.com/maragudk/gomponents"
+import "maragu.dev/gomponents"
 
 // IconInfo represents the information of an icon.
 type IconInfo struct {

@@ -3,7 +3,7 @@
 
 package lucide
 
-import "github.com/maragudk/gomponents"
+import "maragu.dev/gomponents"
 
 // svgWrapper just creates the svg skeleton following the lucide
 // guidelines. It is used by all the icons.

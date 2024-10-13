@@ -39,8 +39,8 @@ package main
 
 import (
 	"os"
-	"github.com/maragudk/gomponents"
-	"github.com/maragudk/gomponents/html"
+	"maragu.dev/gomponents"
+	"maragu.dev/gomponents/html"
 	"github.com/eduardolat/gomponents-lucide"
 )
 
