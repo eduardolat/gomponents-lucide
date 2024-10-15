@@ -42,18 +42,22 @@ func generateComponent(fileName string, funcName string, svgBytes []byte) string
 	return fn
 }
 
-func generateInfo(fileName string, name string, funcName string, jsonBytes []byte) string {
+func generateInfoVars(fileName string, name string, kebabCaseName string, funcName string, infoName string, jsonBytes []byte) string {
 	var info IconInfo
 	if err := json.Unmarshal(jsonBytes, &info); err != nil {
 		log.Fatalf("could not unmarshal %s: %v", fileName, err)
 	}
 
-	tpl := `{
-		Name: "%s",
-		Icon: %s,
-		Tags: []string{%s},
-		Categories: []string{%s},
-	},`
+	tpl := `
+		%s = IconInfo{
+			Name: "%s",
+			Slug: "%s",
+			Icon: %s,
+			Tags: []string{%s},
+			Categories: []string{%s},
+		}
+	
+	`
 
 	tags := ""
 	for _, tag := range info.Tags {
@@ -65,7 +69,20 @@ func generateInfo(fileName string, name string, funcName string, jsonBytes []byt
 		categories += `"` + category + `",`
 	}
 
-	return fmt.Sprintf(tpl, name, funcName, tags, categories)
+	return fmt.Sprintf(tpl, infoName, name, kebabCaseName, funcName, tags, categories)
+}
+
+func generateInfoMap(slug string, infoName string, name string) string {
+	tpl := `"%s": &%s,
+			"%s": &%s,`
+
+	return fmt.Sprintf(tpl, slug, infoName, name, infoName)
+}
+
+func generateInfoSlice(infoName string) string {
+	tpl := `&%s,`
+
+	return fmt.Sprintf(tpl, infoName)
 }
 
 func generatePackageDef() string {
@@ -130,7 +147,7 @@ func generateIconsFile(components []string) []byte {
 	return b
 }
 
-func generateInfoFile(infos []string) []byte {
+func generateInfoFile(infoVars, infoMaps, infoSlices []string) []byte {
 	pkg := generatePackageDef() + `
 
 		import "maragu.dev/gomponents"
@@ -138,16 +155,30 @@ func generateInfoFile(infos []string) []byte {
 		// IconInfo represents the information of an icon.
 		type IconInfo struct {
 			Name       string
+			Slug       string
 			Icon       func (children ...gomponents.Node) gomponents.Node
 			Tags       []string
 			Categories []string
 		}
 
 		// IconsInfo is a list of all the icons information.
-		var IconsInfo = []IconInfo{
+		var (
 	`
-	pkg += strings.Join(infos, "\n") + "\n"
-	pkg += `}`
+	pkg += strings.Join(infoVars, "\n") + "\n"
+	pkg += `
+			iconsInfoMap = map[string]*IconInfo{
+	`
+	pkg += strings.Join(infoMaps, "\n") + "\n"
+	pkg += `
+			}`
+	pkg += `
+			IconsInfo = []*IconInfo{
+	`
+	pkg += strings.Join(infoSlices, "\n") + "\n"
+	pkg += `
+			}`
+	pkg += `
+		)`
 
 	b, err := format.Source([]byte(pkg))
 	if err != nil {

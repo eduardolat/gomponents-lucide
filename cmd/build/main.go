@@ -51,7 +51,9 @@ func main() {
 
 	// Generate Go code from icons
 	components := []string{}
-	infos := []string{}
+	infoVars := []string{}
+	infoMaps := []string{}
+	infoSlices := []string{}
 	includedIcons := []string{}
 	for _, file := range files {
 		if file.IsDir() {
@@ -66,6 +68,7 @@ func main() {
 		kebabCaseName := strings.TrimSuffix(file.Name(), ext)
 		funcName := kebabToFuncName(kebabCaseName)
 		name := kebabToName(kebabCaseName)
+		infoName := kebabToInfoName(kebabCaseName)
 
 		filePath := path.Join(iconsDir, file.Name())
 		b, err := os.ReadFile(filePath)
@@ -80,12 +83,13 @@ func main() {
 		}
 
 		if ext == ".json" {
-			info := generateInfo(file.Name(), name, funcName, b)
-			infos = append(infos, info)
+			infoVars = append(infoVars, generateInfoVars(file.Name(), name, kebabCaseName, funcName, infoName, b))
+			infoMaps = append(infoMaps, generateInfoMap(kebabCaseName, infoName, name))
+			infoSlices = append(infoSlices, generateInfoSlice(infoName))
 		}
 	}
 	iconsFileContents := generateIconsFile(components)
-	infoFileContents := generateInfoFile(infos)
+	infoFileContents := generateInfoFile(infoVars, infoMaps, infoSlices)
 
 	// Write icons Go code to file
 	err = os.WriteFile(iconsOutputFilePath, iconsFileContents, os.ModePerm)
