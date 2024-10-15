@@ -2439,7 +2439,7 @@ func ChartPie(children ...gomponents.Node) gomponents.Node {
 func ChartScatter(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
-		gomponents.Raw(`<circle cx="7.5" cy="7.5" r=".5" fill="currentcolor"/><circle cx="18.5" cy="5.5" r=".5" fill="currentcolor"/><circle cx="11.5" cy="11.5" r=".5" fill="currentcolor"/><circle cx="7.5" cy="16.5" r=".5" fill="currentcolor"/><circle cx="17.5" cy="14.5" r=".5" fill="currentcolor"/><path d="M3 3v16a2 2 0 002 2h16"/>`),
+		gomponents.Raw(`<circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="18.5" cy="5.5" r=".5" fill="currentColor"/><circle cx="11.5" cy="11.5" r=".5" fill="currentColor"/><circle cx="7.5" cy="16.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="14.5" r=".5" fill="currentColor"/><path d="M3 3v16a2 2 0 002 2h16"/>`),
 	)
 }
 
@@ -5735,7 +5735,7 @@ func Group(children ...gomponents.Node) gomponents.Node {
 func Guitar(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
-		gomponents.Raw(`<path d="m11.9 12.1 4.514-4.514"/><path d="M20.1 2.3a1 1 0 00-1.4.0l-1.114 1.114A2 2 0 0017 4.828v1.344a2 2 0 01-.586 1.414A2 2 0 0117.828 7h1.344a2 2 0 001.414-.586L21.7 5.3a1 1 0 000-1.4z"/><path d="m6 16 2 2"/><path d="M8.2 9.9C8.7 8.8 9.8 8 11 8c2.8.0 5 2.2 5 5 0 1.2-.8 2.3-1.9 2.8l-.9.4A2 2 0 0012 18a4 4 0 01-4 4c-3.3.0-6-2.7-6-6a4 4 0 014-4 2 2 0 001.8-1.2z"/><circle cx="11.5" cy="12.5" r=".5" fill="currentcolor"/>`),
+		gomponents.Raw(`<path d="m11.9 12.1 4.514-4.514"/><path d="M20.1 2.3a1 1 0 00-1.4.0l-1.114 1.114A2 2 0 0017 4.828v1.344a2 2 0 01-.586 1.414A2 2 0 0117.828 7h1.344a2 2 0 001.414-.586L21.7 5.3a1 1 0 000-1.4z"/><path d="m6 16 2 2"/><path d="M8.2 9.9C8.7 8.8 9.8 8 11 8c2.8.0 5 2.2 5 5 0 1.2-.8 2.3-1.9 2.8l-.9.4A2 2 0 0012 18a4 4 0 01-4 4c-3.3.0-6-2.7-6-6a4 4 0 014-4 2 2 0 001.8-1.2z"/><circle cx="11.5" cy="12.5" r=".5" fill="currentColor"/>`),
 	)
 }
 
@@ -6295,7 +6295,7 @@ func Kanban(children ...gomponents.Node) gomponents.Node {
 func KeyRound(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
-		gomponents.Raw(`<path d="M2.586 17.414A2 2 0 002 18.828V21a1 1 0 001 1h3a1 1 0 001-1v-1a1 1 0 011-1h1a1 1 0 001-1v-1a1 1 0 011-1h.172a2 2 0 001.414-.586l.814-.814a6.5 6.5.0 10-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentcolor"/>`),
+		gomponents.Raw(`<path d="M2.586 17.414A2 2 0 002 18.828V21a1 1 0 001 1h3a1 1 0 001-1v-1a1 1 0 011-1h1a1 1 0 001-1v-1a1 1 0 011-1h.172a2 2 0 001.414-.586l.814-.814a6.5 6.5.0 10-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/>`),
 	)
 }
 
@@ -8103,7 +8103,7 @@ func Paintbrush(children ...gomponents.Node) gomponents.Node {
 func Palette(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
-		gomponents.Raw(`<circle cx="13.5" cy="6.5" r=".5" fill="currentcolor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentcolor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentcolor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentcolor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926.0 1.648-.746 1.648-1.688.0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64.0 011.668-1.668h1.996c3.051.0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/>`),
+		gomponents.Raw(`<circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926.0 1.648-.746 1.648-1.688.0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64.0 011.668-1.668h1.996c3.051.0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/>`),
 	)
 }
 
@@ -10975,7 +10975,7 @@ func Tablets(children ...gomponents.Node) gomponents.Node {
 func Tag(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
-		gomponents.Raw(`<path d="M12.586 2.586A2 2 0 0011.172 2H4A2 2 0 002 4v7.172a2 2 0 00.586 1.414l8.704 8.704a2.426 2.426.0 003.42.0l6.58-6.58a2.426 2.426.0 000-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentcolor"/>`),
+		gomponents.Raw(`<path d="M12.586 2.586A2 2 0 0011.172 2H4A2 2 0 002 4v7.172a2 2 0 00.586 1.414l8.704 8.704a2.426 2.426.0 003.42.0l6.58-6.58a2.426 2.426.0 000-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/>`),
 	)
 }
 
@@ -10983,7 +10983,7 @@ func Tag(children ...gomponents.Node) gomponents.Node {
 func Tags(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
-		gomponents.Raw(`<path d="m15 5 6.3 6.3a2.4 2.4.0 010 3.4L17 19"/><path d="M9.586 5.586A2 2 0 008.172 5H3A1 1 0 002 6v5.172a2 2 0 00.586 1.414L8.29 18.29a2.426 2.426.0 003.42.0l3.58-3.58a2.426 2.426.0 000-3.42z"/><circle cx="6.5" cy="9.5" r=".5" fill="currentcolor"/>`),
+		gomponents.Raw(`<path d="m15 5 6.3 6.3a2.4 2.4.0 010 3.4L17 19"/><path d="M9.586 5.586A2 2 0 008.172 5H3A1 1 0 002 6v5.172a2 2 0 00.586 1.414L8.29 18.29a2.426 2.426.0 003.42.0l3.58-3.58a2.426 2.426.0 000-3.42z"/><circle cx="6.5" cy="9.5" r=".5" fill="currentColor"/>`),
 	)
 }
 
@@ -11887,7 +11887,7 @@ func Variable(children ...gomponents.Node) gomponents.Node {
 func Vault(children ...gomponents.Node) gomponents.Node {
 	return svgWrapper(
 		gomponents.Group(children),
-		gomponents.Raw(`<rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="7.5" cy="7.5" r=".5" fill="currentcolor"/><path d="m7.9 7.9 2.7 2.7"/><circle cx="16.5" cy="7.5" r=".5" fill="currentcolor"/><path d="m13.4 10.6 2.7-2.7"/><circle cx="7.5" cy="16.5" r=".5" fill="currentcolor"/><path d="m7.9 16.1 2.7-2.7"/><circle cx="16.5" cy="16.5" r=".5" fill="currentcolor"/><path d="m13.4 13.4 2.7 2.7"/><circle cx="12" cy="12" r="2"/>`),
+		gomponents.Raw(`<rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/><path d="m7.9 7.9 2.7 2.7"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/><path d="m13.4 10.6 2.7-2.7"/><circle cx="7.5" cy="16.5" r=".5" fill="currentColor"/><path d="m7.9 16.1 2.7-2.7"/><circle cx="16.5" cy="16.5" r=".5" fill="currentColor"/><path d="m13.4 13.4 2.7 2.7"/><circle cx="12" cy="12" r="2"/>`),
 	)
 }
 

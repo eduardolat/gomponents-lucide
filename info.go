@@ -8,9209 +8,16879 @@ import "maragu.dev/gomponents"
 // IconInfo represents the information of an icon.
 type IconInfo struct {
 	Name       string
+	Slug       string
 	Icon       func(children ...gomponents.Node) gomponents.Node
 	Tags       []string
 	Categories []string
 }
 
 // IconsInfo is a list of all the icons information.
-var IconsInfo = []IconInfo{
-	{
+var (
+	aArrowDownInfo = IconInfo{
 		Name:       "A Arrow Down",
+		Slug:       "a-arrow-down",
 		Icon:       AArrowDown,
 		Tags:       []string{"letter", "font size", "text", "formatting", "smaller"},
 		Categories: []string{"text", "design"},
-	},
-	{
+	}
+
+	aArrowUpInfo = IconInfo{
 		Name:       "A Arrow Up",
+		Slug:       "a-arrow-up",
 		Icon:       AArrowUp,
 		Tags:       []string{"letter", "font size", "text", "formatting", "larger", "bigger"},
 		Categories: []string{"text", "design"},
-	},
-	{
+	}
+
+	aLargeSmallInfo = IconInfo{
 		Name:       "A Large Small",
+		Slug:       "a-large-small",
 		Icon:       ALargeSmall,
 		Tags:       []string{"letter", "font size", "text", "formatting"},
 		Categories: []string{"text", "design"},
-	},
-	{
+	}
+
+	accessibilityInfo = IconInfo{
 		Name:       "Accessibility",
+		Slug:       "accessibility",
 		Icon:       Accessibility,
 		Tags:       []string{"disability", "disabled", "dda", "wheelchair"},
 		Categories: []string{"accessibility", "medical"},
-	},
-	{
+	}
+
+	activityInfo = IconInfo{
 		Name:       "Activity",
+		Slug:       "activity",
 		Icon:       Activity,
 		Tags:       []string{"pulse", "action", "motion", "movement", "exercise", "fitness", "healthcare", "heart rate monitor", "vital signs", "vitals", "emergency room", "er", "intensive care", "hospital", "defibrillator", "earthquake", "siesmic", "magnitude", "richter scale", "aftershock", "tremor", "shockwave", "audio", "waveform", "synthesizer", "synthesiser", "music"},
 		Categories: []string{"medical", "account", "social", "science", "multimedia"},
-	},
-	{
+	}
+
+	airVentInfo = IconInfo{
 		Name:       "Air Vent",
+		Slug:       "air-vent",
 		Icon:       AirVent,
 		Tags:       []string{"air conditioner", "ac", "central air", "cooling", "climate-control"},
 		Categories: []string{"home"},
-	},
-	{
+	}
+
+	airplayInfo = IconInfo{
 		Name:       "Airplay",
+		Slug:       "airplay",
 		Icon:       Airplay,
 		Tags:       []string{"stream", "cast", "mirroring", "screen", "monitor", "macos", "osx"},
 		Categories: []string{"multimedia", "connectivity", "devices", "brands"},
-	},
-	{
+	}
+
+	alarmClockCheckInfo = IconInfo{
 		Name:       "Alarm Clock Check",
+		Slug:       "alarm-clock-check",
 		Icon:       AlarmClockCheck,
 		Tags:       []string{"done", "todo", "tick", "complete", "task"},
 		Categories: []string{"devices", "notifications", "time"},
-	},
-	{
+	}
+
+	alarmClockMinusInfo = IconInfo{
 		Name:       "Alarm Clock Minus",
+		Slug:       "alarm-clock-minus",
 		Icon:       AlarmClockMinus,
 		Tags:       []string{"remove"},
 		Categories: []string{"devices", "notifications", "time"},
-	},
-	{
+	}
+
+	alarmClockOffInfo = IconInfo{
 		Name:       "Alarm Clock Off",
+		Slug:       "alarm-clock-off",
 		Icon:       AlarmClockOff,
 		Tags:       []string{"morning", "turn-off"},
 		Categories: []string{"devices", "notifications", "time"},
-	},
-	{
+	}
+
+	alarmClockPlusInfo = IconInfo{
 		Name:       "Alarm Clock Plus",
+		Slug:       "alarm-clock-plus",
 		Icon:       AlarmClockPlus,
 		Tags:       []string{"add"},
 		Categories: []string{"devices", "notifications", "time"},
-	},
-	{
+	}
+
+	alarmClockInfo = IconInfo{
 		Name:       "Alarm Clock",
+		Slug:       "alarm-clock",
 		Icon:       AlarmClock,
 		Tags:       []string{"morning"},
 		Categories: []string{"devices", "notifications", "time"},
-	},
-	{
+	}
+
+	alarmSmokeInfo = IconInfo{
 		Name:       "Alarm Smoke",
+		Slug:       "alarm-smoke",
 		Icon:       AlarmSmoke,
 		Tags:       []string{"fire", "alert", "warning", "detector", "carbon monoxide", "safety", "equipment", "amenities"},
 		Categories: []string{"home", "devices", "travel"},
-	},
-	{
+	}
+
+	albumInfo = IconInfo{
 		Name:       "Album",
+		Slug:       "album",
 		Icon:       Album,
 		Tags:       []string{"photo", "book"},
 		Categories: []string{"photography", "multimedia"},
-	},
-	{
+	}
+
+	alignCenterHorizontalInfo = IconInfo{
 		Name:       "Align Center Horizontal",
+		Slug:       "align-center-horizontal",
 		Icon:       AlignCenterHorizontal,
 		Tags:       []string{"items", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignCenterVerticalInfo = IconInfo{
 		Name:       "Align Center Vertical",
+		Slug:       "align-center-vertical",
 		Icon:       AlignCenterVertical,
 		Tags:       []string{"items", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignCenterInfo = IconInfo{
 		Name:       "Align Center",
+		Slug:       "align-center",
 		Icon:       AlignCenter,
 		Tags:       []string{"text", "alignment", "center"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	alignEndHorizontalInfo = IconInfo{
 		Name:       "Align End Horizontal",
+		Slug:       "align-end-horizontal",
 		Icon:       AlignEndHorizontal,
 		Tags:       []string{"items", "bottom", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignEndVerticalInfo = IconInfo{
 		Name:       "Align End Vertical",
+		Slug:       "align-end-vertical",
 		Icon:       AlignEndVertical,
 		Tags:       []string{"items", "right", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignHorizontalDistributeCenterInfo = IconInfo{
 		Name:       "Align Horizontal Distribute Center",
+		Slug:       "align-horizontal-distribute-center",
 		Icon:       AlignHorizontalDistributeCenter,
 		Tags:       []string{"items", "flex", "justify", "space", "evenly", "around"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignHorizontalDistributeEndInfo = IconInfo{
 		Name:       "Align Horizontal Distribute End",
+		Slug:       "align-horizontal-distribute-end",
 		Icon:       AlignHorizontalDistributeEnd,
 		Tags:       []string{"right", "items", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignHorizontalDistributeStartInfo = IconInfo{
 		Name:       "Align Horizontal Distribute Start",
+		Slug:       "align-horizontal-distribute-start",
 		Icon:       AlignHorizontalDistributeStart,
 		Tags:       []string{"left", "items", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignHorizontalJustifyCenterInfo = IconInfo{
 		Name:       "Align Horizontal Justify Center",
+		Slug:       "align-horizontal-justify-center",
 		Icon:       AlignHorizontalJustifyCenter,
 		Tags:       []string{"center", "items", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignHorizontalJustifyEndInfo = IconInfo{
 		Name:       "Align Horizontal Justify End",
+		Slug:       "align-horizontal-justify-end",
 		Icon:       AlignHorizontalJustifyEnd,
 		Tags:       []string{"right", "items", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignHorizontalJustifyStartInfo = IconInfo{
 		Name:       "Align Horizontal Justify Start",
+		Slug:       "align-horizontal-justify-start",
 		Icon:       AlignHorizontalJustifyStart,
 		Tags:       []string{"left", "items", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignHorizontalSpaceAroundInfo = IconInfo{
 		Name:       "Align Horizontal Space Around",
+		Slug:       "align-horizontal-space-around",
 		Icon:       AlignHorizontalSpaceAround,
 		Tags:       []string{"center", "items", "flex", "justify", "distribute", "between"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignHorizontalSpaceBetweenInfo = IconInfo{
 		Name:       "Align Horizontal Space Between",
+		Slug:       "align-horizontal-space-between",
 		Icon:       AlignHorizontalSpaceBetween,
 		Tags:       []string{"around", "items", "bottom", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignJustifyInfo = IconInfo{
 		Name:       "Align Justify",
+		Slug:       "align-justify",
 		Icon:       AlignJustify,
 		Tags:       []string{"text", "alignment", "justified", "menu", "list"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	alignLeftInfo = IconInfo{
 		Name:       "Align Left",
+		Slug:       "align-left",
 		Icon:       AlignLeft,
 		Tags:       []string{"text", "alignment", "left", "list"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	alignRightInfo = IconInfo{
 		Name:       "Align Right",
+		Slug:       "align-right",
 		Icon:       AlignRight,
 		Tags:       []string{"text", "alignment", "right"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	alignStartHorizontalInfo = IconInfo{
 		Name:       "Align Start Horizontal",
+		Slug:       "align-start-horizontal",
 		Icon:       AlignStartHorizontal,
 		Tags:       []string{"top", "items", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignStartVerticalInfo = IconInfo{
 		Name:       "Align Start Vertical",
+		Slug:       "align-start-vertical",
 		Icon:       AlignStartVertical,
 		Tags:       []string{"left", "items", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignVerticalDistributeCenterInfo = IconInfo{
 		Name:       "Align Vertical Distribute Center",
+		Slug:       "align-vertical-distribute-center",
 		Icon:       AlignVerticalDistributeCenter,
 		Tags:       []string{"items", "flex", "justify", "space", "evenly", "around"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignVerticalDistributeEndInfo = IconInfo{
 		Name:       "Align Vertical Distribute End",
+		Slug:       "align-vertical-distribute-end",
 		Icon:       AlignVerticalDistributeEnd,
 		Tags:       []string{"bottom", "items", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignVerticalDistributeStartInfo = IconInfo{
 		Name:       "Align Vertical Distribute Start",
+		Slug:       "align-vertical-distribute-start",
 		Icon:       AlignVerticalDistributeStart,
 		Tags:       []string{"top", "items", "flex", "justify"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignVerticalJustifyCenterInfo = IconInfo{
 		Name:       "Align Vertical Justify Center",
+		Slug:       "align-vertical-justify-center",
 		Icon:       AlignVerticalJustifyCenter,
 		Tags:       []string{"center", "items", "flex", "justify", "distribute", "between"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignVerticalJustifyEndInfo = IconInfo{
 		Name:       "Align Vertical Justify End",
+		Slug:       "align-vertical-justify-end",
 		Icon:       AlignVerticalJustifyEnd,
 		Tags:       []string{"bottom", "items", "flex", "justify", "distribute", "between"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignVerticalJustifyStartInfo = IconInfo{
 		Name:       "Align Vertical Justify Start",
+		Slug:       "align-vertical-justify-start",
 		Icon:       AlignVerticalJustifyStart,
 		Tags:       []string{"top", "items", "flex", "justify", "distribute", "between"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignVerticalSpaceAroundInfo = IconInfo{
 		Name:       "Align Vertical Space Around",
+		Slug:       "align-vertical-space-around",
 		Icon:       AlignVerticalSpaceAround,
 		Tags:       []string{"center", "items", "flex", "justify", "distribute", "between"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	alignVerticalSpaceBetweenInfo = IconInfo{
 		Name:       "Align Vertical Space Between",
+		Slug:       "align-vertical-space-between",
 		Icon:       AlignVerticalSpaceBetween,
 		Tags:       []string{"center", "items", "flex", "justify", "distribute", "between"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	ambulanceInfo = IconInfo{
 		Name:       "Ambulance",
+		Slug:       "ambulance",
 		Icon:       Ambulance,
 		Tags:       []string{"ambulance", "emergency", "medical", "vehicle", "siren", "healthcare", "transportation", "rescue", "urgent", "first aid"},
 		Categories: []string{"medical", "transportation"},
-	},
-	{
+	}
+
+	ampersandInfo = IconInfo{
 		Name:       "Ampersand",
+		Slug:       "ampersand",
 		Icon:       Ampersand,
 		Tags:       []string{"and", "typography", "operator", "join", "concatenate", "code", "&"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	ampersandsInfo = IconInfo{
 		Name:       "Ampersands",
+		Slug:       "ampersands",
 		Icon:       Ampersands,
 		Tags:       []string{"and", "operator", "then", "code", "&&"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	amphoraInfo = IconInfo{
 		Name:       "Amphora",
+		Slug:       "amphora",
 		Icon:       Amphora,
 		Tags:       []string{"pottery", "artifact", "artefact", "vase", "ceramics", "clay", "archaeology", "museum", "wine", "oil"},
 		Categories: []string{"food-beverage", "gaming"},
-	},
-	{
+	}
+
+	anchorInfo = IconInfo{
 		Name:       "Anchor",
+		Slug:       "anchor",
 		Icon:       Anchor,
 		Tags:       []string{"ship"},
 		Categories: []string{"transportation", "text", "maps"},
-	},
-	{
+	}
+
+	angryInfo = IconInfo{
 		Name:       "Angry",
+		Slug:       "angry",
 		Icon:       Angry,
 		Tags:       []string{"emoji", "anger", "face", "emotion"},
 		Categories: []string{"emoji"},
-	},
-	{
+	}
+
+	annoyedInfo = IconInfo{
 		Name:       "Annoyed",
+		Slug:       "annoyed",
 		Icon:       Annoyed,
 		Tags:       []string{"emoji", "nuisance", "face", "emotion"},
 		Categories: []string{"emoji"},
-	},
-	{
+	}
+
+	antennaInfo = IconInfo{
 		Name:       "Antenna",
+		Slug:       "antenna",
 		Icon:       Antenna,
 		Tags:       []string{"signal", "connection", "connectivity", "tv", "television", "broadcast", "live", "frequency", "tune", "scan", "channels", "aerial", "receiver", "transmission", "transducer", "terrestrial", "satellite", "cable"},
 		Categories: []string{"devices", "multimedia", "communication"},
-	},
-	{
+	}
+
+	anvilInfo = IconInfo{
 		Name:       "Anvil",
+		Slug:       "anvil",
 		Icon:       Anvil,
 		Tags:       []string{"metal", "iron", "alloy", "materials", "heavy", "weight", "blacksmith", "forge", "acme"},
 		Categories: []string{"buildings", "tools", "gaming"},
-	},
-	{
+	}
+
+	apertureInfo = IconInfo{
 		Name:       "Aperture",
+		Slug:       "aperture",
 		Icon:       Aperture,
 		Tags:       []string{"camera", "photo", "pictures", "shutter", "exposure"},
 		Categories: []string{"photography"},
-	},
-	{
+	}
+
+	appWindowMacInfo = IconInfo{
 		Name:       "App Window Mac",
+		Slug:       "app-window-mac",
 		Icon:       AppWindowMac,
 		Tags:       []string{"application", "menu bar", "pane", "preferences", "macos", "osx", "executable"},
 		Categories: []string{"layout", "design", "development", "files"},
-	},
-	{
+	}
+
+	appWindowInfo = IconInfo{
 		Name:       "App Window",
+		Slug:       "app-window",
 		Icon:       AppWindow,
 		Tags:       []string{"application", "menu bar", "pane", "executable"},
 		Categories: []string{"layout", "design", "development", "files"},
-	},
-	{
+	}
+
+	appleInfo = IconInfo{
 		Name:       "Apple",
+		Slug:       "apple",
 		Icon:       Apple,
 		Tags:       []string{"fruit", "food"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	archiveRestoreInfo = IconInfo{
 		Name:       "Archive Restore",
+		Slug:       "archive-restore",
 		Icon:       ArchiveRestore,
 		Tags:       []string{"unarchive", "index", "backup", "box", "storage", "records"},
 		Categories: []string{"files", "mail"},
-	},
-	{
+	}
+
+	archiveXInfo = IconInfo{
 		Name:       "Archive X",
+		Slug:       "archive-x",
 		Icon:       ArchiveX,
 		Tags:       []string{"index", "backup", "box", "storage", "records", "junk"},
 		Categories: []string{"files", "mail"},
-	},
-	{
+	}
+
+	archiveInfo = IconInfo{
 		Name:       "Archive",
+		Slug:       "archive",
 		Icon:       Archive,
 		Tags:       []string{"index", "backup", "box", "storage", "records"},
 		Categories: []string{"files", "mail"},
-	},
-	{
+	}
+
+	armchairInfo = IconInfo{
 		Name:       "Armchair",
+		Slug:       "armchair",
 		Icon:       Armchair,
 		Tags:       []string{"sofa", "furniture", "leisure", "lounge", "loveseat", "couch"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	arrowBigDownDashInfo = IconInfo{
 		Name:       "Arrow Big Down Dash",
+		Slug:       "arrow-big-down-dash",
 		Icon:       ArrowBigDownDash,
 		Tags:       []string{"backwards", "reverse", "slow", "direction", "south", "download"},
 		Categories: []string{"arrows", "navigation", "gaming", "files"},
-	},
-	{
+	}
+
+	arrowBigDownInfo = IconInfo{
 		Name:       "Arrow Big Down",
+		Slug:       "arrow-big-down",
 		Icon:       ArrowBigDown,
 		Tags:       []string{"backwards", "reverse", "direction", "south"},
 		Categories: []string{"arrows", "navigation", "gaming"},
-	},
-	{
+	}
+
+	arrowBigLeftDashInfo = IconInfo{
 		Name:       "Arrow Big Left Dash",
+		Slug:       "arrow-big-left-dash",
 		Icon:       ArrowBigLeftDash,
 		Tags:       []string{"previous", "back", "direction", "west", "turn", "corner"},
 		Categories: []string{"arrows", "navigation", "gaming"},
-	},
-	{
+	}
+
+	arrowBigLeftInfo = IconInfo{
 		Name:       "Arrow Big Left",
+		Slug:       "arrow-big-left",
 		Icon:       ArrowBigLeft,
 		Tags:       []string{"previous", "back", "direction", "west", "indicate turn"},
 		Categories: []string{"arrows", "navigation", "gaming"},
-	},
-	{
+	}
+
+	arrowBigRightDashInfo = IconInfo{
 		Name:       "Arrow Big Right Dash",
+		Slug:       "arrow-big-right-dash",
 		Icon:       ArrowBigRightDash,
 		Tags:       []string{"next", "forward", "direction", "east", "turn", "corner"},
 		Categories: []string{"arrows", "navigation", "gaming"},
-	},
-	{
+	}
+
+	arrowBigRightInfo = IconInfo{
 		Name:       "Arrow Big Right",
+		Slug:       "arrow-big-right",
 		Icon:       ArrowBigRight,
 		Tags:       []string{"next", "forward", "direction", "east", "indicate turn"},
 		Categories: []string{"arrows", "navigation", "gaming"},
-	},
-	{
+	}
+
+	arrowBigUpDashInfo = IconInfo{
 		Name:       "Arrow Big Up Dash",
+		Slug:       "arrow-big-up-dash",
 		Icon:       ArrowBigUpDash,
 		Tags:       []string{"caps lock", "capitals", "keyboard", "button", "mac", "forward", "direction", "north", "faster", "speed", "boost"},
 		Categories: []string{"arrows", "navigation", "text", "development", "gaming"},
-	},
-	{
+	}
+
+	arrowBigUpInfo = IconInfo{
 		Name:       "Arrow Big Up",
+		Slug:       "arrow-big-up",
 		Icon:       ArrowBigUp,
 		Tags:       []string{"shift", "keyboard", "button", "mac", "capitalize", "capitalise", "forward", "direction", "north"},
 		Categories: []string{"arrows", "navigation", "text", "development", "gaming"},
-	},
-	{
+	}
+
+	arrowDown01Info = IconInfo{
 		Name:       "Arrow Down 0 1",
+		Slug:       "arrow-down-0-1",
 		Icon:       ArrowDown01,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling", "numerical"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowDown10Info = IconInfo{
 		Name:       "Arrow Down 1 0",
+		Slug:       "arrow-down-1-0",
 		Icon:       ArrowDown10,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling", "numerical"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowDownAZInfo = IconInfo{
 		Name:       "Arrow Down A Z",
+		Slug:       "arrow-down-a-z",
 		Icon:       ArrowDownAZ,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling", "alphabetical"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowDownFromLineInfo = IconInfo{
 		Name:       "Arrow Down From Line",
+		Slug:       "arrow-down-from-line",
 		Icon:       ArrowDownFromLine,
 		Tags:       []string{"backwards", "reverse", "direction", "south", "download", "expand", "fold", "vertical"},
 		Categories: []string{"arrows", "navigation", "files"},
-	},
-	{
+	}
+
+	arrowDownLeftInfo = IconInfo{
 		Name:       "Arrow Down Left",
+		Slug:       "arrow-down-left",
 		Icon:       ArrowDownLeft,
 		Tags:       []string{"direction", "south-west", "diagonal"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowDownNarrowWideInfo = IconInfo{
 		Name:       "Arrow Down Narrow Wide",
+		Slug:       "arrow-down-narrow-wide",
 		Icon:       ArrowDownNarrowWide,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowDownRightInfo = IconInfo{
 		Name:       "Arrow Down Right",
+		Slug:       "arrow-down-right",
 		Icon:       ArrowDownRight,
 		Tags:       []string{"direction", "south-east", "diagonal"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowDownToDotInfo = IconInfo{
 		Name:       "Arrow Down To Dot",
+		Slug:       "arrow-down-to-dot",
 		Icon:       ArrowDownToDot,
 		Tags:       []string{"direction", "south", "waypoint", "location", "step", "into"},
 		Categories: []string{"arrows", "navigation", "maps"},
-	},
-	{
+	}
+
+	arrowDownToLineInfo = IconInfo{
 		Name:       "Arrow Down To Line",
+		Slug:       "arrow-down-to-line",
 		Icon:       ArrowDownToLine,
 		Tags:       []string{"behind", "direction", "south", "download", "save", "git", "version control", "pull", "collapse", "fold", "vertical"},
 		Categories: []string{"arrows", "navigation", "files", "development"},
-	},
-	{
+	}
+
+	arrowDownUpInfo = IconInfo{
 		Name:       "Arrow Down Up",
+		Slug:       "arrow-down-up",
 		Icon:       ArrowDownUp,
 		Tags:       []string{"bidirectional", "two-way", "2-way", "swap", "switch", "network", "traffic", "flow", "mobile data", "internet", "sort", "reorder", "move"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowDownWideNarrowInfo = IconInfo{
 		Name:       "Arrow Down Wide Narrow",
+		Slug:       "arrow-down-wide-narrow",
 		Icon:       ArrowDownWideNarrow,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowDownZAInfo = IconInfo{
 		Name:       "Arrow Down Z A",
+		Slug:       "arrow-down-z-a",
 		Icon:       ArrowDownZA,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling", "alphabetical", "reverse"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowDownInfo = IconInfo{
 		Name:       "Arrow Down",
+		Slug:       "arrow-down",
 		Icon:       ArrowDown,
 		Tags:       []string{"backwards", "reverse", "direction", "south"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowLeftFromLineInfo = IconInfo{
 		Name:       "Arrow Left From Line",
+		Slug:       "arrow-left-from-line",
 		Icon:       ArrowLeftFromLine,
 		Tags:       []string{"previous", "back", "direction", "west", "expand", "fold", "horizontal", "<-|"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowLeftRightInfo = IconInfo{
 		Name:       "Arrow Left Right",
+		Slug:       "arrow-left-right",
 		Icon:       ArrowLeftRight,
 		Tags:       []string{"bidirectional", "two-way", "2-way", "swap", "switch", "transaction", "reorder", "move", "<-", "->"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowLeftToLineInfo = IconInfo{
 		Name:       "Arrow Left To Line",
+		Slug:       "arrow-left-to-line",
 		Icon:       ArrowLeftToLine,
 		Tags:       []string{"previous", "back", "direction", "west", "collapse", "fold", "horizontal", "|<-"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowLeftInfo = IconInfo{
 		Name:       "Arrow Left",
+		Slug:       "arrow-left",
 		Icon:       ArrowLeft,
 		Tags:       []string{"previous", "back", "direction", "west", "<-"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowRightFromLineInfo = IconInfo{
 		Name:       "Arrow Right From Line",
+		Slug:       "arrow-right-from-line",
 		Icon:       ArrowRightFromLine,
 		Tags:       []string{"next", "forward", "direction", "east", "export", "expand", "fold", "horizontal", "|->"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowRightLeftInfo = IconInfo{
 		Name:       "Arrow Right Left",
+		Slug:       "arrow-right-left",
 		Icon:       ArrowRightLeft,
 		Tags:       []string{"bidirectional", "two-way", "2-way", "swap", "switch", "transaction", "reorder", "move", "<-", "->"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowRightToLineInfo = IconInfo{
 		Name:       "Arrow Right To Line",
+		Slug:       "arrow-right-to-line",
 		Icon:       ArrowRightToLine,
 		Tags:       []string{"next", "forward", "direction", "east", "tab", "keyboard", "mac", "indent", "collapse", "fold", "horizontal", "->|"},
 		Categories: []string{"arrows", "navigation", "development"},
-	},
-	{
+	}
+
+	arrowRightInfo = IconInfo{
 		Name:       "Arrow Right",
+		Slug:       "arrow-right",
 		Icon:       ArrowRight,
 		Tags:       []string{"forward", "next", "direction", "east", "->"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowUp01Info = IconInfo{
 		Name:       "Arrow Up 0 1",
+		Slug:       "arrow-up-0-1",
 		Icon:       ArrowUp01,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling", "numerical"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowUp10Info = IconInfo{
 		Name:       "Arrow Up 1 0",
+		Slug:       "arrow-up-1-0",
 		Icon:       ArrowUp10,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling", "numerical"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowUpAZInfo = IconInfo{
 		Name:       "Arrow Up A Z",
+		Slug:       "arrow-up-a-z",
 		Icon:       ArrowUpAZ,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling", "alphabetical"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowUpDownInfo = IconInfo{
 		Name:       "Arrow Up Down",
+		Slug:       "arrow-up-down",
 		Icon:       ArrowUpDown,
 		Tags:       []string{"bidirectional", "two-way", "2-way", "swap", "switch", "network", "mobile data", "internet", "sort", "reorder", "move"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowUpFromDotInfo = IconInfo{
 		Name:       "Arrow Up From Dot",
+		Slug:       "arrow-up-from-dot",
 		Icon:       ArrowUpFromDot,
 		Tags:       []string{"direction", "north", "step", "out"},
 		Categories: []string{"arrows", "navigation", "maps"},
-	},
-	{
+	}
+
+	arrowUpFromLineInfo = IconInfo{
 		Name:       "Arrow Up From Line",
+		Slug:       "arrow-up-from-line",
 		Icon:       ArrowUpFromLine,
 		Tags:       []string{"forward", "direction", "north", "upload", "git", "version control", "push", "expand", "fold", "vertical"},
 		Categories: []string{"arrows", "navigation", "files", "development"},
-	},
-	{
+	}
+
+	arrowUpLeftInfo = IconInfo{
 		Name:       "Arrow Up Left",
+		Slug:       "arrow-up-left",
 		Icon:       ArrowUpLeft,
 		Tags:       []string{"direction", "north-west", "diagonal"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowUpNarrowWideInfo = IconInfo{
 		Name:       "Arrow Up Narrow Wide",
+		Slug:       "arrow-up-narrow-wide",
 		Icon:       ArrowUpNarrowWide,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowUpRightInfo = IconInfo{
 		Name:       "Arrow Up Right",
+		Slug:       "arrow-up-right",
 		Icon:       ArrowUpRight,
 		Tags:       []string{"direction", "north-east", "diagonal"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowUpToLineInfo = IconInfo{
 		Name:       "Arrow Up To Line",
+		Slug:       "arrow-up-to-line",
 		Icon:       ArrowUpToLine,
 		Tags:       []string{"forward", "direction", "north", "upload", "collapse", "fold", "vertical"},
 		Categories: []string{"arrows", "navigation", "files"},
-	},
-	{
+	}
+
+	arrowUpWideNarrowInfo = IconInfo{
 		Name:       "Arrow Up Wide Narrow",
+		Slug:       "arrow-up-wide-narrow",
 		Icon:       ArrowUpWideNarrow,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowUpZAInfo = IconInfo{
 		Name:       "Arrow Up Z A",
+		Slug:       "arrow-up-z-a",
 		Icon:       ArrowUpZA,
 		Tags:       []string{"filter", "sort", "ascending", "descending", "increasing", "decreasing", "rising", "falling", "alphabetical", "reverse"},
 		Categories: []string{"text", "layout", "arrows"},
-	},
-	{
+	}
+
+	arrowUpInfo = IconInfo{
 		Name:       "Arrow Up",
+		Slug:       "arrow-up",
 		Icon:       ArrowUp,
 		Tags:       []string{"forward", "direction", "north"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	arrowsUpFromLineInfo = IconInfo{
 		Name:       "Arrows Up From Line",
+		Slug:       "arrows-up-from-line",
 		Icon:       ArrowsUpFromLine,
 		Tags:       []string{"direction", "orientation", "this way up", "vertical", "package", "box", "fragile", "postage", "shipping"},
 		Categories: []string{"arrows", "transportation", "mail"},
-	},
-	{
+	}
+
+	asteriskInfo = IconInfo{
 		Name:       "Asterisk",
+		Slug:       "asterisk",
 		Icon:       Asterisk,
 		Tags:       []string{"reference", "times", "multiply", "multiplication", "operator", "code", "glob pattern", "wildcard", "*"},
 		Categories: []string{"text", "maths", "development"},
-	},
-	{
+	}
+
+	atSignInfo = IconInfo{
 		Name:       "At Sign",
+		Slug:       "at-sign",
 		Icon:       AtSign,
 		Tags:       []string{"mention", "at", "email", "message", "@"},
 		Categories: []string{"text", "account"},
-	},
-	{
+	}
+
+	atomInfo = IconInfo{
 		Name:       "Atom",
+		Slug:       "atom",
 		Icon:       Atom,
 		Tags:       []string{"atomic", "nuclear", "physics", "particle", "element", "molecule", "electricity", "energy", "chemistry"},
 		Categories: []string{"science"},
-	},
-	{
+	}
+
+	audioLinesInfo = IconInfo{
 		Name:       "Audio Lines",
+		Slug:       "audio-lines",
 		Icon:       AudioLines,
 		Tags:       []string{"graphic equaliser", "sound", "noise", "listen", "hearing", "hertz", "frequency", "wavelength", "vibrate", "sine", "synthesizer", "synthesiser", "levels", "track", "music", "playback", "radio", "broadcast", "airwaves", "voice", "vocals", "singer", "song"},
 		Categories: []string{"multimedia", "communication"},
-	},
-	{
+	}
+
+	audioWaveformInfo = IconInfo{
 		Name:       "Audio Waveform",
+		Slug:       "audio-waveform",
 		Icon:       AudioWaveform,
 		Tags:       []string{"sound", "noise", "listen", "hearing", "hertz", "frequency", "wavelength", "vibrate", "sine", "synthesizer", "synthesiser", "levels", "track", "music", "playback", "radio", "broadcast", "airwaves", "voice", "vocals", "singer", "song"},
 		Categories: []string{"multimedia", "communication"},
-	},
-	{
+	}
+
+	awardInfo = IconInfo{
 		Name:       "Award",
+		Slug:       "award",
 		Icon:       Award,
 		Tags:       []string{"achievement", "badge", "rosette", "prize", "winner"},
 		Categories: []string{"account", "sports", "gaming"},
-	},
-	{
+	}
+
+	axeInfo = IconInfo{
 		Name:       "Axe",
+		Slug:       "axe",
 		Icon:       Axe,
 		Tags:       []string{"hatchet", "weapon", "chop", "sharp", "equipment", "fireman", "firefighter", "brigade", "lumberjack", "woodcutter", "logger", "forestry"},
 		Categories: []string{"tools", "gaming"},
-	},
-	{
+	}
+
+	axis3dInfo = IconInfo{
 		Name:       "Axis 3d",
+		Slug:       "axis-3d",
 		Icon:       Axis3d,
 		Tags:       []string{"gizmo", "coordinates"},
 		Categories: []string{"design"},
-	},
-	{
+	}
+
+	babyInfo = IconInfo{
 		Name:       "Baby",
+		Slug:       "baby",
 		Icon:       Baby,
 		Tags:       []string{"child", "childproof", "children"},
 		Categories: []string{"accessibility", "people"},
-	},
-	{
+	}
+
+	backpackInfo = IconInfo{
 		Name:       "Backpack",
+		Slug:       "backpack",
 		Icon:       Backpack,
 		Tags:       []string{"bag", "hiking", "travel", "camping", "school", "childhood"},
 		Categories: []string{"gaming", "photography", "travel"},
-	},
-	{
+	}
+
+	badgeAlertInfo = IconInfo{
 		Name:       "Badge Alert",
+		Slug:       "badge-alert",
 		Icon:       BadgeAlert,
 		Tags:       []string{"check", "verified", "unverified", "security", "safety", "issue"},
 		Categories: []string{"account", "social", "shapes"},
-	},
-	{
+	}
+
+	badgeCentInfo = IconInfo{
 		Name:       "Badge Cent",
+		Slug:       "badge-cent",
 		Icon:       BadgeCent,
 		Tags:       []string{"discount", "offer", "sale", "voucher", "tag", "monetization", "marketing", "finance", "financial", "exchange", "transaction", "payment", "cents", "dollar", "usd", "$", "¢"},
 		Categories: []string{"shopping", "money", "currency", "account", "shapes"},
-	},
-	{
+	}
+
+	badgeCheckInfo = IconInfo{
 		Name:       "Badge Check",
+		Slug:       "badge-check",
 		Icon:       BadgeCheck,
 		Tags:       []string{"verified", "check"},
 		Categories: []string{"account", "social", "shapes"},
-	},
-	{
+	}
+
+	badgeDollarSignInfo = IconInfo{
 		Name:       "Badge Dollar Sign",
+		Slug:       "badge-dollar-sign",
 		Icon:       BadgeDollarSign,
 		Tags:       []string{"discount", "offer", "sale", "voucher", "tag", "monetization", "marketing", "finance", "financial", "exchange", "transaction", "payment", "usd", "$"},
 		Categories: []string{"shopping", "money", "currency", "account", "shapes"},
-	},
-	{
+	}
+
+	badgeEuroInfo = IconInfo{
 		Name:       "Badge Euro",
+		Slug:       "badge-euro",
 		Icon:       BadgeEuro,
 		Tags:       []string{"discount", "offer", "sale", "voucher", "tag", "monetization", "marketing", "finance", "financial", "exchange", "transaction", "payment", "€"},
 		Categories: []string{"shopping", "money", "currency", "account", "shapes"},
-	},
-	{
+	}
+
+	badgeHelpInfo = IconInfo{
 		Name:       "Badge Help",
+		Slug:       "badge-help",
 		Icon:       BadgeHelp,
 		Tags:       []string{"verified", "unverified", "help"},
 		Categories: []string{"account", "accessibility", "social", "shapes"},
-	},
-	{
+	}
+
+	badgeIndianRupeeInfo = IconInfo{
 		Name:       "Badge Indian Rupee",
+		Slug:       "badge-indian-rupee",
 		Icon:       BadgeIndianRupee,
 		Tags:       []string{"discount", "offer", "sale", "voucher", "tag", "monetization", "marketing", "finance", "financial", "exchange", "transaction", "payment", "inr", "₹"},
 		Categories: []string{"shopping", "money", "currency", "account", "shapes"},
-	},
-	{
+	}
+
+	badgeInfoInfo = IconInfo{
 		Name:       "Badge Info",
+		Slug:       "badge-info",
 		Icon:       BadgeInfo,
 		Tags:       []string{"verified", "unverified", "help"},
 		Categories: []string{"account", "accessibility", "social", "shapes"},
-	},
-	{
+	}
+
+	badgeJapaneseYenInfo = IconInfo{
 		Name:       "Badge Japanese Yen",
+		Slug:       "badge-japanese-yen",
 		Icon:       BadgeJapaneseYen,
 		Tags:       []string{"discount", "offer", "sale", "voucher", "tag", "monetization", "marketing", "finance", "financial", "exchange", "transaction", "payment", "jpy", "¥"},
 		Categories: []string{"shopping", "money", "currency", "account", "shapes"},
-	},
-	{
+	}
+
+	badgeMinusInfo = IconInfo{
 		Name:       "Badge Minus",
+		Slug:       "badge-minus",
 		Icon:       BadgeMinus,
 		Tags:       []string{"verified", "unverified", "delete", "remove", "erase"},
 		Categories: []string{"account", "social", "shapes"},
-	},
-	{
+	}
+
+	badgePercentInfo = IconInfo{
 		Name:       "Badge Percent",
+		Slug:       "badge-percent",
 		Icon:       BadgePercent,
 		Tags:       []string{"verified", "unverified", "sale", "discount", "offer", "marketing", "sticker", "price tag"},
 		Categories: []string{"account", "social", "money", "shopping", "maths", "shapes"},
-	},
-	{
+	}
+
+	badgePlusInfo = IconInfo{
 		Name:       "Badge Plus",
+		Slug:       "badge-plus",
 		Icon:       BadgePlus,
 		Tags:       []string{"verified", "unverified", "add", "create", "new"},
 		Categories: []string{"account", "social", "shapes"},
-	},
-	{
+	}
+
+	badgePoundSterlingInfo = IconInfo{
 		Name:       "Badge Pound Sterling",
+		Slug:       "badge-pound-sterling",
 		Icon:       BadgePoundSterling,
 		Tags:       []string{"discount", "offer", "sale", "voucher", "tag", "monetization", "marketing", "finance", "financial", "exchange", "transaction", "payment", "british", "gbp", "£"},
 		Categories: []string{"shopping", "money", "currency", "account", "shapes"},
-	},
-	{
+	}
+
+	badgeRussianRubleInfo = IconInfo{
 		Name:       "Badge Russian Ruble",
+		Slug:       "badge-russian-ruble",
 		Icon:       BadgeRussianRuble,
 		Tags:       []string{"discount", "offer", "sale", "voucher", "tag", "monetization", "marketing", "finance", "financial", "exchange", "transaction", "payment", "rub", "₽"},
 		Categories: []string{"shopping", "money", "currency", "account", "shapes"},
-	},
-	{
+	}
+
+	badgeSwissFrancInfo = IconInfo{
 		Name:       "Badge Swiss Franc",
+		Slug:       "badge-swiss-franc",
 		Icon:       BadgeSwissFranc,
 		Tags:       []string{"discount", "offer", "sale", "voucher", "tag", "monetization", "marketing", "finance", "financial", "exchange", "transaction", "payment", "chf", "₣"},
 		Categories: []string{"shopping", "money", "currency", "account", "shapes"},
-	},
-	{
+	}
+
+	badgeXInfo = IconInfo{
 		Name:       "Badge X",
+		Slug:       "badge-x",
 		Icon:       BadgeX,
 		Tags:       []string{"verified", "unverified", "lost", "delete", "remove"},
 		Categories: []string{"account", "social", "shapes"},
-	},
-	{
+	}
+
+	badgeInfo = IconInfo{
 		Name:       "Badge",
+		Slug:       "badge",
 		Icon:       Badge,
 		Tags:       []string{"check", "verified", "unverified"},
 		Categories: []string{"account", "social", "shapes"},
-	},
-	{
+	}
+
+	baggageClaimInfo = IconInfo{
 		Name:       "Baggage Claim",
+		Slug:       "baggage-claim",
 		Icon:       BaggageClaim,
 		Tags:       []string{"baggage", "luggage", "travel", "cart", "trolley", "suitcase"},
 		Categories: []string{"transportation", "travel"},
-	},
-	{
+	}
+
+	banInfo = IconInfo{
 		Name:       "Ban",
+		Slug:       "ban",
 		Icon:       Ban,
 		Tags:       []string{"cancel", "no", "stop", "forbidden", "prohibited", "error", "incorrect", "mistake", "wrong", "failure", "circle", "slash", "null", "void"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	bananaInfo = IconInfo{
 		Name:       "Banana",
+		Slug:       "banana",
 		Icon:       Banana,
 		Tags:       []string{"fruit", "food"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	bandageInfo = IconInfo{
 		Name:       "Bandage",
+		Slug:       "bandage",
 		Icon:       Bandage,
 		Tags:       []string{"plaster", "band-aid", "first aid", "medical", "health", "wound", "injury", "care", "treatment", "healing", "protection", "emergency", "aid", "safety"},
 		Categories: []string{"medical"},
-	},
-	{
+	}
+
+	banknoteInfo = IconInfo{
 		Name:       "Banknote",
+		Slug:       "banknote",
 		Icon:       Banknote,
 		Tags:       []string{"currency", "money", "payment"},
 		Categories: []string{"currency", "money"},
-	},
-	{
+	}
+
+	barcodeInfo = IconInfo{
 		Name:       "Barcode",
+		Slug:       "barcode",
 		Icon:       Barcode,
 		Tags:       []string{"scan", "checkout", "till", "cart", "transaction", "purchase", "buy", "product", "packaging", "retail", "consumer"},
 		Categories: []string{"shopping"},
-	},
-	{
+	}
+
+	baselineInfo = IconInfo{
 		Name:       "Baseline",
+		Slug:       "baseline",
 		Icon:       Baseline,
 		Tags:       []string{"text", "format", "color"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	bathInfo = IconInfo{
 		Name:       "Bath",
+		Slug:       "bath",
 		Icon:       Bath,
 		Tags:       []string{"amenities", "services", "bathroom", "shower"},
 		Categories: []string{"travel"},
-	},
-	{
+	}
+
+	batteryChargingInfo = IconInfo{
 		Name:       "Battery Charging",
+		Slug:       "battery-charging",
 		Icon:       BatteryCharging,
 		Tags:       []string{"power", "electricity", "energy", "accumulator", "charge"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	batteryFullInfo = IconInfo{
 		Name:       "Battery Full",
+		Slug:       "battery-full",
 		Icon:       BatteryFull,
 		Tags:       []string{"power", "electricity", "energy", "accumulator", "charge"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	batteryLowInfo = IconInfo{
 		Name:       "Battery Low",
+		Slug:       "battery-low",
 		Icon:       BatteryLow,
 		Tags:       []string{"power", "electricity", "energy", "accumulator", "charge"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	batteryMediumInfo = IconInfo{
 		Name:       "Battery Medium",
+		Slug:       "battery-medium",
 		Icon:       BatteryMedium,
 		Tags:       []string{"power", "electricity", "energy", "accumulator", "charge"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	batteryWarningInfo = IconInfo{
 		Name:       "Battery Warning",
+		Slug:       "battery-warning",
 		Icon:       BatteryWarning,
 		Tags:       []string{"power", "electricity", "energy", "accumulator", "charge", "exclamation mark"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	batteryInfo = IconInfo{
 		Name:       "Battery",
+		Slug:       "battery",
 		Icon:       Battery,
 		Tags:       []string{"power", "electricity", "energy", "accumulator", "charge"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	beakerInfo = IconInfo{
 		Name:       "Beaker",
+		Slug:       "beaker",
 		Icon:       Beaker,
 		Tags:       []string{"cup", "lab", "chemistry", "experiment", "test"},
 		Categories: []string{"science", "gaming"},
-	},
-	{
+	}
+
+	beanOffInfo = IconInfo{
 		Name:       "Bean Off",
+		Slug:       "bean-off",
 		Icon:       BeanOff,
 		Tags:       []string{"soy free", "legume", "soy", "food", "seed", "allergy", "intolerance", "diet"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	beanInfo = IconInfo{
 		Name:       "Bean",
+		Slug:       "bean",
 		Icon:       Bean,
 		Tags:       []string{"legume", "soy", "food", "seed"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	bedDoubleInfo = IconInfo{
 		Name:       "Bed Double",
+		Slug:       "bed-double",
 		Icon:       BedDouble,
 		Tags:       []string{"sleep", "hotel", "furniture"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	bedSingleInfo = IconInfo{
 		Name:       "Bed Single",
+		Slug:       "bed-single",
 		Icon:       BedSingle,
 		Tags:       []string{"sleep", "hotel", "furniture"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	bedInfo = IconInfo{
 		Name:       "Bed",
+		Slug:       "bed",
 		Icon:       Bed,
 		Tags:       []string{"sleep", "hotel", "furniture"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	beefInfo = IconInfo{
 		Name:       "Beef",
+		Slug:       "beef",
 		Icon:       Beef,
 		Tags:       []string{"food", "dish", "restaurant", "course", "meal", "meat", "bbq", "steak"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	beerOffInfo = IconInfo{
 		Name:       "Beer Off",
+		Slug:       "beer-off",
 		Icon:       BeerOff,
 		Tags:       []string{"alcohol", "bar", "beverage", "brewery", "drink"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	beerInfo = IconInfo{
 		Name:       "Beer",
+		Slug:       "beer",
 		Icon:       Beer,
 		Tags:       []string{"alcohol", "bar", "beverage", "brewery", "drink"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	bellDotInfo = IconInfo{
 		Name:       "Bell Dot",
+		Slug:       "bell-dot",
 		Icon:       BellDot,
 		Tags:       []string{"alarm", "notification", "sound", "reminder", "unread"},
 		Categories: []string{"account", "notifications"},
-	},
-	{
+	}
+
+	bellElectricInfo = IconInfo{
 		Name:       "Bell Electric",
+		Slug:       "bell-electric",
 		Icon:       BellElectric,
 		Tags:       []string{"fire alarm", "flames", "smoke", "firefighter", "fireman", "department", "brigade", "station", "emergency", "alert", "safety", "school bell", "period break", "recess", "doorbell", "entrance", "entry", "ring", "reception"},
 		Categories: []string{"devices", "notifications", "home"},
-	},
-	{
+	}
+
+	bellMinusInfo = IconInfo{
 		Name:       "Bell Minus",
+		Slug:       "bell-minus",
 		Icon:       BellMinus,
 		Tags:       []string{"alarm", "notification", "silent", "reminder", "delete", "remove", "erase"},
 		Categories: []string{"notifications"},
-	},
-	{
+	}
+
+	bellOffInfo = IconInfo{
 		Name:       "Bell Off",
+		Slug:       "bell-off",
 		Icon:       BellOff,
 		Tags:       []string{"alarm", "notification", "silent", "reminder"},
 		Categories: []string{"notifications"},
-	},
-	{
+	}
+
+	bellPlusInfo = IconInfo{
 		Name:       "Bell Plus",
+		Slug:       "bell-plus",
 		Icon:       BellPlus,
 		Tags:       []string{"notification", "silent", "reminder", "add", "create", "new"},
 		Categories: []string{"notifications"},
-	},
-	{
+	}
+
+	bellRingInfo = IconInfo{
 		Name:       "Bell Ring",
+		Slug:       "bell-ring",
 		Icon:       BellRing,
 		Tags:       []string{"alarm", "notification", "sound", "reminder"},
 		Categories: []string{"notifications"},
-	},
-	{
+	}
+
+	bellInfo = IconInfo{
 		Name:       "Bell",
+		Slug:       "bell",
 		Icon:       Bell,
 		Tags:       []string{"alarm", "notification", "sound", "reminder"},
 		Categories: []string{"account", "notifications"},
-	},
-	{
+	}
+
+	betweenHorizontalEndInfo = IconInfo{
 		Name:       "Between Horizontal End",
+		Slug:       "between-horizontal-end",
 		Icon:       BetweenHorizontalEnd,
 		Tags:       []string{"insert", "add", "left", "slot", "squeeze", "space", "vertical", "grid", "table", "rows", "cells", "excel", "spreadsheet", "accountancy", "data", "enter", "entry", "entries", "blocks", "rectangles", "chevron"},
 		Categories: []string{"layout", "design", "tools", "account"},
-	},
-	{
+	}
+
+	betweenHorizontalStartInfo = IconInfo{
 		Name:       "Between Horizontal Start",
+		Slug:       "between-horizontal-start",
 		Icon:       BetweenHorizontalStart,
 		Tags:       []string{"insert", "add", "right", "slot", "squeeze", "space", "vertical", "grid", "table", "rows", "cells", "excel", "spreadsheet", "accountancy", "data", "enter", "entry", "entries", "blocks", "rectangles", "chevron"},
 		Categories: []string{"layout", "design", "tools", "account"},
-	},
-	{
+	}
+
+	betweenVerticalEndInfo = IconInfo{
 		Name:       "Between Vertical End",
+		Slug:       "between-vertical-end",
 		Icon:       BetweenVerticalEnd,
 		Tags:       []string{"insert", "add", "top", "slot", "squeeze", "space", "vertical", "grid", "table", "columns", "cells", "data", "enter", "entry", "entries", "blocks", "rectangles", "chevron"},
 		Categories: []string{"layout", "design", "tools"},
-	},
-	{
+	}
+
+	betweenVerticalStartInfo = IconInfo{
 		Name:       "Between Vertical Start",
+		Slug:       "between-vertical-start",
 		Icon:       BetweenVerticalStart,
 		Tags:       []string{"insert", "add", "bottom", "slot", "squeeze", "space", "vertical", "grid", "table", "columns", "cells", "data", "enter", "entry", "entries", "blocks", "rectangles", "chevron"},
 		Categories: []string{"layout", "design", "tools"},
-	},
-	{
+	}
+
+	bicepsFlexedInfo = IconInfo{
 		Name:       "Biceps Flexed",
+		Slug:       "biceps-flexed",
 		Icon:       BicepsFlexed,
 		Tags:       []string{"arm", "muscle", "strong", "working out", "athletic", "toned", "muscular", "forelimb", "curled"},
 		Categories: []string{"emoji"},
-	},
-	{
+	}
+
+	bikeInfo = IconInfo{
 		Name:       "Bike",
+		Slug:       "bike",
 		Icon:       Bike,
 		Tags:       []string{"bicycle", "transport", "trip"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	binaryInfo = IconInfo{
 		Name:       "Binary",
+		Slug:       "binary",
 		Icon:       Binary,
 		Tags:       []string{"code", "digits", "computer", "zero", "one", "boolean"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	binocularsInfo = IconInfo{
 		Name:       "Binoculars",
+		Slug:       "binoculars",
 		Icon:       Binoculars,
 		Tags:       []string{"field glasses", "lorgnette", "pince-nez", "observation", "sightseeing", "nature", "wildlife", "birdwatching", "scouting", "surveillance", "search", "discovery", "monitoring", "lookout", "viewpoint", "travel", "tourism", "research"},
 		Categories: []string{"maps", "nature", "photography", "science", "travel", "development"},
-	},
-	{
+	}
+
+	biohazardInfo = IconInfo{
 		Name:       "Biohazard",
+		Slug:       "biohazard",
 		Icon:       Biohazard,
 		Tags:       []string{"fallout", "waste", "biology", "chemistry", "chemical", "element"},
 		Categories: []string{"science"},
-	},
-	{
+	}
+
+	birdInfo = IconInfo{
 		Name:       "Bird",
+		Slug:       "bird",
 		Icon:       Bird,
 		Tags:       []string{"peace", "freedom", "wing", "avian", "tweet"},
 		Categories: []string{"animals"},
-	},
-	{
+	}
+
+	bitcoinInfo = IconInfo{
 		Name:       "Bitcoin",
+		Slug:       "bitcoin",
 		Icon:       Bitcoin,
 		Tags:       []string{"currency", "money", "payment"},
 		Categories: []string{"brands", "currency", "development", "money"},
-	},
-	{
+	}
+
+	blendInfo = IconInfo{
 		Name:       "Blend",
+		Slug:       "blend",
 		Icon:       Blend,
 		Tags:       []string{"mode", "overlay", "multiply", "screen", "opacity", "transparency", "alpha", "filters", "lenses", "mixed", "shades", "tints", "hues", "saturation", "brightness", "overlap", "colors", "colours"},
 		Categories: []string{"design", "photography", "tools", "development"},
-	},
-	{
+	}
+
+	blindsInfo = IconInfo{
 		Name:       "Blinds",
+		Slug:       "blinds",
 		Icon:       Blinds,
 		Tags:       []string{"shades", "screen", "curtain", "shutter", "roller blind", "window", "lighting", "household", "home"},
 		Categories: []string{"home"},
-	},
-	{
+	}
+
+	blocksInfo = IconInfo{
 		Name:       "Blocks",
+		Slug:       "blocks",
 		Icon:       Blocks,
 		Tags:       []string{"addon", "plugin", "integration", "extension", "package", "build", "stack", "toys", "kids", "children", "learning"},
 		Categories: []string{"development", "shapes"},
-	},
-	{
+	}
+
+	bluetoothConnectedInfo = IconInfo{
 		Name:       "Bluetooth Connected",
+		Slug:       "bluetooth-connected",
 		Icon:       BluetoothConnected,
 		Tags:       []string{"paired"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	bluetoothOffInfo = IconInfo{
 		Name:       "Bluetooth Off",
+		Slug:       "bluetooth-off",
 		Icon:       BluetoothOff,
 		Tags:       []string{"lost"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	bluetoothSearchingInfo = IconInfo{
 		Name:       "Bluetooth Searching",
+		Slug:       "bluetooth-searching",
 		Icon:       BluetoothSearching,
 		Tags:       []string{"pairing"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	bluetoothInfo = IconInfo{
 		Name:       "Bluetooth",
+		Slug:       "bluetooth",
 		Icon:       Bluetooth,
 		Tags:       []string{"wireless"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	boldInfo = IconInfo{
 		Name:       "Bold",
+		Slug:       "bold",
 		Icon:       Bold,
 		Tags:       []string{"text", "strong", "format"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	boltInfo = IconInfo{
 		Name:       "Bolt",
+		Slug:       "bolt",
 		Icon:       Bolt,
 		Tags:       []string{"nut", "screw", "settings", "preferences", "configuration", "controls", "edit", "diy", "fixed", "build", "contruction", "parts"},
 		Categories: []string{"account", "tools", "home"},
-	},
-	{
+	}
+
+	bombInfo = IconInfo{
 		Name:       "Bomb",
+		Slug:       "bomb",
 		Icon:       Bomb,
 		Tags:       []string{"fatal", "error", "crash", "blockbuster", "mine", "explosion", "explode", "explosive"},
 		Categories: []string{},
-	},
-	{
+	}
+
+	boneInfo = IconInfo{
 		Name:       "Bone",
+		Slug:       "bone",
 		Icon:       Bone,
 		Tags:       []string{"health", "skeleton", "skull", "death", "pets", "dog"},
 		Categories: []string{"animals", "medical", "gaming"},
-	},
-	{
+	}
+
+	bookAInfo = IconInfo{
 		Name:       "Book A",
+		Slug:       "book-a",
 		Icon:       BookA,
 		Tags:       []string{"dictionary", "define", "definition", "thesaurus", "encyclopedia", "encyclopaedia", "reading", "booklet", "magazine", "leaflet", "pamphlet", "tome", "library", "writing", "written", "writer", "author", "story", "script", "fiction", "novel", "information", "knowledge", "education", "high school", "university", "college", "academy", "student", "study", "learning", "homework", "research", "language", "translate", "alphabetical", "a-z", "ordered"},
 		Categories: []string{"text", "maps", "gaming"},
-	},
-	{
+	}
+
+	bookAudioInfo = IconInfo{
 		Name:       "Book Audio",
+		Slug:       "book-audio",
 		Icon:       BookAudio,
 		Tags:       []string{"audiobook", "reading", "listening", "sound", "story", "fiction", "novel", "information", "knowledge", "education", "student", "study", "learning", "research"},
 		Categories: []string{"multimedia", "text"},
-	},
-	{
+	}
+
+	bookCheckInfo = IconInfo{
 		Name:       "Book Check",
+		Slug:       "book-check",
 		Icon:       BookCheck,
 		Tags:       []string{"read", "booklet", "magazine", "leaflet", "pamphlet", "library", "written", "authored", "published", "informed", "knowledgeable", "educated", "schooled", "homework", "examined", "tested", "marked", "passed", "graduated", "studied", "learned", "lesson", "researched", "documented", "revealed", "blank", "plain language", "true", "truth", "verified", "corrected", "task", "todo", "done", "completed", "finished", "ticked"},
 		Categories: []string{"text", "development", "gaming"},
-	},
-	{
+	}
+
+	bookCopyInfo = IconInfo{
 		Name:       "Book Copy",
+		Slug:       "book-copy",
 		Icon:       BookCopy,
 		Tags:       []string{"code", "coding", "version control", "git", "repository", "clone", "fork", "duplicate", "multiple", "books", "library", "copies", "copied", "plagiarism", "plagiarised", "plagiarized", "reading list", "information", "informed", "knowledge", "knowledgeable", "knowledgable", "education", "high school", "university", "college", "academy", "student", "study", "learning", "research", "smart", "intelligent", "intellectual"},
 		Categories: []string{"development", "text", "gaming"},
-	},
-	{
+	}
+
+	bookDashedInfo = IconInfo{
 		Name:       "Book Dashed",
+		Slug:       "book-dashed",
 		Icon:       BookDashed,
 		Tags:       []string{"code", "coding", "version control", "git", "repository", "template", "draft", "script", "screenplay", "writing", "writer", "author", "unwritten", "unpublished", "untold"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	bookDownInfo = IconInfo{
 		Name:       "Book Down",
+		Slug:       "book-down",
 		Icon:       BookDown,
 		Tags:       []string{"code", "coding", "version control", "git", "repository", "pull"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	bookHeadphonesInfo = IconInfo{
 		Name:       "Book Headphones",
+		Slug:       "book-headphones",
 		Icon:       BookHeadphones,
 		Tags:       []string{"audiobook", "reading", "listening", "sound", "story", "fiction", "novel", "information", "knowledge", "education", "student", "study", "learning", "research"},
 		Categories: []string{"multimedia", "text"},
-	},
-	{
+	}
+
+	bookHeartInfo = IconInfo{
 		Name:       "Book Heart",
+		Slug:       "book-heart",
 		Icon:       BookHeart,
 		Tags:       []string{"diary", "romance", "novel", "journal", "entry", "entries", "personal", "private", "secret", "crush", "like", "love", "emotion", "feminine", "girls", "teens", "teenager", "therapy", "theraputic", "therapist", "planner", "organizer", "organiser", "notes", "notepad", "stationery", "sketchbook", "writing", "written", "reading", "favorite", "favourite", "high school"},
 		Categories: []string{"social", "text", "communication", "gaming"},
-	},
-	{
+	}
+
+	bookImageInfo = IconInfo{
 		Name:       "Book Image",
+		Slug:       "book-image",
 		Icon:       BookImage,
 		Tags:       []string{"images", "pictures", "photos", "album", "collection", "event", "magazine", "catalog", "catalogue", "brochure", "browse", "gallery"},
 		Categories: []string{"photography", "text", "multimedia", "files", "social", "shopping", "travel"},
-	},
-	{
+	}
+
+	bookKeyInfo = IconInfo{
 		Name:       "Book Key",
+		Slug:       "book-key",
 		Icon:       BookKey,
 		Tags:       []string{"code", "coding", "version control", "git", "repository", "private", "public", "secret", "unlocked", "hidden", "revealed", "knowledge", "learning"},
 		Categories: []string{"development", "security", "gaming"},
-	},
-	{
+	}
+
+	bookLockInfo = IconInfo{
 		Name:       "Book Lock",
+		Slug:       "book-lock",
 		Icon:       BookLock,
 		Tags:       []string{"code", "coding", "version control", "git", "repository", "private", "secret", "hidden", "knowledge"},
 		Categories: []string{"development", "security", "gaming"},
-	},
-	{
+	}
+
+	bookMarkedInfo = IconInfo{
 		Name:       "Book Marked",
+		Slug:       "book-marked",
 		Icon:       BookMarked,
 		Tags:       []string{"dictionary", "reading", "booklet", "magazine", "leaflet", "pamphlet", "tome", "library", "writing", "written", "writer", "author", "story", "script", "fiction", "novel", "information", "knowledge", "education", "high school", "university", "college", "academy", "student", "study", "learning", "homework", "research", "documentation", "saved", "later", "future", "reference", "index", "code", "coding", "version control", "git", "repository"},
 		Categories: []string{"text", "development", "gaming"},
-	},
-	{
+	}
+
+	bookMinusInfo = IconInfo{
 		Name:       "Book Minus",
+		Slug:       "book-minus",
 		Icon:       BookMinus,
 		Tags:       []string{"code", "coding", "version control", "git", "repository", "remove", "delete", "censor", "cancel", "forbid", "prohibit", "ban", "uneducated", "re-educate", "unlearn", "downgrade"},
 		Categories: []string{"development", "text", "gaming"},
-	},
-	{
+	}
+
+	bookOpenCheckInfo = IconInfo{
 		Name:       "Book Open Check",
+		Slug:       "book-open-check",
 		Icon:       BookOpenCheck,
 		Tags:       []string{"read", "pages", "booklet", "magazine", "leaflet", "pamphlet", "library", "written", "authored", "published", "informed", "knowledgeable", "educated", "schooled", "homework", "examined", "tested", "marked", "passed", "graduated", "studied", "learned", "lesson", "researched", "documented", "revealed", "blank", "plain language", "true", "truth", "verified", "corrected", "task", "todo", "done", "completed", "finished", "ticked"},
 		Categories: []string{"text", "development", "gaming"},
-	},
-	{
+	}
+
+	bookOpenTextInfo = IconInfo{
 		Name:       "Book Open Text",
+		Slug:       "book-open-text",
 		Icon:       BookOpenText,
 		Tags:       []string{"reading", "pages", "booklet", "magazine", "leaflet", "pamphlet", "library", "writing", "written", "writer", "author", "story", "script", "fiction", "novel", "information", "knowledge", "education", "high school", "university", "college", "academy", "student", "study", "learning", "homework", "research", "documentation", "revealed"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	bookOpenInfo = IconInfo{
 		Name:       "Book Open",
+		Slug:       "book-open",
 		Icon:       BookOpen,
 		Tags:       []string{"reading", "pages", "booklet", "magazine", "leaflet", "pamphlet", "library", "writing", "written", "writer", "author", "story", "script", "screenplay", "fiction", "novel", "information", "knowledge", "education", "high school", "university", "college", "academy", "student", "study", "learning", "homework", "research", "documentation", "revealed", "blank", "plain"},
 		Categories: []string{"text", "development", "gaming"},
-	},
-	{
+	}
+
+	bookPlusInfo = IconInfo{
 		Name:       "Book Plus",
+		Slug:       "book-plus",
 		Icon:       BookPlus,
 		Tags:       []string{"code", "coding", "version control", "git", "repository", "remove", "delete", "read", "write", "author", "publish", "inform", "graduate", "re-educate", "study", "learn", "research", "knowledge", "improve", "upgrade", "level up"},
 		Categories: []string{"development", "text", "gaming"},
-	},
-	{
+	}
+
+	bookTextInfo = IconInfo{
 		Name:       "Book Text",
+		Slug:       "book-text",
 		Icon:       BookText,
 		Tags:       []string{"reading", "booklet", "magazine", "leaflet", "pamphlet", "tome", "library", "writing", "written", "writer", "author", "story", "script", "fiction", "novel", "information", "knowledge", "education", "high school", "university", "college", "academy", "student", "study", "learning", "homework", "research", "documentation"},
 		Categories: []string{"text", "development", "gaming"},
-	},
-	{
+	}
+
+	bookTypeInfo = IconInfo{
 		Name:       "Book Type",
+		Slug:       "book-type",
 		Icon:       BookType,
 		Tags:       []string{"thesaurus", "synonym", "reading", "booklet", "magazine", "leaflet", "pamphlet", "tome", "library", "writing", "written", "writer", "author", "story", "script", "fiction", "novel", "information", "knowledge", "education", "high school", "university", "college", "academy", "student", "study", "learning", "homework", "research", "language", "translate", "typography", "fonts", "collection"},
 		Categories: []string{"text", "design", "gaming"},
-	},
-	{
+	}
+
+	bookUp2Info = IconInfo{
 		Name:       "Book Up 2",
+		Slug:       "book-up-2",
 		Icon:       BookUp2,
 		Tags:       []string{"code", "coding", "version control", "git", "repository", "push", "force"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	bookUpInfo = IconInfo{
 		Name:       "Book Up",
+		Slug:       "book-up",
 		Icon:       BookUp,
 		Tags:       []string{"code", "coding", "version control", "git", "repository", "push"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	bookUserInfo = IconInfo{
 		Name:       "Book User",
+		Slug:       "book-user",
 		Icon:       BookUser,
 		Tags:       []string{"person", "people", "family", "friends", "acquaintances", "contacts", "details", "addresses", "phone numbers", "directory", "listing", "networking"},
 		Categories: []string{"account", "connectivity", "communication", "social"},
-	},
-	{
+	}
+
+	bookXInfo = IconInfo{
 		Name:       "Book X",
+		Slug:       "book-x",
 		Icon:       BookX,
 		Tags:       []string{"code", "coding", "version control", "git", "repository", "remove", "delete", "reading", "misinformation", "disinformation", "misinformed", "charlatan", "sophistry", "false", "lies", "untruth", "propaganda", "censored", "cancelled", "forbidden", "prohibited", "banned", "uneducated", "re-education", "unlearn"},
 		Categories: []string{"development", "text", "gaming"},
-	},
-	{
+	}
+
+	bookInfo = IconInfo{
 		Name:       "Book",
+		Slug:       "book",
 		Icon:       Book,
 		Tags:       []string{"reading", "paperback", "booklet", "magazine", "leaflet", "pamphlet", "tome", "library", "writing", "written", "writer", "author", "story", "script", "fiction", "novel", "information", "knowledge", "education", "high school", "university", "college", "academy", "student", "study", "learning", "homework", "research", "documentation"},
 		Categories: []string{"text", "development", "gaming"},
-	},
-	{
+	}
+
+	bookmarkCheckInfo = IconInfo{
 		Name:       "Bookmark Check",
+		Slug:       "bookmark-check",
 		Icon:       BookmarkCheck,
 		Tags:       []string{"read", "finished", "complete", "clip", "marker", "tag", "task", "todo"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	bookmarkMinusInfo = IconInfo{
 		Name:       "Bookmark Minus",
+		Slug:       "bookmark-minus",
 		Icon:       BookmarkMinus,
 		Tags:       []string{"delete", "remove"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	bookmarkPlusInfo = IconInfo{
 		Name:       "Bookmark Plus",
+		Slug:       "bookmark-plus",
 		Icon:       BookmarkPlus,
 		Tags:       []string{"add"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	bookmarkXInfo = IconInfo{
 		Name:       "Bookmark X",
+		Slug:       "bookmark-x",
 		Icon:       BookmarkX,
 		Tags:       []string{"read", "clip", "marker", "tag", "cancel", "close", "delete", "remove", "clear"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	bookmarkInfo = IconInfo{
 		Name:       "Bookmark",
+		Slug:       "bookmark",
 		Icon:       Bookmark,
 		Tags:       []string{"read", "clip", "marker", "tag"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	boomBoxInfo = IconInfo{
 		Name:       "Boom Box",
+		Slug:       "boom-box",
 		Icon:       BoomBox,
 		Tags:       []string{"radio", "speakers", "audio", "music", "sound", "broadcast", "live", "frequency"},
 		Categories: []string{"devices", "multimedia", "social"},
-	},
-	{
+	}
+
+	botMessageSquareInfo = IconInfo{
 		Name:       "Bot Message Square",
+		Slug:       "bot-message-square",
 		Icon:       BotMessageSquare,
 		Tags:       []string{"robot", "ai", "chat", "assistant"},
 		Categories: []string{"development", "social"},
-	},
-	{
+	}
+
+	botOffInfo = IconInfo{
 		Name:       "Bot Off",
+		Slug:       "bot-off",
 		Icon:       BotOff,
 		Tags:       []string{"robot", "ai", "chat", "assistant"},
 		Categories: []string{"development", "social"},
-	},
-	{
+	}
+
+	botInfo = IconInfo{
 		Name:       "Bot",
+		Slug:       "bot",
 		Icon:       Bot,
 		Tags:       []string{"robot", "ai", "chat", "assistant"},
 		Categories: []string{"development", "social"},
-	},
-	{
+	}
+
+	boxInfo = IconInfo{
 		Name:       "Box",
+		Slug:       "box",
 		Icon:       Box,
 		Tags:       []string{"cube", "package", "container", "storage", "geometry", "3d", "isometric"},
 		Categories: []string{"shapes", "gaming", "development", "maths"},
-	},
-	{
+	}
+
+	boxesInfo = IconInfo{
 		Name:       "Boxes",
+		Slug:       "boxes",
 		Icon:       Boxes,
 		Tags:       []string{"cubes", "packages", "parts", "group", "units", "collection", "cluster", "geometry"},
 		Categories: []string{"shapes", "gaming", "development"},
-	},
-	{
+	}
+
+	bracesInfo = IconInfo{
 		Name:       "Braces",
+		Slug:       "braces",
 		Icon:       Braces,
 		Tags:       []string{"json", "code", "token", "curly brackets", "data", "{", "}"},
 		Categories: []string{"development", "files"},
-	},
-	{
+	}
+
+	bracketsInfo = IconInfo{
 		Name:       "Brackets",
+		Slug:       "brackets",
 		Icon:       Brackets,
 		Tags:       []string{"code", "token", "array", "list", "square", "[", "]"},
 		Categories: []string{"development", "files"},
-	},
-	{
+	}
+
+	brainCircuitInfo = IconInfo{
 		Name:       "Brain Circuit",
+		Slug:       "brain-circuit",
 		Icon:       BrainCircuit,
 		Tags:       []string{"mind", "intellect", "artificial intelligence", "ai", "deep learning", "machine learning", "computing"},
 		Categories: []string{"science", "development"},
-	},
-	{
+	}
+
+	brainCogInfo = IconInfo{
 		Name:       "Brain Cog",
+		Slug:       "brain-cog",
 		Icon:       BrainCog,
 		Tags:       []string{"mind", "intellect", "artificial intelligence", "ai", "deep learning", "machine learning", "computing"},
 		Categories: []string{"science", "development"},
-	},
-	{
+	}
+
+	brainInfo = IconInfo{
 		Name:       "Brain",
+		Slug:       "brain",
 		Icon:       Brain,
 		Tags:       []string{"medical", "mind", "intellect", "cerebral", "consciousness", "genius", "artificial intelligence", "ai"},
 		Categories: []string{"medical", "science"},
-	},
-	{
+	}
+
+	brickWallInfo = IconInfo{
 		Name:       "Brick Wall",
+		Slug:       "brick-wall",
 		Icon:       BrickWall,
 		Tags:       []string{"bricks", "mortar", "cement", "materials", "construction", "builder", "labourer", "quantity surveyor", "blocks", "stone"},
 		Categories: []string{"buildings", "home"},
-	},
-	{
+	}
+
+	briefcaseBusinessInfo = IconInfo{
 		Name:       "Briefcase Business",
+		Slug:       "briefcase-business",
 		Icon:       BriefcaseBusiness,
 		Tags:       []string{"work", "bag", "baggage", "folder", "portfolio"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	briefcaseConveyorBeltInfo = IconInfo{
 		Name:       "Briefcase Conveyor Belt",
+		Slug:       "briefcase-conveyor-belt",
 		Icon:       BriefcaseConveyorBelt,
 		Tags:       []string{"baggage", "luggage", "travel", "suitcase", "conveyor", "carousel"},
 		Categories: []string{"travel", "transportation"},
-	},
-	{
+	}
+
+	briefcaseMedicalInfo = IconInfo{
 		Name:       "Briefcase Medical",
+		Slug:       "briefcase-medical",
 		Icon:       BriefcaseMedical,
 		Tags:       []string{"doctor", "medicine", "first aid"},
 		Categories: []string{"medical", "transportation"},
-	},
-	{
+	}
+
+	briefcaseInfo = IconInfo{
 		Name:       "Briefcase",
+		Slug:       "briefcase",
 		Icon:       Briefcase,
 		Tags:       []string{"work", "bag", "baggage", "folder"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	bringToFrontInfo = IconInfo{
 		Name:       "Bring To Front",
+		Slug:       "bring-to-front",
 		Icon:       BringToFront,
 		Tags:       []string{"bring", "send", "move", "over", "forward", "front", "overlap", "layer", "order"},
 		Categories: []string{"design", "layout"},
-	},
-	{
+	}
+
+	brushInfo = IconInfo{
 		Name:       "Brush",
+		Slug:       "brush",
 		Icon:       Brush,
 		Tags:       []string{"draw", "paint", "color", "artist"},
 		Categories: []string{"text", "design", "tools"},
-	},
-	{
+	}
+
+	bugOffInfo = IconInfo{
 		Name:       "Bug Off",
+		Slug:       "bug-off",
 		Icon:       BugOff,
 		Tags:       []string{"debug", "code", "insect", "kill", "exterminate", "pest control"},
 		Categories: []string{"development", "animals"},
-	},
-	{
+	}
+
+	bugPlayInfo = IconInfo{
 		Name:       "Bug Play",
+		Slug:       "bug-play",
 		Icon:       BugPlay,
 		Tags:       []string{"debug", "code", "insect"},
 		Categories: []string{"development", "animals"},
-	},
-	{
+	}
+
+	bugInfo = IconInfo{
 		Name:       "Bug",
+		Slug:       "bug",
 		Icon:       Bug,
 		Tags:       []string{"issue", "report", "debug", "code", "insect"},
 		Categories: []string{"development", "animals"},
-	},
-	{
+	}
+
+	building2Info = IconInfo{
 		Name:       "Building 2",
+		Slug:       "building-2",
 		Icon:       Building2,
 		Tags:       []string{"business", "company", "enterprise", "skyscraper", "organisation", "organization"},
 		Categories: []string{"account", "buildings"},
-	},
-	{
+	}
+
+	buildingInfo = IconInfo{
 		Name:       "Building",
+		Slug:       "building",
 		Icon:       Building,
 		Tags:       []string{"organisation", "organization"},
 		Categories: []string{"account", "buildings"},
-	},
-	{
+	}
+
+	busFrontInfo = IconInfo{
 		Name:       "Bus Front",
+		Slug:       "bus-front",
 		Icon:       BusFront,
 		Tags:       []string{"coach", "vehicle", "trip", "road"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	busInfo = IconInfo{
 		Name:       "Bus",
+		Slug:       "bus",
 		Icon:       Bus,
 		Tags:       []string{"bus", "vehicle", "transport", "trip"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	cableCarInfo = IconInfo{
 		Name:       "Cable Car",
+		Slug:       "cable-car",
 		Icon:       CableCar,
 		Tags:       []string{"ski lift", "winter holiday", "alpine", "resort", "mountains"},
 		Categories: []string{"transportation", "travel"},
-	},
-	{
+	}
+
+	cableInfo = IconInfo{
 		Name:       "Cable",
+		Slug:       "cable",
 		Icon:       Cable,
 		Tags:       []string{"cord", "wire", "connector", "connection", "link", "signal", "console", "computer", "equipment", "electricity", "energy", "electronics", "recharging", "charger", "power", "supply", "disconnected", "unplugged", "plugs", "interface", "input", "output", "audio video", "av", "rca", "scart", "tv", "television", "optical"},
 		Categories: []string{"connectivity", "devices", "multimedia"},
-	},
-	{
+	}
+
+	cakeSliceInfo = IconInfo{
 		Name:       "Cake Slice",
+		Slug:       "cake-slice",
 		Icon:       CakeSlice,
 		Tags:       []string{"birthday", "birthdate", "celebration", "party", "surprise", "gateaux", "dessert", "candles", "wish", "fondant", "icing sugar", "sweet", "baking"},
 		Categories: []string{"food-beverage", "social"},
-	},
-	{
+	}
+
+	cakeInfo = IconInfo{
 		Name:       "Cake",
+		Slug:       "cake",
 		Icon:       Cake,
 		Tags:       []string{"birthday", "birthdate", "celebration", "party", "surprise", "gateaux", "dessert", "fondant", "icing sugar", "sweet", "baking"},
 		Categories: []string{"food-beverage", "social", "account"},
-	},
-	{
+	}
+
+	calculatorInfo = IconInfo{
 		Name:       "Calculator",
+		Slug:       "calculator",
 		Icon:       Calculator,
 		Tags:       []string{"count", "calculating machine"},
 		Categories: []string{"maths", "devices"},
-	},
-	{
+	}
+
+	calendarArrowDownInfo = IconInfo{
 		Name:       "Calendar Arrow Down",
+		Slug:       "calendar-arrow-down",
 		Icon:       CalendarArrowDown,
 		Tags:       []string{"date", "month", "year", "event", "sort", "order", "ascending", "descending", "increasing", "decreasing", "rising", "falling"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarArrowUpInfo = IconInfo{
 		Name:       "Calendar Arrow Up",
+		Slug:       "calendar-arrow-up",
 		Icon:       CalendarArrowUp,
 		Tags:       []string{"date", "month", "year", "event", "sort", "order", "ascending", "descending", "increasing", "decreasing", "rising", "falling"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarCheck2Info = IconInfo{
 		Name:       "Calendar Check 2",
+		Slug:       "calendar-check-2",
 		Icon:       CalendarCheck2,
 		Tags:       []string{"date", "day", "month", "year", "event", "confirm", "subscribe", "schedule", "done", "todo", "tick", "complete", "task"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarCheckInfo = IconInfo{
 		Name:       "Calendar Check",
+		Slug:       "calendar-check",
 		Icon:       CalendarCheck,
 		Tags:       []string{"date", "day", "month", "year", "event", "confirm", "subscribe", "schedule", "done", "todo", "tick", "complete", "task"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarClockInfo = IconInfo{
 		Name:       "Calendar Clock",
+		Slug:       "calendar-clock",
 		Icon:       CalendarClock,
 		Tags:       []string{"date", "day", "month", "year", "event", "clock", "hour"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarCogInfo = IconInfo{
 		Name:       "Calendar Cog",
+		Slug:       "calendar-cog",
 		Icon:       CalendarCog,
 		Tags:       []string{"date", "day", "month", "year", "events", "settings", "gear", "cog"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarDaysInfo = IconInfo{
 		Name:       "Calendar Days",
+		Slug:       "calendar-days",
 		Icon:       CalendarDays,
 		Tags:       []string{"date", "month", "year", "event"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarFoldInfo = IconInfo{
 		Name:       "Calendar Fold",
+		Slug:       "calendar-fold",
 		Icon:       CalendarFold,
 		Tags:       []string{"date", "month", "year", "event", "birthday", "birthdate", "ics"},
 		Categories: []string{"time", "files"},
-	},
-	{
+	}
+
+	calendarHeartInfo = IconInfo{
 		Name:       "Calendar Heart",
+		Slug:       "calendar-heart",
 		Icon:       CalendarHeart,
 		Tags:       []string{"date", "month", "year", "event", "heart", "favourite", "subscribe", "valentines day"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarMinus2Info = IconInfo{
 		Name:       "Calendar Minus 2",
+		Slug:       "calendar-minus-2",
 		Icon:       CalendarMinus2,
 		Tags:       []string{"date", "day", "month", "year", "event", "delete", "remove"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarMinusInfo = IconInfo{
 		Name:       "Calendar Minus",
+		Slug:       "calendar-minus",
 		Icon:       CalendarMinus,
 		Tags:       []string{"date", "day", "month", "year", "event", "delete", "remove"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarOffInfo = IconInfo{
 		Name:       "Calendar Off",
+		Slug:       "calendar-off",
 		Icon:       CalendarOff,
 		Tags:       []string{"date", "day", "month", "year", "event", "delete", "remove"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarPlus2Info = IconInfo{
 		Name:       "Calendar Plus 2",
+		Slug:       "calendar-plus-2",
 		Icon:       CalendarPlus2,
 		Tags:       []string{"date", "day", "month", "year", "event", "add", "subscribe", "create", "new"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarPlusInfo = IconInfo{
 		Name:       "Calendar Plus",
+		Slug:       "calendar-plus",
 		Icon:       CalendarPlus,
 		Tags:       []string{"date", "day", "month", "year", "event", "add", "subscribe", "create", "new"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarRangeInfo = IconInfo{
 		Name:       "Calendar Range",
+		Slug:       "calendar-range",
 		Icon:       CalendarRange,
 		Tags:       []string{"date", "day", "month", "year", "event", "range", "period"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarSearchInfo = IconInfo{
 		Name:       "Calendar Search",
+		Slug:       "calendar-search",
 		Icon:       CalendarSearch,
 		Tags:       []string{"date", "day", "month", "year", "events", "search"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarX2Info = IconInfo{
 		Name:       "Calendar X 2",
+		Slug:       "calendar-x-2",
 		Icon:       CalendarX2,
 		Tags:       []string{"date", "day", "month", "year", "event", "remove"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarXInfo = IconInfo{
 		Name:       "Calendar X",
+		Slug:       "calendar-x",
 		Icon:       CalendarX,
 		Tags:       []string{"date", "day", "month", "year", "event", "remove", "busy"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	calendarInfo = IconInfo{
 		Name:       "Calendar",
+		Slug:       "calendar",
 		Icon:       Calendar,
 		Tags:       []string{"date", "month", "year", "event", "birthday", "birthdate"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	cameraOffInfo = IconInfo{
 		Name:       "Camera Off",
+		Slug:       "camera-off",
 		Icon:       CameraOff,
 		Tags:       []string{"photo", "webcam", "video"},
 		Categories: []string{"photography", "devices", "communication"},
-	},
-	{
+	}
+
+	cameraInfo = IconInfo{
 		Name:       "Camera",
+		Slug:       "camera",
 		Icon:       Camera,
 		Tags:       []string{"photo", "webcam", "video"},
 		Categories: []string{"photography", "devices", "communication"},
-	},
-	{
+	}
+
+	candyCaneInfo = IconInfo{
 		Name:       "Candy Cane",
+		Slug:       "candy-cane",
 		Icon:       CandyCane,
 		Tags:       []string{"sugar", "food", "sweet", "christmas", "xmas"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	candyOffInfo = IconInfo{
 		Name:       "Candy Off",
+		Slug:       "candy-off",
 		Icon:       CandyOff,
 		Tags:       []string{"sugar free", "food", "sweet", "allergy", "intolerance", "diet"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	candyInfo = IconInfo{
 		Name:       "Candy",
+		Slug:       "candy",
 		Icon:       Candy,
 		Tags:       []string{"sugar", "food", "sweet"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	cannabisInfo = IconInfo{
 		Name:       "Cannabis",
+		Slug:       "cannabis",
 		Icon:       Cannabis,
 		Tags:       []string{"cannabis", "weed", "leaf"},
 		Categories: []string{"nature"},
-	},
-	{
+	}
+
+	captionsOffInfo = IconInfo{
 		Name:       "Captions Off",
+		Slug:       "captions-off",
 		Icon:       CaptionsOff,
 		Tags:       []string{"closed captions", "subtitles", "subhead", "transcription", "transcribe", "dialogue", "accessibility"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	captionsInfo = IconInfo{
 		Name:       "Captions",
+		Slug:       "captions",
 		Icon:       Captions,
 		Tags:       []string{"closed captions", "subtitles", "subhead", "transcription", "transcribe", "dialogue", "accessibility"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	carFrontInfo = IconInfo{
 		Name:       "Car Front",
+		Slug:       "car-front",
 		Icon:       CarFront,
 		Tags:       []string{"vehicle", "drive", "trip", "journey"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	carTaxiFrontInfo = IconInfo{
 		Name:       "Car Taxi Front",
+		Slug:       "car-taxi-front",
 		Icon:       CarTaxiFront,
 		Tags:       []string{"cab", "vehicle", "drive", "trip", "journey"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	carInfo = IconInfo{
 		Name:       "Car",
+		Slug:       "car",
 		Icon:       Car,
 		Tags:       []string{"vehicle", "drive", "trip", "journey"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	caravanInfo = IconInfo{
 		Name:       "Caravan",
+		Slug:       "caravan",
 		Icon:       Caravan,
 		Tags:       []string{"trailer", "tow", "camping", "campsite", "mobile home", "holiday", "nomadic", "wilderness", "outdoors"},
 		Categories: []string{"transportation", "travel", "nature"},
-	},
-	{
+	}
+
+	carrotInfo = IconInfo{
 		Name:       "Carrot",
+		Slug:       "carrot",
 		Icon:       Carrot,
 		Tags:       []string{"vegetable", "food", "eat"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	caseLowerInfo = IconInfo{
 		Name:       "Case Lower",
+		Slug:       "case-lower",
 		Icon:       CaseLower,
 		Tags:       []string{"text", "letters", "characters", "font", "typography"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	caseSensitiveInfo = IconInfo{
 		Name:       "Case Sensitive",
+		Slug:       "case-sensitive",
 		Icon:       CaseSensitive,
 		Tags:       []string{"text", "letters", "characters", "font", "typography"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	caseUpperInfo = IconInfo{
 		Name:       "Case Upper",
+		Slug:       "case-upper",
 		Icon:       CaseUpper,
 		Tags:       []string{"text", "letters", "characters", "font", "typography"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	cassetteTapeInfo = IconInfo{
 		Name:       "Cassette Tape",
+		Slug:       "cassette-tape",
 		Icon:       CassetteTape,
 		Tags:       []string{"audio", "music", "recording", "play"},
 		Categories: []string{"connectivity", "devices", "multimedia", "communication", "files"},
-	},
-	{
+	}
+
+	castInfo = IconInfo{
 		Name:       "Cast",
+		Slug:       "cast",
 		Icon:       Cast,
 		Tags:       []string{"chromecast", "airplay", "screen"},
 		Categories: []string{"devices", "connectivity"},
-	},
-	{
+	}
+
+	castleInfo = IconInfo{
 		Name:       "Castle",
+		Slug:       "castle",
 		Icon:       Castle,
 		Tags:       []string{"fortress", "stronghold", "palace", "chateau", "building"},
 		Categories: []string{"buildings", "gaming", "maps"},
-	},
-	{
+	}
+
+	catInfo = IconInfo{
 		Name:       "Cat",
+		Slug:       "cat",
 		Icon:       Cat,
 		Tags:       []string{"animal", "pet", "kitten", "feline"},
 		Categories: []string{"animals"},
-	},
-	{
+	}
+
+	cctvInfo = IconInfo{
 		Name:       "Cctv",
+		Slug:       "cctv",
 		Icon:       Cctv,
 		Tags:       []string{"camera", "surveillance", "recording", "film", "videotape", "crime", "watching"},
 		Categories: []string{"security", "devices", "communication", "connectivity", "photography"},
-	},
-	{
+	}
+
+	chartAreaInfo = IconInfo{
 		Name:       "Chart Area",
+		Slug:       "chart-area",
 		Icon:       ChartArea,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "area"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartBarBigInfo = IconInfo{
 		Name:       "Chart Bar Big",
+		Slug:       "chart-bar-big",
 		Icon:       ChartBarBig,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartBarDecreasingInfo = IconInfo{
 		Name:       "Chart Bar Decreasing",
+		Slug:       "chart-bar-decreasing",
 		Icon:       ChartBarDecreasing,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "trending down"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartBarIncreasingInfo = IconInfo{
 		Name:       "Chart Bar Increasing",
+		Slug:       "chart-bar-increasing",
 		Icon:       ChartBarIncreasing,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "trending up"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartBarStackedInfo = IconInfo{
 		Name:       "Chart Bar Stacked",
+		Slug:       "chart-bar-stacked",
 		Icon:       ChartBarStacked,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "multivariate", "categorical", "comparison"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartBarInfo = IconInfo{
 		Name:       "Chart Bar",
+		Slug:       "chart-bar",
 		Icon:       ChartBar,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartCandlestickInfo = IconInfo{
 		Name:       "Chart Candlestick",
+		Slug:       "chart-candlestick",
 		Icon:       ChartCandlestick,
 		Tags:       []string{"trading", "trader", "financial", "markets", "portfolio", "assets", "prices", "value", "valuation", "commodities", "currencies", "currency", "exchange", "hedge fund", "statistics", "analytics", "diagram", "graph"},
 		Categories: []string{"charts", "money"},
-	},
-	{
+	}
+
+	chartColumnBigInfo = IconInfo{
 		Name:       "Chart Column Big",
+		Slug:       "chart-column-big",
 		Icon:       ChartColumnBig,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartColumnDecreasingInfo = IconInfo{
 		Name:       "Chart Column Decreasing",
+		Slug:       "chart-column-decreasing",
 		Icon:       ChartColumnDecreasing,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "trending down"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartColumnIncreasingInfo = IconInfo{
 		Name:       "Chart Column Increasing",
+		Slug:       "chart-column-increasing",
 		Icon:       ChartColumnIncreasing,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "trending up"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartColumnStackedInfo = IconInfo{
 		Name:       "Chart Column Stacked",
+		Slug:       "chart-column-stacked",
 		Icon:       ChartColumnStacked,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "multivariate", "categorical", "comparison"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartColumnInfo = IconInfo{
 		Name:       "Chart Column",
+		Slug:       "chart-column",
 		Icon:       ChartColumn,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartGanttInfo = IconInfo{
 		Name:       "Chart Gantt",
+		Slug:       "chart-gantt",
 		Icon:       ChartGantt,
 		Tags:       []string{"diagram", "graph", "timeline", "planning"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartLineInfo = IconInfo{
 		Name:       "Chart Line",
+		Slug:       "chart-line",
 		Icon:       ChartLine,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartNetworkInfo = IconInfo{
 		Name:       "Chart Network",
+		Slug:       "chart-network",
 		Icon:       ChartNetwork,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "topology", "cluster", "web", "nodes", "connections", "edges"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartNoAxesColumnDecreasingInfo = IconInfo{
 		Name:       "Chart No Axes Column Decreasing",
+		Slug:       "chart-no-axes-column-decreasing",
 		Icon:       ChartNoAxesColumnDecreasing,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "trending down"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartNoAxesColumnIncreasingInfo = IconInfo{
 		Name:       "Chart No Axes Column Increasing",
+		Slug:       "chart-no-axes-column-increasing",
 		Icon:       ChartNoAxesColumnIncreasing,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "trending up"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartNoAxesColumnInfo = IconInfo{
 		Name:       "Chart No Axes Column",
+		Slug:       "chart-no-axes-column",
 		Icon:       ChartNoAxesColumn,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartNoAxesCombinedInfo = IconInfo{
 		Name:       "Chart No Axes Combined",
+		Slug:       "chart-no-axes-combined",
 		Icon:       ChartNoAxesCombined,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "trending up"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartNoAxesGanttInfo = IconInfo{
 		Name:       "Chart No Axes Gantt",
+		Slug:       "chart-no-axes-gantt",
 		Icon:       ChartNoAxesGantt,
 		Tags:       []string{"projects", "manage", "overview", "roadmap", "plan", "intentions", "timeline", "deadline", "date", "event", "range", "period", "productivity", "work", "agile", "code", "coding"},
 		Categories: []string{"charts", "time", "development", "design"},
-	},
-	{
+	}
+
+	chartPieInfo = IconInfo{
 		Name:       "Chart Pie",
+		Slug:       "chart-pie",
 		Icon:       ChartPie,
 		Tags:       []string{"statistics", "analytics", "diagram", "presentation"},
 		Categories: []string{"charts", "files"},
-	},
-	{
+	}
+
+	chartScatterInfo = IconInfo{
 		Name:       "Chart Scatter",
+		Slug:       "chart-scatter",
 		Icon:       ChartScatter,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	chartSplineInfo = IconInfo{
 		Name:       "Chart Spline",
+		Slug:       "chart-spline",
 		Icon:       ChartSpline,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "curve", "continuous", "smooth", "polynomial", "quadratic", "function", "interpolation"},
 		Categories: []string{"charts"},
-	},
-	{
+	}
+
+	checkCheckInfo = IconInfo{
 		Name:       "Check Check",
+		Slug:       "check-check",
 		Icon:       CheckCheck,
 		Tags:       []string{"done", "received", "double", "todo", "tick", "complete", "task"},
 		Categories: []string{"notifications"},
-	},
-	{
+	}
+
+	checkInfo = IconInfo{
 		Name:       "Check",
+		Slug:       "check",
 		Icon:       Check,
 		Tags:       []string{"done", "todo", "tick", "complete", "task"},
 		Categories: []string{"notifications"},
-	},
-	{
+	}
+
+	chefHatInfo = IconInfo{
 		Name:       "Chef Hat",
+		Slug:       "chef-hat",
 		Icon:       ChefHat,
 		Tags:       []string{"cooking", "food", "kitchen", "restaurant"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	cherryInfo = IconInfo{
 		Name:       "Cherry",
+		Slug:       "cherry",
 		Icon:       Cherry,
 		Tags:       []string{"fruit", "food"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	chevronDownInfo = IconInfo{
 		Name:       "Chevron Down",
+		Slug:       "chevron-down",
 		Icon:       ChevronDown,
 		Tags:       []string{"backwards", "reverse", "slow", "dropdown"},
 		Categories: []string{"arrows", "navigation", "gaming"},
-	},
-	{
+	}
+
+	chevronFirstInfo = IconInfo{
 		Name:       "Chevron First",
+		Slug:       "chevron-first",
 		Icon:       ChevronFirst,
 		Tags:       []string{"previous", "music"},
 		Categories: []string{"arrows", "multimedia"},
-	},
-	{
+	}
+
+	chevronLastInfo = IconInfo{
 		Name:       "Chevron Last",
+		Slug:       "chevron-last",
 		Icon:       ChevronLast,
 		Tags:       []string{"skip", "next", "music"},
 		Categories: []string{"arrows", "multimedia"},
-	},
-	{
+	}
+
+	chevronLeftInfo = IconInfo{
 		Name:       "Chevron Left",
+		Slug:       "chevron-left",
 		Icon:       ChevronLeft,
 		Tags:       []string{"back", "previous", "less than", "fewer", "menu", "<"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	chevronRightInfo = IconInfo{
 		Name:       "Chevron Right",
+		Slug:       "chevron-right",
 		Icon:       ChevronRight,
 		Tags:       []string{"forward", "next", "more than", "greater", "menu", "code", "coding", "command line", "terminal", "prompt", "shell", ">"},
 		Categories: []string{"arrows", "navigation", "maths", "development"},
-	},
-	{
+	}
+
+	chevronUpInfo = IconInfo{
 		Name:       "Chevron Up",
+		Slug:       "chevron-up",
 		Icon:       ChevronUp,
 		Tags:       []string{"caret", "keyboard", "mac", "control", "ctrl", "superscript", "exponential", "power", "ahead", "fast", "^", "dropdown"},
 		Categories: []string{"arrows", "navigation", "maths", "gaming"},
-	},
-	{
+	}
+
+	chevronsDownUpInfo = IconInfo{
 		Name:       "Chevrons Down Up",
+		Slug:       "chevrons-down-up",
 		Icon:       ChevronsDownUp,
 		Tags:       []string{"collapse", "fold", "vertical"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	chevronsDownInfo = IconInfo{
 		Name:       "Chevrons Down",
+		Slug:       "chevrons-down",
 		Icon:       ChevronsDown,
 		Tags:       []string{"backwards", "reverse", "slower"},
 		Categories: []string{"arrows", "navigation", "gaming"},
-	},
-	{
+	}
+
+	chevronsLeftRightEllipsisInfo = IconInfo{
 		Name:       "Chevrons Left Right Ellipsis",
+		Slug:       "chevrons-left-right-ellipsis",
 		Icon:       ChevronsLeftRightEllipsis,
 		Tags:       []string{"internet", "network", "connection", "cable", "lan", "port", "router", "switch", "hub", "modem", "web", "online", "networking", "communication", "socket", "plug", "slot", "controller", "connector", "interface", "console", "signal", "data", "input", "output"},
 		Categories: []string{"communication", "devices", "multimedia", "gaming"},
-	},
-	{
+	}
+
+	chevronsLeftRightInfo = IconInfo{
 		Name:       "Chevrons Left Right",
+		Slug:       "chevrons-left-right",
 		Icon:       ChevronsLeftRight,
 		Tags:       []string{"expand", "horizontal", "unfold"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	chevronsLeftInfo = IconInfo{
 		Name:       "Chevrons Left",
+		Slug:       "chevrons-left",
 		Icon:       ChevronsLeft,
 		Tags:       []string{"turn", "corner"},
 		Categories: []string{"arrows", "navigation", "gaming"},
-	},
-	{
+	}
+
+	chevronsRightLeftInfo = IconInfo{
 		Name:       "Chevrons Right Left",
+		Slug:       "chevrons-right-left",
 		Icon:       ChevronsRightLeft,
 		Tags:       []string{"collapse", "fold", "horizontal"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	chevronsRightInfo = IconInfo{
 		Name:       "Chevrons Right",
+		Slug:       "chevrons-right",
 		Icon:       ChevronsRight,
 		Tags:       []string{"turn", "corner"},
 		Categories: []string{"arrows", "navigation", "gaming"},
-	},
-	{
+	}
+
+	chevronsUpDownInfo = IconInfo{
 		Name:       "Chevrons Up Down",
+		Slug:       "chevrons-up-down",
 		Icon:       ChevronsUpDown,
 		Tags:       []string{"expand", "unfold", "vertical"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	chevronsUpInfo = IconInfo{
 		Name:       "Chevrons Up",
+		Slug:       "chevrons-up",
 		Icon:       ChevronsUp,
 		Tags:       []string{"forward", "ahead", "faster", "speed", "boost"},
 		Categories: []string{"arrows", "navigation", "gaming"},
-	},
-	{
+	}
+
+	chromeInfo = IconInfo{
 		Name:       "Chrome",
+		Slug:       "chrome",
 		Icon:       Chrome,
 		Tags:       []string{"browser", "logo"},
 		Categories: []string{"brands"},
-	},
-	{
+	}
+
+	churchInfo = IconInfo{
 		Name:       "Church",
+		Slug:       "church",
 		Icon:       Church,
 		Tags:       []string{"temple", "building"},
 		Categories: []string{"buildings", "maps"},
-	},
-	{
+	}
+
+	cigaretteOffInfo = IconInfo{
 		Name:       "Cigarette Off",
+		Slug:       "cigarette-off",
 		Icon:       CigaretteOff,
 		Tags:       []string{"smoking", "no-smoking"},
 		Categories: []string{"travel", "transportation", "medical"},
-	},
-	{
+	}
+
+	cigaretteInfo = IconInfo{
 		Name:       "Cigarette",
+		Slug:       "cigarette",
 		Icon:       Cigarette,
 		Tags:       []string{"smoking"},
 		Categories: []string{"travel", "transportation", "medical"},
-	},
-	{
+	}
+
+	circleAlertInfo = IconInfo{
 		Name:       "Circle Alert",
+		Slug:       "circle-alert",
 		Icon:       CircleAlert,
 		Tags:       []string{"warning", "alert", "danger", "exclamation mark"},
 		Categories: []string{"notifications", "shapes"},
-	},
-	{
+	}
+
+	circleArrowDownInfo = IconInfo{
 		Name:       "Circle Arrow Down",
+		Slug:       "circle-arrow-down",
 		Icon:       CircleArrowDown,
 		Tags:       []string{"backwards", "reverse", "direction", "south", "sign", "button"},
 		Categories: []string{"arrows", "navigation", "shapes", "gaming"},
-	},
-	{
+	}
+
+	circleArrowLeftInfo = IconInfo{
 		Name:       "Circle Arrow Left",
+		Slug:       "circle-arrow-left",
 		Icon:       CircleArrowLeft,
 		Tags:       []string{"previous", "back", "direction", "west", "sign", "turn", "button", "<-"},
 		Categories: []string{"arrows", "navigation", "shapes", "gaming"},
-	},
-	{
+	}
+
+	circleArrowOutDownLeftInfo = IconInfo{
 		Name:       "Circle Arrow Out Down Left",
+		Slug:       "circle-arrow-out-down-left",
 		Icon:       CircleArrowOutDownLeft,
 		Tags:       []string{"outwards", "direction", "south-west", "diagonal"},
 		Categories: []string{"arrows", "navigation", "maps"},
-	},
-	{
+	}
+
+	circleArrowOutDownRightInfo = IconInfo{
 		Name:       "Circle Arrow Out Down Right",
+		Slug:       "circle-arrow-out-down-right",
 		Icon:       CircleArrowOutDownRight,
 		Tags:       []string{"outwards", "direction", "south-east", "diagonal"},
 		Categories: []string{"arrows", "navigation", "maps"},
-	},
-	{
+	}
+
+	circleArrowOutUpLeftInfo = IconInfo{
 		Name:       "Circle Arrow Out Up Left",
+		Slug:       "circle-arrow-out-up-left",
 		Icon:       CircleArrowOutUpLeft,
 		Tags:       []string{"outwards", "direction", "north-west", "diagonal", "keyboard", "button", "escape"},
 		Categories: []string{"arrows", "navigation", "maps", "development"},
-	},
-	{
+	}
+
+	circleArrowOutUpRightInfo = IconInfo{
 		Name:       "Circle Arrow Out Up Right",
+		Slug:       "circle-arrow-out-up-right",
 		Icon:       CircleArrowOutUpRight,
 		Tags:       []string{"outwards", "direction", "north-east", "diagonal"},
 		Categories: []string{"arrows", "navigation", "maps"},
-	},
-	{
+	}
+
+	circleArrowRightInfo = IconInfo{
 		Name:       "Circle Arrow Right",
+		Slug:       "circle-arrow-right",
 		Icon:       CircleArrowRight,
 		Tags:       []string{"next", "forward", "direction", "east", "sign", "turn", "button", "->"},
 		Categories: []string{"arrows", "navigation", "shapes", "gaming"},
-	},
-	{
+	}
+
+	circleArrowUpInfo = IconInfo{
 		Name:       "Circle Arrow Up",
+		Slug:       "circle-arrow-up",
 		Icon:       CircleArrowUp,
 		Tags:       []string{"forward", "direction", "north", "sign", "button"},
 		Categories: []string{"arrows", "navigation", "shapes", "gaming"},
-	},
-	{
+	}
+
+	circleCheckBigInfo = IconInfo{
 		Name:       "Circle Check Big",
+		Slug:       "circle-check-big",
 		Icon:       CircleCheckBig,
 		Tags:       []string{"done", "todo", "tick", "complete", "task"},
 		Categories: []string{"notifications", "shapes"},
-	},
-	{
+	}
+
+	circleCheckInfo = IconInfo{
 		Name:       "Circle Check",
+		Slug:       "circle-check",
 		Icon:       CircleCheck,
 		Tags:       []string{"done", "todo", "tick", "complete", "task"},
 		Categories: []string{"notifications", "shapes"},
-	},
-	{
+	}
+
+	circleChevronDownInfo = IconInfo{
 		Name:       "Circle Chevron Down",
+		Slug:       "circle-chevron-down",
 		Icon:       CircleChevronDown,
 		Tags:       []string{"back", "menu"},
 		Categories: []string{"arrows", "navigation", "shapes"},
-	},
-	{
+	}
+
+	circleChevronLeftInfo = IconInfo{
 		Name:       "Circle Chevron Left",
+		Slug:       "circle-chevron-left",
 		Icon:       CircleChevronLeft,
 		Tags:       []string{"back", "previous", "less than", "fewer", "menu", "<"},
 		Categories: []string{"arrows", "navigation", "shapes"},
-	},
-	{
+	}
+
+	circleChevronRightInfo = IconInfo{
 		Name:       "Circle Chevron Right",
+		Slug:       "circle-chevron-right",
 		Icon:       CircleChevronRight,
 		Tags:       []string{"back", "more than", "greater", "menu", ">"},
 		Categories: []string{"arrows", "navigation", "shapes"},
-	},
-	{
+	}
+
+	circleChevronUpInfo = IconInfo{
 		Name:       "Circle Chevron Up",
+		Slug:       "circle-chevron-up",
 		Icon:       CircleChevronUp,
 		Tags:       []string{"caret", "ahead", "menu", "^"},
 		Categories: []string{"arrows", "navigation", "shapes"},
-	},
-	{
+	}
+
+	circleDashedInfo = IconInfo{
 		Name:       "Circle Dashed",
+		Slug:       "circle-dashed",
 		Icon:       CircleDashed,
 		Tags:       []string{"pending", "dot", "progress", "issue", "draft", "code", "coding", "version control"},
 		Categories: []string{"development", "shapes"},
-	},
-	{
+	}
+
+	circleDivideInfo = IconInfo{
 		Name:       "Circle Divide",
+		Slug:       "circle-divide",
 		Icon:       CircleDivide,
 		Tags:       []string{"calculate", "maths", "÷", "/"},
 		Categories: []string{"maths", "shapes"},
-	},
-	{
+	}
+
+	circleDollarSignInfo = IconInfo{
 		Name:       "Circle Dollar Sign",
+		Slug:       "circle-dollar-sign",
 		Icon:       CircleDollarSign,
 		Tags:       []string{"monetization", "marketing", "currency", "money", "payment"},
 		Categories: []string{"shapes", "money", "currency"},
-	},
-	{
+	}
+
+	circleDotDashedInfo = IconInfo{
 		Name:       "Circle Dot Dashed",
+		Slug:       "circle-dot-dashed",
 		Icon:       CircleDotDashed,
 		Tags:       []string{"pending", "dot", "progress", "issue", "draft", "code", "coding", "version control"},
 		Categories: []string{"development", "shapes"},
-	},
-	{
+	}
+
+	circleDotInfo = IconInfo{
 		Name:       "Circle Dot",
+		Slug:       "circle-dot",
 		Icon:       CircleDot,
 		Tags:       []string{"pending", "dot", "progress", "issue", "code", "coding", "version control", "choices", "multiple choice", "choose"},
 		Categories: []string{"development", "shapes"},
-	},
-	{
+	}
+
+	circleEllipsisInfo = IconInfo{
 		Name:       "Circle Ellipsis",
+		Slug:       "circle-ellipsis",
 		Icon:       CircleEllipsis,
 		Tags:       []string{"ellipsis", "et cetera", "etc", "loader", "loading", "progress", "pending", "throbber", "menu", "options", "operator", "code", "spread", "rest", "more", "further", "extra", "overflow", "dots", "…", "..."},
 		Categories: []string{"layout", "development", "shapes"},
-	},
-	{
+	}
+
+	circleEqualInfo = IconInfo{
 		Name:       "Circle Equal",
+		Slug:       "circle-equal",
 		Icon:       CircleEqual,
 		Tags:       []string{"calculate", "shape", "="},
 		Categories: []string{"maths", "shapes"},
-	},
-	{
+	}
+
+	circleFadingArrowUpInfo = IconInfo{
 		Name:       "Circle Fading Arrow Up",
+		Slug:       "circle-fading-arrow-up",
 		Icon:       CircleFadingArrowUp,
 		Tags:       []string{"north", "up", "upgrade", "improve", "circle", "button"},
 		Categories: []string{"arrows", "development"},
-	},
-	{
+	}
+
+	circleFadingPlusInfo = IconInfo{
 		Name:       "Circle Fading Plus",
+		Slug:       "circle-fading-plus",
 		Icon:       CircleFadingPlus,
 		Tags:       []string{"stories", "social media", "instagram", "facebook", "meta", "snapchat", "sharing", "content"},
 		Categories: []string{"communication", "social", "shapes"},
-	},
-	{
+	}
+
+	circleGaugeInfo = IconInfo{
 		Name:       "Circle Gauge",
+		Slug:       "circle-gauge",
 		Icon:       CircleGauge,
 		Tags:       []string{"dashboard", "dial", "meter", "speed", "pressure", "measure", "level"},
 		Categories: []string{"account", "transportation", "sports", "science"},
-	},
-	{
+	}
+
+	circleHelpInfo = IconInfo{
 		Name:       "Circle Help",
+		Slug:       "circle-help",
 		Icon:       CircleHelp,
 		Tags:       []string{"question mark"},
 		Categories: []string{"accessibility", "text", "shapes", "notifications"},
-	},
-	{
+	}
+
+	circleMinusInfo = IconInfo{
 		Name:       "Circle Minus",
+		Slug:       "circle-minus",
 		Icon:       CircleMinus,
 		Tags:       []string{"subtract", "remove", "decrease", "reduce", "calculate", "line", "operator", "code", "coding", "minimum", "downgrade", "-"},
 		Categories: []string{"maths", "shapes"},
-	},
-	{
+	}
+
+	circleOffInfo = IconInfo{
 		Name:       "Circle Off",
+		Slug:       "circle-off",
 		Icon:       CircleOff,
 		Tags:       []string{"diameter", "zero", "Ø", "nothing", "null", "void", "cancel", "ban", "no", "stop", "forbidden", "prohibited", "error", "incorrect", "mistake", "wrong", "failure"},
 		Categories: []string{"shapes"},
-	},
-	{
+	}
+
+	circleParkingOffInfo = IconInfo{
 		Name:       "Circle Parking Off",
+		Slug:       "circle-parking-off",
 		Icon:       CircleParkingOff,
 		Tags:       []string{"parking lot", "car park", "no parking"},
 		Categories: []string{"transportation", "maps"},
-	},
-	{
+	}
+
+	circleParkingInfo = IconInfo{
 		Name:       "Circle Parking",
+		Slug:       "circle-parking",
 		Icon:       CircleParking,
 		Tags:       []string{"parking lot", "car park"},
 		Categories: []string{"transportation", "maps"},
-	},
-	{
+	}
+
+	circlePauseInfo = IconInfo{
 		Name:       "Circle Pause",
+		Slug:       "circle-pause",
 		Icon:       CirclePause,
 		Tags:       []string{"music", "audio", "stop"},
 		Categories: []string{"multimedia", "shapes"},
-	},
-	{
+	}
+
+	circlePercentInfo = IconInfo{
 		Name:       "Circle Percent",
+		Slug:       "circle-percent",
 		Icon:       CirclePercent,
 		Tags:       []string{"verified", "unverified", "sale", "discount", "offer", "marketing", "sticker", "price tag"},
 		Categories: []string{"account", "social", "money", "shopping", "maths", "shapes"},
-	},
-	{
+	}
+
+	circlePlayInfo = IconInfo{
 		Name:       "Circle Play",
+		Slug:       "circle-play",
 		Icon:       CirclePlay,
 		Tags:       []string{"music", "start", "run"},
 		Categories: []string{"shapes", "multimedia"},
-	},
-	{
+	}
+
+	circlePlusInfo = IconInfo{
 		Name:       "Circle Plus",
+		Slug:       "circle-plus",
 		Icon:       CirclePlus,
 		Tags:       []string{"add", "new", "increase", "increment", "positive", "calculate", "crosshair", "aim", "target", "scope", "sight", "reticule", "maximum", "upgrade", "extra", "operator", "join", "concatenate", "code", "coding", "+"},
 		Categories: []string{"maths", "development", "shapes", "cursors", "gaming"},
-	},
-	{
+	}
+
+	circlePowerInfo = IconInfo{
 		Name:       "Circle Power",
+		Slug:       "circle-power",
 		Icon:       CirclePower,
 		Tags:       []string{"on", "off", "device", "switch", "toggle", "binary", "boolean", "reboot", "restart", "button", "keyboard", "troubleshoot"},
 		Categories: []string{"connectivity"},
-	},
-	{
+	}
+
+	circleSlash2Info = IconInfo{
 		Name:       "Circle Slash 2",
+		Slug:       "circle-slash-2",
 		Icon:       CircleSlash2,
 		Tags:       []string{"diameter", "zero", "Ø", "nothing", "null", "void", "ban", "maths", "divide", "division", "half", "split", "/"},
 		Categories: []string{"shapes", "maths", "development"},
-	},
-	{
+	}
+
+	circleSlashInfo = IconInfo{
 		Name:       "Circle Slash",
+		Slug:       "circle-slash",
 		Icon:       CircleSlash,
 		Tags:       []string{"diameter", "zero", "Ø", "nothing", "null", "void", "cancel", "ban", "no", "stop", "forbidden", "prohibited", "error", "incorrect", "mistake", "wrong", "failure", "divide", "division", "or", "/"},
 		Categories: []string{"shapes", "development", "maths"},
-	},
-	{
+	}
+
+	circleStopInfo = IconInfo{
 		Name:       "Circle Stop",
+		Slug:       "circle-stop",
 		Icon:       CircleStop,
 		Tags:       []string{"media", "music"},
 		Categories: []string{"multimedia", "shapes"},
-	},
-	{
+	}
+
+	circleUserRoundInfo = IconInfo{
 		Name:       "Circle User Round",
+		Slug:       "circle-user-round",
 		Icon:       CircleUserRound,
 		Tags:       []string{"person", "account", "contact"},
 		Categories: []string{"account", "shapes"},
-	},
-	{
+	}
+
+	circleUserInfo = IconInfo{
 		Name:       "Circle User",
+		Slug:       "circle-user",
 		Icon:       CircleUser,
 		Tags:       []string{"person", "account", "contact"},
 		Categories: []string{"account", "shapes"},
-	},
-	{
+	}
+
+	circleXInfo = IconInfo{
 		Name:       "Circle X",
+		Slug:       "circle-x",
 		Icon:       CircleX,
 		Tags:       []string{"cancel", "close", "delete", "remove", "times", "clear", "error", "incorrect", "wrong", "mistake", "failure", "linter", "multiply", "multiplication"},
 		Categories: []string{"maths", "shapes", "development"},
-	},
-	{
+	}
+
+	circleInfo = IconInfo{
 		Name:       "Circle",
+		Slug:       "circle",
 		Icon:       Circle,
 		Tags:       []string{"off", "zero", "record", "shape"},
 		Categories: []string{"shapes"},
-	},
-	{
+	}
+
+	circuitBoardInfo = IconInfo{
 		Name:       "Circuit Board",
+		Slug:       "circuit-board",
 		Icon:       CircuitBoard,
 		Tags:       []string{"computing", "electricity", "electronics"},
 		Categories: []string{"science", "development"},
-	},
-	{
+	}
+
+	citrusInfo = IconInfo{
 		Name:       "Citrus",
+		Slug:       "citrus",
 		Icon:       Citrus,
 		Tags:       []string{"lemon", "orange", "grapefruit", "fruit"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	clapperboardInfo = IconInfo{
 		Name:       "Clapperboard",
+		Slug:       "clapperboard",
 		Icon:       Clapperboard,
 		Tags:       []string{"movie", "film", "video", "camera", "cinema", "cut", "action", "television", "tv", "show", "entertainment"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	clipboardCheckInfo = IconInfo{
 		Name:       "Clipboard Check",
+		Slug:       "clipboard-check",
 		Icon:       ClipboardCheck,
 		Tags:       []string{"copied", "pasted", "done", "todo", "tick", "complete", "task"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	clipboardCopyInfo = IconInfo{
 		Name:       "Clipboard Copy",
+		Slug:       "clipboard-copy",
 		Icon:       ClipboardCopy,
 		Tags:       []string{"copy", "paste"},
 		Categories: []string{"text", "arrows"},
-	},
-	{
+	}
+
+	clipboardListInfo = IconInfo{
 		Name:       "Clipboard List",
+		Slug:       "clipboard-list",
 		Icon:       ClipboardList,
 		Tags:       []string{"copy", "paste", "tasks"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	clipboardMinusInfo = IconInfo{
 		Name:       "Clipboard Minus",
+		Slug:       "clipboard-minus",
 		Icon:       ClipboardMinus,
 		Tags:       []string{"copy", "delete", "remove", "erase", "document", "medical", "report", "doctor"},
 		Categories: []string{"text", "medical"},
-	},
-	{
+	}
+
+	clipboardPasteInfo = IconInfo{
 		Name:       "Clipboard Paste",
+		Slug:       "clipboard-paste",
 		Icon:       ClipboardPaste,
 		Tags:       []string{"copy", "paste"},
 		Categories: []string{"text", "arrows"},
-	},
-	{
+	}
+
+	clipboardPenLineInfo = IconInfo{
 		Name:       "Clipboard Pen Line",
+		Slug:       "clipboard-pen-line",
 		Icon:       ClipboardPenLine,
 		Tags:       []string{"paste"},
 		Categories: []string{"text", "account"},
-	},
-	{
+	}
+
+	clipboardPenInfo = IconInfo{
 		Name:       "Clipboard Pen",
+		Slug:       "clipboard-pen",
 		Icon:       ClipboardPen,
 		Tags:       []string{"paste", "signature"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	clipboardPlusInfo = IconInfo{
 		Name:       "Clipboard Plus",
+		Slug:       "clipboard-plus",
 		Icon:       ClipboardPlus,
 		Tags:       []string{"copy", "paste", "add", "create", "new", "document", "medical", "report", "doctor"},
 		Categories: []string{"text", "medical"},
-	},
-	{
+	}
+
+	clipboardTypeInfo = IconInfo{
 		Name:       "Clipboard Type",
+		Slug:       "clipboard-type",
 		Icon:       ClipboardType,
 		Tags:       []string{"paste", "format", "text"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	clipboardXInfo = IconInfo{
 		Name:       "Clipboard X",
+		Slug:       "clipboard-x",
 		Icon:       ClipboardX,
 		Tags:       []string{"copy", "paste", "discard", "remove"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	clipboardInfo = IconInfo{
 		Name:       "Clipboard",
+		Slug:       "clipboard",
 		Icon:       Clipboard,
 		Tags:       []string{"copy", "paste"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	clock1Info = IconInfo{
 		Name:       "Clock 1",
+		Slug:       "clock-1",
 		Icon:       Clock1,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clock10Info = IconInfo{
 		Name:       "Clock 10",
+		Slug:       "clock-10",
 		Icon:       Clock10,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clock11Info = IconInfo{
 		Name:       "Clock 11",
+		Slug:       "clock-11",
 		Icon:       Clock11,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clock12Info = IconInfo{
 		Name:       "Clock 12",
+		Slug:       "clock-12",
 		Icon:       Clock12,
 		Tags:       []string{"time", "watch", "alarm", "noon", "midnight"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clock2Info = IconInfo{
 		Name:       "Clock 2",
+		Slug:       "clock-2",
 		Icon:       Clock2,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clock3Info = IconInfo{
 		Name:       "Clock 3",
+		Slug:       "clock-3",
 		Icon:       Clock3,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clock4Info = IconInfo{
 		Name:       "Clock 4",
+		Slug:       "clock-4",
 		Icon:       Clock4,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clock5Info = IconInfo{
 		Name:       "Clock 5",
+		Slug:       "clock-5",
 		Icon:       Clock5,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clock6Info = IconInfo{
 		Name:       "Clock 6",
+		Slug:       "clock-6",
 		Icon:       Clock6,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clock7Info = IconInfo{
 		Name:       "Clock 7",
+		Slug:       "clock-7",
 		Icon:       Clock7,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clock8Info = IconInfo{
 		Name:       "Clock 8",
+		Slug:       "clock-8",
 		Icon:       Clock8,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clock9Info = IconInfo{
 		Name:       "Clock 9",
+		Slug:       "clock-9",
 		Icon:       Clock9,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clockAlertInfo = IconInfo{
 		Name:       "Clock Alert",
+		Slug:       "clock-alert",
 		Icon:       ClockAlert,
 		Tags:       []string{"time", "watch", "alarm", "warning", "wrong"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clockArrowDownInfo = IconInfo{
 		Name:       "Clock Arrow Down",
+		Slug:       "clock-arrow-down",
 		Icon:       ClockArrowDown,
 		Tags:       []string{"time", "watch", "alarm", "sort", "order", "ascending", "descending", "increasing", "decreasing", "rising", "falling"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clockArrowUpInfo = IconInfo{
 		Name:       "Clock Arrow Up",
+		Slug:       "clock-arrow-up",
 		Icon:       ClockArrowUp,
 		Tags:       []string{"time", "watch", "alarm", "sort", "order", "ascending", "descending", "increasing", "decreasing", "rising", "falling"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	clockInfo = IconInfo{
 		Name:       "Clock",
+		Slug:       "clock",
 		Icon:       Clock,
 		Tags:       []string{"time", "watch", "alarm"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	cloudCogInfo = IconInfo{
 		Name:       "Cloud Cog",
+		Slug:       "cloud-cog",
 		Icon:       CloudCog,
 		Tags:       []string{"computing", "ai", "cluster", "network"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	cloudDownloadInfo = IconInfo{
 		Name:       "Cloud Download",
+		Slug:       "cloud-download",
 		Icon:       CloudDownload,
 		Tags:       []string{"import"},
 		Categories: []string{"arrows", "files"},
-	},
-	{
+	}
+
+	cloudDrizzleInfo = IconInfo{
 		Name:       "Cloud Drizzle",
+		Slug:       "cloud-drizzle",
 		Icon:       CloudDrizzle,
 		Tags:       []string{"weather", "shower"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudFogInfo = IconInfo{
 		Name:       "Cloud Fog",
+		Slug:       "cloud-fog",
 		Icon:       CloudFog,
 		Tags:       []string{"weather", "mist"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudHailInfo = IconInfo{
 		Name:       "Cloud Hail",
+		Slug:       "cloud-hail",
 		Icon:       CloudHail,
 		Tags:       []string{"weather", "rainfall"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudLightningInfo = IconInfo{
 		Name:       "Cloud Lightning",
+		Slug:       "cloud-lightning",
 		Icon:       CloudLightning,
 		Tags:       []string{"weather", "bolt"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudMoonRainInfo = IconInfo{
 		Name:       "Cloud Moon Rain",
+		Slug:       "cloud-moon-rain",
 		Icon:       CloudMoonRain,
 		Tags:       []string{"weather", "partly", "night", "rainfall"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudMoonInfo = IconInfo{
 		Name:       "Cloud Moon",
+		Slug:       "cloud-moon",
 		Icon:       CloudMoon,
 		Tags:       []string{"weather", "night"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudOffInfo = IconInfo{
 		Name:       "Cloud Off",
+		Slug:       "cloud-off",
 		Icon:       CloudOff,
 		Tags:       []string{"disconnect"},
 		Categories: []string{"connectivity", "weather"},
-	},
-	{
+	}
+
+	cloudRainWindInfo = IconInfo{
 		Name:       "Cloud Rain Wind",
+		Slug:       "cloud-rain-wind",
 		Icon:       CloudRainWind,
 		Tags:       []string{"weather", "rainfall"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudRainInfo = IconInfo{
 		Name:       "Cloud Rain",
+		Slug:       "cloud-rain",
 		Icon:       CloudRain,
 		Tags:       []string{"weather", "rainfall"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudSnowInfo = IconInfo{
 		Name:       "Cloud Snow",
+		Slug:       "cloud-snow",
 		Icon:       CloudSnow,
 		Tags:       []string{"weather", "blizzard"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudSunRainInfo = IconInfo{
 		Name:       "Cloud Sun Rain",
+		Slug:       "cloud-sun-rain",
 		Icon:       CloudSunRain,
 		Tags:       []string{"weather", "partly", "rainfall"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudSunInfo = IconInfo{
 		Name:       "Cloud Sun",
+		Slug:       "cloud-sun",
 		Icon:       CloudSun,
 		Tags:       []string{"weather", "partly"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudUploadInfo = IconInfo{
 		Name:       "Cloud Upload",
+		Slug:       "cloud-upload",
 		Icon:       CloudUpload,
 		Tags:       []string{"file"},
 		Categories: []string{"arrows", "files"},
-	},
-	{
+	}
+
+	cloudInfo = IconInfo{
 		Name:       "Cloud",
+		Slug:       "cloud",
 		Icon:       Cloud,
 		Tags:       []string{"weather"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloudyInfo = IconInfo{
 		Name:       "Cloudy",
+		Slug:       "cloudy",
 		Icon:       Cloudy,
 		Tags:       []string{"weather", "clouds"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	cloverInfo = IconInfo{
 		Name:       "Clover",
+		Slug:       "clover",
 		Icon:       Clover,
 		Tags:       []string{"leaf", "luck", "plant"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	clubInfo = IconInfo{
 		Name:       "Club",
+		Slug:       "club",
 		Icon:       Club,
 		Tags:       []string{"shape", "suit", "playing", "cards"},
 		Categories: []string{"shapes", "gaming"},
-	},
-	{
+	}
+
+	codeXmlInfo = IconInfo{
 		Name:       "Code Xml",
+		Slug:       "code-xml",
 		Icon:       CodeXml,
 		Tags:       []string{"source", "programming", "html", "xml"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	codeInfo = IconInfo{
 		Name:       "Code",
+		Slug:       "code",
 		Icon:       Code,
 		Tags:       []string{"source", "programming", "html", "xml"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	codepenInfo = IconInfo{
 		Name:       "Codepen",
+		Slug:       "codepen",
 		Icon:       Codepen,
 		Tags:       []string{"logo"},
 		Categories: []string{"brands", "development"},
-	},
-	{
+	}
+
+	codesandboxInfo = IconInfo{
 		Name:       "Codesandbox",
+		Slug:       "codesandbox",
 		Icon:       Codesandbox,
 		Tags:       []string{"logo"},
 		Categories: []string{"brands", "development"},
-	},
-	{
+	}
+
+	coffeeInfo = IconInfo{
 		Name:       "Coffee",
+		Slug:       "coffee",
 		Icon:       Coffee,
 		Tags:       []string{"drink", "cup", "mug", "tea", "cafe", "hot", "beverage"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	cogInfo = IconInfo{
 		Name:       "Cog",
+		Slug:       "cog",
 		Icon:       Cog,
 		Tags:       []string{"computing", "settings", "cog", "edit", "gear", "preferences"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	coinsInfo = IconInfo{
 		Name:       "Coins",
+		Slug:       "coins",
 		Icon:       Coins,
 		Tags:       []string{"money", "cash", "finance", "gamble"},
 		Categories: []string{"money", "gaming"},
-	},
-	{
+	}
+
+	columns2Info = IconInfo{
 		Name:       "Columns 2",
+		Slug:       "columns-2",
 		Icon:       Columns2,
 		Tags:       []string{"lines", "list", "queue", "preview", "panel", "parallel", "series", "split", "vertical", "horizontal", "half", "center", "middle", "even", "sidebar", "drawer", "gutter", "fold", "reflow", "typography", "pagination", "pages"},
 		Categories: []string{"layout", "design", "text"},
-	},
-	{
+	}
+
+	columns3Info = IconInfo{
 		Name:       "Columns 3",
+		Slug:       "columns-3",
 		Icon:       Columns3,
 		Tags:       []string{"lines", "list", "queue", "preview", "parallel", "series", "split", "vertical", "horizontal", "thirds", "triple", "center", "middle", "alignment", "even", "sidebars", "drawers", "gutters", "fold", "reflow", "typography", "pagination", "pages"},
 		Categories: []string{"layout", "design", "text"},
-	},
-	{
+	}
+
+	columns4Info = IconInfo{
 		Name:       "Columns 4",
+		Slug:       "columns-4",
 		Icon:       Columns4,
 		Tags:       []string{"lines", "list", "queue", "preview", "parallel", "series", "split", "vertical", "horizontal", "thirds", "triple", "center", "middle", "alignment", "even", "sidebars", "drawers", "gutters", "fold", "reflow", "typography", "pagination", "pages", "prison", "jail", "bars", "sentence", "police", "cops", "cell", "crime", "criminal", "justice", "law", "enforcement", "grill"},
 		Categories: []string{"layout", "design", "text", "security"},
-	},
-	{
+	}
+
+	combineInfo = IconInfo{
 		Name:       "Combine",
+		Slug:       "combine",
 		Icon:       Combine,
 		Tags:       []string{"cubes", "packages", "parts", "units", "collection", "cluster", "combine", "gather", "merge"},
 		Categories: []string{"shapes", "development", "files"},
-	},
-	{
+	}
+
+	commandInfo = IconInfo{
 		Name:       "Command",
+		Slug:       "command",
 		Icon:       Command,
 		Tags:       []string{"keyboard", "key", "mac", "cmd", "button"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	compassInfo = IconInfo{
 		Name:       "Compass",
+		Slug:       "compass",
 		Icon:       Compass,
 		Tags:       []string{"direction", "north", "east", "south", "west", "safari", "browser"},
 		Categories: []string{"navigation", "maps", "travel"},
-	},
-	{
+	}
+
+	componentInfo = IconInfo{
 		Name:       "Component",
+		Slug:       "component",
 		Icon:       Component,
 		Tags:       []string{"design", "element", "group", "module", "part", "symbol"},
 		Categories: []string{"design", "development"},
-	},
-	{
+	}
+
+	computerInfo = IconInfo{
 		Name:       "Computer",
+		Slug:       "computer",
 		Icon:       Computer,
 		Tags:       []string{"pc", "chassis", "codespaces", "github"},
 		Categories: []string{"devices", "development", "gaming"},
-	},
-	{
+	}
+
+	conciergeBellInfo = IconInfo{
 		Name:       "Concierge Bell",
+		Slug:       "concierge-bell",
 		Icon:       ConciergeBell,
 		Tags:       []string{"reception", "bell", "porter"},
 		Categories: []string{"travel"},
-	},
-	{
+	}
+
+	coneInfo = IconInfo{
 		Name:       "Cone",
+		Slug:       "cone",
 		Icon:       Cone,
 		Tags:       []string{"conical", "triangle", "triangular", "geometry", "filter", "funnel", "hopper", "spotlight", "searchlight"},
 		Categories: []string{"shapes", "maths"},
-	},
-	{
+	}
+
+	constructionInfo = IconInfo{
 		Name:       "Construction",
+		Slug:       "construction",
 		Icon:       Construction,
 		Tags:       []string{"roadwork", "maintenance", "blockade", "barricade"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	contactRoundInfo = IconInfo{
 		Name:       "Contact Round",
+		Slug:       "contact-round",
 		Icon:       ContactRound,
 		Tags:       []string{"user", "person", "family", "friend", "acquaintance", "listing", "networking"},
 		Categories: []string{"account", "connectivity", "communication", "social"},
-	},
-	{
+	}
+
+	contactInfo = IconInfo{
 		Name:       "Contact",
+		Slug:       "contact",
 		Icon:       Contact,
 		Tags:       []string{"user", "person", "family", "friend", "acquaintance", "listing", "networking"},
 		Categories: []string{"account", "connectivity", "communication", "social"},
-	},
-	{
+	}
+
+	containerInfo = IconInfo{
 		Name:       "Container",
+		Slug:       "container",
 		Icon:       Container,
 		Tags:       []string{"storage", "shipping", "freight", "supply chain", "docker", "environment", "devops", "code", "coding"},
 		Categories: []string{"development", "transportation", "mail"},
-	},
-	{
+	}
+
+	contrastInfo = IconInfo{
 		Name:       "Contrast",
+		Slug:       "contrast",
 		Icon:       Contrast,
 		Tags:       []string{"display", "accessibility"},
 		Categories: []string{"photography", "accessibility", "design"},
-	},
-	{
+	}
+
+	cookieInfo = IconInfo{
 		Name:       "Cookie",
+		Slug:       "cookie",
 		Icon:       Cookie,
 		Tags:       []string{"biscuit", "privacy", "legal", "food"},
 		Categories: []string{"account", "food-beverage"},
-	},
-	{
+	}
+
+	cookingPotInfo = IconInfo{
 		Name:       "Cooking Pot",
+		Slug:       "cooking-pot",
 		Icon:       CookingPot,
 		Tags:       []string{"pod", "cooking", "recipe", "food", "kitchen", "chef", "restaurant", "dinner", "lunch", "breakfast", "meal", "eat"},
 		Categories: []string{"food-beverage", "home"},
-	},
-	{
+	}
+
+	copyCheckInfo = IconInfo{
 		Name:       "Copy Check",
+		Slug:       "copy-check",
 		Icon:       CopyCheck,
 		Tags:       []string{"clone", "duplicate", "done", "multiple"},
 		Categories: []string{"text", "notifications"},
-	},
-	{
+	}
+
+	copyMinusInfo = IconInfo{
 		Name:       "Copy Minus",
+		Slug:       "copy-minus",
 		Icon:       CopyMinus,
 		Tags:       []string{"clone", "duplicate", "remove", "delete", "collapse", "subtract", "multiple", "-"},
 		Categories: []string{"text", "maths"},
-	},
-	{
+	}
+
+	copyPlusInfo = IconInfo{
 		Name:       "Copy Plus",
+		Slug:       "copy-plus",
 		Icon:       CopyPlus,
 		Tags:       []string{"clone", "duplicate", "add", "multiple", "expand", "+"},
 		Categories: []string{"text", "maths"},
-	},
-	{
+	}
+
+	copySlashInfo = IconInfo{
 		Name:       "Copy Slash",
+		Slug:       "copy-slash",
 		Icon:       CopySlash,
 		Tags:       []string{"clone", "duplicate", "cancel", "ban", "no", "stop", "forbidden", "prohibited", "error", "multiple", "divide", "division", "split", "or", "/"},
 		Categories: []string{"text", "development", "maths"},
-	},
-	{
+	}
+
+	copyXInfo = IconInfo{
 		Name:       "Copy X",
+		Slug:       "copy-x",
 		Icon:       CopyX,
 		Tags:       []string{"cancel", "close", "delete", "remove", "clear", "multiple", "multiply", "multiplication", "times"},
 		Categories: []string{"notifications", "maths"},
-	},
-	{
+	}
+
+	copyInfo = IconInfo{
 		Name:       "Copy",
+		Slug:       "copy",
 		Icon:       Copy,
 		Tags:       []string{"clone", "duplicate", "multiple"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	copyleftInfo = IconInfo{
 		Name:       "Copyleft",
+		Slug:       "copyleft",
 		Icon:       Copyleft,
 		Tags:       []string{"licence"},
 		Categories: []string{},
-	},
-	{
+	}
+
+	copyrightInfo = IconInfo{
 		Name:       "Copyright",
+		Slug:       "copyright",
 		Icon:       Copyright,
 		Tags:       []string{"licence", "license"},
 		Categories: []string{},
-	},
-	{
+	}
+
+	cornerDownLeftInfo = IconInfo{
 		Name:       "Corner Down Left",
+		Slug:       "corner-down-left",
 		Icon:       CornerDownLeft,
 		Tags:       []string{"arrow", "return"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	cornerDownRightInfo = IconInfo{
 		Name:       "Corner Down Right",
+		Slug:       "corner-down-right",
 		Icon:       CornerDownRight,
 		Tags:       []string{"arrow", "indent", "tab"},
 		Categories: []string{"arrows", "text", "development"},
-	},
-	{
+	}
+
+	cornerLeftDownInfo = IconInfo{
 		Name:       "Corner Left Down",
+		Slug:       "corner-left-down",
 		Icon:       CornerLeftDown,
 		Tags:       []string{"arrow"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	cornerLeftUpInfo = IconInfo{
 		Name:       "Corner Left Up",
+		Slug:       "corner-left-up",
 		Icon:       CornerLeftUp,
 		Tags:       []string{"arrow"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	cornerRightDownInfo = IconInfo{
 		Name:       "Corner Right Down",
+		Slug:       "corner-right-down",
 		Icon:       CornerRightDown,
 		Tags:       []string{"arrow"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	cornerRightUpInfo = IconInfo{
 		Name:       "Corner Right Up",
+		Slug:       "corner-right-up",
 		Icon:       CornerRightUp,
 		Tags:       []string{"arrow"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	cornerUpLeftInfo = IconInfo{
 		Name:       "Corner Up Left",
+		Slug:       "corner-up-left",
 		Icon:       CornerUpLeft,
 		Tags:       []string{"arrow"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	cornerUpRightInfo = IconInfo{
 		Name:       "Corner Up Right",
+		Slug:       "corner-up-right",
 		Icon:       CornerUpRight,
 		Tags:       []string{"arrow"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	cpuInfo = IconInfo{
 		Name:       "Cpu",
+		Slug:       "cpu",
 		Icon:       Cpu,
 		Tags:       []string{"processor", "cores", "technology", "computer", "chip", "circuit", "memory", "ram", "specs", "gigahertz", "ghz"},
 		Categories: []string{"devices"},
-	},
-	{
+	}
+
+	creativeCommonsInfo = IconInfo{
 		Name:       "Creative Commons",
+		Slug:       "creative-commons",
 		Icon:       CreativeCommons,
 		Tags:       []string{"licence", "license"},
 		Categories: []string{},
-	},
-	{
+	}
+
+	creditCardInfo = IconInfo{
 		Name:       "Credit Card",
+		Slug:       "credit-card",
 		Icon:       CreditCard,
 		Tags:       []string{"bank", "purchase", "payment", "cc"},
 		Categories: []string{"account", "money"},
-	},
-	{
+	}
+
+	croissantInfo = IconInfo{
 		Name:       "Croissant",
+		Slug:       "croissant",
 		Icon:       Croissant,
 		Tags:       []string{"bakery", "cooking", "food", "pastry"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	cropInfo = IconInfo{
 		Name:       "Crop",
+		Slug:       "crop",
 		Icon:       Crop,
 		Tags:       []string{"photo", "image"},
 		Categories: []string{"photography", "design"},
-	},
-	{
+	}
+
+	crossInfo = IconInfo{
 		Name:       "Cross",
+		Slug:       "cross",
 		Icon:       Cross,
 		Tags:       []string{"healthcare", "first aid"},
 		Categories: []string{"shapes"},
-	},
-	{
+	}
+
+	crosshairInfo = IconInfo{
 		Name:       "Crosshair",
+		Slug:       "crosshair",
 		Icon:       Crosshair,
 		Tags:       []string{"aim", "target"},
 		Categories: []string{"photography"},
-	},
-	{
+	}
+
+	crownInfo = IconInfo{
 		Name:       "Crown",
+		Slug:       "crown",
 		Icon:       Crown,
 		Tags:       []string{"diadem", "tiara", "circlet", "corona", "king", "ruler", "winner", "favourite"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	cuboidInfo = IconInfo{
 		Name:       "Cuboid",
+		Slug:       "cuboid",
 		Icon:       Cuboid,
 		Tags:       []string{"brick", "block", "container", "storage", "geometry", "rectangular", "hexahedron"},
 		Categories: []string{"shapes", "maths", "buildings"},
-	},
-	{
+	}
+
+	cupSodaInfo = IconInfo{
 		Name:       "Cup Soda",
+		Slug:       "cup-soda",
 		Icon:       CupSoda,
 		Tags:       []string{"beverage", "cup", "drink", "soda", "straw", "water"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	currencyInfo = IconInfo{
 		Name:       "Currency",
+		Slug:       "currency",
 		Icon:       Currency,
 		Tags:       []string{"finance", "money"},
 		Categories: []string{"currency", "money"},
-	},
-	{
+	}
+
+	cylinderInfo = IconInfo{
 		Name:       "Cylinder",
+		Slug:       "cylinder",
 		Icon:       Cylinder,
 		Tags:       []string{"shape", "elliptical", "geometry", "container", "storage", "tin", "pot"},
 		Categories: []string{"shapes", "design", "maths"},
-	},
-	{
+	}
+
+	damInfo = IconInfo{
 		Name:       "Dam",
+		Slug:       "dam",
 		Icon:       Dam,
 		Tags:       []string{"electricity", "energy", "water"},
 		Categories: []string{"buildings", "sustainability"},
-	},
-	{
+	}
+
+	databaseBackupInfo = IconInfo{
 		Name:       "Database Backup",
+		Slug:       "database-backup",
 		Icon:       DatabaseBackup,
 		Tags:       []string{"storage", "memory", "bytes", "servers", "backup", "timemachine", "rotate", "arrow", "left"},
 		Categories: []string{"devices", "arrows", "design", "development", "photography"},
-	},
-	{
+	}
+
+	databaseZapInfo = IconInfo{
 		Name:       "Database Zap",
+		Slug:       "database-zap",
 		Icon:       DatabaseZap,
 		Tags:       []string{"cache busting", "storage", "memory", "bytes", "servers", "power", "crash"},
 		Categories: []string{"devices", "development"},
-	},
-	{
+	}
+
+	databaseInfo = IconInfo{
 		Name:       "Database",
+		Slug:       "database",
 		Icon:       Database,
 		Tags:       []string{"storage", "memory", "container", "tin", "pot", "bytes", "servers"},
 		Categories: []string{"devices", "development"},
-	},
-	{
+	}
+
+	deleteInfo = IconInfo{
 		Name:       "Delete",
+		Slug:       "delete",
 		Icon:       Delete,
 		Tags:       []string{"backspace", "remove"},
 		Categories: []string{"text", "arrows"},
-	},
-	{
+	}
+
+	dessertInfo = IconInfo{
 		Name:       "Dessert",
+		Slug:       "dessert",
 		Icon:       Dessert,
 		Tags:       []string{"pudding", "christmas", "xmas", "custard", "iced bun", "icing", "fondant", "cake", "ice cream", "gelato", "sundae", "scoop", "dollop", "sugar", "food", "sweet"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	diameterInfo = IconInfo{
 		Name:       "Diameter",
+		Slug:       "diameter",
 		Icon:       Diameter,
 		Tags:       []string{"shape", "circle", "geometry", "trigonometry", "width", "height", "size", "calculate", "measure"},
 		Categories: []string{"shapes", "maths", "design", "tools"},
-	},
-	{
+	}
+
+	diamondMinusInfo = IconInfo{
 		Name:       "Diamond Minus",
+		Slug:       "diamond-minus",
 		Icon:       DiamondMinus,
 		Tags:       []string{"keyframe", "subtract", "remove", "decrease", "reduce", "calculator", "button", "keyboard", "line", "divider", "separator", "horizontal rule", "hr", "html", "markup", "markdown", "---", "toolbar", "operator", "code", "coding", "minimum", "downgrade"},
 		Categories: []string{"multimedia", "shapes", "photography", "tools", "devices"},
-	},
-	{
+	}
+
+	diamondPercentInfo = IconInfo{
 		Name:       "Diamond Percent",
+		Slug:       "diamond-percent",
 		Icon:       DiamondPercent,
 		Tags:       []string{"verified", "unverified", "sale", "discount", "offer", "marketing", "sticker", "price tag"},
 		Categories: []string{"account", "social", "money", "shopping", "maths", "shapes"},
-	},
-	{
+	}
+
+	diamondPlusInfo = IconInfo{
 		Name:       "Diamond Plus",
+		Slug:       "diamond-plus",
 		Icon:       DiamondPlus,
 		Tags:       []string{"keyframe", "add", "new", "increase", "increment", "positive", "calculate", "toolbar", "crosshair", "aim", "target", "scope", "sight", "reticule", "maximum", "upgrade", "extra", "+"},
 		Categories: []string{"multimedia", "shapes", "photography", "tools", "devices"},
-	},
-	{
+	}
+
+	diamondInfo = IconInfo{
 		Name:       "Diamond",
+		Slug:       "diamond",
 		Icon:       Diamond,
 		Tags:       []string{"square", "rectangle", "oblique", "rhombus", "shape", "suit", "playing", "cards"},
 		Categories: []string{"shapes", "gaming"},
-	},
-	{
+	}
+
+	dice1Info = IconInfo{
 		Name:       "Dice 1",
+		Slug:       "dice-1",
 		Icon:       Dice1,
 		Tags:       []string{"dice", "random", "tabletop", "1", "board", "game"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	dice2Info = IconInfo{
 		Name:       "Dice 2",
+		Slug:       "dice-2",
 		Icon:       Dice2,
 		Tags:       []string{"dice", "random", "tabletop", "2", "board", "game"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	dice3Info = IconInfo{
 		Name:       "Dice 3",
+		Slug:       "dice-3",
 		Icon:       Dice3,
 		Tags:       []string{"dice", "random", "tabletop", "3", "board", "game"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	dice4Info = IconInfo{
 		Name:       "Dice 4",
+		Slug:       "dice-4",
 		Icon:       Dice4,
 		Tags:       []string{"dice", "random", "tabletop", "4", "board", "game"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	dice5Info = IconInfo{
 		Name:       "Dice 5",
+		Slug:       "dice-5",
 		Icon:       Dice5,
 		Tags:       []string{"dice", "random", "tabletop", "5", "board", "game"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	dice6Info = IconInfo{
 		Name:       "Dice 6",
+		Slug:       "dice-6",
 		Icon:       Dice6,
 		Tags:       []string{"dice", "random", "tabletop", "6", "board", "game"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	dicesInfo = IconInfo{
 		Name:       "Dices",
+		Slug:       "dices",
 		Icon:       Dices,
 		Tags:       []string{"dice", "random", "tabletop", "board", "game"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	diffInfo = IconInfo{
 		Name:       "Diff",
+		Slug:       "diff",
 		Icon:       Diff,
 		Tags:       []string{"patch", "difference", "compare", "plus", "minus", "plus-minus", "maths"},
 		Categories: []string{"development", "files"},
-	},
-	{
+	}
+
+	disc2Info = IconInfo{
 		Name:       "Disc 2",
+		Slug:       "disc-2",
 		Icon:       Disc2,
 		Tags:       []string{"album", "music", "vinyl", "record", "cd", "dvd", "format", "dj", "spin", "rotate", "rpm"},
 		Categories: []string{"devices", "multimedia"},
-	},
-	{
+	}
+
+	disc3Info = IconInfo{
 		Name:       "Disc 3",
+		Slug:       "disc-3",
 		Icon:       Disc3,
 		Tags:       []string{"album", "music", "vinyl", "record", "cd", "dvd", "format", "dj", "spin", "rotate", "rpm"},
 		Categories: []string{"devices", "multimedia"},
-	},
-	{
+	}
+
+	discAlbumInfo = IconInfo{
 		Name:       "Disc Album",
+		Slug:       "disc-album",
 		Icon:       DiscAlbum,
 		Tags:       []string{"album", "music", "songs", "format", "cd", "dvd", "vinyl", "sleeve", "cover", "platinum", "compilation", "ep", "recording", "playback", "spin", "rotate", "rpm", "dj"},
 		Categories: []string{"devices", "multimedia"},
-	},
-	{
+	}
+
+	discInfo = IconInfo{
 		Name:       "Disc",
+		Slug:       "disc",
 		Icon:       Disc,
 		Tags:       []string{"album", "music", "songs", "format", "cd", "dvd", "vinyl", "sleeve", "cover", "platinum", "compilation", "ep", "recording", "playback", "spin", "rotate", "rpm", "dj"},
 		Categories: []string{"devices", "multimedia"},
-	},
-	{
+	}
+
+	divideInfo = IconInfo{
 		Name:       "Divide",
+		Slug:       "divide",
 		Icon:       Divide,
 		Tags:       []string{"calculate", "maths", "division", "operator", "code", "÷", "/"},
 		Categories: []string{"maths", "development"},
-	},
-	{
+	}
+
+	dnaOffInfo = IconInfo{
 		Name:       "Dna Off",
+		Slug:       "dna-off",
 		Icon:       DnaOff,
 		Tags:       []string{"gene", "gmo free", "helix", "heredity", "chromosome", "nucleic acid"},
 		Categories: []string{"medical", "food-beverage"},
-	},
-	{
+	}
+
+	dnaInfo = IconInfo{
 		Name:       "Dna",
+		Slug:       "dna",
 		Icon:       Dna,
 		Tags:       []string{"gene", "gmo", "helix", "heredity", "chromosome", "nucleic acid"},
 		Categories: []string{"medical"},
-	},
-	{
+	}
+
+	dockInfo = IconInfo{
 		Name:       "Dock",
+		Slug:       "dock",
 		Icon:       Dock,
 		Tags:       []string{"desktop", "applications", "launch", "home", "menu bar", "bottom", "line", "macos", "osx"},
 		Categories: []string{"layout", "design", "development", "files"},
-	},
-	{
+	}
+
+	dogInfo = IconInfo{
 		Name:       "Dog",
+		Slug:       "dog",
 		Icon:       Dog,
 		Tags:       []string{"animal", "pet", "puppy", "hound", "canine"},
 		Categories: []string{"animals"},
-	},
-	{
+	}
+
+	dollarSignInfo = IconInfo{
 		Name:       "Dollar Sign",
+		Slug:       "dollar-sign",
 		Icon:       DollarSign,
 		Tags:       []string{"currency", "money", "payment"},
 		Categories: []string{"currency", "money"},
-	},
-	{
+	}
+
+	donutInfo = IconInfo{
 		Name:       "Donut",
+		Slug:       "donut",
 		Icon:       Donut,
 		Tags:       []string{"doughnut", "sprinkles", "topping", "fast food", "junk food", "snack", "treat", "sweet", "sugar", "dessert", "hollow", "ring"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	doorClosedInfo = IconInfo{
 		Name:       "Door Closed",
+		Slug:       "door-closed",
 		Icon:       DoorClosed,
 		Tags:       []string{"entrance", "entry", "exit", "ingress", "egress", "gate", "gateway", "emergency exit"},
 		Categories: []string{"home", "travel", "furniture", "security"},
-	},
-	{
+	}
+
+	doorOpenInfo = IconInfo{
 		Name:       "Door Open",
+		Slug:       "door-open",
 		Icon:       DoorOpen,
 		Tags:       []string{"entrance", "entry", "exit", "ingress", "egress", "gate", "gateway", "emergency exit"},
 		Categories: []string{"home", "travel", "furniture", "security"},
-	},
-	{
+	}
+
+	dotInfo = IconInfo{
 		Name:       "Dot",
+		Slug:       "dot",
 		Icon:       Dot,
 		Tags:       []string{"interpunct", "interpoint", "middot", "step", "punctuation", "period", "full stop", "end", "finish", "final", "characters", "font", "typography", "type", "center", "."},
 		Categories: []string{"shapes", "text"},
-	},
-	{
+	}
+
+	downloadInfo = IconInfo{
 		Name:       "Download",
+		Slug:       "download",
 		Icon:       Download,
 		Tags:       []string{"import", "export", "save"},
 		Categories: []string{"arrows", "files"},
-	},
-	{
+	}
+
+	draftingCompassInfo = IconInfo{
 		Name:       "Drafting Compass",
+		Slug:       "drafting-compass",
 		Icon:       DraftingCompass,
 		Tags:       []string{"geometry", "trigonometry", "radius", "diameter", "circumference", "calculate", "measure", "arc", "curve", "draw", "sketch"},
 		Categories: []string{"shapes", "maths", "design", "tools"},
-	},
-	{
+	}
+
+	dramaInfo = IconInfo{
 		Name:       "Drama",
+		Slug:       "drama",
 		Icon:       Drama,
 		Tags:       []string{"drama", "masks", "theater", "theatre", "entertainment", "show"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	dribbbleInfo = IconInfo{
 		Name:       "Dribbble",
+		Slug:       "dribbble",
 		Icon:       Dribbble,
 		Tags:       []string{"design", "social"},
 		Categories: []string{"brands", "social", "design"},
-	},
-	{
+	}
+
+	drillInfo = IconInfo{
 		Name:       "Drill",
+		Slug:       "drill",
 		Icon:       Drill,
 		Tags:       []string{"power", "bit", "head", "hole", "diy", "toolbox", "build", "construction"},
 		Categories: []string{"tools", "home", "devices"},
-	},
-	{
+	}
+
+	dropletInfo = IconInfo{
 		Name:       "Droplet",
+		Slug:       "droplet",
 		Icon:       Droplet,
 		Tags:       []string{"water", "weather", "liquid", "fluid", "wet", "moisture", "damp", "bead", "globule"},
 		Categories: []string{"weather", "gaming"},
-	},
-	{
+	}
+
+	dropletsInfo = IconInfo{
 		Name:       "Droplets",
+		Slug:       "droplets",
 		Icon:       Droplets,
 		Tags:       []string{"water", "weather", "liquid", "fluid", "wet", "moisture", "damp", "bead", "globule"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	drumInfo = IconInfo{
 		Name:       "Drum",
+		Slug:       "drum",
 		Icon:       Drum,
 		Tags:       []string{"drummer", "kit", "sticks", "instrument", "beat", "bang", "bass", "backing track", "band", "play", "performance", "concert", "march", "music", "audio", "sound", "noise", "loud"},
 		Categories: []string{"multimedia", "devices"},
-	},
-	{
+	}
+
+	drumstickInfo = IconInfo{
 		Name:       "Drumstick",
+		Slug:       "drumstick",
 		Icon:       Drumstick,
 		Tags:       []string{"food", "chicken", "meat"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	dumbbellInfo = IconInfo{
 		Name:       "Dumbbell",
+		Slug:       "dumbbell",
 		Icon:       Dumbbell,
 		Tags:       []string{"barbell", "weight", "workout", "gym"},
 		Categories: []string{"maps", "sports"},
-	},
-	{
+	}
+
+	earOffInfo = IconInfo{
 		Name:       "Ear Off",
+		Slug:       "ear-off",
 		Icon:       EarOff,
 		Tags:       []string{"hearing", "hard of hearing", "hearing loss", "deafness", "noise", "silence", "audio", "accessibility"},
 		Categories: []string{"medical", "accessibility"},
-	},
-	{
+	}
+
+	earInfo = IconInfo{
 		Name:       "Ear",
+		Slug:       "ear",
 		Icon:       Ear,
 		Tags:       []string{"hearing", "noise", "audio", "accessibility"},
 		Categories: []string{"medical", "accessibility"},
-	},
-	{
+	}
+
+	earthLockInfo = IconInfo{
 		Name:       "Earth Lock",
+		Slug:       "earth-lock",
 		Icon:       EarthLock,
 		Tags:       []string{"vpn", "private", "privacy", "network", "world", "browser", "security", "encryption", "protection", "connection"},
 		Categories: []string{"security", "development", "devices"},
-	},
-	{
+	}
+
+	earthInfo = IconInfo{
 		Name:       "Earth",
+		Slug:       "earth",
 		Icon:       Earth,
 		Tags:       []string{"world", "browser", "language", "translate", "globe"},
 		Categories: []string{"maps", "navigation"},
-	},
-	{
+	}
+
+	eclipseInfo = IconInfo{
 		Name:       "Eclipse",
+		Slug:       "eclipse",
 		Icon:       Eclipse,
 		Tags:       []string{"lunar", "solar", "crescent moon", "sun", "earth", "day", "night", "planet", "space", "mode", "dark", "light", "toggle", "switch", "color", "css", "styles", "display", "accessibility", "contrast", "brightness", "blend", "shade"},
 		Categories: []string{"science", "design", "development", "accessibility", "photography"},
-	},
-	{
+	}
+
+	eggFriedInfo = IconInfo{
 		Name:       "Egg Fried",
+		Slug:       "egg-fried",
 		Icon:       EggFried,
 		Tags:       []string{"food", "breakfast"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	eggOffInfo = IconInfo{
 		Name:       "Egg Off",
+		Slug:       "egg-off",
 		Icon:       EggOff,
 		Tags:       []string{"egg free", "vegan", "hatched", "bad egg"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	eggInfo = IconInfo{
 		Name:       "Egg",
+		Slug:       "egg",
 		Icon:       Egg,
 		Tags:       []string{"bird", "chicken", "nest", "hatch", "shell", "incubate", "soft boiled", "hard", "breakfast", "brunch", "morning", "easter"},
 		Categories: []string{"food-beverage", "animals"},
-	},
-	{
+	}
+
+	ellipsisVerticalInfo = IconInfo{
 		Name:       "Ellipsis Vertical",
+		Slug:       "ellipsis-vertical",
 		Icon:       EllipsisVertical,
 		Tags:       []string{"menu", "options", "spread", "more", "further", "extra", "overflow", "dots", "…", "..."},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	ellipsisInfo = IconInfo{
 		Name:       "Ellipsis",
+		Slug:       "ellipsis",
 		Icon:       Ellipsis,
 		Tags:       []string{"et cetera", "etc", "loader", "loading", "progress", "pending", "throbber", "menu", "options", "operator", "code", "coding", "spread", "rest", "more", "further", "extra", "overflow", "dots", "…", "..."},
 		Categories: []string{"layout", "development"},
-	},
-	{
+	}
+
+	equalNotInfo = IconInfo{
 		Name:       "Equal Not",
+		Slug:       "equal-not",
 		Icon:       EqualNot,
 		Tags:       []string{"calculate", "off", "maths", "operator", "code", "≠"},
 		Categories: []string{"maths", "development"},
-	},
-	{
+	}
+
+	equalInfo = IconInfo{
 		Name:       "Equal",
+		Slug:       "equal",
 		Icon:       Equal,
 		Tags:       []string{"calculate", "maths", "operator", "assignment", "code", "="},
 		Categories: []string{"maths", "development"},
-	},
-	{
+	}
+
+	eraserInfo = IconInfo{
 		Name:       "Eraser",
+		Slug:       "eraser",
 		Icon:       Eraser,
 		Tags:       []string{"pencil", "drawing", "undo", "delete", "clear"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	ethernetPortInfo = IconInfo{
 		Name:       "Ethernet Port",
+		Slug:       "ethernet-port",
 		Icon:       EthernetPort,
 		Tags:       []string{"internet", "network", "connection", "cable", "lan", "port", "router", "switch", "hub", "modem", "web", "online", "networking", "communication", "socket", "plug", "slot", "controller", "connector", "interface", "console", "signal", "data", "input", "output"},
 		Categories: []string{"communication", "devices", "multimedia", "gaming"},
-	},
-	{
+	}
+
+	euroInfo = IconInfo{
 		Name:       "Euro",
+		Slug:       "euro",
 		Icon:       Euro,
 		Tags:       []string{"currency", "money", "payment"},
 		Categories: []string{"currency", "money"},
-	},
-	{
+	}
+
+	expandInfo = IconInfo{
 		Name:       "Expand",
+		Slug:       "expand",
 		Icon:       Expand,
 		Tags:       []string{"scale", "fullscreen"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	externalLinkInfo = IconInfo{
 		Name:       "External Link",
+		Slug:       "external-link",
 		Icon:       ExternalLink,
 		Tags:       []string{"outbound", "open", "share"},
 		Categories: []string{"arrows", "text", "social"},
-	},
-	{
+	}
+
+	eyeClosedInfo = IconInfo{
 		Name:       "Eye Closed",
+		Slug:       "eye-closed",
 		Icon:       EyeClosed,
 		Tags:       []string{"view", "watch", "see", "hide", "conceal", "mask", "hidden", "visibility", "vision"},
 		Categories: []string{"accessibility", "photography", "design", "security"},
-	},
-	{
+	}
+
+	eyeOffInfo = IconInfo{
 		Name:       "Eye Off",
+		Slug:       "eye-off",
 		Icon:       EyeOff,
 		Tags:       []string{"view", "watch", "see", "hide", "conceal", "mask", "hidden", "visibility", "vision"},
 		Categories: []string{"accessibility", "photography", "design", "security"},
-	},
-	{
+	}
+
+	eyeInfo = IconInfo{
 		Name:       "Eye",
+		Slug:       "eye",
 		Icon:       Eye,
 		Tags:       []string{"view", "watch", "see", "show", "expose", "reveal", "display", "visible", "visibility", "vision", "preview", "read"},
 		Categories: []string{"accessibility", "photography", "design", "security"},
-	},
-	{
+	}
+
+	facebookInfo = IconInfo{
 		Name:       "Facebook",
+		Slug:       "facebook",
 		Icon:       Facebook,
 		Tags:       []string{"logo", "social"},
 		Categories: []string{"account", "social", "brands"},
-	},
-	{
+	}
+
+	factoryInfo = IconInfo{
 		Name:       "Factory",
+		Slug:       "factory",
 		Icon:       Factory,
 		Tags:       []string{"building", "business", "energy", "industry", "manufacture", "sector"},
 		Categories: []string{"buildings"},
-	},
-	{
+	}
+
+	fanInfo = IconInfo{
 		Name:       "Fan",
+		Slug:       "fan",
 		Icon:       Fan,
 		Tags:       []string{"air", "cooler", "ventilation", "ventilator", "blower"},
 		Categories: []string{"home"},
-	},
-	{
+	}
+
+	fastForwardInfo = IconInfo{
 		Name:       "Fast Forward",
+		Slug:       "fast-forward",
 		Icon:       FastForward,
 		Tags:       []string{"music"},
 		Categories: []string{"multimedia", "arrows"},
-	},
-	{
+	}
+
+	featherInfo = IconInfo{
 		Name:       "Feather",
+		Slug:       "feather",
 		Icon:       Feather,
 		Tags:       []string{"logo"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	fenceInfo = IconInfo{
 		Name:       "Fence",
+		Slug:       "fence",
 		Icon:       Fence,
 		Tags:       []string{"picket", "panels", "woodwork", "diy", "materials", "suburban", "garden", "property", "territory"},
 		Categories: []string{"home", "buildings"},
-	},
-	{
+	}
+
+	ferrisWheelInfo = IconInfo{
 		Name:       "Ferris Wheel",
+		Slug:       "ferris-wheel",
 		Icon:       FerrisWheel,
 		Tags:       []string{"big wheel", "daisy wheel", "observation", "attraction", "entertainment", "amusement park", "theme park", "funfair"},
 		Categories: []string{"maps"},
-	},
-	{
+	}
+
+	figmaInfo = IconInfo{
 		Name:       "Figma",
+		Slug:       "figma",
 		Icon:       Figma,
 		Tags:       []string{"logo", "design", "tool"},
 		Categories: []string{"brands", "design"},
-	},
-	{
+	}
+
+	fileArchiveInfo = IconInfo{
 		Name:       "File Archive",
+		Slug:       "file-archive",
 		Icon:       FileArchive,
 		Tags:       []string{"zip", "package", "archive"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileAudio2Info = IconInfo{
 		Name:       "File Audio 2",
+		Slug:       "file-audio-2",
 		Icon:       FileAudio2,
 		Tags:       []string{"music", "audio", "sound", "headphones"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileAudioInfo = IconInfo{
 		Name:       "File Audio",
+		Slug:       "file-audio",
 		Icon:       FileAudio,
 		Tags:       []string{"music", "audio", "sound", "headphones"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileAxis3dInfo = IconInfo{
 		Name:       "File Axis 3d",
+		Slug:       "file-axis-3d",
 		Icon:       FileAxis3d,
 		Tags:       []string{"model", "3d", "axis", "coordinates"},
 		Categories: []string{"design", "files"},
-	},
-	{
+	}
+
+	fileBadge2Info = IconInfo{
 		Name:       "File Badge 2",
+		Slug:       "file-badge-2",
 		Icon:       FileBadge2,
 		Tags:       []string{"award", "achievement", "badge", "rosette", "prize", "winner"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileBadgeInfo = IconInfo{
 		Name:       "File Badge",
+		Slug:       "file-badge",
 		Icon:       FileBadge,
 		Tags:       []string{"award", "achievement", "badge", "rosette", "prize", "winner"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileBoxInfo = IconInfo{
 		Name:       "File Box",
+		Slug:       "file-box",
 		Icon:       FileBox,
 		Tags:       []string{"box", "package", "model"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileChartColumnIncreasingInfo = IconInfo{
 		Name:       "File Chart Column Increasing",
+		Slug:       "file-chart-column-increasing",
 		Icon:       FileChartColumnIncreasing,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "presentation", "trending up"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileChartColumnInfo = IconInfo{
 		Name:       "File Chart Column",
+		Slug:       "file-chart-column",
 		Icon:       FileChartColumn,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "presentation"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileChartLineInfo = IconInfo{
 		Name:       "File Chart Line",
+		Slug:       "file-chart-line",
 		Icon:       FileChartLine,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "presentation"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileChartPieInfo = IconInfo{
 		Name:       "File Chart Pie",
+		Slug:       "file-chart-pie",
 		Icon:       FileChartPie,
 		Tags:       []string{"statistics", "analytics", "diagram", "graph", "presentation"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileCheck2Info = IconInfo{
 		Name:       "File Check 2",
+		Slug:       "file-check-2",
 		Icon:       FileCheck2,
 		Tags:       []string{"done", "document", "todo", "tick", "complete", "task"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileCheckInfo = IconInfo{
 		Name:       "File Check",
+		Slug:       "file-check",
 		Icon:       FileCheck,
 		Tags:       []string{"done", "document", "todo", "tick", "complete", "task"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileClockInfo = IconInfo{
 		Name:       "File Clock",
+		Slug:       "file-clock",
 		Icon:       FileClock,
 		Tags:       []string{"history", "log", "clock"},
 		Categories: []string{"files", "time"},
-	},
-	{
+	}
+
+	fileCode2Info = IconInfo{
 		Name:       "File Code 2",
+		Slug:       "file-code-2",
 		Icon:       FileCode2,
 		Tags:       []string{"script", "document", "html", "xml", "property list", "plist"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	fileCodeInfo = IconInfo{
 		Name:       "File Code",
+		Slug:       "file-code",
 		Icon:       FileCode,
 		Tags:       []string{"script", "document", "gist", "html", "xml", "property list", "plist"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	fileCogInfo = IconInfo{
 		Name:       "File Cog",
+		Slug:       "file-cog",
 		Icon:       FileCog,
 		Tags:       []string{"executable", "settings", "cog", "edit", "gear"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileDiffInfo = IconInfo{
 		Name:       "File Diff",
+		Slug:       "file-diff",
 		Icon:       FileDiff,
 		Tags:       []string{"diff", "patch"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	fileDigitInfo = IconInfo{
 		Name:       "File Digit",
+		Slug:       "file-digit",
 		Icon:       FileDigit,
 		Tags:       []string{"number", "document"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	fileDownInfo = IconInfo{
 		Name:       "File Down",
+		Slug:       "file-down",
 		Icon:       FileDown,
 		Tags:       []string{"download", "import", "export"},
 		Categories: []string{"files", "arrows"},
-	},
-	{
+	}
+
+	fileHeartInfo = IconInfo{
 		Name:       "File Heart",
+		Slug:       "file-heart",
 		Icon:       FileHeart,
 		Tags:       []string{"heart", "favourite", "bookmark", "quick link"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileImageInfo = IconInfo{
 		Name:       "File Image",
+		Slug:       "file-image",
 		Icon:       FileImage,
 		Tags:       []string{"image", "graphics", "photo", "picture"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileInputInfo = IconInfo{
 		Name:       "File Input",
+		Slug:       "file-input",
 		Icon:       FileInput,
 		Tags:       []string{"document"},
 		Categories: []string{"files", "arrows"},
-	},
-	{
+	}
+
+	fileJson2Info = IconInfo{
 		Name:       "File Json 2",
+		Slug:       "file-json-2",
 		Icon:       FileJson2,
 		Tags:       []string{"code", "json", "curly braces", "curly brackets"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	fileJsonInfo = IconInfo{
 		Name:       "File Json",
+		Slug:       "file-json",
 		Icon:       FileJson,
 		Tags:       []string{"code", "json", "curly braces", "curly brackets"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	fileKey2Info = IconInfo{
 		Name:       "File Key 2",
+		Slug:       "file-key-2",
 		Icon:       FileKey2,
 		Tags:       []string{"key", "private", "public", "security"},
 		Categories: []string{"files", "security"},
-	},
-	{
+	}
+
+	fileKeyInfo = IconInfo{
 		Name:       "File Key",
+		Slug:       "file-key",
 		Icon:       FileKey,
 		Tags:       []string{"key", "private", "public", "security"},
 		Categories: []string{"files", "security"},
-	},
-	{
+	}
+
+	fileLock2Info = IconInfo{
 		Name:       "File Lock 2",
+		Slug:       "file-lock-2",
 		Icon:       FileLock2,
 		Tags:       []string{"lock", "password", "security"},
 		Categories: []string{"files", "security"},
-	},
-	{
+	}
+
+	fileLockInfo = IconInfo{
 		Name:       "File Lock",
+		Slug:       "file-lock",
 		Icon:       FileLock,
 		Tags:       []string{"lock", "password", "security"},
 		Categories: []string{"files", "security"},
-	},
-	{
+	}
+
+	fileMinus2Info = IconInfo{
 		Name:       "File Minus 2",
+		Slug:       "file-minus-2",
 		Icon:       FileMinus2,
 		Tags:       []string{"document"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileMinusInfo = IconInfo{
 		Name:       "File Minus",
+		Slug:       "file-minus",
 		Icon:       FileMinus,
 		Tags:       []string{"delete", "remove", "erase", "document"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileMusicInfo = IconInfo{
 		Name:       "File Music",
+		Slug:       "file-music",
 		Icon:       FileMusic,
 		Tags:       []string{"audio", "sound", "noise", "track", "digital", "recording", "playback", "piano", "keyboard", "keys", "notes", "chord", "midi", "octave"},
 		Categories: []string{"files", "multimedia"},
-	},
-	{
+	}
+
+	fileOutputInfo = IconInfo{
 		Name:       "File Output",
+		Slug:       "file-output",
 		Icon:       FileOutput,
 		Tags:       []string{"document"},
 		Categories: []string{"files", "arrows"},
-	},
-	{
+	}
+
+	filePenLineInfo = IconInfo{
 		Name:       "File Pen Line",
+		Slug:       "file-pen-line",
 		Icon:       FilePenLine,
 		Tags:       []string{"edit"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	filePenInfo = IconInfo{
 		Name:       "File Pen",
+		Slug:       "file-pen",
 		Icon:       FilePen,
 		Tags:       []string{"signature"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	filePlus2Info = IconInfo{
 		Name:       "File Plus 2",
+		Slug:       "file-plus-2",
 		Icon:       FilePlus2,
 		Tags:       []string{"add", "create", "new", "document"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	filePlusInfo = IconInfo{
 		Name:       "File Plus",
+		Slug:       "file-plus",
 		Icon:       FilePlus,
 		Tags:       []string{"add", "create", "new", "document"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileQuestionInfo = IconInfo{
 		Name:       "File Question",
+		Slug:       "file-question",
 		Icon:       FileQuestion,
 		Tags:       []string{"readme", "help", "question"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileScanInfo = IconInfo{
 		Name:       "File Scan",
+		Slug:       "file-scan",
 		Icon:       FileScan,
 		Tags:       []string{"scan", "code", "qr-code"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileSearch2Info = IconInfo{
 		Name:       "File Search 2",
+		Slug:       "file-search-2",
 		Icon:       FileSearch2,
 		Tags:       []string{"lost", "document", "find", "browser"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileSearchInfo = IconInfo{
 		Name:       "File Search",
+		Slug:       "file-search",
 		Icon:       FileSearch,
 		Tags:       []string{"lost", "document", "find", "browser"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileSlidersInfo = IconInfo{
 		Name:       "File Sliders",
+		Slug:       "file-sliders",
 		Icon:       FileSliders,
 		Tags:       []string{"cogged", "gear", "mechanical", "machinery", "configuration", "controls", "preferences", "settings", "system", "admin", "edit", "executable"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	fileSpreadsheetInfo = IconInfo{
 		Name:       "File Spreadsheet",
+		Slug:       "file-spreadsheet",
 		Icon:       FileSpreadsheet,
 		Tags:       []string{"spreadsheet", "sheet", "table"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileStackInfo = IconInfo{
 		Name:       "File Stack",
+		Slug:       "file-stack",
 		Icon:       FileStack,
 		Tags:       []string{"versions", "multiple", "copy", "documents", "revisions", "version control", "history"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	fileSymlinkInfo = IconInfo{
 		Name:       "File Symlink",
+		Slug:       "file-symlink",
 		Icon:       FileSymlink,
 		Tags:       []string{"symlink", "symbolic", "link"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileTerminalInfo = IconInfo{
 		Name:       "File Terminal",
+		Slug:       "file-terminal",
 		Icon:       FileTerminal,
 		Tags:       []string{"terminal", "bash", "script", "executable"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	fileTextInfo = IconInfo{
 		Name:       "File Text",
+		Slug:       "file-text",
 		Icon:       FileText,
 		Tags:       []string{"data", "txt", "pdf", "document"},
 		Categories: []string{"files", "text"},
-	},
-	{
+	}
+
+	fileType2Info = IconInfo{
 		Name:       "File Type 2",
+		Slug:       "file-type-2",
 		Icon:       FileType2,
 		Tags:       []string{"font", "text", "typography", "type"},
 		Categories: []string{"files", "text"},
-	},
-	{
+	}
+
+	fileTypeInfo = IconInfo{
 		Name:       "File Type",
+		Slug:       "file-type",
 		Icon:       FileType,
 		Tags:       []string{"font", "text", "typography", "type"},
 		Categories: []string{"files", "text"},
-	},
-	{
+	}
+
+	fileUpInfo = IconInfo{
 		Name:       "File Up",
+		Slug:       "file-up",
 		Icon:       FileUp,
 		Tags:       []string{"upload", "import", "export"},
 		Categories: []string{"files", "arrows"},
-	},
-	{
+	}
+
+	fileUserInfo = IconInfo{
 		Name:       "File User",
+		Slug:       "file-user",
 		Icon:       FileUser,
 		Tags:       []string{"person", "personal information", "people", "listing", "networking", "document", "contact", "cover letter", "resume", "cv", "curriculum vitae", "application form"},
 		Categories: []string{"account", "communication", "files"},
-	},
-	{
+	}
+
+	fileVideo2Info = IconInfo{
 		Name:       "File Video 2",
+		Slug:       "file-video-2",
 		Icon:       FileVideo2,
 		Tags:       []string{"movie", "video", "film"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileVideoInfo = IconInfo{
 		Name:       "File Video",
+		Slug:       "file-video",
 		Icon:       FileVideo,
 		Tags:       []string{"movie", "video", "film"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileVolume2Info = IconInfo{
 		Name:       "File Volume 2",
+		Slug:       "file-volume-2",
 		Icon:       FileVolume2,
 		Tags:       []string{"audio", "music", "volume"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileVolumeInfo = IconInfo{
 		Name:       "File Volume",
+		Slug:       "file-volume",
 		Icon:       FileVolume,
 		Tags:       []string{"audio", "music", "volume"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileWarningInfo = IconInfo{
 		Name:       "File Warning",
+		Slug:       "file-warning",
 		Icon:       FileWarning,
 		Tags:       []string{"hidden", "warning", "alert", "danger", "protected", "exclamation mark"},
 		Categories: []string{"files", "notifications"},
-	},
-	{
+	}
+
+	fileX2Info = IconInfo{
 		Name:       "File X 2",
+		Slug:       "file-x-2",
 		Icon:       FileX2,
 		Tags:       []string{"lost", "delete", "remove", "document"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileXInfo = IconInfo{
 		Name:       "File X",
+		Slug:       "file-x",
 		Icon:       FileX,
 		Tags:       []string{"lost", "delete", "remove", "document"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	fileInfo = IconInfo{
 		Name:       "File",
+		Slug:       "file",
 		Icon:       File,
 		Tags:       []string{"document"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	filesInfo = IconInfo{
 		Name:       "Files",
+		Slug:       "files",
 		Icon:       Files,
 		Tags:       []string{"multiple", "copy", "documents"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	filmInfo = IconInfo{
 		Name:       "Film",
+		Slug:       "film",
 		Icon:       Film,
 		Tags:       []string{"movie", "video", "reel", "camera", "cinema", "entertainment"},
 		Categories: []string{"photography", "multimedia"},
-	},
-	{
+	}
+
+	filterXInfo = IconInfo{
 		Name:       "Filter X",
+		Slug:       "filter-x",
 		Icon:       FilterX,
 		Tags:       []string{"funnel", "hopper"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	filterInfo = IconInfo{
 		Name:       "Filter",
+		Slug:       "filter",
 		Icon:       Filter,
 		Tags:       []string{"funnel", "hopper"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	fingerprintInfo = IconInfo{
 		Name:       "Fingerprint",
+		Slug:       "fingerprint",
 		Icon:       Fingerprint,
 		Tags:       []string{"2fa", "authentication", "biometric", "identity", "security"},
 		Categories: []string{"account", "security", "medical", "devices"},
-	},
-	{
+	}
+
+	fireExtinguisherInfo = IconInfo{
 		Name:       "Fire Extinguisher",
+		Slug:       "fire-extinguisher",
 		Icon:       FireExtinguisher,
 		Tags:       []string{"flames", "smoke", "foam", "water", "spray", "hose", "firefighter", "fireman", "department", "brigade", "station", "emergency", "suppress", "compressed", "tank", "cylinder", "safety", "equipment", "amenities"},
 		Categories: []string{"home", "tools", "travel"},
-	},
-	{
+	}
+
+	fishOffInfo = IconInfo{
 		Name:       "Fish Off",
+		Slug:       "fish-off",
 		Icon:       FishOff,
 		Tags:       []string{"food", "dish", "restaurant", "course", "meal", "seafood", "animal", "pet", "sea", "marine", "allergy", "intolerance", "diet"},
 		Categories: []string{"food-beverage", "animals"},
-	},
-	{
+	}
+
+	fishSymbolInfo = IconInfo{
 		Name:       "Fish Symbol",
+		Slug:       "fish-symbol",
 		Icon:       FishSymbol,
 		Tags:       []string{"dish", "restaurant", "course", "meal", "seafood", "pet", "sea", "marine"},
 		Categories: []string{"food-beverage", "animals"},
-	},
-	{
+	}
+
+	fishInfo = IconInfo{
 		Name:       "Fish",
+		Slug:       "fish",
 		Icon:       Fish,
 		Tags:       []string{"dish", "restaurant", "course", "meal", "seafood", "pet", "sea", "marine"},
 		Categories: []string{"food-beverage", "animals"},
-	},
-	{
+	}
+
+	flagOffInfo = IconInfo{
 		Name:       "Flag Off",
+		Slug:       "flag-off",
 		Icon:       FlagOff,
 		Tags:       []string{"unflag"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	flagTriangleLeftInfo = IconInfo{
 		Name:       "Flag Triangle Left",
+		Slug:       "flag-triangle-left",
 		Icon:       FlagTriangleLeft,
 		Tags:       []string{"report", "timeline"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	flagTriangleRightInfo = IconInfo{
 		Name:       "Flag Triangle Right",
+		Slug:       "flag-triangle-right",
 		Icon:       FlagTriangleRight,
 		Tags:       []string{"report", "timeline"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	flagInfo = IconInfo{
 		Name:       "Flag",
+		Slug:       "flag",
 		Icon:       Flag,
 		Tags:       []string{"report"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	flameKindlingInfo = IconInfo{
 		Name:       "Flame Kindling",
+		Slug:       "flame-kindling",
 		Icon:       FlameKindling,
 		Tags:       []string{"campfire", "camping", "wilderness", "outdoors", "lit", "warmth", "wood", "twigs", "sticks"},
 		Categories: []string{"nature", "social", "gaming"},
-	},
-	{
+	}
+
+	flameInfo = IconInfo{
 		Name:       "Flame",
+		Slug:       "flame",
 		Icon:       Flame,
 		Tags:       []string{"fire", "lit", "burning", "spark", "embers", "smoke", "firefighter", "fireman", "department", "brigade", "station", "emergency"},
 		Categories: []string{"weather", "social", "gaming"},
-	},
-	{
+	}
+
+	flashlightOffInfo = IconInfo{
 		Name:       "Flashlight Off",
+		Slug:       "flashlight-off",
 		Icon:       FlashlightOff,
 		Tags:       []string{"torch"},
 		Categories: []string{"photography", "devices"},
-	},
-	{
+	}
+
+	flashlightInfo = IconInfo{
 		Name:       "Flashlight",
+		Slug:       "flashlight",
 		Icon:       Flashlight,
 		Tags:       []string{"torch"},
 		Categories: []string{"photography", "devices"},
-	},
-	{
+	}
+
+	flaskConicalOffInfo = IconInfo{
 		Name:       "Flask Conical Off",
+		Slug:       "flask-conical-off",
 		Icon:       FlaskConicalOff,
 		Tags:       []string{"beaker", "erlenmeyer", "non toxic", "lab", "chemistry", "experiment", "test"},
 		Categories: []string{"science", "gaming"},
-	},
-	{
+	}
+
+	flaskConicalInfo = IconInfo{
 		Name:       "Flask Conical",
+		Slug:       "flask-conical",
 		Icon:       FlaskConical,
 		Tags:       []string{"beaker", "erlenmeyer", "lab", "chemistry", "experiment", "test"},
 		Categories: []string{"science", "gaming"},
-	},
-	{
+	}
+
+	flaskRoundInfo = IconInfo{
 		Name:       "Flask Round",
+		Slug:       "flask-round",
 		Icon:       FlaskRound,
 		Tags:       []string{"beaker", "lab", "chemistry", "experiment", "test"},
 		Categories: []string{"science", "gaming"},
-	},
-	{
+	}
+
+	flipHorizontal2Info = IconInfo{
 		Name:       "Flip Horizontal 2",
+		Slug:       "flip-horizontal-2",
 		Icon:       FlipHorizontal2,
 		Tags:       []string{"reflect", "mirror", "alignment", "dashed"},
 		Categories: []string{"design", "photography"},
-	},
-	{
+	}
+
+	flipHorizontalInfo = IconInfo{
 		Name:       "Flip Horizontal",
+		Slug:       "flip-horizontal",
 		Icon:       FlipHorizontal,
 		Tags:       []string{"reflect", "mirror", "alignment", "dashed"},
 		Categories: []string{"design", "photography"},
-	},
-	{
+	}
+
+	flipVertical2Info = IconInfo{
 		Name:       "Flip Vertical 2",
+		Slug:       "flip-vertical-2",
 		Icon:       FlipVertical2,
 		Tags:       []string{"reflect", "mirror", "alignment", "dashed"},
 		Categories: []string{"design", "photography"},
-	},
-	{
+	}
+
+	flipVerticalInfo = IconInfo{
 		Name:       "Flip Vertical",
+		Slug:       "flip-vertical",
 		Icon:       FlipVertical,
 		Tags:       []string{"reflect", "mirror", "alignment", "dashed"},
 		Categories: []string{"design", "photography"},
-	},
-	{
+	}
+
+	flower2Info = IconInfo{
 		Name:       "Flower 2",
+		Slug:       "flower-2",
 		Icon:       Flower2,
 		Tags:       []string{"sustainability", "nature", "plant"},
 		Categories: []string{"nature", "sustainability", "seasons"},
-	},
-	{
+	}
+
+	flowerInfo = IconInfo{
 		Name:       "Flower",
+		Slug:       "flower",
 		Icon:       Flower,
 		Tags:       []string{"sustainability", "nature", "plant", "spring"},
 		Categories: []string{"nature", "gaming", "sustainability"},
-	},
-	{
+	}
+
+	focusInfo = IconInfo{
 		Name:       "Focus",
+		Slug:       "focus",
 		Icon:       Focus,
 		Tags:       []string{"camera", "lens", "photo", "dashed"},
 		Categories: []string{"photography"},
-	},
-	{
+	}
+
+	foldHorizontalInfo = IconInfo{
 		Name:       "Fold Horizontal",
+		Slug:       "fold-horizontal",
 		Icon:       FoldHorizontal,
 		Tags:       []string{"arrow", "collapse", "fold", "vertical", "dashed"},
 		Categories: []string{"arrows", "layout"},
-	},
-	{
+	}
+
+	foldVerticalInfo = IconInfo{
 		Name:       "Fold Vertical",
+		Slug:       "fold-vertical",
 		Icon:       FoldVertical,
 		Tags:       []string{"arrow", "collapse", "fold", "vertical", "dashed"},
 		Categories: []string{"arrows", "layout"},
-	},
-	{
+	}
+
+	folderArchiveInfo = IconInfo{
 		Name:       "Folder Archive",
+		Slug:       "folder-archive",
 		Icon:       FolderArchive,
 		Tags:       []string{"archive", "zip", "package"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderCheckInfo = IconInfo{
 		Name:       "Folder Check",
+		Slug:       "folder-check",
 		Icon:       FolderCheck,
 		Tags:       []string{"done", "directory", "todo", "tick", "complete", "task"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderClockInfo = IconInfo{
 		Name:       "Folder Clock",
+		Slug:       "folder-clock",
 		Icon:       FolderClock,
 		Tags:       []string{"history", "directory", "clock"},
 		Categories: []string{"files", "time"},
-	},
-	{
+	}
+
+	folderClosedInfo = IconInfo{
 		Name:       "Folder Closed",
+		Slug:       "folder-closed",
 		Icon:       FolderClosed,
 		Tags:       []string{"directory", "closed"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderCodeInfo = IconInfo{
 		Name:       "Folder Code",
+		Slug:       "folder-code",
 		Icon:       FolderCode,
 		Tags:       []string{"directory", "coding", "develop", "software"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	folderCogInfo = IconInfo{
 		Name:       "Folder Cog",
+		Slug:       "folder-cog",
 		Icon:       FolderCog,
 		Tags:       []string{"directory", "settings", "control", "preferences", "cog", "edit", "gear"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderDotInfo = IconInfo{
 		Name:       "Folder Dot",
+		Slug:       "folder-dot",
 		Icon:       FolderDot,
 		Tags:       []string{"directory", "root", "project", "pinned", "active", "current", "cogged", "gear", "mechanical", "machinery", "configuration", "controls", "preferences", "settings", "system", "admin", "edit"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	folderDownInfo = IconInfo{
 		Name:       "Folder Down",
+		Slug:       "folder-down",
 		Icon:       FolderDown,
 		Tags:       []string{"directory", "download", "import", "export"},
 		Categories: []string{"files", "arrows"},
-	},
-	{
+	}
+
+	folderGit2Info = IconInfo{
 		Name:       "Folder Git 2",
+		Slug:       "folder-git-2",
 		Icon:       FolderGit2,
 		Tags:       []string{"directory", "root", "project", "git", "repo"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderGitInfo = IconInfo{
 		Name:       "Folder Git",
+		Slug:       "folder-git",
 		Icon:       FolderGit,
 		Tags:       []string{"directory", "root", "project", "git", "repo"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderHeartInfo = IconInfo{
 		Name:       "Folder Heart",
+		Slug:       "folder-heart",
 		Icon:       FolderHeart,
 		Tags:       []string{"directory", "heart", "favourite", "bookmark", "quick link"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderInputInfo = IconInfo{
 		Name:       "Folder Input",
+		Slug:       "folder-input",
 		Icon:       FolderInput,
 		Tags:       []string{"directory", "import", "export"},
 		Categories: []string{"files", "arrows"},
-	},
-	{
+	}
+
+	folderKanbanInfo = IconInfo{
 		Name:       "Folder Kanban",
+		Slug:       "folder-kanban",
 		Icon:       FolderKanban,
 		Tags:       []string{"projects", "manage", "overview", "board", "tickets", "issues", "roadmap", "plan", "intentions", "productivity", "work", "agile", "code", "coding", "directory", "project", "root"},
 		Categories: []string{"charts", "development", "design", "files"},
-	},
-	{
+	}
+
+	folderKeyInfo = IconInfo{
 		Name:       "Folder Key",
+		Slug:       "folder-key",
 		Icon:       FolderKey,
 		Tags:       []string{"directory", "key", "private", "security", "protected"},
 		Categories: []string{"files", "security"},
-	},
-	{
+	}
+
+	folderLockInfo = IconInfo{
 		Name:       "Folder Lock",
+		Slug:       "folder-lock",
 		Icon:       FolderLock,
 		Tags:       []string{"directory", "lock", "private", "security", "protected"},
 		Categories: []string{"files", "security"},
-	},
-	{
+	}
+
+	folderMinusInfo = IconInfo{
 		Name:       "Folder Minus",
+		Slug:       "folder-minus",
 		Icon:       FolderMinus,
 		Tags:       []string{"directory", "remove", "delete"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderOpenDotInfo = IconInfo{
 		Name:       "Folder Open Dot",
+		Slug:       "folder-open-dot",
 		Icon:       FolderOpenDot,
 		Tags:       []string{"directory", "root", "project", "active", "current", "pinned"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	folderOpenInfo = IconInfo{
 		Name:       "Folder Open",
+		Slug:       "folder-open",
 		Icon:       FolderOpen,
 		Tags:       []string{"directory"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderOutputInfo = IconInfo{
 		Name:       "Folder Output",
+		Slug:       "folder-output",
 		Icon:       FolderOutput,
 		Tags:       []string{"directory", "import", "export"},
 		Categories: []string{"files", "arrows"},
-	},
-	{
+	}
+
+	folderPenInfo = IconInfo{
 		Name:       "Folder Pen",
+		Slug:       "folder-pen",
 		Icon:       FolderPen,
 		Tags:       []string{"directory", "rename"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderPlusInfo = IconInfo{
 		Name:       "Folder Plus",
+		Slug:       "folder-plus",
 		Icon:       FolderPlus,
 		Tags:       []string{"directory", "add", "create", "new"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderRootInfo = IconInfo{
 		Name:       "Folder Root",
+		Slug:       "folder-root",
 		Icon:       FolderRoot,
 		Tags:       []string{"directory", "root", "project", "git", "repo"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	folderSearch2Info = IconInfo{
 		Name:       "Folder Search 2",
+		Slug:       "folder-search-2",
 		Icon:       FolderSearch2,
 		Tags:       []string{"directory", "search", "find", "lost", "browser"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderSearchInfo = IconInfo{
 		Name:       "Folder Search",
+		Slug:       "folder-search",
 		Icon:       FolderSearch,
 		Tags:       []string{"directory", "search", "find", "lost", "browser"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderSymlinkInfo = IconInfo{
 		Name:       "Folder Symlink",
+		Slug:       "folder-symlink",
 		Icon:       FolderSymlink,
 		Tags:       []string{"directory", "symlink", "symbolic", "link"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderSyncInfo = IconInfo{
 		Name:       "Folder Sync",
+		Slug:       "folder-sync",
 		Icon:       FolderSync,
 		Tags:       []string{"directory", "synchronize", "synchronise", "refresh", "reconnect", "transfer", "backup"},
 		Categories: []string{"files", "arrows"},
-	},
-	{
+	}
+
+	folderTreeInfo = IconInfo{
 		Name:       "Folder Tree",
+		Slug:       "folder-tree",
 		Icon:       FolderTree,
 		Tags:       []string{"directory", "tree", "browser"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderUpInfo = IconInfo{
 		Name:       "Folder Up",
+		Slug:       "folder-up",
 		Icon:       FolderUp,
 		Tags:       []string{"directory", "upload", "import", "export"},
 		Categories: []string{"files", "arrows"},
-	},
-	{
+	}
+
+	folderXInfo = IconInfo{
 		Name:       "Folder X",
+		Slug:       "folder-x",
 		Icon:       FolderX,
 		Tags:       []string{"directory", "remove", "delete"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	folderInfo = IconInfo{
 		Name:       "Folder",
+		Slug:       "folder",
 		Icon:       Folder,
 		Tags:       []string{"directory"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	foldersInfo = IconInfo{
 		Name:       "Folders",
+		Slug:       "folders",
 		Icon:       Folders,
 		Tags:       []string{"multiple", "copy", "directories"},
 		Categories: []string{"files"},
-	},
-	{
+	}
+
+	footprintsInfo = IconInfo{
 		Name:       "Footprints",
+		Slug:       "footprints",
 		Icon:       Footprints,
 		Tags:       []string{"steps", "walking", "foot", "feet", "trail", "shoe"},
 		Categories: []string{"maps"},
-	},
-	{
+	}
+
+	forkliftInfo = IconInfo{
 		Name:       "Forklift",
+		Slug:       "forklift",
 		Icon:       Forklift,
 		Tags:       []string{"vehicle", "transport", "logistics"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	forwardInfo = IconInfo{
 		Name:       "Forward",
+		Slug:       "forward",
 		Icon:       Forward,
 		Tags:       []string{"send", "share", "email"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	frameInfo = IconInfo{
 		Name:       "Frame",
+		Slug:       "frame",
 		Icon:       Frame,
 		Tags:       []string{"logo", "design", "tool"},
 		Categories: []string{"design", "photography"},
-	},
-	{
+	}
+
+	framerInfo = IconInfo{
 		Name:       "Framer",
+		Slug:       "framer",
 		Icon:       Framer,
 		Tags:       []string{"logo", "design", "tool"},
 		Categories: []string{"brands", "design"},
-	},
-	{
+	}
+
+	frownInfo = IconInfo{
 		Name:       "Frown",
+		Slug:       "frown",
 		Icon:       Frown,
 		Tags:       []string{"emoji", "face", "bad", "sad", "emotion"},
 		Categories: []string{"emoji", "account"},
-	},
-	{
+	}
+
+	fuelInfo = IconInfo{
 		Name:       "Fuel",
+		Slug:       "fuel",
 		Icon:       Fuel,
 		Tags:       []string{"filling-station", "gas", "petrol", "tank"},
 		Categories: []string{"transportation", "maps"},
-	},
-	{
+	}
+
+	fullscreenInfo = IconInfo{
 		Name:       "Fullscreen",
+		Slug:       "fullscreen",
 		Icon:       Fullscreen,
 		Tags:       []string{"expand", "zoom", "preview", "focus", "camera", "lens", "image"},
 		Categories: []string{"layout", "multimedia", "design", "photography"},
-	},
-	{
+	}
+
+	galleryHorizontalEndInfo = IconInfo{
 		Name:       "Gallery Horizontal End",
+		Slug:       "gallery-horizontal-end",
 		Icon:       GalleryHorizontalEnd,
 		Tags:       []string{"carousel", "pictures", "images", "scroll", "swipe", "album", "portfolio", "history", "versions", "backup", "time machine"},
 		Categories: []string{"layout", "design", "development", "photography", "multimedia", "files"},
-	},
-	{
+	}
+
+	galleryHorizontalInfo = IconInfo{
 		Name:       "Gallery Horizontal",
+		Slug:       "gallery-horizontal",
 		Icon:       GalleryHorizontal,
 		Tags:       []string{"carousel", "pictures", "images", "scroll", "swipe", "album", "portfolio"},
 		Categories: []string{"layout", "design", "development", "photography", "multimedia"},
-	},
-	{
+	}
+
+	galleryThumbnailsInfo = IconInfo{
 		Name:       "Gallery Thumbnails",
+		Slug:       "gallery-thumbnails",
 		Icon:       GalleryThumbnails,
 		Tags:       []string{"carousel", "pictures", "images", "album", "portfolio", "preview"},
 		Categories: []string{"layout", "design", "development", "photography", "multimedia"},
-	},
-	{
+	}
+
+	galleryVerticalEndInfo = IconInfo{
 		Name:       "Gallery Vertical End",
+		Slug:       "gallery-vertical-end",
 		Icon:       GalleryVerticalEnd,
 		Tags:       []string{"carousel", "pictures", "images", "scroll", "swipe", "album", "portfolio", "history", "versions", "backup", "time machine"},
 		Categories: []string{"layout", "design", "development", "photography", "multimedia", "files"},
-	},
-	{
+	}
+
+	galleryVerticalInfo = IconInfo{
 		Name:       "Gallery Vertical",
+		Slug:       "gallery-vertical",
 		Icon:       GalleryVertical,
 		Tags:       []string{"carousel", "pictures", "images", "scroll", "swipe", "album", "portfolio"},
 		Categories: []string{"layout", "design", "development", "photography", "multimedia"},
-	},
-	{
+	}
+
+	gamepad2Info = IconInfo{
 		Name:       "Gamepad 2",
+		Slug:       "gamepad-2",
 		Icon:       Gamepad2,
 		Tags:       []string{"console"},
 		Categories: []string{"gaming", "devices"},
-	},
-	{
+	}
+
+	gamepadInfo = IconInfo{
 		Name:       "Gamepad",
+		Slug:       "gamepad",
 		Icon:       Gamepad,
 		Tags:       []string{"console"},
 		Categories: []string{"gaming", "devices"},
-	},
-	{
+	}
+
+	gaugeInfo = IconInfo{
 		Name:       "Gauge",
+		Slug:       "gauge",
 		Icon:       Gauge,
 		Tags:       []string{"dashboard", "dial", "meter", "speed", "pressure", "measure", "level"},
 		Categories: []string{"account", "transportation", "sports", "science"},
-	},
-	{
+	}
+
+	gavelInfo = IconInfo{
 		Name:       "Gavel",
+		Slug:       "gavel",
 		Icon:       Gavel,
 		Tags:       []string{"hammer", "mallet"},
 		Categories: []string{"maps", "tools"},
-	},
-	{
+	}
+
+	gemInfo = IconInfo{
 		Name:       "Gem",
+		Slug:       "gem",
 		Icon:       Gem,
 		Tags:       []string{"diamond", "crystal", "ruby", "jewellery", "price", "special", "present", "gift", "ring", "wedding", "proposal", "marriage", "rubygems"},
 		Categories: []string{"gaming", "money", "development"},
-	},
-	{
+	}
+
+	ghostInfo = IconInfo{
 		Name:       "Ghost",
+		Slug:       "ghost",
 		Icon:       Ghost,
 		Tags:       []string{"pac-man", "spooky"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	giftInfo = IconInfo{
 		Name:       "Gift",
+		Slug:       "gift",
 		Icon:       Gift,
 		Tags:       []string{"present", "box", "birthday", "party"},
 		Categories: []string{"gaming", "account"},
-	},
-	{
+	}
+
+	gitBranchPlusInfo = IconInfo{
 		Name:       "Git Branch Plus",
+		Slug:       "git-branch-plus",
 		Icon:       GitBranchPlus,
 		Tags:       []string{"add", "create", "+"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	gitBranchInfo = IconInfo{
 		Name:       "Git Branch",
+		Slug:       "git-branch",
 		Icon:       GitBranch,
 		Tags:       []string{"code", "version control"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	gitCommitHorizontalInfo = IconInfo{
 		Name:       "Git Commit Horizontal",
+		Slug:       "git-commit-horizontal",
 		Icon:       GitCommitHorizontal,
 		Tags:       []string{"code", "version control", "waypoint", "stop", "station"},
 		Categories: []string{"development", "maps", "navigation"},
-	},
-	{
+	}
+
+	gitCommitVerticalInfo = IconInfo{
 		Name:       "Git Commit Vertical",
+		Slug:       "git-commit-vertical",
 		Icon:       GitCommitVertical,
 		Tags:       []string{"code", "version control", "waypoint", "stop", "station"},
 		Categories: []string{"development", "maps", "navigation"},
-	},
-	{
+	}
+
+	gitCompareArrowsInfo = IconInfo{
 		Name:       "Git Compare Arrows",
+		Slug:       "git-compare-arrows",
 		Icon:       GitCompareArrows,
 		Tags:       []string{"code", "version control", "diff"},
 		Categories: []string{"development", "arrows"},
-	},
-	{
+	}
+
+	gitCompareInfo = IconInfo{
 		Name:       "Git Compare",
+		Slug:       "git-compare",
 		Icon:       GitCompare,
 		Tags:       []string{"code", "version control", "diff"},
 		Categories: []string{"development", "arrows"},
-	},
-	{
+	}
+
+	gitForkInfo = IconInfo{
 		Name:       "Git Fork",
+		Slug:       "git-fork",
 		Icon:       GitFork,
 		Tags:       []string{"code", "version control"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	gitGraphInfo = IconInfo{
 		Name:       "Git Graph",
+		Slug:       "git-graph",
 		Icon:       GitGraph,
 		Tags:       []string{"code", "version control", "commit graph", "commits", "gitlens"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	gitMergeInfo = IconInfo{
 		Name:       "Git Merge",
+		Slug:       "git-merge",
 		Icon:       GitMerge,
 		Tags:       []string{"code", "version control"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	gitPullRequestArrowInfo = IconInfo{
 		Name:       "Git Pull Request Arrow",
+		Slug:       "git-pull-request-arrow",
 		Icon:       GitPullRequestArrow,
 		Tags:       []string{"code", "version control", "open"},
 		Categories: []string{"development", "arrows"},
-	},
-	{
+	}
+
+	gitPullRequestClosedInfo = IconInfo{
 		Name:       "Git Pull Request Closed",
+		Slug:       "git-pull-request-closed",
 		Icon:       GitPullRequestClosed,
 		Tags:       []string{"code", "version control", "rejected", "closed", "cancelled", "x"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	gitPullRequestCreateArrowInfo = IconInfo{
 		Name:       "Git Pull Request Create Arrow",
+		Slug:       "git-pull-request-create-arrow",
 		Icon:       GitPullRequestCreateArrow,
 		Tags:       []string{"code", "version control", "open", "plus", "add", "+"},
 		Categories: []string{"development", "arrows"},
-	},
-	{
+	}
+
+	gitPullRequestCreateInfo = IconInfo{
 		Name:       "Git Pull Request Create",
+		Slug:       "git-pull-request-create",
 		Icon:       GitPullRequestCreate,
 		Tags:       []string{"code", "version control", "open", "plus", "add", "+"},
 		Categories: []string{"development", "arrows"},
-	},
-	{
+	}
+
+	gitPullRequestDraftInfo = IconInfo{
 		Name:       "Git Pull Request Draft",
+		Slug:       "git-pull-request-draft",
 		Icon:       GitPullRequestDraft,
 		Tags:       []string{"code", "version control", "open", "draft", "dashed"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	gitPullRequestInfo = IconInfo{
 		Name:       "Git Pull Request",
+		Slug:       "git-pull-request",
 		Icon:       GitPullRequest,
 		Tags:       []string{"code", "version control", "open"},
 		Categories: []string{"development", "arrows"},
-	},
-	{
+	}
+
+	githubInfo = IconInfo{
 		Name:       "Github",
+		Slug:       "github",
 		Icon:       Github,
 		Tags:       []string{"logo", "version control"},
 		Categories: []string{"brands", "development"},
-	},
-	{
+	}
+
+	gitlabInfo = IconInfo{
 		Name:       "Gitlab",
+		Slug:       "gitlab",
 		Icon:       Gitlab,
 		Tags:       []string{"logo", "version control"},
 		Categories: []string{"brands", "development"},
-	},
-	{
+	}
+
+	glassWaterInfo = IconInfo{
 		Name:       "Glass Water",
+		Slug:       "glass-water",
 		Icon:       GlassWater,
 		Tags:       []string{"beverage", "drink", "glass", "water"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	glassesInfo = IconInfo{
 		Name:       "Glasses",
+		Slug:       "glasses",
 		Icon:       Glasses,
 		Tags:       []string{"glasses", "spectacles"},
 		Categories: []string{"accessibility"},
-	},
-	{
+	}
+
+	globeLockInfo = IconInfo{
 		Name:       "Globe Lock",
+		Slug:       "globe-lock",
 		Icon:       GlobeLock,
 		Tags:       []string{"vpn", "private", "privacy", "network", "world", "browser", "security", "encryption", "protection", "connection"},
 		Categories: []string{"security", "development", "devices"},
-	},
-	{
+	}
+
+	globeInfo = IconInfo{
 		Name:       "Globe",
+		Slug:       "globe",
 		Icon:       Globe,
 		Tags:       []string{"world", "browser", "language", "translate"},
 		Categories: []string{"maps", "navigation"},
-	},
-	{
+	}
+
+	goalInfo = IconInfo{
 		Name:       "Goal",
+		Slug:       "goal",
 		Icon:       Goal,
 		Tags:       []string{"flag", "bullseye"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	grabInfo = IconInfo{
 		Name:       "Grab",
+		Slug:       "grab",
 		Icon:       Grab,
 		Tags:       []string{"hand"},
 		Categories: []string{"cursors", "design", "layout"},
-	},
-	{
+	}
+
+	graduationCapInfo = IconInfo{
 		Name:       "Graduation Cap",
+		Slug:       "graduation-cap",
 		Icon:       GraduationCap,
 		Tags:       []string{"school", "university", "learn", "study", "mortarboard", "education", "ceremony", "academic", "hat", "diploma", "bachlor's", "master's", "doctorate"},
 		Categories: []string{"buildings", "maps"},
-	},
-	{
+	}
+
+	grapeInfo = IconInfo{
 		Name:       "Grape",
+		Slug:       "grape",
 		Icon:       Grape,
 		Tags:       []string{"fruit", "wine", "food"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	grid2x2CheckInfo = IconInfo{
 		Name:       "Grid 2x2 Check",
+		Slug:       "grid-2x2-check",
 		Icon:       Grid2x2Check,
 		Tags:       []string{"table", "rows", "columns", "blocks", "plot", "land", "geometry", "measure", "data", "size", "width", "height", "distance", "surface area", "square meter", "acre"},
 		Categories: []string{"text", "layout", "design", "shapes", "maths"},
-	},
-	{
+	}
+
+	grid2x2PlusInfo = IconInfo{
 		Name:       "Grid 2x2 Plus",
+		Slug:       "grid-2x2-plus",
 		Icon:       Grid2x2Plus,
 		Tags:       []string{"table", "rows", "columns", "blocks", "plot", "land", "geometry", "measure", "data", "size", "width", "height", "distance", "surface area", "square meter", "acre"},
 		Categories: []string{"text", "layout", "design", "shapes", "maths"},
-	},
-	{
+	}
+
+	grid2x2XInfo = IconInfo{
 		Name:       "Grid 2x2 X",
+		Slug:       "grid-2x2-x",
 		Icon:       Grid2x2X,
 		Tags:       []string{"table", "rows", "columns", "data", "blocks", "plot", "land", "geometry", "measure", "size", "width", "height", "distance", "surface area", "square meter", "acre"},
 		Categories: []string{"text", "layout", "design", "shapes", "maths"},
-	},
-	{
+	}
+
+	grid2x2Info = IconInfo{
 		Name:       "Grid 2x2",
+		Slug:       "grid-2x2",
 		Icon:       Grid2x2,
 		Tags:       []string{"table", "rows", "columns", "blocks", "plot", "land", "geometry", "measure", "size", "width", "height", "distance", "surface area", "square meter", "acre"},
 		Categories: []string{"text", "layout", "design", "shapes", "maths"},
-	},
-	{
+	}
+
+	grid3x3Info = IconInfo{
 		Name:       "Grid 3x3",
+		Slug:       "grid-3x3",
 		Icon:       Grid3x3,
 		Tags:       []string{"table", "rows", "columns"},
 		Categories: []string{"text", "layout", "design"},
-	},
-	{
+	}
+
+	gripHorizontalInfo = IconInfo{
 		Name:       "Grip Horizontal",
+		Slug:       "grip-horizontal",
 		Icon:       GripHorizontal,
 		Tags:       []string{"grab", "dots", "handle", "move", "drag"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	gripVerticalInfo = IconInfo{
 		Name:       "Grip Vertical",
+		Slug:       "grip-vertical",
 		Icon:       GripVertical,
 		Tags:       []string{"grab", "dots", "handle", "move", "drag"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	gripInfo = IconInfo{
 		Name:       "Grip",
+		Slug:       "grip",
 		Icon:       Grip,
 		Tags:       []string{"grab", "dots", "handle", "move", "drag"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	groupInfo = IconInfo{
 		Name:       "Group",
+		Slug:       "group",
 		Icon:       Group,
 		Tags:       []string{"cubes", "packages", "parts", "units", "collection", "cluster", "gather", "dashed"},
 		Categories: []string{"shapes", "files"},
-	},
-	{
+	}
+
+	guitarInfo = IconInfo{
 		Name:       "Guitar",
+		Slug:       "guitar",
 		Icon:       Guitar,
 		Tags:       []string{"acoustic", "instrument", "strings", "riff", "rock", "band", "country", "concert", "performance", "play", "lead", "loud", "music", "audio", "sound", "noise"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	hamInfo = IconInfo{
 		Name:       "Ham",
+		Slug:       "ham",
 		Icon:       Ham,
 		Tags:       []string{"food", "pork", "pig", "meat", "bone", "hock", "knuckle", "gammon", "cured"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	hammerInfo = IconInfo{
 		Name:       "Hammer",
+		Slug:       "hammer",
 		Icon:       Hammer,
 		Tags:       []string{"mallet", "nails", "diy", "toolbox", "build", "construction"},
 		Categories: []string{"tools", "home"},
-	},
-	{
+	}
+
+	handCoinsInfo = IconInfo{
 		Name:       "Hand Coins",
+		Slug:       "hand-coins",
 		Icon:       HandCoins,
 		Tags:       []string{"savings", "banking", "money", "finance", "offers", "mortgage", "payment", "received", "wage", "payroll", "allowance", "pocket money", "handout", "pennies"},
 		Categories: []string{"money", "account"},
-	},
-	{
+	}
+
+	handHeartInfo = IconInfo{
 		Name:       "Hand Heart",
+		Slug:       "hand-heart",
 		Icon:       HandHeart,
 		Tags:       []string{"love", "like", "emotion"},
 		Categories: []string{"social"},
-	},
-	{
+	}
+
+	handHelpingInfo = IconInfo{
 		Name:       "Hand Helping",
+		Slug:       "hand-helping",
 		Icon:       HandHelping,
 		Tags:       []string{"agreement", "help", "proposal", "charity", "begging", "terms"},
 		Categories: []string{"emoji"},
-	},
-	{
+	}
+
+	handMetalInfo = IconInfo{
 		Name:       "Hand Metal",
+		Slug:       "hand-metal",
 		Icon:       HandMetal,
 		Tags:       []string{"rock"},
 		Categories: []string{"emoji", "multimedia"},
-	},
-	{
+	}
+
+	handPlatterInfo = IconInfo{
 		Name:       "Hand Platter",
+		Slug:       "hand-platter",
 		Icon:       HandPlatter,
 		Tags:       []string{"waiter", "waitress", "restaurant", "table service", "served", "dinner", "dining", "meal", "course", "luxury"},
 		Categories: []string{"food-beverage", "people"},
-	},
-	{
+	}
+
+	handInfo = IconInfo{
 		Name:       "Hand",
+		Slug:       "hand",
 		Icon:       Hand,
 		Tags:       []string{"wave", "move", "mouse", "grab"},
 		Categories: []string{"cursors", "accessibility"},
-	},
-	{
+	}
+
+	handshakeInfo = IconInfo{
 		Name:       "Handshake",
+		Slug:       "handshake",
 		Icon:       Handshake,
 		Tags:       []string{"agreement", "partnership", "deal", "business", "assistance", "cooperation", "friendship", "union", "terms"},
 		Categories: []string{"account", "social", "communication", "money", "security"},
-	},
-	{
+	}
+
+	hardDriveDownloadInfo = IconInfo{
 		Name:       "Hard Drive Download",
+		Slug:       "hard-drive-download",
 		Icon:       HardDriveDownload,
 		Tags:       []string{"computer", "server", "memory", "data", "ssd", "disk", "hard disk", "save"},
 		Categories: []string{"development", "devices", "arrows", "files"},
-	},
-	{
+	}
+
+	hardDriveUploadInfo = IconInfo{
 		Name:       "Hard Drive Upload",
+		Slug:       "hard-drive-upload",
 		Icon:       HardDriveUpload,
 		Tags:       []string{"computer", "server", "memory", "data", "ssd", "disk", "hard disk", "save"},
 		Categories: []string{"development", "devices", "arrows", "files"},
-	},
-	{
+	}
+
+	hardDriveInfo = IconInfo{
 		Name:       "Hard Drive",
+		Slug:       "hard-drive",
 		Icon:       HardDrive,
 		Tags:       []string{"computer", "server", "memory", "data", "ssd", "disk", "hard disk"},
 		Categories: []string{"development", "devices"},
-	},
-	{
+	}
+
+	hardHatInfo = IconInfo{
 		Name:       "Hard Hat",
+		Slug:       "hard-hat",
 		Icon:       HardHat,
 		Tags:       []string{"helmet", "construction", "safety", "savety"},
 		Categories: []string{"tools"},
-	},
-	{
+	}
+
+	hashInfo = IconInfo{
 		Name:       "Hash",
+		Slug:       "hash",
 		Icon:       Hash,
 		Tags:       []string{"hashtag", "number", "pound"},
 		Categories: []string{"text", "social"},
-	},
-	{
+	}
+
+	hazeInfo = IconInfo{
 		Name:       "Haze",
+		Slug:       "haze",
 		Icon:       Haze,
 		Tags:       []string{"mist", "fog"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	hdmiPortInfo = IconInfo{
 		Name:       "Hdmi Port",
+		Slug:       "hdmi-port",
 		Icon:       HdmiPort,
 		Tags:       []string{"socket", "plug", "slot", "controller", "connector", "interface", "console", "signal", "audio", "video", "visual", "av", "data", "input", "output"},
 		Categories: []string{"devices", "multimedia", "gaming"},
-	},
-	{
+	}
+
+	heading1Info = IconInfo{
 		Name:       "Heading 1",
+		Slug:       "heading-1",
 		Icon:       Heading1,
 		Tags:       []string{"h1", "html", "markup", "markdown"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	heading2Info = IconInfo{
 		Name:       "Heading 2",
+		Slug:       "heading-2",
 		Icon:       Heading2,
 		Tags:       []string{"h2", "html", "markup", "markdown"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	heading3Info = IconInfo{
 		Name:       "Heading 3",
+		Slug:       "heading-3",
 		Icon:       Heading3,
 		Tags:       []string{"h3", "html", "markup", "markdown"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	heading4Info = IconInfo{
 		Name:       "Heading 4",
+		Slug:       "heading-4",
 		Icon:       Heading4,
 		Tags:       []string{"h4", "html", "markup", "markdown"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	heading5Info = IconInfo{
 		Name:       "Heading 5",
+		Slug:       "heading-5",
 		Icon:       Heading5,
 		Tags:       []string{"h5", "html", "markup", "markdown"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	heading6Info = IconInfo{
 		Name:       "Heading 6",
+		Slug:       "heading-6",
 		Icon:       Heading6,
 		Tags:       []string{"h6", "html", "markup", "markdown"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	headingInfo = IconInfo{
 		Name:       "Heading",
+		Slug:       "heading",
 		Icon:       Heading,
 		Tags:       []string{"h1", "html", "markup", "markdown"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	headphoneOffInfo = IconInfo{
 		Name:       "Headphone Off",
+		Slug:       "headphone-off",
 		Icon:       HeadphoneOff,
 		Tags:       []string{"music", "audio", "sound", "mute", "off"},
 		Categories: []string{"multimedia", "connectivity", "communication", "devices", "gaming"},
-	},
-	{
+	}
+
+	headphonesInfo = IconInfo{
 		Name:       "Headphones",
+		Slug:       "headphones",
 		Icon:       Headphones,
 		Tags:       []string{"music", "audio", "sound"},
 		Categories: []string{"multimedia", "connectivity", "devices", "files", "gaming"},
-	},
-	{
+	}
+
+	headsetInfo = IconInfo{
 		Name:       "Headset",
+		Slug:       "headset",
 		Icon:       Headset,
 		Tags:       []string{"music", "audio", "sound", "gaming", "headphones", "headset", "call", "center", "phone", "telephone", "voip", "video"},
 		Categories: []string{"multimedia", "connectivity", "devices", "files", "gaming"},
-	},
-	{
+	}
+
+	heartCrackInfo = IconInfo{
 		Name:       "Heart Crack",
+		Slug:       "heart-crack",
 		Icon:       HeartCrack,
 		Tags:       []string{"heartbreak", "sadness", "emotion"},
 		Categories: []string{"emoji"},
-	},
-	{
+	}
+
+	heartHandshakeInfo = IconInfo{
 		Name:       "Heart Handshake",
+		Slug:       "heart-handshake",
 		Icon:       HeartHandshake,
 		Tags:       []string{"agreement", "charity", "help", "deal", "terms", "emotion", "together", "handshake"},
 		Categories: []string{"emoji", "account", "security"},
-	},
-	{
+	}
+
+	heartOffInfo = IconInfo{
 		Name:       "Heart Off",
+		Slug:       "heart-off",
 		Icon:       HeartOff,
 		Tags:       []string{"unlike", "dislike", "hate", "emotion"},
 		Categories: []string{"social", "multimedia"},
-	},
-	{
+	}
+
+	heartPulseInfo = IconInfo{
 		Name:       "Heart Pulse",
+		Slug:       "heart-pulse",
 		Icon:       HeartPulse,
 		Tags:       []string{"heartbeat", "pulse", "health", "medical", "blood pressure", "cardiac", "systole", "diastole"},
 		Categories: []string{"medical"},
-	},
-	{
+	}
+
+	heartInfo = IconInfo{
 		Name:       "Heart",
+		Slug:       "heart",
 		Icon:       Heart,
 		Tags:       []string{"like", "love", "emotion", "suit", "playing", "cards"},
 		Categories: []string{"medical", "social", "multimedia", "emoji", "gaming", "shapes"},
-	},
-	{
+	}
+
+	heaterInfo = IconInfo{
 		Name:       "Heater",
+		Slug:       "heater",
 		Icon:       Heater,
 		Tags:       []string{"heating", "warmth", "comfort", "fire", "stove", "electric", "electronics", "amenities"},
 		Categories: []string{"home", "devices", "travel"},
-	},
-	{
+	}
+
+	hexagonInfo = IconInfo{
 		Name:       "Hexagon",
+		Slug:       "hexagon",
 		Icon:       Hexagon,
 		Tags:       []string{"shape", "node.js", "logo"},
 		Categories: []string{"shapes", "brands", "development"},
-	},
-	{
+	}
+
+	highlighterInfo = IconInfo{
 		Name:       "Highlighter",
+		Slug:       "highlighter",
 		Icon:       Highlighter,
 		Tags:       []string{"mark", "text"},
 		Categories: []string{"text", "design"},
-	},
-	{
+	}
+
+	historyInfo = IconInfo{
 		Name:       "History",
+		Slug:       "history",
 		Icon:       History,
 		Tags:       []string{"time", "redo", "undo", "rewind", "timeline", "version", "time machine", "backup", "rotate", "ccw"},
 		Categories: []string{"arrows", "time"},
-	},
-	{
+	}
+
+	hopOffInfo = IconInfo{
 		Name:       "Hop Off",
+		Slug:       "hop-off",
 		Icon:       HopOff,
 		Tags:       []string{"beer", "brewery", "drink", "hop free", "allergy", "intolerance", "diet"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	hopInfo = IconInfo{
 		Name:       "Hop",
+		Slug:       "hop",
 		Icon:       Hop,
 		Tags:       []string{"beer", "brewery", "drink"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	hospitalInfo = IconInfo{
 		Name:       "Hospital",
+		Slug:       "hospital",
 		Icon:       Hospital,
 		Tags:       []string{"infirmary", "sanatorium", "healthcare", "doctor", "hospice", "clinic", "emergency room", "ward", "building", "medical", "vet"},
 		Categories: []string{"medical", "buildings", "maps", "travel"},
-	},
-	{
+	}
+
+	hotelInfo = IconInfo{
 		Name:       "Hotel",
+		Slug:       "hotel",
 		Icon:       Hotel,
 		Tags:       []string{"building", "hostel", "motel", "inn"},
 		Categories: []string{"buildings", "maps", "travel"},
-	},
-	{
+	}
+
+	hourglassInfo = IconInfo{
 		Name:       "Hourglass",
+		Slug:       "hourglass",
 		Icon:       Hourglass,
 		Tags:       []string{"timer", "time", "sandglass"},
 		Categories: []string{"time", "gaming"},
-	},
-	{
+	}
+
+	housePlugInfo = IconInfo{
 		Name:       "House Plug",
+		Slug:       "house-plug",
 		Icon:       HousePlug,
 		Tags:       []string{"home", "living", "building", "residence", "architecture", "autarky", "energy"},
 		Categories: []string{"buildings", "home", "sustainability"},
-	},
-	{
+	}
+
+	housePlusInfo = IconInfo{
 		Name:       "House Plus",
+		Slug:       "house-plus",
 		Icon:       HousePlus,
 		Tags:       []string{"home", "living", "medical", "new", "addition", "building", "residence", "architecture"},
 		Categories: []string{"buildings", "account", "medical"},
-	},
-	{
+	}
+
+	houseInfo = IconInfo{
 		Name:       "House",
+		Slug:       "house",
 		Icon:       House,
 		Tags:       []string{"home", "living", "building", "residence", "architecture"},
 		Categories: []string{"account", "buildings", "home"},
-	},
-	{
+	}
+
+	iceCreamBowlInfo = IconInfo{
 		Name:       "Ice Cream Bowl",
+		Slug:       "ice-cream-bowl",
 		Icon:       IceCreamBowl,
 		Tags:       []string{"gelato", "food", "dessert", "dish", "restaurant", "course", "meal"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	iceCreamConeInfo = IconInfo{
 		Name:       "Ice Cream Cone",
+		Slug:       "ice-cream-cone",
 		Icon:       IceCreamCone,
 		Tags:       []string{"gelato", "food"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	idCardInfo = IconInfo{
 		Name:       "Id Card",
+		Slug:       "id-card",
 		Icon:       IdCard,
 		Tags:       []string{"card", "badge", "identity", "authentication", "secure"},
 		Categories: []string{"security", "account"},
-	},
-	{
+	}
+
+	imageDownInfo = IconInfo{
 		Name:       "Image Down",
+		Slug:       "image-down",
 		Icon:       ImageDown,
 		Tags:       []string{"picture", "photo", "download", "save", "export"},
 		Categories: []string{"photography", "text", "multimedia", "files"},
-	},
-	{
+	}
+
+	imageMinusInfo = IconInfo{
 		Name:       "Image Minus",
+		Slug:       "image-minus",
 		Icon:       ImageMinus,
 		Tags:       []string{"remove", "delete"},
 		Categories: []string{"photography", "multimedia", "files"},
-	},
-	{
+	}
+
+	imageOffInfo = IconInfo{
 		Name:       "Image Off",
+		Slug:       "image-off",
 		Icon:       ImageOff,
 		Tags:       []string{"picture", "photo"},
 		Categories: []string{"photography", "multimedia", "files"},
-	},
-	{
+	}
+
+	imagePlayInfo = IconInfo{
 		Name:       "Image Play",
+		Slug:       "image-play",
 		Icon:       ImagePlay,
 		Tags:       []string{"picture", "gif", "photo"},
 		Categories: []string{"photography", "text", "multimedia", "files"},
-	},
-	{
+	}
+
+	imagePlusInfo = IconInfo{
 		Name:       "Image Plus",
+		Slug:       "image-plus",
 		Icon:       ImagePlus,
 		Tags:       []string{"add", "create", "picture"},
 		Categories: []string{"photography", "multimedia", "files"},
-	},
-	{
+	}
+
+	imageUpInfo = IconInfo{
 		Name:       "Image Up",
+		Slug:       "image-up",
 		Icon:       ImageUp,
 		Tags:       []string{"picture", "photo", "upload", "import"},
 		Categories: []string{"photography", "text", "multimedia", "files"},
-	},
-	{
+	}
+
+	imageInfo = IconInfo{
 		Name:       "Image",
+		Slug:       "image",
 		Icon:       Image,
 		Tags:       []string{"picture", "photo"},
 		Categories: []string{"photography", "text", "multimedia", "files"},
-	},
-	{
+	}
+
+	imagesInfo = IconInfo{
 		Name:       "Images",
+		Slug:       "images",
 		Icon:       Images,
 		Tags:       []string{"picture", "photo", "multiple", "copy", "gallery", "album", "collection", "slideshow", "showcase"},
 		Categories: []string{"photography", "text", "multimedia", "files"},
-	},
-	{
+	}
+
+	importInfo = IconInfo{
 		Name:       "Import",
+		Slug:       "import",
 		Icon:       Import,
 		Tags:       []string{"save"},
 		Categories: []string{"arrows", "files"},
-	},
-	{
+	}
+
+	inboxInfo = IconInfo{
 		Name:       "Inbox",
+		Slug:       "inbox",
 		Icon:       Inbox,
 		Tags:       []string{"email"},
 		Categories: []string{"account", "mail"},
-	},
-	{
+	}
+
+	indentDecreaseInfo = IconInfo{
 		Name:       "Indent Decrease",
+		Slug:       "indent-decrease",
 		Icon:       IndentDecrease,
 		Tags:       []string{"text", "tab"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	indentIncreaseInfo = IconInfo{
 		Name:       "Indent Increase",
+		Slug:       "indent-increase",
 		Icon:       IndentIncrease,
 		Tags:       []string{"text", "tab"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	indianRupeeInfo = IconInfo{
 		Name:       "Indian Rupee",
+		Slug:       "indian-rupee",
 		Icon:       IndianRupee,
 		Tags:       []string{"currency", "money", "payment"},
 		Categories: []string{"currency", "money"},
-	},
-	{
+	}
+
+	infinityInfo = IconInfo{
 		Name:       "Infinity",
+		Slug:       "infinity",
 		Icon:       Infinity,
 		Tags:       []string{"unlimited", "forever", "loop", "maths"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	infoInfo = IconInfo{
 		Name:       "Info",
+		Slug:       "info",
 		Icon:       Info,
 		Tags:       []string{"help"},
 		Categories: []string{"accessibility", "notifications"},
-	},
-	{
+	}
+
+	inspectionPanelInfo = IconInfo{
 		Name:       "Inspection Panel",
+		Slug:       "inspection-panel",
 		Icon:       InspectionPanel,
 		Tags:       []string{"access", "cover", "tile", "metal", "materials", "screws"},
 		Categories: []string{"tools"},
-	},
-	{
+	}
+
+	instagramInfo = IconInfo{
 		Name:       "Instagram",
+		Slug:       "instagram",
 		Icon:       Instagram,
 		Tags:       []string{"logo", "camera", "social"},
 		Categories: []string{"brands", "social", "photography"},
-	},
-	{
+	}
+
+	italicInfo = IconInfo{
 		Name:       "Italic",
+		Slug:       "italic",
 		Icon:       Italic,
 		Tags:       []string{"oblique", "text", "format"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	iterationCcwInfo = IconInfo{
 		Name:       "Iteration Ccw",
+		Slug:       "iteration-ccw",
 		Icon:       IterationCcw,
 		Tags:       []string{"arrow", "right"},
 		Categories: []string{"arrows", "design"},
-	},
-	{
+	}
+
+	iterationCwInfo = IconInfo{
 		Name:       "Iteration Cw",
+		Slug:       "iteration-cw",
 		Icon:       IterationCw,
 		Tags:       []string{"arrow", "left"},
 		Categories: []string{"arrows", "design"},
-	},
-	{
+	}
+
+	japaneseYenInfo = IconInfo{
 		Name:       "Japanese Yen",
+		Slug:       "japanese-yen",
 		Icon:       JapaneseYen,
 		Tags:       []string{"currency", "money", "payment"},
 		Categories: []string{"currency", "money"},
-	},
-	{
+	}
+
+	joystickInfo = IconInfo{
 		Name:       "Joystick",
+		Slug:       "joystick",
 		Icon:       Joystick,
 		Tags:       []string{"game", "console", "control stick"},
 		Categories: []string{"gaming", "devices"},
-	},
-	{
+	}
+
+	kanbanInfo = IconInfo{
 		Name:       "Kanban",
+		Slug:       "kanban",
 		Icon:       Kanban,
 		Tags:       []string{"projects", "manage", "overview", "board", "tickets", "issues", "roadmap", "plan", "intentions", "productivity", "work", "agile", "code", "coding"},
 		Categories: []string{"charts", "development", "design"},
-	},
-	{
+	}
+
+	keyRoundInfo = IconInfo{
 		Name:       "Key Round",
+		Slug:       "key-round",
 		Icon:       KeyRound,
 		Tags:       []string{"password", "login", "authentication", "secure", "unlock"},
 		Categories: []string{"security", "account"},
-	},
-	{
+	}
+
+	keySquareInfo = IconInfo{
 		Name:       "Key Square",
+		Slug:       "key-square",
 		Icon:       KeySquare,
 		Tags:       []string{"password", "login", "authentication", "secure", "unlock", "car key"},
 		Categories: []string{"security", "account"},
-	},
-	{
+	}
+
+	keyInfo = IconInfo{
 		Name:       "Key",
+		Slug:       "key",
 		Icon:       Key,
 		Tags:       []string{"password", "login", "authentication", "secure", "unlock", "keychain", "key ring", "fob"},
 		Categories: []string{"security", "account"},
-	},
-	{
+	}
+
+	keyboardMusicInfo = IconInfo{
 		Name:       "Keyboard Music",
+		Slug:       "keyboard-music",
 		Icon:       KeyboardMusic,
 		Tags:       []string{"music", "audio", "sound", "noise", "notes", "keys", "chord", "octave", "midi", "controller", "instrument", "electric", "signal", "digital", "studio", "production", "producer", "pianist", "piano", "play", "performance", "concert"},
 		Categories: []string{"multimedia", "devices"},
-	},
-	{
+	}
+
+	keyboardOffInfo = IconInfo{
 		Name:       "Keyboard Off",
+		Slug:       "keyboard-off",
 		Icon:       KeyboardOff,
 		Tags:       []string{"unkeys", "layout", "spell", "settings", "mouse"},
 		Categories: []string{"devices", "text", "development"},
-	},
-	{
+	}
+
+	keyboardInfo = IconInfo{
 		Name:       "Keyboard",
+		Slug:       "keyboard",
 		Icon:       Keyboard,
 		Tags:       []string{"layout", "spell", "settings", "mouse"},
 		Categories: []string{"text", "devices", "development"},
-	},
-	{
+	}
+
+	lampCeilingInfo = IconInfo{
 		Name:       "Lamp Ceiling",
+		Slug:       "lamp-ceiling",
 		Icon:       LampCeiling,
 		Tags:       []string{"lighting", "household", "home", "furniture"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	lampDeskInfo = IconInfo{
 		Name:       "Lamp Desk",
+		Slug:       "lamp-desk",
 		Icon:       LampDesk,
 		Tags:       []string{"lighting", "household", "office", "desk", "home", "furniture"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	lampFloorInfo = IconInfo{
 		Name:       "Lamp Floor",
+		Slug:       "lamp-floor",
 		Icon:       LampFloor,
 		Tags:       []string{"lighting", "household", "floor", "home", "furniture"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	lampWallDownInfo = IconInfo{
 		Name:       "Lamp Wall Down",
+		Slug:       "lamp-wall-down",
 		Icon:       LampWallDown,
 		Tags:       []string{"lighting", "household", "wall", "home", "furniture"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	lampWallUpInfo = IconInfo{
 		Name:       "Lamp Wall Up",
+		Slug:       "lamp-wall-up",
 		Icon:       LampWallUp,
 		Tags:       []string{"lighting", "household", "wall", "home", "furniture"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	lampInfo = IconInfo{
 		Name:       "Lamp",
+		Slug:       "lamp",
 		Icon:       Lamp,
 		Tags:       []string{"lighting", "household", "home", "furniture"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	landPlotInfo = IconInfo{
 		Name:       "Land Plot",
+		Slug:       "land-plot",
 		Icon:       LandPlot,
 		Tags:       []string{"area", "surface", "square metres", "allotment", "parcel", "property", "plane", "acres", "measure", "distance", "isometric", "flag", "golf course", "hole"},
 		Categories: []string{"shapes", "design", "tools", "maths", "sports", "gaming"},
-	},
-	{
+	}
+
+	landmarkInfo = IconInfo{
 		Name:       "Landmark",
+		Slug:       "landmark",
 		Icon:       Landmark,
 		Tags:       []string{"bank", "building", "capitol", "finance", "money"},
 		Categories: []string{"money", "maps", "buildings"},
-	},
-	{
+	}
+
+	languagesInfo = IconInfo{
 		Name:       "Languages",
+		Slug:       "languages",
 		Icon:       Languages,
 		Tags:       []string{"translate"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	laptopMinimalInfo = IconInfo{
 		Name:       "Laptop Minimal",
+		Slug:       "laptop-minimal",
 		Icon:       LaptopMinimal,
 		Tags:       []string{"computer", "screen", "remote"},
 		Categories: []string{"devices"},
-	},
-	{
+	}
+
+	laptopInfo = IconInfo{
 		Name:       "Laptop",
+		Slug:       "laptop",
 		Icon:       Laptop,
 		Tags:       []string{"computer", "screen", "remote"},
 		Categories: []string{"devices"},
-	},
-	{
+	}
+
+	lassoSelectInfo = IconInfo{
 		Name:       "Lasso Select",
+		Slug:       "lasso-select",
 		Icon:       LassoSelect,
 		Tags:       []string{"select", "cursor"},
 		Categories: []string{"arrows", "design", "cursors"},
-	},
-	{
+	}
+
+	lassoInfo = IconInfo{
 		Name:       "Lasso",
+		Slug:       "lasso",
 		Icon:       Lasso,
 		Tags:       []string{"select", "cursor"},
 		Categories: []string{"design", "cursors"},
-	},
-	{
+	}
+
+	laughInfo = IconInfo{
 		Name:       "Laugh",
+		Slug:       "laugh",
 		Icon:       Laugh,
 		Tags:       []string{"emoji", "face", "happy", "good", "emotion"},
 		Categories: []string{"emoji"},
-	},
-	{
+	}
+
+	layers2Info = IconInfo{
 		Name:       "Layers 2",
+		Slug:       "layers-2",
 		Icon:       Layers2,
 		Tags:       []string{"stack", "pile", "pages", "sheets", "paperwork", "copies", "copy", "duplicate", "double", "shortcuts"},
 		Categories: []string{"design", "layout"},
-	},
-	{
+	}
+
+	layers3Info = IconInfo{
 		Name:       "Layers 3",
+		Slug:       "layers-3",
 		Icon:       Layers3,
 		Tags:       []string{"stack", "pile", "pages", "sheets", "paperwork", "copies", "copy", "duplicate", "triple"},
 		Categories: []string{"design", "layout"},
-	},
-	{
+	}
+
+	layersInfo = IconInfo{
 		Name:       "Layers",
+		Slug:       "layers",
 		Icon:       Layers,
 		Tags:       []string{"stack", "pile", "pages", "sheets", "paperwork", "copies", "copy"},
 		Categories: []string{"design", "layout"},
-	},
-	{
+	}
+
+	layoutDashboardInfo = IconInfo{
 		Name:       "Layout Dashboard",
+		Slug:       "layout-dashboard",
 		Icon:       LayoutDashboard,
 		Tags:       []string{"masonry", "brick"},
 		Categories: []string{"design", "layout"},
-	},
-	{
+	}
+
+	layoutGridInfo = IconInfo{
 		Name:       "Layout Grid",
+		Slug:       "layout-grid",
 		Icon:       LayoutGrid,
 		Tags:       []string{"app", "home", "start"},
 		Categories: []string{"design", "layout"},
-	},
-	{
+	}
+
+	layoutListInfo = IconInfo{
 		Name:       "Layout List",
+		Slug:       "layout-list",
 		Icon:       LayoutList,
 		Tags:       []string{"todo", "tasks", "items", "pending", "image", "photo"},
 		Categories: []string{"design", "layout", "photography", "text"},
-	},
-	{
+	}
+
+	layoutPanelLeftInfo = IconInfo{
 		Name:       "Layout Panel Left",
+		Slug:       "layout-panel-left",
 		Icon:       LayoutPanelLeft,
 		Tags:       []string{"app", "home", "start", "grid"},
 		Categories: []string{"design", "layout"},
-	},
-	{
+	}
+
+	layoutPanelTopInfo = IconInfo{
 		Name:       "Layout Panel Top",
+		Slug:       "layout-panel-top",
 		Icon:       LayoutPanelTop,
 		Tags:       []string{"window", "webpage", "block", "section", "grid", "template", "structure"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	layoutTemplateInfo = IconInfo{
 		Name:       "Layout Template",
+		Slug:       "layout-template",
 		Icon:       LayoutTemplate,
 		Tags:       []string{"window", "webpage", "block", "section"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	leafInfo = IconInfo{
 		Name:       "Leaf",
+		Slug:       "leaf",
 		Icon:       Leaf,
 		Tags:       []string{"sustainability", "nature", "energy", "plant", "autumn"},
 		Categories: []string{"nature", "sustainability", "seasons"},
-	},
-	{
+	}
+
+	leafyGreenInfo = IconInfo{
 		Name:       "Leafy Green",
+		Slug:       "leafy-green",
 		Icon:       LeafyGreen,
 		Tags:       []string{"salad", "lettuce", "vegetable", "chard", "cabbage", "bok choy"},
 		Categories: []string{"food-beverage", "emoji", "sustainability"},
-	},
-	{
+	}
+
+	lecternInfo = IconInfo{
 		Name:       "Lectern",
+		Slug:       "lectern",
 		Icon:       Lectern,
 		Tags:       []string{"pulpit", "podium", "stand"},
 		Categories: []string{"communication", "multimedia"},
-	},
-	{
+	}
+
+	letterTextInfo = IconInfo{
 		Name:       "Letter Text",
+		Slug:       "letter-text",
 		Icon:       LetterText,
 		Tags:       []string{"drop cap", "text", "format", "typography", "letter", "font size"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	libraryBigInfo = IconInfo{
 		Name:       "Library Big",
+		Slug:       "library-big",
 		Icon:       LibraryBig,
 		Tags:       []string{"books", "reading", "written", "authors", "stories", "fiction", "novels", "information", "knowledge", "education", "high school", "university", "college", "academy", "learning", "study", "research", "collection", "vinyl", "records", "albums", "music", "package"},
 		Categories: []string{"text", "photography", "multimedia", "maps", "development"},
-	},
-	{
+	}
+
+	libraryInfo = IconInfo{
 		Name:       "Library",
+		Slug:       "library",
 		Icon:       Library,
 		Tags:       []string{"books", "reading", "written", "authors", "stories", "fiction", "novels", "information", "knowledge", "education", "high school", "university", "college", "academy", "learning", "study", "research", "collection", "vinyl", "records", "albums", "music", "package"},
 		Categories: []string{"text", "photography", "multimedia", "maps", "development"},
-	},
-	{
+	}
+
+	lifeBuoyInfo = IconInfo{
 		Name:       "Life Buoy",
+		Slug:       "life-buoy",
 		Icon:       LifeBuoy,
 		Tags:       []string{"preserver", "life belt", "lifesaver", "help", "rescue", "ship", "ring", "raft", "inflatable", "wheel", "donut"},
 		Categories: []string{"accessibility", "medical"},
-	},
-	{
+	}
+
+	ligatureInfo = IconInfo{
 		Name:       "Ligature",
+		Slug:       "ligature",
 		Icon:       Ligature,
 		Tags:       []string{"text", "font", "typography", "alternates", "alternatives"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	lightbulbOffInfo = IconInfo{
 		Name:       "Lightbulb Off",
+		Slug:       "lightbulb-off",
 		Icon:       LightbulbOff,
 		Tags:       []string{"lights"},
 		Categories: []string{"photography"},
-	},
-	{
+	}
+
+	lightbulbInfo = IconInfo{
 		Name:       "Lightbulb",
+		Slug:       "lightbulb",
 		Icon:       Lightbulb,
 		Tags:       []string{"idea", "bright", "lights"},
 		Categories: []string{"photography"},
-	},
-	{
+	}
+
+	link2OffInfo = IconInfo{
 		Name:       "Link 2 Off",
+		Slug:       "link-2-off",
 		Icon:       Link2Off,
 		Tags:       []string{"unchain", "chain"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	link2Info = IconInfo{
 		Name:       "Link 2",
+		Slug:       "link-2",
 		Icon:       Link2,
 		Tags:       []string{"chain", "url"},
 		Categories: []string{"text", "account"},
-	},
-	{
+	}
+
+	linkInfo = IconInfo{
 		Name:       "Link",
+		Slug:       "link",
 		Icon:       Link,
 		Tags:       []string{"chain", "url"},
 		Categories: []string{"text", "account"},
-	},
-	{
+	}
+
+	linkedinInfo = IconInfo{
 		Name:       "Linkedin",
+		Slug:       "linkedin",
 		Icon:       Linkedin,
 		Tags:       []string{"logo", "social media", "social"},
 		Categories: []string{"account", "social", "brands"},
-	},
-	{
+	}
+
+	listCheckInfo = IconInfo{
 		Name:       "List Check",
+		Slug:       "list-check",
 		Icon:       ListCheck,
 		Tags:       []string{"done", "check", "tick", "complete", "list", "to-do", "bom"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	listChecksInfo = IconInfo{
 		Name:       "List Checks",
+		Slug:       "list-checks",
 		Icon:       ListChecks,
 		Tags:       []string{"todo", "done", "check", "tick", "complete", "tasks", "items", "pending"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	listCollapseInfo = IconInfo{
 		Name:       "List Collapse",
+		Slug:       "list-collapse",
 		Icon:       ListCollapse,
 		Tags:       []string{"items", "collapse", "expand", "details", "disclosure", "show", "hide", "toggle", "accordion", "more", "less", "fold", "unfold"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	listEndInfo = IconInfo{
 		Name:       "List End",
+		Slug:       "list-end",
 		Icon:       ListEnd,
 		Tags:       []string{"queue", "bottom", "end", "playlist"},
 		Categories: []string{"multimedia", "text"},
-	},
-	{
+	}
+
+	listFilterInfo = IconInfo{
 		Name:       "List Filter",
+		Slug:       "list-filter",
 		Icon:       ListFilter,
 		Tags:       []string{"options"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	listMinusInfo = IconInfo{
 		Name:       "List Minus",
+		Slug:       "list-minus",
 		Icon:       ListMinus,
 		Tags:       []string{"playlist", "remove", "song", "subtract", "delete", "unqueue"},
 		Categories: []string{"multimedia", "text"},
-	},
-	{
+	}
+
+	listMusicInfo = IconInfo{
 		Name:       "List Music",
+		Slug:       "list-music",
 		Icon:       ListMusic,
 		Tags:       []string{"playlist", "queue", "music", "audio", "playback"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	listOrderedInfo = IconInfo{
 		Name:       "List Ordered",
+		Slug:       "list-ordered",
 		Icon:       ListOrdered,
 		Tags:       []string{"number", "order", "queue"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	listPlusInfo = IconInfo{
 		Name:       "List Plus",
+		Slug:       "list-plus",
 		Icon:       ListPlus,
 		Tags:       []string{"playlist", "add", "song", "track", "new"},
 		Categories: []string{"multimedia", "text"},
-	},
-	{
+	}
+
+	listRestartInfo = IconInfo{
 		Name:       "List Restart",
+		Slug:       "list-restart",
 		Icon:       ListRestart,
 		Tags:       []string{"reset", "refresh", "reload", "playlist", "replay"},
 		Categories: []string{"multimedia", "text"},
-	},
-	{
+	}
+
+	listStartInfo = IconInfo{
 		Name:       "List Start",
+		Slug:       "list-start",
 		Icon:       ListStart,
 		Tags:       []string{"queue", "top", "start", "next", "playlist"},
 		Categories: []string{"multimedia", "text"},
-	},
-	{
+	}
+
+	listTodoInfo = IconInfo{
 		Name:       "List Todo",
+		Slug:       "list-todo",
 		Icon:       ListTodo,
 		Tags:       []string{"todo", "done", "check", "tick", "complete", "tasks", "items", "pending"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	listTreeInfo = IconInfo{
 		Name:       "List Tree",
+		Slug:       "list-tree",
 		Icon:       ListTree,
 		Tags:       []string{"tree", "browser"},
 		Categories: []string{"files", "text", "layout"},
-	},
-	{
+	}
+
+	listVideoInfo = IconInfo{
 		Name:       "List Video",
+		Slug:       "list-video",
 		Icon:       ListVideo,
 		Tags:       []string{"playlist", "video", "playback"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	listXInfo = IconInfo{
 		Name:       "List X",
+		Slug:       "list-x",
 		Icon:       ListX,
 		Tags:       []string{"playlist", "subtract", "remove", "delete", "unqueue"},
 		Categories: []string{"multimedia", "text"},
-	},
-	{
+	}
+
+	listInfo = IconInfo{
 		Name:       "List",
+		Slug:       "list",
 		Icon:       List,
 		Tags:       []string{"options"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	loaderCircleInfo = IconInfo{
 		Name:       "Loader Circle",
+		Slug:       "loader-circle",
 		Icon:       LoaderCircle,
 		Tags:       []string{"loading", "wait", "busy", "progress", "spinner", "spinning", "throbber", "circle"},
 		Categories: []string{"cursors", "multimedia", "layout"},
-	},
-	{
+	}
+
+	loaderPinwheelInfo = IconInfo{
 		Name:       "Loader Pinwheel",
+		Slug:       "loader-pinwheel",
 		Icon:       LoaderPinwheel,
 		Tags:       []string{"loading", "wait", "busy", "progress", "throbber", "spinner", "spinning", "beach ball", "frozen", "freeze"},
 		Categories: []string{"cursors", "design"},
-	},
-	{
+	}
+
+	loaderInfo = IconInfo{
 		Name:       "Loader",
+		Slug:       "loader",
 		Icon:       Loader,
 		Tags:       []string{"loading", "wait", "busy", "progress", "spinner", "spinning", "throbber"},
 		Categories: []string{"cursors", "multimedia", "layout", "design"},
-	},
-	{
+	}
+
+	locateFixedInfo = IconInfo{
 		Name:       "Locate Fixed",
+		Slug:       "locate-fixed",
 		Icon:       LocateFixed,
 		Tags:       []string{"map", "gps", "location", "cross"},
 		Categories: []string{"navigation", "maps"},
-	},
-	{
+	}
+
+	locateOffInfo = IconInfo{
 		Name:       "Locate Off",
+		Slug:       "locate-off",
 		Icon:       LocateOff,
 		Tags:       []string{"map", "gps", "location", "cross"},
 		Categories: []string{"navigation", "maps"},
-	},
-	{
+	}
+
+	locateInfo = IconInfo{
 		Name:       "Locate",
+		Slug:       "locate",
 		Icon:       Locate,
 		Tags:       []string{"map", "gps", "location", "cross"},
 		Categories: []string{"navigation", "maps"},
-	},
-	{
+	}
+
+	lockKeyholeOpenInfo = IconInfo{
 		Name:       "Lock Keyhole Open",
+		Slug:       "lock-keyhole-open",
 		Icon:       LockKeyholeOpen,
 		Tags:       []string{"security"},
 		Categories: []string{"security"},
-	},
-	{
+	}
+
+	lockKeyholeInfo = IconInfo{
 		Name:       "Lock Keyhole",
+		Slug:       "lock-keyhole",
 		Icon:       LockKeyhole,
 		Tags:       []string{"security", "password", "secure", "admin"},
 		Categories: []string{"security"},
-	},
-	{
+	}
+
+	lockOpenInfo = IconInfo{
 		Name:       "Lock Open",
+		Slug:       "lock-open",
 		Icon:       LockOpen,
 		Tags:       []string{"security"},
 		Categories: []string{"security"},
-	},
-	{
+	}
+
+	lockInfo = IconInfo{
 		Name:       "Lock",
+		Slug:       "lock",
 		Icon:       Lock,
 		Tags:       []string{"security", "password", "secure", "admin"},
 		Categories: []string{"security"},
-	},
-	{
+	}
+
+	logInInfo = IconInfo{
 		Name:       "Log In",
+		Slug:       "log-in",
 		Icon:       LogIn,
 		Tags:       []string{"sign in", "arrow", "enter", "auth"},
 		Categories: []string{"arrows", "account"},
-	},
-	{
+	}
+
+	logOutInfo = IconInfo{
 		Name:       "Log Out",
+		Slug:       "log-out",
 		Icon:       LogOut,
 		Tags:       []string{"sign out", "arrow", "exit", "auth"},
 		Categories: []string{"arrows", "account"},
-	},
-	{
+	}
+
+	logsInfo = IconInfo{
 		Name:       "Logs",
+		Slug:       "logs",
 		Icon:       Logs,
 		Tags:       []string{"options", "list", "menu", "order", "queue", "tasks", "logs"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	lollipopInfo = IconInfo{
 		Name:       "Lollipop",
+		Slug:       "lollipop",
 		Icon:       Lollipop,
 		Tags:       []string{"lolly", "candy", "sugar", "food", "sweet", "dessert", "spiral"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	luggageInfo = IconInfo{
 		Name:       "Luggage",
+		Slug:       "luggage",
 		Icon:       Luggage,
 		Tags:       []string{"baggage", "luggage", "travel", "suitcase"},
 		Categories: []string{"travel", "transportation"},
-	},
-	{
+	}
+
+	magnetInfo = IconInfo{
 		Name:       "Magnet",
+		Slug:       "magnet",
 		Icon:       Magnet,
 		Tags:       []string{"horseshoe", "lock", "science", "snap"},
 		Categories: []string{"design"},
-	},
-	{
+	}
+
+	mailCheckInfo = IconInfo{
 		Name:       "Mail Check",
+		Slug:       "mail-check",
 		Icon:       MailCheck,
 		Tags:       []string{"email", "message", "letter", "subscribe", "delivered", "success", "read", "done", "todo", "tick", "complete", "task"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	mailMinusInfo = IconInfo{
 		Name:       "Mail Minus",
+		Slug:       "mail-minus",
 		Icon:       MailMinus,
 		Tags:       []string{"email", "message", "letter", "remove", "delete"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	mailOpenInfo = IconInfo{
 		Name:       "Mail Open",
+		Slug:       "mail-open",
 		Icon:       MailOpen,
 		Tags:       []string{"email", "message", "letter", "read"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	mailPlusInfo = IconInfo{
 		Name:       "Mail Plus",
+		Slug:       "mail-plus",
 		Icon:       MailPlus,
 		Tags:       []string{"email", "message", "letter", "add", "create", "new", "compose"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	mailQuestionInfo = IconInfo{
 		Name:       "Mail Question",
+		Slug:       "mail-question",
 		Icon:       MailQuestion,
 		Tags:       []string{"email", "message", "letter", "delivery", "undelivered"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	mailSearchInfo = IconInfo{
 		Name:       "Mail Search",
+		Slug:       "mail-search",
 		Icon:       MailSearch,
 		Tags:       []string{"email", "message", "letter", "search"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	mailWarningInfo = IconInfo{
 		Name:       "Mail Warning",
+		Slug:       "mail-warning",
 		Icon:       MailWarning,
 		Tags:       []string{"email", "message", "letter", "delivery error", "exclamation mark"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	mailXInfo = IconInfo{
 		Name:       "Mail X",
+		Slug:       "mail-x",
 		Icon:       MailX,
 		Tags:       []string{"email", "message", "letter", "remove", "delete"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	mailInfo = IconInfo{
 		Name:       "Mail",
+		Slug:       "mail",
 		Icon:       Mail,
 		Tags:       []string{"email", "message", "letter", "unread"},
 		Categories: []string{"text", "account", "mail"},
-	},
-	{
+	}
+
+	mailboxInfo = IconInfo{
 		Name:       "Mailbox",
+		Slug:       "mailbox",
 		Icon:       Mailbox,
 		Tags:       []string{"emails", "messages", "letters", "mailing list", "newsletter"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	mailsInfo = IconInfo{
 		Name:       "Mails",
+		Slug:       "mails",
 		Icon:       Mails,
 		Tags:       []string{"emails", "messages", "letters", "multiple", "mailing list", "newsletter", "copy"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	mapPinCheckInsideInfo = IconInfo{
 		Name:       "Map Pin Check Inside",
+		Slug:       "map-pin-check-inside",
 		Icon:       MapPinCheckInside,
 		Tags:       []string{"location", "waypoint", "marker", "drop", "done", "tick", "complete", "task", "added"},
 		Categories: []string{"maps", "navigation", "travel", "account"},
-	},
-	{
+	}
+
+	mapPinCheckInfo = IconInfo{
 		Name:       "Map Pin Check",
+		Slug:       "map-pin-check",
 		Icon:       MapPinCheck,
 		Tags:       []string{"location", "waypoint", "marker", "drop", "done", "tick", "complete", "task", "added"},
 		Categories: []string{"maps", "navigation", "travel", "account"},
-	},
-	{
+	}
+
+	mapPinHouseInfo = IconInfo{
 		Name:       "Map Pin House",
+		Slug:       "map-pin-house",
 		Icon:       MapPinHouse,
 		Tags:       []string{"location", "waypoint", "marker", "drop", "home", "living", "building", "residence", "architecture", "address", "poi", "real estate", "property", "navigation", "destination", "geolocation", "place", "landmark"},
 		Categories: []string{"maps", "navigation", "travel", "account"},
-	},
-	{
+	}
+
+	mapPinMinusInsideInfo = IconInfo{
 		Name:       "Map Pin Minus Inside",
+		Slug:       "map-pin-minus-inside",
 		Icon:       MapPinMinusInside,
 		Tags:       []string{"location", "waypoint", "marker", "drop", "delete", "remove", "erase"},
 		Categories: []string{"maps", "navigation", "travel", "account"},
-	},
-	{
+	}
+
+	mapPinMinusInfo = IconInfo{
 		Name:       "Map Pin Minus",
+		Slug:       "map-pin-minus",
 		Icon:       MapPinMinus,
 		Tags:       []string{"location", "waypoint", "marker", "drop", "delete", "remove", "erase"},
 		Categories: []string{"maps", "navigation", "travel", "account"},
-	},
-	{
+	}
+
+	mapPinOffInfo = IconInfo{
 		Name:       "Map Pin Off",
+		Slug:       "map-pin-off",
 		Icon:       MapPinOff,
 		Tags:       []string{"location", "waypoint", "marker", "remove"},
 		Categories: []string{"maps", "navigation", "travel"},
-	},
-	{
+	}
+
+	mapPinPlusInsideInfo = IconInfo{
 		Name:       "Map Pin Plus Inside",
+		Slug:       "map-pin-plus-inside",
 		Icon:       MapPinPlusInside,
 		Tags:       []string{"location", "waypoint", "marker", "drop", "add", "create", "new"},
 		Categories: []string{"maps", "navigation", "travel", "account"},
-	},
-	{
+	}
+
+	mapPinPlusInfo = IconInfo{
 		Name:       "Map Pin Plus",
+		Slug:       "map-pin-plus",
 		Icon:       MapPinPlus,
 		Tags:       []string{"location", "waypoint", "marker", "drop", "add", "create", "new"},
 		Categories: []string{"maps", "navigation", "travel", "account"},
-	},
-	{
+	}
+
+	mapPinXInsideInfo = IconInfo{
 		Name:       "Map Pin X Inside",
+		Slug:       "map-pin-x-inside",
 		Icon:       MapPinXInside,
 		Tags:       []string{"location", "waypoint", "marker", "drop", "delete", "remove", "erase"},
 		Categories: []string{"maps", "navigation", "travel", "account"},
-	},
-	{
+	}
+
+	mapPinXInfo = IconInfo{
 		Name:       "Map Pin X",
+		Slug:       "map-pin-x",
 		Icon:       MapPinX,
 		Tags:       []string{"location", "waypoint", "marker", "drop", "delete", "remove", "erase"},
 		Categories: []string{"maps", "navigation", "travel", "account"},
-	},
-	{
+	}
+
+	mapPinInfo = IconInfo{
 		Name:       "Map Pin",
+		Slug:       "map-pin",
 		Icon:       MapPin,
 		Tags:       []string{"location", "waypoint", "marker", "drop"},
 		Categories: []string{"maps", "navigation", "travel", "account"},
-	},
-	{
+	}
+
+	mapPinnedInfo = IconInfo{
 		Name:       "Map Pinned",
+		Slug:       "map-pinned",
 		Icon:       MapPinned,
 		Tags:       []string{"location", "waypoint", "marker", "drop"},
 		Categories: []string{"maps", "navigation", "travel", "account"},
-	},
-	{
+	}
+
+	mapInfo = IconInfo{
 		Name:       "Map",
+		Slug:       "map",
 		Icon:       Map,
 		Tags:       []string{"location", "navigation", "travel"},
 		Categories: []string{"text", "maps"},
-	},
-	{
+	}
+
+	martiniInfo = IconInfo{
 		Name:       "Martini",
+		Slug:       "martini",
 		Icon:       Martini,
 		Tags:       []string{"cocktail", "alcohol", "beverage", "bar", "drink", "glass"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	maximize2Info = IconInfo{
 		Name:       "Maximize 2",
+		Slug:       "maximize-2",
 		Icon:       Maximize2,
 		Tags:       []string{"fullscreen", "arrows", "expand"},
 		Categories: []string{"arrows", "layout", "design"},
-	},
-	{
+	}
+
+	maximizeInfo = IconInfo{
 		Name:       "Maximize",
+		Slug:       "maximize",
 		Icon:       Maximize,
 		Tags:       []string{"fullscreen", "expand", "dashed"},
 		Categories: []string{"layout", "design"},
-	},
-	{
+	}
+
+	medalInfo = IconInfo{
 		Name:       "Medal",
+		Slug:       "medal",
 		Icon:       Medal,
 		Tags:       []string{"prize", "sports", "winner", "trophy", "award", "achievement"},
 		Categories: []string{"sports", "gaming"},
-	},
-	{
+	}
+
+	megaphoneOffInfo = IconInfo{
 		Name:       "Megaphone Off",
+		Slug:       "megaphone-off",
 		Icon:       MegaphoneOff,
 		Tags:       []string{"advertisement", "attention", "alert", "notification", "disable", "silent"},
 		Categories: []string{"multimedia", "notifications"},
-	},
-	{
+	}
+
+	megaphoneInfo = IconInfo{
 		Name:       "Megaphone",
+		Slug:       "megaphone",
 		Icon:       Megaphone,
 		Tags:       []string{"advertisement", "attention", "alert", "notification"},
 		Categories: []string{"multimedia", "notifications"},
-	},
-	{
+	}
+
+	mehInfo = IconInfo{
 		Name:       "Meh",
+		Slug:       "meh",
 		Icon:       Meh,
 		Tags:       []string{"emoji", "face", "neutral", "emotion"},
 		Categories: []string{"emoji"},
-	},
-	{
+	}
+
+	memoryStickInfo = IconInfo{
 		Name:       "Memory Stick",
+		Slug:       "memory-stick",
 		Icon:       MemoryStick,
 		Tags:       []string{"ram", "random access", "technology", "computer", "chip", "circuit", "specs", "capacity", "gigabytes", "gb"},
 		Categories: []string{"devices", "development", "gaming"},
-	},
-	{
+	}
+
+	menuInfo = IconInfo{
 		Name:       "Menu",
+		Slug:       "menu",
 		Icon:       Menu,
 		Tags:       []string{"bars", "navigation", "hamburger", "options"},
 		Categories: []string{"layout", "account"},
-	},
-	{
+	}
+
+	mergeInfo = IconInfo{
 		Name:       "Merge",
+		Slug:       "merge",
 		Icon:       Merge,
 		Tags:       []string{"combine", "join", "unite"},
 		Categories: []string{"development", "arrows"},
-	},
-	{
+	}
+
+	messageCircleCodeInfo = IconInfo{
 		Name:       "Message Circle Code",
+		Slug:       "message-circle-code",
 		Icon:       MessageCircleCode,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "code review", "coding"},
 		Categories: []string{"development", "account", "social"},
-	},
-	{
+	}
+
+	messageCircleDashedInfo = IconInfo{
 		Name:       "Message Circle Dashed",
+		Slug:       "message-circle-dashed",
 		Icon:       MessageCircleDashed,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "draft"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageCircleHeartInfo = IconInfo{
 		Name:       "Message Circle Heart",
+		Slug:       "message-circle-heart",
 		Icon:       MessageCircleHeart,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "positive", "like", "love", "interest", "valentine", "dating", "date", "speech bubble"},
 		Categories: []string{"social"},
-	},
-	{
+	}
+
+	messageCircleMoreInfo = IconInfo{
 		Name:       "Message Circle More",
+		Slug:       "message-circle-more",
 		Icon:       MessageCircleMore,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "typing", "writing", "responding", "ellipsis", "etc", "et cetera", "...", "…"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageCircleOffInfo = IconInfo{
 		Name:       "Message Circle Off",
+		Slug:       "message-circle-off",
 		Icon:       MessageCircleOff,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "clear", "close", "delete", "remove", "cancel", "silence", "mute", "moderate"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageCirclePlusInfo = IconInfo{
 		Name:       "Message Circle Plus",
+		Slug:       "message-circle-plus",
 		Icon:       MessageCirclePlus,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "add"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageCircleQuestionInfo = IconInfo{
 		Name:       "Message Circle Question",
+		Slug:       "message-circle-question",
 		Icon:       MessageCircleQuestion,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "help"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageCircleReplyInfo = IconInfo{
 		Name:       "Message Circle Reply",
+		Slug:       "message-circle-reply",
 		Icon:       MessageCircleReply,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "reply", "response"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageCircleWarningInfo = IconInfo{
 		Name:       "Message Circle Warning",
+		Slug:       "message-circle-warning",
 		Icon:       MessageCircleWarning,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "report", "abuse", "offense", "alert", "danger", "caution", "protected", "exclamation mark"},
 		Categories: []string{"account", "social", "notifications"},
-	},
-	{
+	}
+
+	messageCircleXInfo = IconInfo{
 		Name:       "Message Circle X",
+		Slug:       "message-circle-x",
 		Icon:       MessageCircleX,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "clear", "close", "delete", "remove", "cancel", "silence", "mute", "moderate"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageCircleInfo = IconInfo{
 		Name:       "Message Circle",
+		Slug:       "message-circle",
 		Icon:       MessageCircle,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageSquareCodeInfo = IconInfo{
 		Name:       "Message Square Code",
+		Slug:       "message-square-code",
 		Icon:       MessageSquareCode,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "code review", "coding"},
 		Categories: []string{"development", "account", "social"},
-	},
-	{
+	}
+
+	messageSquareDashedInfo = IconInfo{
 		Name:       "Message Square Dashed",
+		Slug:       "message-square-dashed",
 		Icon:       MessageSquareDashed,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "draft"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageSquareDiffInfo = IconInfo{
 		Name:       "Message Square Diff",
+		Slug:       "message-square-diff",
 		Icon:       MessageSquareDiff,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "add", "patch", "difference", "plus", "minus", "plus-minus", "maths", "code review", "coding", "version control", "git"},
 		Categories: []string{"development", "files", "account", "social"},
-	},
-	{
+	}
+
+	messageSquareDotInfo = IconInfo{
 		Name:       "Message Square Dot",
+		Slug:       "message-square-dot",
 		Icon:       MessageSquareDot,
 		Tags:       []string{"unread", "unresolved", "comment", "chat", "conversation", "dialog", "feedback", "speech bubble"},
 		Categories: []string{"account", "social", "notifications"},
-	},
-	{
+	}
+
+	messageSquareHeartInfo = IconInfo{
 		Name:       "Message Square Heart",
+		Slug:       "message-square-heart",
 		Icon:       MessageSquareHeart,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "positive", "like", "love", "interest", "valentine", "dating", "date", "speech bubble"},
 		Categories: []string{"social"},
-	},
-	{
+	}
+
+	messageSquareLockInfo = IconInfo{
 		Name:       "Message Square Lock",
+		Slug:       "message-square-lock",
 		Icon:       MessageSquareLock,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "secure", "encrypted"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageSquareMoreInfo = IconInfo{
 		Name:       "Message Square More",
+		Slug:       "message-square-more",
 		Icon:       MessageSquareMore,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "typing", "writing", "responding", "ellipsis", "etc", "et cetera", "...", "…"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageSquareOffInfo = IconInfo{
 		Name:       "Message Square Off",
+		Slug:       "message-square-off",
 		Icon:       MessageSquareOff,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "clear", "close", "delete", "remove", "cancel", "silence", "mute", "moderate"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageSquarePlusInfo = IconInfo{
 		Name:       "Message Square Plus",
+		Slug:       "message-square-plus",
 		Icon:       MessageSquarePlus,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "add"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageSquareQuoteInfo = IconInfo{
 		Name:       "Message Square Quote",
+		Slug:       "message-square-quote",
 		Icon:       MessageSquareQuote,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "blockquote", "quotation", "indent", "reply", "response"},
 		Categories: []string{"account", "social", "text"},
-	},
-	{
+	}
+
+	messageSquareReplyInfo = IconInfo{
 		Name:       "Message Square Reply",
+		Slug:       "message-square-reply",
 		Icon:       MessageSquareReply,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "reply", "response"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageSquareShareInfo = IconInfo{
 		Name:       "Message Square Share",
+		Slug:       "message-square-share",
 		Icon:       MessageSquareShare,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "network", "forward"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageSquareTextInfo = IconInfo{
 		Name:       "Message Square Text",
+		Slug:       "message-square-text",
 		Icon:       MessageSquareText,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageSquareWarningInfo = IconInfo{
 		Name:       "Message Square Warning",
+		Slug:       "message-square-warning",
 		Icon:       MessageSquareWarning,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "report", "abuse", "offense", "alert", "danger", "caution", "protected", "exclamation mark"},
 		Categories: []string{"account", "social", "notifications"},
-	},
-	{
+	}
+
+	messageSquareXInfo = IconInfo{
 		Name:       "Message Square X",
+		Slug:       "message-square-x",
 		Icon:       MessageSquareX,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble", "clear", "close", "delete", "remove", "cancel", "silence", "mute", "moderate"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messageSquareInfo = IconInfo{
 		Name:       "Message Square",
+		Slug:       "message-square",
 		Icon:       MessageSquare,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubble"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	messagesSquareInfo = IconInfo{
 		Name:       "Messages Square",
+		Slug:       "messages-square",
 		Icon:       MessagesSquare,
 		Tags:       []string{"comment", "chat", "conversation", "dialog", "feedback", "speech bubbles", "copy", "multiple"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	micOffInfo = IconInfo{
 		Name:       "Mic Off",
+		Slug:       "mic-off",
 		Icon:       MicOff,
 		Tags:       []string{"record", "sound", "mute", "microphone"},
 		Categories: []string{"devices", "communication", "connectivity", "multimedia"},
-	},
-	{
+	}
+
+	micVocalInfo = IconInfo{
 		Name:       "Mic Vocal",
+		Slug:       "mic-vocal",
 		Icon:       MicVocal,
 		Tags:       []string{"lyrics", "voice", "listen", "sound", "music", "radio", "podcast", "karaoke", "singing", "microphone"},
 		Categories: []string{"devices", "multimedia"},
-	},
-	{
+	}
+
+	micInfo = IconInfo{
 		Name:       "Mic",
+		Slug:       "mic",
 		Icon:       Mic,
 		Tags:       []string{"record", "sound", "listen", "radio", "podcast", "microphone"},
 		Categories: []string{"devices", "communication", "connectivity", "multimedia"},
-	},
-	{
+	}
+
+	microchipInfo = IconInfo{
 		Name:       "Microchip",
+		Slug:       "microchip",
 		Icon:       Microchip,
 		Tags:       []string{"processor", "cores", "technology", "computer", "chip", "integrated circuit", "memory", "ram", "specs", "gpu", "gigahertz", "ghz"},
 		Categories: []string{"devices"},
-	},
-	{
+	}
+
+	microscopeInfo = IconInfo{
 		Name:       "Microscope",
+		Slug:       "microscope",
 		Icon:       Microscope,
 		Tags:       []string{"medical", "education", "science", "imaging", "research"},
 		Categories: []string{"science", "medical"},
-	},
-	{
+	}
+
+	microwaveInfo = IconInfo{
 		Name:       "Microwave",
+		Slug:       "microwave",
 		Icon:       Microwave,
 		Tags:       []string{"oven", "cooker", "toaster oven", "bake"},
 		Categories: []string{"food-beverage", "home"},
-	},
-	{
+	}
+
+	milestoneInfo = IconInfo{
 		Name:       "Milestone",
+		Slug:       "milestone",
 		Icon:       Milestone,
 		Tags:       []string{"signpost", "direction", "right", "east", "forward", "version control", "waypoint"},
 		Categories: []string{"arrows", "navigation", "development", "gaming"},
-	},
-	{
+	}
+
+	milkOffInfo = IconInfo{
 		Name:       "Milk Off",
+		Slug:       "milk-off",
 		Icon:       MilkOff,
 		Tags:       []string{"lactose free", "bottle", "beverage", "drink", "water", "allergy", "intolerance", "diet"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	milkInfo = IconInfo{
 		Name:       "Milk",
+		Slug:       "milk",
 		Icon:       Milk,
 		Tags:       []string{"lactose", "bottle", "beverage", "drink", "water", "diet"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	minimize2Info = IconInfo{
 		Name:       "Minimize 2",
+		Slug:       "minimize-2",
 		Icon:       Minimize2,
 		Tags:       []string{"exit fullscreen", "arrows", "close", "shrink"},
 		Categories: []string{"arrows", "layout", "design"},
-	},
-	{
+	}
+
+	minimizeInfo = IconInfo{
 		Name:       "Minimize",
+		Slug:       "minimize",
 		Icon:       Minimize,
 		Tags:       []string{"exit fullscreen", "close", "shrink"},
 		Categories: []string{"layout", "design"},
-	},
-	{
+	}
+
+	minusInfo = IconInfo{
 		Name:       "Minus",
+		Slug:       "minus",
 		Icon:       Minus,
 		Tags:       []string{"subtract", "remove", "decrease", "decrement", "reduce", "negative", "calculate", "line", "divider", "separator", "horizontal rule", "hr", "html", "markup", "markdown", "---", "toolbar", "operator", "code", "coding", "minimum", "downgrade"},
 		Categories: []string{"maths", "development", "text", "tools", "shapes"},
-	},
-	{
+	}
+
+	monitorCheckInfo = IconInfo{
 		Name:       "Monitor Check",
+		Slug:       "monitor-check",
 		Icon:       MonitorCheck,
 		Tags:       []string{"tv", "screen", "display", "desktop", "running", "active", "virtual machine", "vm"},
 		Categories: []string{"connectivity", "devices", "development"},
-	},
-	{
+	}
+
+	monitorCogInfo = IconInfo{
 		Name:       "Monitor Cog",
+		Slug:       "monitor-cog",
 		Icon:       MonitorCog,
 		Tags:       []string{"tv", "screen", "display", "virtual machine", "vm", "executable", "settings", "cog", "edit", "gear", "configuration", "preferences", "system", "control panel", "network", "computing"},
 		Categories: []string{"connectivity", "devices", "development"},
-	},
-	{
+	}
+
+	monitorDotInfo = IconInfo{
 		Name:       "Monitor Dot",
+		Slug:       "monitor-dot",
 		Icon:       MonitorDot,
 		Tags:       []string{"tv", "screen", "display", "desktop", "running", "active", "virtual machine", "vm"},
 		Categories: []string{"connectivity", "devices", "development"},
-	},
-	{
+	}
+
+	monitorDownInfo = IconInfo{
 		Name:       "Monitor Down",
+		Slug:       "monitor-down",
 		Icon:       MonitorDown,
 		Tags:       []string{"tv", "screen", "display", "desktop", "download"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	monitorOffInfo = IconInfo{
 		Name:       "Monitor Off",
+		Slug:       "monitor-off",
 		Icon:       MonitorOff,
 		Tags:       []string{"share"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	monitorPauseInfo = IconInfo{
 		Name:       "Monitor Pause",
+		Slug:       "monitor-pause",
 		Icon:       MonitorPause,
 		Tags:       []string{"tv", "screen", "display", "desktop", "video", "movie", "film", "suspend", "hibernate", "boot", "virtual machine", "vm"},
 		Categories: []string{"connectivity", "devices", "multimedia", "development"},
-	},
-	{
+	}
+
+	monitorPlayInfo = IconInfo{
 		Name:       "Monitor Play",
+		Slug:       "monitor-play",
 		Icon:       MonitorPlay,
 		Tags:       []string{"tv", "screen", "display", "desktop", "video", "movie", "film", "running", "start", "boot", "virtual machine", "vm"},
 		Categories: []string{"connectivity", "devices", "multimedia", "development"},
-	},
-	{
+	}
+
+	monitorSmartphoneInfo = IconInfo{
 		Name:       "Monitor Smartphone",
+		Slug:       "monitor-smartphone",
 		Icon:       MonitorSmartphone,
 		Tags:       []string{"smartphone", "phone", "cellphone", "device", "mobile", "desktop", "monitor", "responsive", "screens"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	monitorSpeakerInfo = IconInfo{
 		Name:       "Monitor Speaker",
+		Slug:       "monitor-speaker",
 		Icon:       MonitorSpeaker,
 		Tags:       []string{"devices", "connect", "cast"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	monitorStopInfo = IconInfo{
 		Name:       "Monitor Stop",
+		Slug:       "monitor-stop",
 		Icon:       MonitorStop,
 		Tags:       []string{"tv", "screen", "display", "desktop", "video", "movie", "film", "stop", "shutdown", "virtual machine", "vm"},
 		Categories: []string{"connectivity", "devices", "multimedia", "development"},
-	},
-	{
+	}
+
+	monitorUpInfo = IconInfo{
 		Name:       "Monitor Up",
+		Slug:       "monitor-up",
 		Icon:       MonitorUp,
 		Tags:       []string{"tv", "screen", "display", "upload", "connect", "remote", "screen share"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	monitorXInfo = IconInfo{
 		Name:       "Monitor X",
+		Slug:       "monitor-x",
 		Icon:       MonitorX,
 		Tags:       []string{"tv", "screen", "display", "desktop", "virtual machine", "vm", "close", "stop", "suspend", "remove", "delete"},
 		Categories: []string{"connectivity", "devices", "development"},
-	},
-	{
+	}
+
+	monitorInfo = IconInfo{
 		Name:       "Monitor",
+		Slug:       "monitor",
 		Icon:       Monitor,
 		Tags:       []string{"tv", "screen", "display", "virtual machine", "vm"},
 		Categories: []string{"connectivity", "devices", "development"},
-	},
-	{
+	}
+
+	moonStarInfo = IconInfo{
 		Name:       "Moon Star",
+		Slug:       "moon-star",
 		Icon:       MoonStar,
 		Tags:       []string{"dark", "night", "star"},
 		Categories: []string{"accessibility", "weather"},
-	},
-	{
+	}
+
+	moonInfo = IconInfo{
 		Name:       "Moon",
+		Slug:       "moon",
 		Icon:       Moon,
 		Tags:       []string{"dark", "night"},
 		Categories: []string{"accessibility"},
-	},
-	{
+	}
+
+	mountainSnowInfo = IconInfo{
 		Name:       "Mountain Snow",
+		Slug:       "mountain-snow",
 		Icon:       MountainSnow,
 		Tags:       []string{"alpine", "climb", "snow"},
 		Categories: []string{"nature"},
-	},
-	{
+	}
+
+	mountainInfo = IconInfo{
 		Name:       "Mountain",
+		Slug:       "mountain",
 		Icon:       Mountain,
 		Tags:       []string{"climb", "hike", "rock"},
 		Categories: []string{"nature", "gaming"},
-	},
-	{
+	}
+
+	mouseOffInfo = IconInfo{
 		Name:       "Mouse Off",
+		Slug:       "mouse-off",
 		Icon:       MouseOff,
 		Tags:       []string{"device", "scroll", "click", "disabled"},
 		Categories: []string{"devices"},
-	},
-	{
+	}
+
+	mousePointer2Info = IconInfo{
 		Name:       "Mouse Pointer 2",
+		Slug:       "mouse-pointer-2",
 		Icon:       MousePointer2,
 		Tags:       []string{"click", "select"},
 		Categories: []string{"arrows", "cursors"},
-	},
-	{
+	}
+
+	mousePointerBanInfo = IconInfo{
 		Name:       "Mouse Pointer Ban",
+		Slug:       "mouse-pointer-ban",
 		Icon:       MousePointerBan,
 		Tags:       []string{"wait", "busy", "loading", "blocked", "frozen", "freeze"},
 		Categories: []string{"arrows", "cursors"},
-	},
-	{
+	}
+
+	mousePointerClickInfo = IconInfo{
 		Name:       "Mouse Pointer Click",
+		Slug:       "mouse-pointer-click",
 		Icon:       MousePointerClick,
 		Tags:       []string{"click", "select"},
 		Categories: []string{"arrows", "cursors"},
-	},
-	{
+	}
+
+	mousePointerInfo = IconInfo{
 		Name:       "Mouse Pointer",
+		Slug:       "mouse-pointer",
 		Icon:       MousePointer,
 		Tags:       []string{"click", "select"},
 		Categories: []string{"arrows", "cursors"},
-	},
-	{
+	}
+
+	mouseInfo = IconInfo{
 		Name:       "Mouse",
+		Slug:       "mouse",
 		Icon:       Mouse,
 		Tags:       []string{"device", "scroll", "click"},
 		Categories: []string{"devices"},
-	},
-	{
+	}
+
+	move3dInfo = IconInfo{
 		Name:       "Move 3d",
+		Slug:       "move-3d",
 		Icon:       Move3d,
 		Tags:       []string{"arrows", "axis", "gizmo", "coordinates", "transform", "translate"},
 		Categories: []string{"design"},
-	},
-	{
+	}
+
+	moveDiagonal2Info = IconInfo{
 		Name:       "Move Diagonal 2",
+		Slug:       "move-diagonal-2",
 		Icon:       MoveDiagonal2,
 		Tags:       []string{"double", "arrow"},
 		Categories: []string{"arrows", "cursors"},
-	},
-	{
+	}
+
+	moveDiagonalInfo = IconInfo{
 		Name:       "Move Diagonal",
+		Slug:       "move-diagonal",
 		Icon:       MoveDiagonal,
 		Tags:       []string{"double", "arrow"},
 		Categories: []string{"arrows", "cursors"},
-	},
-	{
+	}
+
+	moveDownLeftInfo = IconInfo{
 		Name:       "Move Down Left",
+		Slug:       "move-down-left",
 		Icon:       MoveDownLeft,
 		Tags:       []string{"arrow", "direction"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	moveDownRightInfo = IconInfo{
 		Name:       "Move Down Right",
+		Slug:       "move-down-right",
 		Icon:       MoveDownRight,
 		Tags:       []string{"arrow", "direction"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	moveDownInfo = IconInfo{
 		Name:       "Move Down",
+		Slug:       "move-down",
 		Icon:       MoveDown,
 		Tags:       []string{"arrow", "direction", "downwards", "south"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	moveHorizontalInfo = IconInfo{
 		Name:       "Move Horizontal",
+		Slug:       "move-horizontal",
 		Icon:       MoveHorizontal,
 		Tags:       []string{"double", "arrow"},
 		Categories: []string{"arrows", "cursors"},
-	},
-	{
+	}
+
+	moveLeftInfo = IconInfo{
 		Name:       "Move Left",
+		Slug:       "move-left",
 		Icon:       MoveLeft,
 		Tags:       []string{"arrow", "direction", "back", "west"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	moveRightInfo = IconInfo{
 		Name:       "Move Right",
+		Slug:       "move-right",
 		Icon:       MoveRight,
 		Tags:       []string{"arrow", "direction", "trend flat", "east"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	moveUpLeftInfo = IconInfo{
 		Name:       "Move Up Left",
+		Slug:       "move-up-left",
 		Icon:       MoveUpLeft,
 		Tags:       []string{"arrow", "direction"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	moveUpRightInfo = IconInfo{
 		Name:       "Move Up Right",
+		Slug:       "move-up-right",
 		Icon:       MoveUpRight,
 		Tags:       []string{"arrow", "direction"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	moveUpInfo = IconInfo{
 		Name:       "Move Up",
+		Slug:       "move-up",
 		Icon:       MoveUp,
 		Tags:       []string{"arrow", "direction", "upwards", "north"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	moveVerticalInfo = IconInfo{
 		Name:       "Move Vertical",
+		Slug:       "move-vertical",
 		Icon:       MoveVertical,
 		Tags:       []string{"double", "arrow"},
 		Categories: []string{"arrows", "cursors"},
-	},
-	{
+	}
+
+	moveInfo = IconInfo{
 		Name:       "Move",
+		Slug:       "move",
 		Icon:       Move,
 		Tags:       []string{"arrows"},
 		Categories: []string{"arrows", "cursors"},
-	},
-	{
+	}
+
+	music2Info = IconInfo{
 		Name:       "Music 2",
+		Slug:       "music-2",
 		Icon:       Music2,
 		Tags:       []string{"quaver", "eighth note", "note"},
 		Categories: []string{"multimedia", "files"},
-	},
-	{
+	}
+
+	music3Info = IconInfo{
 		Name:       "Music 3",
+		Slug:       "music-3",
 		Icon:       Music3,
 		Tags:       []string{"crotchet", "minim", "quarter note", "half note", "note"},
 		Categories: []string{"multimedia", "files"},
-	},
-	{
+	}
+
+	music4Info = IconInfo{
 		Name:       "Music 4",
+		Slug:       "music-4",
 		Icon:       Music4,
 		Tags:       []string{"semiquaver", "sixteenth note", "note"},
 		Categories: []string{"multimedia", "files"},
-	},
-	{
+	}
+
+	musicInfo = IconInfo{
 		Name:       "Music",
+		Slug:       "music",
 		Icon:       Music,
 		Tags:       []string{"note", "quaver", "eighth note"},
 		Categories: []string{"multimedia", "files"},
-	},
-	{
+	}
+
+	navigation2OffInfo = IconInfo{
 		Name:       "Navigation 2 Off",
+		Slug:       "navigation-2-off",
 		Icon:       Navigation2Off,
 		Tags:       []string{"location", "travel"},
 		Categories: []string{"navigation", "maps"},
-	},
-	{
+	}
+
+	navigation2Info = IconInfo{
 		Name:       "Navigation 2",
+		Slug:       "navigation-2",
 		Icon:       Navigation2,
 		Tags:       []string{"location", "travel"},
 		Categories: []string{"navigation", "maps"},
-	},
-	{
+	}
+
+	navigationOffInfo = IconInfo{
 		Name:       "Navigation Off",
+		Slug:       "navigation-off",
 		Icon:       NavigationOff,
 		Tags:       []string{"location", "travel"},
 		Categories: []string{"navigation", "maps"},
-	},
-	{
+	}
+
+	navigationInfo = IconInfo{
 		Name:       "Navigation",
+		Slug:       "navigation",
 		Icon:       Navigation,
 		Tags:       []string{"location", "travel"},
 		Categories: []string{"navigation", "maps"},
-	},
-	{
+	}
+
+	networkInfo = IconInfo{
 		Name:       "Network",
+		Slug:       "network",
 		Icon:       Network,
 		Tags:       []string{"tree"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	newspaperInfo = IconInfo{
 		Name:       "Newspaper",
+		Slug:       "newspaper",
 		Icon:       Newspaper,
 		Tags:       []string{"news", "feed", "home", "magazine", "article", "headline"},
 		Categories: []string{"multimedia", "communication"},
-	},
-	{
+	}
+
+	nfcInfo = IconInfo{
 		Name:       "Nfc",
+		Slug:       "nfc",
 		Icon:       Nfc,
 		Tags:       []string{"contactless", "payment", "near-field communication"},
 		Categories: []string{"communication", "money", "devices"},
-	},
-	{
+	}
+
+	notebookPenInfo = IconInfo{
 		Name:       "Notebook Pen",
+		Slug:       "notebook-pen",
 		Icon:       NotebookPen,
 		Tags:       []string{"pencil", "notepad", "notes", "noted", "stationery", "sketchbook", "organizer", "organiser", "planner", "diary", "journal", "writing", "write", "written", "reading", "high school", "university", "college", "academy", "student", "study", "research", "homework", "eraser", "rubber"},
 		Categories: []string{"text", "social"},
-	},
-	{
+	}
+
+	notebookTabsInfo = IconInfo{
 		Name:       "Notebook Tabs",
+		Slug:       "notebook-tabs",
 		Icon:       NotebookTabs,
 		Tags:       []string{"notepad", "notes", "people", "family", "friends", "acquaintances", "contacts", "details", "addresses", "phone numbers", "directory", "listing", "networking", "alphabetical", "a-z", "organizer", "organiser", "planner", "diary", "stationery"},
 		Categories: []string{"account", "connectivity", "communication", "social"},
-	},
-	{
+	}
+
+	notebookTextInfo = IconInfo{
 		Name:       "Notebook Text",
+		Slug:       "notebook-text",
 		Icon:       NotebookText,
 		Tags:       []string{"notepad", "notes", "pages", "paper", "stationery", "sketchbook", "organizer", "organiser", "planner", "diary", "journal", "writing", "write", "written", "reading", "high school", "university", "college", "academy", "student", "study", "research", "homework", "lines", "opened"},
 		Categories: []string{"text", "social"},
-	},
-	{
+	}
+
+	notebookInfo = IconInfo{
 		Name:       "Notebook",
+		Slug:       "notebook",
 		Icon:       Notebook,
 		Tags:       []string{"notepad", "notes", "stationery", "sketchbook", "moleskine", "closure", "strap", "band", "elastic", "organizer", "organiser", "planner", "diary", "journal", "writing", "written", "writer", "reading", "high school", "university", "college", "academy", "student", "study", "homework", "research"},
 		Categories: []string{"text", "communication", "social", "design"},
-	},
-	{
+	}
+
+	notepadTextDashedInfo = IconInfo{
 		Name:       "Notepad Text Dashed",
+		Slug:       "notepad-text-dashed",
 		Icon:       NotepadTextDashed,
 		Tags:       []string{"notebook", "notes", "pages", "paper", "stationery", "diary", "journal", "writing", "write", "written", "draft", "template", "lines"},
 		Categories: []string{"text", "social"},
-	},
-	{
+	}
+
+	notepadTextInfo = IconInfo{
 		Name:       "Notepad Text",
+		Slug:       "notepad-text",
 		Icon:       NotepadText,
 		Tags:       []string{"notebook", "notes", "pages", "paper", "stationery", "sketchbook", "organizer", "organiser", "planner", "diary", "journal", "writing", "write", "written", "reading", "high school", "university", "college", "academy", "student", "study", "homework", "research", "lines", "opened"},
 		Categories: []string{"text", "social"},
-	},
-	{
+	}
+
+	nutOffInfo = IconInfo{
 		Name:       "Nut Off",
+		Slug:       "nut-off",
 		Icon:       NutOff,
 		Tags:       []string{"hazelnut", "acorn", "food", "allergy", "intolerance", "diet"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	nutInfo = IconInfo{
 		Name:       "Nut",
+		Slug:       "nut",
 		Icon:       Nut,
 		Tags:       []string{"hazelnut", "acorn", "food", "diet"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	octagonAlertInfo = IconInfo{
 		Name:       "Octagon Alert",
+		Slug:       "octagon-alert",
 		Icon:       OctagonAlert,
 		Tags:       []string{"warning", "alert", "danger", "exclamation mark"},
 		Categories: []string{"notifications", "shapes"},
-	},
-	{
+	}
+
+	octagonMinusInfo = IconInfo{
 		Name:       "Octagon Minus",
+		Slug:       "octagon-minus",
 		Icon:       OctagonMinus,
 		Tags:       []string{"stop", "forbidden", "subtract", "remove", "decrease", "reduce", "-", "traffic", "halt", "restricted"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	octagonPauseInfo = IconInfo{
 		Name:       "Octagon Pause",
+		Slug:       "octagon-pause",
 		Icon:       OctagonPause,
 		Tags:       []string{"music", "audio", "stop"},
 		Categories: []string{"multimedia", "shapes"},
-	},
-	{
+	}
+
+	octagonXInfo = IconInfo{
 		Name:       "Octagon X",
+		Slug:       "octagon-x",
 		Icon:       OctagonX,
 		Tags:       []string{"delete", "stop", "alert", "warning", "times", "clear", "maths"},
 		Categories: []string{"maths", "shapes", "notifications"},
-	},
-	{
+	}
+
+	octagonInfo = IconInfo{
 		Name:       "Octagon",
+		Slug:       "octagon",
 		Icon:       Octagon,
 		Tags:       []string{"stop", "shape"},
 		Categories: []string{"shapes"},
-	},
-	{
+	}
+
+	omegaInfo = IconInfo{
 		Name:       "Omega",
+		Slug:       "omega",
 		Icon:       Omega,
 		Tags:       []string{"greek", "symbol", "mathematics", "education", "physics", "engineering", "ohms", "electrical resistance", "angular frequency", "dynamical systems", "astronomy", "constellations", "philosophy"},
 		Categories: []string{"maths", "development", "text", "science"},
-	},
-	{
+	}
+
+	optionInfo = IconInfo{
 		Name:       "Option",
+		Slug:       "option",
 		Icon:       Option,
 		Tags:       []string{"keyboard", "key", "mac", "alt", "button"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	orbitInfo = IconInfo{
 		Name:       "Orbit",
+		Slug:       "orbit",
 		Icon:       Orbit,
 		Tags:       []string{"planet", "space", "physics", "satellites", "moons"},
 		Categories: []string{"science"},
-	},
-	{
+	}
+
+	origamiInfo = IconInfo{
 		Name:       "Origami",
+		Slug:       "origami",
 		Icon:       Origami,
 		Tags:       []string{"paper", "bird"},
 		Categories: []string{"animals", "design", "shapes"},
-	},
-	{
+	}
+
+	package2Info = IconInfo{
 		Name:       "Package 2",
+		Slug:       "package-2",
 		Icon:       Package2,
 		Tags:       []string{"box", "container", "storage", "sealed", "packed", "unopened", "undelivered", "archive", "zip"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	packageCheckInfo = IconInfo{
 		Name:       "Package Check",
+		Slug:       "package-check",
 		Icon:       PackageCheck,
 		Tags:       []string{"confirm", "verified", "done", "todo", "tick", "complete", "task", "delivered"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	packageMinusInfo = IconInfo{
 		Name:       "Package Minus",
+		Slug:       "package-minus",
 		Icon:       PackageMinus,
 		Tags:       []string{"delete", "remove"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	packageOpenInfo = IconInfo{
 		Name:       "Package Open",
+		Slug:       "package-open",
 		Icon:       PackageOpen,
 		Tags:       []string{"box", "container", "storage", "unpack", "unarchive", "unzip", "opened", "delivered"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	packagePlusInfo = IconInfo{
 		Name:       "Package Plus",
+		Slug:       "package-plus",
 		Icon:       PackagePlus,
 		Tags:       []string{"new", "add", "create"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	packageSearchInfo = IconInfo{
 		Name:       "Package Search",
+		Slug:       "package-search",
 		Icon:       PackageSearch,
 		Tags:       []string{"find", "product process"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	packageXInfo = IconInfo{
 		Name:       "Package X",
+		Slug:       "package-x",
 		Icon:       PackageX,
 		Tags:       []string{"delete", "remove"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	packageInfo = IconInfo{
 		Name:       "Package",
+		Slug:       "package",
 		Icon:       Package,
 		Tags:       []string{"box", "container", "storage", "sealed", "delivery", "undelivered", "unopened", "packed", "archive", "zip", "module"},
 		Categories: []string{"files", "development"},
-	},
-	{
+	}
+
+	paintBucketInfo = IconInfo{
 		Name:       "Paint Bucket",
+		Slug:       "paint-bucket",
 		Icon:       PaintBucket,
 		Tags:       []string{"fill", "paint", "bucket", "color", "colour"},
 		Categories: []string{"design", "tools"},
-	},
-	{
+	}
+
+	paintRollerInfo = IconInfo{
 		Name:       "Paint Roller",
+		Slug:       "paint-roller",
 		Icon:       PaintRoller,
 		Tags:       []string{"brush", "color", "colour", "decoration", "diy"},
 		Categories: []string{"text", "design", "home", "tools"},
-	},
-	{
+	}
+
+	paintbrushVerticalInfo = IconInfo{
 		Name:       "Paintbrush Vertical",
+		Slug:       "paintbrush-vertical",
 		Icon:       PaintbrushVertical,
 		Tags:       []string{"brush", "paintbrush", "design", "color", "colour", "decoration", "diy"},
 		Categories: []string{"text", "design", "photography", "home", "tools"},
-	},
-	{
+	}
+
+	paintbrushInfo = IconInfo{
 		Name:       "Paintbrush",
+		Slug:       "paintbrush",
 		Icon:       Paintbrush,
 		Tags:       []string{"brush", "paintbrush", "design", "color", "colour", "decoration", "diy"},
 		Categories: []string{"text", "design", "photography", "home", "tools"},
-	},
-	{
+	}
+
+	paletteInfo = IconInfo{
 		Name:       "Palette",
+		Slug:       "palette",
 		Icon:       Palette,
 		Tags:       []string{"colors", "colours", "theme", "scheme", "paint", "watercolor", "watercolour", "artist"},
 		Categories: []string{"text", "design", "photography"},
-	},
-	{
+	}
+
+	panelBottomCloseInfo = IconInfo{
 		Name:       "Panel Bottom Close",
+		Slug:       "panel-bottom-close",
 		Icon:       PanelBottomClose,
 		Tags:       []string{"drawer", "dock", "hide", "chevron", "down"},
 		Categories: []string{"layout", "arrows"},
-	},
-	{
+	}
+
+	panelBottomDashedInfo = IconInfo{
 		Name:       "Panel Bottom Dashed",
+		Slug:       "panel-bottom-dashed",
 		Icon:       PanelBottomDashed,
 		Tags:       []string{"drawer", "dock", "show", "reveal"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	panelBottomOpenInfo = IconInfo{
 		Name:       "Panel Bottom Open",
+		Slug:       "panel-bottom-open",
 		Icon:       PanelBottomOpen,
 		Tags:       []string{"drawer", "dock", "show", "reveal", "chevron", "up"},
 		Categories: []string{"layout", "arrows"},
-	},
-	{
+	}
+
+	panelBottomInfo = IconInfo{
 		Name:       "Panel Bottom",
+		Slug:       "panel-bottom",
 		Icon:       PanelBottom,
 		Tags:       []string{"drawer", "dock"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	panelLeftCloseInfo = IconInfo{
 		Name:       "Panel Left Close",
+		Slug:       "panel-left-close",
 		Icon:       PanelLeftClose,
 		Tags:       []string{"primary", "drawer", "hide", "chevron", "<"},
 		Categories: []string{"layout", "arrows"},
-	},
-	{
+	}
+
+	panelLeftDashedInfo = IconInfo{
 		Name:       "Panel Left Dashed",
+		Slug:       "panel-left-dashed",
 		Icon:       PanelLeftDashed,
 		Tags:       []string{"sidebar", "primary", "drawer", "show", "reveal"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	panelLeftOpenInfo = IconInfo{
 		Name:       "Panel Left Open",
+		Slug:       "panel-left-open",
 		Icon:       PanelLeftOpen,
 		Tags:       []string{"primary", "drawer", "show", "reveal", "chevron", "right", ">"},
 		Categories: []string{"layout", "arrows"},
-	},
-	{
+	}
+
+	panelLeftInfo = IconInfo{
 		Name:       "Panel Left",
+		Slug:       "panel-left",
 		Icon:       PanelLeft,
 		Tags:       []string{"primary", "drawer"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	panelRightCloseInfo = IconInfo{
 		Name:       "Panel Right Close",
+		Slug:       "panel-right-close",
 		Icon:       PanelRightClose,
 		Tags:       []string{"sidebar", "secondary", "drawer", "hide", "chevron", ">"},
 		Categories: []string{"layout", "arrows"},
-	},
-	{
+	}
+
+	panelRightDashedInfo = IconInfo{
 		Name:       "Panel Right Dashed",
+		Slug:       "panel-right-dashed",
 		Icon:       PanelRightDashed,
 		Tags:       []string{"sidebar", "secondary", "drawer", "show", "reveal"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	panelRightOpenInfo = IconInfo{
 		Name:       "Panel Right Open",
+		Slug:       "panel-right-open",
 		Icon:       PanelRightOpen,
 		Tags:       []string{"sidebar", "secondary", "drawer", "show", "reveal", "chevron", "left", "<"},
 		Categories: []string{"layout", "arrows"},
-	},
-	{
+	}
+
+	panelRightInfo = IconInfo{
 		Name:       "Panel Right",
+		Slug:       "panel-right",
 		Icon:       PanelRight,
 		Tags:       []string{"sidebar", "secondary", "drawer"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	panelTopCloseInfo = IconInfo{
 		Name:       "Panel Top Close",
+		Slug:       "panel-top-close",
 		Icon:       PanelTopClose,
 		Tags:       []string{"menu bar", "drawer", "hide", "chevron", "up"},
 		Categories: []string{"layout", "arrows"},
-	},
-	{
+	}
+
+	panelTopDashedInfo = IconInfo{
 		Name:       "Panel Top Dashed",
+		Slug:       "panel-top-dashed",
 		Icon:       PanelTopDashed,
 		Tags:       []string{"menu bar", "drawer", "show", "reveal"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	panelTopOpenInfo = IconInfo{
 		Name:       "Panel Top Open",
+		Slug:       "panel-top-open",
 		Icon:       PanelTopOpen,
 		Tags:       []string{"menu bar", "drawer", "show", "reveal", "chevron", "down"},
 		Categories: []string{"layout", "arrows"},
-	},
-	{
+	}
+
+	panelTopInfo = IconInfo{
 		Name:       "Panel Top",
+		Slug:       "panel-top",
 		Icon:       PanelTop,
 		Tags:       []string{"drawer", "browser", "webpage"},
 		Categories: []string{"layout", "design", "development"},
-	},
-	{
+	}
+
+	panelsLeftBottomInfo = IconInfo{
 		Name:       "Panels Left Bottom",
+		Slug:       "panels-left-bottom",
 		Icon:       PanelsLeftBottom,
 		Tags:       []string{"drawers", "sidebar", "primary"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	panelsRightBottomInfo = IconInfo{
 		Name:       "Panels Right Bottom",
+		Slug:       "panels-right-bottom",
 		Icon:       PanelsRightBottom,
 		Tags:       []string{"drawers", "sidebar", "secondary"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	panelsTopLeftInfo = IconInfo{
 		Name:       "Panels Top Left",
+		Slug:       "panels-top-left",
 		Icon:       PanelsTopLeft,
 		Tags:       []string{"menu bar", "sidebar", "primary", "drawers", "window", "webpage", "projects", "overview"},
 		Categories: []string{"layout", "design", "development", "charts"},
-	},
-	{
+	}
+
+	paperclipInfo = IconInfo{
 		Name:       "Paperclip",
+		Slug:       "paperclip",
 		Icon:       Paperclip,
 		Tags:       []string{"attachment", "file"},
 		Categories: []string{"text", "design", "files", "mail"},
-	},
-	{
+	}
+
+	parenthesesInfo = IconInfo{
 		Name:       "Parentheses",
+		Slug:       "parentheses",
 		Icon:       Parentheses,
 		Tags:       []string{"code", "token", "parenthesis", "parens", "brackets", "parameters", "arguments", "args", "input", "call", "maths", "formula", "function", "(", ")"},
 		Categories: []string{"development", "files", "maths"},
-	},
-	{
+	}
+
+	parkingMeterInfo = IconInfo{
 		Name:       "Parking Meter",
+		Slug:       "parking-meter",
 		Icon:       ParkingMeter,
 		Tags:       []string{"driving", "car park", "pay", "sidewalk", "pavement"},
 		Categories: []string{"transportation", "maps"},
-	},
-	{
+	}
+
+	partyPopperInfo = IconInfo{
 		Name:       "Party Popper",
+		Slug:       "party-popper",
 		Icon:       PartyPopper,
 		Tags:       []string{"emoji", "congratulations", "celebration", "party", "tada", "🎉", "🎊", "excitement", "exciting", "excites", "confetti"},
 		Categories: []string{"emoji"},
-	},
-	{
+	}
+
+	pauseInfo = IconInfo{
 		Name:       "Pause",
+		Slug:       "pause",
 		Icon:       Pause,
 		Tags:       []string{"music", "stop"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	pawPrintInfo = IconInfo{
 		Name:       "Paw Print",
+		Slug:       "paw-print",
 		Icon:       PawPrint,
 		Tags:       []string{"pets", "vets", "veterinarian", "domesticated", "cat", "dog", "bear"},
 		Categories: []string{"animals"},
-	},
-	{
+	}
+
+	pcCaseInfo = IconInfo{
 		Name:       "Pc Case",
+		Slug:       "pc-case",
 		Icon:       PcCase,
 		Tags:       []string{"computer", "chassis"},
 		Categories: []string{"devices", "gaming"},
-	},
-	{
+	}
+
+	penLineInfo = IconInfo{
 		Name:       "Pen Line",
+		Slug:       "pen-line",
 		Icon:       PenLine,
 		Tags:       []string{"pencil", "change", "create", "draw", "writer", "writing", "biro", "ink", "marker", "felt tip", "stationery", "artist"},
 		Categories: []string{"text", "design", "tools"},
-	},
-	{
+	}
+
+	penOffInfo = IconInfo{
 		Name:       "Pen Off",
+		Slug:       "pen-off",
 		Icon:       PenOff,
 		Tags:       []string{"disabled", "inactive", "non-editable", "locked", "read-only", "unmodifiable", "frozen", "restricted", "pencil", "change", "create", "draw", "writer", "writing", "biro", "ink", "marker", "felt tip", "stationery", "artist"},
 		Categories: []string{"text", "design", "tools"},
-	},
-	{
+	}
+
+	penToolInfo = IconInfo{
 		Name:       "Pen Tool",
+		Slug:       "pen-tool",
 		Icon:       PenTool,
 		Tags:       []string{"vector", "drawing", "path"},
 		Categories: []string{"text", "design", "cursors"},
-	},
-	{
+	}
+
+	penInfo = IconInfo{
 		Name:       "Pen",
+		Slug:       "pen",
 		Icon:       Pen,
 		Tags:       []string{"pencil", "change", "create", "draw", "writer", "writing", "biro", "ink", "marker", "felt tip", "stationery", "artist"},
 		Categories: []string{"text", "design", "tools"},
-	},
-	{
+	}
+
+	pencilLineInfo = IconInfo{
 		Name:       "Pencil Line",
+		Slug:       "pencil-line",
 		Icon:       PencilLine,
 		Tags:       []string{"pencil", "change", "create", "draw", "sketch", "draft", "writer", "writing", "biro", "ink", "marker", "felt tip", "stationery", "artist"},
 		Categories: []string{"text", "design", "tools"},
-	},
-	{
+	}
+
+	pencilOffInfo = IconInfo{
 		Name:       "Pencil Off",
+		Slug:       "pencil-off",
 		Icon:       PencilOff,
 		Tags:       []string{"disabled", "inactive", "non-editable", "locked", "read-only", "unmodifiable", "frozen", "restricted", "rubber", "edit", "create", "draw", "sketch", "draft", "writer", "writing", "stationery", "artist"},
 		Categories: []string{"design", "cursors", "tools", "text"},
-	},
-	{
+	}
+
+	pencilRulerInfo = IconInfo{
 		Name:       "Pencil Ruler",
+		Slug:       "pencil-ruler",
 		Icon:       PencilRuler,
 		Tags:       []string{"edit", "create", "draw", "sketch", "draft", "writer", "writing", "stationery", "artist", "measurements", "centimeters", "cm", "millimeters", "mm", "metre", "foot", "feet", "inches", "units", "size", "length", "width", "height", "dimensions", "depth", "breadth", "extent"},
 		Categories: []string{"tools", "design", "layout", "text"},
-	},
-	{
+	}
+
+	pencilInfo = IconInfo{
 		Name:       "Pencil",
+		Slug:       "pencil",
 		Icon:       Pencil,
 		Tags:       []string{"rubber", "edit", "create", "draw", "sketch", "draft", "writer", "writing", "stationery", "artist"},
 		Categories: []string{"design", "cursors", "tools", "text"},
-	},
-	{
+	}
+
+	pentagonInfo = IconInfo{
 		Name:       "Pentagon",
+		Slug:       "pentagon",
 		Icon:       Pentagon,
 		Tags:       []string{"shape"},
 		Categories: []string{"shapes"},
-	},
-	{
+	}
+
+	percentInfo = IconInfo{
 		Name:       "Percent",
+		Slug:       "percent",
 		Icon:       Percent,
 		Tags:       []string{"percentage", "modulo", "modulus", "remainder", "%", "sale", "discount", "offer", "marketing"},
 		Categories: []string{"maths", "development", "money", "shopping"},
-	},
-	{
+	}
+
+	personStandingInfo = IconInfo{
 		Name:       "Person Standing",
+		Slug:       "person-standing",
 		Icon:       PersonStanding,
 		Tags:       []string{"people", "human", "accessibility", "stick figure"},
 		Categories: []string{"accessibility", "people"},
-	},
-	{
+	}
+
+	philippinePesoInfo = IconInfo{
 		Name:       "Philippine Peso",
+		Slug:       "philippine-peso",
 		Icon:       PhilippinePeso,
 		Tags:       []string{"currency", "peso", "money", "php"},
 		Categories: []string{"currency"},
-	},
-	{
+	}
+
+	phoneCallInfo = IconInfo{
 		Name:       "Phone Call",
+		Slug:       "phone-call",
 		Icon:       PhoneCall,
 		Tags:       []string{"ring"},
 		Categories: []string{"connectivity", "devices", "communication"},
-	},
-	{
+	}
+
+	phoneForwardedInfo = IconInfo{
 		Name:       "Phone Forwarded",
+		Slug:       "phone-forwarded",
 		Icon:       PhoneForwarded,
 		Tags:       []string{"call"},
 		Categories: []string{"arrows", "connectivity", "devices", "communication"},
-	},
-	{
+	}
+
+	phoneIncomingInfo = IconInfo{
 		Name:       "Phone Incoming",
+		Slug:       "phone-incoming",
 		Icon:       PhoneIncoming,
 		Tags:       []string{"call"},
 		Categories: []string{"arrows", "connectivity", "devices", "communication"},
-	},
-	{
+	}
+
+	phoneMissedInfo = IconInfo{
 		Name:       "Phone Missed",
+		Slug:       "phone-missed",
 		Icon:       PhoneMissed,
 		Tags:       []string{"call"},
 		Categories: []string{"connectivity", "devices", "communication"},
-	},
-	{
+	}
+
+	phoneOffInfo = IconInfo{
 		Name:       "Phone Off",
+		Slug:       "phone-off",
 		Icon:       PhoneOff,
 		Tags:       []string{"call", "mute"},
 		Categories: []string{"connectivity", "devices", "communication"},
-	},
-	{
+	}
+
+	phoneOutgoingInfo = IconInfo{
 		Name:       "Phone Outgoing",
+		Slug:       "phone-outgoing",
 		Icon:       PhoneOutgoing,
 		Tags:       []string{"call"},
 		Categories: []string{"arrows", "connectivity", "devices", "communication"},
-	},
-	{
+	}
+
+	phoneInfo = IconInfo{
 		Name:       "Phone",
+		Slug:       "phone",
 		Icon:       Phone,
 		Tags:       []string{"call"},
 		Categories: []string{"text", "connectivity", "devices", "communication"},
-	},
-	{
+	}
+
+	piInfo = IconInfo{
 		Name:       "Pi",
+		Slug:       "pi",
 		Icon:       Pi,
 		Tags:       []string{"constant", "code", "coding", "programming", "symbol", "trigonometry", "geometry", "formula"},
 		Categories: []string{"development", "maths", "shapes"},
-	},
-	{
+	}
+
+	pianoInfo = IconInfo{
 		Name:       "Piano",
+		Slug:       "piano",
 		Icon:       Piano,
 		Tags:       []string{"music", "audio", "sound", "noise", "notes", "chord", "keys", "octave", "acoustic", "instrument", "play", "pianist", "performance", "concert"},
 		Categories: []string{"multimedia", "devices"},
-	},
-	{
+	}
+
+	pickaxeInfo = IconInfo{
 		Name:       "Pickaxe",
+		Slug:       "pickaxe",
 		Icon:       Pickaxe,
 		Tags:       []string{"mining", "mine", "land worker", "extraction", "labor", "construction", "progress", "advancement", "crafting", "building", "creation"},
 		Categories: []string{"tools", "maps", "gaming"},
-	},
-	{
+	}
+
+	pictureInPicture2Info = IconInfo{
 		Name:       "Picture In Picture 2",
+		Slug:       "picture-in-picture-2",
 		Icon:       PictureInPicture2,
 		Tags:       []string{"display", "play", "video", "pop out", "always on top", "window", "inset", "multitask"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	pictureInPictureInfo = IconInfo{
 		Name:       "Picture In Picture",
+		Slug:       "picture-in-picture",
 		Icon:       PictureInPicture,
 		Tags:       []string{"display", "play", "video", "pop out", "always on top", "window", "inset", "multitask"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	piggyBankInfo = IconInfo{
 		Name:       "Piggy Bank",
+		Slug:       "piggy-bank",
 		Icon:       PiggyBank,
 		Tags:       []string{"money", "savings"},
 		Categories: []string{"money"},
-	},
-	{
+	}
+
+	pilcrowLeftInfo = IconInfo{
 		Name:       "Pilcrow Left",
+		Slug:       "pilcrow-left",
 		Icon:       PilcrowLeft,
 		Tags:       []string{"direction", "paragraph", "mark", "paraph", "blind", "typography", "type", "text", "prose", "symbol"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	pilcrowRightInfo = IconInfo{
 		Name:       "Pilcrow Right",
+		Slug:       "pilcrow-right",
 		Icon:       PilcrowRight,
 		Tags:       []string{"direction", "paragraph", "mark", "paraph", "blind", "typography", "type", "text", "prose", "symbol"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	pilcrowInfo = IconInfo{
 		Name:       "Pilcrow",
+		Slug:       "pilcrow",
 		Icon:       Pilcrow,
 		Tags:       []string{"paragraph", "mark", "paraph", "blind", "typography", "type", "text", "prose", "symbol"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	pillBottleInfo = IconInfo{
 		Name:       "Pill Bottle",
+		Slug:       "pill-bottle",
 		Icon:       PillBottle,
 		Tags:       []string{"medicine", "medication", "prescription", "drug", "supplement", "vitamin", "capsule", "jar", "container", "healthcare", "pharmaceutical", "tablet"},
 		Categories: []string{"medical"},
-	},
-	{
+	}
+
+	pillInfo = IconInfo{
 		Name:       "Pill",
+		Slug:       "pill",
 		Icon:       Pill,
 		Tags:       []string{"medicine", "medication", "drug", "prescription", "tablet", "pharmacy"},
 		Categories: []string{"medical"},
-	},
-	{
+	}
+
+	pinOffInfo = IconInfo{
 		Name:       "Pin Off",
+		Slug:       "pin-off",
 		Icon:       PinOff,
 		Tags:       []string{"unpin", "map", "unlock", "unfix", "unsave", "remove"},
 		Categories: []string{"maps"},
-	},
-	{
+	}
+
+	pinInfo = IconInfo{
 		Name:       "Pin",
+		Slug:       "pin",
 		Icon:       Pin,
 		Tags:       []string{"save", "map", "lock", "fix"},
 		Categories: []string{"maps", "account"},
-	},
-	{
+	}
+
+	pipetteInfo = IconInfo{
 		Name:       "Pipette",
+		Slug:       "pipette",
 		Icon:       Pipette,
 		Tags:       []string{"eye dropper", "color picker", "lab", "chemistry"},
 		Categories: []string{"text", "design", "science"},
-	},
-	{
+	}
+
+	pizzaInfo = IconInfo{
 		Name:       "Pizza",
+		Slug:       "pizza",
 		Icon:       Pizza,
 		Tags:       []string{"pie", "quiche", "food"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	planeLandingInfo = IconInfo{
 		Name:       "Plane Landing",
+		Slug:       "plane-landing",
 		Icon:       PlaneLanding,
 		Tags:       []string{"arrival", "plane", "trip", "airplane", "landing"},
 		Categories: []string{"transportation", "travel"},
-	},
-	{
+	}
+
+	planeTakeoffInfo = IconInfo{
 		Name:       "Plane Takeoff",
+		Slug:       "plane-takeoff",
 		Icon:       PlaneTakeoff,
 		Tags:       []string{"departure", "plane", "trip", "airplane", "takeoff"},
 		Categories: []string{"transportation", "travel"},
-	},
-	{
+	}
+
+	planeInfo = IconInfo{
 		Name:       "Plane",
+		Slug:       "plane",
 		Icon:       Plane,
 		Tags:       []string{"plane", "trip", "airplane"},
 		Categories: []string{"transportation", "travel"},
-	},
-	{
+	}
+
+	playInfo = IconInfo{
 		Name:       "Play",
+		Slug:       "play",
 		Icon:       Play,
 		Tags:       []string{"music", "audio", "video", "start", "run"},
 		Categories: []string{"arrows", "multimedia"},
-	},
-	{
+	}
+
+	plug2Info = IconInfo{
 		Name:       "Plug 2",
+		Slug:       "plug-2",
 		Icon:       Plug2,
 		Tags:       []string{"electricity", "energy", "socket", "outlet"},
 		Categories: []string{"devices", "development"},
-	},
-	{
+	}
+
+	plugZapInfo = IconInfo{
 		Name:       "Plug Zap",
+		Slug:       "plug-zap",
 		Icon:       PlugZap,
 		Tags:       []string{"electricity", "energy", "electronics", "charge", "charging", "battery", "connect"},
 		Categories: []string{"devices"},
-	},
-	{
+	}
+
+	plugInfo = IconInfo{
 		Name:       "Plug",
+		Slug:       "plug",
 		Icon:       Plug,
 		Tags:       []string{"electricity", "energy", "electronics", "socket", "outlet"},
 		Categories: []string{"devices", "development"},
-	},
-	{
+	}
+
+	plusInfo = IconInfo{
 		Name:       "Plus",
+		Slug:       "plus",
 		Icon:       Plus,
 		Tags:       []string{"add", "new", "increase", "increment", "positive", "calculate", "toolbar", "crosshair", "aim", "target", "scope", "sight", "reticule", "maximum", "upgrade", "extra", "+"},
 		Categories: []string{"maths", "tools", "development", "text", "cursors", "gaming"},
-	},
-	{
+	}
+
+	pocketKnifeInfo = IconInfo{
 		Name:       "Pocket Knife",
+		Slug:       "pocket-knife",
 		Icon:       PocketKnife,
 		Tags:       []string{"swiss army knife", "penknife", "multi-tool", "multitask", "blade", "cutter", "gadget", "corkscrew"},
 		Categories: []string{"tools"},
-	},
-	{
+	}
+
+	pocketInfo = IconInfo{
 		Name:       "Pocket",
+		Slug:       "pocket",
 		Icon:       Pocket,
 		Tags:       []string{"logo", "save"},
 		Categories: []string{"brands", "development"},
-	},
-	{
+	}
+
+	podcastInfo = IconInfo{
 		Name:       "Podcast",
+		Slug:       "podcast",
 		Icon:       Podcast,
 		Tags:       []string{"audio", "music", "mic", "talk", "voice", "subscribe", "subscription", "stream"},
 		Categories: []string{"multimedia", "social"},
-	},
-	{
+	}
+
+	pointerOffInfo = IconInfo{
 		Name:       "Pointer Off",
+		Slug:       "pointer-off",
 		Icon:       PointerOff,
 		Tags:       []string{"mouse"},
 		Categories: []string{"cursors"},
-	},
-	{
+	}
+
+	pointerInfo = IconInfo{
 		Name:       "Pointer",
+		Slug:       "pointer",
 		Icon:       Pointer,
 		Tags:       []string{"mouse"},
 		Categories: []string{"cursors"},
-	},
-	{
+	}
+
+	popcornInfo = IconInfo{
 		Name:       "Popcorn",
+		Slug:       "popcorn",
 		Icon:       Popcorn,
 		Tags:       []string{"cinema", "movies", "films", "salted", "sweet", "sugar", "candy", "snack"},
 		Categories: []string{"food-beverage", "multimedia"},
-	},
-	{
+	}
+
+	popsicleInfo = IconInfo{
 		Name:       "Popsicle",
+		Slug:       "popsicle",
 		Icon:       Popsicle,
 		Tags:       []string{"ice lolly", "ice cream", "sweet", "food"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	poundSterlingInfo = IconInfo{
 		Name:       "Pound Sterling",
+		Slug:       "pound-sterling",
 		Icon:       PoundSterling,
 		Tags:       []string{"currency", "money", "payment"},
 		Categories: []string{"currency", "money"},
-	},
-	{
+	}
+
+	powerOffInfo = IconInfo{
 		Name:       "Power Off",
+		Slug:       "power-off",
 		Icon:       PowerOff,
 		Tags:       []string{"on", "off", "device", "switch"},
 		Categories: []string{"connectivity"},
-	},
-	{
+	}
+
+	powerInfo = IconInfo{
 		Name:       "Power",
+		Slug:       "power",
 		Icon:       Power,
 		Tags:       []string{"on", "off", "device", "switch", "toggle", "binary", "boolean", "reboot", "restart", "button", "keyboard", "troubleshoot"},
 		Categories: []string{"connectivity"},
-	},
-	{
+	}
+
+	presentationInfo = IconInfo{
 		Name:       "Presentation",
+		Slug:       "presentation",
 		Icon:       Presentation,
 		Tags:       []string{"screen", "whiteboard", "marker pens", "markers", "blackboard", "chalk", "easel", "school", "learning", "lesson", "office", "meeting", "project", "planning"},
 		Categories: []string{"multimedia", "photography", "devices", "communication", "design"},
-	},
-	{
+	}
+
+	printerCheckInfo = IconInfo{
 		Name:       "Printer Check",
+		Slug:       "printer-check",
 		Icon:       PrinterCheck,
 		Tags:       []string{"fax", "office", "device", "success", "printed"},
 		Categories: []string{"devices", "account"},
-	},
-	{
+	}
+
+	printerInfo = IconInfo{
 		Name:       "Printer",
+		Slug:       "printer",
 		Icon:       Printer,
 		Tags:       []string{"fax", "office", "device"},
 		Categories: []string{"devices", "account"},
-	},
-	{
+	}
+
+	projectorInfo = IconInfo{
 		Name:       "Projector",
+		Slug:       "projector",
 		Icon:       Projector,
 		Tags:       []string{"cinema", "film", "movie", "home video", "presentation", "slideshow", "office", "meeting", "project", "planning"},
 		Categories: []string{"multimedia", "photography", "devices", "communication"},
-	},
-	{
+	}
+
+	proportionsInfo = IconInfo{
 		Name:       "Proportions",
+		Slug:       "proportions",
 		Icon:       Proportions,
 		Tags:       []string{"screens", "sizes", "rotate", "rotation", "adjust", "aspect ratio", "16:9", "widescreen", "4:3", "resolution", "responsive", "mobile", "desktop", "dimensions", "monitor", "orientation", "portrait", "landscape"},
 		Categories: []string{"layout", "design", "photography", "devices"},
-	},
-	{
+	}
+
+	puzzleInfo = IconInfo{
 		Name:       "Puzzle",
+		Slug:       "puzzle",
 		Icon:       Puzzle,
 		Tags:       []string{"component", "module", "part", "piece"},
 		Categories: []string{"development", "gaming"},
-	},
-	{
+	}
+
+	pyramidInfo = IconInfo{
 		Name:       "Pyramid",
+		Slug:       "pyramid",
 		Icon:       Pyramid,
 		Tags:       []string{"prism", "triangle", "triangular", "hierarchy", "structure", "geometry", "ancient", "egyptian", "landmark", "tourism"},
 		Categories: []string{"shapes", "maths", "travel"},
-	},
-	{
+	}
+
+	qrCodeInfo = IconInfo{
 		Name:       "Qr Code",
+		Slug:       "qr-code",
 		Icon:       QrCode,
 		Tags:       []string{"barcode", "scan", "link", "url", "information", "digital"},
 		Categories: []string{"development", "social"},
-	},
-	{
+	}
+
+	quoteInfo = IconInfo{
 		Name:       "Quote",
+		Slug:       "quote",
 		Icon:       Quote,
 		Tags:       []string{"quotation"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	rabbitInfo = IconInfo{
 		Name:       "Rabbit",
+		Slug:       "rabbit",
 		Icon:       Rabbit,
 		Tags:       []string{"animal", "rodent", "pet", "pest", "bunny", "hare", "fast", "speed", "hop"},
 		Categories: []string{"animals"},
-	},
-	{
+	}
+
+	radarInfo = IconInfo{
 		Name:       "Radar",
+		Slug:       "radar",
 		Icon:       Radar,
 		Tags:       []string{"scan", "sonar", "detect", "find", "locate"},
 		Categories: []string{"navigation", "maps", "security", "communication"},
-	},
-	{
+	}
+
+	radiationInfo = IconInfo{
 		Name:       "Radiation",
+		Slug:       "radiation",
 		Icon:       Radiation,
 		Tags:       []string{"radioactive", "nuclear", "fallout", "waste", "atomic", "physics", "particle", "element", "molecule"},
 		Categories: []string{"science"},
-	},
-	{
+	}
+
+	radicalInfo = IconInfo{
 		Name:       "Radical",
+		Slug:       "radical",
 		Icon:       Radical,
 		Tags:       []string{"calculate", "formula", "maths", "operator", "root", "square", "symbol"},
 		Categories: []string{"development", "maths"},
-	},
-	{
+	}
+
+	radioReceiverInfo = IconInfo{
 		Name:       "Radio Receiver",
+		Slug:       "radio-receiver",
 		Icon:       RadioReceiver,
 		Tags:       []string{"device", "music", "connect"},
 		Categories: []string{"devices"},
-	},
-	{
+	}
+
+	radioTowerInfo = IconInfo{
 		Name:       "Radio Tower",
+		Slug:       "radio-tower",
 		Icon:       RadioTower,
 		Tags:       []string{"signal", "broadcast", "connectivity", "live", "frequency"},
 		Categories: []string{"devices", "multimedia", "social"},
-	},
-	{
+	}
+
+	radioInfo = IconInfo{
 		Name:       "Radio",
+		Slug:       "radio",
 		Icon:       Radio,
 		Tags:       []string{"signal", "broadcast", "connectivity", "live", "frequency"},
 		Categories: []string{"devices", "multimedia", "social"},
-	},
-	{
+	}
+
+	radiusInfo = IconInfo{
 		Name:       "Radius",
+		Slug:       "radius",
 		Icon:       Radius,
 		Tags:       []string{"shape", "circle", "geometry", "trigonometry", "radii", "calculate", "measure", "size"},
 		Categories: []string{"shapes", "maths", "design", "tools"},
-	},
-	{
+	}
+
+	railSymbolInfo = IconInfo{
 		Name:       "Rail Symbol",
+		Slug:       "rail-symbol",
 		Icon:       RailSymbol,
 		Tags:       []string{"railway", "train", "track", "line"},
 		Categories: []string{"transportation", "maps"},
-	},
-	{
+	}
+
+	rainbowInfo = IconInfo{
 		Name:       "Rainbow",
+		Slug:       "rainbow",
 		Icon:       Rainbow,
 		Tags:       []string{"colors", "colours", "spectrum", "light", "prism", "arc", "clear", "sunshine"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	ratInfo = IconInfo{
 		Name:       "Rat",
+		Slug:       "rat",
 		Icon:       Rat,
 		Tags:       []string{"mouse", "mice", "gerbil", "rodent", "pet", "pest", "plague", "disease"},
 		Categories: []string{"animals"},
-	},
-	{
+	}
+
+	ratioInfo = IconInfo{
 		Name:       "Ratio",
+		Slug:       "ratio",
 		Icon:       Ratio,
 		Tags:       []string{"screens", "sizes", "rotate", "rotation", "adjust", "aspect ratio", "proportions", "16:9", "widescreen", "4:3", "resolution", "responsive", "mobile", "desktop", "dimensions", "monitor", "orientation", "portrait", "landscape"},
 		Categories: []string{"layout", "design", "photography", "devices", "connectivity"},
-	},
-	{
+	}
+
+	receiptCentInfo = IconInfo{
 		Name:       "Receipt Cent",
+		Slug:       "receipt-cent",
 		Icon:       ReceiptCent,
 		Tags:       []string{"bill", "voucher", "slip", "check", "counterfoil", "currency", "cents", "dollar", "usd", "$", "¢"},
 		Categories: []string{"money", "currency", "travel"},
-	},
-	{
+	}
+
+	receiptEuroInfo = IconInfo{
 		Name:       "Receipt Euro",
+		Slug:       "receipt-euro",
 		Icon:       ReceiptEuro,
 		Tags:       []string{"bill", "voucher", "slip", "check", "counterfoil", "currency", "€"},
 		Categories: []string{"money", "currency", "travel"},
-	},
-	{
+	}
+
+	receiptIndianRupeeInfo = IconInfo{
 		Name:       "Receipt Indian Rupee",
+		Slug:       "receipt-indian-rupee",
 		Icon:       ReceiptIndianRupee,
 		Tags:       []string{"bill", "voucher", "slip", "check", "counterfoil", "inr", "₹"},
 		Categories: []string{"money", "currency", "travel"},
-	},
-	{
+	}
+
+	receiptJapaneseYenInfo = IconInfo{
 		Name:       "Receipt Japanese Yen",
+		Slug:       "receipt-japanese-yen",
 		Icon:       ReceiptJapaneseYen,
 		Tags:       []string{"bill", "voucher", "slip", "check", "counterfoil", "jpy", "¥"},
 		Categories: []string{"money", "currency", "travel"},
-	},
-	{
+	}
+
+	receiptPoundSterlingInfo = IconInfo{
 		Name:       "Receipt Pound Sterling",
+		Slug:       "receipt-pound-sterling",
 		Icon:       ReceiptPoundSterling,
 		Tags:       []string{"bill", "voucher", "slip", "check", "counterfoil", "british", "gbp", "£"},
 		Categories: []string{"money", "currency", "travel"},
-	},
-	{
+	}
+
+	receiptRussianRubleInfo = IconInfo{
 		Name:       "Receipt Russian Ruble",
+		Slug:       "receipt-russian-ruble",
 		Icon:       ReceiptRussianRuble,
 		Tags:       []string{"bill", "voucher", "slip", "check", "counterfoil", "rub", "₽"},
 		Categories: []string{"money", "currency", "travel"},
-	},
-	{
+	}
+
+	receiptSwissFrancInfo = IconInfo{
 		Name:       "Receipt Swiss Franc",
+		Slug:       "receipt-swiss-franc",
 		Icon:       ReceiptSwissFranc,
 		Tags:       []string{"bill", "voucher", "slip", "check", "counterfoil", "chf", "₣"},
 		Categories: []string{"money", "currency", "travel"},
-	},
-	{
+	}
+
+	receiptTextInfo = IconInfo{
 		Name:       "Receipt Text",
+		Slug:       "receipt-text",
 		Icon:       ReceiptText,
 		Tags:       []string{"bill", "voucher", "slip", "check", "counterfoil", "details", "small print", "terms", "conditions", "contract"},
 		Categories: []string{"money", "travel"},
-	},
-	{
+	}
+
+	receiptInfo = IconInfo{
 		Name:       "Receipt",
+		Slug:       "receipt",
 		Icon:       Receipt,
 		Tags:       []string{"bill", "voucher", "slip", "check", "counterfoil", "currency", "dollar", "usd", "$"},
 		Categories: []string{"money", "currency", "travel"},
-	},
-	{
+	}
+
+	rectangleEllipsisInfo = IconInfo{
 		Name:       "Rectangle Ellipsis",
+		Slug:       "rectangle-ellipsis",
 		Icon:       RectangleEllipsis,
 		Tags:       []string{"login", "password", "authenticate", "2fa", "field", "fill", "ellipsis", "et cetera", "etc", "loader", "loading", "progress", "pending", "throbber", "menu", "options", "operator", "code", "spread", "rest", "more", "further", "extra", "overflow", "dots", "…", "..."},
 		Categories: []string{"text", "development", "shapes"},
-	},
-	{
+	}
+
+	rectangleHorizontalInfo = IconInfo{
 		Name:       "Rectangle Horizontal",
+		Slug:       "rectangle-horizontal",
 		Icon:       RectangleHorizontal,
 		Tags:       []string{"rectangle", "aspect ratio", "16:9", "horizontal", "shape"},
 		Categories: []string{"shapes", "design"},
-	},
-	{
+	}
+
+	rectangleVerticalInfo = IconInfo{
 		Name:       "Rectangle Vertical",
+		Slug:       "rectangle-vertical",
 		Icon:       RectangleVertical,
 		Tags:       []string{"rectangle", "aspect ratio", "9:16", "vertical", "shape"},
 		Categories: []string{"shapes", "design"},
-	},
-	{
+	}
+
+	recycleInfo = IconInfo{
 		Name:       "Recycle",
+		Slug:       "recycle",
 		Icon:       Recycle,
 		Tags:       []string{"sustainability", "salvage", "arrows"},
 		Categories: []string{"sustainability"},
-	},
-	{
+	}
+
+	redo2Info = IconInfo{
 		Name:       "Redo 2",
+		Slug:       "redo-2",
 		Icon:       Redo2,
 		Tags:       []string{"undo", "rerun", "history"},
 		Categories: []string{"text", "arrows"},
-	},
-	{
+	}
+
+	redoDotInfo = IconInfo{
 		Name:       "Redo Dot",
+		Slug:       "redo-dot",
 		Icon:       RedoDot,
 		Tags:       []string{"redo", "history", "step", "over", "forward"},
 		Categories: []string{"text", "arrows"},
-	},
-	{
+	}
+
+	redoInfo = IconInfo{
 		Name:       "Redo",
+		Slug:       "redo",
 		Icon:       Redo,
 		Tags:       []string{"undo", "rerun", "history"},
 		Categories: []string{"text", "arrows"},
-	},
-	{
+	}
+
+	refreshCcwDotInfo = IconInfo{
 		Name:       "Refresh Ccw Dot",
+		Slug:       "refresh-ccw-dot",
 		Icon:       RefreshCcwDot,
 		Tags:       []string{"arrows", "rotate", "reload", "synchronise", "synchronize", "circular", "cycle", "issue", "code", "coding", "version control"},
 		Categories: []string{"arrows", "development", "shapes"},
-	},
-	{
+	}
+
+	refreshCcwInfo = IconInfo{
 		Name:       "Refresh Ccw",
+		Slug:       "refresh-ccw",
 		Icon:       RefreshCcw,
 		Tags:       []string{"arrows", "rotate", "reload", "rerun", "synchronise", "synchronize", "circular", "cycle"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	refreshCwOffInfo = IconInfo{
 		Name:       "Refresh Cw Off",
+		Slug:       "refresh-cw-off",
 		Icon:       RefreshCwOff,
 		Tags:       []string{"rotate", "reload", "rerun", "synchronise", "synchronize", "arrows", "circular", "cycle", "cancel", "no", "stop", "error", "disconnect", "ignore"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	refreshCwInfo = IconInfo{
 		Name:       "Refresh Cw",
+		Slug:       "refresh-cw",
 		Icon:       RefreshCw,
 		Tags:       []string{"rotate", "reload", "rerun", "synchronise", "synchronize", "arrows", "circular", "cycle"},
 		Categories: []string{"arrows"},
-	},
-	{
+	}
+
+	refrigeratorInfo = IconInfo{
 		Name:       "Refrigerator",
+		Slug:       "refrigerator",
 		Icon:       Refrigerator,
 		Tags:       []string{"frigerator", "fridge", "freezer", "cooler", "icebox", "chiller", "cold storage"},
 		Categories: []string{"food-beverage", "home"},
-	},
-	{
+	}
+
+	regexInfo = IconInfo{
 		Name:       "Regex",
+		Slug:       "regex",
 		Icon:       Regex,
 		Tags:       []string{"search", "text", "code"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	removeFormattingInfo = IconInfo{
 		Name:       "Remove Formatting",
+		Slug:       "remove-formatting",
 		Icon:       RemoveFormatting,
 		Tags:       []string{"text", "font", "typography", "format", "x", "remove", "delete", "times", "clear"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	repeat1Info = IconInfo{
 		Name:       "Repeat 1",
+		Slug:       "repeat-1",
 		Icon:       Repeat1,
 		Tags:       []string{"replay"},
 		Categories: []string{"multimedia"},
-	},
-	{
+	}
+
+	repeat2Info = IconInfo{
 		Name:       "Repeat 2",
+		Slug:       "repeat-2",
 		Icon:       Repeat2,
 		Tags:       []string{"arrows", "retweet", "repost", "share", "repeat", "loop"},
 		Categories: []string{"arrows", "social", "multimedia"},
-	},
-	{
+	}
+
+	repeatInfo = IconInfo{
 		Name:       "Repeat",
+		Slug:       "repeat",
 		Icon:       Repeat,
 		Tags:       []string{"loop", "arrows"},
 		Categories: []string{"arrows", "multimedia"},
-	},
-	{
+	}
+
+	replaceAllInfo = IconInfo{
 		Name:       "Replace All",
+		Slug:       "replace-all",
 		Icon:       ReplaceAll,
 		Tags:       []string{"search", "substitute", "swap", "change"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	replaceInfo = IconInfo{
 		Name:       "Replace",
+		Slug:       "replace",
 		Icon:       Replace,
 		Tags:       []string{"search", "substitute", "swap", "change"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	replyAllInfo = IconInfo{
 		Name:       "Reply All",
+		Slug:       "reply-all",
 		Icon:       ReplyAll,
 		Tags:       []string{"email"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	replyInfo = IconInfo{
 		Name:       "Reply",
+		Slug:       "reply",
 		Icon:       Reply,
 		Tags:       []string{"email"},
 		Categories: []string{"mail"},
-	},
-	{
+	}
+
+	rewindInfo = IconInfo{
 		Name:       "Rewind",
+		Slug:       "rewind",
 		Icon:       Rewind,
 		Tags:       []string{"music"},
 		Categories: []string{"arrows", "multimedia"},
-	},
-	{
+	}
+
+	ribbonInfo = IconInfo{
 		Name:       "Ribbon",
+		Slug:       "ribbon",
 		Icon:       Ribbon,
 		Tags:       []string{"awareness", "strip", "band", "tape", "strap", "cordon"},
 		Categories: []string{"social", "medical", "emoji"},
-	},
-	{
+	}
+
+	rocketInfo = IconInfo{
 		Name:       "Rocket",
+		Slug:       "rocket",
 		Icon:       Rocket,
 		Tags:       []string{"release", "boost", "launch", "space", "version"},
 		Categories: []string{"gaming", "development"},
-	},
-	{
+	}
+
+	rockingChairInfo = IconInfo{
 		Name:       "Rocking Chair",
+		Slug:       "rocking-chair",
 		Icon:       RockingChair,
 		Tags:       []string{"chair", "furniture", "seat"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	rollerCoasterInfo = IconInfo{
 		Name:       "Roller Coaster",
+		Slug:       "roller-coaster",
 		Icon:       RollerCoaster,
 		Tags:       []string{"attraction", "entertainment", "amusement park", "theme park", "funfair"},
 		Categories: []string{"maps"},
-	},
-	{
+	}
+
+	rotate3dInfo = IconInfo{
 		Name:       "Rotate 3d",
+		Slug:       "rotate-3d",
 		Icon:       Rotate3d,
 		Tags:       []string{"gizmo", "transform", "orientation", "orbit", "axis"},
 		Categories: []string{"design"},
-	},
-	{
+	}
+
+	rotateCcwSquareInfo = IconInfo{
 		Name:       "Rotate Ccw Square",
+		Slug:       "rotate-ccw-square",
 		Icon:       RotateCcwSquare,
 		Tags:       []string{"left", "counter-clockwise", "rotate", "image", "90", "45", "degrees", "°"},
 		Categories: []string{"layout", "design", "photography", "tools", "shapes", "arrows"},
-	},
-	{
+	}
+
+	rotateCcwInfo = IconInfo{
 		Name:       "Rotate Ccw",
+		Slug:       "rotate-ccw",
 		Icon:       RotateCcw,
 		Tags:       []string{"arrow", "left", "counter-clockwise", "restart", "reload", "rerun", "refresh", "backup", "undo"},
 		Categories: []string{"arrows", "design", "photography"},
-	},
-	{
+	}
+
+	rotateCwSquareInfo = IconInfo{
 		Name:       "Rotate Cw Square",
+		Slug:       "rotate-cw-square",
 		Icon:       RotateCwSquare,
 		Tags:       []string{"right", "clockwise", "rotate", "image", "90", "45", "degrees", "°"},
 		Categories: []string{"layout", "design", "photography", "tools", "shapes", "arrows"},
-	},
-	{
+	}
+
+	rotateCwInfo = IconInfo{
 		Name:       "Rotate Cw",
+		Slug:       "rotate-cw",
 		Icon:       RotateCw,
 		Tags:       []string{"arrow", "right", "clockwise", "refresh", "reload", "rerun", "redo"},
 		Categories: []string{"arrows", "design", "photography"},
-	},
-	{
+	}
+
+	routeOffInfo = IconInfo{
 		Name:       "Route Off",
+		Slug:       "route-off",
 		Icon:       RouteOff,
 		Tags:       []string{"path", "journey", "planner", "points", "stops", "stations", "reset", "clear", "cancelled", "closed", "blocked"},
 		Categories: []string{"maps", "navigation"},
-	},
-	{
+	}
+
+	routeInfo = IconInfo{
 		Name:       "Route",
+		Slug:       "route",
 		Icon:       Route,
 		Tags:       []string{"path", "journey", "planner", "points", "stops", "stations"},
 		Categories: []string{"maps", "navigation"},
-	},
-	{
+	}
+
+	routerInfo = IconInfo{
 		Name:       "Router",
+		Slug:       "router",
 		Icon:       Router,
 		Tags:       []string{"computer", "server", "cloud"},
 		Categories: []string{"development", "devices", "connectivity", "home"},
-	},
-	{
+	}
+
+	rows2Info = IconInfo{
 		Name:       "Rows 2",
+		Slug:       "rows-2",
 		Icon:       Rows2,
 		Tags:       []string{"lines", "list", "queue", "preview", "panel", "paragraphs", "parallel", "series", "split", "vertical", "horizontal", "half", "center", "middle", "even", "drawer"},
 		Categories: []string{"layout", "design", "text"},
-	},
-	{
+	}
+
+	rows3Info = IconInfo{
 		Name:       "Rows 3",
+		Slug:       "rows-3",
 		Icon:       Rows3,
 		Tags:       []string{"lines", "list", "queue", "preview", "paragraphs", "parallel", "series", "split", "vertical", "horizontal", "half", "center", "middle", "even", "drawers"},
 		Categories: []string{"layout", "design", "text"},
-	},
-	{
+	}
+
+	rows4Info = IconInfo{
 		Name:       "Rows 4",
+		Slug:       "rows-4",
 		Icon:       Rows4,
 		Tags:       []string{"lines", "list", "queue", "preview", "paragraphs", "parallel", "series", "split", "vertical", "horizontal", "half", "center", "middle", "even", "drawers", "grill"},
 		Categories: []string{"layout", "design", "text"},
-	},
-	{
+	}
+
+	rssInfo = IconInfo{
 		Name:       "Rss",
+		Slug:       "rss",
 		Icon:       Rss,
 		Tags:       []string{"feed", "subscribe", "news", "updates", "notifications", "content", "blog", "articles", "broadcast", "syndication", "reader", "channels", "posts", "publishing", "digest", "alert", "following", "inbox", "newsletter", "weblog", "podcast"},
 		Categories: []string{"development", "social"},
-	},
-	{
+	}
+
+	rulerInfo = IconInfo{
 		Name:       "Ruler",
+		Slug:       "ruler",
 		Icon:       Ruler,
 		Tags:       []string{"measurements", "centimeters", "cm", "millimeters", "mm", "metre", "foot", "feet", "inches", "units", "size", "length", "width", "height", "dimensions", "depth", "breadth", "extent", "stationery"},
 		Categories: []string{"tools", "design", "layout"},
-	},
-	{
+	}
+
+	russianRubleInfo = IconInfo{
 		Name:       "Russian Ruble",
+		Slug:       "russian-ruble",
 		Icon:       RussianRuble,
 		Tags:       []string{"currency", "money", "payment"},
 		Categories: []string{"currency", "money"},
-	},
-	{
+	}
+
+	sailboatInfo = IconInfo{
 		Name:       "Sailboat",
+		Slug:       "sailboat",
 		Icon:       Sailboat,
 		Tags:       []string{"ship", "boat", "harbor", "harbour", "dock"},
 		Categories: []string{"transportation", "travel"},
-	},
-	{
+	}
+
+	saladInfo = IconInfo{
 		Name:       "Salad",
+		Slug:       "salad",
 		Icon:       Salad,
 		Tags:       []string{"food", "vegetarian", "dish", "restaurant", "course", "meal", "side", "vegetables", "health"},
 		Categories: []string{"food-beverage", "emoji"},
-	},
-	{
+	}
+
+	sandwichInfo = IconInfo{
 		Name:       "Sandwich",
+		Slug:       "sandwich",
 		Icon:       Sandwich,
 		Tags:       []string{"food", "snack", "dish", "restaurant", "lunch", "meal"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	satelliteDishInfo = IconInfo{
 		Name:       "Satellite Dish",
+		Slug:       "satellite-dish",
 		Icon:       SatelliteDish,
 		Tags:       []string{"antenna", "receiver", "dish aerial", "saucer"},
 		Categories: []string{"connectivity", "devices", "multimedia"},
-	},
-	{
+	}
+
+	satelliteInfo = IconInfo{
 		Name:       "Satellite",
+		Slug:       "satellite",
 		Icon:       Satellite,
 		Tags:       []string{"space station", "orbit", "transmitter"},
 		Categories: []string{"connectivity", "science"},
-	},
-	{
+	}
+
+	saveAllInfo = IconInfo{
 		Name:       "Save All",
+		Slug:       "save-all",
 		Icon:       SaveAll,
 		Tags:       []string{"floppy disks", "copy"},
 		Categories: []string{"text", "files"},
-	},
-	{
+	}
+
+	saveOffInfo = IconInfo{
 		Name:       "Save Off",
+		Slug:       "save-off",
 		Icon:       SaveOff,
 		Tags:       []string{"floppy disk", "unsalvageable"},
 		Categories: []string{"text", "files"},
-	},
-	{
+	}
+
+	saveInfo = IconInfo{
 		Name:       "Save",
+		Slug:       "save",
 		Icon:       Save,
 		Tags:       []string{"floppy disk"},
 		Categories: []string{"text", "files"},
-	},
-	{
+	}
+
+	scale3dInfo = IconInfo{
 		Name:       "Scale 3d",
+		Slug:       "scale-3d",
 		Icon:       Scale3d,
 		Tags:       []string{"gizmo", "transform", "size", "axis"},
 		Categories: []string{"design"},
-	},
-	{
+	}
+
+	scaleInfo = IconInfo{
 		Name:       "Scale",
+		Slug:       "scale",
 		Icon:       Scale,
 		Tags:       []string{"balance", "legal", "license", "right", "rule", "law"},
 		Categories: []string{"maps"},
-	},
-	{
+	}
+
+	scalingInfo = IconInfo{
 		Name:       "Scaling",
+		Slug:       "scaling",
 		Icon:       Scaling,
 		Tags:       []string{"scale", "resize", "design"},
 		Categories: []string{"design"},
-	},
-	{
+	}
+
+	scanBarcodeInfo = IconInfo{
 		Name:       "Scan Barcode",
+		Slug:       "scan-barcode",
 		Icon:       ScanBarcode,
 		Tags:       []string{"checkout", "till", "cart", "transaction", "purchase", "buy", "product", "packaging", "retail", "consumer"},
 		Categories: []string{"shopping", "devices"},
-	},
-	{
+	}
+
+	scanEyeInfo = IconInfo{
 		Name:       "Scan Eye",
+		Slug:       "scan-eye",
 		Icon:       ScanEye,
 		Tags:       []string{"preview", "zoom", "expand", "fullscreen", "gallery", "image", "camera", "watch", "surveillance", "retina", "focus", "lens", "biometric", "identification", "authentication", "access", "login"},
 		Categories: []string{"photography", "multimedia", "layout", "accessibility", "security", "devices", "account"},
-	},
-	{
+	}
+
+	scanFaceInfo = IconInfo{
 		Name:       "Scan Face",
+		Slug:       "scan-face",
 		Icon:       ScanFace,
 		Tags:       []string{"face", "biometric", "identification", "authentication", "2fa", "access", "login", "dashed"},
 		Categories: []string{"account", "security", "devices", "social"},
-	},
-	{
+	}
+
+	scanLineInfo = IconInfo{
 		Name:       "Scan Line",
+		Slug:       "scan-line",
 		Icon:       ScanLine,
 		Tags:       []string{"checkout", "till", "cart", "transaction", "purchase", "buy", "product", "packaging", "retail", "consumer", "qr-code", "dashed"},
 		Categories: []string{"devices", "shopping"},
-	},
-	{
+	}
+
+	scanQrCodeInfo = IconInfo{
 		Name:       "Scan Qr Code",
+		Slug:       "scan-qr-code",
 		Icon:       ScanQrCode,
 		Tags:       []string{"barcode", "scan", "qrcode", "url", "information", "digital", "scanner"},
 		Categories: []string{"account", "shopping", "devices", "security"},
-	},
-	{
+	}
+
+	scanSearchInfo = IconInfo{
 		Name:       "Scan Search",
+		Slug:       "scan-search",
 		Icon:       ScanSearch,
 		Tags:       []string{"preview", "zoom", "expand", "fullscreen", "gallery", "image", "focus", "lens"},
 		Categories: []string{"photography", "multimedia", "layout", "accessibility"},
-	},
-	{
+	}
+
+	scanTextInfo = IconInfo{
 		Name:       "Scan Text",
+		Slug:       "scan-text",
 		Icon:       ScanText,
 		Tags:       []string{"recognition", "read", "translate", "copy", "lines"},
 		Categories: []string{"text", "devices"},
-	},
-	{
+	}
+
+	scanInfo = IconInfo{
 		Name:       "Scan",
+		Slug:       "scan",
 		Icon:       Scan,
 		Tags:       []string{"qr-code", "barcode", "checkout", "augmented reality", "ar", "target", "surveillance", "camera", "lens", "focus", "frame", "select", "box", "boundary", "bounds", "area", "square", "dashed"},
 		Categories: []string{"devices", "shopping", "security", "social", "gaming"},
-	},
-	{
+	}
+
+	schoolInfo = IconInfo{
 		Name:       "School",
+		Slug:       "school",
 		Icon:       School,
 		Tags:       []string{"building", "education", "childhood", "university", "learning", "campus", "scholar", "student", "lecture", "degree", "course", "academia", "study", "knowledge", "classroom", "research", "diploma", "graduation", "professor", "tutorial", "homework", "assignment", "exam"},
 		Categories: []string{"buildings", "maps"},
-	},
-	{
+	}
+
+	scissorsLineDashedInfo = IconInfo{
 		Name:       "Scissors Line Dashed",
+		Slug:       "scissors-line-dashed",
 		Icon:       ScissorsLineDashed,
 		Tags:       []string{"cut here", "along", "snip", "chop", "stationery", "crafts", "instructions", "diagram"},
 		Categories: []string{"design", "tools"},
-	},
-	{
+	}
+
+	scissorsInfo = IconInfo{
 		Name:       "Scissors",
+		Slug:       "scissors",
 		Icon:       Scissors,
 		Tags:       []string{"cut", "snip", "chop", "stationery", "crafts"},
 		Categories: []string{"text", "design", "tools"},
-	},
-	{
+	}
+
+	screenShareOffInfo = IconInfo{
 		Name:       "Screen Share Off",
+		Slug:       "screen-share-off",
 		Icon:       ScreenShareOff,
 		Tags:       []string{"desktop", "disconnect", "monitor"},
 		Categories: []string{"connectivity", "devices", "communication"},
-	},
-	{
+	}
+
+	screenShareInfo = IconInfo{
 		Name:       "Screen Share",
+		Slug:       "screen-share",
 		Icon:       ScreenShare,
 		Tags:       []string{"host", "desktop", "monitor"},
 		Categories: []string{"connectivity", "devices", "communication"},
-	},
-	{
+	}
+
+	scrollTextInfo = IconInfo{
 		Name:       "Scroll Text",
+		Slug:       "scroll-text",
 		Icon:       ScrollText,
 		Tags:       []string{"paper", "log", "scripture", "document", "notes", "parchment", "list", "long", "script", "story", "code", "coding"},
 		Categories: []string{"gaming", "development", "text"},
-	},
-	{
+	}
+
+	scrollInfo = IconInfo{
 		Name:       "Scroll",
+		Slug:       "scroll",
 		Icon:       Scroll,
 		Tags:       []string{"paper", "log", "scripture", "document", "notes", "parchment", "list", "long", "script", "story", "code", "coding"},
 		Categories: []string{"gaming", "development", "text"},
-	},
-	{
+	}
+
+	searchCheckInfo = IconInfo{
 		Name:       "Search Check",
+		Slug:       "search-check",
 		Icon:       SearchCheck,
 		Tags:       []string{"find", "scan", "magnifier", "magnifying glass", "found", "correct", "complete", "tick"},
 		Categories: []string{"text", "account", "social"},
-	},
-	{
+	}
+
+	searchCodeInfo = IconInfo{
 		Name:       "Search Code",
+		Slug:       "search-code",
 		Icon:       SearchCode,
 		Tags:       []string{"find", "scan", "magnifier", "magnifying glass", "grep", "chevrons", "<>"},
 		Categories: []string{"text", "account", "social", "development"},
-	},
-	{
+	}
+
+	searchSlashInfo = IconInfo{
 		Name:       "Search Slash",
+		Slug:       "search-slash",
 		Icon:       SearchSlash,
 		Tags:       []string{"find", "scan", "magnifier", "magnifying glass", "stop", "clear", "cancel", "abort", "/"},
 		Categories: []string{"text", "account", "social"},
-	},
-	{
+	}
+
+	searchXInfo = IconInfo{
 		Name:       "Search X",
+		Slug:       "search-x",
 		Icon:       SearchX,
 		Tags:       []string{"find", "scan", "magnifier", "magnifying glass", "stop", "clear", "cancel", "abort"},
 		Categories: []string{"text", "account", "social"},
-	},
-	{
+	}
+
+	searchInfo = IconInfo{
 		Name:       "Search",
+		Slug:       "search",
 		Icon:       Search,
 		Tags:       []string{"find", "scan", "magnifier", "magnifying glass"},
 		Categories: []string{"text", "account", "social"},
-	},
-	{
+	}
+
+	sectionInfo = IconInfo{
 		Name:       "Section",
+		Slug:       "section",
 		Icon:       Section,
 		Tags:       []string{"mark", "typography", "punctuation", "legal", "type", "text", "prose", "symbol"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	sendHorizontalInfo = IconInfo{
 		Name:       "Send Horizontal",
+		Slug:       "send-horizontal",
 		Icon:       SendHorizontal,
 		Tags:       []string{"email", "message", "mail", "paper airplane", "paper aeroplane", "submit"},
 		Categories: []string{"mail", "communication", "connectivity"},
-	},
-	{
+	}
+
+	sendToBackInfo = IconInfo{
 		Name:       "Send To Back",
+		Slug:       "send-to-back",
 		Icon:       SendToBack,
 		Tags:       []string{"bring", "send", "move", "under", "back", "backwards", "overlap", "layer", "order"},
 		Categories: []string{"design", "layout"},
-	},
-	{
+	}
+
+	sendInfo = IconInfo{
 		Name:       "Send",
+		Slug:       "send",
 		Icon:       Send,
 		Tags:       []string{"email", "message", "mail", "paper airplane", "paper aeroplane", "submit"},
 		Categories: []string{"mail", "communication", "connectivity"},
-	},
-	{
+	}
+
+	separatorHorizontalInfo = IconInfo{
 		Name:       "Separator Horizontal",
+		Slug:       "separator-horizontal",
 		Icon:       SeparatorHorizontal,
 		Tags:       []string{"move", "split"},
 		Categories: []string{"text", "arrows", "layout"},
-	},
-	{
+	}
+
+	separatorVerticalInfo = IconInfo{
 		Name:       "Separator Vertical",
+		Slug:       "separator-vertical",
 		Icon:       SeparatorVertical,
 		Tags:       []string{"move", "split"},
 		Categories: []string{"text", "arrows", "layout"},
-	},
-	{
+	}
+
+	serverCogInfo = IconInfo{
 		Name:       "Server Cog",
+		Slug:       "server-cog",
 		Icon:       ServerCog,
 		Tags:       []string{"cloud", "storage", "computing", "cog", "gear"},
 		Categories: []string{"development", "devices"},
-	},
-	{
+	}
+
+	serverCrashInfo = IconInfo{
 		Name:       "Server Crash",
+		Slug:       "server-crash",
 		Icon:       ServerCrash,
 		Tags:       []string{"cloud", "storage", "problem", "error"},
 		Categories: []string{"development", "devices"},
-	},
-	{
+	}
+
+	serverOffInfo = IconInfo{
 		Name:       "Server Off",
+		Slug:       "server-off",
 		Icon:       ServerOff,
 		Tags:       []string{"cloud", "storage"},
 		Categories: []string{"development", "devices"},
-	},
-	{
+	}
+
+	serverInfo = IconInfo{
 		Name:       "Server",
+		Slug:       "server",
 		Icon:       Server,
 		Tags:       []string{"cloud", "storage"},
 		Categories: []string{"development", "devices"},
-	},
-	{
+	}
+
+	settings2Info = IconInfo{
 		Name:       "Settings 2",
+		Slug:       "settings-2",
 		Icon:       Settings2,
 		Tags:       []string{"cog", "edit", "gear", "preferences"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	settingsInfo = IconInfo{
 		Name:       "Settings",
+		Slug:       "settings",
 		Icon:       Settings,
 		Tags:       []string{"cog", "edit", "gear", "preferences"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	shapesInfo = IconInfo{
 		Name:       "Shapes",
+		Slug:       "shapes",
 		Icon:       Shapes,
 		Tags:       []string{"triangle", "equilateral", "square", "circle", "classification", "different", "collection", "toy", "blocks", "learning"},
 		Categories: []string{"shapes", "gaming"},
-	},
-	{
+	}
+
+	share2Info = IconInfo{
 		Name:       "Share 2",
+		Slug:       "share-2",
 		Icon:       Share2,
 		Tags:       []string{"network", "connections"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	shareInfo = IconInfo{
 		Name:       "Share",
+		Slug:       "share",
 		Icon:       Share,
 		Tags:       []string{"network", "connections"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	sheetInfo = IconInfo{
 		Name:       "Sheet",
+		Slug:       "sheet",
 		Icon:       Sheet,
 		Tags:       []string{"spreadsheets", "table", "excel"},
 		Categories: []string{"text", "files"},
-	},
-	{
+	}
+
+	shellInfo = IconInfo{
 		Name:       "Shell",
+		Slug:       "shell",
 		Icon:       Shell,
 		Tags:       []string{"beach", "sand", "holiday", "sealife", "fossil", "ammonite", "biology", "ocean", "terminal", "command line", "session", "bash", "zsh", "roll", "wrap", "chewing gum", "bubble gum", "sweet", "sugar", "hosepipe", "carpet", "string", "spiral", "spinner", "hypnotise", "hypnosis"},
 		Categories: []string{"animals", "development", "nature", "science", "travel", "food-beverage", "home"},
-	},
-	{
+	}
+
+	shieldAlertInfo = IconInfo{
 		Name:       "Shield Alert",
+		Slug:       "shield-alert",
 		Icon:       ShieldAlert,
 		Tags:       []string{"unshielded", "cybersecurity", "insecure", "unsecured", "safety", "unsafe", "protection", "unprotected", "guardian", "unguarded", "unarmored", "unarmoured", "defenseless", "defenceless", "undefended", "defender", "blocked", "stopped", "intercepted", "interception", "saved", "thwarted", "threat", "prevention", "unprevented", "antivirus", "vigilance", "vigilant", "detection", "detected", "scanned", "found", "exploit", "vulnerability", "vulnerable", "weakness", "infection", "infected", "comprimised", "data leak", "audited", "admin", "verification", "unverified", "uncertified", "warning", "emergency", "attention", "urgent", "alarm", "crest", "bravery", "strength", "tough", "attacked", "damaged", "injured", "hit", "expired", "disabled", "inactive", "error", "exclamation mark", "!"},
 		Categories: []string{"account", "security", "development", "notifications", "gaming"},
-	},
-	{
+	}
+
+	shieldBanInfo = IconInfo{
 		Name:       "Shield Ban",
+		Slug:       "shield-ban",
 		Icon:       ShieldBan,
 		Tags:       []string{"unshielded", "cybersecurity", "insecure", "unsecured", "safety", "unsafe", "protection", "unprotected", "guardian", "unguarded", "unarmored", "unarmoured", "defenseless", "defenceless", "undefended", "defender", "blocked", "stopped", "intercepted", "interception", "saved", "thwarted", "threat", "prevention", "unprevented", "antivirus", "vigilance", "vigilant", "detection", "detected", "scanned", "found", "exploit", "vulnerability", "vulnerable", "weakness", "infection", "infected", "comprimised", "data leak", "audited", "admin", "verification", "unverified", "uncertified", "cancel", "error", "crest", "bravery", "attacked", "damaged", "injured", "hit", "expired", "eliminated", "disabled", "inactive", "/"},
 		Categories: []string{"account", "security", "development", "gaming"},
-	},
-	{
+	}
+
+	shieldCheckInfo = IconInfo{
 		Name:       "Shield Check",
+		Slug:       "shield-check",
 		Icon:       ShieldCheck,
 		Tags:       []string{"cybersecurity", "secured", "safety", "protection", "protected", "guardian", "guarded", "armored", "armoured", "defense", "defence", "defended", "blocked", "threat", "prevention", "prevented", "antivirus", "vigilance", "vigilant", "active", "activated", "enabled", "detection", "scanned", "found", "strength", "strong", "tough", "invincible", "invincibility", "invulnerable", "undamaged", "audited", "admin", "verification", "verified", "certification", "certified", "tested", "passed", "qualified", "cleared", "cleaned", "disinfected", "uninfected", "task", "completed", "todo", "done", "ticked", "checked", "crest", "bravery"},
 		Categories: []string{"account", "security", "development", "gaming"},
-	},
-	{
+	}
+
+	shieldEllipsisInfo = IconInfo{
 		Name:       "Shield Ellipsis",
+		Slug:       "shield-ellipsis",
 		Icon:       ShieldEllipsis,
 		Tags:       []string{"cybersecurity", "securing", "protecting", "guarding", "armoring", "armouring", "defending", "blocking", "preventing", "antivirus", "detecting", "scanning", "finding", "auditing", "admin", "verifying", "crest", "upgrading", "loader", "loading", "throbber", "progress", "dots", "more", "etc", "...", "…"},
 		Categories: []string{"account", "security", "development", "gaming"},
-	},
-	{
+	}
+
+	shieldHalfInfo = IconInfo{
 		Name:       "Shield Half",
+		Slug:       "shield-half",
 		Icon:       ShieldHalf,
 		Tags:       []string{"cybersecurity", "secure", "safety", "protection", "guardian", "armored", "armoured", "defense", "defence", "defender", "block", "threat", "prevention", "antivirus", "vigilance", "vigilant", "detection", "scan", "strength", "strong", "tough", "invincible", "invincibility", "invulnerable", "undamaged", "audit", "admin", "verification", "crest", "logo", "sigil", "flag", "team", "faction", "fraternity", "university", "college", "academy", "school", "education", "uniform", "bravery", "knight", "foot soldier", "infantry", "trooper", "pawn", "battle", "war", "military", "ranking", "army", "cadet", "scout"},
 		Categories: []string{"account", "security", "development", "gaming"},
-	},
-	{
+	}
+
+	shieldMinusInfo = IconInfo{
 		Name:       "Shield Minus",
+		Slug:       "shield-minus",
 		Icon:       ShieldMinus,
 		Tags:       []string{"unshield", "cybersecurity", "unsecure", "unguard", "unblock", "antivirus", "clean", "clear", "disinfect", "patch", "fix", "stop", "cancel", "remove", "relax", "admin", "crest", "bravery", "weakened", "damaged", "hit", "unarm", "disable", "deactivate", "decommission", "downgraded", "minimum", "-"},
 		Categories: []string{"account", "security", "development", "gaming"},
-	},
-	{
+	}
+
+	shieldOffInfo = IconInfo{
 		Name:       "Shield Off",
+		Slug:       "shield-off",
 		Icon:       ShieldOff,
 		Tags:       []string{"unshielded", "cybersecurity", "insecure", "unsecured", "safety", "unsafe", "protection", "unprotected", "guardian", "unguarded", "unarmored", "unarmoured", "defenseless", "defenceless", "undefended", "defender", "interception", "threat", "prevention", "unprevented", "antivirus", "detection", "undetected", "exploit", "vulnerability", "vulnerable", "weakness", "infected", "infection", "comprimised", "data leak", "unaudited", "admin", "verification", "unverified", "inactive", "cancelled", "error", "crest", "bravery", "damaged", "injured", "hit", "expired", "eliminated"},
 		Categories: []string{"account", "security", "development", "gaming"},
-	},
-	{
+	}
+
+	shieldPlusInfo = IconInfo{
 		Name:       "Shield Plus",
+		Slug:       "shield-plus",
 		Icon:       ShieldPlus,
 		Tags:       []string{"cybersecurity", "secure", "safety", "protection", "guardian", "armored", "armoured", "defense", "defence", "defender", "block", "threat", "prevention", "antivirus", "vigilance", "vigilant", "detection", "scan", "strength", "strong", "tough", "invincible", "invincibility", "invulnerable", "undamaged", "extra", "added", "professional", "enterprise", "full", "maximum", "upgraded", "ultra", "activate", "enable", "audit", "admin", "verification", "crest", "medic", "+"},
 		Categories: []string{"account", "security", "development", "gaming", "medical"},
-	},
-	{
+	}
+
+	shieldQuestionInfo = IconInfo{
 		Name:       "Shield Question",
+		Slug:       "shield-question",
 		Icon:       ShieldQuestion,
 		Tags:       []string{"unshielded", "cybersecurity", "insecure", "unsecured", "safety", "unsafe", "protection", "unprotected", "guardian", "unguarded", "unarmored", "unarmoured", "defenseless", "defenceless", "undefended", "defender", "threat", "prevention", "unprevented", "antivirus", "vigilance", "vigilant", "detection", "undetected", "scan", "find", "exploit", "vulnerability", "vulnerable", "weakness", "infection", "comprimised", "data leak", "audit", "admin", "verification", "unverified", "uncertified", "uncertain", "unknown", "inactive", "crest", "question mark", "?"},
 		Categories: []string{"account", "security", "development", "gaming"},
-	},
-	{
+	}
+
+	shieldXInfo = IconInfo{
 		Name:       "Shield X",
+		Slug:       "shield-x",
 		Icon:       ShieldX,
 		Tags:       []string{"unshielded", "cybersecurity", "insecure", "unsecured", "safety", "unsafe", "protection", "unprotected", "guardian", "unguarded", "unarmored", "unarmoured", "defenseless", "defenceless", "undefended", "defender", "blocked", "stopped", "intercepted", "interception", "saved", "thwarted", "threat", "prevention", "prevented", "antivirus", "vigilance", "vigilant", "detection", "detected", "scanned", "found", "exploit", "vulnerability", "vulnerable", "weakness", "infection", "infected", "comprimised", "data leak", "audited", "admin", "verification", "unverified", "inactive", "cancel", "error", "wrong", "false", "crest", "bravery", "attacked", "damaged", "injured", "hit", "dead", "deceased", "expired", "eliminated", "exterminated"},
 		Categories: []string{"account", "security", "development", "gaming"},
-	},
-	{
+	}
+
+	shieldInfo = IconInfo{
 		Name:       "Shield",
+		Slug:       "shield",
 		Icon:       Shield,
 		Tags:       []string{"cybersecurity", "secure", "safety", "protection", "guardian", "armored", "armoured", "defense", "defence", "defender", "block", "threat", "prevention", "antivirus", "vigilance", "vigilant", "detection", "scan", "find", "strength", "strong", "tough", "invincible", "invincibility", "invulnerable", "undamaged", "audit", "admin", "verification", "crest", "bravery", "knight", "foot soldier", "infantry", "trooper", "pawn", "battle", "war", "military", "army", "cadet", "scout"},
 		Categories: []string{"account", "security", "development", "gaming", "shapes"},
-	},
-	{
+	}
+
+	shipWheelInfo = IconInfo{
 		Name:       "Ship Wheel",
+		Slug:       "ship-wheel",
 		Icon:       ShipWheel,
 		Tags:       []string{"steering", "rudder", "boat", "knots", "nautical mile", "maritime", "sailing", "yacht", "cruise", "ocean liner", "tanker", "vessel", "navy", "trip"},
 		Categories: []string{"transportation", "travel", "maps"},
-	},
-	{
+	}
+
+	shipInfo = IconInfo{
 		Name:       "Ship",
+		Slug:       "ship",
 		Icon:       Ship,
 		Tags:       []string{"boat", "knots", "nautical mile", "maritime", "sailing", "yacht", "cruise", "ocean liner", "tanker", "vessel", "navy", "trip"},
 		Categories: []string{"transportation", "travel", "maps"},
-	},
-	{
+	}
+
+	shirtInfo = IconInfo{
 		Name:       "Shirt",
+		Slug:       "shirt",
 		Icon:       Shirt,
 		Tags:       []string{"t-shirt", "shopping", "store", "clothing", "clothes"},
 		Categories: []string{"shopping"},
-	},
-	{
+	}
+
+	shoppingBagInfo = IconInfo{
 		Name:       "Shopping Bag",
+		Slug:       "shopping-bag",
 		Icon:       ShoppingBag,
 		Tags:       []string{"ecommerce", "cart", "purchase", "store"},
 		Categories: []string{"shopping"},
-	},
-	{
+	}
+
+	shoppingBasketInfo = IconInfo{
 		Name:       "Shopping Basket",
+		Slug:       "shopping-basket",
 		Icon:       ShoppingBasket,
 		Tags:       []string{"cart", "e-commerce", "store", "purchase", "products", "items", "ingredients"},
 		Categories: []string{"shopping"},
-	},
-	{
+	}
+
+	shoppingCartInfo = IconInfo{
 		Name:       "Shopping Cart",
+		Slug:       "shopping-cart",
 		Icon:       ShoppingCart,
 		Tags:       []string{"trolley", "cart", "basket", "e-commerce", "store", "purchase", "products", "items", "ingredients"},
 		Categories: []string{"shopping"},
-	},
-	{
+	}
+
+	shovelInfo = IconInfo{
 		Name:       "Shovel",
+		Slug:       "shovel",
 		Icon:       Shovel,
 		Tags:       []string{"dig", "spade", "treasure"},
 		Categories: []string{"nature", "tools", "gaming"},
-	},
-	{
+	}
+
+	showerHeadInfo = IconInfo{
 		Name:       "Shower Head",
+		Slug:       "shower-head",
 		Icon:       ShowerHead,
 		Tags:       []string{"shower", "bath", "bathroom", "amenities", "services"},
 		Categories: []string{"home", "travel"},
-	},
-	{
+	}
+
+	shrinkInfo = IconInfo{
 		Name:       "Shrink",
+		Slug:       "shrink",
 		Icon:       Shrink,
 		Tags:       []string{"scale", "fullscreen"},
 		Categories: []string{"layout", "arrows"},
-	},
-	{
+	}
+
+	shrubInfo = IconInfo{
 		Name:       "Shrub",
+		Slug:       "shrub",
 		Icon:       Shrub,
 		Tags:       []string{"forest", "undergrowth", "park", "nature"},
 		Categories: []string{"nature"},
-	},
-	{
+	}
+
+	shuffleInfo = IconInfo{
 		Name:       "Shuffle",
+		Slug:       "shuffle",
 		Icon:       Shuffle,
 		Tags:       []string{"music", "random", "reorder"},
 		Categories: []string{"multimedia", "arrows"},
-	},
-	{
+	}
+
+	sigmaInfo = IconInfo{
 		Name:       "Sigma",
+		Slug:       "sigma",
 		Icon:       Sigma,
 		Tags:       []string{"sum", "calculate", "formula", "maths", "enumeration", "enumerate"},
 		Categories: []string{"text", "maths", "science"},
-	},
-	{
+	}
+
+	signalHighInfo = IconInfo{
 		Name:       "Signal High",
+		Slug:       "signal-high",
 		Icon:       SignalHigh,
 		Tags:       []string{"connection", "wireless", "gsm", "phone", "2g", "3g", "4g", "5g"},
 		Categories: []string{"connectivity"},
-	},
-	{
+	}
+
+	signalLowInfo = IconInfo{
 		Name:       "Signal Low",
+		Slug:       "signal-low",
 		Icon:       SignalLow,
 		Tags:       []string{"connection", "wireless", "gsm", "phone", "2g", "3g", "4g", "5g"},
 		Categories: []string{"connectivity"},
-	},
-	{
+	}
+
+	signalMediumInfo = IconInfo{
 		Name:       "Signal Medium",
+		Slug:       "signal-medium",
 		Icon:       SignalMedium,
 		Tags:       []string{"connection", "wireless", "gsm", "phone", "2g", "3g", "4g", "5g"},
 		Categories: []string{"connectivity"},
-	},
-	{
+	}
+
+	signalZeroInfo = IconInfo{
 		Name:       "Signal Zero",
+		Slug:       "signal-zero",
 		Icon:       SignalZero,
 		Tags:       []string{"connection", "wireless", "gsm", "phone", "2g", "3g", "4g", "5g", "lost"},
 		Categories: []string{"connectivity"},
-	},
-	{
+	}
+
+	signalInfo = IconInfo{
 		Name:       "Signal",
+		Slug:       "signal",
 		Icon:       Signal,
 		Tags:       []string{"connection", "wireless", "gsm", "phone", "2g", "3g", "4g", "5g"},
 		Categories: []string{"connectivity"},
-	},
-	{
+	}
+
+	signatureInfo = IconInfo{
 		Name:       "Signature",
+		Slug:       "signature",
 		Icon:       Signature,
 		Tags:       []string{"text", "format", "input", "contract", "autograph", "handwriting", "sign", "cursive", "ink", "scribble", "authorize", "personal", "agreement", "legal", "document", "identity", "authentic", "approval", "verification", "unique"},
 		Categories: []string{"text", "layout"},
-	},
-	{
+	}
+
+	signpostBigInfo = IconInfo{
 		Name:       "Signpost Big",
+		Slug:       "signpost-big",
 		Icon:       SignpostBig,
 		Tags:       []string{"bidirectional", "left", "right", "east", "west"},
 		Categories: []string{"arrows", "navigation", "development", "gaming"},
-	},
-	{
+	}
+
+	signpostInfo = IconInfo{
 		Name:       "Signpost",
+		Slug:       "signpost",
 		Icon:       Signpost,
 		Tags:       []string{"bidirectional", "left", "right", "east", "west"},
 		Categories: []string{"arrows", "navigation", "development", "gaming"},
-	},
-	{
+	}
+
+	sirenInfo = IconInfo{
 		Name:       "Siren",
+		Slug:       "siren",
 		Icon:       Siren,
 		Tags:       []string{"police", "ambulance", "emergency", "security", "alert", "alarm", "light"},
 		Categories: []string{"medical"},
-	},
-	{
+	}
+
+	skipBackInfo = IconInfo{
 		Name:       "Skip Back",
+		Slug:       "skip-back",
 		Icon:       SkipBack,
 		Tags:       []string{"arrow", "previous", "music"},
 		Categories: []string{"multimedia", "arrows"},
-	},
-	{
+	}
+
+	skipForwardInfo = IconInfo{
 		Name:       "Skip Forward",
+		Slug:       "skip-forward",
 		Icon:       SkipForward,
 		Tags:       []string{"arrow", "skip", "next", "music"},
 		Categories: []string{"multimedia", "arrows"},
-	},
-	{
+	}
+
+	skullInfo = IconInfo{
 		Name:       "Skull",
+		Slug:       "skull",
 		Icon:       Skull,
 		Tags:       []string{"death", "danger", "bone"},
 		Categories: []string{"gaming"},
-	},
-	{
+	}
+
+	slackInfo = IconInfo{
 		Name:       "Slack",
+		Slug:       "slack",
 		Icon:       Slack,
 		Tags:       []string{"logo"},
 		Categories: []string{"account", "social", "communication", "brands", "development"},
-	},
-	{
+	}
+
+	slashInfo = IconInfo{
 		Name:       "Slash",
+		Slug:       "slash",
 		Icon:       Slash,
 		Tags:       []string{"divide", "division", "or", "/"},
 		Categories: []string{"development", "maths"},
-	},
-	{
+	}
+
+	sliceInfo = IconInfo{
 		Name:       "Slice",
+		Slug:       "slice",
 		Icon:       Slice,
 		Tags:       []string{"cutter", "scalpel", "knife"},
 		Categories: []string{"design"},
-	},
-	{
+	}
+
+	slidersHorizontalInfo = IconInfo{
 		Name:       "Sliders Horizontal",
+		Slug:       "sliders-horizontal",
 		Icon:       SlidersHorizontal,
 		Tags:       []string{"settings", "filters", "controls"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	slidersVerticalInfo = IconInfo{
 		Name:       "Sliders Vertical",
+		Slug:       "sliders-vertical",
 		Icon:       SlidersVertical,
 		Tags:       []string{"settings", "controls"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	smartphoneChargingInfo = IconInfo{
 		Name:       "Smartphone Charging",
+		Slug:       "smartphone-charging",
 		Icon:       SmartphoneCharging,
 		Tags:       []string{"phone", "cellphone", "device", "power", "screen"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	smartphoneNfcInfo = IconInfo{
 		Name:       "Smartphone Nfc",
+		Slug:       "smartphone-nfc",
 		Icon:       SmartphoneNfc,
 		Tags:       []string{"contactless", "payment", "near-field communication", "screen"},
 		Categories: []string{"communication", "money", "devices"},
-	},
-	{
+	}
+
+	smartphoneInfo = IconInfo{
 		Name:       "Smartphone",
+		Slug:       "smartphone",
 		Icon:       Smartphone,
 		Tags:       []string{"phone", "cellphone", "device", "screen"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	smilePlusInfo = IconInfo{
 		Name:       "Smile Plus",
+		Slug:       "smile-plus",
 		Icon:       SmilePlus,
 		Tags:       []string{"emoji", "face", "happy", "good", "emotion", "react", "reaction", "add"},
 		Categories: []string{"emoji", "social", "notifications", "communication"},
-	},
-	{
+	}
+
+	smileInfo = IconInfo{
 		Name:       "Smile",
+		Slug:       "smile",
 		Icon:       Smile,
 		Tags:       []string{"emoji", "face", "happy", "good", "emotion"},
 		Categories: []string{"emoji", "account"},
-	},
-	{
+	}
+
+	snailInfo = IconInfo{
 		Name:       "Snail",
+		Slug:       "snail",
 		Icon:       Snail,
 		Tags:       []string{"animal", "insect", "slow", "speed", "delicacy", "spiral"},
 		Categories: []string{"animals", "food-beverage"},
-	},
-	{
+	}
+
+	snowflakeInfo = IconInfo{
 		Name:       "Snowflake",
+		Slug:       "snowflake",
 		Icon:       Snowflake,
 		Tags:       []string{"cold", "weather", "freeze", "snow", "winter"},
 		Categories: []string{"weather", "seasons"},
-	},
-	{
+	}
+
+	sofaInfo = IconInfo{
 		Name:       "Sofa",
+		Slug:       "sofa",
 		Icon:       Sofa,
 		Tags:       []string{"armchair", "furniture", "leisure", "lounge", "loveseat", "couch"},
 		Categories: []string{"furniture"},
-	},
-	{
+	}
+
+	soupInfo = IconInfo{
 		Name:       "Soup",
+		Slug:       "soup",
 		Icon:       Soup,
 		Tags:       []string{"food", "dish", "restaurant", "course", "meal", "bowl", "starter"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	spaceInfo = IconInfo{
 		Name:       "Space",
+		Slug:       "space",
 		Icon:       Space,
 		Tags:       []string{"text", "selection", "letters", "characters", "font", "typography"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	spadeInfo = IconInfo{
 		Name:       "Spade",
+		Slug:       "spade",
 		Icon:       Spade,
 		Tags:       []string{"shape", "suit", "playing", "cards"},
 		Categories: []string{"shapes", "gaming"},
-	},
-	{
+	}
+
+	sparkleInfo = IconInfo{
 		Name:       "Sparkle",
+		Slug:       "sparkle",
 		Icon:       Sparkle,
 		Tags:       []string{"star", "effect", "filter", "night", "magic", "shiny", "glitter", "twinkle", "celebration"},
 		Categories: []string{"shapes"},
-	},
-	{
+	}
+
+	sparklesInfo = IconInfo{
 		Name:       "Sparkles",
+		Slug:       "sparkles",
 		Icon:       Sparkles,
 		Tags:       []string{"stars", "effect", "filter", "night", "magic"},
 		Categories: []string{"shapes", "cursors", "multimedia", "gaming", "weather"},
-	},
-	{
+	}
+
+	speakerInfo = IconInfo{
 		Name:       "Speaker",
+		Slug:       "speaker",
 		Icon:       Speaker,
 		Tags:       []string{"sound", "audio", "music", "tweeter", "subwoofer", "bass", "production", "producer", "dj"},
 		Categories: []string{"multimedia", "devices"},
-	},
-	{
+	}
+
+	speechInfo = IconInfo{
 		Name:       "Speech",
+		Slug:       "speech",
 		Icon:       Speech,
 		Tags:       []string{"disability", "disabled", "dda", "human", "accessibility", "people", "sound"},
 		Categories: []string{"accessibility", "communication"},
-	},
-	{
+	}
+
+	spellCheck2Info = IconInfo{
 		Name:       "Spell Check 2",
+		Slug:       "spell-check-2",
 		Icon:       SpellCheck2,
 		Tags:       []string{"spelling", "error", "mistake", "oversight", "typo", "correction", "code", "linter", "a"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	spellCheckInfo = IconInfo{
 		Name:       "Spell Check",
+		Slug:       "spell-check",
 		Icon:       SpellCheck,
 		Tags:       []string{"spelling", "error", "mistake", "oversight", "typo", "correction", "code", "linter", "a"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	splineInfo = IconInfo{
 		Name:       "Spline",
+		Slug:       "spline",
 		Icon:       Spline,
 		Tags:       []string{"path", "pen", "tool", "shape", "curve", "draw"},
 		Categories: []string{"design"},
-	},
-	{
+	}
+
+	splitInfo = IconInfo{
 		Name:       "Split",
+		Slug:       "split",
 		Icon:       Split,
 		Tags:       []string{"break", "disband", "divide", "separate", "branch", "disunite"},
 		Categories: []string{"development", "arrows"},
-	},
-	{
+	}
+
+	sprayCanInfo = IconInfo{
 		Name:       "Spray Can",
+		Slug:       "spray-can",
 		Icon:       SprayCan,
 		Tags:       []string{"paint", "color", "graffiti", "decoration", "aerosol", "deodorant", "shaving foam", "air freshener"},
 		Categories: []string{"design", "tools"},
-	},
-	{
+	}
+
+	sproutInfo = IconInfo{
 		Name:       "Sprout",
+		Slug:       "sprout",
 		Icon:       Sprout,
 		Tags:       []string{"leaf", "nature", "plant"},
 		Categories: []string{"nature", "gaming", "sustainability"},
-	},
-	{
+	}
+
+	squareActivityInfo = IconInfo{
 		Name:       "Square Activity",
+		Slug:       "square-activity",
 		Icon:       SquareActivity,
 		Tags:       []string{"pulse", "action", "motion", "movement", "exercise", "fitness", "healthcare", "heart rate monitor", "vital signs", "vitals", "emergency room", "er", "intensive care", "hospital", "defibrillator", "earthquake", "siesmic", "magnitude", "richter scale", "aftershock", "tremor", "shockwave", "audio", "waveform", "synthesizer", "synthesiser", "music"},
 		Categories: []string{"medical", "account", "social", "science", "multimedia", "shapes"},
-	},
-	{
+	}
+
+	squareArrowDownLeftInfo = IconInfo{
 		Name:       "Square Arrow Down Left",
+		Slug:       "square-arrow-down-left",
 		Icon:       SquareArrowDownLeft,
 		Tags:       []string{"direction", "south-west", "diagonal", "sign", "turn", "keyboard", "button"},
 		Categories: []string{"arrows", "navigation", "shapes", "gaming"},
-	},
-	{
+	}
+
+	squareArrowDownRightInfo = IconInfo{
 		Name:       "Square Arrow Down Right",
+		Slug:       "square-arrow-down-right",
 		Icon:       SquareArrowDownRight,
 		Tags:       []string{"direction", "south-east", "diagonal", "sign", "turn", "keyboard", "button"},
 		Categories: []string{"arrows", "navigation", "shapes", "gaming"},
-	},
-	{
+	}
+
+	squareArrowDownInfo = IconInfo{
 		Name:       "Square Arrow Down",
+		Slug:       "square-arrow-down",
 		Icon:       SquareArrowDown,
 		Tags:       []string{"backwards", "reverse", "direction", "south", "sign", "keyboard", "button"},
 		Categories: []string{"arrows", "navigation", "shapes", "gaming"},
-	},
-	{
+	}
+
+	squareArrowLeftInfo = IconInfo{
 		Name:       "Square Arrow Left",
+		Slug:       "square-arrow-left",
 		Icon:       SquareArrowLeft,
 		Tags:       []string{"previous", "back", "direction", "west", "sign", "keyboard", "button", "<-"},
 		Categories: []string{"arrows", "navigation", "shapes"},
-	},
-	{
+	}
+
+	squareArrowOutDownLeftInfo = IconInfo{
 		Name:       "Square Arrow Out Down Left",
+		Slug:       "square-arrow-out-down-left",
 		Icon:       SquareArrowOutDownLeft,
 		Tags:       []string{"outwards", "direction", "south-west", "diagonal"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	squareArrowOutDownRightInfo = IconInfo{
 		Name:       "Square Arrow Out Down Right",
+		Slug:       "square-arrow-out-down-right",
 		Icon:       SquareArrowOutDownRight,
 		Tags:       []string{"outwards", "direction", "south-east", "diagonal"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	squareArrowOutUpLeftInfo = IconInfo{
 		Name:       "Square Arrow Out Up Left",
+		Slug:       "square-arrow-out-up-left",
 		Icon:       SquareArrowOutUpLeft,
 		Tags:       []string{"outwards", "direction", "north-west", "diagonal"},
 		Categories: []string{"arrows", "navigation"},
-	},
-	{
+	}
+
+	squareArrowOutUpRightInfo = IconInfo{
 		Name:       "Square Arrow Out Up Right",
+		Slug:       "square-arrow-out-up-right",
 		Icon:       SquareArrowOutUpRight,
 		Tags:       []string{"outwards", "direction", "north-east", "diagonal", "share", "open", "external", "link"},
 		Categories: []string{"arrows", "navigation", "social"},
-	},
-	{
+	}
+
+	squareArrowRightInfo = IconInfo{
 		Name:       "Square Arrow Right",
+		Slug:       "square-arrow-right",
 		Icon:       SquareArrowRight,
 		Tags:       []string{"next", "forward", "direction", "west", "sign", "keyboard", "button", "->"},
 		Categories: []string{"arrows", "navigation", "shapes"},
-	},
-	{
+	}
+
+	squareArrowUpLeftInfo = IconInfo{
 		Name:       "Square Arrow Up Left",
+		Slug:       "square-arrow-up-left",
 		Icon:       SquareArrowUpLeft,
 		Tags:       []string{"direction", "north-west", "diagonal", "sign", "keyboard", "button"},
 		Categories: []string{"arrows", "navigation", "shapes"},
-	},
-	{
+	}
+
+	squareArrowUpRightInfo = IconInfo{
 		Name:       "Square Arrow Up Right",
+		Slug:       "square-arrow-up-right",
 		Icon:       SquareArrowUpRight,
 		Tags:       []string{"direction", "north-east", "diagonal", "sign", "keyboard", "button", "share"},
 		Categories: []string{"arrows", "navigation", "shapes", "social"},
-	},
-	{
+	}
+
+	squareArrowUpInfo = IconInfo{
 		Name:       "Square Arrow Up",
+		Slug:       "square-arrow-up",
 		Icon:       SquareArrowUp,
 		Tags:       []string{"forward", "direction", "north", "sign", "keyboard", "button"},
 		Categories: []string{"arrows", "navigation", "shapes"},
-	},
-	{
+	}
+
+	squareAsteriskInfo = IconInfo{
 		Name:       "Square Asterisk",
+		Slug:       "square-asterisk",
 		Icon:       SquareAsterisk,
 		Tags:       []string{"password", "secret", "access", "key", "multiply", "multiplication", "glob pattern", "wildcard", "*"},
 		Categories: []string{"text", "security", "account", "maths", "development"},
-	},
-	{
+	}
+
+	squareBottomDashedScissorsInfo = IconInfo{
 		Name:       "Square Bottom Dashed Scissors",
+		Slug:       "square-bottom-dashed-scissors",
 		Icon:       SquareBottomDashedScissors,
 		Tags:       []string{"cut", "snippet", "chop", "stationery", "crafts"},
 		Categories: []string{"text", "design", "tools", "files", "development"},
-	},
-	{
+	}
+
+	squareChartGanttInfo = IconInfo{
 		Name:       "Square Chart Gantt",
+		Slug:       "square-chart-gantt",
 		Icon:       SquareChartGantt,
 		Tags:       []string{"projects", "manage", "overview", "roadmap", "plan", "intentions", "timeline", "deadline", "date", "event", "range", "period", "productivity", "work", "agile", "code", "coding", "toolbar", "button"},
 		Categories: []string{"charts", "time", "development", "design"},
-	},
-	{
+	}
+
+	squareCheckBigInfo = IconInfo{
 		Name:       "Square Check Big",
+		Slug:       "square-check-big",
 		Icon:       SquareCheckBig,
 		Tags:       []string{"done", "todo", "tick", "complete", "task"},
 		Categories: []string{"notifications", "shapes"},
-	},
-	{
+	}
+
+	squareCheckInfo = IconInfo{
 		Name:       "Square Check",
+		Slug:       "square-check",
 		Icon:       SquareCheck,
 		Tags:       []string{"done", "todo", "tick", "complete", "task"},
 		Categories: []string{"notifications", "shapes"},
-	},
-	{
+	}
+
+	squareChevronDownInfo = IconInfo{
 		Name:       "Square Chevron Down",
+		Slug:       "square-chevron-down",
 		Icon:       SquareChevronDown,
 		Tags:       []string{"back", "menu", "panel"},
 		Categories: []string{"arrows", "navigation", "shapes"},
-	},
-	{
+	}
+
+	squareChevronLeftInfo = IconInfo{
 		Name:       "Square Chevron Left",
+		Slug:       "square-chevron-left",
 		Icon:       SquareChevronLeft,
 		Tags:       []string{"back", "previous", "less than", "fewer", "menu", "panel", "button", "keyboard", "<"},
 		Categories: []string{"arrows", "navigation", "shapes"},
-	},
-	{
+	}
+
+	squareChevronRightInfo = IconInfo{
 		Name:       "Square Chevron Right",
+		Slug:       "square-chevron-right",
 		Icon:       SquareChevronRight,
 		Tags:       []string{"forward", "next", "more than", "greater", "menu", "panel", "code", "coding", "command line", "terminal", "prompt", "shell", "console", ">"},
 		Categories: []string{"arrows", "navigation", "shapes", "development"},
-	},
-	{
+	}
+
+	squareChevronUpInfo = IconInfo{
 		Name:       "Square Chevron Up",
+		Slug:       "square-chevron-up",
 		Icon:       SquareChevronUp,
 		Tags:       []string{"caret", "keyboard", "button", "mac", "control", "ctrl", "superscript", "exponential", "power", "ahead", "menu", "panel", "^"},
 		Categories: []string{"arrows", "navigation", "maths", "shapes"},
-	},
-	{
+	}
+
+	squareCodeInfo = IconInfo{
 		Name:       "Square Code",
+		Slug:       "square-code",
 		Icon:       SquareCode,
 		Tags:       []string{"gist", "source", "programming", "html", "xml", "coding"},
 		Categories: []string{"text", "development"},
-	},
-	{
+	}
+
+	squareDashedBottomCodeInfo = IconInfo{
 		Name:       "Square Dashed Bottom Code",
+		Slug:       "square-dashed-bottom-code",
 		Icon:       SquareDashedBottomCode,
 		Tags:       []string{"rectangle", "aspect ratio", "1:1", "shape", "snippet", "code", "coding"},
 		Categories: []string{"shapes", "development", "files"},
-	},
-	{
+	}
+
+	squareDashedBottomInfo = IconInfo{
 		Name:       "Square Dashed Bottom",
+		Slug:       "square-dashed-bottom",
 		Icon:       SquareDashedBottom,
 		Tags:       []string{"rectangle", "aspect ratio", "1:1", "shape", "snippet", "code", "coding"},
 		Categories: []string{"shapes", "development", "files"},
-	},
-	{
+	}
+
+	squareDashedKanbanInfo = IconInfo{
 		Name:       "Square Dashed Kanban",
+		Slug:       "square-dashed-kanban",
 		Icon:       SquareDashedKanban,
 		Tags:       []string{"projects", "manage", "overview", "board", "tickets", "issues", "roadmap", "plan", "intentions", "productivity", "work", "agile", "draft", "template", "boilerplate", "code", "coding"},
 		Categories: []string{"charts", "development", "design"},
-	},
-	{
+	}
+
+	squareDashedMousePointerInfo = IconInfo{
 		Name:       "Square Dashed Mouse Pointer",
+		Slug:       "square-dashed-mouse-pointer",
 		Icon:       SquareDashedMousePointer,
 		Tags:       []string{"inspector", "element", "mouse", "click", "pointer", "box", "browser", "selector", "target", "dom", "node"},
 		Categories: []string{"arrows", "cursors", "development", "tools"},
-	},
-	{
+	}
+
+	squareDashedInfo = IconInfo{
 		Name:       "Square Dashed",
+		Slug:       "square-dashed",
 		Icon:       SquareDashed,
 		Tags:       []string{"selection", "square", "rectangular", "marquee", "tool", "dashed", "box"},
 		Categories: []string{"text", "design"},
-	},
-	{
+	}
+
+	squareDivideInfo = IconInfo{
 		Name:       "Square Divide",
+		Slug:       "square-divide",
 		Icon:       SquareDivide,
 		Tags:       []string{"calculate", "maths", "÷", "/"},
 		Categories: []string{"maths", "shapes"},
-	},
-	{
+	}
+
+	squareDotInfo = IconInfo{
 		Name:       "Square Dot",
+		Slug:       "square-dot",
 		Icon:       SquareDot,
 		Tags:       []string{"git", "diff", "modified", "."},
 		Categories: []string{"shapes", "development"},
-	},
-	{
+	}
+
+	squareEqualInfo = IconInfo{
 		Name:       "Square Equal",
+		Slug:       "square-equal",
 		Icon:       SquareEqual,
 		Tags:       []string{"calculate", "="},
 		Categories: []string{"maths", "shapes"},
-	},
-	{
+	}
+
+	squareFunctionInfo = IconInfo{
 		Name:       "Square Function",
+		Slug:       "square-function",
 		Icon:       SquareFunction,
 		Tags:       []string{"programming", "code", "automation", "maths"},
 		Categories: []string{"development", "shapes", "maths"},
-	},
-	{
+	}
+
+	squareKanbanInfo = IconInfo{
 		Name:       "Square Kanban",
+		Slug:       "square-kanban",
 		Icon:       SquareKanban,
 		Tags:       []string{"projects", "manage", "overview", "board", "tickets", "issues", "roadmap", "plan", "intentions", "productivity", "work", "agile", "code", "coding", "toolbar", "button"},
 		Categories: []string{"charts", "development", "design"},
-	},
-	{
+	}
+
+	squareLibraryInfo = IconInfo{
 		Name:       "Square Library",
+		Slug:       "square-library",
 		Icon:       SquareLibrary,
 		Tags:       []string{"books", "reading", "written", "authors", "stories", "fiction", "novels", "information", "knowledge", "education", "high school", "university", "college", "academy", "learning", "study", "research", "collection", "vinyl", "records", "albums", "music", "package"},
 		Categories: []string{"text", "photography", "multimedia", "maps", "development"},
-	},
-	{
+	}
+
+	squareMInfo = IconInfo{
 		Name:       "Square M",
+		Slug:       "square-m",
 		Icon:       SquareM,
 		Tags:       []string{"metro", "subway", "underground", "track", "line"},
 		Categories: []string{"transportation", "maps", "navigation"},
-	},
-	{
+	}
+
+	squareMenuInfo = IconInfo{
 		Name:       "Square Menu",
+		Slug:       "square-menu",
 		Icon:       SquareMenu,
 		Tags:       []string{"bars", "navigation", "hamburger", "options", "menu bar", "panel"},
 		Categories: []string{"layout", "account"},
-	},
-	{
+	}
+
+	squareMinusInfo = IconInfo{
 		Name:       "Square Minus",
+		Slug:       "square-minus",
 		Icon:       SquareMinus,
 		Tags:       []string{"subtract", "remove", "decrease", "reduce", "calculator", "button", "keyboard", "line", "divider", "separator", "horizontal rule", "hr", "html", "markup", "markdown", "---", "toolbar", "operator", "code", "coding", "minimum", "downgrade"},
 		Categories: []string{"maths", "development", "text", "tools", "devices", "shapes"},
-	},
-	{
+	}
+
+	squareMousePointerInfo = IconInfo{
 		Name:       "Square Mouse Pointer",
+		Slug:       "square-mouse-pointer",
 		Icon:       SquareMousePointer,
 		Tags:       []string{"inspector", "element", "mouse", "click", "pointer", "box", "browser", "selector", "target", "dom", "node"},
 		Categories: []string{"arrows", "cursors", "development", "tools"},
-	},
-	{
+	}
+
+	squareParkingOffInfo = IconInfo{
 		Name:       "Square Parking Off",
+		Slug:       "square-parking-off",
 		Icon:       SquareParkingOff,
 		Tags:       []string{"parking lot", "car park", "no parking"},
 		Categories: []string{"transportation", "maps"},
-	},
-	{
+	}
+
+	squareParkingInfo = IconInfo{
 		Name:       "Square Parking",
+		Slug:       "square-parking",
 		Icon:       SquareParking,
 		Tags:       []string{"parking lot", "car park"},
 		Categories: []string{"transportation", "maps"},
-	},
-	{
+	}
+
+	squarePenInfo = IconInfo{
 		Name:       "Square Pen",
+		Slug:       "square-pen",
 		Icon:       SquarePen,
 		Tags:       []string{"pencil", "change", "create", "draw", "sketch", "draft", "writer", "writing", "biro", "ink", "marker", "felt tip", "stationery", "artist"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	squarePercentInfo = IconInfo{
 		Name:       "Square Percent",
+		Slug:       "square-percent",
 		Icon:       SquarePercent,
 		Tags:       []string{"verified", "unverified", "sale", "discount", "offer", "marketing", "sticker", "price tag"},
 		Categories: []string{"account", "social", "money", "shopping", "maths", "shapes"},
-	},
-	{
+	}
+
+	squarePiInfo = IconInfo{
 		Name:       "Square Pi",
+		Slug:       "square-pi",
 		Icon:       SquarePi,
 		Tags:       []string{"constant", "code", "coding", "programming", "symbol", "trigonometry", "geometry", "formula"},
 		Categories: []string{"development", "maths", "shapes"},
-	},
-	{
+	}
+
+	squarePilcrowInfo = IconInfo{
 		Name:       "Square Pilcrow",
+		Slug:       "square-pilcrow",
 		Icon:       SquarePilcrow,
 		Tags:       []string{"paragraph", "mark", "paraph", "blind", "typography", "type", "text", "prose", "symbol"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	squarePlayInfo = IconInfo{
 		Name:       "Square Play",
+		Slug:       "square-play",
 		Icon:       SquarePlay,
 		Tags:       []string{"music", "audio", "video", "start", "run"},
 		Categories: []string{"arrows", "multimedia"},
-	},
-	{
+	}
+
+	squarePlusInfo = IconInfo{
 		Name:       "Square Plus",
+		Slug:       "square-plus",
 		Icon:       SquarePlus,
 		Tags:       []string{"add", "new", "increase", "increment", "positive", "calculate", "calculator", "button", "keyboard", "toolbar", "maximum", "upgrade", "extra", "operator", "join", "concatenate", "code", "coding", "+"},
 		Categories: []string{"maths", "tools", "development", "text", "shapes"},
-	},
-	{
+	}
+
+	squarePowerInfo = IconInfo{
 		Name:       "Square Power",
+		Slug:       "square-power",
 		Icon:       SquarePower,
 		Tags:       []string{"on", "off", "device", "switch", "toggle", "binary", "boolean", "reboot", "restart", "button", "keyboard", "troubleshoot"},
 		Categories: []string{"connectivity"},
-	},
-	{
+	}
+
+	squareRadicalInfo = IconInfo{
 		Name:       "Square Radical",
+		Slug:       "square-radical",
 		Icon:       SquareRadical,
 		Tags:       []string{"calculate", "formula", "maths", "operator", "root", "square", "symbol"},
 		Categories: []string{"development", "maths", "shapes"},
-	},
-	{
+	}
+
+	squareScissorsInfo = IconInfo{
 		Name:       "Square Scissors",
+		Slug:       "square-scissors",
 		Icon:       SquareScissors,
 		Tags:       []string{"cut", "snippet", "chop", "stationery", "crafts", "toolbar", "button"},
 		Categories: []string{"text", "design", "tools", "files", "development"},
-	},
-	{
+	}
+
+	squareSigmaInfo = IconInfo{
 		Name:       "Square Sigma",
+		Slug:       "square-sigma",
 		Icon:       SquareSigma,
 		Tags:       []string{"sum", "calculate", "formula", "maths", "enumeration", "enumerate"},
 		Categories: []string{"text", "maths"},
-	},
-	{
+	}
+
+	squareSlashInfo = IconInfo{
 		Name:       "Square Slash",
+		Slug:       "square-slash",
 		Icon:       SquareSlash,
 		Tags:       []string{"git", "diff", "ignored", "divide", "division", "shortcut", "or", "/"},
 		Categories: []string{"shapes", "development", "maths"},
-	},
-	{
+	}
+
+	squareSplitHorizontalInfo = IconInfo{
 		Name:       "Square Split Horizontal",
+		Slug:       "square-split-horizontal",
 		Icon:       SquareSplitHorizontal,
 		Tags:       []string{"split", "divide"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	squareSplitVerticalInfo = IconInfo{
 		Name:       "Square Split Vertical",
+		Slug:       "square-split-vertical",
 		Icon:       SquareSplitVertical,
 		Tags:       []string{"split", "divide"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	squareSquareInfo = IconInfo{
 		Name:       "Square Square",
+		Slug:       "square-square",
 		Icon:       SquareSquare,
 		Tags:       []string{"float", "center", "rectangle"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	squareStackInfo = IconInfo{
 		Name:       "Square Stack",
+		Slug:       "square-stack",
 		Icon:       SquareStack,
 		Tags:       []string{"versions", "clone", "copy", "duplicate", "multiple", "revisions", "version control", "backup", "history"},
 		Categories: []string{"text", "files", "development"},
-	},
-	{
+	}
+
+	squareTerminalInfo = IconInfo{
 		Name:       "Square Terminal",
+		Slug:       "square-terminal",
 		Icon:       SquareTerminal,
 		Tags:       []string{"code", "command line", "prompt", "shell"},
 		Categories: []string{"development", "shapes"},
-	},
-	{
+	}
+
+	squareUserRoundInfo = IconInfo{
 		Name:       "Square User Round",
+		Slug:       "square-user-round",
 		Icon:       SquareUserRound,
 		Tags:       []string{"person", "account", "contact"},
 		Categories: []string{"account", "shapes"},
-	},
-	{
+	}
+
+	squareUserInfo = IconInfo{
 		Name:       "Square User",
+		Slug:       "square-user",
 		Icon:       SquareUser,
 		Tags:       []string{"person", "account", "contact"},
 		Categories: []string{"account", "shapes"},
-	},
-	{
+	}
+
+	squareXInfo = IconInfo{
 		Name:       "Square X",
+		Slug:       "square-x",
 		Icon:       SquareX,
 		Tags:       []string{"cancel", "close", "delete", "remove", "times", "clear", "maths", "multiply", "multiplication"},
 		Categories: []string{"maths", "shapes", "notifications"},
-	},
-	{
+	}
+
+	squareInfo = IconInfo{
 		Name:       "Square",
+		Slug:       "square",
 		Icon:       Square,
 		Tags:       []string{"rectangle", "aspect ratio", "1:1", "shape"},
 		Categories: []string{"shapes"},
-	},
-	{
+	}
+
+	squircleInfo = IconInfo{
 		Name:       "Squircle",
+		Slug:       "squircle",
 		Icon:       Squircle,
 		Tags:       []string{"shape"},
 		Categories: []string{"shapes"},
-	},
-	{
+	}
+
+	squirrelInfo = IconInfo{
 		Name:       "Squirrel",
+		Slug:       "squirrel",
 		Icon:       Squirrel,
 		Tags:       []string{"animal", "rodent", "pet", "pest", "nuts", "retrieve", "updates", "storage", "stash"},
 		Categories: []string{"animals"},
-	},
-	{
+	}
+
+	stampInfo = IconInfo{
 		Name:       "Stamp",
+		Slug:       "stamp",
 		Icon:       Stamp,
 		Tags:       []string{"mark", "print", "clone", "loyalty", "library"},
 		Categories: []string{"design", "cursors", "tools", "maps"},
-	},
-	{
+	}
+
+	starHalfInfo = IconInfo{
 		Name:       "Star Half",
+		Slug:       "star-half",
 		Icon:       StarHalf,
 		Tags:       []string{"bookmark", "favorite", "like", "review", "rating"},
 		Categories: []string{"social", "multimedia"},
-	},
-	{
+	}
+
+	starOffInfo = IconInfo{
 		Name:       "Star Off",
+		Slug:       "star-off",
 		Icon:       StarOff,
 		Tags:       []string{"dislike", "unlike", "remove", "unrate"},
 		Categories: []string{"multimedia", "social"},
-	},
-	{
+	}
+
+	starInfo = IconInfo{
 		Name:       "Star",
+		Slug:       "star",
 		Icon:       Star,
 		Tags:       []string{"bookmark", "favorite", "like", "review", "rating"},
 		Categories: []string{"account", "social", "shapes", "multimedia", "weather", "emoji", "gaming"},
-	},
-	{
+	}
+
+	stepBackInfo = IconInfo{
 		Name:       "Step Back",
+		Slug:       "step-back",
 		Icon:       StepBack,
 		Tags:       []string{"arrow", "previous", "music", "left", "reverse"},
 		Categories: []string{"multimedia", "arrows"},
-	},
-	{
+	}
+
+	stepForwardInfo = IconInfo{
 		Name:       "Step Forward",
+		Slug:       "step-forward",
 		Icon:       StepForward,
 		Tags:       []string{"arrow", "next", "music", "right", "continue"},
 		Categories: []string{"multimedia", "arrows"},
-	},
-	{
+	}
+
+	stethoscopeInfo = IconInfo{
 		Name:       "Stethoscope",
+		Slug:       "stethoscope",
 		Icon:       Stethoscope,
 		Tags:       []string{"phonendoscope", "medical", "heart", "lungs", "sound"},
 		Categories: []string{"science", "medical"},
-	},
-	{
+	}
+
+	stickerInfo = IconInfo{
 		Name:       "Sticker",
+		Slug:       "sticker",
 		Icon:       Sticker,
 		Tags:       []string{"reaction", "emotion", "smile", "happy", "feedback"},
 		Categories: []string{"communication", "social"},
-	},
-	{
+	}
+
+	stickyNoteInfo = IconInfo{
 		Name:       "Sticky Note",
+		Slug:       "sticky-note",
 		Icon:       StickyNote,
 		Tags:       []string{"post-it", "comment", "annotation", "reaction", "memo", "reminder", "todo", "task", "idea", "brainstorm", "document", "page", "paper", "sheet", "stationary", "office"},
 		Categories: []string{"communication", "text", "social"},
-	},
-	{
+	}
+
+	storeInfo = IconInfo{
 		Name:       "Store",
+		Slug:       "store",
 		Icon:       Store,
 		Tags:       []string{"shop", "supermarket", "stand", "boutique", "building"},
 		Categories: []string{"buildings", "maps"},
-	},
-	{
+	}
+
+	stretchHorizontalInfo = IconInfo{
 		Name:       "Stretch Horizontal",
+		Slug:       "stretch-horizontal",
 		Icon:       StretchHorizontal,
 		Tags:       []string{"items", "flex", "justify", "distribute"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	stretchVerticalInfo = IconInfo{
 		Name:       "Stretch Vertical",
+		Slug:       "stretch-vertical",
 		Icon:       StretchVertical,
 		Tags:       []string{"items", "flex", "justify", "distribute"},
 		Categories: []string{"layout"},
-	},
-	{
+	}
+
+	strikethroughInfo = IconInfo{
 		Name:       "Strikethrough",
+		Slug:       "strikethrough",
 		Icon:       Strikethrough,
 		Tags:       []string{"cross out", "delete", "remove", "format"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	subscriptInfo = IconInfo{
 		Name:       "Subscript",
+		Slug:       "subscript",
 		Icon:       Subscript,
 		Tags:       []string{"text"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	sunDimInfo = IconInfo{
 		Name:       "Sun Dim",
+		Slug:       "sun-dim",
 		Icon:       SunDim,
 		Tags:       []string{"brightness", "dim", "low", "brightness low"},
 		Categories: []string{"accessibility", "weather"},
-	},
-	{
+	}
+
+	sunMediumInfo = IconInfo{
 		Name:       "Sun Medium",
+		Slug:       "sun-medium",
 		Icon:       SunMedium,
 		Tags:       []string{"brightness", "medium"},
 		Categories: []string{"accessibility", "weather"},
-	},
-	{
+	}
+
+	sunMoonInfo = IconInfo{
 		Name:       "Sun Moon",
+		Slug:       "sun-moon",
 		Icon:       SunMoon,
 		Tags:       []string{"night", "dark", "light", "moon", "sun", "brightness", "theme", "auto theme", "system theme", "appearance"},
 		Categories: []string{"accessibility"},
-	},
-	{
+	}
+
+	sunSnowInfo = IconInfo{
 		Name:       "Sun Snow",
+		Slug:       "sun-snow",
 		Icon:       SunSnow,
 		Tags:       []string{"weather", "air conditioning", "temperature", "hot", "cold", "seasons"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	sunInfo = IconInfo{
 		Name:       "Sun",
+		Slug:       "sun",
 		Icon:       Sun,
 		Tags:       []string{"brightness", "weather", "light", "summer"},
 		Categories: []string{"accessibility", "weather", "seasons", "sustainability"},
-	},
-	{
+	}
+
+	sunriseInfo = IconInfo{
 		Name:       "Sunrise",
+		Slug:       "sunrise",
 		Icon:       Sunrise,
 		Tags:       []string{"weather", "time", "morning", "day"},
 		Categories: []string{"arrows", "weather", "time"},
-	},
-	{
+	}
+
+	sunsetInfo = IconInfo{
 		Name:       "Sunset",
+		Slug:       "sunset",
 		Icon:       Sunset,
 		Tags:       []string{"weather", "time", "evening", "night"},
 		Categories: []string{"arrows", "weather"},
-	},
-	{
+	}
+
+	superscriptInfo = IconInfo{
 		Name:       "Superscript",
+		Slug:       "superscript",
 		Icon:       Superscript,
 		Tags:       []string{"text", "exponent"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	swatchBookInfo = IconInfo{
 		Name:       "Swatch Book",
+		Slug:       "swatch-book",
 		Icon:       SwatchBook,
 		Tags:       []string{"colors", "colours", "swatches", "pantone", "shades", "tint", "hue", "saturation", "brightness", "theme", "scheme", "palette", "samples", "textile", "carpet"},
 		Categories: []string{"design", "home", "furniture", "photography"},
-	},
-	{
+	}
+
+	swissFrancInfo = IconInfo{
 		Name:       "Swiss Franc",
+		Slug:       "swiss-franc",
 		Icon:       SwissFranc,
 		Tags:       []string{"currency", "money", "payment"},
 		Categories: []string{"currency", "money"},
-	},
-	{
+	}
+
+	switchCameraInfo = IconInfo{
 		Name:       "Switch Camera",
+		Slug:       "switch-camera",
 		Icon:       SwitchCamera,
 		Tags:       []string{"photo", "selfie", "front", "back"},
 		Categories: []string{"communication", "devices"},
-	},
-	{
+	}
+
+	swordInfo = IconInfo{
 		Name:       "Sword",
+		Slug:       "sword",
 		Icon:       Sword,
 		Tags:       []string{"battle", "challenge", "game", "war", "weapon"},
 		Categories: []string{"gaming", "tools"},
-	},
-	{
+	}
+
+	swordsInfo = IconInfo{
 		Name:       "Swords",
+		Slug:       "swords",
 		Icon:       Swords,
 		Tags:       []string{"battle", "challenge", "game", "war", "weapon"},
 		Categories: []string{"gaming", "tools"},
-	},
-	{
+	}
+
+	syringeInfo = IconInfo{
 		Name:       "Syringe",
+		Slug:       "syringe",
 		Icon:       Syringe,
 		Tags:       []string{"medicine", "medical", "needle", "pump", "plunger", "nozzle", "blood"},
 		Categories: []string{"science", "medical"},
-	},
-	{
+	}
+
+	table2Info = IconInfo{
 		Name:       "Table 2",
+		Slug:       "table-2",
 		Icon:       Table2,
 		Tags:       []string{"spreadsheet", "grid"},
 		Categories: []string{"text", "files"},
-	},
-	{
+	}
+
+	tableCellsMergeInfo = IconInfo{
 		Name:       "Table Cells Merge",
+		Slug:       "table-cells-merge",
 		Icon:       TableCellsMerge,
 		Tags:       []string{"spreadsheet", "grid", "row"},
 		Categories: []string{"text", "files"},
-	},
-	{
+	}
+
+	tableCellsSplitInfo = IconInfo{
 		Name:       "Table Cells Split",
+		Slug:       "table-cells-split",
 		Icon:       TableCellsSplit,
 		Tags:       []string{"spreadsheet", "grid", "row"},
 		Categories: []string{"text", "files"},
-	},
-	{
+	}
+
+	tableColumnsSplitInfo = IconInfo{
 		Name:       "Table Columns Split",
+		Slug:       "table-columns-split",
 		Icon:       TableColumnsSplit,
 		Tags:       []string{"spreadsheet", "grid", "cut", "break", "divide", "separate", "segment"},
 		Categories: []string{"text", "files"},
-	},
-	{
+	}
+
+	tableOfContentsInfo = IconInfo{
 		Name:       "Table Of Contents",
+		Slug:       "table-of-contents",
 		Icon:       TableOfContents,
 		Tags:       []string{"toc", "outline", "navigation", "document structure", "index", "overview", "sections", "chapters", "content", "documentation", "manual", "knowledge base", "faq"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	tablePropertiesInfo = IconInfo{
 		Name:       "Table Properties",
+		Slug:       "table-properties",
 		Icon:       TableProperties,
 		Tags:       []string{"property list", "plist", "spreadsheet", "grid", "dictionary", "object", "hash"},
 		Categories: []string{"text", "development", "files"},
-	},
-	{
+	}
+
+	tableRowsSplitInfo = IconInfo{
 		Name:       "Table Rows Split",
+		Slug:       "table-rows-split",
 		Icon:       TableRowsSplit,
 		Tags:       []string{"spreadsheet", "grid", "cut", "break", "divide", "separate", "segment"},
 		Categories: []string{"text", "files"},
-	},
-	{
+	}
+
+	tableInfo = IconInfo{
 		Name:       "Table",
+		Slug:       "table",
 		Icon:       Table,
 		Tags:       []string{"spreadsheet", "grid"},
 		Categories: []string{"text", "files"},
-	},
-	{
+	}
+
+	tabletSmartphoneInfo = IconInfo{
 		Name:       "Tablet Smartphone",
+		Slug:       "tablet-smartphone",
 		Icon:       TabletSmartphone,
 		Tags:       []string{"responsive", "screens", "browser", "testing", "mobile"},
 		Categories: []string{"devices", "design", "development", "tools"},
-	},
-	{
+	}
+
+	tabletInfo = IconInfo{
 		Name:       "Tablet",
+		Slug:       "tablet",
 		Icon:       Tablet,
 		Tags:       []string{"device"},
 		Categories: []string{"devices"},
-	},
-	{
+	}
+
+	tabletsInfo = IconInfo{
 		Name:       "Tablets",
+		Slug:       "tablets",
 		Icon:       Tablets,
 		Tags:       []string{"medicine", "medication", "drug", "prescription", "pills", "pharmacy"},
 		Categories: []string{"medical"},
-	},
-	{
+	}
+
+	tagInfo = IconInfo{
 		Name:       "Tag",
+		Slug:       "tag",
 		Icon:       Tag,
 		Tags:       []string{"label", "badge", "ticket", "mark"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	tagsInfo = IconInfo{
 		Name:       "Tags",
+		Slug:       "tags",
 		Icon:       Tags,
 		Tags:       []string{"labels", "badges", "tickets", "marks", "copy", "multiple"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	tally1Info = IconInfo{
 		Name:       "Tally 1",
+		Slug:       "tally-1",
 		Icon:       Tally1,
 		Tags:       []string{"count", "score", "enumerate", "days", "one", "1", "first", "bar", "prison", "cell", "sentence"},
 		Categories: []string{"maths", "gaming"},
-	},
-	{
+	}
+
+	tally2Info = IconInfo{
 		Name:       "Tally 2",
+		Slug:       "tally-2",
 		Icon:       Tally2,
 		Tags:       []string{"count", "score", "enumerate", "days", "two", "2", "second", "double", "bars", "prison", "cell", "sentence"},
 		Categories: []string{"maths", "gaming"},
-	},
-	{
+	}
+
+	tally3Info = IconInfo{
 		Name:       "Tally 3",
+		Slug:       "tally-3",
 		Icon:       Tally3,
 		Tags:       []string{"count", "score", "enumerate", "days", "three", "3", "third", "triple", "bars", "prison", "cell", "sentence"},
 		Categories: []string{"maths", "gaming"},
-	},
-	{
+	}
+
+	tally4Info = IconInfo{
 		Name:       "Tally 4",
+		Slug:       "tally-4",
 		Icon:       Tally4,
 		Tags:       []string{"count", "score", "enumerate", "days", "4", "fourth", "quadruple", "bars", "prison", "cell", "sentence"},
 		Categories: []string{"maths", "gaming"},
-	},
-	{
+	}
+
+	tally5Info = IconInfo{
 		Name:       "Tally 5",
+		Slug:       "tally-5",
 		Icon:       Tally5,
 		Tags:       []string{"count", "score", "enumerate", "days", "five", "5", "fifth", "bars", "prison", "cell", "sentence", "slash", "/"},
 		Categories: []string{"maths", "gaming"},
-	},
-	{
+	}
+
+	tangentInfo = IconInfo{
 		Name:       "Tangent",
+		Slug:       "tangent",
 		Icon:       Tangent,
 		Tags:       []string{"tangential", "shape", "circle", "geometry", "trigonometry", "bezier curve"},
 		Categories: []string{"shapes", "maths", "design", "tools"},
-	},
-	{
+	}
+
+	targetInfo = IconInfo{
 		Name:       "Target",
+		Slug:       "target",
 		Icon:       Target,
 		Tags:       []string{"logo", "bullseye", "deadline", "projects", "overview", "work", "productivity"},
 		Categories: []string{"brands", "gaming"},
-	},
-	{
+	}
+
+	telescopeInfo = IconInfo{
 		Name:       "Telescope",
+		Slug:       "telescope",
 		Icon:       Telescope,
 		Tags:       []string{"astronomy", "space", "discovery", "exploration", "explore", "vision", "perspective", "focus", "stargazing", "observe", "view"},
 		Categories: []string{"science", "development", "tools"},
-	},
-	{
+	}
+
+	tentTreeInfo = IconInfo{
 		Name:       "Tent Tree",
+		Slug:       "tent-tree",
 		Icon:       TentTree,
 		Tags:       []string{"camping", "campsite", "holiday", "retreat", "nomadic", "wilderness", "outdoors"},
 		Categories: []string{"travel", "nature"},
-	},
-	{
+	}
+
+	tentInfo = IconInfo{
 		Name:       "Tent",
+		Slug:       "tent",
 		Icon:       Tent,
 		Tags:       []string{"tipi", "teepee", "wigwam", "lodge", "camping", "campsite", "holiday", "retreat", "nomadic", "native american", "indian", "wilderness", "outdoors"},
 		Categories: []string{"travel", "nature", "sustainability"},
-	},
-	{
+	}
+
+	terminalInfo = IconInfo{
 		Name:       "Terminal",
+		Slug:       "terminal",
 		Icon:       Terminal,
 		Tags:       []string{"code", "command line", "prompt", "shell"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	testTubeDiagonalInfo = IconInfo{
 		Name:       "Test Tube Diagonal",
+		Slug:       "test-tube-diagonal",
 		Icon:       TestTubeDiagonal,
 		Tags:       []string{"tube", "vial", "phial", "flask", "ampoule", "ampule", "lab", "chemistry", "experiment", "test"},
 		Categories: []string{"science"},
-	},
-	{
+	}
+
+	testTubeInfo = IconInfo{
 		Name:       "Test Tube",
+		Slug:       "test-tube",
 		Icon:       TestTube,
 		Tags:       []string{"tube", "vial", "phial", "flask", "ampoule", "ampule", "lab", "chemistry", "experiment", "test"},
 		Categories: []string{"science"},
-	},
-	{
+	}
+
+	testTubesInfo = IconInfo{
 		Name:       "Test Tubes",
+		Slug:       "test-tubes",
 		Icon:       TestTubes,
 		Tags:       []string{"tubes", "vials", "phials", "flasks", "ampoules", "ampules", "lab", "chemistry", "experiment", "test"},
 		Categories: []string{"science"},
-	},
-	{
+	}
+
+	textCursorInputInfo = IconInfo{
 		Name:       "Text Cursor Input",
+		Slug:       "text-cursor-input",
 		Icon:       TextCursorInput,
 		Tags:       []string{"select"},
 		Categories: []string{"text", "layout"},
-	},
-	{
+	}
+
+	textCursorInfo = IconInfo{
 		Name:       "Text Cursor",
+		Slug:       "text-cursor",
 		Icon:       TextCursor,
 		Tags:       []string{"select"},
 		Categories: []string{"text", "cursors"},
-	},
-	{
+	}
+
+	textQuoteInfo = IconInfo{
 		Name:       "Text Quote",
+		Slug:       "text-quote",
 		Icon:       TextQuote,
 		Tags:       []string{"blockquote", "quotation", "indent", "reply", "response"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	textSearchInfo = IconInfo{
 		Name:       "Text Search",
+		Slug:       "text-search",
 		Icon:       TextSearch,
 		Tags:       []string{"find", "data", "copy", "txt", "pdf", "document", "scan", "magnifier", "magnifying glass"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	textSelectInfo = IconInfo{
 		Name:       "Text Select",
+		Slug:       "text-select",
 		Icon:       TextSelect,
 		Tags:       []string{"find", "search", "selection", "dashed"},
 		Categories: []string{"text", "cursors"},
-	},
-	{
+	}
+
+	textInfo = IconInfo{
 		Name:       "Text",
+		Slug:       "text",
 		Icon:       Text,
 		Tags:       []string{"find", "search", "data", "txt", "pdf", "document"},
 		Categories: []string{"text", "files", "cursors"},
-	},
-	{
+	}
+
+	theaterInfo = IconInfo{
 		Name:       "Theater",
+		Slug:       "theater",
 		Icon:       Theater,
 		Tags:       []string{"theater", "theatre", "entertainment", "podium", "stage", "musical"},
 		Categories: []string{"buildings", "social"},
-	},
-	{
+	}
+
+	thermometerSnowflakeInfo = IconInfo{
 		Name:       "Thermometer Snowflake",
+		Slug:       "thermometer-snowflake",
 		Icon:       ThermometerSnowflake,
 		Tags:       []string{"temperature", "celsius", "fahrenheit", "weather", "cold", "freeze", "freezing"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	thermometerSunInfo = IconInfo{
 		Name:       "Thermometer Sun",
+		Slug:       "thermometer-sun",
 		Icon:       ThermometerSun,
 		Tags:       []string{"temperature", "celsius", "fahrenheit", "weather", "warm", "hot"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	thermometerInfo = IconInfo{
 		Name:       "Thermometer",
+		Slug:       "thermometer",
 		Icon:       Thermometer,
 		Tags:       []string{"temperature", "celsius", "fahrenheit", "weather"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	thumbsDownInfo = IconInfo{
 		Name:       "Thumbs Down",
+		Slug:       "thumbs-down",
 		Icon:       ThumbsDown,
 		Tags:       []string{"dislike", "bad", "emotion"},
 		Categories: []string{"account", "social", "emoji"},
-	},
-	{
+	}
+
+	thumbsUpInfo = IconInfo{
 		Name:       "Thumbs Up",
+		Slug:       "thumbs-up",
 		Icon:       ThumbsUp,
 		Tags:       []string{"like", "good", "emotion"},
 		Categories: []string{"account", "social", "emoji"},
-	},
-	{
+	}
+
+	ticketCheckInfo = IconInfo{
 		Name:       "Ticket Check",
+		Slug:       "ticket-check",
 		Icon:       TicketCheck,
 		Tags:       []string{"entry", "pass", "voucher", "event", "concert", "show", "booked", "purchased", "receipt", "redeemed", "validated", "verified", "certified", "checked", "used"},
 		Categories: []string{"account", "transportation"},
-	},
-	{
+	}
+
+	ticketMinusInfo = IconInfo{
 		Name:       "Ticket Minus",
+		Slug:       "ticket-minus",
 		Icon:       TicketMinus,
 		Tags:       []string{"entry", "pass", "voucher", "event", "concert", "show", "remove", "cancel", "unbook", "subtract", "decrease", "-"},
 		Categories: []string{"account", "transportation"},
-	},
-	{
+	}
+
+	ticketPercentInfo = IconInfo{
 		Name:       "Ticket Percent",
+		Slug:       "ticket-percent",
 		Icon:       TicketPercent,
 		Tags:       []string{"discount", "reduced", "offer", "voucher", "entry", "pass", "event", "concert", "show", "book", "purchase", "%"},
 		Categories: []string{"account", "transportation", "shopping"},
-	},
-	{
+	}
+
+	ticketPlusInfo = IconInfo{
 		Name:       "Ticket Plus",
+		Slug:       "ticket-plus",
 		Icon:       TicketPlus,
 		Tags:       []string{"entry", "pass", "voucher", "event", "concert", "show", "book", "purchase", "add", "+"},
 		Categories: []string{"account", "transportation"},
-	},
-	{
+	}
+
+	ticketSlashInfo = IconInfo{
 		Name:       "Ticket Slash",
+		Slug:       "ticket-slash",
 		Icon:       TicketSlash,
 		Tags:       []string{"entry", "pass", "voucher", "event", "concert", "show", "redeemed", "used", "marked", "checked", "verified", "spoiled", "invalidated", "void", "denied", "refused", "banned", "barred", "forbidden", "prohibited", "cancelled", "cancellation", "refunded", "delete", "remove", "clear", "error"},
 		Categories: []string{"account", "transportation"},
-	},
-	{
+	}
+
+	ticketXInfo = IconInfo{
 		Name:       "Ticket X",
+		Slug:       "ticket-x",
 		Icon:       TicketX,
 		Tags:       []string{"entry", "pass", "voucher", "event", "concert", "show", "cancelled", "cancellation", "refunded", "used", "void", "invalidated", "spoiled", "denied", "refused", "banned", "barred", "forbidden", "prohibited", "delete", "remove", "clear", "error", "x"},
 		Categories: []string{"account", "transportation"},
-	},
-	{
+	}
+
+	ticketInfo = IconInfo{
 		Name:       "Ticket",
+		Slug:       "ticket",
 		Icon:       Ticket,
 		Tags:       []string{"entry", "pass", "voucher", "event", "concert", "show", "perforated", "dashed"},
 		Categories: []string{"account", "transportation"},
-	},
-	{
+	}
+
+	ticketsPlaneInfo = IconInfo{
 		Name:       "Tickets Plane",
+		Slug:       "tickets-plane",
 		Icon:       TicketsPlane,
 		Tags:       []string{"plane", "trip", "airplane", "flight", "travel", "fly", "takeoff", "vacation", "passenger", "pass", "check-in", "airport"},
 		Categories: []string{"transportation", "travel"},
-	},
-	{
+	}
+
+	ticketsInfo = IconInfo{
 		Name:       "Tickets",
+		Slug:       "tickets",
 		Icon:       Tickets,
 		Tags:       []string{"trip", "travel", "pass", "entry", "voucher", "event", "concert", "show", "perforated", "dashed"},
 		Categories: []string{"travel", "account", "transportation"},
-	},
-	{
+	}
+
+	timerOffInfo = IconInfo{
 		Name:       "Timer Off",
+		Slug:       "timer-off",
 		Icon:       TimerOff,
 		Tags:       []string{"time", "timer", "stopwatch"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	timerResetInfo = IconInfo{
 		Name:       "Timer Reset",
+		Slug:       "timer-reset",
 		Icon:       TimerReset,
 		Tags:       []string{"time", "timer", "stopwatch"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	timerInfo = IconInfo{
 		Name:       "Timer",
+		Slug:       "timer",
 		Icon:       Timer,
 		Tags:       []string{"time", "timer", "stopwatch"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	toggleLeftInfo = IconInfo{
 		Name:       "Toggle Left",
+		Slug:       "toggle-left",
 		Icon:       ToggleLeft,
 		Tags:       []string{"on", "off", "switch", "boolean"},
 		Categories: []string{"layout", "account", "development"},
-	},
-	{
+	}
+
+	toggleRightInfo = IconInfo{
 		Name:       "Toggle Right",
+		Slug:       "toggle-right",
 		Icon:       ToggleRight,
 		Tags:       []string{"on", "off", "switch", "boolean"},
 		Categories: []string{"layout", "account", "development"},
-	},
-	{
+	}
+
+	tornadoInfo = IconInfo{
 		Name:       "Tornado",
+		Slug:       "tornado",
 		Icon:       Tornado,
 		Tags:       []string{"weather", "wind", "storm", "hurricane"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	torusInfo = IconInfo{
 		Name:       "Torus",
+		Slug:       "torus",
 		Icon:       Torus,
 		Tags:       []string{"donut", "doughnut", "ring", "hollow", "3d", "fast food", "junk food", "snack", "treat", "sweet", "sugar", "dessert"},
 		Categories: []string{"shapes", "design", "tools", "food-beverage"},
-	},
-	{
+	}
+
+	touchpadOffInfo = IconInfo{
 		Name:       "Touchpad Off",
+		Slug:       "touchpad-off",
 		Icon:       TouchpadOff,
 		Tags:       []string{"trackpad", "cursor"},
 		Categories: []string{"devices"},
-	},
-	{
+	}
+
+	touchpadInfo = IconInfo{
 		Name:       "Touchpad",
+		Slug:       "touchpad",
 		Icon:       Touchpad,
 		Tags:       []string{"trackpad", "cursor"},
 		Categories: []string{"devices"},
-	},
-	{
+	}
+
+	towerControlInfo = IconInfo{
 		Name:       "Tower Control",
+		Slug:       "tower-control",
 		Icon:       TowerControl,
 		Tags:       []string{"airport", "travel", "tower", "transportation", "lighthouse"},
 		Categories: []string{"travel", "transportation"},
-	},
-	{
+	}
+
+	toyBrickInfo = IconInfo{
 		Name:       "Toy Brick",
+		Slug:       "toy-brick",
 		Icon:       ToyBrick,
 		Tags:       []string{"lego", "block", "addon", "plugin", "integration"},
 		Categories: []string{"gaming", "development"},
-	},
-	{
+	}
+
+	tractorInfo = IconInfo{
 		Name:       "Tractor",
+		Slug:       "tractor",
 		Icon:       Tractor,
 		Tags:       []string{"farming", "farmer", "ranch", "harvest", "equipment", "vehicle"},
 		Categories: []string{"transportation", "sustainability", "food-beverage"},
-	},
-	{
+	}
+
+	trafficConeInfo = IconInfo{
 		Name:       "Traffic Cone",
+		Slug:       "traffic-cone",
 		Icon:       TrafficCone,
 		Tags:       []string{"roadworks", "tarmac", "safety", "block"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	trainFrontTunnelInfo = IconInfo{
 		Name:       "Train Front Tunnel",
+		Slug:       "train-front-tunnel",
 		Icon:       TrainFrontTunnel,
 		Tags:       []string{"railway", "metro", "subway", "underground", "speed", "bullet", "fast", "track", "line"},
 		Categories: []string{"transportation", "maps"},
-	},
-	{
+	}
+
+	trainFrontInfo = IconInfo{
 		Name:       "Train Front",
+		Slug:       "train-front",
 		Icon:       TrainFront,
 		Tags:       []string{"railway", "metro", "subway", "underground", "high-speed", "bullet", "fast", "track", "line"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	trainTrackInfo = IconInfo{
 		Name:       "Train Track",
+		Slug:       "train-track",
 		Icon:       TrainTrack,
 		Tags:       []string{"railway", "line"},
 		Categories: []string{"transportation", "maps"},
-	},
-	{
+	}
+
+	tramFrontInfo = IconInfo{
 		Name:       "Tram Front",
+		Slug:       "tram-front",
 		Icon:       TramFront,
 		Tags:       []string{"railway", "metro", "subway", "underground", "track", "line", "tourism"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	trash2Info = IconInfo{
 		Name:       "Trash 2",
+		Slug:       "trash-2",
 		Icon:       Trash2,
 		Tags:       []string{"garbage", "delete", "remove", "bin"},
 		Categories: []string{"files", "mail"},
-	},
-	{
+	}
+
+	trashInfo = IconInfo{
 		Name:       "Trash",
+		Slug:       "trash",
 		Icon:       Trash,
 		Tags:       []string{"garbage", "delete", "remove", "bin"},
 		Categories: []string{"files", "mail"},
-	},
-	{
+	}
+
+	treeDeciduousInfo = IconInfo{
 		Name:       "Tree Deciduous",
+		Slug:       "tree-deciduous",
 		Icon:       TreeDeciduous,
 		Tags:       []string{"tree", "forest", "park", "nature"},
 		Categories: []string{"nature", "sustainability"},
-	},
-	{
+	}
+
+	treePalmInfo = IconInfo{
 		Name:       "Tree Palm",
+		Slug:       "tree-palm",
 		Icon:       TreePalm,
 		Tags:       []string{"vacation", "leisure", "island"},
 		Categories: []string{"nature", "sustainability"},
-	},
-	{
+	}
+
+	treePineInfo = IconInfo{
 		Name:       "Tree Pine",
+		Slug:       "tree-pine",
 		Icon:       TreePine,
 		Tags:       []string{"tree", "pine", "forest", "park", "nature"},
 		Categories: []string{"nature", "sustainability"},
-	},
-	{
+	}
+
+	treesInfo = IconInfo{
 		Name:       "Trees",
+		Slug:       "trees",
 		Icon:       Trees,
 		Tags:       []string{"tree", "forest", "park", "nature"},
 		Categories: []string{"nature", "sustainability"},
-	},
-	{
+	}
+
+	trelloInfo = IconInfo{
 		Name:       "Trello",
+		Slug:       "trello",
 		Icon:       Trello,
 		Tags:       []string{"logo", "brand"},
 		Categories: []string{"account", "brands", "development"},
-	},
-	{
+	}
+
+	trendingDownInfo = IconInfo{
 		Name:       "Trending Down",
+		Slug:       "trending-down",
 		Icon:       TrendingDown,
 		Tags:       []string{"statistics"},
 		Categories: []string{"charts", "arrows"},
-	},
-	{
+	}
+
+	trendingUpDownInfo = IconInfo{
 		Name:       "Trending Up Down",
+		Slug:       "trending-up-down",
 		Icon:       TrendingUpDown,
 		Tags:       []string{"arrows", "estimated", "indeterminate", "data fluctuation", "uncertain", "forecast", "variable", "prediction", "dynamic", "volatile"},
 		Categories: []string{"charts", "arrows"},
-	},
-	{
+	}
+
+	trendingUpInfo = IconInfo{
 		Name:       "Trending Up",
+		Slug:       "trending-up",
 		Icon:       TrendingUp,
 		Tags:       []string{"statistics"},
 		Categories: []string{"charts", "arrows"},
-	},
-	{
+	}
+
+	triangleAlertInfo = IconInfo{
 		Name:       "Triangle Alert",
+		Slug:       "triangle-alert",
 		Icon:       TriangleAlert,
 		Tags:       []string{"warning", "alert", "danger", "exclamation mark", "linter"},
 		Categories: []string{"notifications", "shapes", "development"},
-	},
-	{
+	}
+
+	triangleRightInfo = IconInfo{
 		Name:       "Triangle Right",
+		Slug:       "triangle-right",
 		Icon:       TriangleRight,
 		Tags:       []string{"volume", "controls", "controller", "tv remote", "geometry", "delta", "ramp", "slope", "incline", "increase"},
 		Categories: []string{"shapes", "maths"},
-	},
-	{
+	}
+
+	triangleInfo = IconInfo{
 		Name:       "Triangle",
+		Slug:       "triangle",
 		Icon:       Triangle,
 		Tags:       []string{"equilateral", "delta", "shape", "pyramid", "hierarchy"},
 		Categories: []string{"shapes"},
-	},
-	{
+	}
+
+	trophyInfo = IconInfo{
 		Name:       "Trophy",
+		Slug:       "trophy",
 		Icon:       Trophy,
 		Tags:       []string{"prize", "sports", "winner", "achievement", "award"},
 		Categories: []string{"sports", "gaming"},
-	},
-	{
+	}
+
+	truckInfo = IconInfo{
 		Name:       "Truck",
+		Slug:       "truck",
 		Icon:       Truck,
 		Tags:       []string{"delivery", "van", "shipping", "haulage", "lorry"},
 		Categories: []string{"transportation"},
-	},
-	{
+	}
+
+	turtleInfo = IconInfo{
 		Name:       "Turtle",
+		Slug:       "turtle",
 		Icon:       Turtle,
 		Tags:       []string{"animal", "pet", "tortoise", "slow", "speed"},
 		Categories: []string{"animals"},
-	},
-	{
+	}
+
+	tvMinimalPlayInfo = IconInfo{
 		Name:       "Tv Minimal Play",
+		Slug:       "tv-minimal-play",
 		Icon:       TvMinimalPlay,
 		Tags:       []string{"flatscreen", "television", "stream", "display", "widescreen", "high-definition", "hd", "1080p", "4k", "8k", "smart", "digital", "video", "movie", "live", "ott", "running", "start", "film", "home cinema", "entertainment", "showtime", "channels", "catchup"},
 		Categories: []string{"devices", "multimedia"},
-	},
-	{
+	}
+
+	tvMinimalInfo = IconInfo{
 		Name:       "Tv Minimal",
+		Slug:       "tv-minimal",
 		Icon:       TvMinimal,
 		Tags:       []string{"flatscreen", "television", "stream", "display", "widescreen", "high-definition", "hd", "1080p", "4k", "8k", "smart", "digital", "video", "home cinema", "entertainment", "showtime", "channels", "catchup"},
 		Categories: []string{"devices", "multimedia"},
-	},
-	{
+	}
+
+	tvInfo = IconInfo{
 		Name:       "Tv",
+		Slug:       "tv",
 		Icon:       Tv,
 		Tags:       []string{"television", "stream", "display", "widescreen", "high-definition", "hd", "1080p", "4k", "8k", "smart", "digital", "video", "entertainment", "showtime", "channels", "terrestrial", "satellite", "cable", "broadcast", "live", "frequency", "tune", "scan", "aerial", "receiver", "transmission", "signal", "connection", "connectivity"},
 		Categories: []string{"devices", "multimedia", "communication"},
-	},
-	{
+	}
+
+	twitchInfo = IconInfo{
 		Name:       "Twitch",
+		Slug:       "twitch",
 		Icon:       Twitch,
 		Tags:       []string{"logo", "social"},
 		Categories: []string{"brands", "social", "account", "gaming"},
-	},
-	{
+	}
+
+	twitterInfo = IconInfo{
 		Name:       "Twitter",
+		Slug:       "twitter",
 		Icon:       Twitter,
 		Tags:       []string{"logo", "social"},
 		Categories: []string{"brands", "social", "account"},
-	},
-	{
+	}
+
+	typeOutlineInfo = IconInfo{
 		Name:       "Type Outline",
+		Slug:       "type-outline",
 		Icon:       TypeOutline,
 		Tags:       []string{"text", "font", "typography", "silhouette", "profile", "contour", "stroke", "line"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	typeInfo = IconInfo{
 		Name:       "Type",
+		Slug:       "type",
 		Icon:       Type,
 		Tags:       []string{"text", "font", "typography"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	umbrellaOffInfo = IconInfo{
 		Name:       "Umbrella Off",
+		Slug:       "umbrella-off",
 		Icon:       UmbrellaOff,
 		Tags:       []string{"rain", "weather", "uncovered", "uninsured", "antivirus", "unprotected", "risky"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	umbrellaInfo = IconInfo{
 		Name:       "Umbrella",
+		Slug:       "umbrella",
 		Icon:       Umbrella,
 		Tags:       []string{"rain", "weather"},
 		Categories: []string{"weather"},
-	},
-	{
+	}
+
+	underlineInfo = IconInfo{
 		Name:       "Underline",
+		Slug:       "underline",
 		Icon:       Underline,
 		Tags:       []string{"text", "format"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	undo2Info = IconInfo{
 		Name:       "Undo 2",
+		Slug:       "undo-2",
 		Icon:       Undo2,
 		Tags:       []string{"redo", "rerun", "history", "back", "return", "reverse", "revert", "direction", "u-turn"},
 		Categories: []string{"text", "arrows"},
-	},
-	{
+	}
+
+	undoDotInfo = IconInfo{
 		Name:       "Undo Dot",
+		Slug:       "undo-dot",
 		Icon:       UndoDot,
 		Tags:       []string{"redo", "history", "step", "back"},
 		Categories: []string{"text", "arrows"},
-	},
-	{
+	}
+
+	undoInfo = IconInfo{
 		Name:       "Undo",
+		Slug:       "undo",
 		Icon:       Undo,
 		Tags:       []string{"redo", "rerun", "history"},
 		Categories: []string{"text", "arrows"},
-	},
-	{
+	}
+
+	unfoldHorizontalInfo = IconInfo{
 		Name:       "Unfold Horizontal",
+		Slug:       "unfold-horizontal",
 		Icon:       UnfoldHorizontal,
 		Tags:       []string{"arrow", "collapse", "fold", "vertical", "dashed"},
 		Categories: []string{"arrows", "layout"},
-	},
-	{
+	}
+
+	unfoldVerticalInfo = IconInfo{
 		Name:       "Unfold Vertical",
+		Slug:       "unfold-vertical",
 		Icon:       UnfoldVertical,
 		Tags:       []string{"arrow", "expand", "vertical", "dashed"},
 		Categories: []string{"arrows", "layout"},
-	},
-	{
+	}
+
+	ungroupInfo = IconInfo{
 		Name:       "Ungroup",
+		Slug:       "ungroup",
 		Icon:       Ungroup,
 		Tags:       []string{"cubes", "packages", "parts", "units", "collection", "cluster", "separate"},
 		Categories: []string{"shapes", "files"},
-	},
-	{
+	}
+
+	universityInfo = IconInfo{
 		Name:       "University",
+		Slug:       "university",
 		Icon:       University,
 		Tags:       []string{"building", "education", "childhood", "school"},
 		Categories: []string{"buildings", "maps"},
-	},
-	{
+	}
+
+	unlink2Info = IconInfo{
 		Name:       "Unlink 2",
+		Slug:       "unlink-2",
 		Icon:       Unlink2,
 		Tags:       []string{"url", "unchain"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	unlinkInfo = IconInfo{
 		Name:       "Unlink",
+		Slug:       "unlink",
 		Icon:       Unlink,
 		Tags:       []string{"url", "unchain"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	unplugInfo = IconInfo{
 		Name:       "Unplug",
+		Slug:       "unplug",
 		Icon:       Unplug,
 		Tags:       []string{"electricity", "energy", "electronics", "socket", "outlet", "disconnect"},
 		Categories: []string{"devices", "development"},
-	},
-	{
+	}
+
+	uploadInfo = IconInfo{
 		Name:       "Upload",
+		Slug:       "upload",
 		Icon:       Upload,
 		Tags:       []string{"file"},
 		Categories: []string{"arrows", "files"},
-	},
-	{
+	}
+
+	usbInfo = IconInfo{
 		Name:       "Usb",
+		Slug:       "usb",
 		Icon:       Usb,
 		Tags:       []string{"universal", "serial", "bus", "controller", "connector", "interface"},
 		Categories: []string{"devices", "multimedia", "home"},
-	},
-	{
+	}
+
+	userCheckInfo = IconInfo{
 		Name:       "User Check",
+		Slug:       "user-check",
 		Icon:       UserCheck,
 		Tags:       []string{"followed", "subscribed", "done", "todo", "tick", "complete", "task"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userCogInfo = IconInfo{
 		Name:       "User Cog",
+		Slug:       "user-cog",
 		Icon:       UserCog,
 		Tags:       []string{"settings", "edit", "cog", "gear"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userMinusInfo = IconInfo{
 		Name:       "User Minus",
+		Slug:       "user-minus",
 		Icon:       UserMinus,
 		Tags:       []string{"delete", "remove", "unfollow", "unsubscribe"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userPenInfo = IconInfo{
 		Name:       "User Pen",
+		Slug:       "user-pen",
 		Icon:       UserPen,
 		Tags:       []string{"person", "account", "contact", "profile", "edit", "change"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userPlusInfo = IconInfo{
 		Name:       "User Plus",
+		Slug:       "user-plus",
 		Icon:       UserPlus,
 		Tags:       []string{"new", "add", "create", "follow", "subscribe"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userRoundCheckInfo = IconInfo{
 		Name:       "User Round Check",
+		Slug:       "user-round-check",
 		Icon:       UserRoundCheck,
 		Tags:       []string{"followed", "subscribed", "done", "todo", "tick", "complete", "task"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userRoundCogInfo = IconInfo{
 		Name:       "User Round Cog",
+		Slug:       "user-round-cog",
 		Icon:       UserRoundCog,
 		Tags:       []string{"settings", "edit", "cog", "gear"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userRoundMinusInfo = IconInfo{
 		Name:       "User Round Minus",
+		Slug:       "user-round-minus",
 		Icon:       UserRoundMinus,
 		Tags:       []string{"delete", "remove", "unfollow", "unsubscribe"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userRoundPenInfo = IconInfo{
 		Name:       "User Round Pen",
+		Slug:       "user-round-pen",
 		Icon:       UserRoundPen,
 		Tags:       []string{"person", "account", "contact", "profile", "edit", "change"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userRoundPlusInfo = IconInfo{
 		Name:       "User Round Plus",
+		Slug:       "user-round-plus",
 		Icon:       UserRoundPlus,
 		Tags:       []string{"new", "add", "create", "follow", "subscribe"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userRoundSearchInfo = IconInfo{
 		Name:       "User Round Search",
+		Slug:       "user-round-search",
 		Icon:       UserRoundSearch,
 		Tags:       []string{"person", "account", "contact", "find", "scan", "magnifier", "magnifying glass"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	userRoundXInfo = IconInfo{
 		Name:       "User Round X",
+		Slug:       "user-round-x",
 		Icon:       UserRoundX,
 		Tags:       []string{"delete", "remove", "unfollow", "unsubscribe", "unavailable"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userRoundInfo = IconInfo{
 		Name:       "User Round",
+		Slug:       "user-round",
 		Icon:       UserRound,
 		Tags:       []string{"person", "account", "contact"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userSearchInfo = IconInfo{
 		Name:       "User Search",
+		Slug:       "user-search",
 		Icon:       UserSearch,
 		Tags:       []string{"person", "account", "contact", "find", "scan", "magnifier", "magnifying glass"},
 		Categories: []string{"account", "social"},
-	},
-	{
+	}
+
+	userXInfo = IconInfo{
 		Name:       "User X",
+		Slug:       "user-x",
 		Icon:       UserX,
 		Tags:       []string{"delete", "remove", "unfollow", "unsubscribe", "unavailable"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	userInfo = IconInfo{
 		Name:       "User",
+		Slug:       "user",
 		Icon:       User,
 		Tags:       []string{"person", "account", "contact"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	usersRoundInfo = IconInfo{
 		Name:       "Users Round",
+		Slug:       "users-round",
 		Icon:       UsersRound,
 		Tags:       []string{"group", "people"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	usersInfo = IconInfo{
 		Name:       "Users",
+		Slug:       "users",
 		Icon:       Users,
 		Tags:       []string{"group", "people"},
 		Categories: []string{"account"},
-	},
-	{
+	}
+
+	utensilsCrossedInfo = IconInfo{
 		Name:       "Utensils Crossed",
+		Slug:       "utensils-crossed",
 		Icon:       UtensilsCrossed,
 		Tags:       []string{"fork", "knife", "cutlery", "flatware", "tableware", "silverware", "food", "restaurant", "meal", "breakfast", "dinner", "supper"},
 		Categories: []string{"food-beverage", "travel", "maps"},
-	},
-	{
+	}
+
+	utensilsInfo = IconInfo{
 		Name:       "Utensils",
+		Slug:       "utensils",
 		Icon:       Utensils,
 		Tags:       []string{"fork", "knife", "cutlery", "flatware", "tableware", "silverware", "food", "restaurant", "meal", "breakfast", "dinner", "supper"},
 		Categories: []string{"food-beverage", "travel", "maps"},
-	},
-	{
+	}
+
+	utilityPoleInfo = IconInfo{
 		Name:       "Utility Pole",
+		Slug:       "utility-pole",
 		Icon:       UtilityPole,
 		Tags:       []string{"electricity", "energy", "transmission line", "telegraph pole", "power lines", "phone"},
 		Categories: []string{"buildings", "home", "sustainability"},
-	},
-	{
+	}
+
+	variableInfo = IconInfo{
 		Name:       "Variable",
+		Slug:       "variable",
 		Icon:       Variable,
 		Tags:       []string{"code", "coding", "programming", "symbol", "calculate", "algebra", "x", "parentheses", "parenthesis", "brackets", "parameter", "(", ")"},
 		Categories: []string{"development", "maths"},
-	},
-	{
+	}
+
+	vaultInfo = IconInfo{
 		Name:       "Vault",
+		Slug:       "vault",
 		Icon:       Vault,
 		Tags:       []string{"safe", "lockbox", "deposit", "locker", "coffer", "strongbox", "safety", "secure", "storage", "valuables", "bank"},
 		Categories: []string{"security", "travel", "home"},
-	},
-	{
+	}
+
+	veganInfo = IconInfo{
 		Name:       "Vegan",
+		Slug:       "vegan",
 		Icon:       Vegan,
 		Tags:       []string{"vegetarian", "fruitarian", "herbivorous", "animal rights", "diet"},
 		Categories: []string{"food-beverage", "sustainability"},
-	},
-	{
+	}
+
+	venetianMaskInfo = IconInfo{
 		Name:       "Venetian Mask",
+		Slug:       "venetian-mask",
 		Icon:       VenetianMask,
 		Tags:       []string{"mask", "masquerade", "impersonate", "secret", "incognito"},
 		Categories: []string{"account", "gaming"},
-	},
-	{
+	}
+
+	vibrateOffInfo = IconInfo{
 		Name:       "Vibrate Off",
+		Slug:       "vibrate-off",
 		Icon:       VibrateOff,
 		Tags:       []string{"smartphone", "notification", "rumble", "haptic feedback", "notifications", "screen"},
 		Categories: []string{"devices", "connectivity", "account"},
-	},
-	{
+	}
+
+	vibrateInfo = IconInfo{
 		Name:       "Vibrate",
+		Slug:       "vibrate",
 		Icon:       Vibrate,
 		Tags:       []string{"smartphone", "notification", "rumble", "haptic feedback", "screen"},
 		Categories: []string{"devices", "connectivity", "account", "notifications"},
-	},
-	{
+	}
+
+	videoOffInfo = IconInfo{
 		Name:       "Video Off",
+		Slug:       "video-off",
 		Icon:       VideoOff,
 		Tags:       []string{"camera", "movie", "film"},
 		Categories: []string{"devices", "communication", "connectivity", "photography"},
-	},
-	{
+	}
+
+	videoInfo = IconInfo{
 		Name:       "Video",
+		Slug:       "video",
 		Icon:       Video,
 		Tags:       []string{"camera", "movie", "film", "recording", "motion picture", "camcorder", "reel"},
 		Categories: []string{"devices", "communication", "connectivity", "photography"},
-	},
-	{
+	}
+
+	videotapeInfo = IconInfo{
 		Name:       "Videotape",
+		Slug:       "videotape",
 		Icon:       Videotape,
 		Tags:       []string{"vhs", "movie", "film", "recording", "motion picture", "showreel", "cassette"},
 		Categories: []string{"devices", "communication", "connectivity", "photography", "files"},
-	},
-	{
+	}
+
+	viewInfo = IconInfo{
 		Name:       "View",
+		Slug:       "view",
 		Icon:       View,
 		Tags:       []string{"eye", "look"},
 		Categories: []string{"design", "photography"},
-	},
-	{
+	}
+
+	voicemailInfo = IconInfo{
 		Name:       "Voicemail",
+		Slug:       "voicemail",
 		Icon:       Voicemail,
 		Tags:       []string{"phone", "cassette", "tape", "reel", "recording", "audio"},
 		Categories: []string{"connectivity", "devices", "social"},
-	},
-	{
+	}
+
+	volleyballInfo = IconInfo{
 		Name:       "Volleyball",
+		Slug:       "volleyball",
 		Icon:       Volleyball,
 		Tags:       []string{"beach", "sand", "net", "holiday", "vacation", "summer", "soccer", "football", "futbol", "kick", "pitch", "goal", "score", "bounce", "leather", "wool", "yarn", "knitting", "sewing", "thread", "embroidery", "textile"},
 		Categories: []string{"sports", "gaming", "travel", "home"},
-	},
-	{
+	}
+
+	volume1Info = IconInfo{
 		Name:       "Volume 1",
+		Slug:       "volume-1",
 		Icon:       Volume1,
 		Tags:       []string{"music", "sound", "speaker"},
 		Categories: []string{"connectivity", "communication", "multimedia"},
-	},
-	{
+	}
+
+	volume2Info = IconInfo{
 		Name:       "Volume 2",
+		Slug:       "volume-2",
 		Icon:       Volume2,
 		Tags:       []string{"music", "sound", "speaker"},
 		Categories: []string{"connectivity", "communication", "multimedia"},
-	},
-	{
+	}
+
+	volumeOffInfo = IconInfo{
 		Name:       "Volume Off",
+		Slug:       "volume-off",
 		Icon:       VolumeOff,
 		Tags:       []string{"music", "sound", "mute", "speaker"},
 		Categories: []string{"connectivity", "communication", "multimedia"},
-	},
-	{
+	}
+
+	volumeXInfo = IconInfo{
 		Name:       "Volume X",
+		Slug:       "volume-x",
 		Icon:       VolumeX,
 		Tags:       []string{"music", "sound", "mute", "speaker"},
 		Categories: []string{"connectivity", "communication", "multimedia"},
-	},
-	{
+	}
+
+	volumeInfo = IconInfo{
 		Name:       "Volume",
+		Slug:       "volume",
 		Icon:       Volume,
 		Tags:       []string{"music", "sound", "mute", "speaker"},
 		Categories: []string{"connectivity", "communication", "multimedia"},
-	},
-	{
+	}
+
+	voteInfo = IconInfo{
 		Name:       "Vote",
+		Slug:       "vote",
 		Icon:       Vote,
 		Tags:       []string{"vote", "poll", "ballot", "political", "social", "check", "tick"},
 		Categories: []string{"social"},
-	},
-	{
+	}
+
+	walletCardsInfo = IconInfo{
 		Name:       "Wallet Cards",
+		Slug:       "wallet-cards",
 		Icon:       WalletCards,
 		Tags:       []string{"money", "finance", "pocket", "credit", "purchase", "payment", "shopping", "retail", "consumer", "cc"},
 		Categories: []string{"account", "money"},
-	},
-	{
+	}
+
+	walletMinimalInfo = IconInfo{
 		Name:       "Wallet Minimal",
+		Slug:       "wallet-minimal",
 		Icon:       WalletMinimal,
 		Tags:       []string{"finance", "pocket"},
 		Categories: []string{"account", "money"},
-	},
-	{
+	}
+
+	walletInfo = IconInfo{
 		Name:       "Wallet",
+		Slug:       "wallet",
 		Icon:       Wallet,
 		Tags:       []string{"money", "finance", "pocket"},
 		Categories: []string{"account", "money"},
-	},
-	{
+	}
+
+	wallpaperInfo = IconInfo{
 		Name:       "Wallpaper",
+		Slug:       "wallpaper",
 		Icon:       Wallpaper,
 		Tags:       []string{"cover", "lock screen"},
 		Categories: []string{"account", "devices"},
-	},
-	{
+	}
+
+	wandSparklesInfo = IconInfo{
 		Name:       "Wand Sparkles",
+		Slug:       "wand-sparkles",
 		Icon:       WandSparkles,
 		Tags:       []string{"magic", "wizard", "magician"},
 		Categories: []string{"design", "gaming", "cursors", "photography"},
-	},
-	{
+	}
+
+	wandInfo = IconInfo{
 		Name:       "Wand",
+		Slug:       "wand",
 		Icon:       Wand,
 		Tags:       []string{"magic", "selection"},
 		Categories: []string{"design", "gaming", "cursors", "photography"},
-	},
-	{
+	}
+
+	warehouseInfo = IconInfo{
 		Name:       "Warehouse",
+		Slug:       "warehouse",
 		Icon:       Warehouse,
 		Tags:       []string{"storage", "logistics", "building"},
 		Categories: []string{"buildings", "maps"},
-	},
-	{
+	}
+
+	washingMachineInfo = IconInfo{
 		Name:       "Washing Machine",
+		Slug:       "washing-machine",
 		Icon:       WashingMachine,
 		Tags:       []string{"tumble dryer", "amenities", "electronics", "cycle", "clothes", "rinse", "spin", "drum"},
 		Categories: []string{"home", "devices", "travel"},
-	},
-	{
+	}
+
+	watchInfo = IconInfo{
 		Name:       "Watch",
+		Slug:       "watch",
 		Icon:       Watch,
 		Tags:       []string{"clock", "time"},
 		Categories: []string{"time"},
-	},
-	{
+	}
+
+	wavesInfo = IconInfo{
 		Name:       "Waves",
+		Slug:       "waves",
 		Icon:       Waves,
 		Tags:       []string{"water", "sea", "sound", "hertz", "wavelength", "vibrate"},
 		Categories: []string{"weather", "maps", "multimedia", "sustainability"},
-	},
-	{
+	}
+
+	waypointsInfo = IconInfo{
 		Name:       "Waypoints",
+		Slug:       "waypoints",
 		Icon:       Waypoints,
 		Tags:       []string{"indirection", "vpn", "virtual private network", "proxy", "connections", "bounce", "reroute", "path", "journey", "planner", "stops", "stations", "shared", "spread", "viral"},
 		Categories: []string{"security", "account", "maps", "navigation", "development", "social"},
-	},
-	{
+	}
+
+	webcamInfo = IconInfo{
 		Name:       "Webcam",
+		Slug:       "webcam",
 		Icon:       Webcam,
 		Tags:       []string{"camera", "security"},
 		Categories: []string{"connectivity", "devices", "communication"},
-	},
-	{
+	}
+
+	webhookOffInfo = IconInfo{
 		Name:       "Webhook Off",
+		Slug:       "webhook-off",
 		Icon:       WebhookOff,
 		Tags:       []string{"push api", "interface", "callback"},
 		Categories: []string{"development", "social", "account"},
-	},
-	{
+	}
+
+	webhookInfo = IconInfo{
 		Name:       "Webhook",
+		Slug:       "webhook",
 		Icon:       Webhook,
 		Tags:       []string{"push api", "interface", "callback"},
 		Categories: []string{"development", "social", "account"},
-	},
-	{
+	}
+
+	weightInfo = IconInfo{
 		Name:       "Weight",
+		Slug:       "weight",
 		Icon:       Weight,
 		Tags:       []string{"mass", "heavy", "lead", "metal", "measure", "geometry", "scales", "balance"},
 		Categories: []string{"maths"},
-	},
-	{
+	}
+
+	wheatOffInfo = IconInfo{
 		Name:       "Wheat Off",
+		Slug:       "wheat-off",
 		Icon:       WheatOff,
 		Tags:       []string{"corn", "cereal", "grain", "gluten free", "allergy", "intolerance", "diet"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	wheatInfo = IconInfo{
 		Name:       "Wheat",
+		Slug:       "wheat",
 		Icon:       Wheat,
 		Tags:       []string{"corn", "cereal", "grain", "gluten"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	wholeWordInfo = IconInfo{
 		Name:       "Whole Word",
+		Slug:       "whole-word",
 		Icon:       WholeWord,
 		Tags:       []string{"text", "selection", "letters", "characters", "font", "typography"},
 		Categories: []string{"text"},
-	},
-	{
+	}
+
+	wifiHighInfo = IconInfo{
 		Name:       "Wifi High",
+		Slug:       "wifi-high",
 		Icon:       WifiHigh,
 		Tags:       []string{"connection", "signal", "wireless"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	wifiLowInfo = IconInfo{
 		Name:       "Wifi Low",
+		Slug:       "wifi-low",
 		Icon:       WifiLow,
 		Tags:       []string{"connection", "signal", "wireless"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	wifiOffInfo = IconInfo{
 		Name:       "Wifi Off",
+		Slug:       "wifi-off",
 		Icon:       WifiOff,
 		Tags:       []string{"disabled"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	wifiZeroInfo = IconInfo{
 		Name:       "Wifi Zero",
+		Slug:       "wifi-zero",
 		Icon:       WifiZero,
 		Tags:       []string{"connection", "signal", "wireless"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	wifiInfo = IconInfo{
 		Name:       "Wifi",
+		Slug:       "wifi",
 		Icon:       Wifi,
 		Tags:       []string{"connection", "signal", "wireless"},
 		Categories: []string{"connectivity", "devices"},
-	},
-	{
+	}
+
+	windInfo = IconInfo{
 		Name:       "Wind",
+		Slug:       "wind",
 		Icon:       Wind,
 		Tags:       []string{"weather", "air", "blow"},
 		Categories: []string{"weather", "sustainability"},
-	},
-	{
+	}
+
+	wineOffInfo = IconInfo{
 		Name:       "Wine Off",
+		Slug:       "wine-off",
 		Icon:       WineOff,
 		Tags:       []string{"alcohol", "beverage", "drink", "glass", "alcohol free", "abstinence", "abstaining", "teetotalism", "allergy", "intolerance"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	wineInfo = IconInfo{
 		Name:       "Wine",
+		Slug:       "wine",
 		Icon:       Wine,
 		Tags:       []string{"alcohol", "beverage", "bar", "drink", "glass", "sommelier", "vineyard", "winery"},
 		Categories: []string{"food-beverage"},
-	},
-	{
+	}
+
+	workflowInfo = IconInfo{
 		Name:       "Workflow",
+		Slug:       "workflow",
 		Icon:       Workflow,
 		Tags:       []string{"action", "continuous integration", "ci", "automation", "devops", "network", "node", "connection"},
 		Categories: []string{"development"},
-	},
-	{
+	}
+
+	wormInfo = IconInfo{
 		Name:       "Worm",
+		Slug:       "worm",
 		Icon:       Worm,
 		Tags:       []string{"invertebrate", "grub", "larva", "snake", "crawl", "wiggle", "slither", "pest control", "computer virus", "malware"},
 		Categories: []string{"animals", "security"},
-	},
-	{
+	}
+
+	wrapTextInfo = IconInfo{
 		Name:       "Wrap Text",
+		Slug:       "wrap-text",
 		Icon:       WrapText,
 		Tags:       []string{"words", "lines", "break", "paragraph"},
 		Categories: []string{"text", "arrows"},
-	},
-	{
+	}
+
+	wrenchInfo = IconInfo{
 		Name:       "Wrench",
+		Slug:       "wrench",
 		Icon:       Wrench,
 		Tags:       []string{"account", "settings", "spanner", "diy", "toolbox", "build", "construction"},
 		Categories: []string{"account", "development", "tools", "home"},
-	},
-	{
+	}
+
+	xInfo = IconInfo{
 		Name:       "X",
+		Slug:       "x",
 		Icon:       X,
 		Tags:       []string{"cancel", "close", "delete", "remove", "times", "clear", "maths", "multiply", "multiplication"},
 		Categories: []string{"notifications", "maths"},
-	},
-	{
+	}
+
+	youtubeInfo = IconInfo{
 		Name:       "Youtube",
+		Slug:       "youtube",
 		Icon:       Youtube,
 		Tags:       []string{"logo", "social", "video", "play"},
 		Categories: []string{"account", "multimedia", "social", "text", "brands"},
-	},
-	{
+	}
+
+	zapOffInfo = IconInfo{
 		Name:       "Zap Off",
+		Slug:       "zap-off",
 		Icon:       ZapOff,
 		Tags:       []string{"flash", "camera", "lightning", "electricity", "energy"},
 		Categories: []string{"connectivity", "devices", "photography", "weather"},
-	},
-	{
+	}
+
+	zapInfo = IconInfo{
 		Name:       "Zap",
+		Slug:       "zap",
 		Icon:       Zap,
 		Tags:       []string{"flash", "camera", "lightning", "electricity", "energy"},
 		Categories: []string{"connectivity", "devices", "photography", "weather"},
-	},
-	{
+	}
+
+	zoomInInfo = IconInfo{
 		Name:       "Zoom In",
+		Slug:       "zoom-in",
 		Icon:       ZoomIn,
 		Tags:       []string{"magnifying glass", "plus"},
 		Categories: []string{"accessibility", "layout", "design", "text", "photography"},
-	},
-	{
+	}
+
+	zoomOutInfo = IconInfo{
 		Name:       "Zoom Out",
+		Slug:       "zoom-out",
 		Icon:       ZoomOut,
 		Tags:       []string{"magnifying glass", "plus"},
 		Categories: []string{"accessibility", "layout", "design", "text", "photography"},
-	},
-}
+	}
+
+	iconsInfoMap = map[string]*IconInfo{
+		"a-arrow-down":                       &aArrowDownInfo,
+		"A Arrow Down":                       &aArrowDownInfo,
+		"a-arrow-up":                         &aArrowUpInfo,
+		"A Arrow Up":                         &aArrowUpInfo,
+		"a-large-small":                      &aLargeSmallInfo,
+		"A Large Small":                      &aLargeSmallInfo,
+		"accessibility":                      &accessibilityInfo,
+		"Accessibility":                      &accessibilityInfo,
+		"activity":                           &activityInfo,
+		"Activity":                           &activityInfo,
+		"air-vent":                           &airVentInfo,
+		"Air Vent":                           &airVentInfo,
+		"airplay":                            &airplayInfo,
+		"Airplay":                            &airplayInfo,
+		"alarm-clock-check":                  &alarmClockCheckInfo,
+		"Alarm Clock Check":                  &alarmClockCheckInfo,
+		"alarm-clock-minus":                  &alarmClockMinusInfo,
+		"Alarm Clock Minus":                  &alarmClockMinusInfo,
+		"alarm-clock-off":                    &alarmClockOffInfo,
+		"Alarm Clock Off":                    &alarmClockOffInfo,
+		"alarm-clock-plus":                   &alarmClockPlusInfo,
+		"Alarm Clock Plus":                   &alarmClockPlusInfo,
+		"alarm-clock":                        &alarmClockInfo,
+		"Alarm Clock":                        &alarmClockInfo,
+		"alarm-smoke":                        &alarmSmokeInfo,
+		"Alarm Smoke":                        &alarmSmokeInfo,
+		"album":                              &albumInfo,
+		"Album":                              &albumInfo,
+		"align-center-horizontal":            &alignCenterHorizontalInfo,
+		"Align Center Horizontal":            &alignCenterHorizontalInfo,
+		"align-center-vertical":              &alignCenterVerticalInfo,
+		"Align Center Vertical":              &alignCenterVerticalInfo,
+		"align-center":                       &alignCenterInfo,
+		"Align Center":                       &alignCenterInfo,
+		"align-end-horizontal":               &alignEndHorizontalInfo,
+		"Align End Horizontal":               &alignEndHorizontalInfo,
+		"align-end-vertical":                 &alignEndVerticalInfo,
+		"Align End Vertical":                 &alignEndVerticalInfo,
+		"align-horizontal-distribute-center": &alignHorizontalDistributeCenterInfo,
+		"Align Horizontal Distribute Center": &alignHorizontalDistributeCenterInfo,
+		"align-horizontal-distribute-end":    &alignHorizontalDistributeEndInfo,
+		"Align Horizontal Distribute End":    &alignHorizontalDistributeEndInfo,
+		"align-horizontal-distribute-start":  &alignHorizontalDistributeStartInfo,
+		"Align Horizontal Distribute Start":  &alignHorizontalDistributeStartInfo,
+		"align-horizontal-justify-center":    &alignHorizontalJustifyCenterInfo,
+		"Align Horizontal Justify Center":    &alignHorizontalJustifyCenterInfo,
+		"align-horizontal-justify-end":       &alignHorizontalJustifyEndInfo,
+		"Align Horizontal Justify End":       &alignHorizontalJustifyEndInfo,
+		"align-horizontal-justify-start":     &alignHorizontalJustifyStartInfo,
+		"Align Horizontal Justify Start":     &alignHorizontalJustifyStartInfo,
+		"align-horizontal-space-around":      &alignHorizontalSpaceAroundInfo,
+		"Align Horizontal Space Around":      &alignHorizontalSpaceAroundInfo,
+		"align-horizontal-space-between":     &alignHorizontalSpaceBetweenInfo,
+		"Align Horizontal Space Between":     &alignHorizontalSpaceBetweenInfo,
+		"align-justify":                      &alignJustifyInfo,
+		"Align Justify":                      &alignJustifyInfo,
+		"align-left":                         &alignLeftInfo,
+		"Align Left":                         &alignLeftInfo,
+		"align-right":                        &alignRightInfo,
+		"Align Right":                        &alignRightInfo,
+		"align-start-horizontal":             &alignStartHorizontalInfo,
+		"Align Start Horizontal":             &alignStartHorizontalInfo,
+		"align-start-vertical":               &alignStartVerticalInfo,
+		"Align Start Vertical":               &alignStartVerticalInfo,
+		"align-vertical-distribute-center":   &alignVerticalDistributeCenterInfo,
+		"Align Vertical Distribute Center":   &alignVerticalDistributeCenterInfo,
+		"align-vertical-distribute-end":      &alignVerticalDistributeEndInfo,
+		"Align Vertical Distribute End":      &alignVerticalDistributeEndInfo,
+		"align-vertical-distribute-start":    &alignVerticalDistributeStartInfo,
+		"Align Vertical Distribute Start":    &alignVerticalDistributeStartInfo,
+		"align-vertical-justify-center":      &alignVerticalJustifyCenterInfo,
+		"Align Vertical Justify Center":      &alignVerticalJustifyCenterInfo,
+		"align-vertical-justify-end":         &alignVerticalJustifyEndInfo,
+		"Align Vertical Justify End":         &alignVerticalJustifyEndInfo,
+		"align-vertical-justify-start":       &alignVerticalJustifyStartInfo,
+		"Align Vertical Justify Start":       &alignVerticalJustifyStartInfo,
+		"align-vertical-space-around":        &alignVerticalSpaceAroundInfo,
+		"Align Vertical Space Around":        &alignVerticalSpaceAroundInfo,
+		"align-vertical-space-between":       &alignVerticalSpaceBetweenInfo,
+		"Align Vertical Space Between":       &alignVerticalSpaceBetweenInfo,
+		"ambulance":                          &ambulanceInfo,
+		"Ambulance":                          &ambulanceInfo,
+		"ampersand":                          &ampersandInfo,
+		"Ampersand":                          &ampersandInfo,
+		"ampersands":                         &ampersandsInfo,
+		"Ampersands":                         &ampersandsInfo,
+		"amphora":                            &amphoraInfo,
+		"Amphora":                            &amphoraInfo,
+		"anchor":                             &anchorInfo,
+		"Anchor":                             &anchorInfo,
+		"angry":                              &angryInfo,
+		"Angry":                              &angryInfo,
+		"annoyed":                            &annoyedInfo,
+		"Annoyed":                            &annoyedInfo,
+		"antenna":                            &antennaInfo,
+		"Antenna":                            &antennaInfo,
+		"anvil":                              &anvilInfo,
+		"Anvil":                              &anvilInfo,
+		"aperture":                           &apertureInfo,
+		"Aperture":                           &apertureInfo,
+		"app-window-mac":                     &appWindowMacInfo,
+		"App Window Mac":                     &appWindowMacInfo,
+		"app-window":                         &appWindowInfo,
+		"App Window":                         &appWindowInfo,
+		"apple":                              &appleInfo,
+		"Apple":                              &appleInfo,
+		"archive-restore":                    &archiveRestoreInfo,
+		"Archive Restore":                    &archiveRestoreInfo,
+		"archive-x":                          &archiveXInfo,
+		"Archive X":                          &archiveXInfo,
+		"archive":                            &archiveInfo,
+		"Archive":                            &archiveInfo,
+		"armchair":                           &armchairInfo,
+		"Armchair":                           &armchairInfo,
+		"arrow-big-down-dash":                &arrowBigDownDashInfo,
+		"Arrow Big Down Dash":                &arrowBigDownDashInfo,
+		"arrow-big-down":                     &arrowBigDownInfo,
+		"Arrow Big Down":                     &arrowBigDownInfo,
+		"arrow-big-left-dash":                &arrowBigLeftDashInfo,
+		"Arrow Big Left Dash":                &arrowBigLeftDashInfo,
+		"arrow-big-left":                     &arrowBigLeftInfo,
+		"Arrow Big Left":                     &arrowBigLeftInfo,
+		"arrow-big-right-dash":               &arrowBigRightDashInfo,
+		"Arrow Big Right Dash":               &arrowBigRightDashInfo,
+		"arrow-big-right":                    &arrowBigRightInfo,
+		"Arrow Big Right":                    &arrowBigRightInfo,
+		"arrow-big-up-dash":                  &arrowBigUpDashInfo,
+		"Arrow Big Up Dash":                  &arrowBigUpDashInfo,
+		"arrow-big-up":                       &arrowBigUpInfo,
+		"Arrow Big Up":                       &arrowBigUpInfo,
+		"arrow-down-0-1":                     &arrowDown01Info,
+		"Arrow Down 0 1":                     &arrowDown01Info,
+		"arrow-down-1-0":                     &arrowDown10Info,
+		"Arrow Down 1 0":                     &arrowDown10Info,
+		"arrow-down-a-z":                     &arrowDownAZInfo,
+		"Arrow Down A Z":                     &arrowDownAZInfo,
+		"arrow-down-from-line":               &arrowDownFromLineInfo,
+		"Arrow Down From Line":               &arrowDownFromLineInfo,
+		"arrow-down-left":                    &arrowDownLeftInfo,
+		"Arrow Down Left":                    &arrowDownLeftInfo,
+		"arrow-down-narrow-wide":             &arrowDownNarrowWideInfo,
+		"Arrow Down Narrow Wide":             &arrowDownNarrowWideInfo,
+		"arrow-down-right":                   &arrowDownRightInfo,
+		"Arrow Down Right":                   &arrowDownRightInfo,
+		"arrow-down-to-dot":                  &arrowDownToDotInfo,
+		"Arrow Down To Dot":                  &arrowDownToDotInfo,
+		"arrow-down-to-line":                 &arrowDownToLineInfo,
+		"Arrow Down To Line":                 &arrowDownToLineInfo,
+		"arrow-down-up":                      &arrowDownUpInfo,
+		"Arrow Down Up":                      &arrowDownUpInfo,
+		"arrow-down-wide-narrow":             &arrowDownWideNarrowInfo,
+		"Arrow Down Wide Narrow":             &arrowDownWideNarrowInfo,
+		"arrow-down-z-a":                     &arrowDownZAInfo,
+		"Arrow Down Z A":                     &arrowDownZAInfo,
+		"arrow-down":                         &arrowDownInfo,
+		"Arrow Down":                         &arrowDownInfo,
+		"arrow-left-from-line":               &arrowLeftFromLineInfo,
+		"Arrow Left From Line":               &arrowLeftFromLineInfo,
+		"arrow-left-right":                   &arrowLeftRightInfo,
+		"Arrow Left Right":                   &arrowLeftRightInfo,
+		"arrow-left-to-line":                 &arrowLeftToLineInfo,
+		"Arrow Left To Line":                 &arrowLeftToLineInfo,
+		"arrow-left":                         &arrowLeftInfo,
+		"Arrow Left":                         &arrowLeftInfo,
+		"arrow-right-from-line":              &arrowRightFromLineInfo,
+		"Arrow Right From Line":              &arrowRightFromLineInfo,
+		"arrow-right-left":                   &arrowRightLeftInfo,
+		"Arrow Right Left":                   &arrowRightLeftInfo,
+		"arrow-right-to-line":                &arrowRightToLineInfo,
+		"Arrow Right To Line":                &arrowRightToLineInfo,
+		"arrow-right":                        &arrowRightInfo,
+		"Arrow Right":                        &arrowRightInfo,
+		"arrow-up-0-1":                       &arrowUp01Info,
+		"Arrow Up 0 1":                       &arrowUp01Info,
+		"arrow-up-1-0":                       &arrowUp10Info,
+		"Arrow Up 1 0":                       &arrowUp10Info,
+		"arrow-up-a-z":                       &arrowUpAZInfo,
+		"Arrow Up A Z":                       &arrowUpAZInfo,
+		"arrow-up-down":                      &arrowUpDownInfo,
+		"Arrow Up Down":                      &arrowUpDownInfo,
+		"arrow-up-from-dot":                  &arrowUpFromDotInfo,
+		"Arrow Up From Dot":                  &arrowUpFromDotInfo,
+		"arrow-up-from-line":                 &arrowUpFromLineInfo,
+		"Arrow Up From Line":                 &arrowUpFromLineInfo,
+		"arrow-up-left":                      &arrowUpLeftInfo,
+		"Arrow Up Left":                      &arrowUpLeftInfo,
+		"arrow-up-narrow-wide":               &arrowUpNarrowWideInfo,
+		"Arrow Up Narrow Wide":               &arrowUpNarrowWideInfo,
+		"arrow-up-right":                     &arrowUpRightInfo,
+		"Arrow Up Right":                     &arrowUpRightInfo,
+		"arrow-up-to-line":                   &arrowUpToLineInfo,
+		"Arrow Up To Line":                   &arrowUpToLineInfo,
+		"arrow-up-wide-narrow":               &arrowUpWideNarrowInfo,
+		"Arrow Up Wide Narrow":               &arrowUpWideNarrowInfo,
+		"arrow-up-z-a":                       &arrowUpZAInfo,
+		"Arrow Up Z A":                       &arrowUpZAInfo,
+		"arrow-up":                           &arrowUpInfo,
+		"Arrow Up":                           &arrowUpInfo,
+		"arrows-up-from-line":                &arrowsUpFromLineInfo,
+		"Arrows Up From Line":                &arrowsUpFromLineInfo,
+		"asterisk":                           &asteriskInfo,
+		"Asterisk":                           &asteriskInfo,
+		"at-sign":                            &atSignInfo,
+		"At Sign":                            &atSignInfo,
+		"atom":                               &atomInfo,
+		"Atom":                               &atomInfo,
+		"audio-lines":                        &audioLinesInfo,
+		"Audio Lines":                        &audioLinesInfo,
+		"audio-waveform":                     &audioWaveformInfo,
+		"Audio Waveform":                     &audioWaveformInfo,
+		"award":                              &awardInfo,
+		"Award":                              &awardInfo,
+		"axe":                                &axeInfo,
+		"Axe":                                &axeInfo,
+		"axis-3d":                            &axis3dInfo,
+		"Axis 3d":                            &axis3dInfo,
+		"baby":                               &babyInfo,
+		"Baby":                               &babyInfo,
+		"backpack":                           &backpackInfo,
+		"Backpack":                           &backpackInfo,
+		"badge-alert":                        &badgeAlertInfo,
+		"Badge Alert":                        &badgeAlertInfo,
+		"badge-cent":                         &badgeCentInfo,
+		"Badge Cent":                         &badgeCentInfo,
+		"badge-check":                        &badgeCheckInfo,
+		"Badge Check":                        &badgeCheckInfo,
+		"badge-dollar-sign":                  &badgeDollarSignInfo,
+		"Badge Dollar Sign":                  &badgeDollarSignInfo,
+		"badge-euro":                         &badgeEuroInfo,
+		"Badge Euro":                         &badgeEuroInfo,
+		"badge-help":                         &badgeHelpInfo,
+		"Badge Help":                         &badgeHelpInfo,
+		"badge-indian-rupee":                 &badgeIndianRupeeInfo,
+		"Badge Indian Rupee":                 &badgeIndianRupeeInfo,
+		"badge-info":                         &badgeInfoInfo,
+		"Badge Info":                         &badgeInfoInfo,
+		"badge-japanese-yen":                 &badgeJapaneseYenInfo,
+		"Badge Japanese Yen":                 &badgeJapaneseYenInfo,
+		"badge-minus":                        &badgeMinusInfo,
+		"Badge Minus":                        &badgeMinusInfo,
+		"badge-percent":                      &badgePercentInfo,
+		"Badge Percent":                      &badgePercentInfo,
+		"badge-plus":                         &badgePlusInfo,
+		"Badge Plus":                         &badgePlusInfo,
+		"badge-pound-sterling":               &badgePoundSterlingInfo,
+		"Badge Pound Sterling":               &badgePoundSterlingInfo,
+		"badge-russian-ruble":                &badgeRussianRubleInfo,
+		"Badge Russian Ruble":                &badgeRussianRubleInfo,
+		"badge-swiss-franc":                  &badgeSwissFrancInfo,
+		"Badge Swiss Franc":                  &badgeSwissFrancInfo,
+		"badge-x":                            &badgeXInfo,
+		"Badge X":                            &badgeXInfo,
+		"badge":                              &badgeInfo,
+		"Badge":                              &badgeInfo,
+		"baggage-claim":                      &baggageClaimInfo,
+		"Baggage Claim":                      &baggageClaimInfo,
+		"ban":                                &banInfo,
+		"Ban":                                &banInfo,
+		"banana":                             &bananaInfo,
+		"Banana":                             &bananaInfo,
+		"bandage":                            &bandageInfo,
+		"Bandage":                            &bandageInfo,
+		"banknote":                           &banknoteInfo,
+		"Banknote":                           &banknoteInfo,
+		"barcode":                            &barcodeInfo,
+		"Barcode":                            &barcodeInfo,
+		"baseline":                           &baselineInfo,
+		"Baseline":                           &baselineInfo,
+		"bath":                               &bathInfo,
+		"Bath":                               &bathInfo,
+		"battery-charging":                   &batteryChargingInfo,
+		"Battery Charging":                   &batteryChargingInfo,
+		"battery-full":                       &batteryFullInfo,
+		"Battery Full":                       &batteryFullInfo,
+		"battery-low":                        &batteryLowInfo,
+		"Battery Low":                        &batteryLowInfo,
+		"battery-medium":                     &batteryMediumInfo,
+		"Battery Medium":                     &batteryMediumInfo,
+		"battery-warning":                    &batteryWarningInfo,
+		"Battery Warning":                    &batteryWarningInfo,
+		"battery":                            &batteryInfo,
+		"Battery":                            &batteryInfo,
+		"beaker":                             &beakerInfo,
+		"Beaker":                             &beakerInfo,
+		"bean-off":                           &beanOffInfo,
+		"Bean Off":                           &beanOffInfo,
+		"bean":                               &beanInfo,
+		"Bean":                               &beanInfo,
+		"bed-double":                         &bedDoubleInfo,
+		"Bed Double":                         &bedDoubleInfo,
+		"bed-single":                         &bedSingleInfo,
+		"Bed Single":                         &bedSingleInfo,
+		"bed":                                &bedInfo,
+		"Bed":                                &bedInfo,
+		"beef":                               &beefInfo,
+		"Beef":                               &beefInfo,
+		"beer-off":                           &beerOffInfo,
+		"Beer Off":                           &beerOffInfo,
+		"beer":                               &beerInfo,
+		"Beer":                               &beerInfo,
+		"bell-dot":                           &bellDotInfo,
+		"Bell Dot":                           &bellDotInfo,
+		"bell-electric":                      &bellElectricInfo,
+		"Bell Electric":                      &bellElectricInfo,
+		"bell-minus":                         &bellMinusInfo,
+		"Bell Minus":                         &bellMinusInfo,
+		"bell-off":                           &bellOffInfo,
+		"Bell Off":                           &bellOffInfo,
+		"bell-plus":                          &bellPlusInfo,
+		"Bell Plus":                          &bellPlusInfo,
+		"bell-ring":                          &bellRingInfo,
+		"Bell Ring":                          &bellRingInfo,
+		"bell":                               &bellInfo,
+		"Bell":                               &bellInfo,
+		"between-horizontal-end":             &betweenHorizontalEndInfo,
+		"Between Horizontal End":             &betweenHorizontalEndInfo,
+		"between-horizontal-start":           &betweenHorizontalStartInfo,
+		"Between Horizontal Start":           &betweenHorizontalStartInfo,
+		"between-vertical-end":               &betweenVerticalEndInfo,
+		"Between Vertical End":               &betweenVerticalEndInfo,
+		"between-vertical-start":             &betweenVerticalStartInfo,
+		"Between Vertical Start":             &betweenVerticalStartInfo,
+		"biceps-flexed":                      &bicepsFlexedInfo,
+		"Biceps Flexed":                      &bicepsFlexedInfo,
+		"bike":                               &bikeInfo,
+		"Bike":                               &bikeInfo,
+		"binary":                             &binaryInfo,
+		"Binary":                             &binaryInfo,
+		"binoculars":                         &binocularsInfo,
+		"Binoculars":                         &binocularsInfo,
+		"biohazard":                          &biohazardInfo,
+		"Biohazard":                          &biohazardInfo,
+		"bird":                               &birdInfo,
+		"Bird":                               &birdInfo,
+		"bitcoin":                            &bitcoinInfo,
+		"Bitcoin":                            &bitcoinInfo,
+		"blend":                              &blendInfo,
+		"Blend":                              &blendInfo,
+		"blinds":                             &blindsInfo,
+		"Blinds":                             &blindsInfo,
+		"blocks":                             &blocksInfo,
+		"Blocks":                             &blocksInfo,
+		"bluetooth-connected":                &bluetoothConnectedInfo,
+		"Bluetooth Connected":                &bluetoothConnectedInfo,
+		"bluetooth-off":                      &bluetoothOffInfo,
+		"Bluetooth Off":                      &bluetoothOffInfo,
+		"bluetooth-searching":                &bluetoothSearchingInfo,
+		"Bluetooth Searching":                &bluetoothSearchingInfo,
+		"bluetooth":                          &bluetoothInfo,
+		"Bluetooth":                          &bluetoothInfo,
+		"bold":                               &boldInfo,
+		"Bold":                               &boldInfo,
+		"bolt":                               &boltInfo,
+		"Bolt":                               &boltInfo,
+		"bomb":                               &bombInfo,
+		"Bomb":                               &bombInfo,
+		"bone":                               &boneInfo,
+		"Bone":                               &boneInfo,
+		"book-a":                             &bookAInfo,
+		"Book A":                             &bookAInfo,
+		"book-audio":                         &bookAudioInfo,
+		"Book Audio":                         &bookAudioInfo,
+		"book-check":                         &bookCheckInfo,
+		"Book Check":                         &bookCheckInfo,
+		"book-copy":                          &bookCopyInfo,
+		"Book Copy":                          &bookCopyInfo,
+		"book-dashed":                        &bookDashedInfo,
+		"Book Dashed":                        &bookDashedInfo,
+		"book-down":                          &bookDownInfo,
+		"Book Down":                          &bookDownInfo,
+		"book-headphones":                    &bookHeadphonesInfo,
+		"Book Headphones":                    &bookHeadphonesInfo,
+		"book-heart":                         &bookHeartInfo,
+		"Book Heart":                         &bookHeartInfo,
+		"book-image":                         &bookImageInfo,
+		"Book Image":                         &bookImageInfo,
+		"book-key":                           &bookKeyInfo,
+		"Book Key":                           &bookKeyInfo,
+		"book-lock":                          &bookLockInfo,
+		"Book Lock":                          &bookLockInfo,
+		"book-marked":                        &bookMarkedInfo,
+		"Book Marked":                        &bookMarkedInfo,
+		"book-minus":                         &bookMinusInfo,
+		"Book Minus":                         &bookMinusInfo,
+		"book-open-check":                    &bookOpenCheckInfo,
+		"Book Open Check":                    &bookOpenCheckInfo,
+		"book-open-text":                     &bookOpenTextInfo,
+		"Book Open Text":                     &bookOpenTextInfo,
+		"book-open":                          &bookOpenInfo,
+		"Book Open":                          &bookOpenInfo,
+		"book-plus":                          &bookPlusInfo,
+		"Book Plus":                          &bookPlusInfo,
+		"book-text":                          &bookTextInfo,
+		"Book Text":                          &bookTextInfo,
+		"book-type":                          &bookTypeInfo,
+		"Book Type":                          &bookTypeInfo,
+		"book-up-2":                          &bookUp2Info,
+		"Book Up 2":                          &bookUp2Info,
+		"book-up":                            &bookUpInfo,
+		"Book Up":                            &bookUpInfo,
+		"book-user":                          &bookUserInfo,
+		"Book User":                          &bookUserInfo,
+		"book-x":                             &bookXInfo,
+		"Book X":                             &bookXInfo,
+		"book":                               &bookInfo,
+		"Book":                               &bookInfo,
+		"bookmark-check":                     &bookmarkCheckInfo,
+		"Bookmark Check":                     &bookmarkCheckInfo,
+		"bookmark-minus":                     &bookmarkMinusInfo,
+		"Bookmark Minus":                     &bookmarkMinusInfo,
+		"bookmark-plus":                      &bookmarkPlusInfo,
+		"Bookmark Plus":                      &bookmarkPlusInfo,
+		"bookmark-x":                         &bookmarkXInfo,
+		"Bookmark X":                         &bookmarkXInfo,
+		"bookmark":                           &bookmarkInfo,
+		"Bookmark":                           &bookmarkInfo,
+		"boom-box":                           &boomBoxInfo,
+		"Boom Box":                           &boomBoxInfo,
+		"bot-message-square":                 &botMessageSquareInfo,
+		"Bot Message Square":                 &botMessageSquareInfo,
+		"bot-off":                            &botOffInfo,
+		"Bot Off":                            &botOffInfo,
+		"bot":                                &botInfo,
+		"Bot":                                &botInfo,
+		"box":                                &boxInfo,
+		"Box":                                &boxInfo,
+		"boxes":                              &boxesInfo,
+		"Boxes":                              &boxesInfo,
+		"braces":                             &bracesInfo,
+		"Braces":                             &bracesInfo,
+		"brackets":                           &bracketsInfo,
+		"Brackets":                           &bracketsInfo,
+		"brain-circuit":                      &brainCircuitInfo,
+		"Brain Circuit":                      &brainCircuitInfo,
+		"brain-cog":                          &brainCogInfo,
+		"Brain Cog":                          &brainCogInfo,
+		"brain":                              &brainInfo,
+		"Brain":                              &brainInfo,
+		"brick-wall":                         &brickWallInfo,
+		"Brick Wall":                         &brickWallInfo,
+		"briefcase-business":                 &briefcaseBusinessInfo,
+		"Briefcase Business":                 &briefcaseBusinessInfo,
+		"briefcase-conveyor-belt":            &briefcaseConveyorBeltInfo,
+		"Briefcase Conveyor Belt":            &briefcaseConveyorBeltInfo,
+		"briefcase-medical":                  &briefcaseMedicalInfo,
+		"Briefcase Medical":                  &briefcaseMedicalInfo,
+		"briefcase":                          &briefcaseInfo,
+		"Briefcase":                          &briefcaseInfo,
+		"bring-to-front":                     &bringToFrontInfo,
+		"Bring To Front":                     &bringToFrontInfo,
+		"brush":                              &brushInfo,
+		"Brush":                              &brushInfo,
+		"bug-off":                            &bugOffInfo,
+		"Bug Off":                            &bugOffInfo,
+		"bug-play":                           &bugPlayInfo,
+		"Bug Play":                           &bugPlayInfo,
+		"bug":                                &bugInfo,
+		"Bug":                                &bugInfo,
+		"building-2":                         &building2Info,
+		"Building 2":                         &building2Info,
+		"building":                           &buildingInfo,
+		"Building":                           &buildingInfo,
+		"bus-front":                          &busFrontInfo,
+		"Bus Front":                          &busFrontInfo,
+		"bus":                                &busInfo,
+		"Bus":                                &busInfo,
+		"cable-car":                          &cableCarInfo,
+		"Cable Car":                          &cableCarInfo,
+		"cable":                              &cableInfo,
+		"Cable":                              &cableInfo,
+		"cake-slice":                         &cakeSliceInfo,
+		"Cake Slice":                         &cakeSliceInfo,
+		"cake":                               &cakeInfo,
+		"Cake":                               &cakeInfo,
+		"calculator":                         &calculatorInfo,
+		"Calculator":                         &calculatorInfo,
+		"calendar-arrow-down":                &calendarArrowDownInfo,
+		"Calendar Arrow Down":                &calendarArrowDownInfo,
+		"calendar-arrow-up":                  &calendarArrowUpInfo,
+		"Calendar Arrow Up":                  &calendarArrowUpInfo,
+		"calendar-check-2":                   &calendarCheck2Info,
+		"Calendar Check 2":                   &calendarCheck2Info,
+		"calendar-check":                     &calendarCheckInfo,
+		"Calendar Check":                     &calendarCheckInfo,
+		"calendar-clock":                     &calendarClockInfo,
+		"Calendar Clock":                     &calendarClockInfo,
+		"calendar-cog":                       &calendarCogInfo,
+		"Calendar Cog":                       &calendarCogInfo,
+		"calendar-days":                      &calendarDaysInfo,
+		"Calendar Days":                      &calendarDaysInfo,
+		"calendar-fold":                      &calendarFoldInfo,
+		"Calendar Fold":                      &calendarFoldInfo,
+		"calendar-heart":                     &calendarHeartInfo,
+		"Calendar Heart":                     &calendarHeartInfo,
+		"calendar-minus-2":                   &calendarMinus2Info,
+		"Calendar Minus 2":                   &calendarMinus2Info,
+		"calendar-minus":                     &calendarMinusInfo,
+		"Calendar Minus":                     &calendarMinusInfo,
+		"calendar-off":                       &calendarOffInfo,
+		"Calendar Off":                       &calendarOffInfo,
+		"calendar-plus-2":                    &calendarPlus2Info,
+		"Calendar Plus 2":                    &calendarPlus2Info,
+		"calendar-plus":                      &calendarPlusInfo,
+		"Calendar Plus":                      &calendarPlusInfo,
+		"calendar-range":                     &calendarRangeInfo,
+		"Calendar Range":                     &calendarRangeInfo,
+		"calendar-search":                    &calendarSearchInfo,
+		"Calendar Search":                    &calendarSearchInfo,
+		"calendar-x-2":                       &calendarX2Info,
+		"Calendar X 2":                       &calendarX2Info,
+		"calendar-x":                         &calendarXInfo,
+		"Calendar X":                         &calendarXInfo,
+		"calendar":                           &calendarInfo,
+		"Calendar":                           &calendarInfo,
+		"camera-off":                         &cameraOffInfo,
+		"Camera Off":                         &cameraOffInfo,
+		"camera":                             &cameraInfo,
+		"Camera":                             &cameraInfo,
+		"candy-cane":                         &candyCaneInfo,
+		"Candy Cane":                         &candyCaneInfo,
+		"candy-off":                          &candyOffInfo,
+		"Candy Off":                          &candyOffInfo,
+		"candy":                              &candyInfo,
+		"Candy":                              &candyInfo,
+		"cannabis":                           &cannabisInfo,
+		"Cannabis":                           &cannabisInfo,
+		"captions-off":                       &captionsOffInfo,
+		"Captions Off":                       &captionsOffInfo,
+		"captions":                           &captionsInfo,
+		"Captions":                           &captionsInfo,
+		"car-front":                          &carFrontInfo,
+		"Car Front":                          &carFrontInfo,
+		"car-taxi-front":                     &carTaxiFrontInfo,
+		"Car Taxi Front":                     &carTaxiFrontInfo,
+		"car":                                &carInfo,
+		"Car":                                &carInfo,
+		"caravan":                            &caravanInfo,
+		"Caravan":                            &caravanInfo,
+		"carrot":                             &carrotInfo,
+		"Carrot":                             &carrotInfo,
+		"case-lower":                         &caseLowerInfo,
+		"Case Lower":                         &caseLowerInfo,
+		"case-sensitive":                     &caseSensitiveInfo,
+		"Case Sensitive":                     &caseSensitiveInfo,
+		"case-upper":                         &caseUpperInfo,
+		"Case Upper":                         &caseUpperInfo,
+		"cassette-tape":                      &cassetteTapeInfo,
+		"Cassette Tape":                      &cassetteTapeInfo,
+		"cast":                               &castInfo,
+		"Cast":                               &castInfo,
+		"castle":                             &castleInfo,
+		"Castle":                             &castleInfo,
+		"cat":                                &catInfo,
+		"Cat":                                &catInfo,
+		"cctv":                               &cctvInfo,
+		"Cctv":                               &cctvInfo,
+		"chart-area":                         &chartAreaInfo,
+		"Chart Area":                         &chartAreaInfo,
+		"chart-bar-big":                      &chartBarBigInfo,
+		"Chart Bar Big":                      &chartBarBigInfo,
+		"chart-bar-decreasing":               &chartBarDecreasingInfo,
+		"Chart Bar Decreasing":               &chartBarDecreasingInfo,
+		"chart-bar-increasing":               &chartBarIncreasingInfo,
+		"Chart Bar Increasing":               &chartBarIncreasingInfo,
+		"chart-bar-stacked":                  &chartBarStackedInfo,
+		"Chart Bar Stacked":                  &chartBarStackedInfo,
+		"chart-bar":                          &chartBarInfo,
+		"Chart Bar":                          &chartBarInfo,
+		"chart-candlestick":                  &chartCandlestickInfo,
+		"Chart Candlestick":                  &chartCandlestickInfo,
+		"chart-column-big":                   &chartColumnBigInfo,
+		"Chart Column Big":                   &chartColumnBigInfo,
+		"chart-column-decreasing":            &chartColumnDecreasingInfo,
+		"Chart Column Decreasing":            &chartColumnDecreasingInfo,
+		"chart-column-increasing":            &chartColumnIncreasingInfo,
+		"Chart Column Increasing":            &chartColumnIncreasingInfo,
+		"chart-column-stacked":               &chartColumnStackedInfo,
+		"Chart Column Stacked":               &chartColumnStackedInfo,
+		"chart-column":                       &chartColumnInfo,
+		"Chart Column":                       &chartColumnInfo,
+		"chart-gantt":                        &chartGanttInfo,
+		"Chart Gantt":                        &chartGanttInfo,
+		"chart-line":                         &chartLineInfo,
+		"Chart Line":                         &chartLineInfo,
+		"chart-network":                      &chartNetworkInfo,
+		"Chart Network":                      &chartNetworkInfo,
+		"chart-no-axes-column-decreasing":    &chartNoAxesColumnDecreasingInfo,
+		"Chart No Axes Column Decreasing":    &chartNoAxesColumnDecreasingInfo,
+		"chart-no-axes-column-increasing":    &chartNoAxesColumnIncreasingInfo,
+		"Chart No Axes Column Increasing":    &chartNoAxesColumnIncreasingInfo,
+		"chart-no-axes-column":               &chartNoAxesColumnInfo,
+		"Chart No Axes Column":               &chartNoAxesColumnInfo,
+		"chart-no-axes-combined":             &chartNoAxesCombinedInfo,
+		"Chart No Axes Combined":             &chartNoAxesCombinedInfo,
+		"chart-no-axes-gantt":                &chartNoAxesGanttInfo,
+		"Chart No Axes Gantt":                &chartNoAxesGanttInfo,
+		"chart-pie":                          &chartPieInfo,
+		"Chart Pie":                          &chartPieInfo,
+		"chart-scatter":                      &chartScatterInfo,
+		"Chart Scatter":                      &chartScatterInfo,
+		"chart-spline":                       &chartSplineInfo,
+		"Chart Spline":                       &chartSplineInfo,
+		"check-check":                        &checkCheckInfo,
+		"Check Check":                        &checkCheckInfo,
+		"check":                              &checkInfo,
+		"Check":                              &checkInfo,
+		"chef-hat":                           &chefHatInfo,
+		"Chef Hat":                           &chefHatInfo,
+		"cherry":                             &cherryInfo,
+		"Cherry":                             &cherryInfo,
+		"chevron-down":                       &chevronDownInfo,
+		"Chevron Down":                       &chevronDownInfo,
+		"chevron-first":                      &chevronFirstInfo,
+		"Chevron First":                      &chevronFirstInfo,
+		"chevron-last":                       &chevronLastInfo,
+		"Chevron Last":                       &chevronLastInfo,
+		"chevron-left":                       &chevronLeftInfo,
+		"Chevron Left":                       &chevronLeftInfo,
+		"chevron-right":                      &chevronRightInfo,
+		"Chevron Right":                      &chevronRightInfo,
+		"chevron-up":                         &chevronUpInfo,
+		"Chevron Up":                         &chevronUpInfo,
+		"chevrons-down-up":                   &chevronsDownUpInfo,
+		"Chevrons Down Up":                   &chevronsDownUpInfo,
+		"chevrons-down":                      &chevronsDownInfo,
+		"Chevrons Down":                      &chevronsDownInfo,
+		"chevrons-left-right-ellipsis":       &chevronsLeftRightEllipsisInfo,
+		"Chevrons Left Right Ellipsis":       &chevronsLeftRightEllipsisInfo,
+		"chevrons-left-right":                &chevronsLeftRightInfo,
+		"Chevrons Left Right":                &chevronsLeftRightInfo,
+		"chevrons-left":                      &chevronsLeftInfo,
+		"Chevrons Left":                      &chevronsLeftInfo,
+		"chevrons-right-left":                &chevronsRightLeftInfo,
+		"Chevrons Right Left":                &chevronsRightLeftInfo,
+		"chevrons-right":                     &chevronsRightInfo,
+		"Chevrons Right":                     &chevronsRightInfo,
+		"chevrons-up-down":                   &chevronsUpDownInfo,
+		"Chevrons Up Down":                   &chevronsUpDownInfo,
+		"chevrons-up":                        &chevronsUpInfo,
+		"Chevrons Up":                        &chevronsUpInfo,
+		"chrome":                             &chromeInfo,
+		"Chrome":                             &chromeInfo,
+		"church":                             &churchInfo,
+		"Church":                             &churchInfo,
+		"cigarette-off":                      &cigaretteOffInfo,
+		"Cigarette Off":                      &cigaretteOffInfo,
+		"cigarette":                          &cigaretteInfo,
+		"Cigarette":                          &cigaretteInfo,
+		"circle-alert":                       &circleAlertInfo,
+		"Circle Alert":                       &circleAlertInfo,
+		"circle-arrow-down":                  &circleArrowDownInfo,
+		"Circle Arrow Down":                  &circleArrowDownInfo,
+		"circle-arrow-left":                  &circleArrowLeftInfo,
+		"Circle Arrow Left":                  &circleArrowLeftInfo,
+		"circle-arrow-out-down-left":         &circleArrowOutDownLeftInfo,
+		"Circle Arrow Out Down Left":         &circleArrowOutDownLeftInfo,
+		"circle-arrow-out-down-right":        &circleArrowOutDownRightInfo,
+		"Circle Arrow Out Down Right":        &circleArrowOutDownRightInfo,
+		"circle-arrow-out-up-left":           &circleArrowOutUpLeftInfo,
+		"Circle Arrow Out Up Left":           &circleArrowOutUpLeftInfo,
+		"circle-arrow-out-up-right":          &circleArrowOutUpRightInfo,
+		"Circle Arrow Out Up Right":          &circleArrowOutUpRightInfo,
+		"circle-arrow-right":                 &circleArrowRightInfo,
+		"Circle Arrow Right":                 &circleArrowRightInfo,
+		"circle-arrow-up":                    &circleArrowUpInfo,
+		"Circle Arrow Up":                    &circleArrowUpInfo,
+		"circle-check-big":                   &circleCheckBigInfo,
+		"Circle Check Big":                   &circleCheckBigInfo,
+		"circle-check":                       &circleCheckInfo,
+		"Circle Check":                       &circleCheckInfo,
+		"circle-chevron-down":                &circleChevronDownInfo,
+		"Circle Chevron Down":                &circleChevronDownInfo,
+		"circle-chevron-left":                &circleChevronLeftInfo,
+		"Circle Chevron Left":                &circleChevronLeftInfo,
+		"circle-chevron-right":               &circleChevronRightInfo,
+		"Circle Chevron Right":               &circleChevronRightInfo,
+		"circle-chevron-up":                  &circleChevronUpInfo,
+		"Circle Chevron Up":                  &circleChevronUpInfo,
+		"circle-dashed":                      &circleDashedInfo,
+		"Circle Dashed":                      &circleDashedInfo,
+		"circle-divide":                      &circleDivideInfo,
+		"Circle Divide":                      &circleDivideInfo,
+		"circle-dollar-sign":                 &circleDollarSignInfo,
+		"Circle Dollar Sign":                 &circleDollarSignInfo,
+		"circle-dot-dashed":                  &circleDotDashedInfo,
+		"Circle Dot Dashed":                  &circleDotDashedInfo,
+		"circle-dot":                         &circleDotInfo,
+		"Circle Dot":                         &circleDotInfo,
+		"circle-ellipsis":                    &circleEllipsisInfo,
+		"Circle Ellipsis":                    &circleEllipsisInfo,
+		"circle-equal":                       &circleEqualInfo,
+		"Circle Equal":                       &circleEqualInfo,
+		"circle-fading-arrow-up":             &circleFadingArrowUpInfo,
+		"Circle Fading Arrow Up":             &circleFadingArrowUpInfo,
+		"circle-fading-plus":                 &circleFadingPlusInfo,
+		"Circle Fading Plus":                 &circleFadingPlusInfo,
+		"circle-gauge":                       &circleGaugeInfo,
+		"Circle Gauge":                       &circleGaugeInfo,
+		"circle-help":                        &circleHelpInfo,
+		"Circle Help":                        &circleHelpInfo,
+		"circle-minus":                       &circleMinusInfo,
+		"Circle Minus":                       &circleMinusInfo,
+		"circle-off":                         &circleOffInfo,
+		"Circle Off":                         &circleOffInfo,
+		"circle-parking-off":                 &circleParkingOffInfo,
+		"Circle Parking Off":                 &circleParkingOffInfo,
+		"circle-parking":                     &circleParkingInfo,
+		"Circle Parking":                     &circleParkingInfo,
+		"circle-pause":                       &circlePauseInfo,
+		"Circle Pause":                       &circlePauseInfo,
+		"circle-percent":                     &circlePercentInfo,
+		"Circle Percent":                     &circlePercentInfo,
+		"circle-play":                        &circlePlayInfo,
+		"Circle Play":                        &circlePlayInfo,
+		"circle-plus":                        &circlePlusInfo,
+		"Circle Plus":                        &circlePlusInfo,
+		"circle-power":                       &circlePowerInfo,
+		"Circle Power":                       &circlePowerInfo,
+		"circle-slash-2":                     &circleSlash2Info,
+		"Circle Slash 2":                     &circleSlash2Info,
+		"circle-slash":                       &circleSlashInfo,
+		"Circle Slash":                       &circleSlashInfo,
+		"circle-stop":                        &circleStopInfo,
+		"Circle Stop":                        &circleStopInfo,
+		"circle-user-round":                  &circleUserRoundInfo,
+		"Circle User Round":                  &circleUserRoundInfo,
+		"circle-user":                        &circleUserInfo,
+		"Circle User":                        &circleUserInfo,
+		"circle-x":                           &circleXInfo,
+		"Circle X":                           &circleXInfo,
+		"circle":                             &circleInfo,
+		"Circle":                             &circleInfo,
+		"circuit-board":                      &circuitBoardInfo,
+		"Circuit Board":                      &circuitBoardInfo,
+		"citrus":                             &citrusInfo,
+		"Citrus":                             &citrusInfo,
+		"clapperboard":                       &clapperboardInfo,
+		"Clapperboard":                       &clapperboardInfo,
+		"clipboard-check":                    &clipboardCheckInfo,
+		"Clipboard Check":                    &clipboardCheckInfo,
+		"clipboard-copy":                     &clipboardCopyInfo,
+		"Clipboard Copy":                     &clipboardCopyInfo,
+		"clipboard-list":                     &clipboardListInfo,
+		"Clipboard List":                     &clipboardListInfo,
+		"clipboard-minus":                    &clipboardMinusInfo,
+		"Clipboard Minus":                    &clipboardMinusInfo,
+		"clipboard-paste":                    &clipboardPasteInfo,
+		"Clipboard Paste":                    &clipboardPasteInfo,
+		"clipboard-pen-line":                 &clipboardPenLineInfo,
+		"Clipboard Pen Line":                 &clipboardPenLineInfo,
+		"clipboard-pen":                      &clipboardPenInfo,
+		"Clipboard Pen":                      &clipboardPenInfo,
+		"clipboard-plus":                     &clipboardPlusInfo,
+		"Clipboard Plus":                     &clipboardPlusInfo,
+		"clipboard-type":                     &clipboardTypeInfo,
+		"Clipboard Type":                     &clipboardTypeInfo,
+		"clipboard-x":                        &clipboardXInfo,
+		"Clipboard X":                        &clipboardXInfo,
+		"clipboard":                          &clipboardInfo,
+		"Clipboard":                          &clipboardInfo,
+		"clock-1":                            &clock1Info,
+		"Clock 1":                            &clock1Info,
+		"clock-10":                           &clock10Info,
+		"Clock 10":                           &clock10Info,
+		"clock-11":                           &clock11Info,
+		"Clock 11":                           &clock11Info,
+		"clock-12":                           &clock12Info,
+		"Clock 12":                           &clock12Info,
+		"clock-2":                            &clock2Info,
+		"Clock 2":                            &clock2Info,
+		"clock-3":                            &clock3Info,
+		"Clock 3":                            &clock3Info,
+		"clock-4":                            &clock4Info,
+		"Clock 4":                            &clock4Info,
+		"clock-5":                            &clock5Info,
+		"Clock 5":                            &clock5Info,
+		"clock-6":                            &clock6Info,
+		"Clock 6":                            &clock6Info,
+		"clock-7":                            &clock7Info,
+		"Clock 7":                            &clock7Info,
+		"clock-8":                            &clock8Info,
+		"Clock 8":                            &clock8Info,
+		"clock-9":                            &clock9Info,
+		"Clock 9":                            &clock9Info,
+		"clock-alert":                        &clockAlertInfo,
+		"Clock Alert":                        &clockAlertInfo,
+		"clock-arrow-down":                   &clockArrowDownInfo,
+		"Clock Arrow Down":                   &clockArrowDownInfo,
+		"clock-arrow-up":                     &clockArrowUpInfo,
+		"Clock Arrow Up":                     &clockArrowUpInfo,
+		"clock":                              &clockInfo,
+		"Clock":                              &clockInfo,
+		"cloud-cog":                          &cloudCogInfo,
+		"Cloud Cog":                          &cloudCogInfo,
+		"cloud-download":                     &cloudDownloadInfo,
+		"Cloud Download":                     &cloudDownloadInfo,
+		"cloud-drizzle":                      &cloudDrizzleInfo,
+		"Cloud Drizzle":                      &cloudDrizzleInfo,
+		"cloud-fog":                          &cloudFogInfo,
+		"Cloud Fog":                          &cloudFogInfo,
+		"cloud-hail":                         &cloudHailInfo,
+		"Cloud Hail":                         &cloudHailInfo,
+		"cloud-lightning":                    &cloudLightningInfo,
+		"Cloud Lightning":                    &cloudLightningInfo,
+		"cloud-moon-rain":                    &cloudMoonRainInfo,
+		"Cloud Moon Rain":                    &cloudMoonRainInfo,
+		"cloud-moon":                         &cloudMoonInfo,
+		"Cloud Moon":                         &cloudMoonInfo,
+		"cloud-off":                          &cloudOffInfo,
+		"Cloud Off":                          &cloudOffInfo,
+		"cloud-rain-wind":                    &cloudRainWindInfo,
+		"Cloud Rain Wind":                    &cloudRainWindInfo,
+		"cloud-rain":                         &cloudRainInfo,
+		"Cloud Rain":                         &cloudRainInfo,
+		"cloud-snow":                         &cloudSnowInfo,
+		"Cloud Snow":                         &cloudSnowInfo,
+		"cloud-sun-rain":                     &cloudSunRainInfo,
+		"Cloud Sun Rain":                     &cloudSunRainInfo,
+		"cloud-sun":                          &cloudSunInfo,
+		"Cloud Sun":                          &cloudSunInfo,
+		"cloud-upload":                       &cloudUploadInfo,
+		"Cloud Upload":                       &cloudUploadInfo,
+		"cloud":                              &cloudInfo,
+		"Cloud":                              &cloudInfo,
+		"cloudy":                             &cloudyInfo,
+		"Cloudy":                             &cloudyInfo,
+		"clover":                             &cloverInfo,
+		"Clover":                             &cloverInfo,
+		"club":                               &clubInfo,
+		"Club":                               &clubInfo,
+		"code-xml":                           &codeXmlInfo,
+		"Code Xml":                           &codeXmlInfo,
+		"code":                               &codeInfo,
+		"Code":                               &codeInfo,
+		"codepen":                            &codepenInfo,
+		"Codepen":                            &codepenInfo,
+		"codesandbox":                        &codesandboxInfo,
+		"Codesandbox":                        &codesandboxInfo,
+		"coffee":                             &coffeeInfo,
+		"Coffee":                             &coffeeInfo,
+		"cog":                                &cogInfo,
+		"Cog":                                &cogInfo,
+		"coins":                              &coinsInfo,
+		"Coins":                              &coinsInfo,
+		"columns-2":                          &columns2Info,
+		"Columns 2":                          &columns2Info,
+		"columns-3":                          &columns3Info,
+		"Columns 3":                          &columns3Info,
+		"columns-4":                          &columns4Info,
+		"Columns 4":                          &columns4Info,
+		"combine":                            &combineInfo,
+		"Combine":                            &combineInfo,
+		"command":                            &commandInfo,
+		"Command":                            &commandInfo,
+		"compass":                            &compassInfo,
+		"Compass":                            &compassInfo,
+		"component":                          &componentInfo,
+		"Component":                          &componentInfo,
+		"computer":                           &computerInfo,
+		"Computer":                           &computerInfo,
+		"concierge-bell":                     &conciergeBellInfo,
+		"Concierge Bell":                     &conciergeBellInfo,
+		"cone":                               &coneInfo,
+		"Cone":                               &coneInfo,
+		"construction":                       &constructionInfo,
+		"Construction":                       &constructionInfo,
+		"contact-round":                      &contactRoundInfo,
+		"Contact Round":                      &contactRoundInfo,
+		"contact":                            &contactInfo,
+		"Contact":                            &contactInfo,
+		"container":                          &containerInfo,
+		"Container":                          &containerInfo,
+		"contrast":                           &contrastInfo,
+		"Contrast":                           &contrastInfo,
+		"cookie":                             &cookieInfo,
+		"Cookie":                             &cookieInfo,
+		"cooking-pot":                        &cookingPotInfo,
+		"Cooking Pot":                        &cookingPotInfo,
+		"copy-check":                         &copyCheckInfo,
+		"Copy Check":                         &copyCheckInfo,
+		"copy-minus":                         &copyMinusInfo,
+		"Copy Minus":                         &copyMinusInfo,
+		"copy-plus":                          &copyPlusInfo,
+		"Copy Plus":                          &copyPlusInfo,
+		"copy-slash":                         &copySlashInfo,
+		"Copy Slash":                         &copySlashInfo,
+		"copy-x":                             &copyXInfo,
+		"Copy X":                             &copyXInfo,
+		"copy":                               &copyInfo,
+		"Copy":                               &copyInfo,
+		"copyleft":                           &copyleftInfo,
+		"Copyleft":                           &copyleftInfo,
+		"copyright":                          &copyrightInfo,
+		"Copyright":                          &copyrightInfo,
+		"corner-down-left":                   &cornerDownLeftInfo,
+		"Corner Down Left":                   &cornerDownLeftInfo,
+		"corner-down-right":                  &cornerDownRightInfo,
+		"Corner Down Right":                  &cornerDownRightInfo,
+		"corner-left-down":                   &cornerLeftDownInfo,
+		"Corner Left Down":                   &cornerLeftDownInfo,
+		"corner-left-up":                     &cornerLeftUpInfo,
+		"Corner Left Up":                     &cornerLeftUpInfo,
+		"corner-right-down":                  &cornerRightDownInfo,
+		"Corner Right Down":                  &cornerRightDownInfo,
+		"corner-right-up":                    &cornerRightUpInfo,
+		"Corner Right Up":                    &cornerRightUpInfo,
+		"corner-up-left":                     &cornerUpLeftInfo,
+		"Corner Up Left":                     &cornerUpLeftInfo,
+		"corner-up-right":                    &cornerUpRightInfo,
+		"Corner Up Right":                    &cornerUpRightInfo,
+		"cpu":                                &cpuInfo,
+		"Cpu":                                &cpuInfo,
+		"creative-commons":                   &creativeCommonsInfo,
+		"Creative Commons":                   &creativeCommonsInfo,
+		"credit-card":                        &creditCardInfo,
+		"Credit Card":                        &creditCardInfo,
+		"croissant":                          &croissantInfo,
+		"Croissant":                          &croissantInfo,
+		"crop":                               &cropInfo,
+		"Crop":                               &cropInfo,
+		"cross":                              &crossInfo,
+		"Cross":                              &crossInfo,
+		"crosshair":                          &crosshairInfo,
+		"Crosshair":                          &crosshairInfo,
+		"crown":                              &crownInfo,
+		"Crown":                              &crownInfo,
+		"cuboid":                             &cuboidInfo,
+		"Cuboid":                             &cuboidInfo,
+		"cup-soda":                           &cupSodaInfo,
+		"Cup Soda":                           &cupSodaInfo,
+		"currency":                           &currencyInfo,
+		"Currency":                           &currencyInfo,
+		"cylinder":                           &cylinderInfo,
+		"Cylinder":                           &cylinderInfo,
+		"dam":                                &damInfo,
+		"Dam":                                &damInfo,
+		"database-backup":                    &databaseBackupInfo,
+		"Database Backup":                    &databaseBackupInfo,
+		"database-zap":                       &databaseZapInfo,
+		"Database Zap":                       &databaseZapInfo,
+		"database":                           &databaseInfo,
+		"Database":                           &databaseInfo,
+		"delete":                             &deleteInfo,
+		"Delete":                             &deleteInfo,
+		"dessert":                            &dessertInfo,
+		"Dessert":                            &dessertInfo,
+		"diameter":                           &diameterInfo,
+		"Diameter":                           &diameterInfo,
+		"diamond-minus":                      &diamondMinusInfo,
+		"Diamond Minus":                      &diamondMinusInfo,
+		"diamond-percent":                    &diamondPercentInfo,
+		"Diamond Percent":                    &diamondPercentInfo,
+		"diamond-plus":                       &diamondPlusInfo,
+		"Diamond Plus":                       &diamondPlusInfo,
+		"diamond":                            &diamondInfo,
+		"Diamond":                            &diamondInfo,
+		"dice-1":                             &dice1Info,
+		"Dice 1":                             &dice1Info,
+		"dice-2":                             &dice2Info,
+		"Dice 2":                             &dice2Info,
+		"dice-3":                             &dice3Info,
+		"Dice 3":                             &dice3Info,
+		"dice-4":                             &dice4Info,
+		"Dice 4":                             &dice4Info,
+		"dice-5":                             &dice5Info,
+		"Dice 5":                             &dice5Info,
+		"dice-6":                             &dice6Info,
+		"Dice 6":                             &dice6Info,
+		"dices":                              &dicesInfo,
+		"Dices":                              &dicesInfo,
+		"diff":                               &diffInfo,
+		"Diff":                               &diffInfo,
+		"disc-2":                             &disc2Info,
+		"Disc 2":                             &disc2Info,
+		"disc-3":                             &disc3Info,
+		"Disc 3":                             &disc3Info,
+		"disc-album":                         &discAlbumInfo,
+		"Disc Album":                         &discAlbumInfo,
+		"disc":                               &discInfo,
+		"Disc":                               &discInfo,
+		"divide":                             &divideInfo,
+		"Divide":                             &divideInfo,
+		"dna-off":                            &dnaOffInfo,
+		"Dna Off":                            &dnaOffInfo,
+		"dna":                                &dnaInfo,
+		"Dna":                                &dnaInfo,
+		"dock":                               &dockInfo,
+		"Dock":                               &dockInfo,
+		"dog":                                &dogInfo,
+		"Dog":                                &dogInfo,
+		"dollar-sign":                        &dollarSignInfo,
+		"Dollar Sign":                        &dollarSignInfo,
+		"donut":                              &donutInfo,
+		"Donut":                              &donutInfo,
+		"door-closed":                        &doorClosedInfo,
+		"Door Closed":                        &doorClosedInfo,
+		"door-open":                          &doorOpenInfo,
+		"Door Open":                          &doorOpenInfo,
+		"dot":                                &dotInfo,
+		"Dot":                                &dotInfo,
+		"download":                           &downloadInfo,
+		"Download":                           &downloadInfo,
+		"drafting-compass":                   &draftingCompassInfo,
+		"Drafting Compass":                   &draftingCompassInfo,
+		"drama":                              &dramaInfo,
+		"Drama":                              &dramaInfo,
+		"dribbble":                           &dribbbleInfo,
+		"Dribbble":                           &dribbbleInfo,
+		"drill":                              &drillInfo,
+		"Drill":                              &drillInfo,
+		"droplet":                            &dropletInfo,
+		"Droplet":                            &dropletInfo,
+		"droplets":                           &dropletsInfo,
+		"Droplets":                           &dropletsInfo,
+		"drum":                               &drumInfo,
+		"Drum":                               &drumInfo,
+		"drumstick":                          &drumstickInfo,
+		"Drumstick":                          &drumstickInfo,
+		"dumbbell":                           &dumbbellInfo,
+		"Dumbbell":                           &dumbbellInfo,
+		"ear-off":                            &earOffInfo,
+		"Ear Off":                            &earOffInfo,
+		"ear":                                &earInfo,
+		"Ear":                                &earInfo,
+		"earth-lock":                         &earthLockInfo,
+		"Earth Lock":                         &earthLockInfo,
+		"earth":                              &earthInfo,
+		"Earth":                              &earthInfo,
+		"eclipse":                            &eclipseInfo,
+		"Eclipse":                            &eclipseInfo,
+		"egg-fried":                          &eggFriedInfo,
+		"Egg Fried":                          &eggFriedInfo,
+		"egg-off":                            &eggOffInfo,
+		"Egg Off":                            &eggOffInfo,
+		"egg":                                &eggInfo,
+		"Egg":                                &eggInfo,
+		"ellipsis-vertical":                  &ellipsisVerticalInfo,
+		"Ellipsis Vertical":                  &ellipsisVerticalInfo,
+		"ellipsis":                           &ellipsisInfo,
+		"Ellipsis":                           &ellipsisInfo,
+		"equal-not":                          &equalNotInfo,
+		"Equal Not":                          &equalNotInfo,
+		"equal":                              &equalInfo,
+		"Equal":                              &equalInfo,
+		"eraser":                             &eraserInfo,
+		"Eraser":                             &eraserInfo,
+		"ethernet-port":                      &ethernetPortInfo,
+		"Ethernet Port":                      &ethernetPortInfo,
+		"euro":                               &euroInfo,
+		"Euro":                               &euroInfo,
+		"expand":                             &expandInfo,
+		"Expand":                             &expandInfo,
+		"external-link":                      &externalLinkInfo,
+		"External Link":                      &externalLinkInfo,
+		"eye-closed":                         &eyeClosedInfo,
+		"Eye Closed":                         &eyeClosedInfo,
+		"eye-off":                            &eyeOffInfo,
+		"Eye Off":                            &eyeOffInfo,
+		"eye":                                &eyeInfo,
+		"Eye":                                &eyeInfo,
+		"facebook":                           &facebookInfo,
+		"Facebook":                           &facebookInfo,
+		"factory":                            &factoryInfo,
+		"Factory":                            &factoryInfo,
+		"fan":                                &fanInfo,
+		"Fan":                                &fanInfo,
+		"fast-forward":                       &fastForwardInfo,
+		"Fast Forward":                       &fastForwardInfo,
+		"feather":                            &featherInfo,
+		"Feather":                            &featherInfo,
+		"fence":                              &fenceInfo,
+		"Fence":                              &fenceInfo,
+		"ferris-wheel":                       &ferrisWheelInfo,
+		"Ferris Wheel":                       &ferrisWheelInfo,
+		"figma":                              &figmaInfo,
+		"Figma":                              &figmaInfo,
+		"file-archive":                       &fileArchiveInfo,
+		"File Archive":                       &fileArchiveInfo,
+		"file-audio-2":                       &fileAudio2Info,
+		"File Audio 2":                       &fileAudio2Info,
+		"file-audio":                         &fileAudioInfo,
+		"File Audio":                         &fileAudioInfo,
+		"file-axis-3d":                       &fileAxis3dInfo,
+		"File Axis 3d":                       &fileAxis3dInfo,
+		"file-badge-2":                       &fileBadge2Info,
+		"File Badge 2":                       &fileBadge2Info,
+		"file-badge":                         &fileBadgeInfo,
+		"File Badge":                         &fileBadgeInfo,
+		"file-box":                           &fileBoxInfo,
+		"File Box":                           &fileBoxInfo,
+		"file-chart-column-increasing":       &fileChartColumnIncreasingInfo,
+		"File Chart Column Increasing":       &fileChartColumnIncreasingInfo,
+		"file-chart-column":                  &fileChartColumnInfo,
+		"File Chart Column":                  &fileChartColumnInfo,
+		"file-chart-line":                    &fileChartLineInfo,
+		"File Chart Line":                    &fileChartLineInfo,
+		"file-chart-pie":                     &fileChartPieInfo,
+		"File Chart Pie":                     &fileChartPieInfo,
+		"file-check-2":                       &fileCheck2Info,
+		"File Check 2":                       &fileCheck2Info,
+		"file-check":                         &fileCheckInfo,
+		"File Check":                         &fileCheckInfo,
+		"file-clock":                         &fileClockInfo,
+		"File Clock":                         &fileClockInfo,
+		"file-code-2":                        &fileCode2Info,
+		"File Code 2":                        &fileCode2Info,
+		"file-code":                          &fileCodeInfo,
+		"File Code":                          &fileCodeInfo,
+		"file-cog":                           &fileCogInfo,
+		"File Cog":                           &fileCogInfo,
+		"file-diff":                          &fileDiffInfo,
+		"File Diff":                          &fileDiffInfo,
+		"file-digit":                         &fileDigitInfo,
+		"File Digit":                         &fileDigitInfo,
+		"file-down":                          &fileDownInfo,
+		"File Down":                          &fileDownInfo,
+		"file-heart":                         &fileHeartInfo,
+		"File Heart":                         &fileHeartInfo,
+		"file-image":                         &fileImageInfo,
+		"File Image":                         &fileImageInfo,
+		"file-input":                         &fileInputInfo,
+		"File Input":                         &fileInputInfo,
+		"file-json-2":                        &fileJson2Info,
+		"File Json 2":                        &fileJson2Info,
+		"file-json":                          &fileJsonInfo,
+		"File Json":                          &fileJsonInfo,
+		"file-key-2":                         &fileKey2Info,
+		"File Key 2":                         &fileKey2Info,
+		"file-key":                           &fileKeyInfo,
+		"File Key":                           &fileKeyInfo,
+		"file-lock-2":                        &fileLock2Info,
+		"File Lock 2":                        &fileLock2Info,
+		"file-lock":                          &fileLockInfo,
+		"File Lock":                          &fileLockInfo,
+		"file-minus-2":                       &fileMinus2Info,
+		"File Minus 2":                       &fileMinus2Info,
+		"file-minus":                         &fileMinusInfo,
+		"File Minus":                         &fileMinusInfo,
+		"file-music":                         &fileMusicInfo,
+		"File Music":                         &fileMusicInfo,
+		"file-output":                        &fileOutputInfo,
+		"File Output":                        &fileOutputInfo,
+		"file-pen-line":                      &filePenLineInfo,
+		"File Pen Line":                      &filePenLineInfo,
+		"file-pen":                           &filePenInfo,
+		"File Pen":                           &filePenInfo,
+		"file-plus-2":                        &filePlus2Info,
+		"File Plus 2":                        &filePlus2Info,
+		"file-plus":                          &filePlusInfo,
+		"File Plus":                          &filePlusInfo,
+		"file-question":                      &fileQuestionInfo,
+		"File Question":                      &fileQuestionInfo,
+		"file-scan":                          &fileScanInfo,
+		"File Scan":                          &fileScanInfo,
+		"file-search-2":                      &fileSearch2Info,
+		"File Search 2":                      &fileSearch2Info,
+		"file-search":                        &fileSearchInfo,
+		"File Search":                        &fileSearchInfo,
+		"file-sliders":                       &fileSlidersInfo,
+		"File Sliders":                       &fileSlidersInfo,
+		"file-spreadsheet":                   &fileSpreadsheetInfo,
+		"File Spreadsheet":                   &fileSpreadsheetInfo,
+		"file-stack":                         &fileStackInfo,
+		"File Stack":                         &fileStackInfo,
+		"file-symlink":                       &fileSymlinkInfo,
+		"File Symlink":                       &fileSymlinkInfo,
+		"file-terminal":                      &fileTerminalInfo,
+		"File Terminal":                      &fileTerminalInfo,
+		"file-text":                          &fileTextInfo,
+		"File Text":                          &fileTextInfo,
+		"file-type-2":                        &fileType2Info,
+		"File Type 2":                        &fileType2Info,
+		"file-type":                          &fileTypeInfo,
+		"File Type":                          &fileTypeInfo,
+		"file-up":                            &fileUpInfo,
+		"File Up":                            &fileUpInfo,
+		"file-user":                          &fileUserInfo,
+		"File User":                          &fileUserInfo,
+		"file-video-2":                       &fileVideo2Info,
+		"File Video 2":                       &fileVideo2Info,
+		"file-video":                         &fileVideoInfo,
+		"File Video":                         &fileVideoInfo,
+		"file-volume-2":                      &fileVolume2Info,
+		"File Volume 2":                      &fileVolume2Info,
+		"file-volume":                        &fileVolumeInfo,
+		"File Volume":                        &fileVolumeInfo,
+		"file-warning":                       &fileWarningInfo,
+		"File Warning":                       &fileWarningInfo,
+		"file-x-2":                           &fileX2Info,
+		"File X 2":                           &fileX2Info,
+		"file-x":                             &fileXInfo,
+		"File X":                             &fileXInfo,
+		"file":                               &fileInfo,
+		"File":                               &fileInfo,
+		"files":                              &filesInfo,
+		"Files":                              &filesInfo,
+		"film":                               &filmInfo,
+		"Film":                               &filmInfo,
+		"filter-x":                           &filterXInfo,
+		"Filter X":                           &filterXInfo,
+		"filter":                             &filterInfo,
+		"Filter":                             &filterInfo,
+		"fingerprint":                        &fingerprintInfo,
+		"Fingerprint":                        &fingerprintInfo,
+		"fire-extinguisher":                  &fireExtinguisherInfo,
+		"Fire Extinguisher":                  &fireExtinguisherInfo,
+		"fish-off":                           &fishOffInfo,
+		"Fish Off":                           &fishOffInfo,
+		"fish-symbol":                        &fishSymbolInfo,
+		"Fish Symbol":                        &fishSymbolInfo,
+		"fish":                               &fishInfo,
+		"Fish":                               &fishInfo,
+		"flag-off":                           &flagOffInfo,
+		"Flag Off":                           &flagOffInfo,
+		"flag-triangle-left":                 &flagTriangleLeftInfo,
+		"Flag Triangle Left":                 &flagTriangleLeftInfo,
+		"flag-triangle-right":                &flagTriangleRightInfo,
+		"Flag Triangle Right":                &flagTriangleRightInfo,
+		"flag":                               &flagInfo,
+		"Flag":                               &flagInfo,
+		"flame-kindling":                     &flameKindlingInfo,
+		"Flame Kindling":                     &flameKindlingInfo,
+		"flame":                              &flameInfo,
+		"Flame":                              &flameInfo,
+		"flashlight-off":                     &flashlightOffInfo,
+		"Flashlight Off":                     &flashlightOffInfo,
+		"flashlight":                         &flashlightInfo,
+		"Flashlight":                         &flashlightInfo,
+		"flask-conical-off":                  &flaskConicalOffInfo,
+		"Flask Conical Off":                  &flaskConicalOffInfo,
+		"flask-conical":                      &flaskConicalInfo,
+		"Flask Conical":                      &flaskConicalInfo,
+		"flask-round":                        &flaskRoundInfo,
+		"Flask Round":                        &flaskRoundInfo,
+		"flip-horizontal-2":                  &flipHorizontal2Info,
+		"Flip Horizontal 2":                  &flipHorizontal2Info,
+		"flip-horizontal":                    &flipHorizontalInfo,
+		"Flip Horizontal":                    &flipHorizontalInfo,
+		"flip-vertical-2":                    &flipVertical2Info,
+		"Flip Vertical 2":                    &flipVertical2Info,
+		"flip-vertical":                      &flipVerticalInfo,
+		"Flip Vertical":                      &flipVerticalInfo,
+		"flower-2":                           &flower2Info,
+		"Flower 2":                           &flower2Info,
+		"flower":                             &flowerInfo,
+		"Flower":                             &flowerInfo,
+		"focus":                              &focusInfo,
+		"Focus":                              &focusInfo,
+		"fold-horizontal":                    &foldHorizontalInfo,
+		"Fold Horizontal":                    &foldHorizontalInfo,
+		"fold-vertical":                      &foldVerticalInfo,
+		"Fold Vertical":                      &foldVerticalInfo,
+		"folder-archive":                     &folderArchiveInfo,
+		"Folder Archive":                     &folderArchiveInfo,
+		"folder-check":                       &folderCheckInfo,
+		"Folder Check":                       &folderCheckInfo,
+		"folder-clock":                       &folderClockInfo,
+		"Folder Clock":                       &folderClockInfo,
+		"folder-closed":                      &folderClosedInfo,
+		"Folder Closed":                      &folderClosedInfo,
+		"folder-code":                        &folderCodeInfo,
+		"Folder Code":                        &folderCodeInfo,
+		"folder-cog":                         &folderCogInfo,
+		"Folder Cog":                         &folderCogInfo,
+		"folder-dot":                         &folderDotInfo,
+		"Folder Dot":                         &folderDotInfo,
+		"folder-down":                        &folderDownInfo,
+		"Folder Down":                        &folderDownInfo,
+		"folder-git-2":                       &folderGit2Info,
+		"Folder Git 2":                       &folderGit2Info,
+		"folder-git":                         &folderGitInfo,
+		"Folder Git":                         &folderGitInfo,
+		"folder-heart":                       &folderHeartInfo,
+		"Folder Heart":                       &folderHeartInfo,
+		"folder-input":                       &folderInputInfo,
+		"Folder Input":                       &folderInputInfo,
+		"folder-kanban":                      &folderKanbanInfo,
+		"Folder Kanban":                      &folderKanbanInfo,
+		"folder-key":                         &folderKeyInfo,
+		"Folder Key":                         &folderKeyInfo,
+		"folder-lock":                        &folderLockInfo,
+		"Folder Lock":                        &folderLockInfo,
+		"folder-minus":                       &folderMinusInfo,
+		"Folder Minus":                       &folderMinusInfo,
+		"folder-open-dot":                    &folderOpenDotInfo,
+		"Folder Open Dot":                    &folderOpenDotInfo,
+		"folder-open":                        &folderOpenInfo,
+		"Folder Open":                        &folderOpenInfo,
+		"folder-output":                      &folderOutputInfo,
+		"Folder Output":                      &folderOutputInfo,
+		"folder-pen":                         &folderPenInfo,
+		"Folder Pen":                         &folderPenInfo,
+		"folder-plus":                        &folderPlusInfo,
+		"Folder Plus":                        &folderPlusInfo,
+		"folder-root":                        &folderRootInfo,
+		"Folder Root":                        &folderRootInfo,
+		"folder-search-2":                    &folderSearch2Info,
+		"Folder Search 2":                    &folderSearch2Info,
+		"folder-search":                      &folderSearchInfo,
+		"Folder Search":                      &folderSearchInfo,
+		"folder-symlink":                     &folderSymlinkInfo,
+		"Folder Symlink":                     &folderSymlinkInfo,
+		"folder-sync":                        &folderSyncInfo,
+		"Folder Sync":                        &folderSyncInfo,
+		"folder-tree":                        &folderTreeInfo,
+		"Folder Tree":                        &folderTreeInfo,
+		"folder-up":                          &folderUpInfo,
+		"Folder Up":                          &folderUpInfo,
+		"folder-x":                           &folderXInfo,
+		"Folder X":                           &folderXInfo,
+		"folder":                             &folderInfo,
+		"Folder":                             &folderInfo,
+		"folders":                            &foldersInfo,
+		"Folders":                            &foldersInfo,
+		"footprints":                         &footprintsInfo,
+		"Footprints":                         &footprintsInfo,
+		"forklift":                           &forkliftInfo,
+		"Forklift":                           &forkliftInfo,
+		"forward":                            &forwardInfo,
+		"Forward":                            &forwardInfo,
+		"frame":                              &frameInfo,
+		"Frame":                              &frameInfo,
+		"framer":                             &framerInfo,
+		"Framer":                             &framerInfo,
+		"frown":                              &frownInfo,
+		"Frown":                              &frownInfo,
+		"fuel":                               &fuelInfo,
+		"Fuel":                               &fuelInfo,
+		"fullscreen":                         &fullscreenInfo,
+		"Fullscreen":                         &fullscreenInfo,
+		"gallery-horizontal-end":             &galleryHorizontalEndInfo,
+		"Gallery Horizontal End":             &galleryHorizontalEndInfo,
+		"gallery-horizontal":                 &galleryHorizontalInfo,
+		"Gallery Horizontal":                 &galleryHorizontalInfo,
+		"gallery-thumbnails":                 &galleryThumbnailsInfo,
+		"Gallery Thumbnails":                 &galleryThumbnailsInfo,
+		"gallery-vertical-end":               &galleryVerticalEndInfo,
+		"Gallery Vertical End":               &galleryVerticalEndInfo,
+		"gallery-vertical":                   &galleryVerticalInfo,
+		"Gallery Vertical":                   &galleryVerticalInfo,
+		"gamepad-2":                          &gamepad2Info,
+		"Gamepad 2":                          &gamepad2Info,
+		"gamepad":                            &gamepadInfo,
+		"Gamepad":                            &gamepadInfo,
+		"gauge":                              &gaugeInfo,
+		"Gauge":                              &gaugeInfo,
+		"gavel":                              &gavelInfo,
+		"Gavel":                              &gavelInfo,
+		"gem":                                &gemInfo,
+		"Gem":                                &gemInfo,
+		"ghost":                              &ghostInfo,
+		"Ghost":                              &ghostInfo,
+		"gift":                               &giftInfo,
+		"Gift":                               &giftInfo,
+		"git-branch-plus":                    &gitBranchPlusInfo,
+		"Git Branch Plus":                    &gitBranchPlusInfo,
+		"git-branch":                         &gitBranchInfo,
+		"Git Branch":                         &gitBranchInfo,
+		"git-commit-horizontal":              &gitCommitHorizontalInfo,
+		"Git Commit Horizontal":              &gitCommitHorizontalInfo,
+		"git-commit-vertical":                &gitCommitVerticalInfo,
+		"Git Commit Vertical":                &gitCommitVerticalInfo,
+		"git-compare-arrows":                 &gitCompareArrowsInfo,
+		"Git Compare Arrows":                 &gitCompareArrowsInfo,
+		"git-compare":                        &gitCompareInfo,
+		"Git Compare":                        &gitCompareInfo,
+		"git-fork":                           &gitForkInfo,
+		"Git Fork":                           &gitForkInfo,
+		"git-graph":                          &gitGraphInfo,
+		"Git Graph":                          &gitGraphInfo,
+		"git-merge":                          &gitMergeInfo,
+		"Git Merge":                          &gitMergeInfo,
+		"git-pull-request-arrow":             &gitPullRequestArrowInfo,
+		"Git Pull Request Arrow":             &gitPullRequestArrowInfo,
+		"git-pull-request-closed":            &gitPullRequestClosedInfo,
+		"Git Pull Request Closed":            &gitPullRequestClosedInfo,
+		"git-pull-request-create-arrow":      &gitPullRequestCreateArrowInfo,
+		"Git Pull Request Create Arrow":      &gitPullRequestCreateArrowInfo,
+		"git-pull-request-create":            &gitPullRequestCreateInfo,
+		"Git Pull Request Create":            &gitPullRequestCreateInfo,
+		"git-pull-request-draft":             &gitPullRequestDraftInfo,
+		"Git Pull Request Draft":             &gitPullRequestDraftInfo,
+		"git-pull-request":                   &gitPullRequestInfo,
+		"Git Pull Request":                   &gitPullRequestInfo,
+		"github":                             &githubInfo,
+		"Github":                             &githubInfo,
+		"gitlab":                             &gitlabInfo,
+		"Gitlab":                             &gitlabInfo,
+		"glass-water":                        &glassWaterInfo,
+		"Glass Water":                        &glassWaterInfo,
+		"glasses":                            &glassesInfo,
+		"Glasses":                            &glassesInfo,
+		"globe-lock":                         &globeLockInfo,
+		"Globe Lock":                         &globeLockInfo,
+		"globe":                              &globeInfo,
+		"Globe":                              &globeInfo,
+		"goal":                               &goalInfo,
+		"Goal":                               &goalInfo,
+		"grab":                               &grabInfo,
+		"Grab":                               &grabInfo,
+		"graduation-cap":                     &graduationCapInfo,
+		"Graduation Cap":                     &graduationCapInfo,
+		"grape":                              &grapeInfo,
+		"Grape":                              &grapeInfo,
+		"grid-2x2-check":                     &grid2x2CheckInfo,
+		"Grid 2x2 Check":                     &grid2x2CheckInfo,
+		"grid-2x2-plus":                      &grid2x2PlusInfo,
+		"Grid 2x2 Plus":                      &grid2x2PlusInfo,
+		"grid-2x2-x":                         &grid2x2XInfo,
+		"Grid 2x2 X":                         &grid2x2XInfo,
+		"grid-2x2":                           &grid2x2Info,
+		"Grid 2x2":                           &grid2x2Info,
+		"grid-3x3":                           &grid3x3Info,
+		"Grid 3x3":                           &grid3x3Info,
+		"grip-horizontal":                    &gripHorizontalInfo,
+		"Grip Horizontal":                    &gripHorizontalInfo,
+		"grip-vertical":                      &gripVerticalInfo,
+		"Grip Vertical":                      &gripVerticalInfo,
+		"grip":                               &gripInfo,
+		"Grip":                               &gripInfo,
+		"group":                              &groupInfo,
+		"Group":                              &groupInfo,
+		"guitar":                             &guitarInfo,
+		"Guitar":                             &guitarInfo,
+		"ham":                                &hamInfo,
+		"Ham":                                &hamInfo,
+		"hammer":                             &hammerInfo,
+		"Hammer":                             &hammerInfo,
+		"hand-coins":                         &handCoinsInfo,
+		"Hand Coins":                         &handCoinsInfo,
+		"hand-heart":                         &handHeartInfo,
+		"Hand Heart":                         &handHeartInfo,
+		"hand-helping":                       &handHelpingInfo,
+		"Hand Helping":                       &handHelpingInfo,
+		"hand-metal":                         &handMetalInfo,
+		"Hand Metal":                         &handMetalInfo,
+		"hand-platter":                       &handPlatterInfo,
+		"Hand Platter":                       &handPlatterInfo,
+		"hand":                               &handInfo,
+		"Hand":                               &handInfo,
+		"handshake":                          &handshakeInfo,
+		"Handshake":                          &handshakeInfo,
+		"hard-drive-download":                &hardDriveDownloadInfo,
+		"Hard Drive Download":                &hardDriveDownloadInfo,
+		"hard-drive-upload":                  &hardDriveUploadInfo,
+		"Hard Drive Upload":                  &hardDriveUploadInfo,
+		"hard-drive":                         &hardDriveInfo,
+		"Hard Drive":                         &hardDriveInfo,
+		"hard-hat":                           &hardHatInfo,
+		"Hard Hat":                           &hardHatInfo,
+		"hash":                               &hashInfo,
+		"Hash":                               &hashInfo,
+		"haze":                               &hazeInfo,
+		"Haze":                               &hazeInfo,
+		"hdmi-port":                          &hdmiPortInfo,
+		"Hdmi Port":                          &hdmiPortInfo,
+		"heading-1":                          &heading1Info,
+		"Heading 1":                          &heading1Info,
+		"heading-2":                          &heading2Info,
+		"Heading 2":                          &heading2Info,
+		"heading-3":                          &heading3Info,
+		"Heading 3":                          &heading3Info,
+		"heading-4":                          &heading4Info,
+		"Heading 4":                          &heading4Info,
+		"heading-5":                          &heading5Info,
+		"Heading 5":                          &heading5Info,
+		"heading-6":                          &heading6Info,
+		"Heading 6":                          &heading6Info,
+		"heading":                            &headingInfo,
+		"Heading":                            &headingInfo,
+		"headphone-off":                      &headphoneOffInfo,
+		"Headphone Off":                      &headphoneOffInfo,
+		"headphones":                         &headphonesInfo,
+		"Headphones":                         &headphonesInfo,
+		"headset":                            &headsetInfo,
+		"Headset":                            &headsetInfo,
+		"heart-crack":                        &heartCrackInfo,
+		"Heart Crack":                        &heartCrackInfo,
+		"heart-handshake":                    &heartHandshakeInfo,
+		"Heart Handshake":                    &heartHandshakeInfo,
+		"heart-off":                          &heartOffInfo,
+		"Heart Off":                          &heartOffInfo,
+		"heart-pulse":                        &heartPulseInfo,
+		"Heart Pulse":                        &heartPulseInfo,
+		"heart":                              &heartInfo,
+		"Heart":                              &heartInfo,
+		"heater":                             &heaterInfo,
+		"Heater":                             &heaterInfo,
+		"hexagon":                            &hexagonInfo,
+		"Hexagon":                            &hexagonInfo,
+		"highlighter":                        &highlighterInfo,
+		"Highlighter":                        &highlighterInfo,
+		"history":                            &historyInfo,
+		"History":                            &historyInfo,
+		"hop-off":                            &hopOffInfo,
+		"Hop Off":                            &hopOffInfo,
+		"hop":                                &hopInfo,
+		"Hop":                                &hopInfo,
+		"hospital":                           &hospitalInfo,
+		"Hospital":                           &hospitalInfo,
+		"hotel":                              &hotelInfo,
+		"Hotel":                              &hotelInfo,
+		"hourglass":                          &hourglassInfo,
+		"Hourglass":                          &hourglassInfo,
+		"house-plug":                         &housePlugInfo,
+		"House Plug":                         &housePlugInfo,
+		"house-plus":                         &housePlusInfo,
+		"House Plus":                         &housePlusInfo,
+		"house":                              &houseInfo,
+		"House":                              &houseInfo,
+		"ice-cream-bowl":                     &iceCreamBowlInfo,
+		"Ice Cream Bowl":                     &iceCreamBowlInfo,
+		"ice-cream-cone":                     &iceCreamConeInfo,
+		"Ice Cream Cone":                     &iceCreamConeInfo,
+		"id-card":                            &idCardInfo,
+		"Id Card":                            &idCardInfo,
+		"image-down":                         &imageDownInfo,
+		"Image Down":                         &imageDownInfo,
+		"image-minus":                        &imageMinusInfo,
+		"Image Minus":                        &imageMinusInfo,
+		"image-off":                          &imageOffInfo,
+		"Image Off":                          &imageOffInfo,
+		"image-play":                         &imagePlayInfo,
+		"Image Play":                         &imagePlayInfo,
+		"image-plus":                         &imagePlusInfo,
+		"Image Plus":                         &imagePlusInfo,
+		"image-up":                           &imageUpInfo,
+		"Image Up":                           &imageUpInfo,
+		"image":                              &imageInfo,
+		"Image":                              &imageInfo,
+		"images":                             &imagesInfo,
+		"Images":                             &imagesInfo,
+		"import":                             &importInfo,
+		"Import":                             &importInfo,
+		"inbox":                              &inboxInfo,
+		"Inbox":                              &inboxInfo,
+		"indent-decrease":                    &indentDecreaseInfo,
+		"Indent Decrease":                    &indentDecreaseInfo,
+		"indent-increase":                    &indentIncreaseInfo,
+		"Indent Increase":                    &indentIncreaseInfo,
+		"indian-rupee":                       &indianRupeeInfo,
+		"Indian Rupee":                       &indianRupeeInfo,
+		"infinity":                           &infinityInfo,
+		"Infinity":                           &infinityInfo,
+		"info":                               &infoInfo,
+		"Info":                               &infoInfo,
+		"inspection-panel":                   &inspectionPanelInfo,
+		"Inspection Panel":                   &inspectionPanelInfo,
+		"instagram":                          &instagramInfo,
+		"Instagram":                          &instagramInfo,
+		"italic":                             &italicInfo,
+		"Italic":                             &italicInfo,
+		"iteration-ccw":                      &iterationCcwInfo,
+		"Iteration Ccw":                      &iterationCcwInfo,
+		"iteration-cw":                       &iterationCwInfo,
+		"Iteration Cw":                       &iterationCwInfo,
+		"japanese-yen":                       &japaneseYenInfo,
+		"Japanese Yen":                       &japaneseYenInfo,
+		"joystick":                           &joystickInfo,
+		"Joystick":                           &joystickInfo,
+		"kanban":                             &kanbanInfo,
+		"Kanban":                             &kanbanInfo,
+		"key-round":                          &keyRoundInfo,
+		"Key Round":                          &keyRoundInfo,
+		"key-square":                         &keySquareInfo,
+		"Key Square":                         &keySquareInfo,
+		"key":                                &keyInfo,
+		"Key":                                &keyInfo,
+		"keyboard-music":                     &keyboardMusicInfo,
+		"Keyboard Music":                     &keyboardMusicInfo,
+		"keyboard-off":                       &keyboardOffInfo,
+		"Keyboard Off":                       &keyboardOffInfo,
+		"keyboard":                           &keyboardInfo,
+		"Keyboard":                           &keyboardInfo,
+		"lamp-ceiling":                       &lampCeilingInfo,
+		"Lamp Ceiling":                       &lampCeilingInfo,
+		"lamp-desk":                          &lampDeskInfo,
+		"Lamp Desk":                          &lampDeskInfo,
+		"lamp-floor":                         &lampFloorInfo,
+		"Lamp Floor":                         &lampFloorInfo,
+		"lamp-wall-down":                     &lampWallDownInfo,
+		"Lamp Wall Down":                     &lampWallDownInfo,
+		"lamp-wall-up":                       &lampWallUpInfo,
+		"Lamp Wall Up":                       &lampWallUpInfo,
+		"lamp":                               &lampInfo,
+		"Lamp":                               &lampInfo,
+		"land-plot":                          &landPlotInfo,
+		"Land Plot":                          &landPlotInfo,
+		"landmark":                           &landmarkInfo,
+		"Landmark":                           &landmarkInfo,
+		"languages":                          &languagesInfo,
+		"Languages":                          &languagesInfo,
+		"laptop-minimal":                     &laptopMinimalInfo,
+		"Laptop Minimal":                     &laptopMinimalInfo,
+		"laptop":                             &laptopInfo,
+		"Laptop":                             &laptopInfo,
+		"lasso-select":                       &lassoSelectInfo,
+		"Lasso Select":                       &lassoSelectInfo,
+		"lasso":                              &lassoInfo,
+		"Lasso":                              &lassoInfo,
+		"laugh":                              &laughInfo,
+		"Laugh":                              &laughInfo,
+		"layers-2":                           &layers2Info,
+		"Layers 2":                           &layers2Info,
+		"layers-3":                           &layers3Info,
+		"Layers 3":                           &layers3Info,
+		"layers":                             &layersInfo,
+		"Layers":                             &layersInfo,
+		"layout-dashboard":                   &layoutDashboardInfo,
+		"Layout Dashboard":                   &layoutDashboardInfo,
+		"layout-grid":                        &layoutGridInfo,
+		"Layout Grid":                        &layoutGridInfo,
+		"layout-list":                        &layoutListInfo,
+		"Layout List":                        &layoutListInfo,
+		"layout-panel-left":                  &layoutPanelLeftInfo,
+		"Layout Panel Left":                  &layoutPanelLeftInfo,
+		"layout-panel-top":                   &layoutPanelTopInfo,
+		"Layout Panel Top":                   &layoutPanelTopInfo,
+		"layout-template":                    &layoutTemplateInfo,
+		"Layout Template":                    &layoutTemplateInfo,
+		"leaf":                               &leafInfo,
+		"Leaf":                               &leafInfo,
+		"leafy-green":                        &leafyGreenInfo,
+		"Leafy Green":                        &leafyGreenInfo,
+		"lectern":                            &lecternInfo,
+		"Lectern":                            &lecternInfo,
+		"letter-text":                        &letterTextInfo,
+		"Letter Text":                        &letterTextInfo,
+		"library-big":                        &libraryBigInfo,
+		"Library Big":                        &libraryBigInfo,
+		"library":                            &libraryInfo,
+		"Library":                            &libraryInfo,
+		"life-buoy":                          &lifeBuoyInfo,
+		"Life Buoy":                          &lifeBuoyInfo,
+		"ligature":                           &ligatureInfo,
+		"Ligature":                           &ligatureInfo,
+		"lightbulb-off":                      &lightbulbOffInfo,
+		"Lightbulb Off":                      &lightbulbOffInfo,
+		"lightbulb":                          &lightbulbInfo,
+		"Lightbulb":                          &lightbulbInfo,
+		"link-2-off":                         &link2OffInfo,
+		"Link 2 Off":                         &link2OffInfo,
+		"link-2":                             &link2Info,
+		"Link 2":                             &link2Info,
+		"link":                               &linkInfo,
+		"Link":                               &linkInfo,
+		"linkedin":                           &linkedinInfo,
+		"Linkedin":                           &linkedinInfo,
+		"list-check":                         &listCheckInfo,
+		"List Check":                         &listCheckInfo,
+		"list-checks":                        &listChecksInfo,
+		"List Checks":                        &listChecksInfo,
+		"list-collapse":                      &listCollapseInfo,
+		"List Collapse":                      &listCollapseInfo,
+		"list-end":                           &listEndInfo,
+		"List End":                           &listEndInfo,
+		"list-filter":                        &listFilterInfo,
+		"List Filter":                        &listFilterInfo,
+		"list-minus":                         &listMinusInfo,
+		"List Minus":                         &listMinusInfo,
+		"list-music":                         &listMusicInfo,
+		"List Music":                         &listMusicInfo,
+		"list-ordered":                       &listOrderedInfo,
+		"List Ordered":                       &listOrderedInfo,
+		"list-plus":                          &listPlusInfo,
+		"List Plus":                          &listPlusInfo,
+		"list-restart":                       &listRestartInfo,
+		"List Restart":                       &listRestartInfo,
+		"list-start":                         &listStartInfo,
+		"List Start":                         &listStartInfo,
+		"list-todo":                          &listTodoInfo,
+		"List Todo":                          &listTodoInfo,
+		"list-tree":                          &listTreeInfo,
+		"List Tree":                          &listTreeInfo,
+		"list-video":                         &listVideoInfo,
+		"List Video":                         &listVideoInfo,
+		"list-x":                             &listXInfo,
+		"List X":                             &listXInfo,
+		"list":                               &listInfo,
+		"List":                               &listInfo,
+		"loader-circle":                      &loaderCircleInfo,
+		"Loader Circle":                      &loaderCircleInfo,
+		"loader-pinwheel":                    &loaderPinwheelInfo,
+		"Loader Pinwheel":                    &loaderPinwheelInfo,
+		"loader":                             &loaderInfo,
+		"Loader":                             &loaderInfo,
+		"locate-fixed":                       &locateFixedInfo,
+		"Locate Fixed":                       &locateFixedInfo,
+		"locate-off":                         &locateOffInfo,
+		"Locate Off":                         &locateOffInfo,
+		"locate":                             &locateInfo,
+		"Locate":                             &locateInfo,
+		"lock-keyhole-open":                  &lockKeyholeOpenInfo,
+		"Lock Keyhole Open":                  &lockKeyholeOpenInfo,
+		"lock-keyhole":                       &lockKeyholeInfo,
+		"Lock Keyhole":                       &lockKeyholeInfo,
+		"lock-open":                          &lockOpenInfo,
+		"Lock Open":                          &lockOpenInfo,
+		"lock":                               &lockInfo,
+		"Lock":                               &lockInfo,
+		"log-in":                             &logInInfo,
+		"Log In":                             &logInInfo,
+		"log-out":                            &logOutInfo,
+		"Log Out":                            &logOutInfo,
+		"logs":                               &logsInfo,
+		"Logs":                               &logsInfo,
+		"lollipop":                           &lollipopInfo,
+		"Lollipop":                           &lollipopInfo,
+		"luggage":                            &luggageInfo,
+		"Luggage":                            &luggageInfo,
+		"magnet":                             &magnetInfo,
+		"Magnet":                             &magnetInfo,
+		"mail-check":                         &mailCheckInfo,
+		"Mail Check":                         &mailCheckInfo,
+		"mail-minus":                         &mailMinusInfo,
+		"Mail Minus":                         &mailMinusInfo,
+		"mail-open":                          &mailOpenInfo,
+		"Mail Open":                          &mailOpenInfo,
+		"mail-plus":                          &mailPlusInfo,
+		"Mail Plus":                          &mailPlusInfo,
+		"mail-question":                      &mailQuestionInfo,
+		"Mail Question":                      &mailQuestionInfo,
+		"mail-search":                        &mailSearchInfo,
+		"Mail Search":                        &mailSearchInfo,
+		"mail-warning":                       &mailWarningInfo,
+		"Mail Warning":                       &mailWarningInfo,
+		"mail-x":                             &mailXInfo,
+		"Mail X":                             &mailXInfo,
+		"mail":                               &mailInfo,
+		"Mail":                               &mailInfo,
+		"mailbox":                            &mailboxInfo,
+		"Mailbox":                            &mailboxInfo,
+		"mails":                              &mailsInfo,
+		"Mails":                              &mailsInfo,
+		"map-pin-check-inside":               &mapPinCheckInsideInfo,
+		"Map Pin Check Inside":               &mapPinCheckInsideInfo,
+		"map-pin-check":                      &mapPinCheckInfo,
+		"Map Pin Check":                      &mapPinCheckInfo,
+		"map-pin-house":                      &mapPinHouseInfo,
+		"Map Pin House":                      &mapPinHouseInfo,
+		"map-pin-minus-inside":               &mapPinMinusInsideInfo,
+		"Map Pin Minus Inside":               &mapPinMinusInsideInfo,
+		"map-pin-minus":                      &mapPinMinusInfo,
+		"Map Pin Minus":                      &mapPinMinusInfo,
+		"map-pin-off":                        &mapPinOffInfo,
+		"Map Pin Off":                        &mapPinOffInfo,
+		"map-pin-plus-inside":                &mapPinPlusInsideInfo,
+		"Map Pin Plus Inside":                &mapPinPlusInsideInfo,
+		"map-pin-plus":                       &mapPinPlusInfo,
+		"Map Pin Plus":                       &mapPinPlusInfo,
+		"map-pin-x-inside":                   &mapPinXInsideInfo,
+		"Map Pin X Inside":                   &mapPinXInsideInfo,
+		"map-pin-x":                          &mapPinXInfo,
+		"Map Pin X":                          &mapPinXInfo,
+		"map-pin":                            &mapPinInfo,
+		"Map Pin":                            &mapPinInfo,
+		"map-pinned":                         &mapPinnedInfo,
+		"Map Pinned":                         &mapPinnedInfo,
+		"map":                                &mapInfo,
+		"Map":                                &mapInfo,
+		"martini":                            &martiniInfo,
+		"Martini":                            &martiniInfo,
+		"maximize-2":                         &maximize2Info,
+		"Maximize 2":                         &maximize2Info,
+		"maximize":                           &maximizeInfo,
+		"Maximize":                           &maximizeInfo,
+		"medal":                              &medalInfo,
+		"Medal":                              &medalInfo,
+		"megaphone-off":                      &megaphoneOffInfo,
+		"Megaphone Off":                      &megaphoneOffInfo,
+		"megaphone":                          &megaphoneInfo,
+		"Megaphone":                          &megaphoneInfo,
+		"meh":                                &mehInfo,
+		"Meh":                                &mehInfo,
+		"memory-stick":                       &memoryStickInfo,
+		"Memory Stick":                       &memoryStickInfo,
+		"menu":                               &menuInfo,
+		"Menu":                               &menuInfo,
+		"merge":                              &mergeInfo,
+		"Merge":                              &mergeInfo,
+		"message-circle-code":                &messageCircleCodeInfo,
+		"Message Circle Code":                &messageCircleCodeInfo,
+		"message-circle-dashed":              &messageCircleDashedInfo,
+		"Message Circle Dashed":              &messageCircleDashedInfo,
+		"message-circle-heart":               &messageCircleHeartInfo,
+		"Message Circle Heart":               &messageCircleHeartInfo,
+		"message-circle-more":                &messageCircleMoreInfo,
+		"Message Circle More":                &messageCircleMoreInfo,
+		"message-circle-off":                 &messageCircleOffInfo,
+		"Message Circle Off":                 &messageCircleOffInfo,
+		"message-circle-plus":                &messageCirclePlusInfo,
+		"Message Circle Plus":                &messageCirclePlusInfo,
+		"message-circle-question":            &messageCircleQuestionInfo,
+		"Message Circle Question":            &messageCircleQuestionInfo,
+		"message-circle-reply":               &messageCircleReplyInfo,
+		"Message Circle Reply":               &messageCircleReplyInfo,
+		"message-circle-warning":             &messageCircleWarningInfo,
+		"Message Circle Warning":             &messageCircleWarningInfo,
+		"message-circle-x":                   &messageCircleXInfo,
+		"Message Circle X":                   &messageCircleXInfo,
+		"message-circle":                     &messageCircleInfo,
+		"Message Circle":                     &messageCircleInfo,
+		"message-square-code":                &messageSquareCodeInfo,
+		"Message Square Code":                &messageSquareCodeInfo,
+		"message-square-dashed":              &messageSquareDashedInfo,
+		"Message Square Dashed":              &messageSquareDashedInfo,
+		"message-square-diff":                &messageSquareDiffInfo,
+		"Message Square Diff":                &messageSquareDiffInfo,
+		"message-square-dot":                 &messageSquareDotInfo,
+		"Message Square Dot":                 &messageSquareDotInfo,
+		"message-square-heart":               &messageSquareHeartInfo,
+		"Message Square Heart":               &messageSquareHeartInfo,
+		"message-square-lock":                &messageSquareLockInfo,
+		"Message Square Lock":                &messageSquareLockInfo,
+		"message-square-more":                &messageSquareMoreInfo,
+		"Message Square More":                &messageSquareMoreInfo,
+		"message-square-off":                 &messageSquareOffInfo,
+		"Message Square Off":                 &messageSquareOffInfo,
+		"message-square-plus":                &messageSquarePlusInfo,
+		"Message Square Plus":                &messageSquarePlusInfo,
+		"message-square-quote":               &messageSquareQuoteInfo,
+		"Message Square Quote":               &messageSquareQuoteInfo,
+		"message-square-reply":               &messageSquareReplyInfo,
+		"Message Square Reply":               &messageSquareReplyInfo,
+		"message-square-share":               &messageSquareShareInfo,
+		"Message Square Share":               &messageSquareShareInfo,
+		"message-square-text":                &messageSquareTextInfo,
+		"Message Square Text":                &messageSquareTextInfo,
+		"message-square-warning":             &messageSquareWarningInfo,
+		"Message Square Warning":             &messageSquareWarningInfo,
+		"message-square-x":                   &messageSquareXInfo,
+		"Message Square X":                   &messageSquareXInfo,
+		"message-square":                     &messageSquareInfo,
+		"Message Square":                     &messageSquareInfo,
+		"messages-square":                    &messagesSquareInfo,
+		"Messages Square":                    &messagesSquareInfo,
+		"mic-off":                            &micOffInfo,
+		"Mic Off":                            &micOffInfo,
+		"mic-vocal":                          &micVocalInfo,
+		"Mic Vocal":                          &micVocalInfo,
+		"mic":                                &micInfo,
+		"Mic":                                &micInfo,
+		"microchip":                          &microchipInfo,
+		"Microchip":                          &microchipInfo,
+		"microscope":                         &microscopeInfo,
+		"Microscope":                         &microscopeInfo,
+		"microwave":                          &microwaveInfo,
+		"Microwave":                          &microwaveInfo,
+		"milestone":                          &milestoneInfo,
+		"Milestone":                          &milestoneInfo,
+		"milk-off":                           &milkOffInfo,
+		"Milk Off":                           &milkOffInfo,
+		"milk":                               &milkInfo,
+		"Milk":                               &milkInfo,
+		"minimize-2":                         &minimize2Info,
+		"Minimize 2":                         &minimize2Info,
+		"minimize":                           &minimizeInfo,
+		"Minimize":                           &minimizeInfo,
+		"minus":                              &minusInfo,
+		"Minus":                              &minusInfo,
+		"monitor-check":                      &monitorCheckInfo,
+		"Monitor Check":                      &monitorCheckInfo,
+		"monitor-cog":                        &monitorCogInfo,
+		"Monitor Cog":                        &monitorCogInfo,
+		"monitor-dot":                        &monitorDotInfo,
+		"Monitor Dot":                        &monitorDotInfo,
+		"monitor-down":                       &monitorDownInfo,
+		"Monitor Down":                       &monitorDownInfo,
+		"monitor-off":                        &monitorOffInfo,
+		"Monitor Off":                        &monitorOffInfo,
+		"monitor-pause":                      &monitorPauseInfo,
+		"Monitor Pause":                      &monitorPauseInfo,
+		"monitor-play":                       &monitorPlayInfo,
+		"Monitor Play":                       &monitorPlayInfo,
+		"monitor-smartphone":                 &monitorSmartphoneInfo,
+		"Monitor Smartphone":                 &monitorSmartphoneInfo,
+		"monitor-speaker":                    &monitorSpeakerInfo,
+		"Monitor Speaker":                    &monitorSpeakerInfo,
+		"monitor-stop":                       &monitorStopInfo,
+		"Monitor Stop":                       &monitorStopInfo,
+		"monitor-up":                         &monitorUpInfo,
+		"Monitor Up":                         &monitorUpInfo,
+		"monitor-x":                          &monitorXInfo,
+		"Monitor X":                          &monitorXInfo,
+		"monitor":                            &monitorInfo,
+		"Monitor":                            &monitorInfo,
+		"moon-star":                          &moonStarInfo,
+		"Moon Star":                          &moonStarInfo,
+		"moon":                               &moonInfo,
+		"Moon":                               &moonInfo,
+		"mountain-snow":                      &mountainSnowInfo,
+		"Mountain Snow":                      &mountainSnowInfo,
+		"mountain":                           &mountainInfo,
+		"Mountain":                           &mountainInfo,
+		"mouse-off":                          &mouseOffInfo,
+		"Mouse Off":                          &mouseOffInfo,
+		"mouse-pointer-2":                    &mousePointer2Info,
+		"Mouse Pointer 2":                    &mousePointer2Info,
+		"mouse-pointer-ban":                  &mousePointerBanInfo,
+		"Mouse Pointer Ban":                  &mousePointerBanInfo,
+		"mouse-pointer-click":                &mousePointerClickInfo,
+		"Mouse Pointer Click":                &mousePointerClickInfo,
+		"mouse-pointer":                      &mousePointerInfo,
+		"Mouse Pointer":                      &mousePointerInfo,
+		"mouse":                              &mouseInfo,
+		"Mouse":                              &mouseInfo,
+		"move-3d":                            &move3dInfo,
+		"Move 3d":                            &move3dInfo,
+		"move-diagonal-2":                    &moveDiagonal2Info,
+		"Move Diagonal 2":                    &moveDiagonal2Info,
+		"move-diagonal":                      &moveDiagonalInfo,
+		"Move Diagonal":                      &moveDiagonalInfo,
+		"move-down-left":                     &moveDownLeftInfo,
+		"Move Down Left":                     &moveDownLeftInfo,
+		"move-down-right":                    &moveDownRightInfo,
+		"Move Down Right":                    &moveDownRightInfo,
+		"move-down":                          &moveDownInfo,
+		"Move Down":                          &moveDownInfo,
+		"move-horizontal":                    &moveHorizontalInfo,
+		"Move Horizontal":                    &moveHorizontalInfo,
+		"move-left":                          &moveLeftInfo,
+		"Move Left":                          &moveLeftInfo,
+		"move-right":                         &moveRightInfo,
+		"Move Right":                         &moveRightInfo,
+		"move-up-left":                       &moveUpLeftInfo,
+		"Move Up Left":                       &moveUpLeftInfo,
+		"move-up-right":                      &moveUpRightInfo,
+		"Move Up Right":                      &moveUpRightInfo,
+		"move-up":                            &moveUpInfo,
+		"Move Up":                            &moveUpInfo,
+		"move-vertical":                      &moveVerticalInfo,
+		"Move Vertical":                      &moveVerticalInfo,
+		"move":                               &moveInfo,
+		"Move":                               &moveInfo,
+		"music-2":                            &music2Info,
+		"Music 2":                            &music2Info,
+		"music-3":                            &music3Info,
+		"Music 3":                            &music3Info,
+		"music-4":                            &music4Info,
+		"Music 4":                            &music4Info,
+		"music":                              &musicInfo,
+		"Music":                              &musicInfo,
+		"navigation-2-off":                   &navigation2OffInfo,
+		"Navigation 2 Off":                   &navigation2OffInfo,
+		"navigation-2":                       &navigation2Info,
+		"Navigation 2":                       &navigation2Info,
+		"navigation-off":                     &navigationOffInfo,
+		"Navigation Off":                     &navigationOffInfo,
+		"navigation":                         &navigationInfo,
+		"Navigation":                         &navigationInfo,
+		"network":                            &networkInfo,
+		"Network":                            &networkInfo,
+		"newspaper":                          &newspaperInfo,
+		"Newspaper":                          &newspaperInfo,
+		"nfc":                                &nfcInfo,
+		"Nfc":                                &nfcInfo,
+		"notebook-pen":                       &notebookPenInfo,
+		"Notebook Pen":                       &notebookPenInfo,
+		"notebook-tabs":                      &notebookTabsInfo,
+		"Notebook Tabs":                      &notebookTabsInfo,
+		"notebook-text":                      &notebookTextInfo,
+		"Notebook Text":                      &notebookTextInfo,
+		"notebook":                           &notebookInfo,
+		"Notebook":                           &notebookInfo,
+		"notepad-text-dashed":                &notepadTextDashedInfo,
+		"Notepad Text Dashed":                &notepadTextDashedInfo,
+		"notepad-text":                       &notepadTextInfo,
+		"Notepad Text":                       &notepadTextInfo,
+		"nut-off":                            &nutOffInfo,
+		"Nut Off":                            &nutOffInfo,
+		"nut":                                &nutInfo,
+		"Nut":                                &nutInfo,
+		"octagon-alert":                      &octagonAlertInfo,
+		"Octagon Alert":                      &octagonAlertInfo,
+		"octagon-minus":                      &octagonMinusInfo,
+		"Octagon Minus":                      &octagonMinusInfo,
+		"octagon-pause":                      &octagonPauseInfo,
+		"Octagon Pause":                      &octagonPauseInfo,
+		"octagon-x":                          &octagonXInfo,
+		"Octagon X":                          &octagonXInfo,
+		"octagon":                            &octagonInfo,
+		"Octagon":                            &octagonInfo,
+		"omega":                              &omegaInfo,
+		"Omega":                              &omegaInfo,
+		"option":                             &optionInfo,
+		"Option":                             &optionInfo,
+		"orbit":                              &orbitInfo,
+		"Orbit":                              &orbitInfo,
+		"origami":                            &origamiInfo,
+		"Origami":                            &origamiInfo,
+		"package-2":                          &package2Info,
+		"Package 2":                          &package2Info,
+		"package-check":                      &packageCheckInfo,
+		"Package Check":                      &packageCheckInfo,
+		"package-minus":                      &packageMinusInfo,
+		"Package Minus":                      &packageMinusInfo,
+		"package-open":                       &packageOpenInfo,
+		"Package Open":                       &packageOpenInfo,
+		"package-plus":                       &packagePlusInfo,
+		"Package Plus":                       &packagePlusInfo,
+		"package-search":                     &packageSearchInfo,
+		"Package Search":                     &packageSearchInfo,
+		"package-x":                          &packageXInfo,
+		"Package X":                          &packageXInfo,
+		"package":                            &packageInfo,
+		"Package":                            &packageInfo,
+		"paint-bucket":                       &paintBucketInfo,
+		"Paint Bucket":                       &paintBucketInfo,
+		"paint-roller":                       &paintRollerInfo,
+		"Paint Roller":                       &paintRollerInfo,
+		"paintbrush-vertical":                &paintbrushVerticalInfo,
+		"Paintbrush Vertical":                &paintbrushVerticalInfo,
+		"paintbrush":                         &paintbrushInfo,
+		"Paintbrush":                         &paintbrushInfo,
+		"palette":                            &paletteInfo,
+		"Palette":                            &paletteInfo,
+		"panel-bottom-close":                 &panelBottomCloseInfo,
+		"Panel Bottom Close":                 &panelBottomCloseInfo,
+		"panel-bottom-dashed":                &panelBottomDashedInfo,
+		"Panel Bottom Dashed":                &panelBottomDashedInfo,
+		"panel-bottom-open":                  &panelBottomOpenInfo,
+		"Panel Bottom Open":                  &panelBottomOpenInfo,
+		"panel-bottom":                       &panelBottomInfo,
+		"Panel Bottom":                       &panelBottomInfo,
+		"panel-left-close":                   &panelLeftCloseInfo,
+		"Panel Left Close":                   &panelLeftCloseInfo,
+		"panel-left-dashed":                  &panelLeftDashedInfo,
+		"Panel Left Dashed":                  &panelLeftDashedInfo,
+		"panel-left-open":                    &panelLeftOpenInfo,
+		"Panel Left Open":                    &panelLeftOpenInfo,
+		"panel-left":                         &panelLeftInfo,
+		"Panel Left":                         &panelLeftInfo,
+		"panel-right-close":                  &panelRightCloseInfo,
+		"Panel Right Close":                  &panelRightCloseInfo,
+		"panel-right-dashed":                 &panelRightDashedInfo,
+		"Panel Right Dashed":                 &panelRightDashedInfo,
+		"panel-right-open":                   &panelRightOpenInfo,
+		"Panel Right Open":                   &panelRightOpenInfo,
+		"panel-right":                        &panelRightInfo,
+		"Panel Right":                        &panelRightInfo,
+		"panel-top-close":                    &panelTopCloseInfo,
+		"Panel Top Close":                    &panelTopCloseInfo,
+		"panel-top-dashed":                   &panelTopDashedInfo,
+		"Panel Top Dashed":                   &panelTopDashedInfo,
+		"panel-top-open":                     &panelTopOpenInfo,
+		"Panel Top Open":                     &panelTopOpenInfo,
+		"panel-top":                          &panelTopInfo,
+		"Panel Top":                          &panelTopInfo,
+		"panels-left-bottom":                 &panelsLeftBottomInfo,
+		"Panels Left Bottom":                 &panelsLeftBottomInfo,
+		"panels-right-bottom":                &panelsRightBottomInfo,
+		"Panels Right Bottom":                &panelsRightBottomInfo,
+		"panels-top-left":                    &panelsTopLeftInfo,
+		"Panels Top Left":                    &panelsTopLeftInfo,
+		"paperclip":                          &paperclipInfo,
+		"Paperclip":                          &paperclipInfo,
+		"parentheses":                        &parenthesesInfo,
+		"Parentheses":                        &parenthesesInfo,
+		"parking-meter":                      &parkingMeterInfo,
+		"Parking Meter":                      &parkingMeterInfo,
+		"party-popper":                       &partyPopperInfo,
+		"Party Popper":                       &partyPopperInfo,
+		"pause":                              &pauseInfo,
+		"Pause":                              &pauseInfo,
+		"paw-print":                          &pawPrintInfo,
+		"Paw Print":                          &pawPrintInfo,
+		"pc-case":                            &pcCaseInfo,
+		"Pc Case":                            &pcCaseInfo,
+		"pen-line":                           &penLineInfo,
+		"Pen Line":                           &penLineInfo,
+		"pen-off":                            &penOffInfo,
+		"Pen Off":                            &penOffInfo,
+		"pen-tool":                           &penToolInfo,
+		"Pen Tool":                           &penToolInfo,
+		"pen":                                &penInfo,
+		"Pen":                                &penInfo,
+		"pencil-line":                        &pencilLineInfo,
+		"Pencil Line":                        &pencilLineInfo,
+		"pencil-off":                         &pencilOffInfo,
+		"Pencil Off":                         &pencilOffInfo,
+		"pencil-ruler":                       &pencilRulerInfo,
+		"Pencil Ruler":                       &pencilRulerInfo,
+		"pencil":                             &pencilInfo,
+		"Pencil":                             &pencilInfo,
+		"pentagon":                           &pentagonInfo,
+		"Pentagon":                           &pentagonInfo,
+		"percent":                            &percentInfo,
+		"Percent":                            &percentInfo,
+		"person-standing":                    &personStandingInfo,
+		"Person Standing":                    &personStandingInfo,
+		"philippine-peso":                    &philippinePesoInfo,
+		"Philippine Peso":                    &philippinePesoInfo,
+		"phone-call":                         &phoneCallInfo,
+		"Phone Call":                         &phoneCallInfo,
+		"phone-forwarded":                    &phoneForwardedInfo,
+		"Phone Forwarded":                    &phoneForwardedInfo,
+		"phone-incoming":                     &phoneIncomingInfo,
+		"Phone Incoming":                     &phoneIncomingInfo,
+		"phone-missed":                       &phoneMissedInfo,
+		"Phone Missed":                       &phoneMissedInfo,
+		"phone-off":                          &phoneOffInfo,
+		"Phone Off":                          &phoneOffInfo,
+		"phone-outgoing":                     &phoneOutgoingInfo,
+		"Phone Outgoing":                     &phoneOutgoingInfo,
+		"phone":                              &phoneInfo,
+		"Phone":                              &phoneInfo,
+		"pi":                                 &piInfo,
+		"Pi":                                 &piInfo,
+		"piano":                              &pianoInfo,
+		"Piano":                              &pianoInfo,
+		"pickaxe":                            &pickaxeInfo,
+		"Pickaxe":                            &pickaxeInfo,
+		"picture-in-picture-2":               &pictureInPicture2Info,
+		"Picture In Picture 2":               &pictureInPicture2Info,
+		"picture-in-picture":                 &pictureInPictureInfo,
+		"Picture In Picture":                 &pictureInPictureInfo,
+		"piggy-bank":                         &piggyBankInfo,
+		"Piggy Bank":                         &piggyBankInfo,
+		"pilcrow-left":                       &pilcrowLeftInfo,
+		"Pilcrow Left":                       &pilcrowLeftInfo,
+		"pilcrow-right":                      &pilcrowRightInfo,
+		"Pilcrow Right":                      &pilcrowRightInfo,
+		"pilcrow":                            &pilcrowInfo,
+		"Pilcrow":                            &pilcrowInfo,
+		"pill-bottle":                        &pillBottleInfo,
+		"Pill Bottle":                        &pillBottleInfo,
+		"pill":                               &pillInfo,
+		"Pill":                               &pillInfo,
+		"pin-off":                            &pinOffInfo,
+		"Pin Off":                            &pinOffInfo,
+		"pin":                                &pinInfo,
+		"Pin":                                &pinInfo,
+		"pipette":                            &pipetteInfo,
+		"Pipette":                            &pipetteInfo,
+		"pizza":                              &pizzaInfo,
+		"Pizza":                              &pizzaInfo,
+		"plane-landing":                      &planeLandingInfo,
+		"Plane Landing":                      &planeLandingInfo,
+		"plane-takeoff":                      &planeTakeoffInfo,
+		"Plane Takeoff":                      &planeTakeoffInfo,
+		"plane":                              &planeInfo,
+		"Plane":                              &planeInfo,
+		"play":                               &playInfo,
+		"Play":                               &playInfo,
+		"plug-2":                             &plug2Info,
+		"Plug 2":                             &plug2Info,
+		"plug-zap":                           &plugZapInfo,
+		"Plug Zap":                           &plugZapInfo,
+		"plug":                               &plugInfo,
+		"Plug":                               &plugInfo,
+		"plus":                               &plusInfo,
+		"Plus":                               &plusInfo,
+		"pocket-knife":                       &pocketKnifeInfo,
+		"Pocket Knife":                       &pocketKnifeInfo,
+		"pocket":                             &pocketInfo,
+		"Pocket":                             &pocketInfo,
+		"podcast":                            &podcastInfo,
+		"Podcast":                            &podcastInfo,
+		"pointer-off":                        &pointerOffInfo,
+		"Pointer Off":                        &pointerOffInfo,
+		"pointer":                            &pointerInfo,
+		"Pointer":                            &pointerInfo,
+		"popcorn":                            &popcornInfo,
+		"Popcorn":                            &popcornInfo,
+		"popsicle":                           &popsicleInfo,
+		"Popsicle":                           &popsicleInfo,
+		"pound-sterling":                     &poundSterlingInfo,
+		"Pound Sterling":                     &poundSterlingInfo,
+		"power-off":                          &powerOffInfo,
+		"Power Off":                          &powerOffInfo,
+		"power":                              &powerInfo,
+		"Power":                              &powerInfo,
+		"presentation":                       &presentationInfo,
+		"Presentation":                       &presentationInfo,
+		"printer-check":                      &printerCheckInfo,
+		"Printer Check":                      &printerCheckInfo,
+		"printer":                            &printerInfo,
+		"Printer":                            &printerInfo,
+		"projector":                          &projectorInfo,
+		"Projector":                          &projectorInfo,
+		"proportions":                        &proportionsInfo,
+		"Proportions":                        &proportionsInfo,
+		"puzzle":                             &puzzleInfo,
+		"Puzzle":                             &puzzleInfo,
+		"pyramid":                            &pyramidInfo,
+		"Pyramid":                            &pyramidInfo,
+		"qr-code":                            &qrCodeInfo,
+		"Qr Code":                            &qrCodeInfo,
+		"quote":                              &quoteInfo,
+		"Quote":                              &quoteInfo,
+		"rabbit":                             &rabbitInfo,
+		"Rabbit":                             &rabbitInfo,
+		"radar":                              &radarInfo,
+		"Radar":                              &radarInfo,
+		"radiation":                          &radiationInfo,
+		"Radiation":                          &radiationInfo,
+		"radical":                            &radicalInfo,
+		"Radical":                            &radicalInfo,
+		"radio-receiver":                     &radioReceiverInfo,
+		"Radio Receiver":                     &radioReceiverInfo,
+		"radio-tower":                        &radioTowerInfo,
+		"Radio Tower":                        &radioTowerInfo,
+		"radio":                              &radioInfo,
+		"Radio":                              &radioInfo,
+		"radius":                             &radiusInfo,
+		"Radius":                             &radiusInfo,
+		"rail-symbol":                        &railSymbolInfo,
+		"Rail Symbol":                        &railSymbolInfo,
+		"rainbow":                            &rainbowInfo,
+		"Rainbow":                            &rainbowInfo,
+		"rat":                                &ratInfo,
+		"Rat":                                &ratInfo,
+		"ratio":                              &ratioInfo,
+		"Ratio":                              &ratioInfo,
+		"receipt-cent":                       &receiptCentInfo,
+		"Receipt Cent":                       &receiptCentInfo,
+		"receipt-euro":                       &receiptEuroInfo,
+		"Receipt Euro":                       &receiptEuroInfo,
+		"receipt-indian-rupee":               &receiptIndianRupeeInfo,
+		"Receipt Indian Rupee":               &receiptIndianRupeeInfo,
+		"receipt-japanese-yen":               &receiptJapaneseYenInfo,
+		"Receipt Japanese Yen":               &receiptJapaneseYenInfo,
+		"receipt-pound-sterling":             &receiptPoundSterlingInfo,
+		"Receipt Pound Sterling":             &receiptPoundSterlingInfo,
+		"receipt-russian-ruble":              &receiptRussianRubleInfo,
+		"Receipt Russian Ruble":              &receiptRussianRubleInfo,
+		"receipt-swiss-franc":                &receiptSwissFrancInfo,
+		"Receipt Swiss Franc":                &receiptSwissFrancInfo,
+		"receipt-text":                       &receiptTextInfo,
+		"Receipt Text":                       &receiptTextInfo,
+		"receipt":                            &receiptInfo,
+		"Receipt":                            &receiptInfo,
+		"rectangle-ellipsis":                 &rectangleEllipsisInfo,
+		"Rectangle Ellipsis":                 &rectangleEllipsisInfo,
+		"rectangle-horizontal":               &rectangleHorizontalInfo,
+		"Rectangle Horizontal":               &rectangleHorizontalInfo,
+		"rectangle-vertical":                 &rectangleVerticalInfo,
+		"Rectangle Vertical":                 &rectangleVerticalInfo,
+		"recycle":                            &recycleInfo,
+		"Recycle":                            &recycleInfo,
+		"redo-2":                             &redo2Info,
+		"Redo 2":                             &redo2Info,
+		"redo-dot":                           &redoDotInfo,
+		"Redo Dot":                           &redoDotInfo,
+		"redo":                               &redoInfo,
+		"Redo":                               &redoInfo,
+		"refresh-ccw-dot":                    &refreshCcwDotInfo,
+		"Refresh Ccw Dot":                    &refreshCcwDotInfo,
+		"refresh-ccw":                        &refreshCcwInfo,
+		"Refresh Ccw":                        &refreshCcwInfo,
+		"refresh-cw-off":                     &refreshCwOffInfo,
+		"Refresh Cw Off":                     &refreshCwOffInfo,
+		"refresh-cw":                         &refreshCwInfo,
+		"Refresh Cw":                         &refreshCwInfo,
+		"refrigerator":                       &refrigeratorInfo,
+		"Refrigerator":                       &refrigeratorInfo,
+		"regex":                              &regexInfo,
+		"Regex":                              &regexInfo,
+		"remove-formatting":                  &removeFormattingInfo,
+		"Remove Formatting":                  &removeFormattingInfo,
+		"repeat-1":                           &repeat1Info,
+		"Repeat 1":                           &repeat1Info,
+		"repeat-2":                           &repeat2Info,
+		"Repeat 2":                           &repeat2Info,
+		"repeat":                             &repeatInfo,
+		"Repeat":                             &repeatInfo,
+		"replace-all":                        &replaceAllInfo,
+		"Replace All":                        &replaceAllInfo,
+		"replace":                            &replaceInfo,
+		"Replace":                            &replaceInfo,
+		"reply-all":                          &replyAllInfo,
+		"Reply All":                          &replyAllInfo,
+		"reply":                              &replyInfo,
+		"Reply":                              &replyInfo,
+		"rewind":                             &rewindInfo,
+		"Rewind":                             &rewindInfo,
+		"ribbon":                             &ribbonInfo,
+		"Ribbon":                             &ribbonInfo,
+		"rocket":                             &rocketInfo,
+		"Rocket":                             &rocketInfo,
+		"rocking-chair":                      &rockingChairInfo,
+		"Rocking Chair":                      &rockingChairInfo,
+		"roller-coaster":                     &rollerCoasterInfo,
+		"Roller Coaster":                     &rollerCoasterInfo,
+		"rotate-3d":                          &rotate3dInfo,
+		"Rotate 3d":                          &rotate3dInfo,
+		"rotate-ccw-square":                  &rotateCcwSquareInfo,
+		"Rotate Ccw Square":                  &rotateCcwSquareInfo,
+		"rotate-ccw":                         &rotateCcwInfo,
+		"Rotate Ccw":                         &rotateCcwInfo,
+		"rotate-cw-square":                   &rotateCwSquareInfo,
+		"Rotate Cw Square":                   &rotateCwSquareInfo,
+		"rotate-cw":                          &rotateCwInfo,
+		"Rotate Cw":                          &rotateCwInfo,
+		"route-off":                          &routeOffInfo,
+		"Route Off":                          &routeOffInfo,
+		"route":                              &routeInfo,
+		"Route":                              &routeInfo,
+		"router":                             &routerInfo,
+		"Router":                             &routerInfo,
+		"rows-2":                             &rows2Info,
+		"Rows 2":                             &rows2Info,
+		"rows-3":                             &rows3Info,
+		"Rows 3":                             &rows3Info,
+		"rows-4":                             &rows4Info,
+		"Rows 4":                             &rows4Info,
+		"rss":                                &rssInfo,
+		"Rss":                                &rssInfo,
+		"ruler":                              &rulerInfo,
+		"Ruler":                              &rulerInfo,
+		"russian-ruble":                      &russianRubleInfo,
+		"Russian Ruble":                      &russianRubleInfo,
+		"sailboat":                           &sailboatInfo,
+		"Sailboat":                           &sailboatInfo,
+		"salad":                              &saladInfo,
+		"Salad":                              &saladInfo,
+		"sandwich":                           &sandwichInfo,
+		"Sandwich":                           &sandwichInfo,
+		"satellite-dish":                     &satelliteDishInfo,
+		"Satellite Dish":                     &satelliteDishInfo,
+		"satellite":                          &satelliteInfo,
+		"Satellite":                          &satelliteInfo,
+		"save-all":                           &saveAllInfo,
+		"Save All":                           &saveAllInfo,
+		"save-off":                           &saveOffInfo,
+		"Save Off":                           &saveOffInfo,
+		"save":                               &saveInfo,
+		"Save":                               &saveInfo,
+		"scale-3d":                           &scale3dInfo,
+		"Scale 3d":                           &scale3dInfo,
+		"scale":                              &scaleInfo,
+		"Scale":                              &scaleInfo,
+		"scaling":                            &scalingInfo,
+		"Scaling":                            &scalingInfo,
+		"scan-barcode":                       &scanBarcodeInfo,
+		"Scan Barcode":                       &scanBarcodeInfo,
+		"scan-eye":                           &scanEyeInfo,
+		"Scan Eye":                           &scanEyeInfo,
+		"scan-face":                          &scanFaceInfo,
+		"Scan Face":                          &scanFaceInfo,
+		"scan-line":                          &scanLineInfo,
+		"Scan Line":                          &scanLineInfo,
+		"scan-qr-code":                       &scanQrCodeInfo,
+		"Scan Qr Code":                       &scanQrCodeInfo,
+		"scan-search":                        &scanSearchInfo,
+		"Scan Search":                        &scanSearchInfo,
+		"scan-text":                          &scanTextInfo,
+		"Scan Text":                          &scanTextInfo,
+		"scan":                               &scanInfo,
+		"Scan":                               &scanInfo,
+		"school":                             &schoolInfo,
+		"School":                             &schoolInfo,
+		"scissors-line-dashed":               &scissorsLineDashedInfo,
+		"Scissors Line Dashed":               &scissorsLineDashedInfo,
+		"scissors":                           &scissorsInfo,
+		"Scissors":                           &scissorsInfo,
+		"screen-share-off":                   &screenShareOffInfo,
+		"Screen Share Off":                   &screenShareOffInfo,
+		"screen-share":                       &screenShareInfo,
+		"Screen Share":                       &screenShareInfo,
+		"scroll-text":                        &scrollTextInfo,
+		"Scroll Text":                        &scrollTextInfo,
+		"scroll":                             &scrollInfo,
+		"Scroll":                             &scrollInfo,
+		"search-check":                       &searchCheckInfo,
+		"Search Check":                       &searchCheckInfo,
+		"search-code":                        &searchCodeInfo,
+		"Search Code":                        &searchCodeInfo,
+		"search-slash":                       &searchSlashInfo,
+		"Search Slash":                       &searchSlashInfo,
+		"search-x":                           &searchXInfo,
+		"Search X":                           &searchXInfo,
+		"search":                             &searchInfo,
+		"Search":                             &searchInfo,
+		"section":                            &sectionInfo,
+		"Section":                            &sectionInfo,
+		"send-horizontal":                    &sendHorizontalInfo,
+		"Send Horizontal":                    &sendHorizontalInfo,
+		"send-to-back":                       &sendToBackInfo,
+		"Send To Back":                       &sendToBackInfo,
+		"send":                               &sendInfo,
+		"Send":                               &sendInfo,
+		"separator-horizontal":               &separatorHorizontalInfo,
+		"Separator Horizontal":               &separatorHorizontalInfo,
+		"separator-vertical":                 &separatorVerticalInfo,
+		"Separator Vertical":                 &separatorVerticalInfo,
+		"server-cog":                         &serverCogInfo,
+		"Server Cog":                         &serverCogInfo,
+		"server-crash":                       &serverCrashInfo,
+		"Server Crash":                       &serverCrashInfo,
+		"server-off":                         &serverOffInfo,
+		"Server Off":                         &serverOffInfo,
+		"server":                             &serverInfo,
+		"Server":                             &serverInfo,
+		"settings-2":                         &settings2Info,
+		"Settings 2":                         &settings2Info,
+		"settings":                           &settingsInfo,
+		"Settings":                           &settingsInfo,
+		"shapes":                             &shapesInfo,
+		"Shapes":                             &shapesInfo,
+		"share-2":                            &share2Info,
+		"Share 2":                            &share2Info,
+		"share":                              &shareInfo,
+		"Share":                              &shareInfo,
+		"sheet":                              &sheetInfo,
+		"Sheet":                              &sheetInfo,
+		"shell":                              &shellInfo,
+		"Shell":                              &shellInfo,
+		"shield-alert":                       &shieldAlertInfo,
+		"Shield Alert":                       &shieldAlertInfo,
+		"shield-ban":                         &shieldBanInfo,
+		"Shield Ban":                         &shieldBanInfo,
+		"shield-check":                       &shieldCheckInfo,
+		"Shield Check":                       &shieldCheckInfo,
+		"shield-ellipsis":                    &shieldEllipsisInfo,
+		"Shield Ellipsis":                    &shieldEllipsisInfo,
+		"shield-half":                        &shieldHalfInfo,
+		"Shield Half":                        &shieldHalfInfo,
+		"shield-minus":                       &shieldMinusInfo,
+		"Shield Minus":                       &shieldMinusInfo,
+		"shield-off":                         &shieldOffInfo,
+		"Shield Off":                         &shieldOffInfo,
+		"shield-plus":                        &shieldPlusInfo,
+		"Shield Plus":                        &shieldPlusInfo,
+		"shield-question":                    &shieldQuestionInfo,
+		"Shield Question":                    &shieldQuestionInfo,
+		"shield-x":                           &shieldXInfo,
+		"Shield X":                           &shieldXInfo,
+		"shield":                             &shieldInfo,
+		"Shield":                             &shieldInfo,
+		"ship-wheel":                         &shipWheelInfo,
+		"Ship Wheel":                         &shipWheelInfo,
+		"ship":                               &shipInfo,
+		"Ship":                               &shipInfo,
+		"shirt":                              &shirtInfo,
+		"Shirt":                              &shirtInfo,
+		"shopping-bag":                       &shoppingBagInfo,
+		"Shopping Bag":                       &shoppingBagInfo,
+		"shopping-basket":                    &shoppingBasketInfo,
+		"Shopping Basket":                    &shoppingBasketInfo,
+		"shopping-cart":                      &shoppingCartInfo,
+		"Shopping Cart":                      &shoppingCartInfo,
+		"shovel":                             &shovelInfo,
+		"Shovel":                             &shovelInfo,
+		"shower-head":                        &showerHeadInfo,
+		"Shower Head":                        &showerHeadInfo,
+		"shrink":                             &shrinkInfo,
+		"Shrink":                             &shrinkInfo,
+		"shrub":                              &shrubInfo,
+		"Shrub":                              &shrubInfo,
+		"shuffle":                            &shuffleInfo,
+		"Shuffle":                            &shuffleInfo,
+		"sigma":                              &sigmaInfo,
+		"Sigma":                              &sigmaInfo,
+		"signal-high":                        &signalHighInfo,
+		"Signal High":                        &signalHighInfo,
+		"signal-low":                         &signalLowInfo,
+		"Signal Low":                         &signalLowInfo,
+		"signal-medium":                      &signalMediumInfo,
+		"Signal Medium":                      &signalMediumInfo,
+		"signal-zero":                        &signalZeroInfo,
+		"Signal Zero":                        &signalZeroInfo,
+		"signal":                             &signalInfo,
+		"Signal":                             &signalInfo,
+		"signature":                          &signatureInfo,
+		"Signature":                          &signatureInfo,
+		"signpost-big":                       &signpostBigInfo,
+		"Signpost Big":                       &signpostBigInfo,
+		"signpost":                           &signpostInfo,
+		"Signpost":                           &signpostInfo,
+		"siren":                              &sirenInfo,
+		"Siren":                              &sirenInfo,
+		"skip-back":                          &skipBackInfo,
+		"Skip Back":                          &skipBackInfo,
+		"skip-forward":                       &skipForwardInfo,
+		"Skip Forward":                       &skipForwardInfo,
+		"skull":                              &skullInfo,
+		"Skull":                              &skullInfo,
+		"slack":                              &slackInfo,
+		"Slack":                              &slackInfo,
+		"slash":                              &slashInfo,
+		"Slash":                              &slashInfo,
+		"slice":                              &sliceInfo,
+		"Slice":                              &sliceInfo,
+		"sliders-horizontal":                 &slidersHorizontalInfo,
+		"Sliders Horizontal":                 &slidersHorizontalInfo,
+		"sliders-vertical":                   &slidersVerticalInfo,
+		"Sliders Vertical":                   &slidersVerticalInfo,
+		"smartphone-charging":                &smartphoneChargingInfo,
+		"Smartphone Charging":                &smartphoneChargingInfo,
+		"smartphone-nfc":                     &smartphoneNfcInfo,
+		"Smartphone Nfc":                     &smartphoneNfcInfo,
+		"smartphone":                         &smartphoneInfo,
+		"Smartphone":                         &smartphoneInfo,
+		"smile-plus":                         &smilePlusInfo,
+		"Smile Plus":                         &smilePlusInfo,
+		"smile":                              &smileInfo,
+		"Smile":                              &smileInfo,
+		"snail":                              &snailInfo,
+		"Snail":                              &snailInfo,
+		"snowflake":                          &snowflakeInfo,
+		"Snowflake":                          &snowflakeInfo,
+		"sofa":                               &sofaInfo,
+		"Sofa":                               &sofaInfo,
+		"soup":                               &soupInfo,
+		"Soup":                               &soupInfo,
+		"space":                              &spaceInfo,
+		"Space":                              &spaceInfo,
+		"spade":                              &spadeInfo,
+		"Spade":                              &spadeInfo,
+		"sparkle":                            &sparkleInfo,
+		"Sparkle":                            &sparkleInfo,
+		"sparkles":                           &sparklesInfo,
+		"Sparkles":                           &sparklesInfo,
+		"speaker":                            &speakerInfo,
+		"Speaker":                            &speakerInfo,
+		"speech":                             &speechInfo,
+		"Speech":                             &speechInfo,
+		"spell-check-2":                      &spellCheck2Info,
+		"Spell Check 2":                      &spellCheck2Info,
+		"spell-check":                        &spellCheckInfo,
+		"Spell Check":                        &spellCheckInfo,
+		"spline":                             &splineInfo,
+		"Spline":                             &splineInfo,
+		"split":                              &splitInfo,
+		"Split":                              &splitInfo,
+		"spray-can":                          &sprayCanInfo,
+		"Spray Can":                          &sprayCanInfo,
+		"sprout":                             &sproutInfo,
+		"Sprout":                             &sproutInfo,
+		"square-activity":                    &squareActivityInfo,
+		"Square Activity":                    &squareActivityInfo,
+		"square-arrow-down-left":             &squareArrowDownLeftInfo,
+		"Square Arrow Down Left":             &squareArrowDownLeftInfo,
+		"square-arrow-down-right":            &squareArrowDownRightInfo,
+		"Square Arrow Down Right":            &squareArrowDownRightInfo,
+		"square-arrow-down":                  &squareArrowDownInfo,
+		"Square Arrow Down":                  &squareArrowDownInfo,
+		"square-arrow-left":                  &squareArrowLeftInfo,
+		"Square Arrow Left":                  &squareArrowLeftInfo,
+		"square-arrow-out-down-left":         &squareArrowOutDownLeftInfo,
+		"Square Arrow Out Down Left":         &squareArrowOutDownLeftInfo,
+		"square-arrow-out-down-right":        &squareArrowOutDownRightInfo,
+		"Square Arrow Out Down Right":        &squareArrowOutDownRightInfo,
+		"square-arrow-out-up-left":           &squareArrowOutUpLeftInfo,
+		"Square Arrow Out Up Left":           &squareArrowOutUpLeftInfo,
+		"square-arrow-out-up-right":          &squareArrowOutUpRightInfo,
+		"Square Arrow Out Up Right":          &squareArrowOutUpRightInfo,
+		"square-arrow-right":                 &squareArrowRightInfo,
+		"Square Arrow Right":                 &squareArrowRightInfo,
+		"square-arrow-up-left":               &squareArrowUpLeftInfo,
+		"Square Arrow Up Left":               &squareArrowUpLeftInfo,
+		"square-arrow-up-right":              &squareArrowUpRightInfo,
+		"Square Arrow Up Right":              &squareArrowUpRightInfo,
+		"square-arrow-up":                    &squareArrowUpInfo,
+		"Square Arrow Up":                    &squareArrowUpInfo,
+		"square-asterisk":                    &squareAsteriskInfo,
+		"Square Asterisk":                    &squareAsteriskInfo,
+		"square-bottom-dashed-scissors":      &squareBottomDashedScissorsInfo,
+		"Square Bottom Dashed Scissors":      &squareBottomDashedScissorsInfo,
+		"square-chart-gantt":                 &squareChartGanttInfo,
+		"Square Chart Gantt":                 &squareChartGanttInfo,
+		"square-check-big":                   &squareCheckBigInfo,
+		"Square Check Big":                   &squareCheckBigInfo,
+		"square-check":                       &squareCheckInfo,
+		"Square Check":                       &squareCheckInfo,
+		"square-chevron-down":                &squareChevronDownInfo,
+		"Square Chevron Down":                &squareChevronDownInfo,
+		"square-chevron-left":                &squareChevronLeftInfo,
+		"Square Chevron Left":                &squareChevronLeftInfo,
+		"square-chevron-right":               &squareChevronRightInfo,
+		"Square Chevron Right":               &squareChevronRightInfo,
+		"square-chevron-up":                  &squareChevronUpInfo,
+		"Square Chevron Up":                  &squareChevronUpInfo,
+		"square-code":                        &squareCodeInfo,
+		"Square Code":                        &squareCodeInfo,
+		"square-dashed-bottom-code":          &squareDashedBottomCodeInfo,
+		"Square Dashed Bottom Code":          &squareDashedBottomCodeInfo,
+		"square-dashed-bottom":               &squareDashedBottomInfo,
+		"Square Dashed Bottom":               &squareDashedBottomInfo,
+		"square-dashed-kanban":               &squareDashedKanbanInfo,
+		"Square Dashed Kanban":               &squareDashedKanbanInfo,
+		"square-dashed-mouse-pointer":        &squareDashedMousePointerInfo,
+		"Square Dashed Mouse Pointer":        &squareDashedMousePointerInfo,
+		"square-dashed":                      &squareDashedInfo,
+		"Square Dashed":                      &squareDashedInfo,
+		"square-divide":                      &squareDivideInfo,
+		"Square Divide":                      &squareDivideInfo,
+		"square-dot":                         &squareDotInfo,
+		"Square Dot":                         &squareDotInfo,
+		"square-equal":                       &squareEqualInfo,
+		"Square Equal":                       &squareEqualInfo,
+		"square-function":                    &squareFunctionInfo,
+		"Square Function":                    &squareFunctionInfo,
+		"square-kanban":                      &squareKanbanInfo,
+		"Square Kanban":                      &squareKanbanInfo,
+		"square-library":                     &squareLibraryInfo,
+		"Square Library":                     &squareLibraryInfo,
+		"square-m":                           &squareMInfo,
+		"Square M":                           &squareMInfo,
+		"square-menu":                        &squareMenuInfo,
+		"Square Menu":                        &squareMenuInfo,
+		"square-minus":                       &squareMinusInfo,
+		"Square Minus":                       &squareMinusInfo,
+		"square-mouse-pointer":               &squareMousePointerInfo,
+		"Square Mouse Pointer":               &squareMousePointerInfo,
+		"square-parking-off":                 &squareParkingOffInfo,
+		"Square Parking Off":                 &squareParkingOffInfo,
+		"square-parking":                     &squareParkingInfo,
+		"Square Parking":                     &squareParkingInfo,
+		"square-pen":                         &squarePenInfo,
+		"Square Pen":                         &squarePenInfo,
+		"square-percent":                     &squarePercentInfo,
+		"Square Percent":                     &squarePercentInfo,
+		"square-pi":                          &squarePiInfo,
+		"Square Pi":                          &squarePiInfo,
+		"square-pilcrow":                     &squarePilcrowInfo,
+		"Square Pilcrow":                     &squarePilcrowInfo,
+		"square-play":                        &squarePlayInfo,
+		"Square Play":                        &squarePlayInfo,
+		"square-plus":                        &squarePlusInfo,
+		"Square Plus":                        &squarePlusInfo,
+		"square-power":                       &squarePowerInfo,
+		"Square Power":                       &squarePowerInfo,
+		"square-radical":                     &squareRadicalInfo,
+		"Square Radical":                     &squareRadicalInfo,
+		"square-scissors":                    &squareScissorsInfo,
+		"Square Scissors":                    &squareScissorsInfo,
+		"square-sigma":                       &squareSigmaInfo,
+		"Square Sigma":                       &squareSigmaInfo,
+		"square-slash":                       &squareSlashInfo,
+		"Square Slash":                       &squareSlashInfo,
+		"square-split-horizontal":            &squareSplitHorizontalInfo,
+		"Square Split Horizontal":            &squareSplitHorizontalInfo,
+		"square-split-vertical":              &squareSplitVerticalInfo,
+		"Square Split Vertical":              &squareSplitVerticalInfo,
+		"square-square":                      &squareSquareInfo,
+		"Square Square":                      &squareSquareInfo,
+		"square-stack":                       &squareStackInfo,
+		"Square Stack":                       &squareStackInfo,
+		"square-terminal":                    &squareTerminalInfo,
+		"Square Terminal":                    &squareTerminalInfo,
+		"square-user-round":                  &squareUserRoundInfo,
+		"Square User Round":                  &squareUserRoundInfo,
+		"square-user":                        &squareUserInfo,
+		"Square User":                        &squareUserInfo,
+		"square-x":                           &squareXInfo,
+		"Square X":                           &squareXInfo,
+		"square":                             &squareInfo,
+		"Square":                             &squareInfo,
+		"squircle":                           &squircleInfo,
+		"Squircle":                           &squircleInfo,
+		"squirrel":                           &squirrelInfo,
+		"Squirrel":                           &squirrelInfo,
+		"stamp":                              &stampInfo,
+		"Stamp":                              &stampInfo,
+		"star-half":                          &starHalfInfo,
+		"Star Half":                          &starHalfInfo,
+		"star-off":                           &starOffInfo,
+		"Star Off":                           &starOffInfo,
+		"star":                               &starInfo,
+		"Star":                               &starInfo,
+		"step-back":                          &stepBackInfo,
+		"Step Back":                          &stepBackInfo,
+		"step-forward":                       &stepForwardInfo,
+		"Step Forward":                       &stepForwardInfo,
+		"stethoscope":                        &stethoscopeInfo,
+		"Stethoscope":                        &stethoscopeInfo,
+		"sticker":                            &stickerInfo,
+		"Sticker":                            &stickerInfo,
+		"sticky-note":                        &stickyNoteInfo,
+		"Sticky Note":                        &stickyNoteInfo,
+		"store":                              &storeInfo,
+		"Store":                              &storeInfo,
+		"stretch-horizontal":                 &stretchHorizontalInfo,
+		"Stretch Horizontal":                 &stretchHorizontalInfo,
+		"stretch-vertical":                   &stretchVerticalInfo,
+		"Stretch Vertical":                   &stretchVerticalInfo,
+		"strikethrough":                      &strikethroughInfo,
+		"Strikethrough":                      &strikethroughInfo,
+		"subscript":                          &subscriptInfo,
+		"Subscript":                          &subscriptInfo,
+		"sun-dim":                            &sunDimInfo,
+		"Sun Dim":                            &sunDimInfo,
+		"sun-medium":                         &sunMediumInfo,
+		"Sun Medium":                         &sunMediumInfo,
+		"sun-moon":                           &sunMoonInfo,
+		"Sun Moon":                           &sunMoonInfo,
+		"sun-snow":                           &sunSnowInfo,
+		"Sun Snow":                           &sunSnowInfo,
+		"sun":                                &sunInfo,
+		"Sun":                                &sunInfo,
+		"sunrise":                            &sunriseInfo,
+		"Sunrise":                            &sunriseInfo,
+		"sunset":                             &sunsetInfo,
+		"Sunset":                             &sunsetInfo,
+		"superscript":                        &superscriptInfo,
+		"Superscript":                        &superscriptInfo,
+		"swatch-book":                        &swatchBookInfo,
+		"Swatch Book":                        &swatchBookInfo,
+		"swiss-franc":                        &swissFrancInfo,
+		"Swiss Franc":                        &swissFrancInfo,
+		"switch-camera":                      &switchCameraInfo,
+		"Switch Camera":                      &switchCameraInfo,
+		"sword":                              &swordInfo,
+		"Sword":                              &swordInfo,
+		"swords":                             &swordsInfo,
+		"Swords":                             &swordsInfo,
+		"syringe":                            &syringeInfo,
+		"Syringe":                            &syringeInfo,
+		"table-2":                            &table2Info,
+		"Table 2":                            &table2Info,
+		"table-cells-merge":                  &tableCellsMergeInfo,
+		"Table Cells Merge":                  &tableCellsMergeInfo,
+		"table-cells-split":                  &tableCellsSplitInfo,
+		"Table Cells Split":                  &tableCellsSplitInfo,
+		"table-columns-split":                &tableColumnsSplitInfo,
+		"Table Columns Split":                &tableColumnsSplitInfo,
+		"table-of-contents":                  &tableOfContentsInfo,
+		"Table Of Contents":                  &tableOfContentsInfo,
+		"table-properties":                   &tablePropertiesInfo,
+		"Table Properties":                   &tablePropertiesInfo,
+		"table-rows-split":                   &tableRowsSplitInfo,
+		"Table Rows Split":                   &tableRowsSplitInfo,
+		"table":                              &tableInfo,
+		"Table":                              &tableInfo,
+		"tablet-smartphone":                  &tabletSmartphoneInfo,
+		"Tablet Smartphone":                  &tabletSmartphoneInfo,
+		"tablet":                             &tabletInfo,
+		"Tablet":                             &tabletInfo,
+		"tablets":                            &tabletsInfo,
+		"Tablets":                            &tabletsInfo,
+		"tag":                                &tagInfo,
+		"Tag":                                &tagInfo,
+		"tags":                               &tagsInfo,
+		"Tags":                               &tagsInfo,
+		"tally-1":                            &tally1Info,
+		"Tally 1":                            &tally1Info,
+		"tally-2":                            &tally2Info,
+		"Tally 2":                            &tally2Info,
+		"tally-3":                            &tally3Info,
+		"Tally 3":                            &tally3Info,
+		"tally-4":                            &tally4Info,
+		"Tally 4":                            &tally4Info,
+		"tally-5":                            &tally5Info,
+		"Tally 5":                            &tally5Info,
+		"tangent":                            &tangentInfo,
+		"Tangent":                            &tangentInfo,
+		"target":                             &targetInfo,
+		"Target":                             &targetInfo,
+		"telescope":                          &telescopeInfo,
+		"Telescope":                          &telescopeInfo,
+		"tent-tree":                          &tentTreeInfo,
+		"Tent Tree":                          &tentTreeInfo,
+		"tent":                               &tentInfo,
+		"Tent":                               &tentInfo,
+		"terminal":                           &terminalInfo,
+		"Terminal":                           &terminalInfo,
+		"test-tube-diagonal":                 &testTubeDiagonalInfo,
+		"Test Tube Diagonal":                 &testTubeDiagonalInfo,
+		"test-tube":                          &testTubeInfo,
+		"Test Tube":                          &testTubeInfo,
+		"test-tubes":                         &testTubesInfo,
+		"Test Tubes":                         &testTubesInfo,
+		"text-cursor-input":                  &textCursorInputInfo,
+		"Text Cursor Input":                  &textCursorInputInfo,
+		"text-cursor":                        &textCursorInfo,
+		"Text Cursor":                        &textCursorInfo,
+		"text-quote":                         &textQuoteInfo,
+		"Text Quote":                         &textQuoteInfo,
+		"text-search":                        &textSearchInfo,
+		"Text Search":                        &textSearchInfo,
+		"text-select":                        &textSelectInfo,
+		"Text Select":                        &textSelectInfo,
+		"text":                               &textInfo,
+		"Text":                               &textInfo,
+		"theater":                            &theaterInfo,
+		"Theater":                            &theaterInfo,
+		"thermometer-snowflake":              &thermometerSnowflakeInfo,
+		"Thermometer Snowflake":              &thermometerSnowflakeInfo,
+		"thermometer-sun":                    &thermometerSunInfo,
+		"Thermometer Sun":                    &thermometerSunInfo,
+		"thermometer":                        &thermometerInfo,
+		"Thermometer":                        &thermometerInfo,
+		"thumbs-down":                        &thumbsDownInfo,
+		"Thumbs Down":                        &thumbsDownInfo,
+		"thumbs-up":                          &thumbsUpInfo,
+		"Thumbs Up":                          &thumbsUpInfo,
+		"ticket-check":                       &ticketCheckInfo,
+		"Ticket Check":                       &ticketCheckInfo,
+		"ticket-minus":                       &ticketMinusInfo,
+		"Ticket Minus":                       &ticketMinusInfo,
+		"ticket-percent":                     &ticketPercentInfo,
+		"Ticket Percent":                     &ticketPercentInfo,
+		"ticket-plus":                        &ticketPlusInfo,
+		"Ticket Plus":                        &ticketPlusInfo,
+		"ticket-slash":                       &ticketSlashInfo,
+		"Ticket Slash":                       &ticketSlashInfo,
+		"ticket-x":                           &ticketXInfo,
+		"Ticket X":                           &ticketXInfo,
+		"ticket":                             &ticketInfo,
+		"Ticket":                             &ticketInfo,
+		"tickets-plane":                      &ticketsPlaneInfo,
+		"Tickets Plane":                      &ticketsPlaneInfo,
+		"tickets":                            &ticketsInfo,
+		"Tickets":                            &ticketsInfo,
+		"timer-off":                          &timerOffInfo,
+		"Timer Off":                          &timerOffInfo,
+		"timer-reset":                        &timerResetInfo,
+		"Timer Reset":                        &timerResetInfo,
+		"timer":                              &timerInfo,
+		"Timer":                              &timerInfo,
+		"toggle-left":                        &toggleLeftInfo,
+		"Toggle Left":                        &toggleLeftInfo,
+		"toggle-right":                       &toggleRightInfo,
+		"Toggle Right":                       &toggleRightInfo,
+		"tornado":                            &tornadoInfo,
+		"Tornado":                            &tornadoInfo,
+		"torus":                              &torusInfo,
+		"Torus":                              &torusInfo,
+		"touchpad-off":                       &touchpadOffInfo,
+		"Touchpad Off":                       &touchpadOffInfo,
+		"touchpad":                           &touchpadInfo,
+		"Touchpad":                           &touchpadInfo,
+		"tower-control":                      &towerControlInfo,
+		"Tower Control":                      &towerControlInfo,
+		"toy-brick":                          &toyBrickInfo,
+		"Toy Brick":                          &toyBrickInfo,
+		"tractor":                            &tractorInfo,
+		"Tractor":                            &tractorInfo,
+		"traffic-cone":                       &trafficConeInfo,
+		"Traffic Cone":                       &trafficConeInfo,
+		"train-front-tunnel":                 &trainFrontTunnelInfo,
+		"Train Front Tunnel":                 &trainFrontTunnelInfo,
+		"train-front":                        &trainFrontInfo,
+		"Train Front":                        &trainFrontInfo,
+		"train-track":                        &trainTrackInfo,
+		"Train Track":                        &trainTrackInfo,
+		"tram-front":                         &tramFrontInfo,
+		"Tram Front":                         &tramFrontInfo,
+		"trash-2":                            &trash2Info,
+		"Trash 2":                            &trash2Info,
+		"trash":                              &trashInfo,
+		"Trash":                              &trashInfo,
+		"tree-deciduous":                     &treeDeciduousInfo,
+		"Tree Deciduous":                     &treeDeciduousInfo,
+		"tree-palm":                          &treePalmInfo,
+		"Tree Palm":                          &treePalmInfo,
+		"tree-pine":                          &treePineInfo,
+		"Tree Pine":                          &treePineInfo,
+		"trees":                              &treesInfo,
+		"Trees":                              &treesInfo,
+		"trello":                             &trelloInfo,
+		"Trello":                             &trelloInfo,
+		"trending-down":                      &trendingDownInfo,
+		"Trending Down":                      &trendingDownInfo,
+		"trending-up-down":                   &trendingUpDownInfo,
+		"Trending Up Down":                   &trendingUpDownInfo,
+		"trending-up":                        &trendingUpInfo,
+		"Trending Up":                        &trendingUpInfo,
+		"triangle-alert":                     &triangleAlertInfo,
+		"Triangle Alert":                     &triangleAlertInfo,
+		"triangle-right":                     &triangleRightInfo,
+		"Triangle Right":                     &triangleRightInfo,
+		"triangle":                           &triangleInfo,
+		"Triangle":                           &triangleInfo,
+		"trophy":                             &trophyInfo,
+		"Trophy":                             &trophyInfo,
+		"truck":                              &truckInfo,
+		"Truck":                              &truckInfo,
+		"turtle":                             &turtleInfo,
+		"Turtle":                             &turtleInfo,
+		"tv-minimal-play":                    &tvMinimalPlayInfo,
+		"Tv Minimal Play":                    &tvMinimalPlayInfo,
+		"tv-minimal":                         &tvMinimalInfo,
+		"Tv Minimal":                         &tvMinimalInfo,
+		"tv":                                 &tvInfo,
+		"Tv":                                 &tvInfo,
+		"twitch":                             &twitchInfo,
+		"Twitch":                             &twitchInfo,
+		"twitter":                            &twitterInfo,
+		"Twitter":                            &twitterInfo,
+		"type-outline":                       &typeOutlineInfo,
+		"Type Outline":                       &typeOutlineInfo,
+		"type":                               &typeInfo,
+		"Type":                               &typeInfo,
+		"umbrella-off":                       &umbrellaOffInfo,
+		"Umbrella Off":                       &umbrellaOffInfo,
+		"umbrella":                           &umbrellaInfo,
+		"Umbrella":                           &umbrellaInfo,
+		"underline":                          &underlineInfo,
+		"Underline":                          &underlineInfo,
+		"undo-2":                             &undo2Info,
+		"Undo 2":                             &undo2Info,
+		"undo-dot":                           &undoDotInfo,
+		"Undo Dot":                           &undoDotInfo,
+		"undo":                               &undoInfo,
+		"Undo":                               &undoInfo,
+		"unfold-horizontal":                  &unfoldHorizontalInfo,
+		"Unfold Horizontal":                  &unfoldHorizontalInfo,
+		"unfold-vertical":                    &unfoldVerticalInfo,
+		"Unfold Vertical":                    &unfoldVerticalInfo,
+		"ungroup":                            &ungroupInfo,
+		"Ungroup":                            &ungroupInfo,
+		"university":                         &universityInfo,
+		"University":                         &universityInfo,
+		"unlink-2":                           &unlink2Info,
+		"Unlink 2":                           &unlink2Info,
+		"unlink":                             &unlinkInfo,
+		"Unlink":                             &unlinkInfo,
+		"unplug":                             &unplugInfo,
+		"Unplug":                             &unplugInfo,
+		"upload":                             &uploadInfo,
+		"Upload":                             &uploadInfo,
+		"usb":                                &usbInfo,
+		"Usb":                                &usbInfo,
+		"user-check":                         &userCheckInfo,
+		"User Check":                         &userCheckInfo,
+		"user-cog":                           &userCogInfo,
+		"User Cog":                           &userCogInfo,
+		"user-minus":                         &userMinusInfo,
+		"User Minus":                         &userMinusInfo,
+		"user-pen":                           &userPenInfo,
+		"User Pen":                           &userPenInfo,
+		"user-plus":                          &userPlusInfo,
+		"User Plus":                          &userPlusInfo,
+		"user-round-check":                   &userRoundCheckInfo,
+		"User Round Check":                   &userRoundCheckInfo,
+		"user-round-cog":                     &userRoundCogInfo,
+		"User Round Cog":                     &userRoundCogInfo,
+		"user-round-minus":                   &userRoundMinusInfo,
+		"User Round Minus":                   &userRoundMinusInfo,
+		"user-round-pen":                     &userRoundPenInfo,
+		"User Round Pen":                     &userRoundPenInfo,
+		"user-round-plus":                    &userRoundPlusInfo,
+		"User Round Plus":                    &userRoundPlusInfo,
+		"user-round-search":                  &userRoundSearchInfo,
+		"User Round Search":                  &userRoundSearchInfo,
+		"user-round-x":                       &userRoundXInfo,
+		"User Round X":                       &userRoundXInfo,
+		"user-round":                         &userRoundInfo,
+		"User Round":                         &userRoundInfo,
+		"user-search":                        &userSearchInfo,
+		"User Search":                        &userSearchInfo,
+		"user-x":                             &userXInfo,
+		"User X":                             &userXInfo,
+		"user":                               &userInfo,
+		"User":                               &userInfo,
+		"users-round":                        &usersRoundInfo,
+		"Users Round":                        &usersRoundInfo,
+		"users":                              &usersInfo,
+		"Users":                              &usersInfo,
+		"utensils-crossed":                   &utensilsCrossedInfo,
+		"Utensils Crossed":                   &utensilsCrossedInfo,
+		"utensils":                           &utensilsInfo,
+		"Utensils":                           &utensilsInfo,
+		"utility-pole":                       &utilityPoleInfo,
+		"Utility Pole":                       &utilityPoleInfo,
+		"variable":                           &variableInfo,
+		"Variable":                           &variableInfo,
+		"vault":                              &vaultInfo,
+		"Vault":                              &vaultInfo,
+		"vegan":                              &veganInfo,
+		"Vegan":                              &veganInfo,
+		"venetian-mask":                      &venetianMaskInfo,
+		"Venetian Mask":                      &venetianMaskInfo,
+		"vibrate-off":                        &vibrateOffInfo,
+		"Vibrate Off":                        &vibrateOffInfo,
+		"vibrate":                            &vibrateInfo,
+		"Vibrate":                            &vibrateInfo,
+		"video-off":                          &videoOffInfo,
+		"Video Off":                          &videoOffInfo,
+		"video":                              &videoInfo,
+		"Video":                              &videoInfo,
+		"videotape":                          &videotapeInfo,
+		"Videotape":                          &videotapeInfo,
+		"view":                               &viewInfo,
+		"View":                               &viewInfo,
+		"voicemail":                          &voicemailInfo,
+		"Voicemail":                          &voicemailInfo,
+		"volleyball":                         &volleyballInfo,
+		"Volleyball":                         &volleyballInfo,
+		"volume-1":                           &volume1Info,
+		"Volume 1":                           &volume1Info,
+		"volume-2":                           &volume2Info,
+		"Volume 2":                           &volume2Info,
+		"volume-off":                         &volumeOffInfo,
+		"Volume Off":                         &volumeOffInfo,
+		"volume-x":                           &volumeXInfo,
+		"Volume X":                           &volumeXInfo,
+		"volume":                             &volumeInfo,
+		"Volume":                             &volumeInfo,
+		"vote":                               &voteInfo,
+		"Vote":                               &voteInfo,
+		"wallet-cards":                       &walletCardsInfo,
+		"Wallet Cards":                       &walletCardsInfo,
+		"wallet-minimal":                     &walletMinimalInfo,
+		"Wallet Minimal":                     &walletMinimalInfo,
+		"wallet":                             &walletInfo,
+		"Wallet":                             &walletInfo,
+		"wallpaper":                          &wallpaperInfo,
+		"Wallpaper":                          &wallpaperInfo,
+		"wand-sparkles":                      &wandSparklesInfo,
+		"Wand Sparkles":                      &wandSparklesInfo,
+		"wand":                               &wandInfo,
+		"Wand":                               &wandInfo,
+		"warehouse":                          &warehouseInfo,
+		"Warehouse":                          &warehouseInfo,
+		"washing-machine":                    &washingMachineInfo,
+		"Washing Machine":                    &washingMachineInfo,
+		"watch":                              &watchInfo,
+		"Watch":                              &watchInfo,
+		"waves":                              &wavesInfo,
+		"Waves":                              &wavesInfo,
+		"waypoints":                          &waypointsInfo,
+		"Waypoints":                          &waypointsInfo,
+		"webcam":                             &webcamInfo,
+		"Webcam":                             &webcamInfo,
+		"webhook-off":                        &webhookOffInfo,
+		"Webhook Off":                        &webhookOffInfo,
+		"webhook":                            &webhookInfo,
+		"Webhook":                            &webhookInfo,
+		"weight":                             &weightInfo,
+		"Weight":                             &weightInfo,
+		"wheat-off":                          &wheatOffInfo,
+		"Wheat Off":                          &wheatOffInfo,
+		"wheat":                              &wheatInfo,
+		"Wheat":                              &wheatInfo,
+		"whole-word":                         &wholeWordInfo,
+		"Whole Word":                         &wholeWordInfo,
+		"wifi-high":                          &wifiHighInfo,
+		"Wifi High":                          &wifiHighInfo,
+		"wifi-low":                           &wifiLowInfo,
+		"Wifi Low":                           &wifiLowInfo,
+		"wifi-off":                           &wifiOffInfo,
+		"Wifi Off":                           &wifiOffInfo,
+		"wifi-zero":                          &wifiZeroInfo,
+		"Wifi Zero":                          &wifiZeroInfo,
+		"wifi":                               &wifiInfo,
+		"Wifi":                               &wifiInfo,
+		"wind":                               &windInfo,
+		"Wind":                               &windInfo,
+		"wine-off":                           &wineOffInfo,
+		"Wine Off":                           &wineOffInfo,
+		"wine":                               &wineInfo,
+		"Wine":                               &wineInfo,
+		"workflow":                           &workflowInfo,
+		"Workflow":                           &workflowInfo,
+		"worm":                               &wormInfo,
+		"Worm":                               &wormInfo,
+		"wrap-text":                          &wrapTextInfo,
+		"Wrap Text":                          &wrapTextInfo,
+		"wrench":                             &wrenchInfo,
+		"Wrench":                             &wrenchInfo,
+		"x":                                  &xInfo,
+		"X":                                  &xInfo,
+		"youtube":                            &youtubeInfo,
+		"Youtube":                            &youtubeInfo,
+		"zap-off":                            &zapOffInfo,
+		"Zap Off":                            &zapOffInfo,
+		"zap":                                &zapInfo,
+		"Zap":                                &zapInfo,
+		"zoom-in":                            &zoomInInfo,
+		"Zoom In":                            &zoomInInfo,
+		"zoom-out":                           &zoomOutInfo,
+		"Zoom Out":                           &zoomOutInfo,
+	}
+	IconsInfo = []*IconInfo{
+		&aArrowDownInfo,
+		&aArrowUpInfo,
+		&aLargeSmallInfo,
+		&accessibilityInfo,
+		&activityInfo,
+		&airVentInfo,
+		&airplayInfo,
+		&alarmClockCheckInfo,
+		&alarmClockMinusInfo,
+		&alarmClockOffInfo,
+		&alarmClockPlusInfo,
+		&alarmClockInfo,
+		&alarmSmokeInfo,
+		&albumInfo,
+		&alignCenterHorizontalInfo,
+		&alignCenterVerticalInfo,
+		&alignCenterInfo,
+		&alignEndHorizontalInfo,
+		&alignEndVerticalInfo,
+		&alignHorizontalDistributeCenterInfo,
+		&alignHorizontalDistributeEndInfo,
+		&alignHorizontalDistributeStartInfo,
+		&alignHorizontalJustifyCenterInfo,
+		&alignHorizontalJustifyEndInfo,
+		&alignHorizontalJustifyStartInfo,
+		&alignHorizontalSpaceAroundInfo,
+		&alignHorizontalSpaceBetweenInfo,
+		&alignJustifyInfo,
+		&alignLeftInfo,
+		&alignRightInfo,
+		&alignStartHorizontalInfo,
+		&alignStartVerticalInfo,
+		&alignVerticalDistributeCenterInfo,
+		&alignVerticalDistributeEndInfo,
+		&alignVerticalDistributeStartInfo,
+		&alignVerticalJustifyCenterInfo,
+		&alignVerticalJustifyEndInfo,
+		&alignVerticalJustifyStartInfo,
+		&alignVerticalSpaceAroundInfo,
+		&alignVerticalSpaceBetweenInfo,
+		&ambulanceInfo,
+		&ampersandInfo,
+		&ampersandsInfo,
+		&amphoraInfo,
+		&anchorInfo,
+		&angryInfo,
+		&annoyedInfo,
+		&antennaInfo,
+		&anvilInfo,
+		&apertureInfo,
+		&appWindowMacInfo,
+		&appWindowInfo,
+		&appleInfo,
+		&archiveRestoreInfo,
+		&archiveXInfo,
+		&archiveInfo,
+		&armchairInfo,
+		&arrowBigDownDashInfo,
+		&arrowBigDownInfo,
+		&arrowBigLeftDashInfo,
+		&arrowBigLeftInfo,
+		&arrowBigRightDashInfo,
+		&arrowBigRightInfo,
+		&arrowBigUpDashInfo,
+		&arrowBigUpInfo,
+		&arrowDown01Info,
+		&arrowDown10Info,
+		&arrowDownAZInfo,
+		&arrowDownFromLineInfo,
+		&arrowDownLeftInfo,
+		&arrowDownNarrowWideInfo,
+		&arrowDownRightInfo,
+		&arrowDownToDotInfo,
+		&arrowDownToLineInfo,
+		&arrowDownUpInfo,
+		&arrowDownWideNarrowInfo,
+		&arrowDownZAInfo,
+		&arrowDownInfo,
+		&arrowLeftFromLineInfo,
+		&arrowLeftRightInfo,
+		&arrowLeftToLineInfo,
+		&arrowLeftInfo,
+		&arrowRightFromLineInfo,
+		&arrowRightLeftInfo,
+		&arrowRightToLineInfo,
+		&arrowRightInfo,
+		&arrowUp01Info,
+		&arrowUp10Info,
+		&arrowUpAZInfo,
+		&arrowUpDownInfo,
+		&arrowUpFromDotInfo,
+		&arrowUpFromLineInfo,
+		&arrowUpLeftInfo,
+		&arrowUpNarrowWideInfo,
+		&arrowUpRightInfo,
+		&arrowUpToLineInfo,
+		&arrowUpWideNarrowInfo,
+		&arrowUpZAInfo,
+		&arrowUpInfo,
+		&arrowsUpFromLineInfo,
+		&asteriskInfo,
+		&atSignInfo,
+		&atomInfo,
+		&audioLinesInfo,
+		&audioWaveformInfo,
+		&awardInfo,
+		&axeInfo,
+		&axis3dInfo,
+		&babyInfo,
+		&backpackInfo,
+		&badgeAlertInfo,
+		&badgeCentInfo,
+		&badgeCheckInfo,
+		&badgeDollarSignInfo,
+		&badgeEuroInfo,
+		&badgeHelpInfo,
+		&badgeIndianRupeeInfo,
+		&badgeInfoInfo,
+		&badgeJapaneseYenInfo,
+		&badgeMinusInfo,
+		&badgePercentInfo,
+		&badgePlusInfo,
+		&badgePoundSterlingInfo,
+		&badgeRussianRubleInfo,
+		&badgeSwissFrancInfo,
+		&badgeXInfo,
+		&badgeInfo,
+		&baggageClaimInfo,
+		&banInfo,
+		&bananaInfo,
+		&bandageInfo,
+		&banknoteInfo,
+		&barcodeInfo,
+		&baselineInfo,
+		&bathInfo,
+		&batteryChargingInfo,
+		&batteryFullInfo,
+		&batteryLowInfo,
+		&batteryMediumInfo,
+		&batteryWarningInfo,
+		&batteryInfo,
+		&beakerInfo,
+		&beanOffInfo,
+		&beanInfo,
+		&bedDoubleInfo,
+		&bedSingleInfo,
+		&bedInfo,
+		&beefInfo,
+		&beerOffInfo,
+		&beerInfo,
+		&bellDotInfo,
+		&bellElectricInfo,
+		&bellMinusInfo,
+		&bellOffInfo,
+		&bellPlusInfo,
+		&bellRingInfo,
+		&bellInfo,
+		&betweenHorizontalEndInfo,
+		&betweenHorizontalStartInfo,
+		&betweenVerticalEndInfo,
+		&betweenVerticalStartInfo,
+		&bicepsFlexedInfo,
+		&bikeInfo,
+		&binaryInfo,
+		&binocularsInfo,
+		&biohazardInfo,
+		&birdInfo,
+		&bitcoinInfo,
+		&blendInfo,
+		&blindsInfo,
+		&blocksInfo,
+		&bluetoothConnectedInfo,
+		&bluetoothOffInfo,
+		&bluetoothSearchingInfo,
+		&bluetoothInfo,
+		&boldInfo,
+		&boltInfo,
+		&bombInfo,
+		&boneInfo,
+		&bookAInfo,
+		&bookAudioInfo,
+		&bookCheckInfo,
+		&bookCopyInfo,
+		&bookDashedInfo,
+		&bookDownInfo,
+		&bookHeadphonesInfo,
+		&bookHeartInfo,
+		&bookImageInfo,
+		&bookKeyInfo,
+		&bookLockInfo,
+		&bookMarkedInfo,
+		&bookMinusInfo,
+		&bookOpenCheckInfo,
+		&bookOpenTextInfo,
+		&bookOpenInfo,
+		&bookPlusInfo,
+		&bookTextInfo,
+		&bookTypeInfo,
+		&bookUp2Info,
+		&bookUpInfo,
+		&bookUserInfo,
+		&bookXInfo,
+		&bookInfo,
+		&bookmarkCheckInfo,
+		&bookmarkMinusInfo,
+		&bookmarkPlusInfo,
+		&bookmarkXInfo,
+		&bookmarkInfo,
+		&boomBoxInfo,
+		&botMessageSquareInfo,
+		&botOffInfo,
+		&botInfo,
+		&boxInfo,
+		&boxesInfo,
+		&bracesInfo,
+		&bracketsInfo,
+		&brainCircuitInfo,
+		&brainCogInfo,
+		&brainInfo,
+		&brickWallInfo,
+		&briefcaseBusinessInfo,
+		&briefcaseConveyorBeltInfo,
+		&briefcaseMedicalInfo,
+		&briefcaseInfo,
+		&bringToFrontInfo,
+		&brushInfo,
+		&bugOffInfo,
+		&bugPlayInfo,
+		&bugInfo,
+		&building2Info,
+		&buildingInfo,
+		&busFrontInfo,
+		&busInfo,
+		&cableCarInfo,
+		&cableInfo,
+		&cakeSliceInfo,
+		&cakeInfo,
+		&calculatorInfo,
+		&calendarArrowDownInfo,
+		&calendarArrowUpInfo,
+		&calendarCheck2Info,
+		&calendarCheckInfo,
+		&calendarClockInfo,
+		&calendarCogInfo,
+		&calendarDaysInfo,
+		&calendarFoldInfo,
+		&calendarHeartInfo,
+		&calendarMinus2Info,
+		&calendarMinusInfo,
+		&calendarOffInfo,
+		&calendarPlus2Info,
+		&calendarPlusInfo,
+		&calendarRangeInfo,
+		&calendarSearchInfo,
+		&calendarX2Info,
+		&calendarXInfo,
+		&calendarInfo,
+		&cameraOffInfo,
+		&cameraInfo,
+		&candyCaneInfo,
+		&candyOffInfo,
+		&candyInfo,
+		&cannabisInfo,
+		&captionsOffInfo,
+		&captionsInfo,
+		&carFrontInfo,
+		&carTaxiFrontInfo,
+		&carInfo,
+		&caravanInfo,
+		&carrotInfo,
+		&caseLowerInfo,
+		&caseSensitiveInfo,
+		&caseUpperInfo,
+		&cassetteTapeInfo,
+		&castInfo,
+		&castleInfo,
+		&catInfo,
+		&cctvInfo,
+		&chartAreaInfo,
+		&chartBarBigInfo,
+		&chartBarDecreasingInfo,
+		&chartBarIncreasingInfo,
+		&chartBarStackedInfo,
+		&chartBarInfo,
+		&chartCandlestickInfo,
+		&chartColumnBigInfo,
+		&chartColumnDecreasingInfo,
+		&chartColumnIncreasingInfo,
+		&chartColumnStackedInfo,
+		&chartColumnInfo,
+		&chartGanttInfo,
+		&chartLineInfo,
+		&chartNetworkInfo,
+		&chartNoAxesColumnDecreasingInfo,
+		&chartNoAxesColumnIncreasingInfo,
+		&chartNoAxesColumnInfo,
+		&chartNoAxesCombinedInfo,
+		&chartNoAxesGanttInfo,
+		&chartPieInfo,
+		&chartScatterInfo,
+		&chartSplineInfo,
+		&checkCheckInfo,
+		&checkInfo,
+		&chefHatInfo,
+		&cherryInfo,
+		&chevronDownInfo,
+		&chevronFirstInfo,
+		&chevronLastInfo,
+		&chevronLeftInfo,
+		&chevronRightInfo,
+		&chevronUpInfo,
+		&chevronsDownUpInfo,
+		&chevronsDownInfo,
+		&chevronsLeftRightEllipsisInfo,
+		&chevronsLeftRightInfo,
+		&chevronsLeftInfo,
+		&chevronsRightLeftInfo,
+		&chevronsRightInfo,
+		&chevronsUpDownInfo,
+		&chevronsUpInfo,
+		&chromeInfo,
+		&churchInfo,
+		&cigaretteOffInfo,
+		&cigaretteInfo,
+		&circleAlertInfo,
+		&circleArrowDownInfo,
+		&circleArrowLeftInfo,
+		&circleArrowOutDownLeftInfo,
+		&circleArrowOutDownRightInfo,
+		&circleArrowOutUpLeftInfo,
+		&circleArrowOutUpRightInfo,
+		&circleArrowRightInfo,
+		&circleArrowUpInfo,
+		&circleCheckBigInfo,
+		&circleCheckInfo,
+		&circleChevronDownInfo,
+		&circleChevronLeftInfo,
+		&circleChevronRightInfo,
+		&circleChevronUpInfo,
+		&circleDashedInfo,
+		&circleDivideInfo,
+		&circleDollarSignInfo,
+		&circleDotDashedInfo,
+		&circleDotInfo,
+		&circleEllipsisInfo,
+		&circleEqualInfo,
+		&circleFadingArrowUpInfo,
+		&circleFadingPlusInfo,
+		&circleGaugeInfo,
+		&circleHelpInfo,
+		&circleMinusInfo,
+		&circleOffInfo,
+		&circleParkingOffInfo,
+		&circleParkingInfo,
+		&circlePauseInfo,
+		&circlePercentInfo,
+		&circlePlayInfo,
+		&circlePlusInfo,
+		&circlePowerInfo,
+		&circleSlash2Info,
+		&circleSlashInfo,
+		&circleStopInfo,
+		&circleUserRoundInfo,
+		&circleUserInfo,
+		&circleXInfo,
+		&circleInfo,
+		&circuitBoardInfo,
+		&citrusInfo,
+		&clapperboardInfo,
+		&clipboardCheckInfo,
+		&clipboardCopyInfo,
+		&clipboardListInfo,
+		&clipboardMinusInfo,
+		&clipboardPasteInfo,
+		&clipboardPenLineInfo,
+		&clipboardPenInfo,
+		&clipboardPlusInfo,
+		&clipboardTypeInfo,
+		&clipboardXInfo,
+		&clipboardInfo,
+		&clock1Info,
+		&clock10Info,
+		&clock11Info,
+		&clock12Info,
+		&clock2Info,
+		&clock3Info,
+		&clock4Info,
+		&clock5Info,
+		&clock6Info,
+		&clock7Info,
+		&clock8Info,
+		&clock9Info,
+		&clockAlertInfo,
+		&clockArrowDownInfo,
+		&clockArrowUpInfo,
+		&clockInfo,
+		&cloudCogInfo,
+		&cloudDownloadInfo,
+		&cloudDrizzleInfo,
+		&cloudFogInfo,
+		&cloudHailInfo,
+		&cloudLightningInfo,
+		&cloudMoonRainInfo,
+		&cloudMoonInfo,
+		&cloudOffInfo,
+		&cloudRainWindInfo,
+		&cloudRainInfo,
+		&cloudSnowInfo,
+		&cloudSunRainInfo,
+		&cloudSunInfo,
+		&cloudUploadInfo,
+		&cloudInfo,
+		&cloudyInfo,
+		&cloverInfo,
+		&clubInfo,
+		&codeXmlInfo,
+		&codeInfo,
+		&codepenInfo,
+		&codesandboxInfo,
+		&coffeeInfo,
+		&cogInfo,
+		&coinsInfo,
+		&columns2Info,
+		&columns3Info,
+		&columns4Info,
+		&combineInfo,
+		&commandInfo,
+		&compassInfo,
+		&componentInfo,
+		&computerInfo,
+		&conciergeBellInfo,
+		&coneInfo,
+		&constructionInfo,
+		&contactRoundInfo,
+		&contactInfo,
+		&containerInfo,
+		&contrastInfo,
+		&cookieInfo,
+		&cookingPotInfo,
+		&copyCheckInfo,
+		&copyMinusInfo,
+		&copyPlusInfo,
+		&copySlashInfo,
+		&copyXInfo,
+		&copyInfo,
+		&copyleftInfo,
+		&copyrightInfo,
+		&cornerDownLeftInfo,
+		&cornerDownRightInfo,
+		&cornerLeftDownInfo,
+		&cornerLeftUpInfo,
+		&cornerRightDownInfo,
+		&cornerRightUpInfo,
+		&cornerUpLeftInfo,
+		&cornerUpRightInfo,
+		&cpuInfo,
+		&creativeCommonsInfo,
+		&creditCardInfo,
+		&croissantInfo,
+		&cropInfo,
+		&crossInfo,
+		&crosshairInfo,
+		&crownInfo,
+		&cuboidInfo,
+		&cupSodaInfo,
+		&currencyInfo,
+		&cylinderInfo,
+		&damInfo,
+		&databaseBackupInfo,
+		&databaseZapInfo,
+		&databaseInfo,
+		&deleteInfo,
+		&dessertInfo,
+		&diameterInfo,
+		&diamondMinusInfo,
+		&diamondPercentInfo,
+		&diamondPlusInfo,
+		&diamondInfo,
+		&dice1Info,
+		&dice2Info,
+		&dice3Info,
+		&dice4Info,
+		&dice5Info,
+		&dice6Info,
+		&dicesInfo,
+		&diffInfo,
+		&disc2Info,
+		&disc3Info,
+		&discAlbumInfo,
+		&discInfo,
+		&divideInfo,
+		&dnaOffInfo,
+		&dnaInfo,
+		&dockInfo,
+		&dogInfo,
+		&dollarSignInfo,
+		&donutInfo,
+		&doorClosedInfo,
+		&doorOpenInfo,
+		&dotInfo,
+		&downloadInfo,
+		&draftingCompassInfo,
+		&dramaInfo,
+		&dribbbleInfo,
+		&drillInfo,
+		&dropletInfo,
+		&dropletsInfo,
+		&drumInfo,
+		&drumstickInfo,
+		&dumbbellInfo,
+		&earOffInfo,
+		&earInfo,
+		&earthLockInfo,
+		&earthInfo,
+		&eclipseInfo,
+		&eggFriedInfo,
+		&eggOffInfo,
+		&eggInfo,
+		&ellipsisVerticalInfo,
+		&ellipsisInfo,
+		&equalNotInfo,
+		&equalInfo,
+		&eraserInfo,
+		&ethernetPortInfo,
+		&euroInfo,
+		&expandInfo,
+		&externalLinkInfo,
+		&eyeClosedInfo,
+		&eyeOffInfo,
+		&eyeInfo,
+		&facebookInfo,
+		&factoryInfo,
+		&fanInfo,
+		&fastForwardInfo,
+		&featherInfo,
+		&fenceInfo,
+		&ferrisWheelInfo,
+		&figmaInfo,
+		&fileArchiveInfo,
+		&fileAudio2Info,
+		&fileAudioInfo,
+		&fileAxis3dInfo,
+		&fileBadge2Info,
+		&fileBadgeInfo,
+		&fileBoxInfo,
+		&fileChartColumnIncreasingInfo,
+		&fileChartColumnInfo,
+		&fileChartLineInfo,
+		&fileChartPieInfo,
+		&fileCheck2Info,
+		&fileCheckInfo,
+		&fileClockInfo,
+		&fileCode2Info,
+		&fileCodeInfo,
+		&fileCogInfo,
+		&fileDiffInfo,
+		&fileDigitInfo,
+		&fileDownInfo,
+		&fileHeartInfo,
+		&fileImageInfo,
+		&fileInputInfo,
+		&fileJson2Info,
+		&fileJsonInfo,
+		&fileKey2Info,
+		&fileKeyInfo,
+		&fileLock2Info,
+		&fileLockInfo,
+		&fileMinus2Info,
+		&fileMinusInfo,
+		&fileMusicInfo,
+		&fileOutputInfo,
+		&filePenLineInfo,
+		&filePenInfo,
+		&filePlus2Info,
+		&filePlusInfo,
+		&fileQuestionInfo,
+		&fileScanInfo,
+		&fileSearch2Info,
+		&fileSearchInfo,
+		&fileSlidersInfo,
+		&fileSpreadsheetInfo,
+		&fileStackInfo,
+		&fileSymlinkInfo,
+		&fileTerminalInfo,
+		&fileTextInfo,
+		&fileType2Info,
+		&fileTypeInfo,
+		&fileUpInfo,
+		&fileUserInfo,
+		&fileVideo2Info,
+		&fileVideoInfo,
+		&fileVolume2Info,
+		&fileVolumeInfo,
+		&fileWarningInfo,
+		&fileX2Info,
+		&fileXInfo,
+		&fileInfo,
+		&filesInfo,
+		&filmInfo,
+		&filterXInfo,
+		&filterInfo,
+		&fingerprintInfo,
+		&fireExtinguisherInfo,
+		&fishOffInfo,
+		&fishSymbolInfo,
+		&fishInfo,
+		&flagOffInfo,
+		&flagTriangleLeftInfo,
+		&flagTriangleRightInfo,
+		&flagInfo,
+		&flameKindlingInfo,
+		&flameInfo,
+		&flashlightOffInfo,
+		&flashlightInfo,
+		&flaskConicalOffInfo,
+		&flaskConicalInfo,
+		&flaskRoundInfo,
+		&flipHorizontal2Info,
+		&flipHorizontalInfo,
+		&flipVertical2Info,
+		&flipVerticalInfo,
+		&flower2Info,
+		&flowerInfo,
+		&focusInfo,
+		&foldHorizontalInfo,
+		&foldVerticalInfo,
+		&folderArchiveInfo,
+		&folderCheckInfo,
+		&folderClockInfo,
+		&folderClosedInfo,
+		&folderCodeInfo,
+		&folderCogInfo,
+		&folderDotInfo,
+		&folderDownInfo,
+		&folderGit2Info,
+		&folderGitInfo,
+		&folderHeartInfo,
+		&folderInputInfo,
+		&folderKanbanInfo,
+		&folderKeyInfo,
+		&folderLockInfo,
+		&folderMinusInfo,
+		&folderOpenDotInfo,
+		&folderOpenInfo,
+		&folderOutputInfo,
+		&folderPenInfo,
+		&folderPlusInfo,
+		&folderRootInfo,
+		&folderSearch2Info,
+		&folderSearchInfo,
+		&folderSymlinkInfo,
+		&folderSyncInfo,
+		&folderTreeInfo,
+		&folderUpInfo,
+		&folderXInfo,
+		&folderInfo,
+		&foldersInfo,
+		&footprintsInfo,
+		&forkliftInfo,
+		&forwardInfo,
+		&frameInfo,
+		&framerInfo,
+		&frownInfo,
+		&fuelInfo,
+		&fullscreenInfo,
+		&galleryHorizontalEndInfo,
+		&galleryHorizontalInfo,
+		&galleryThumbnailsInfo,
+		&galleryVerticalEndInfo,
+		&galleryVerticalInfo,
+		&gamepad2Info,
+		&gamepadInfo,
+		&gaugeInfo,
+		&gavelInfo,
+		&gemInfo,
+		&ghostInfo,
+		&giftInfo,
+		&gitBranchPlusInfo,
+		&gitBranchInfo,
+		&gitCommitHorizontalInfo,
+		&gitCommitVerticalInfo,
+		&gitCompareArrowsInfo,
+		&gitCompareInfo,
+		&gitForkInfo,
+		&gitGraphInfo,
+		&gitMergeInfo,
+		&gitPullRequestArrowInfo,
+		&gitPullRequestClosedInfo,
+		&gitPullRequestCreateArrowInfo,
+		&gitPullRequestCreateInfo,
+		&gitPullRequestDraftInfo,
+		&gitPullRequestInfo,
+		&githubInfo,
+		&gitlabInfo,
+		&glassWaterInfo,
+		&glassesInfo,
+		&globeLockInfo,
+		&globeInfo,
+		&goalInfo,
+		&grabInfo,
+		&graduationCapInfo,
+		&grapeInfo,
+		&grid2x2CheckInfo,
+		&grid2x2PlusInfo,
+		&grid2x2XInfo,
+		&grid2x2Info,
+		&grid3x3Info,
+		&gripHorizontalInfo,
+		&gripVerticalInfo,
+		&gripInfo,
+		&groupInfo,
+		&guitarInfo,
+		&hamInfo,
+		&hammerInfo,
+		&handCoinsInfo,
+		&handHeartInfo,
+		&handHelpingInfo,
+		&handMetalInfo,
+		&handPlatterInfo,
+		&handInfo,
+		&handshakeInfo,
+		&hardDriveDownloadInfo,
+		&hardDriveUploadInfo,
+		&hardDriveInfo,
+		&hardHatInfo,
+		&hashInfo,
+		&hazeInfo,
+		&hdmiPortInfo,
+		&heading1Info,
+		&heading2Info,
+		&heading3Info,
+		&heading4Info,
+		&heading5Info,
+		&heading6Info,
+		&headingInfo,
+		&headphoneOffInfo,
+		&headphonesInfo,
+		&headsetInfo,
+		&heartCrackInfo,
+		&heartHandshakeInfo,
+		&heartOffInfo,
+		&heartPulseInfo,
+		&heartInfo,
+		&heaterInfo,
+		&hexagonInfo,
+		&highlighterInfo,
+		&historyInfo,
+		&hopOffInfo,
+		&hopInfo,
+		&hospitalInfo,
+		&hotelInfo,
+		&hourglassInfo,
+		&housePlugInfo,
+		&housePlusInfo,
+		&houseInfo,
+		&iceCreamBowlInfo,
+		&iceCreamConeInfo,
+		&idCardInfo,
+		&imageDownInfo,
+		&imageMinusInfo,
+		&imageOffInfo,
+		&imagePlayInfo,
+		&imagePlusInfo,
+		&imageUpInfo,
+		&imageInfo,
+		&imagesInfo,
+		&importInfo,
+		&inboxInfo,
+		&indentDecreaseInfo,
+		&indentIncreaseInfo,
+		&indianRupeeInfo,
+		&infinityInfo,
+		&infoInfo,
+		&inspectionPanelInfo,
+		&instagramInfo,
+		&italicInfo,
+		&iterationCcwInfo,
+		&iterationCwInfo,
+		&japaneseYenInfo,
+		&joystickInfo,
+		&kanbanInfo,
+		&keyRoundInfo,
+		&keySquareInfo,
+		&keyInfo,
+		&keyboardMusicInfo,
+		&keyboardOffInfo,
+		&keyboardInfo,
+		&lampCeilingInfo,
+		&lampDeskInfo,
+		&lampFloorInfo,
+		&lampWallDownInfo,
+		&lampWallUpInfo,
+		&lampInfo,
+		&landPlotInfo,
+		&landmarkInfo,
+		&languagesInfo,
+		&laptopMinimalInfo,
+		&laptopInfo,
+		&lassoSelectInfo,
+		&lassoInfo,
+		&laughInfo,
+		&layers2Info,
+		&layers3Info,
+		&layersInfo,
+		&layoutDashboardInfo,
+		&layoutGridInfo,
+		&layoutListInfo,
+		&layoutPanelLeftInfo,
+		&layoutPanelTopInfo,
+		&layoutTemplateInfo,
+		&leafInfo,
+		&leafyGreenInfo,
+		&lecternInfo,
+		&letterTextInfo,
+		&libraryBigInfo,
+		&libraryInfo,
+		&lifeBuoyInfo,
+		&ligatureInfo,
+		&lightbulbOffInfo,
+		&lightbulbInfo,
+		&link2OffInfo,
+		&link2Info,
+		&linkInfo,
+		&linkedinInfo,
+		&listCheckInfo,
+		&listChecksInfo,
+		&listCollapseInfo,
+		&listEndInfo,
+		&listFilterInfo,
+		&listMinusInfo,
+		&listMusicInfo,
+		&listOrderedInfo,
+		&listPlusInfo,
+		&listRestartInfo,
+		&listStartInfo,
+		&listTodoInfo,
+		&listTreeInfo,
+		&listVideoInfo,
+		&listXInfo,
+		&listInfo,
+		&loaderCircleInfo,
+		&loaderPinwheelInfo,
+		&loaderInfo,
+		&locateFixedInfo,
+		&locateOffInfo,
+		&locateInfo,
+		&lockKeyholeOpenInfo,
+		&lockKeyholeInfo,
+		&lockOpenInfo,
+		&lockInfo,
+		&logInInfo,
+		&logOutInfo,
+		&logsInfo,
+		&lollipopInfo,
+		&luggageInfo,
+		&magnetInfo,
+		&mailCheckInfo,
+		&mailMinusInfo,
+		&mailOpenInfo,
+		&mailPlusInfo,
+		&mailQuestionInfo,
+		&mailSearchInfo,
+		&mailWarningInfo,
+		&mailXInfo,
+		&mailInfo,
+		&mailboxInfo,
+		&mailsInfo,
+		&mapPinCheckInsideInfo,
+		&mapPinCheckInfo,
+		&mapPinHouseInfo,
+		&mapPinMinusInsideInfo,
+		&mapPinMinusInfo,
+		&mapPinOffInfo,
+		&mapPinPlusInsideInfo,
+		&mapPinPlusInfo,
+		&mapPinXInsideInfo,
+		&mapPinXInfo,
+		&mapPinInfo,
+		&mapPinnedInfo,
+		&mapInfo,
+		&martiniInfo,
+		&maximize2Info,
+		&maximizeInfo,
+		&medalInfo,
+		&megaphoneOffInfo,
+		&megaphoneInfo,
+		&mehInfo,
+		&memoryStickInfo,
+		&menuInfo,
+		&mergeInfo,
+		&messageCircleCodeInfo,
+		&messageCircleDashedInfo,
+		&messageCircleHeartInfo,
+		&messageCircleMoreInfo,
+		&messageCircleOffInfo,
+		&messageCirclePlusInfo,
+		&messageCircleQuestionInfo,
+		&messageCircleReplyInfo,
+		&messageCircleWarningInfo,
+		&messageCircleXInfo,
+		&messageCircleInfo,
+		&messageSquareCodeInfo,
+		&messageSquareDashedInfo,
+		&messageSquareDiffInfo,
+		&messageSquareDotInfo,
+		&messageSquareHeartInfo,
+		&messageSquareLockInfo,
+		&messageSquareMoreInfo,
+		&messageSquareOffInfo,
+		&messageSquarePlusInfo,
+		&messageSquareQuoteInfo,
+		&messageSquareReplyInfo,
+		&messageSquareShareInfo,
+		&messageSquareTextInfo,
+		&messageSquareWarningInfo,
+		&messageSquareXInfo,
+		&messageSquareInfo,
+		&messagesSquareInfo,
+		&micOffInfo,
+		&micVocalInfo,
+		&micInfo,
+		&microchipInfo,
+		&microscopeInfo,
+		&microwaveInfo,
+		&milestoneInfo,
+		&milkOffInfo,
+		&milkInfo,
+		&minimize2Info,
+		&minimizeInfo,
+		&minusInfo,
+		&monitorCheckInfo,
+		&monitorCogInfo,
+		&monitorDotInfo,
+		&monitorDownInfo,
+		&monitorOffInfo,
+		&monitorPauseInfo,
+		&monitorPlayInfo,
+		&monitorSmartphoneInfo,
+		&monitorSpeakerInfo,
+		&monitorStopInfo,
+		&monitorUpInfo,
+		&monitorXInfo,
+		&monitorInfo,
+		&moonStarInfo,
+		&moonInfo,
+		&mountainSnowInfo,
+		&mountainInfo,
+		&mouseOffInfo,
+		&mousePointer2Info,
+		&mousePointerBanInfo,
+		&mousePointerClickInfo,
+		&mousePointerInfo,
+		&mouseInfo,
+		&move3dInfo,
+		&moveDiagonal2Info,
+		&moveDiagonalInfo,
+		&moveDownLeftInfo,
+		&moveDownRightInfo,
+		&moveDownInfo,
+		&moveHorizontalInfo,
+		&moveLeftInfo,
+		&moveRightInfo,
+		&moveUpLeftInfo,
+		&moveUpRightInfo,
+		&moveUpInfo,
+		&moveVerticalInfo,
+		&moveInfo,
+		&music2Info,
+		&music3Info,
+		&music4Info,
+		&musicInfo,
+		&navigation2OffInfo,
+		&navigation2Info,
+		&navigationOffInfo,
+		&navigationInfo,
+		&networkInfo,
+		&newspaperInfo,
+		&nfcInfo,
+		&notebookPenInfo,
+		&notebookTabsInfo,
+		&notebookTextInfo,
+		&notebookInfo,
+		&notepadTextDashedInfo,
+		&notepadTextInfo,
+		&nutOffInfo,
+		&nutInfo,
+		&octagonAlertInfo,
+		&octagonMinusInfo,
+		&octagonPauseInfo,
+		&octagonXInfo,
+		&octagonInfo,
+		&omegaInfo,
+		&optionInfo,
+		&orbitInfo,
+		&origamiInfo,
+		&package2Info,
+		&packageCheckInfo,
+		&packageMinusInfo,
+		&packageOpenInfo,
+		&packagePlusInfo,
+		&packageSearchInfo,
+		&packageXInfo,
+		&packageInfo,
+		&paintBucketInfo,
+		&paintRollerInfo,
+		&paintbrushVerticalInfo,
+		&paintbrushInfo,
+		&paletteInfo,
+		&panelBottomCloseInfo,
+		&panelBottomDashedInfo,
+		&panelBottomOpenInfo,
+		&panelBottomInfo,
+		&panelLeftCloseInfo,
+		&panelLeftDashedInfo,
+		&panelLeftOpenInfo,
+		&panelLeftInfo,
+		&panelRightCloseInfo,
+		&panelRightDashedInfo,
+		&panelRightOpenInfo,
+		&panelRightInfo,
+		&panelTopCloseInfo,
+		&panelTopDashedInfo,
+		&panelTopOpenInfo,
+		&panelTopInfo,
+		&panelsLeftBottomInfo,
+		&panelsRightBottomInfo,
+		&panelsTopLeftInfo,
+		&paperclipInfo,
+		&parenthesesInfo,
+		&parkingMeterInfo,
+		&partyPopperInfo,
+		&pauseInfo,
+		&pawPrintInfo,
+		&pcCaseInfo,
+		&penLineInfo,
+		&penOffInfo,
+		&penToolInfo,
+		&penInfo,
+		&pencilLineInfo,
+		&pencilOffInfo,
+		&pencilRulerInfo,
+		&pencilInfo,
+		&pentagonInfo,
+		&percentInfo,
+		&personStandingInfo,
+		&philippinePesoInfo,
+		&phoneCallInfo,
+		&phoneForwardedInfo,
+		&phoneIncomingInfo,
+		&phoneMissedInfo,
+		&phoneOffInfo,
+		&phoneOutgoingInfo,
+		&phoneInfo,
+		&piInfo,
+		&pianoInfo,
+		&pickaxeInfo,
+		&pictureInPicture2Info,
+		&pictureInPictureInfo,
+		&piggyBankInfo,
+		&pilcrowLeftInfo,
+		&pilcrowRightInfo,
+		&pilcrowInfo,
+		&pillBottleInfo,
+		&pillInfo,
+		&pinOffInfo,
+		&pinInfo,
+		&pipetteInfo,
+		&pizzaInfo,
+		&planeLandingInfo,
+		&planeTakeoffInfo,
+		&planeInfo,
+		&playInfo,
+		&plug2Info,
+		&plugZapInfo,
+		&plugInfo,
+		&plusInfo,
+		&pocketKnifeInfo,
+		&pocketInfo,
+		&podcastInfo,
+		&pointerOffInfo,
+		&pointerInfo,
+		&popcornInfo,
+		&popsicleInfo,
+		&poundSterlingInfo,
+		&powerOffInfo,
+		&powerInfo,
+		&presentationInfo,
+		&printerCheckInfo,
+		&printerInfo,
+		&projectorInfo,
+		&proportionsInfo,
+		&puzzleInfo,
+		&pyramidInfo,
+		&qrCodeInfo,
+		&quoteInfo,
+		&rabbitInfo,
+		&radarInfo,
+		&radiationInfo,
+		&radicalInfo,
+		&radioReceiverInfo,
+		&radioTowerInfo,
+		&radioInfo,
+		&radiusInfo,
+		&railSymbolInfo,
+		&rainbowInfo,
+		&ratInfo,
+		&ratioInfo,
+		&receiptCentInfo,
+		&receiptEuroInfo,
+		&receiptIndianRupeeInfo,
+		&receiptJapaneseYenInfo,
+		&receiptPoundSterlingInfo,
+		&receiptRussianRubleInfo,
+		&receiptSwissFrancInfo,
+		&receiptTextInfo,
+		&receiptInfo,
+		&rectangleEllipsisInfo,
+		&rectangleHorizontalInfo,
+		&rectangleVerticalInfo,
+		&recycleInfo,
+		&redo2Info,
+		&redoDotInfo,
+		&redoInfo,
+		&refreshCcwDotInfo,
+		&refreshCcwInfo,
+		&refreshCwOffInfo,
+		&refreshCwInfo,
+		&refrigeratorInfo,
+		&regexInfo,
+		&removeFormattingInfo,
+		&repeat1Info,
+		&repeat2Info,
+		&repeatInfo,
+		&replaceAllInfo,
+		&replaceInfo,
+		&replyAllInfo,
+		&replyInfo,
+		&rewindInfo,
+		&ribbonInfo,
+		&rocketInfo,
+		&rockingChairInfo,
+		&rollerCoasterInfo,
+		&rotate3dInfo,
+		&rotateCcwSquareInfo,
+		&rotateCcwInfo,
+		&rotateCwSquareInfo,
+		&rotateCwInfo,
+		&routeOffInfo,
+		&routeInfo,
+		&routerInfo,
+		&rows2Info,
+		&rows3Info,
+		&rows4Info,
+		&rssInfo,
+		&rulerInfo,
+		&russianRubleInfo,
+		&sailboatInfo,
+		&saladInfo,
+		&sandwichInfo,
+		&satelliteDishInfo,
+		&satelliteInfo,
+		&saveAllInfo,
+		&saveOffInfo,
+		&saveInfo,
+		&scale3dInfo,
+		&scaleInfo,
+		&scalingInfo,
+		&scanBarcodeInfo,
+		&scanEyeInfo,
+		&scanFaceInfo,
+		&scanLineInfo,
+		&scanQrCodeInfo,
+		&scanSearchInfo,
+		&scanTextInfo,
+		&scanInfo,
+		&schoolInfo,
+		&scissorsLineDashedInfo,
+		&scissorsInfo,
+		&screenShareOffInfo,
+		&screenShareInfo,
+		&scrollTextInfo,
+		&scrollInfo,
+		&searchCheckInfo,
+		&searchCodeInfo,
+		&searchSlashInfo,
+		&searchXInfo,
+		&searchInfo,
+		&sectionInfo,
+		&sendHorizontalInfo,
+		&sendToBackInfo,
+		&sendInfo,
+		&separatorHorizontalInfo,
+		&separatorVerticalInfo,
+		&serverCogInfo,
+		&serverCrashInfo,
+		&serverOffInfo,
+		&serverInfo,
+		&settings2Info,
+		&settingsInfo,
+		&shapesInfo,
+		&share2Info,
+		&shareInfo,
+		&sheetInfo,
+		&shellInfo,
+		&shieldAlertInfo,
+		&shieldBanInfo,
+		&shieldCheckInfo,
+		&shieldEllipsisInfo,
+		&shieldHalfInfo,
+		&shieldMinusInfo,
+		&shieldOffInfo,
+		&shieldPlusInfo,
+		&shieldQuestionInfo,
+		&shieldXInfo,
+		&shieldInfo,
+		&shipWheelInfo,
+		&shipInfo,
+		&shirtInfo,
+		&shoppingBagInfo,
+		&shoppingBasketInfo,
+		&shoppingCartInfo,
+		&shovelInfo,
+		&showerHeadInfo,
+		&shrinkInfo,
+		&shrubInfo,
+		&shuffleInfo,
+		&sigmaInfo,
+		&signalHighInfo,
+		&signalLowInfo,
+		&signalMediumInfo,
+		&signalZeroInfo,
+		&signalInfo,
+		&signatureInfo,
+		&signpostBigInfo,
+		&signpostInfo,
+		&sirenInfo,
+		&skipBackInfo,
+		&skipForwardInfo,
+		&skullInfo,
+		&slackInfo,
+		&slashInfo,
+		&sliceInfo,
+		&slidersHorizontalInfo,
+		&slidersVerticalInfo,
+		&smartphoneChargingInfo,
+		&smartphoneNfcInfo,
+		&smartphoneInfo,
+		&smilePlusInfo,
+		&smileInfo,
+		&snailInfo,
+		&snowflakeInfo,
+		&sofaInfo,
+		&soupInfo,
+		&spaceInfo,
+		&spadeInfo,
+		&sparkleInfo,
+		&sparklesInfo,
+		&speakerInfo,
+		&speechInfo,
+		&spellCheck2Info,
+		&spellCheckInfo,
+		&splineInfo,
+		&splitInfo,
+		&sprayCanInfo,
+		&sproutInfo,
+		&squareActivityInfo,
+		&squareArrowDownLeftInfo,
+		&squareArrowDownRightInfo,
+		&squareArrowDownInfo,
+		&squareArrowLeftInfo,
+		&squareArrowOutDownLeftInfo,
+		&squareArrowOutDownRightInfo,
+		&squareArrowOutUpLeftInfo,
+		&squareArrowOutUpRightInfo,
+		&squareArrowRightInfo,
+		&squareArrowUpLeftInfo,
+		&squareArrowUpRightInfo,
+		&squareArrowUpInfo,
+		&squareAsteriskInfo,
+		&squareBottomDashedScissorsInfo,
+		&squareChartGanttInfo,
+		&squareCheckBigInfo,
+		&squareCheckInfo,
+		&squareChevronDownInfo,
+		&squareChevronLeftInfo,
+		&squareChevronRightInfo,
+		&squareChevronUpInfo,
+		&squareCodeInfo,
+		&squareDashedBottomCodeInfo,
+		&squareDashedBottomInfo,
+		&squareDashedKanbanInfo,
+		&squareDashedMousePointerInfo,
+		&squareDashedInfo,
+		&squareDivideInfo,
+		&squareDotInfo,
+		&squareEqualInfo,
+		&squareFunctionInfo,
+		&squareKanbanInfo,
+		&squareLibraryInfo,
+		&squareMInfo,
+		&squareMenuInfo,
+		&squareMinusInfo,
+		&squareMousePointerInfo,
+		&squareParkingOffInfo,
+		&squareParkingInfo,
+		&squarePenInfo,
+		&squarePercentInfo,
+		&squarePiInfo,
+		&squarePilcrowInfo,
+		&squarePlayInfo,
+		&squarePlusInfo,
+		&squarePowerInfo,
+		&squareRadicalInfo,
+		&squareScissorsInfo,
+		&squareSigmaInfo,
+		&squareSlashInfo,
+		&squareSplitHorizontalInfo,
+		&squareSplitVerticalInfo,
+		&squareSquareInfo,
+		&squareStackInfo,
+		&squareTerminalInfo,
+		&squareUserRoundInfo,
+		&squareUserInfo,
+		&squareXInfo,
+		&squareInfo,
+		&squircleInfo,
+		&squirrelInfo,
+		&stampInfo,
+		&starHalfInfo,
+		&starOffInfo,
+		&starInfo,
+		&stepBackInfo,
+		&stepForwardInfo,
+		&stethoscopeInfo,
+		&stickerInfo,
+		&stickyNoteInfo,
+		&storeInfo,
+		&stretchHorizontalInfo,
+		&stretchVerticalInfo,
+		&strikethroughInfo,
+		&subscriptInfo,
+		&sunDimInfo,
+		&sunMediumInfo,
+		&sunMoonInfo,
+		&sunSnowInfo,
+		&sunInfo,
+		&sunriseInfo,
+		&sunsetInfo,
+		&superscriptInfo,
+		&swatchBookInfo,
+		&swissFrancInfo,
+		&switchCameraInfo,
+		&swordInfo,
+		&swordsInfo,
+		&syringeInfo,
+		&table2Info,
+		&tableCellsMergeInfo,
+		&tableCellsSplitInfo,
+		&tableColumnsSplitInfo,
+		&tableOfContentsInfo,
+		&tablePropertiesInfo,
+		&tableRowsSplitInfo,
+		&tableInfo,
+		&tabletSmartphoneInfo,
+		&tabletInfo,
+		&tabletsInfo,
+		&tagInfo,
+		&tagsInfo,
+		&tally1Info,
+		&tally2Info,
+		&tally3Info,
+		&tally4Info,
+		&tally5Info,
+		&tangentInfo,
+		&targetInfo,
+		&telescopeInfo,
+		&tentTreeInfo,
+		&tentInfo,
+		&terminalInfo,
+		&testTubeDiagonalInfo,
+		&testTubeInfo,
+		&testTubesInfo,
+		&textCursorInputInfo,
+		&textCursorInfo,
+		&textQuoteInfo,
+		&textSearchInfo,
+		&textSelectInfo,
+		&textInfo,
+		&theaterInfo,
+		&thermometerSnowflakeInfo,
+		&thermometerSunInfo,
+		&thermometerInfo,
+		&thumbsDownInfo,
+		&thumbsUpInfo,
+		&ticketCheckInfo,
+		&ticketMinusInfo,
+		&ticketPercentInfo,
+		&ticketPlusInfo,
+		&ticketSlashInfo,
+		&ticketXInfo,
+		&ticketInfo,
+		&ticketsPlaneInfo,
+		&ticketsInfo,
+		&timerOffInfo,
+		&timerResetInfo,
+		&timerInfo,
+		&toggleLeftInfo,
+		&toggleRightInfo,
+		&tornadoInfo,
+		&torusInfo,
+		&touchpadOffInfo,
+		&touchpadInfo,
+		&towerControlInfo,
+		&toyBrickInfo,
+		&tractorInfo,
+		&trafficConeInfo,
+		&trainFrontTunnelInfo,
+		&trainFrontInfo,
+		&trainTrackInfo,
+		&tramFrontInfo,
+		&trash2Info,
+		&trashInfo,
+		&treeDeciduousInfo,
+		&treePalmInfo,
+		&treePineInfo,
+		&treesInfo,
+		&trelloInfo,
+		&trendingDownInfo,
+		&trendingUpDownInfo,
+		&trendingUpInfo,
+		&triangleAlertInfo,
+		&triangleRightInfo,
+		&triangleInfo,
+		&trophyInfo,
+		&truckInfo,
+		&turtleInfo,
+		&tvMinimalPlayInfo,
+		&tvMinimalInfo,
+		&tvInfo,
+		&twitchInfo,
+		&twitterInfo,
+		&typeOutlineInfo,
+		&typeInfo,
+		&umbrellaOffInfo,
+		&umbrellaInfo,
+		&underlineInfo,
+		&undo2Info,
+		&undoDotInfo,
+		&undoInfo,
+		&unfoldHorizontalInfo,
+		&unfoldVerticalInfo,
+		&ungroupInfo,
+		&universityInfo,
+		&unlink2Info,
+		&unlinkInfo,
+		&unplugInfo,
+		&uploadInfo,
+		&usbInfo,
+		&userCheckInfo,
+		&userCogInfo,
+		&userMinusInfo,
+		&userPenInfo,
+		&userPlusInfo,
+		&userRoundCheckInfo,
+		&userRoundCogInfo,
+		&userRoundMinusInfo,
+		&userRoundPenInfo,
+		&userRoundPlusInfo,
+		&userRoundSearchInfo,
+		&userRoundXInfo,
+		&userRoundInfo,
+		&userSearchInfo,
+		&userXInfo,
+		&userInfo,
+		&usersRoundInfo,
+		&usersInfo,
+		&utensilsCrossedInfo,
+		&utensilsInfo,
+		&utilityPoleInfo,
+		&variableInfo,
+		&vaultInfo,
+		&veganInfo,
+		&venetianMaskInfo,
+		&vibrateOffInfo,
+		&vibrateInfo,
+		&videoOffInfo,
+		&videoInfo,
+		&videotapeInfo,
+		&viewInfo,
+		&voicemailInfo,
+		&volleyballInfo,
+		&volume1Info,
+		&volume2Info,
+		&volumeOffInfo,
+		&volumeXInfo,
+		&volumeInfo,
+		&voteInfo,
+		&walletCardsInfo,
+		&walletMinimalInfo,
+		&walletInfo,
+		&wallpaperInfo,
+		&wandSparklesInfo,
+		&wandInfo,
+		&warehouseInfo,
+		&washingMachineInfo,
+		&watchInfo,
+		&wavesInfo,
+		&waypointsInfo,
+		&webcamInfo,
+		&webhookOffInfo,
+		&webhookInfo,
+		&weightInfo,
+		&wheatOffInfo,
+		&wheatInfo,
+		&wholeWordInfo,
+		&wifiHighInfo,
+		&wifiLowInfo,
+		&wifiOffInfo,
+		&wifiZeroInfo,
+		&wifiInfo,
+		&windInfo,
+		&wineOffInfo,
+		&wineInfo,
+		&workflowInfo,
+		&wormInfo,
+		&wrapTextInfo,
+		&wrenchInfo,
+		&xInfo,
+		&youtubeInfo,
+		&zapOffInfo,
+		&zapInfo,
+		&zoomInInfo,
+		&zoomOutInfo,
+	}
+)
