@@ -1,0 +1,15 @@
+{
+	"name": "gomponents-lucide",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.go"
+			]
+		}
+	},
+	"remoteUser": "root"
+}
